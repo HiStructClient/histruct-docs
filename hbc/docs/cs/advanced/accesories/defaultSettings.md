@@ -1,0 +1,4 @@
+
+# Výchozí nastavení
+
+TODO

@@ -1,0 +1,4 @@
+
+# Rozměry haly
+
+TODO

@@ -1,0 +1,4 @@
+
+# Rozšířený konfigurátor haly
+
+TODO

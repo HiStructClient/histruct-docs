@@ -1,0 +1,4 @@
+
+# Nastavení barev otvorů
+
+TODO
