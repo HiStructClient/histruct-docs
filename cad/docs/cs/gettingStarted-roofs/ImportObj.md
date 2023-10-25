@@ -1,1 +1,1 @@
-Tady se popíše jak importovat obj
+# Import *.obj

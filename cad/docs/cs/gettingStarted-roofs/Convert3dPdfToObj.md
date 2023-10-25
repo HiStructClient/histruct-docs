@@ -1,1 +1,1 @@
-Tady se popíše jak převést 3d pdf na obj
+# Jak převést 3d model v *.pdf do *.obj

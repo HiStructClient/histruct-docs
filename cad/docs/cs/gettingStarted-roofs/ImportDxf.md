@@ -1,1 +1,2 @@
-Tady se popíše jak importovat dxf
+# Import *.dxf
+
