@@ -1,0 +1,1 @@
+Tady se popíše jak převést 3d pdf na obj
