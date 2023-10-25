@@ -14,49 +14,66 @@ Slouží k rychlému sestavení nabídky, výkazu materiálu a kladečských pl�
 
 Hotovo, jdu na kávičku 😊
 
-HiStruct lze rozsáhle přizpůsobit. Systém kladení střešních tvarovek, lemovek, oplechování a okapového systému je nastaven pro každého konkrétního výrobce zvlášť v samostatném konfiguračním souboru. Obsahuje informaci o tom jakým způsobem je třeba střešní plochu tvarovkami vyskládat, dále možné barevné kombinace, informace k výkazu materiálu a další. Tyto a další přizpůsobení děláme v rámci [projektu pro přizpůsobení](CustomisationProject.md).
-
+HiStruct lze rozsáhle přizpůsobit. Systém kladení střešních tvarovek, lemovek, oplechování a okapového systému je nastaven pro každého konkrétního výrobce zvlášť v samostatné sadě konfiguračních souborů. Obsahuje informaci o tom jakým způsobem je třeba střešní plochu tvarovkami vyskládat, dále možné barevné kombinace, informace k výkazu materiálu a další. Tyto a další přizpůsobení děláme v rámci [projektu pro přizpůsobení](CustomisationProject.md).
 
 ## Tak a teď podrobněji...
 
-### Zpracovávám novou poptávku
+### 1. Zpracovávám novou poptávku
 
 Toto napíše Jirka nebo Hanka?
 
-### Modelování
+### 2. Modelování střešních ploch
 
-Začínáme většinou **volbou typu krytiny, lemovek a okapového systému** (ta lze následně měnit) z knihoven. Knihovny krytin a lemovek pro nás znamenají nejen velikost a barvu, ale celý přístup k opláštění konkrétních střešních ploch. Do knihovny jsme díky variabilnímu generátoru zanést konkrétní montážní postup dané krytiny konkrétního výrobce. Kvalitně vytvořený generátor následně eliminuje nutné zásahy do automatického kladení.
+Začínáme většinou **volbou typu krytiny, lemovek a okapového systému** (ta lze následně měnit) z knihoven. Následuje tvorba modelu střechy z jednotlivých střešních rovin, případně pokročilejšími způsoby modelování. Vhodný způsob modelování se odvíjí od toho jaká podklady máme pro danou poptávku k dispozici. Platí čím lepší podklady tím méně práce modelování zabere.
 
-**Mám jen pár náčrtků s rozměry 😊**
+#### **Mám jen pár náčrtků s rozměry 😊**
 
-Pokud nemám k dispozici digitální podklad, musím střešní roviny překreslit. Aby se mi překreslovalo lépe, mám k dispozici několik možností. Pokud je tvar střešní plochy jednoduchý, můžu si [vybrat z předvolených tvarů](ModellingRoofs.md).
+Pokud nemám k dispozici digitální podklad, musím střešní roviny překreslit. Aby se překreslovalo lépe, mám k dispozici několik možností. Pokud je tvar střešní plochy jednoduchý, můžu si [modelovat](ModellingRoofs.md) vkládáním střešních ploch předvolených tvarů, nebo přímo oklikat tvar ve modelovacím prostoru.
 
-**Mám vektorový výkres půdorysu střechy 😊😊**
+#### **Mám vektorový výkres půdorysu střechy 😊😊**
 
-Pokud mám k dispozici vektorový výkres, bude se mi modelovat snadněji. Do HiStruct lze [importovat *.dxf](ImportDxf.md), případně [převést vektorové *.pdf na *.dxf](ConvertPdfToDxf.md) a to [naimportovat do HiStruct](ImportDxf.md). Na importované *.dxf se lze přichytávat, zadání jednotlivých střešních ploch pak probíhá oklikáním půdorysu s doplněním sklonu pro každou střešní plochu. Výhodou je přesnost a snadné zhotovení 3D modelu. Téměř vždy lze použít [generátor lemovek a okapového systému](GeneratorFlashing.md).
+Pokud mám k dispozici vektorový výkres, bude se mi modelovat snadněji. Do HiStruct lze [importovat *.dxf](ImportDxf.md), případně [převést vektorové *.pdf na *.dxf](ConvertPdfToDxf.md) a to [naimportovat do HiStruct](ImportDxf.md). Na importované *.dxf se lze přichytávat, zadání jednotlivých střešních ploch pak probíhá oklikáním půdorysu s doplněním sklonu pro každou střešní plochu. Výhodou je přesnost a snadné zhotovení 3D modelu. Téměř vždy lze použít [generátor lemovek a okapového systému](RoofFlashingGenerator.md).
 
-**Mám 3D model z digitálního zaměření 😊😊😊**
+#### **Mám 3D model z digitálního zaměření 😊😊😊**
 
 Model z digitálního zaměření je výhra. Pokud mám tento model ve vhodném formátu (3D *.pdf nebo přímo *.obj), můžu geometrii rovnou importovat. Do HiStruct lze [importovat *.obj](ImportObj.md), případně [převést 3D *.pdf na *.obj](Convert3dPdfToObj.md) a to [naimportovat do HiStruct](ImportObj.md).
 
-Po importu HiStruct nabídne rozpoznané plochy, ze kterých vyberete, jak se mají převést na HiStruct geometrii. Generátor ploch pak provede převod na střešní nebo stěnové opláštěné plochy,  na kterých lze dále posupovat běžným způsobem
+Po importu HiStruct nabídne rozpoznané plochy, ze kterých vyberete, jak se mají převést na HiStruct geometrii. [Generátor ploch](RoofPolygonGenerator.md) pak provede převod na střešní nebo stěnové opláštěné plochy, na kterých lze dále posupovat běžným způsobem
 
-Po vygenerování střešních ploch můžu použít ještě generátor lemovek a okapového systému.
+Po vygenerování střešních ploch můžu použít ještě [generátor lemovek a okapového systému](RoofFlashingGenerator.md).
 
-### Kladení
+#### **Jednoduchý tvar 😊😊😊**
 
-Oplechování, lemovky a okapový systém lze zadat v prostoru chytáním na koncové body střešních rovin, obecně u lemovek a plechů přebíráme sklony střešních rovin kvůli správnému nastavení ohýbacích úhlů. Komplexní možnosti nastavení okapového systému. Zadání pomocí polyline definující navazující okap, lze nastavit sklon okapu. Pro každou část okapu nastavíme i sklon navazující střešní roviny pro správný výpočet ohybu a délky háků. Na každou část okapu lze přidat svody, které mají další možnosti nastavení.
+Obdélníkové typy střech na stále oblíbenější bungalovy jsou v HiStruct dostupné přímo jako celá budova, která se automaticky opláští zvolenou krytinou a olemuje tvarovkami.
 
-### Lemovky a okapový systém
+### 3. Kladení střešní krytiny
 
-Je určen zejména k **úspoře času** pro zhotovení 3d modelu lemovek a okapů pro importované nebo zadané geometrie střešních rovin.
+Knihovny krytin a lemovek pro nás znamenají nejen velikost a barvu, ale celý přístup k opláštění konkrétních střešních ploch. Do knihovny jsme díky variabilnímu generátoru schopni zanést konkrétní montážní postup dané krytiny konkrétního výrobce. Toto děláme v rámci [projektu přizpůsobení](CustomisationProject.md). Kvalitně vytvořený generátor následně eliminuje nutné zásahy do automatického kladení.
 
-HiStruct rozpozná z geometrií blízkých střešních rovin potřebná umístění lemovek a ze zvolených typů provede nagenerování. Nagenerované lemovky lze dále upravovat.
+[Kladení střeních tvarovek](RoofPolygonTillingOptions.md) probíhá automaticky podle konfiguračního nastavení krytiny. Lze dále nastavovat počátek kladení (zleva, zprava, střed na osu, střed na hranu panelu) tak aby bylo dosaženo nejmenšího prořezu. Informace o poměr prořezu k ploše střešní roviny je zobrazen během úprav kladení.
 
-### Kusovníky, dokumenty, výkresy... prostě výstupy
+### 4. Jak na lemovky a okapový systém?
+
+[Oplechování, lemovky](RoofFlashingOptions.md) a [okapový systém](RoofFlashingGutterOptions.md) lze samozřejmě zadávat kamkoliv v prostoru chytáním na již zadané střešní plochy, importovanou geometrii nebo jiné objekty. Navíc je možné využít přidávání lemovek na jednotlivé strany střešních rovin, nebo rovnou [generátoru nad skupinou střešních rovin](RoofFlashingGenerator). U generovaných prvků se automaticky nastavuje sklon souvisejích střešních rovin, a tak se správně nastaví ohýbací úhly lemovek a háků okapového systému.
+
+HiStruct obsahuje komplexní možnosti [nastavení okapového systému](RoofFlashingGutterOptions.md). Zadání pomocí polyline definující navazující okap, lze nastavit sklon okapu. Pro každou část okapu nastavíme i sklon navazující střešní roviny pro správný výpočet ohybu a délky háků. Na každou část okapu lze přidat svody, které mají další [možnosti nastavení](RoofFlashingGutterOptions).
+
+### 5. Kusovníky, dokumenty, výkresy... prostě výstupy
+
+**Kusovník**
+[Kusovník](RoofBom.md) se vytváří automaticky z částí střechy vložených do modelového prostoru. Jednotlivé části modelu mají u sebe informaci z jakých částí jsou vytvořeny s možností úpravy počtu a případného přidávání dalších položek.
+
+Způsob generování kusovníku pak může být upraven v rámci [projektu přizpůsobení](CustomisationProject.md).
+
+**Nabídka**
+Generovaný kusovník doplněný napojením na ceník výrobce může být součástí [nabídky](RoofQuote.md). Nabídku lze však připravit i bez kusovníku. Způsob generování nabídky pak může být upraven v rámci [projektu přizpůsobení](CustomisationProject.md).
 
 **Kladecí plány**
-Kladečské výkresy jsou generovány automaticky ze zadané geometrie a případných změn uživatele. V případě potřeby lze výkres doplnit dalšími poznámkami či kótami.
+[Kladečské výkresy](RoofPolygonTillingDrawing.md) jsou generovány automaticky ze zadané geometrie a případných změn uživatele. V případě potřeby lze výkres doplnit dalšími poznámkami či kótami.
 
-![Alt text](img/RoofTillingPlane1.png)
-![Alt text](img/RoofTillingPlane2.png)
+![Example of roof tilling drawing](img/RoofTillingPlane1.png)
+![Example of roof tilling drawing](img/RoofTillingPlane2.png)
+
+### 6. Sdílení s klientem
+
+Toto napíše Jirka nebo Hanka?

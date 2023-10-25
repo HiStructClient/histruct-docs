@@ -1,0 +1,1 @@
+Zde bude infomrace o RoofPolygonGenerator
