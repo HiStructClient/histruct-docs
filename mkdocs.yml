@@ -1,7 +1,6 @@
 site_name: Dokumentace
 site_url: https://docs.histruct.com/
 
-
 theme:
   name: material
   logo: assets/logo.png
@@ -127,23 +126,23 @@ nav:
     - cad/index.md
 
     - "Střechy":
-      - cad/gettingStarted-roofs/Convert3dPdfToObj.md
-      - cad/gettingStarted-roofs/ConvertPdfToDxf.md
-      - cad/gettingStarted-roofs/CustomisationProject.md
-      - cad/gettingStarted-roofs/HiStructForRoofers.md
-      - cad/gettingStarted-roofs/ImportDxf.md
-      - cad/gettingStarted-roofs/ImportObj.md
-      - cad/gettingStarted-roofs/ModellingRoofs.md
-      - cad/gettingStarted-roofs/RoofBom.md
-      - cad/gettingStarted-roofs/RoofFlashingGenerator.md
-      - cad/gettingStarted-roofs/RoofFlashingGutterOptions.md
-      - cad/gettingStarted-roofs/RoofFlashingOptions.md
-      - cad/gettingStarted-roofs/RoofPolygonGenerator.md
-      - cad/gettingStarted-roofs/RoofPolygonTillingDrawing.md
-      - cad/gettingStarted-roofs/RoofPolygonTillingOptions.md
-      - cad/gettingStarted-roofs/RoofQuote.md
+      - cad/getting-started-roofs/index.md
+      - cad/getting-started-roofs/convert3dPdfToObj.md
+      - cad/getting-started-roofs/convertPdfToDxf.md
+      - cad/getting-started-roofs/customisationProject.md
+      - cad/getting-started-roofs/importDxf.md
+      - cad/getting-started-roofs/importObj.md
+      - cad/getting-started-roofs/modellingRoofs.md
+      - cad/getting-started-roofs/roofBom.md
+      - cad/getting-started-roofs/roofFlashingGenerator.md
+      - cad/getting-started-roofs/roofFlashingGutterOptions.md
+      - cad/getting-started-roofs/roofFlashingOptions.md
+      - cad/getting-started-roofs/roofPolygonGenerator.md
+      - cad/getting-started-roofs/roofPolygonTillingDrawing.md
+      - cad/getting-started-roofs/roofPolygonTillingOptions.md
+      - cad/getting-started-roofs/roofQuote.md
 
-  - "Script": 
+  - "Script":
     - fcs/index.md
 
   - "Zpět na HiStruct": https://www.histruct.com
@@ -168,8 +167,9 @@ plugins:
           name: English
           default: false
           build: true
-          site_name: HiStruct Building Configurator - Documentation
+          site_name: Documentation
           nav_translations:
+            "Konfigurátor hal": "Building configurator"
             "Úvod": "Home"
             "Příběhy": "Stories"
             "Průvodce návrhem haly": "Building design guide"
