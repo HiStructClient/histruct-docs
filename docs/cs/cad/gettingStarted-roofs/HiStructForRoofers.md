@@ -54,9 +54,9 @@ Knihovny krytin a lemovek pro nás znamenají nejen velikost a barvu, ale celý 
 
 ### 4. Jak na lemovky a okapový systém?
 
-[Oplechování, lemovky](RoofFlashingOptions.md) a [okapový systém](RoofFlashingGutterOptions.md) lze samozřejmě zadávat kamkoliv v prostoru chytáním na již zadané střešní plochy, importovanou geometrii nebo jiné objekty. Navíc je možné využít přidávání lemovek na jednotlivé strany střešních rovin, nebo rovnou [generátoru nad skupinou střešních rovin](RoofFlashingGenerator). U generovaných prvků se automaticky nastavuje sklon souvisejích střešních rovin, a tak se správně nastaví ohýbací úhly lemovek a háků okapového systému.
+[Oplechování, lemovky](RoofFlashingOptions.md) a [okapový systém](RoofFlashingGutterOptions.md) lze samozřejmě zadávat kamkoliv v prostoru chytáním na již zadané střešní plochy, importovanou geometrii nebo jiné objekty. Navíc je možné využít přidávání lemovek na jednotlivé strany střešních rovin, nebo rovnou [generátoru nad skupinou střešních rovin](RoofFlashingGenerator.md). U generovaných prvků se automaticky nastavuje sklon souvisejích střešních rovin, a tak se správně nastaví ohýbací úhly lemovek a háků okapového systému.
 
-HiStruct obsahuje komplexní možnosti [nastavení okapového systému](RoofFlashingGutterOptions.md). Zadání pomocí polyline definující navazující okap, lze nastavit sklon okapu. Pro každou část okapu nastavíme i sklon navazující střešní roviny pro správný výpočet ohybu a délky háků. Na každou část okapu lze přidat svody, které mají další [možnosti nastavení](RoofFlashingGutterOptions).
+HiStruct obsahuje komplexní možnosti [nastavení okapového systému](RoofFlashingGutterOptions.md). Zadání pomocí polyline definující navazující okap, lze nastavit sklon okapu. Pro každou část okapu nastavíme i sklon navazující střešní roviny pro správný výpočet ohybu a délky háků. Na každou část okapu lze přidat svody, které mají další [možnosti nastavení](RoofFlashingGutterOptions.md).
 
 ### 5. Kusovníky, dokumenty, výkresy... prostě výstupy
 
