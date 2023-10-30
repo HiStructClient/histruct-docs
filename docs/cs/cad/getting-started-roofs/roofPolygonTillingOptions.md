@@ -6,43 +6,43 @@ Podle typu krytiny zvolené na opláštění konkrétní střešní nebo stěnov
 
 Generátor plechových pásů umisťuje zvolenou krytinu po spádnici plochy. Generátor lze nastavovat pro celou oplášťovanou plochu nebo, některá nastevení jsou pakl dostupná po kliknutí na jednotlivý pás. V editačním módu je pak vždy zobrazen podíl celkové plochy pásů a oplášťovanou plochou.
 
-![Generator strip tiler](GeneratorStripTiler.png)
+![Generator strip tiler](generatorStripTiler.png)
 
 ### Směr kladení
 
 Je nastavitelný, výběr z následujících typů:
 
 - zleva 
-![Tilling from left](TillingFromLeft.png)
+![Tilling from left](tillingFromLeft.png)
 
 - zprava 
-![Tilling from right](TillingFromRight.png)
+![Tilling from right](tillingFromRight.png)
 
 - centrovat střed prostředního pásu krytiny na střed okapové strany
-![Tilling center axis](TillingCenterAxis.png)
+![Tilling center axis](tillingCenterAxis.png)
 
 - umístit hranu pásu krytiny na střed okapové strany
-![Tilling center edge](TillingCenterEdge.png)
+![Tilling center edge](tillingCenterEdge.png)
 
 - obecné zadání počátku kladení (kladení zleva + vzdálenost)
-![General tilling head start](GeneralTillingHeadStart.png)
+![General tilling head start](generalTillingHeadStart.png)
 
 ### Úhel kladení pásů
 
 Je nastavitelný jako kladný nebo záporný odklon od spádnice.
-![Tilling angle](TillingAngle.png)
+![Tilling angle](tillingAngle.png)
 
 ## Každý konkrétní pás
 - vypnout ( pak se nezohlední ve výkresech, v detailním modelu ani ve výkazech materiálu.)
-![Individual panel switched off](IndividualPanelSwitchedOff.png)
+![Individual panel switched off](individualPanelSwitchedOff.png)
 
 - prodloužit nebo zkrátit přesah
-![Individual panel extension options](IndividualPanelExtensionOptions.png)
+![Individual panel extension options](individualPanelExtensionOptions.png)
 
 - nadělit ve vhodných místech (podle rastru latí) Kliknutím na naznačená dělení nad latěmi lze pás rozdělit nebo naopak spojit, pokud už byl rozdělen.
-![Individual panel splitting](IndividualPanelSplitting.png)
+![Individual panel splitting](individualPanelSplitting.png)
 
 ## Prodloužení nebo zkrácení panelů u stran
 
 Pro každou stranu střešního polygonu lze nastavit prodloužení nebo zkrácení panelů, kliknutím na tlačítko nad hranou.
-![Tilling edge offset](TillingEdgeOffset.png)
+![Tilling edge offset](tillingEdgeOffset.png)
