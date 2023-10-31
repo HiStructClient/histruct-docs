@@ -11,4 +11,4 @@ Existuje několik online nástrojů, které umožňují převádět takové mode
 Pokud budete potřebovat pravidelně provádět převod takových souborů, můžete zvážit použití placených aplikací, které nabízejí více funkcí a podporu. Mezi ně patří:
 
 1. [Tetra4D](https://tetra4d.com/)
-2. [Autodesk Maya](https://www.autodesk.cz/products/maya)
+2. [Autodesk Maya](https://www.autodesk.com/products/maya)
