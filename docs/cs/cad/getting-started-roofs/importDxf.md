@@ -31,3 +31,12 @@ Pokud mám výkres v metrech, bude i vložený výkres zobrazen v metrech. Ovše
 
  ### Umístění výkresu
  S vložením výkresem lze volně manipulovat jako s každým jiným objektem, lze ho posouvat či otáčet.
+
+ ## Vytvoření modelu
+ Na importované *.dxf se lze přichytávat, zadání jednotlivých střešních ploch pak probíhá oklikáním půdorysu [pomocí obecného tvaru](modellingRoofs.md) s doplněním sklonu pro každou střešní plochu. 
+ 
+ ![Alt text](img/dxfModel.png)
+
+ Tímto způsobem vytvořím přesný 3D model na kterém je možné téměř vždy pustit [generátor lemovek a okapového systému](roofFlashingGenerator.md)
+
+ ![Alt text](img/dxfModelFlashings.png)
