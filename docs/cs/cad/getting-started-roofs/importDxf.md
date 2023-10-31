@@ -1,42 +1,48 @@
 # Import výkresu s příponou DXF
-Ať už potřebuji vymodelovat střechu, nebo celý dům, využití podkladu ve formě výkresu mi práci vždy ulehčí. Nejen, že využiji přichycování kurzoru k bodům na tomto výkresu, ale navíc budu mít kontrolu geometrie jednotlivých modelovaných prvků. Ale jak na to? Je to snadné při dodržení doporučeních. 
+
+Ať už se chystáš namodelovat střechu nebo celý dům, využití výkresu ti hodně ulehčí práci. S výkresem to budeš mít jednodušší. Proč? No, nejenom, že můžeš jednoduše přichytit kurzor k bodům na výkresu, ale také si udržíš kontrolu nad tvarem a velikostí každého modelovaného prvku. Ale jak na to? Věř mi, je to snadné, pokud následuješ několik jednoduchých kroků.
+
 ## Příprava podkladu
 
 ### Zvýraznění důležitých prvků
-Vložený výkres bude pouze čárový, proto je vhodné ty části výkresu, které pro nás budou mít největší důležitost odlišit barvou.
-### Verze a velikost DXF souboru
-HiStruct podporuje většinu verzí DXF souborů, ale je vhodné zvolit velikost souboru do 2 MB, což zaručí maximální rychlost editace modelu.
-### Co se mi v modelu zobrazí?
-Podporovanými typy objektů jsou tyto*LINE, LWPOLYLINE, POLYLINE, SOLID, POINT, INSERT, SPLINE, CIRCLE, ARC* a *ELLIPSE*. 
-### Připravený výkres pro vložení
-Po dodržení instrukcí výše může výkres vypadat, třeba takto. Zvýraznil jsem důležité hrany střechy červenou barvou, vymazal jsem veškeré nepotřebné objekty. Čímž získám nejen rychlejší model, ale hlavně mě nebudou rušit jiné objekty. Zároveň jsou všehcny důležité čáry jedním z podporovaných objektů. 
+Tvůj vložený výkres bude obvykle tvořen jen čarami, proto je rozumné důležité části výkresu zvýraznit různou barvou.
 
-![Alt text](img/dxfDrawings.png) 
+### Verze a velikost DXF souboru
+HiStruct podporuje většinu verzí DXF souborů, ale doporučuji volit soubory do velikosti 2 MB pro maximální rychlost při editaci modelu.
+
+### Co můžeš čekat ve svém modelu?
+V našem nástroji jsou podporovány různé typy objektů, jako jsou *LINE, LWPOLYLINE, POLYLINE, SOLID, POINT, INSERT, SPLINE, CIRCLE, ARC* a *ELLIPSE*. 
+
+### Připravený výkres pro vložení
+Pokud postupuješ podle výše uvedených tipů, může výkres vypadat například takto. Já jsem zvýraznil důležité hrany střechy červenou barvou a odstranil nepotřebné objekty. Díky tomu nejenže rychleji vytvořím model, ale také budu mít klid při práci a nemusím se starat o rušivé prvky.
+
+![DXF drawings](img/dxfDrawings.png) 
 
 
 ## Vložení výkresu
-Připravený výkres můžu vložit pomocí tlačítka *Import* a zvolením tlačítka **.dxf*, po kliknutí můžu vybrat soubor, který chci do modelu vložit.
 
-![Alt text](img/importButton.png) 
+Pokud mám připravený výkres, můžu ho snadno vložit do mého projektu. Stačí kliknout na tlačítko *Import* a vybrat soubor s příponou **.dxf*.
+
+![Import tlačítko](img/importButton.png)
 
 ### Zvolení počátku
-Nyní kliknutím do scény vyberu bod, ve kterém bude počátek mého výkresu.
+Teď stačí kliknout do scény a vybrat bod, kde chci umístit začátek mého výkresu.
 
-![Alt text](img/insertDXF.png)
+![Zvolení počátku](img/insertDXF.png)
 
 ### Úprava měřítka
-Pokud mám výkres v metrech, bude i vložený výkres zobrazen v metrech. Ovšem pokud tomu tak není, lze měřítko snadno změnit pomocí tlačítka *Upravit*, kde změním požadované měřítko.
+Pokud je můj výkres v jiných jednotkách než metry, nevadí. Můžu jednoduše upravit měřítko pomocí tlačítka *Upravit*.
 
-![Alt text](img/externalObjectEdit.png)
+![Upravit měřítko](img/externalObjectEdit.png)
 
- ### Umístění výkresu
- S vložením výkresem lze volně manipulovat jako s každým jiným objektem, lze ho posouvat či otáčet.
+### Umístění výkresu
+S vloženým výkresem mohu pracovat stejně jako s jakýmkoli jiným objektem. Můžu ho posouvat nebo otáčet.
 
- ## Vytvoření modelu
- Na importované *.dxf se lze přichytávat, zadání jednotlivých střešních ploch pak probíhá oklikáním půdorysu [pomocí obecného tvaru](modellingRoofs.md) s doplněním sklonu pro každou střešní plochu. 
- 
- ![Alt text](img/dxfModel.png)
+## Vytvoření modelu
+Nyní můžu začít pracovat na mém 3D modelu. Importovaný výkres mi pomáhá získat pevný základ. Pro tvorbu střešních ploch klikám a tvůrce vytváří střechu automaticky. 
 
- Tímto způsobem vytvořím přesný 3D model na kterém je možné téměř vždy pustit [generátor lemovek a okapového systému](roofFlashingGenerator.md)
+![Vytvoření modelu](img/dxfModel.png)
 
- ![Alt text](img/dxfModelFlashings.png)
+Tímto způsobem mohu vytvořit přesný 3D model na kterém je možné téměř vždy pustit [generátor lemovek a okapového systému](roofFlashingGenerator.md)
+
+![Model s lemovkami a okapem](img/dxfModelFlashings.png)
