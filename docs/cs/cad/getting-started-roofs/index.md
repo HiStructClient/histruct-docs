@@ -72,8 +72,8 @@ Generovaný kusovník doplněný napojením na ceník výrobce může být souč
 **Kladecí plány**
 [Kladečské výkresy](roofPolygonTillingDrawing.md) jsou generovány automaticky ze zadané geometrie a případných změn uživatele. V případě potřeby lze výkres doplnit dalšími poznámkami či kótami.
 
-![example of roof tilling drawing](roofTillingPlane1.png)
-![example of roof tilling drawing](roofTillingPlane2.png)
+![example of roof tilling drawing](img\roofTillingPlane1.png)
+![example of roof tilling drawing](img\roofTillingPlane2.png)
 
 ### 6. Sdílení s klientem
 
