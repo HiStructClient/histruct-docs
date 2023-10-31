@@ -39,7 +39,7 @@ Pokud mám k dispozici vektorový výkres, bude se mi modelovat snadněji. Do Hi
 
 Model z digitálního zaměření je výhra. Pokud mám tento model ve vhodném formátu (3D *.pdf nebo přímo *.obj), můžu geometrii rovnou importovat. Do HiStruct lze [importovat *.obj](importObj.md), případně [převést 3D *.pdf na *.obj](convert3dPdfToObj.md) a to [naimportovat do HiStruct](importObj.md).
 
-Po importu HiStruct nabídne rozpoznané plochy, ze kterých vyberete, jak se mají převést na HiStruct geometrii. [Generátor ploch](roofPolygonGenerator.md) pak provede převod na střešní nebo stěnové opláštěné plochy, na kterých lze dále posupovat běžným způsobem
+Po importu HiStruct nabídne rozpoznané plochy, ze kterých vyberete, jak se mají převést na HiStruct geometrii. [Generátor ploch](roofPolygonGenerator.md) pak provede převod na střešní nebo stěnové opláštěné plochy, na kterých lze dále postupovat běžným způsobem
 
 Po vygenerování střešních ploch můžu použít ještě [generátor lemovek a okapového systému](roofFlashingGenerator.md).
 
@@ -55,7 +55,7 @@ Knihovny krytin a lemovek pro nás znamenají nejen velikost a barvu, ale celý 
 
 ### 4. Jak na lemovky a okapový systém?
 
-[Oplechování, lemovky](roofFlashingOptions.md) a [okapový systém](roofFlashingGutterOptions.md) lze samozřejmě zadávat kamkoliv v prostoru chytáním na již zadané střešní plochy, importovanou geometrii nebo jiné objekty. Navíc je možné využít přidávání lemovek na jednotlivé strany střešních rovin, nebo rovnou [generátoru nad skupinou střešních rovin](roofFlashingGenerator.md). U generovaných prvků se automaticky nastavuje sklon souvisejích střešních rovin, a tak se správně nastaví ohýbací úhly lemovek a háků okapového systému.
+[Oplechování, lemovky](roofFlashingOptions.md) a [okapový systém](roofFlashingGutterOptions.md) lze samozřejmě zadávat kamkoliv v prostoru chytáním na již zadané střešní plochy, importovanou geometrii nebo jiné objekty. Navíc je možné využít přidávání lemovek na jednotlivé strany střešních rovin, nebo rovnou [generátoru nad skupinou střešních rovin](roofFlashingGenerator.md). U generovaných prvků se automaticky nastavuje sklon souvisejících střešních rovin, a tak se správně nastaví ohýbací úhly lemovek a háků okapového systému.
 
 HiStruct obsahuje komplexní možnosti [nastavení okapového systému](roofFlashingGutterOptions.md). Zadání pomocí polyline definující navazující okap, lze nastavit sklon okapu. Pro každou část okapu nastavíme i sklon navazující střešní roviny pro správný výpočet ohybu a délky háků. Na každou část okapu lze přidat svody, které mají další [možnosti nastavení](roofFlashingGutterOptions.md).
 
