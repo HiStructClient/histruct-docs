@@ -9,3 +9,5 @@ Nejčastější formát pro sdílení výkresů je PDF, který ovšem neumožňu
 Nebo i desktopových aplikací:
 
 1. [AnyDWG](https://www.microsoft.com/store/productId/9PDCXWGXBPBV?ocid=pdpshare)
+
+Vygenerované DXF soubory můžete následně využít pro [import](importDxf.md) do HiStruct.
