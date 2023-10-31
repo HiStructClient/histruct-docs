@@ -13,6 +13,6 @@ Pokud mám náčrtek s rozměry střechy již ve sklonu, mám to jednodušší, 
 
 
 ## Obecný tvar
-Přidání střešní roviny pomocí obecného tvaru přináší mnoho variability a s využitím několika chytrých funkcí pro [přidání polygonu](insertPolygon.md) je i snadné. Vytvoření takové roviny se provádí pouze s vybíráním jednotlivých vrcholů střešní roviny. Díky tomu lze snadno vymodelovat jakýkoliv tvar střešní roviny. Opět můžu zvedat střešní rovinu do požadováného sklonu a nebo pouze pootočit rovinu o požadovaný sklon.
+Přidání střešní roviny pomocí obecného tvaru přináší mnoho variability a s využitím několika chytrých funkcí pro [přidání polygonu](insertPolygon.md) je i snadné. Vytvoření takové roviny se provádí pouze s vybíráním jednotlivých vrcholů střešní roviny. Díky tomu lze snadno vymodelovat jakýkoliv tvar střešní roviny. Opět můžu zvedat střešní rovinu do požadováného sklonu a nebo pouze pootočit rovinu o požadovaný sklon. Stejným způsobem přidám zbylé střešní roviny a vytvořím kompletní střechu.
   
 ![Alt text](img/generalPolygonInput.png)
