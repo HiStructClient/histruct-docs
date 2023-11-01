@@ -1,32 +1,32 @@
-# Oplechování střechy
+# Oplechování střechy v HiStruct
 
-Oplechování střech a doplnění lemovek ke střešnímu návrhu jsou klíčovou součástí kvalitního návrhu střechy, bez kterých nelze správně nacenit střešní projekt. V HiStruct máte k dispozici dvě možnosti: můžete ručně přidávat lemovky ke každé straně střešní roviny nebo využít [generátor střešního oplechování](roofFlashingGenerator.md) pro celou skupinu střešních rovin. Modelování jednotlivých lemovek a oplechování je jednoduché, a já vám ihned ukážu, jak na to.
+Oplechování střechy a doplnění lemovek do střešního návrhu jsou zásadním krokem při vytváření kvalitního střešního projektu. Bez těchto detailů by nebylo možné správně ocenit střešní konstrukci. V HiStruct máme pro vás dvě možnosti: můžete ručně přidávat lemovky ke každé straně střešní roviny nebo využít [generátor střešního oplechování](roofFlashingGenerator.md) pro celou skupinu střešních rovin. Modelování jednotlivých lemovek a oplechování je snadné, a já vám ukážu, jak na to.
 
 ## Zadání oplechování
 
-Nejsnazším způsob vymodelování lemovek je spuštění [generátor střešního oplechování](roofFlashingGenerator.md) a následná úprava jednotlivých prvků. Ovšem veškeré oplechování střechy je možné zadávat také pomocí [polyline](polylineInput.md), která určuje hranu střechy na které má být požadované oplechování.
+Nejrychlejší způsob vytvoření lemovek je použití [generátoru střešního oplechování](roofFlashingGenerator.md) a následné upravení jednotlivých prvků. Ale všechno oplechování střechy může být také definováno pomocí [polylinie](polylineInput.md), která určuje okraje střechy, kam má být oplechování aplikováno.
 
 ## Úprava geometrie oplechování
 
-Veškeré vložené oplechování je možné upravit z hlediska geometrie. je možné jednak posunout vrcholy polyline a tím změnit polohu lemovek. U některých lemovek je možné také změnit úhel ohybu jednotlivých částí. Toto všechno generátor dělá automaticky. Ale pokud je potřeba je možné to změnit kliknutím na tlačítko *Upravit* a tlačítkem * Geometrie* upravit úhel či polohu polyline.
+Veškeré oplechování lze upravovat z hlediska geometrie. Můžete posunout vrcholy polylinie a tím změnit polohu lemovek. U některých lemovek můžete také upravit úhel ohybu jednotlivých částí. Generátor to dělá automaticky, ale můžete to měnit kliknutím na tlačítko *Upravit* a následně *Geometrie*, kde můžete změnit úhel či polohu polylinie.
 
 ### Úprava úhlu
 
-Změna úhlu se provede kliknutím na šipku, která představuje normálu plochy na kterou lemovka navazuje. 
+Změnu úhlu provedete kliknutím na šipku, která znázorňuje normálu plochy, na kterou lemovek přiléhá.
 
-![Alt text](img/flashingEditAngle.png)
+![Edit angle of flashing](img/flashingEditAngle.png)
 
-Po kliknutí na šipku je nutné kliknout na ikonu kurzoru a poté myší vybrat plochu na kterou má lemovka navazovat.
+Po kliknutí na šipku klikněte na kurzorovou ikonu a následně vyberte plochu, na kterou má lemovka navazovat.
 
-![Alt text](img/flashingEditAngleStep2.png)
+![Edit angle of flashing- step 2](img/flashingEditAngleStep2.png)
 
 ### Úprava polohy
 
-Změna polohy se provede stejným způsobem jako změna geometrie [polyline](polylineInput.md).
+Změna polohy se provede stejným způsobem jako změna geometrie [polylinie](polylineInput.md).
 
 ## Výběr oplechování z knihovny
 
-Pomocí tlačítka knihovny lze vybírat u jednotlivých prvků oplechování [různé druhy a výrobce dané lemovky](roofFlashingLibrary.md). Zároveň pro změnu všech prvků je možné vybrat požadovaný typ lemovky z knihovny, což lze provést i zpětně. 
+Můžete vybrat různé typy oplechování z [knihovny](roofFlashingLibrary.md) pro jednotlivé prvky oplechování. Toto může být provedeno buď u jednotlivých prvků nebo najednou pro celou skupinu prvků.
 
 ## Druhy oplechování
 
