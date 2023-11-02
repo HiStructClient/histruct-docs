@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "deepl-node": "^1.10.2",
+    "js-yaml": "^4.1.0",
+    "markdown-yaml-metadata-parser": "^3.0.0",
+    "minimist": "^1.2.8",
+    "openai": "^4.14.1"
+  }
+}

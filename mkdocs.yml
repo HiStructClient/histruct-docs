@@ -29,14 +29,6 @@ theme:
       primary: black
 
 # extra:
-#   alternate:
-#     - name: Česky
-#       link: /
-#       lang: cs
-#     - name: English
-#       link: /en/
-#       lang: en
-# extra:
 #   homepage: https://www.histruct.com
 
 markdown_extesion:
@@ -158,6 +150,7 @@ plugins:
   - i18n:
       docs_structure: folder
       languages:
+
         - locale: cs
           name: Čeština
           default: true
@@ -185,4 +178,9 @@ plugins:
             "Kontextové nastavení opláštění": "Contextual sheeting settings"
             "Mapování při změně rozměrů haly": "Mapping at resizing"
             "Zpět na HiStruct": "Back to HiStruct"
+
+  - gen-files:
+      scripts:
+        - gen_pages.py
+
 
