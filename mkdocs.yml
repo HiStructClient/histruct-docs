@@ -178,6 +178,7 @@ plugins:
             "Kontextové nastavení opláštění": "Contextual sheeting settings"
             "Mapování při změně rozměrů haly": "Mapping at resizing"
             "Zpět na HiStruct": "Back to HiStruct"
+            "Střechy": "Roofs"
 
   - gen-files:
       scripts:
