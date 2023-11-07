@@ -51,7 +51,7 @@ Obdélníkové typy střech na stále oblíbenější bungalovy jsou v HiStruct 
 
 Knihovny krytin a lemovek pro nás znamenají nejen velikost a barvu, ale celý přístup k opláštění konkrétních střešních ploch. Do knihovny jsme díky variabilnímu generátoru schopni zanést konkrétní montážní postup dané krytiny konkrétního výrobce. Toto děláme v rámci [projektu přizpůsobení](customisationProject.md). Kvalitně vytvořený generátor následně eliminuje nutné zásahy do automatického kladení.
 
-[Kladení střeních tvarovek](roofPolygonTillingOptions.md) probíhá automaticky podle konfiguračního nastavení krytiny. Lze dále nastavovat počátek kladení (zleva, zprava, střed na osu, střed na hranu panelu) tak aby bylo dosaženo nejmenšího prořezu. Informace o poměr prořezu k ploše střešní roviny je zobrazen během úprav kladení.
+[Kladení střeních tvarovek](roofPolygonTillingOptions.md) probíhá automaticky podle konfiguračního nastavení krytiny. Lze dále nastavovat počátek kladení (zleva, zprava, střed na osu, střed na hranu panelu) tak aby bylo dosaženo nejmenšího prořezu. Informace o poměru prořezu ku ploše střešní roviny je zobrazena během úprav kladení.
 
 ### 4. Jak na lemovky a okapový systém?
 
