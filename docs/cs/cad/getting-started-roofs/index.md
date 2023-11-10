@@ -76,5 +76,5 @@ Generovaný kusovník doplněný napojením na ceník výrobce může být souč
 ![example of roof tilling drawing](img\roofTillingPlane2.png)
 
 ### 6. Sdílení s klientem
-
+Snadné sdílení projektů
 Toto napíše Jirka nebo Hanka?
