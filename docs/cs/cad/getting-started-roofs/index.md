@@ -21,7 +21,7 @@ HiStruct lze rozsáhle přizpůsobit. Systém kladení střešních tvarovek, le
 
 ### 1. Založím projekt s mapou nebo bez
 
-Zpracovávám novou poptávku. První co chci udělat je založit nový projekt. Projekt je místo, které může obsahovat jednu nebo více komponent - 3D modelů, tedy konfigurací, variant nebo částí. Stránka s projekty má dva pohledy. Defaultní pohled je prostý výpis založených projektů s komponentami. PPokud chci u projektu ukládat i umístění, mohu využít mapový pohled na projekty, kde lze zadat i umístění z mapy.
+Zpracovávám novou poptávku. První co chci udělat je založit nový projekt. Projekt je místo, které může obsahovat jednu nebo více komponent - 3D modelů, tedy konfigurací, variant nebo částí. Stránka s projekty má dva pohledy. Defaultní pohled je prostý výpis založených projektů s komponentami. Pokud chci u projektu ukládat i umístění, mohu využít mapový pohled na projekty, kde lze zadat i umístění z mapy.
 
 ### 2. Modelování střešních ploch
 
