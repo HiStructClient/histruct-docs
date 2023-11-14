@@ -4,7 +4,7 @@ Podle typu krytiny zvolené na opláštění konkrétní střešní nebo stěnov
 
 ## Generátor plechových pásů 
 
-Generátor plechových pásů umisťuje zvolenou krytinu po spádnici plochy. Generátor lze nastavovat pro celou oplášťovanou plochu nebo, některá nastevení jsou pakl dostupná po kliknutí na jednotlivý pás. V editačním módu je pak vždy zobrazen podíl celkové plochy pásů a oplášťovanou plochou.
+Generátor plechových pásů umisťuje zvolenou krytinu po spádnici plochy. Generátor lze nastavovat pro celou oplášťovanou plochu nebo, některá nastavení jsou pak dostupná po kliknutí na jednotlivý pás. V editačním režimu je pak vždy zobrazen podíl celkové plochy pásů k oplášťované ploše.
 
 ![Generator strip tiler](img\generatorStripTiler.png)
 

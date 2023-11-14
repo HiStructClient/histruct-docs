@@ -1,0 +1,1 @@
+# Krásná a přesná nabídka, jak na ni..

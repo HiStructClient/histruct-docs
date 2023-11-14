@@ -37,7 +37,7 @@ markdown_extesion:
 
 nav:
 
-  - "Konfigurátor hal":
+  - "Haly":
     - hbc/index.md
 
     - "Průvodce návrhem haly":
@@ -113,26 +113,22 @@ nav:
 
     - "Příběhy":
       - hbc/stories/bathroomStudio.md
-
-  - "CAD":
-    - cad/index.md
-
-    - "Střechy":
-      - cad/getting-started-roofs/index.md
-      - cad/getting-started-roofs/convert3dPdfToObj.md
-      - cad/getting-started-roofs/convertPdfToDxf.md
-      - cad/getting-started-roofs/customisationProject.md
-      - cad/getting-started-roofs/importDxf.md
-      - cad/getting-started-roofs/importObj.md
-      - cad/getting-started-roofs/modellingRoofs.md
-      - cad/getting-started-roofs/roofBom.md
-      - cad/getting-started-roofs/roofFlashingGenerator.md
-      - cad/getting-started-roofs/roofFlashingGutterOptions.md
-      - cad/getting-started-roofs/roofFlashingOptions.md
-      - cad/getting-started-roofs/roofPolygonGenerator.md
-      - cad/getting-started-roofs/roofPolygonTillingDrawing.md
-      - cad/getting-started-roofs/roofPolygonTillingOptions.md
-      - cad/getting-started-roofs/roofQuote.md
+  - "Střechy":
+    - cad/getting-started-roofs/index.md
+    - cad/getting-started-roofs/modellingRoofs.md
+    - cad/getting-started-roofs/importDxf.md
+    - cad/getting-started-roofs/importObj.md
+    - cad/getting-started-roofs/convert3dPdfToObj.md
+    - cad/getting-started-roofs/convertPdfToDxf.md
+    - cad/getting-started-roofs/roofPolygonGenerator.md      
+    - cad/getting-started-roofs/roofFlashingGenerator.md
+    - cad/getting-started-roofs/roofFlashingGutterOptions.md
+    - cad/getting-started-roofs/roofFlashingOptions.md
+    - cad/getting-started-roofs/roofPolygonTillingDrawing.md
+    - cad/getting-started-roofs/roofPolygonTillingOptions.md
+    - cad/getting-started-roofs/customisationProject.md      
+    - cad/getting-started-roofs/roofQuote.md
+    - cad/getting-started-roofs/roofBom.md      
 
   - "Script":
     - fcs/index.md

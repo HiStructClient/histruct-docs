@@ -31,7 +31,7 @@ Teď stačí kliknout do scény a vybrat bod, kde chci umístit začátek mého 
 ![Zvolení počátku](img/insertDXF.png)
 
 ### Úprava měřítka
-Pokud je můj výkres v jiných jednotkách než metry, nevadí. Můžu jednoduše upravit měřítko pomocí tlačítka *Upravit*.
+Pokud je můj výkres v jiných jednotkách než v metrech, nevadí. Můžu jednoduše upravit měřítko pomocí tlačítka *Upravit*.
 
 ![Upravit měřítko](img/externalObjectEdit.png)
 
