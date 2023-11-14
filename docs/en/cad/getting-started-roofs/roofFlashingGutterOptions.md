@@ -1,6 +1,8 @@
+---
 sourceLang: cs
 sourceHash: 595b3a622e4f84016cafefbdd34d7598
-autoTranslated: true
+autoTranslated: false
+---
 
 # Gutter system
 
