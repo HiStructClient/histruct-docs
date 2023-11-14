@@ -1,6 +1,6 @@
 ---
 sourceLang: cs
-sourceHash: 6015baa9bd0837d47dc4a7864718be43
+sourceHash: 0ec09804c11db8487d8a751ce3e4af21
 autoTranslated: true
 ---
 
@@ -8,10 +8,10 @@ autoTranslated: true
 
 It is mainly designed to **save time** for making 3d model of flashings and gutters for imported or specified roof plane geometries.
 
-The generator can also be used in general for plane geometries that are entered from a drawing or completely by hand and just spaced to best fit the edges of the roof planes to be touched. It does not have to fit completely, just fit within normal tolerances.
+The generator can also be used in general for plane geometries that are entered from a drawing or completely by hand and just modified to best fit the edges of the roof planes to be touched. It does not have to fit completely, just fit within normal tolerances.
 
 ![Source geometry for flashing generator](img/sourceGeometryForFlashingGenerator.png)
 
-HiStruct recognizes the necessary fringe locations from the geometries of the nearby roof planes and generates the fringe from the selected types. The generated fringes can be further modified.
+HiStruct automatically identifies the required flashing locations from the geometries of nearby roof planes, and then generates the corresponding flashing types. These generated flashings can then be further modified as required.
 
 ![Generated flashing result](img/generatedFlashingResult.png)

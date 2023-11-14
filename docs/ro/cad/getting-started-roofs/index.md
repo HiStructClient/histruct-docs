@@ -1,6 +1,6 @@
 ---
 sourceLang: cs
-sourceHash: f83b2aa3631ccb1aa112491d897cd391
+sourceHash: decff2fa38de31ff1060f45f406c0f95
 autoTranslated: true
 ---
 
@@ -27,19 +27,19 @@ HiStruct poate fi personalizat pe scară largă. Sistemul de montare a accesorii
 
 ### 1. Creez un proiect cu sau fără hartă
 
-2. Procesez o nouă cerere. Primul lucru pe care vreau să-l fac este să încep un nou proiect. Un proiect este un loc care poate conține unul sau mai multe compoponente - modele 3D, adică configurații, variante sau piese. Pagina proiectului are două vizualizări. Vizualizarea implicită este o simplă listă a proiectelor stabilite cu componente. Dacă doresc să stochez și locația proiectului, pot utiliza vizualizarea proiectelor pe hartă, unde pot specifica și locația de pe hartă.
+2. Procesez o nouă cerere. Primul lucru pe care vreau să-l fac este să încep un nou proiect. Un proiect este un loc care poate conține una sau mai multe componente - modele 3D, adică configurații, variante sau piese. Pagina proiectului are două vizualizări. Vizualizarea implicită este o simplă listă de proiecte stabilite cu componente. Dacă doresc să stochez și o locație pentru un proiect, pot utiliza vizualizarea proiectelor pe hartă, unde pot specifica și o locație de pe hartă.
 
 ### 2. Modelarea suprafețelor acoperișurilor
 
-De obicei, începem prin **selectarea tipului de acoperiș, a sistemului de rosturi și de streașină** (acestea pot fi modificate ulterior) din biblioteci. Urmează crearea unui model de acoperiș din planurile individuale ale acoperișului, sau metode de modelare mai avansate. Metoda de modelare adecvată depinde de documentele justificative disponibile pentru o anumită cerere de informații. Cu cât baza este mai bună, cu atât mai puțină muncă va necesita modelarea.
+De obicei, începem prin **selectarea tipului de acoperiș, a sistemului de jgheaburi și de burlane** (acestea pot fi modificate ulterior) din biblioteci. Urmează crearea unui model de acoperiș din planurile individuale ale acoperișului, eventual folosind metode de modelare mai avansate. Metoda de modelare adecvată depinde de documentele disponibile pentru o anumită cerere de informații. Cu cât este mai bună calitatea documentației, cu atât mai eficient se poate realiza procesul de modelare.
 
 #### **Am doar câteva schițe cu dimensiuni 😊**.
 
-Dacă nu am la dispoziție un suport digital, trebuie să specific planurile acoperișului. Pentru a facilita introducerea, am câteva opțiuni. Dacă forma planului acoperișului este simplă, pot [modela](modellingRoofs.md) introducând planuri de acoperiș de forme predefinite, sau parcă forma generală a planului acoperișului în spațiul de modelare. Modul general de introducere utilizează trasarea și alte instrumente de introducere familiare ca în alte programe CAD. Dacă se cunoaște panta, planurile acoperișului pot fi rotite în spațiu și împinse împreună în spațiu așa cum formează efectiv acoperișul. În cazul în care acoperișul poate fi asamblat în spațiu cu suficientă precizie, se poate utiliza [generator de jgheaburi și burlane](roofFlashingGenerator.md).
+În cazul în care forma acoperișului este simplă, o pot [modela](modellingRoofs.md) prin inserarea unor suprafețe de acoperiș cu forme predefinite sau pot crea o formă generică a suprafeței acoperișului în spațiul de modelare. Modul general de introducere utilizează trasarea și alte instrumente de introducere familiare, similare altor programe CAD. Dacă panta este cunoscută, planurile acoperișului pot fi rotite și deplasate în spațiu pentru a corespunde formei reale a acoperișului. În cazul în care acoperișul poate fi construit în spațiu cu suficientă precizie, se poate utiliza [generator de jgheaburi și burlane](roofFlashingGenerator.md).
 
 #### **Am un desen vectorial al planului acoperișului 😊😊😊**
 
-Dacă am un desen vectorial, va fi mai ușor de modelat. Puteți [importa *.dxf](importDxf.md) în HiStruct, sau [converti vectorul *.pdf în *.dxf](convertPdfToDxf.md) și [importați asta în HiStruct](importDxf.md). Se poate face un snap la *.dxf importat, iar specificarea suprafețelor individuale ale acoperișului se face apoi prin decuparea planului de etaj cu adăugarea unei pante pentru fiecare suprafață a acoperișului. Avantajul constă în acuratețea și ușurința realizării modelului 3D. Aproape întotdeauna se poate utiliza [generatorul [flashing and gutter generator](roofFlashingGenerator.md).
+Dacă am un desen vectorial, va fi mai ușor de modelat. Este posibil să importați [fișiere în format *.dxf](importDxf.md) în HiStruct, sau să convertiți vectorial[ *.pdf în *.dxf](convertPdfToDxf.md) pentru a [importa în HiStruct](importDxf.md). *.dxf-ul importat permite o fixare ușoară, iar introducerea suprafețelor individuale ale acoperișului se face cu un clic prin planul etajului, cu posibilitatea de a adăuga o pantă pentru fiecare suprafață a acoperișului. Avantajul constă în acuratețea și ușurința realizării unui model 3D. Aproape întotdeauna poate fi utilizat [generatorul de sclipiri și streșini](roofFlashingGenerator.md).
 
 #### **Dispun de un model 3D dintr-o orientare digitală 😊😊😊😊****.
 
@@ -57,11 +57,11 @@ Tipurile de acoperiș dreptunghiular pentru bungalourile din ce în ce mai popul
 
 Pentru noi, bibliotecile de învelitori și de scufundări nu înseamnă doar mărime și culoare, ci o întreagă abordare a placării zonelor specifice ale acoperișului. Datorită generatorului de variabile, putem introduce în bibliotecă procedura specifică de instalare a acoperișului unui anumit producător. Facem acest lucru ca parte a [proiectului de personalizare](customisationProject.md). Un generator bine conceput elimină apoi intervențiile necesare în procesul automat de montare.
 
-[RoofPolygonTilling](roofPolygonTillingOptions.md) are loc în mod automat în funcție de setările de configurare ale acoperișului. De asemenea, este posibil să setați începutul așezării (stânga, dreapta, centru la linia mediană, centru la marginea panoului) pentru a obține cea mai mică tăiere. Informațiile privind raportul dintre tăiere și suprafața planului acoperișului sunt afișate în timpul reglajelor de instalare.
+[RoofPolygonTilling](roofPolygonTillingOptions.md) are loc în mod automat în funcție de setările de configurare ale acoperișului. De asemenea, este posibil să se regleze începutul așezării (stânga, dreapta, de la centru la linia mediană, de la centru la marginea panoului) pentru a obține cea mai mică tăietură posibilă. În timpul reglajelor de așezare sunt afișate informațiile privind raportul dintre tăiere și suprafața planului acoperișului.
 
 ### 4. Cum se taie și sistemul de jgheaburi?
 
-Puteți, desigur, să specificați [flashinguri, rosturi](roofFlashingOptions.md) și [sistem de jgheaburi](roofFlashingGutterOptions.md) oriunde în spațiu, prin agățarea pe suprafețele de acoperiș deja specificate, pe geometria importată sau pe alte obiecte. În plus, este posibil să se utilizeze adăugarea de muchii la laturile individuale ale planurilor de acoperiș sau direct la [generator peste un grup de planuri de acoperiș](roofFlashingGenerator.md). Pentru elementele generate, panta planurilor de acoperiș asociate este ajustată automat, stabilindu-se astfel corect unghiurile de încovoiere ale solnițelor și cârligelor sistemului de streașină.
+Bineînțeles, [rosturile, rosturile](roofFlashingOptions.md) și [sistemul de jgheaburi](roofFlashingGutterOptions.md) pot fi specificate oriunde în spațiu prin agățarea pe suprafețele de acoperiș deja specificate, pe geometria importată sau pe alte obiecte. În plus, este posibil să se utilizeze adăugarea de muchii la laturile individuale ale planurilor de acoperiș sau direct la [generator peste un grup de planuri de acoperiș](roofFlashingGenerator.md). Pentru elementele generate, panta planurilor de acoperiș asociate este ajustată automat, stabilindu-se astfel corect unghiurile de încovoiere ale solnițelor și cârligelor sistemului de streașină.
 
 HiStruct include opțiuni cuprinzătoare [setări ale sistemului de jgheaburi](roofFlashingGutterOptions.md). Prin specificarea unei polilinii care definește jgheabul din aval, poate fi setată panta jgheabului. Pentru fiecare parte a jgheabului, se stabilește, de asemenea, panta planului de acoperiș din aval pentru calcularea corectă a curburii și a lungimii cârligului. Este posibil să se adauge cleme la fiecare secțiune de jgheab, care au [opțiuni de setare] suplimentare (roofFlashingGutterOptions.md).
 
@@ -79,4 +79,4 @@ Lista de materiale generată, completată cu un link către lista de prețuri a 
 Planșele [Layout Drawings](roofPolygonTillingDrawing.md) sunt generate în mod automat pornind de la geometria specificată și de la orice modificări efectuate de utilizator. Dacă este necesar, se pot adăuga note sau adnotări suplimentare la desen.
 
 ![exemplu de desen de tasare a acoperișului](img\roofTillingPlane1.png)
-![Exemplu de desen de tasare a acoperișului](img\roofTillingPlane2.png)
+![exemplu de desen de tasare a acoperișului](img\roofTillingPlane2.png)
