@@ -1,21 +1,21 @@
 ---
 sourceLang: en
-sourceHash: ad025535e5971d0f522d8bd1e5e9517c
+sourceHash: 7cd4cdfdab50f27235f4533edfb32371
 autoTranslated: true
 ---
 
 
 # Acoperișuri și borduri
 
-Învelișul acoperișului și adăugarea de blițuri la un proiect de acoperiș sunt pași esențiali în crearea unui proiect de acoperiș de calitate. Fără aceste detalii, ar fi imposibil să se prețuiască în mod corespunzător structura acoperișului. În HiStruct, avem două opțiuni pentru dvs.: puteți adăuga manual solnițe pe fiecare parte a planului de acoperiș sau puteți utiliza [Generator de solnițe pentru acoperiș](roofFlashingGenerator.md) pentru un întreg grup de planuri de acoperiș. Modelarea solnițelor și a flashingurilor individuale este ușoară și vă voi arăta cum să o faceți.
+Adăugarea de sclipiri la acoperiș și suplimentarea streașinilor în proiectarea acoperișului sunt pași esențiali în crearea unui proiect de acoperiș de înaltă calitate. În HiStruct, puteți adăuga manual solnițe pe fiecare parte a planului de acoperiș sau puteți utiliza [roof Flashings Generator](roofFlashingGenerator.md) pentru un întreg grup de planuri de acoperiș.
 
 ## Specificarea flashingurilor
 
-Cel mai rapid mod de a crea flashinguri este să folosiți [roofFlashing Generator](roofFlashingGenerator.md) și apoi să modificați elementele individuale. Dar toate flashingurile de acoperiș pot fi definite, de asemenea, folosind [polyline](polylineInput.md), care specifică marginile acoperișului unde trebuie aplicate flashingurile.
+Cel mai rapid mod de a crea flashinguri este să utilizați [roofFlashingFlashing Generator](roofFlashingGenerator.md) și apoi să modificați elementele individuale. Dar toate flashingurile pentru acoperișuri pot fi definite, de asemenea, folosind [polyline](polylineInput.md), care specifică marginile acoperișului unde trebuie aplicate flashingurile.
 
 ## Modificarea geometriei de bliț
 
-Toate flashingurile pot fi modificate din punct de vedere al geometriei. Puteți muta vârfurile polilinii pentru a modifica poziția flashingurilor. De asemenea, puteți ajusta unghiul de curbură al unora dintre blindaje. Generatorul face acest lucru în mod automat, dar puteți modifica acest lucru făcând clic pe *Edit* și apoi pe *Geometry*, unde puteți modifica unghiul sau poziția polilinii.
+Toate flashingurile pot fi modificate din punct de vedere al geometriei. Puteți muta vârfurile polilinii pentru a modifica poziția flashingurilor. De asemenea, puteți ajusta unghiul de curbură al unora dintre blindaje. Generatorul face acest lucru în mod automat, dar puteți modifica acest lucru făcând clic pe *Edit* și apoi pe *Geometry*, unde puteți modifica unghiul sau geometria polilinii.
 
 ### Ajustarea unghiului
 

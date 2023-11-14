@@ -6,7 +6,8 @@ proofRead: true
 ---
 
 # Bill of material
-The appearance and options of individual Bills of Materials (BOMs) vary depending on the manufacturer of the product. To customize the BOM to your specific needs, you can utilize  [the customisation project](customisationProject.md).
+
+The appearance and options of individual Bills of Materials (BOMs) vary depending on the manufacturer of the product. To customize the BOM to your specific needs, you can utilize [the customisation project](customisationProject.md).
 
 ## Editing the BOM
 

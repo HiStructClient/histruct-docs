@@ -1,23 +1,23 @@
 ---
 sourceLang: en
-sourceHash: 6b2be36137b76c0f0ff390526c3662e0
+sourceHash: 40fe8cfacaf26a30503bdf5cb603f175
 autoTranslated: true
 ---
 
 
 # Opțiuni de placare
 
-În funcție de tipul de placare ales pentru o anumită zonă de acoperiș sau de perete, se selectează generatorul corespunzător. Fiecare tip de generator poate avea un control specific.
+În funcție de tipul de placare ales pentru o anumită zonă de acoperiș sau de perete, se selectează generatorul corespunzător. Fiecare tip de generator poate avea controale specifice.
 
 ## Generator de benzi de tablă
 
-Generatorul de benzi de tablă plasează învelitoarea selectată de-a lungul bazei zonei. Generatorul poate fi setat pentru întreaga zonă de înveliș sau, unele setări sunt apoi disponibile făcând clic pe o bandă individuală. În modul de editare, proporția dintre suprafața totală a benzii și suprafața învelită este întotdeauna afișată.
+Generatorul de benzi de tablă plasează materialul de acoperire ales de-a lungul pantei suprafeței. Generatorul poate fi configurat pentru întreaga suprafață cladită, sau unele setări sunt disponibile făcând clic pe benzi individuale. În modul de editare, se afișează întotdeauna proporția dintre suprafața totală acoperită de benzi și suprafața placată.
 
 ![Generator strip tiler](img\generatorStripTiler.png)(img\generatorStripTiler.png)
 
-### Direcția de așezare
+### Tilling direction
 
-Este configurabilă, putând fi aleasă dintre următoarele tipuri:
+Direcția de afânare este configurabilă, putând fi aleasă dintre următoarele tipuri:
 
 - din stânga
 
@@ -27,30 +27,30 @@ Este configurabilă, putând fi aleasă dintre următoarele tipuri:
 
 ![Tilling from right](img\tillingFromRight.png)
 
-- centrează banda din mijloc a acoperișului pe centrul părții de la streașină
+- centrează banda din mijloc a acoperișului pe centrul laturii de la streașină
 
 ![Tilling center axis](img\tillingCenterAxis.png)
 
-- plasați marginea benzii de acoperiș pe centrul laturii jgheabului
+- poziționați marginea benzii de acoperiș pe centrul laturii jgheabului
 
 ![Tilling center edge](img\tillingCenterEdge.png)
 
-- specificație generală a începutului de așternere (așternere din stânga + distanță)
+- specificație generală a începutului de placare (așezarea de la stânga + distanță)
 
 ![General tilling head start](img\generalTillingHeadStart.png)
 
-### Unghiul de așezare a benzilor
+### Unghiul de afânare
 
-Este reglabil ca decalaj pozitiv sau negativ față de linia de bază.
+Unghiul de afânare poate fi ajustat ca un decalaj pozitiv sau negativ față de linia de bază.
 
 ![Tilling angle](img\tillingAngle.png)
 
 ## Fiecare bandă specifică
-- se dezactivează ( atunci nu se reflectă în desene, în modelul detaliat sau în rapoartele de material).
+- se dezactivează ( atunci nu se reflectă în desene, în modelul detaliat sau în rapoartele BOM).
 
 ![Individual panel switched off](img\individualPanelSwitchedOff.png)
 
-- se prelungește sau se scurtează suprapunerea
+- prelungiți sau scurtați suprapunerea
 
 ![Individual panel extension options](img\individualPanelExtensionOptions.png)
 

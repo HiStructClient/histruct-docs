@@ -1,12 +1,13 @@
 ---
 sourceLang: en
-sourceHash: 1d672ddb4e1bf62d0bcd8c24c1ae4f45
+sourceHash: 4627d2b19b73f996fef9aa5af77e8a20
 autoTranslated: true
 proofRead: true
 ---
 
 
 # Bill of material
+
 Aspectul și opțiunile din listele de materiale (BOM) individuale variază în funcție de producătorul produsului. Pentru a personaliza BOM în funcție de nevoile dumneavoastră specifice, puteți utiliza [proiectul de personalizare](customisationProject.md).
 
 ## Editarea BOM
