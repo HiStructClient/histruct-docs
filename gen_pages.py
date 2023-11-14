@@ -18,7 +18,7 @@ def print_attrs(obj, indent=0):
 
 currentLang = mkdocs_gen_files.config.theme['language']
 
-if (currentLang == "en"):
+if (currentLang == "en" or currentLang == "ro"):
 
     docsPath = Path("docs/")
     docsPath_source = docsPath.joinpath("cs/")

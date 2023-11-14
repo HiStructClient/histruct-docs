@@ -13,6 +13,7 @@ const tranlationDirections = {
     "cs": "en",
     "en": "cs",
     "de": "en",
+    "ro": "cs",
 }
 
 export function getDefaultSourceLang(targetLang) {
@@ -213,6 +214,7 @@ const mappingsLanguages = {
     'en': { targetDeepl: 'en-GB', name: "english", },
     'cs': { targetDeepl: 'cs', name: "czech", },
     'de': { targetDeepl: 'de', name: "german", },
+    'ro': { targetDeepl: 'ro', name: "romanian", },
 
     // další mapování
 };
@@ -319,7 +321,7 @@ export async function translateFile(fileData, serviceName = 'deepl') {
             translated = await translateText(text, serviceName, srcLang, targetLang);
         }
     } catch (error) {
-        throw new Error(`Překlad souboru ${fileName} z ${srcLang} do ${targetLang} selhal!`, error);
+        throw new Error(`Překlad souboru ${fileName} z ${srcLang} do ${targetLang} selhal!` + error);
     }
 
     // Uložit informace o překladu do metadat

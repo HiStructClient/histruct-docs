@@ -176,6 +176,30 @@ plugins:
             "Mapování při změně rozměrů haly": "Mapping at resizing"
             "Zpět na HiStruct": "Back to HiStruct"
             "Střechy": "Roofs"
+        - locale: ro
+          name: Română
+          default: false
+          build: true
+          site_name: Documentație
+          nav_translations:
+            "Haly": "Clădiri"
+            "Úvod": "Casă"
+            "Příběhy": "Povești"
+            "Průvodce návrhem haly": "Ghid de proiectare a clădirii"
+            "Základní konfigurátor": "Configurator de bază"
+            "Detailní konfigurátor": "Configurator detaliat"
+            "Rozměry": "Dimensiuni"
+            "Moduly": "Module"
+            "Opláštění": "Învelitoare"
+            "Otvory": "Deschideri"
+            "Doplňky": "Accesorii"
+            "Konstrukce": "Structură"
+            "Výstupy": "Ieșiri"
+            "Kontextové nastavení opláštění": "Setări contextuale pentru învelitoare"
+            "Mapování při změně rozměrů haly": "Mapare la redimensionare"
+            "Zpět na HiStruct": "Înapoi la HiStruct"
+            "Střechy": "Acoperișuri"
+
 
   - gen-files:
       scripts:
