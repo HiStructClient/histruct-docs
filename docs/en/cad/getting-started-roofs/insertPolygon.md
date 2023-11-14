@@ -2,6 +2,7 @@
 sourceLang: cs
 sourceHash: 0a5fc5daf9a33218d2e72adf21e3a147
 autoTranslated: true
+proofRead: true
 ---
 
 # Specifying a polygon

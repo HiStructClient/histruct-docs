@@ -1,11 +1,12 @@
 ---
 sourceLang: cs
 sourceHash: f1fa58f9975e8df137fb85a18d9c0c6b
-autoTranslated: true
+autoTranslated: false
+proofRead: true
 ---
 
 # Piecework
-The appearance and options of individual BOMs vary depending on the manufacturer of the product. To customize the BOM to your needs, you can use the [customisation project](customisationProject.md).
+The appearance and options of individual Bills of Materials (BOMs) vary depending on the manufacturer of the product. To customize the BOM to your specific needs, you can utilize  [the customisation project](customisationProject.md).
 
 ## Editing the BOM
 

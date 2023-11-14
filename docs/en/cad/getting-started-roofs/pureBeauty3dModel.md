@@ -2,6 +2,7 @@
 sourceLang: cs
 sourceHash: 40384dd1e0c870b179e9f39e8777d523
 autoTranslated: true
+proofRead: true
 ---
 
 # The story of textures

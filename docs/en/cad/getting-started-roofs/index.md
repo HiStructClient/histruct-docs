@@ -1,7 +1,8 @@
 ---
 sourceLang: cs
 sourceHash: decff2fa38de31ff1060f45f406c0f95
-autoTranslated: true
+autoTranslated: false
+proofRead: true
 ---
 
 

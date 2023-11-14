@@ -2,6 +2,7 @@
 sourceLang: cs
 sourceHash: 0c127288cdc4d7683e2c4bfef80be5dd
 autoTranslated: true
+proofRead: true
 ---
 
 # Entering a polyline

@@ -1,7 +1,8 @@
 ---
 sourceLang: cs
 sourceHash: 29b3af03e9ed30f24e27d1dc4c8abd92
-autoTranslated: true
+autoTranslated: false
+proofRead: true
 ---
 
 # Import of OBJ model
@@ -19,15 +20,15 @@ If you have a model in OBJ format, you can easily import it into your project. J
 
 ### Rotate the model and change the scale
 
-After importing, it is important to rotate the model correctly. You can do this using the tools you use for other objects in HiStruct. Next, you will need to change the scale of the OBJ model, which is easily done using the *Edit* button.
+After import, it is important to rotate the model correctly. You can do this using the tools you use for other objects in HiStruct. Next, you will need to change the scale of the OBJ model, which is easily done using the *Edit* button.
 
 ![Edit Scale](img/externalObjectEdit.png)
 
 ## How to add a roof to the model?
-You can model a roof on an imported *.obj by incrementally adding roof planes by clicking on the vertices using the [general shape](modellingRoofs.md) tool.
+You can model a roof on an imported *.obj file by incrementally adding roof planes. Simply click on the vertices using [the general roof shape](modellingRoofs.md) tool.
 
 ![Model created with object](img/objModel.png)
 
-In this way, you can create a detailed 3D model on which you can almost always run [flashing and gutter generator](roofFlashingGenerator.md).
+In this way, you can create a detailed 3D model with which you can almost always use [the flashing and gutter generator](roofFlashingGenerator.md).
 
 ![Model with gutter systems](img/objModelFlashings.png)

@@ -1,12 +1,13 @@
 ---
 sourceLang: cs
 sourceHash: 94f12f621fcf8459f65594a59ffedb77
-autoTranslated: true
+autoTranslated: false
+proofRead: true
 ---
 
-# How to convert a PDF drawing to DXF?
+# How to convert a PDF files to DXF?
 
-The most common format for sharing drawings is PDF, but it does not allow further editing. However, it is possible to convert a PDF drawing to DXF. Such a format can already be edited, but more importantly used as a basis for HiStruct. Here is a list of free online tools for this conversion:
+The most common format for sharing drawings is PDF, but it does not allow further editing. However, it is possible to convert a PDF drawing to DXF. Such a format can already be edited, but more importantly used as a layout for HiStruct. Here is a list of free online tools for this conversion:
 
 1. [HiPDF](https://www.hipdf.com/en/pdf-to-dxf)
 2. [CloudConvert](https://cloudconvert.com/pdf-to-dxf)
