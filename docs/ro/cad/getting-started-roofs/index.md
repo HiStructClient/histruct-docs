@@ -1,6 +1,6 @@
 ---
 sourceLang: cs
-sourceHash: 6ef14edb73dcf9785ff5d6c4d7815495
+sourceHash: f83b2aa3631ccb1aa112491d897cd391
 autoTranslated: true
 ---
 
@@ -16,8 +16,8 @@ Este utilizată pentru a crea rapid oferte de preț, liste de materiale și plan
 1. Modelez suprafețele acoperișului redesenând sau importând
 1. Editez macheta generată
 1. Selectez sistemul de solnițe și de streașină sau îl fac să fie generat automat
-1. Editez oferta frumoasă care ne aduce contractul
-1. Împărtășesc proiectul cu clientul
+1. Piese, documente, desene
+
 
 Gata, mă duc să beau o cafea 😊 😊.
 
@@ -25,13 +25,13 @@ HiStruct poate fi personalizat pe scară largă. Sistemul de montare a accesorii
 
 ## Acum, mai în detaliu...
 
-### 1. Prelucrez o nouă cerere
+### 1. Creez un proiect cu sau fără hartă
 
-Este pentru Jirka sau Hank?
+2. Procesez o nouă cerere. Primul lucru pe care vreau să-l fac este să încep un nou proiect. Un proiect este un loc care poate conține unul sau mai multe compoponente - modele 3D, adică configurații, variante sau piese. Pagina proiectului are două vizualizări. Vizualizarea implicită este o simplă listă a proiectelor stabilite cu componente. Dacă doresc să stochez și locația proiectului, pot utiliza vizualizarea proiectelor pe hartă, unde pot specifica și locația de pe hartă.
 
 ### 2. Modelarea suprafețelor acoperișurilor
 
-De obicei, începem prin **alegerea tipului de acoperiș, a sistemului de jgheaburi și de burlane** (care poate fi modificat ulterior) din biblioteci. Urmează crearea unui model de acoperiș din planurile individuale ale acoperișului, sau metode de modelare mai avansate. Metoda de modelare adecvată depinde de documentele justificative disponibile pentru o anumită cerere de informații. Cu cât baza este mai bună, cu atât mai puțină muncă va necesita modelarea.
+De obicei, începem prin **selectarea tipului de acoperiș, a sistemului de rosturi și de streașină** (acestea pot fi modificate ulterior) din biblioteci. Urmează crearea unui model de acoperiș din planurile individuale ale acoperișului, sau metode de modelare mai avansate. Metoda de modelare adecvată depinde de documentele justificative disponibile pentru o anumită cerere de informații. Cu cât baza este mai bună, cu atât mai puțină muncă va necesita modelarea.
 
 #### **Am doar câteva schițe cu dimensiuni 😊**.
 
@@ -57,7 +57,7 @@ Tipurile de acoperiș dreptunghiular pentru bungalourile din ce în ce mai popul
 
 Pentru noi, bibliotecile de învelitori și de scufundări nu înseamnă doar mărime și culoare, ci o întreagă abordare a placării zonelor specifice ale acoperișului. Datorită generatorului de variabile, putem introduce în bibliotecă procedura specifică de instalare a acoperișului unui anumit producător. Facem acest lucru ca parte a [proiectului de personalizare](customisationProject.md). Un generator bine conceput elimină apoi intervențiile necesare în procesul automat de montare.
 
-[RoofPolygonTilling](roofPolygonTillingOptions.md) are loc în mod automat în funcție de setările de configurare ale acoperișului. De asemenea, este posibil să setați începutul așezării (stânga, dreapta, centru la linia mediană, centru la marginea panoului) pentru a obține cea mai mică tăiere. Informațiile despre raportul dintre tăietură și suprafața planului acoperișului sunt afișate în timpul reglajelor de instalare.
+[RoofPolygonTilling](roofPolygonTillingOptions.md) are loc în mod automat în funcție de setările de configurare ale acoperișului. De asemenea, este posibil să setați începutul așezării (stânga, dreapta, centru la linia mediană, centru la marginea panoului) pentru a obține cea mai mică tăiere. Informațiile privind raportul dintre tăiere și suprafața planului acoperișului sunt afișate în timpul reglajelor de instalare.
 
 ### 4. Cum se taie și sistemul de jgheaburi?
 
@@ -80,7 +80,3 @@ Planșele [Layout Drawings](roofPolygonTillingDrawing.md) sunt generate în mod 
 
 ![exemplu de desen de tasare a acoperișului](img\roofTillingPlane1.png)
 ![Exemplu de desen de tasare a acoperișului](img\roofTillingPlane2.png)
-
-### 6. Împărtășirea cu clientul
-Partajarea ușoară a proiectelor
-Acest lucru este scris de Jirka sau de Hanka?

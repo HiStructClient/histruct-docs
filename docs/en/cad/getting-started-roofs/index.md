@@ -1,6 +1,6 @@
 ---
 sourceLang: cs
-sourceHash: 6ef14edb73dcf9785ff5d6c4d7815495
+sourceHash: f83b2aa3631ccb1aa112491d897cd391
 autoTranslated: true
 ---
 
@@ -16,22 +16,22 @@ It is used to quickly create quotations, bills of materials and laying plans for
 1. I model the roof surfaces by redrawing or importing
 1. Edit the generated layout
 1. select the flashing and eaves system or have it automatically generated
-1. Edit the beautiful bid that wins us the contract
-1. I share the project with the customer
+1. Pieces, documents, drawings
 
-Done, I'm off for coffee 😊
 
-HiStruct can be extensively customized. The system for laying roof fittings, flashings, flashings and guttering is set up separately for each specific manufacturer in a separate set of configuration files. It contains information on how the roof area is to be laid with fittings, possible colour combinations, information on the bill of materials and more. These and other customizations are done within the [customization project](customisationProject.md).
+Done, I'm going for a coffee 😊
+
+HiStruct can be extensively customized. The system for laying roof fittings, flashings, flashings and guttering is set up separately for each individual manufacturer in a separate set of configuration files. It contains information on how the roof area is to be laid with fittings, possible colour combinations, information on the bill of materials and more. These and other customizations are done within the [customization project](customisationProject.md).
 
 ## Now, in more detail...
 
-### 1. I'm processing a new request
+### 1. I create a project with or without a map
 
-Is this for Jirka or Hank?
+I'm processing a new request. The first thing I want to do is start a new project. A project is a place that can contain one or more compoponents - 3D models, i.e. configurations, variants or parts. The project page has two views. The default view is a simple listing of established projects with components. If I want to store also the location of the project, I can use the map view of the projects where I can also specify the location from the map.
 
-### 2. Modeling of roof surfaces
+### 2. Modeling roof surfaces
 
-We usually start by **choosing the type of roofing, flashing and gutter system** (which can be changed later) from the libraries. This is followed by creating a roof model from the individual roof planes, or more advanced modelling methods. The appropriate modelling method depends on what supporting documents are available for a given enquiry. The better the foundation, the less work the modelling will take.
+We usually start by **selecting the type of roofing, flashings and eaves system** (these can be changed later) from the libraries. This is followed by creating a roof model from the individual roof planes, or more advanced modelling methods. The appropriate modelling method depends on what supporting documents are available for a given enquiry. The better the foundation, the less work the modelling will take.
 
 #### **I only have a few sketches with dimensions 😊**
 
@@ -80,7 +80,3 @@ The [Layout Drawings](roofPolygonTillingDrawing.md) are generated automatically 
 
 ![example of roof tilling drawing](img\roofTillingPlane1.png)
 ![example of roof tilling drawing](img\roofTillingPlane2.png)
-
-### 6. Sharing with the client
-Easy sharing of projects
-Is this written by Jirka or Hanka?
