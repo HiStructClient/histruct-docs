@@ -1,6 +1,10 @@
+---
+sourceLang: cs
+sourceHash: 0089c2c283d0f90664dfd87004d312d2
+autoTranslated: true
+---
 
-# Documntation for HiStruct CAD
 
-Building a hall is an important project that requires attention to design.
+# Histruct Dokumentation
 
-TODO
+Navigation TODO
