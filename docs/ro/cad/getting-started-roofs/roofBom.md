@@ -6,7 +6,7 @@ proofRead: true
 ---
 
 
-# Piecework
+# Bill of material
 Aspectul și opțiunile din listele de materiale (BOM) individuale variază în funcție de producătorul produsului. Pentru a personaliza BOM în funcție de nevoile dumneavoastră specifice, puteți utiliza [proiectul de personalizare](customisationProject.md).
 
 ## Editarea BOM
