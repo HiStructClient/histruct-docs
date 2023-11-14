@@ -1,13 +1,15 @@
 ---
-sourceLang: cs
-sourceHash: 219cf65636a9bea4b8fa3510df55afa1
+sourceLang: en
+sourceHash: 2740b074127fae98231820920bf68afa
 autoTranslated: true
+proofRead: true
 ---
 
-# Ofertă frumoasă și precisă, cum să...
 
-Aspectul și opțiunile de meniu variază în funcție de producătorul produsului. Puteți utiliza [proiectul de personalizare](customisationProject.md) pentru a personaliza meniul în funcție de nevoile dumneavoastră.
+# Citat frumos și precis, cum să...
 
-## Editarea meniului
+Cotațiile variază în funcție de producătorul produsului. Puteți utiliza [proiectul de personalizare](customisationProject.md) proiectul de personalizare pentru a adapta cotațiile la nevoile dvs. specifice.
 
-În prezent, lucrăm la extinderea ajutorului și la adăugarea de informații mai utile. Vă rugăm să aveți răbdare și să vă așteptați ca în curând să sosească alte actualizări cu ajutor extins și mai detaliat. 🚀 Vă mulțumim pentru înțelegere! 😊
+## Editarea cotației
+
+În prezent, lucrăm la extinderea ajutorului și la adăugarea de informații mai utile. Vă rugăm să aveți răbdare și să vă așteptați la noi actualizări care vor sosi în curând cu un ajutor extins și mai detaliat. 🚀 Vă mulțumim pentru înțelegere! 😊 😊

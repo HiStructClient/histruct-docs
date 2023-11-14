@@ -1,8 +1,9 @@
 ---
-sourceLang: cs
-sourceHash: abdc6865b16d3659fe5da583bf908abe
+sourceLang: en
+sourceHash: 6b2be36137b76c0f0ff390526c3662e0
 autoTranslated: true
 ---
+
 
 # Opțiuni de placare
 

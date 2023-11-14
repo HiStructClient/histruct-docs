@@ -7,13 +7,13 @@ import metadataParser from 'markdown-yaml-metadata-parser';
 import yaml from 'js-yaml';
 
 // Složky s jazyky
-const langFolders = ['cs', 'en', "de"];
+const langFolders = ['cs', 'en', "de", "ro"];
 
 const tranlationDirections = {
     "cs": "en",
     "en": "cs",
     "de": "en",
-    "ro": "cs",
+    "ro": "en",
 }
 
 export function getDefaultSourceLang(targetLang) {
@@ -95,10 +95,11 @@ export function getAllImagesInLangFolder(lang) {
 /**
  * Vrátí seznam souborů, které je potřeba přeložit, protože jsou zastaralé
  * @param {string} lang
+ * @param {string} sourceLang
  * @param {string} prefix
  * @returns {Array<TranslationFile>}
  */
-export function findOutdatedTranslations(lang, prefix) {
+export function findOutdatedTranslations(lang, sourceLang, prefix) {
     if (lang == "all") {
         return langFolders.map(l => findOutdatedTranslations(l)).flat();
     }
@@ -125,14 +126,14 @@ export function findOutdatedTranslations(lang, prefix) {
             const metadataParsed = metadataParser(fileContent).metadata ?? {};
 
             if (metadataParsed.sourceHash && metadataParsed.sourceLang) {
-                const sourceFile = filepath.replace(folder1, path.join(inputDir, metadataParsed.sourceLang));
+                const sourceFile = filepath.replace(folder1, path.join(inputDir, sourceLang));
                 const sourceFileContent = fs.readFileSync(sourceFile, 'utf8');
                 const sourceFileHash = getFileContentHash(sourceFileContent);
 
                 if (sourceFileHash !== metadataParsed.sourceHash) {
                     // console.log(`Soubor ${filepath} je zastaralý!`);
                     filesToTranslate.push({
-                        srcLang: metadataParsed.sourceLang,
+                        srcLang: sourceLang,
                         targetLang: lang,
                         file: filepath.replace(folder1 + path.sep, ''),
                         fileName: filepath.replace(folder1 + path.sep, ''),
@@ -153,14 +154,13 @@ export function findOutdatedTranslations(lang, prefix) {
 }
 
 /// Vrátí seznam souborů, které je potřeba přeložit, protože chybí
-export function findMissingTranslations(lang, prefix) {
+export function findMissingTranslations(lang, sourceLang, prefix) {
     if (lang == "all") {
         return langFolders.map(l => findMissingTranslations(l)).flat();
     }
 
     const filesToTranslate = [];
 
-    const primaryLang = tranlationDirections[lang];
     const folder1 = path.join(outputDir, lang);
     const folder2 = prefix ? path.join(outputDir, lang, prefix) : folder1;
 
@@ -174,12 +174,12 @@ export function findMissingTranslations(lang, prefix) {
         return [];
     }
 
-    const allFiles = getAllFilesInLangFolder(primaryLang, prefix, false);
+    const allFiles = getAllFilesInLangFolder(sourceLang, prefix, false);
 
     for (const file of allFiles) {
         if (!fs.existsSync(path.join(folder1, file))) {
             filesToTranslate.push({
-                srcLang: primaryLang,
+                srcLang: sourceLang,
                 targetLang: lang,
                 file: file,
                 fileName: file.replace(folder1 + path.sep, ''),
@@ -196,15 +196,15 @@ export function findMissingTranslations(lang, prefix) {
  * @param {string} lang Jazyk, pro který se mají najít soubory
  * @returns {Array<TranslationFile>}
  */
-export function findAllFilesToTranslate(lang, prefix) {
+export function findAllFilesToTranslate(lang, sourceLang, prefix) {
     if (lang == "all") {
-        return langFolders.map(l => findAllFilesToTranslate(l, prefix)).flat();
+        return langFolders.map(l => findAllFilesToTranslate(l, sourceLang, prefix)).flat();
     }
 
     const filesToTranslate = [];
 
-    filesToTranslate.push(...findOutdatedTranslations(lang, prefix));
-    filesToTranslate.push(...findMissingTranslations(lang, prefix));
+    filesToTranslate.push(...findOutdatedTranslations(lang, sourceLang, prefix));
+    filesToTranslate.push(...findMissingTranslations(lang, sourceLang, prefix));
 
     return filesToTranslate;
 }
