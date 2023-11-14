@@ -113,6 +113,7 @@ nav:
 
     - "Příběhy":
       - hbc/stories/bathroomStudio.md
+
   - "Střechy":
     - cad/getting-started-roofs/index.md
     - cad/getting-started-roofs/modellingRoofs.md
@@ -120,15 +121,15 @@ nav:
     - cad/getting-started-roofs/importObj.md
     - cad/getting-started-roofs/convert3dPdfToObj.md
     - cad/getting-started-roofs/convertPdfToDxf.md
-    - cad/getting-started-roofs/roofPolygonGenerator.md      
+    - cad/getting-started-roofs/roofPolygonGenerator.md
     - cad/getting-started-roofs/roofFlashingGenerator.md
     - cad/getting-started-roofs/roofFlashingGutterOptions.md
     - cad/getting-started-roofs/roofFlashingOptions.md
     - cad/getting-started-roofs/roofPolygonTillingDrawing.md
     - cad/getting-started-roofs/roofPolygonTillingOptions.md
-    - cad/getting-started-roofs/customisationProject.md      
+    - cad/getting-started-roofs/customisationProject.md
     - cad/getting-started-roofs/roofQuote.md
-    - cad/getting-started-roofs/roofBom.md      
+    - cad/getting-started-roofs/roofBom.md
 
   - "Script":
     - fcs/index.md
@@ -158,7 +159,7 @@ plugins:
           build: true
           site_name: Documentation
           nav_translations:
-            "Konfigurátor hal": "Building configurator"
+            "Haly": "Buildings"
             "Úvod": "Home"
             "Příběhy": "Stories"
             "Průvodce návrhem haly": "Building design guide"

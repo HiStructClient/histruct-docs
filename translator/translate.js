@@ -54,14 +54,16 @@ function walkSync(dir, callback) {
 /**
  * Vrátí seznam souborů v daném jazyce
  * @param {string} lang
+ * @param {string} prefix
  * @param {boolean} includeAutoTranslated
  * @returns {Array<string>}
  */
-export function getAllFilesInLangFolder(lang, includeAutoTranslated = true) {
+export function getAllFilesInLangFolder(lang, prefix, includeAutoTranslated = true) {
     const folder = path.join(inputDir, lang);
+    const folder2 = path.join(inputDir, lang, prefix);
     const files = [];
 
-    walkSync(folder, (filepath, stat) => {
+    walkSync(folder2, (filepath, stat) => {
         if (stat.isFile() && filepath.endsWith('.md')) {
             const content = fs.readFileSync(filepath, 'utf8');
             const meta = metadataParser(content).metadata ?? { autoTranslated: false };
@@ -92,9 +94,10 @@ export function getAllImagesInLangFolder(lang) {
 /**
  * Vrátí seznam souborů, které je potřeba přeložit, protože jsou zastaralé
  * @param {string} lang
+ * @param {string} prefix
  * @returns {Array<TranslationFile>}
  */
-export function findOutdatedTranslations(lang) {
+export function findOutdatedTranslations(lang, prefix) {
     if (lang == "all") {
         return langFolders.map(l => findOutdatedTranslations(l)).flat();
     }
@@ -102,13 +105,19 @@ export function findOutdatedTranslations(lang) {
     const filesToTranslate = [];
 
     const folder1 = path.join(outputDir, lang);
+    const folder2 = prefix ? path.join(outputDir, lang, prefix) : folder1;
 
     if (!fs.existsSync(folder1)) {
         console.log(`Jazyk '${lang}' nemá složku!`);
         return [];
     }
 
-    walkSync(folder1, (filepath, stat) => {
+    if (!fs.existsSync(folder2)) {
+        console.log(`Jazyk '${lang}' nemá složku '${prefix}'!`);
+        return [];
+    }
+
+    walkSync(folder2, (filepath, stat) => {
         if (stat.isFile() && filepath.endsWith('.md')) {
 
             const fileContent = fs.readFileSync(filepath, 'utf8')?.trim().replace(/\r?\n/g, "\n");
@@ -124,7 +133,7 @@ export function findOutdatedTranslations(lang) {
                     filesToTranslate.push({
                         srcLang: metadataParsed.sourceLang,
                         targetLang: lang,
-                        file: filepath,
+                        file: filepath.replace(folder1 + path.sep, ''),
                         fileName: filepath.replace(folder1 + path.sep, ''),
                         reason: "outdated",
                     });
@@ -143,7 +152,7 @@ export function findOutdatedTranslations(lang) {
 }
 
 /// Vrátí seznam souborů, které je potřeba přeložit, protože chybí
-export function findMissingTranslations(lang) {
+export function findMissingTranslations(lang, prefix) {
     if (lang == "all") {
         return langFolders.map(l => findMissingTranslations(l)).flat();
     }
@@ -152,13 +161,19 @@ export function findMissingTranslations(lang) {
 
     const primaryLang = tranlationDirections[lang];
     const folder1 = path.join(outputDir, lang);
+    const folder2 = prefix ? path.join(outputDir, lang, prefix) : folder1;
 
     if (!fs.existsSync(folder1)) {
         console.log(`Jazyk '${lang}' nemá složku!`);
         return [];
     }
 
-    const allFiles = getAllFilesInLangFolder(primaryLang, false);
+    if (!fs.existsSync(folder2)) {
+        console.log(`Jazyk '${lang}' nemá složku '${prefix}'!`);
+        return [];
+    }
+
+    const allFiles = getAllFilesInLangFolder(primaryLang, prefix, false);
 
     for (const file of allFiles) {
         if (!fs.existsSync(path.join(folder1, file))) {
@@ -180,15 +195,15 @@ export function findMissingTranslations(lang) {
  * @param {string} lang Jazyk, pro který se mají najít soubory
  * @returns {Array<TranslationFile>}
  */
-export function findAllFilesToTranslate(lang) {
+export function findAllFilesToTranslate(lang, prefix) {
     if (lang == "all") {
-        return langFolders.map(l => findAllFilesToTranslate(l)).flat();
+        return langFolders.map(l => findAllFilesToTranslate(l, prefix)).flat();
     }
 
     const filesToTranslate = [];
 
-    filesToTranslate.push(...findOutdatedTranslations(lang));
-    filesToTranslate.push(...findMissingTranslations(lang));
+    filesToTranslate.push(...findOutdatedTranslations(lang, prefix));
+    filesToTranslate.push(...findMissingTranslations(lang, prefix));
 
     return filesToTranslate;
 }
@@ -222,7 +237,7 @@ async function translaleDeepl(text, srcLang, targetLang) {
         // Překlad pomocí Deepl
         const translated = await translatorDeepl.translateText(text, srcLang, targetLangDeepl);
 
-        return translated;
+        return translated.text;
 }
 
 /** @type {openai.OpenAI} */
@@ -270,6 +285,16 @@ async function translateChatGpt(text, srcLangKey, targetLangKey) {
     }
   }
 
+async function translateText(text, serviceName, srcLang, targetLang) {
+    if (serviceName === 'deepl') {
+        return translaleDeepl(text, srcLang, targetLang);
+    } else if (serviceName === 'chatgpt') {
+        return translateChatGpt(text, srcLang, targetLang);
+    } else {
+        throw new Error(`Neznámá služba pro překlad: ${serviceName}`);
+    }
+}
+
 /**
  * Přeloží soubor
  * @param {TranslationFile} fileData
@@ -286,26 +311,20 @@ export async function translateFile(fileData, serviceName = 'deepl') {
     const outputPath = path.join(outputDir, targetLang, fileName);
     const text = fs.readFileSync(inputPath, 'utf8');
 
-    if (!text) {
-        return false;
-    }
+    let translated = "";
 
     // Přeložit soubor
     try {
-        if (serviceName === 'deepl') {
-            var translated = await translaleDeepl(text, srcLang, targetLang);
-        } else if (serviceName === 'chatgpt') {
-            translated = await translateChatGpt(text, srcLang, targetLang);
-        } else {
-            throw new Error(`Neznámá služba pro překlad: ${serviceName}`);
+        if (text) {
+            translated = await translateText(text, serviceName, srcLang, targetLang);
         }
     } catch (error) {
-        console.error(`Překlad souboru ${fileName} z ${srcLang} do ${targetLang} selhal!`, error);
+        throw new Error(`Překlad souboru ${fileName} z ${srcLang} do ${targetLang} selhal!`, error);
     }
 
     // Uložit informace o překladu do metadat
     const srcFileHash = getFileContentHash(text);
-    let translatedFileContent = saveInfoToMetadata(translated.text, srcLang, srcFileHash);
+    let translatedFileContent = saveInfoToMetadata(translated, srcLang, srcFileHash);
 
     // Uložit přeložený soubor
     fs.mkdirSync(path.dirname(outputPath), { recursive: true });

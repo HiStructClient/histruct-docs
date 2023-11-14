@@ -1,6 +1,6 @@
 ---
 sourceLang: cs
-sourceHash: 45b551bb45740da6145ffeadb59303b5
+sourceHash: 6ef14edb73dcf9785ff5d6c4d7815495
 autoTranslated: true
 ---
 
@@ -35,7 +35,7 @@ We usually start by **choosing the type of roofing, flashing and gutter system**
 
 #### **I only have a few sketches with dimensions 😊**
 
-If I don't have a digital substrate, I have to redraw the roof planes. In order to redraw better, I have several options available. If the roof plane shape is simple, I can [model](modellingRoofs.md) by inserting roof planes of predefined shapes, or directly clip the shape in the modelling space.
+If I don't have a digital substrate available, I have to specify the roof planes. To make it easier to enter, I have a few options. If the roof plane shape is simple, I can [model](modellingRoofs.md) by inserting roof planes of predefined shapes, or seem the general roof plane shape in the modelling space. The general input mode uses tracing and other familiar input tools as in other CAD programs. If the slope is known, the roof planes can be rotated in space and pushed together in space as they actually form the roof. If the roof can be assembled in space with sufficient accuracy, the [flashing and gutter generator](roofFlashingGenerator.md) can be used.
 
 #### **I have a vector drawing of the roof plan 😊😊**
 
@@ -45,9 +45,9 @@ If I have a vector drawing, it will be easier to model. You can [import *.dxf](i
 
 The model from the digital focus is a win. If I have this model in a suitable format (3D *.pdf or directly *.obj), I can import the geometry directly. I can [import *.obj](importObj.md) into HiStruct, or [convert 3D *.pdf to *.obj](convert3dPdfToObj.md) and [import that into HiStruct](importObj.md).
 
-After importing, HiStruct will offer recognized surfaces from which you can choose how to convert them to HiStruct geometry. The [Surface Generator](roofPolygonGenerator.md) then performs the conversion to roof or wall cladding surfaces, which can then be worked on in the normal way
+After importing, HiStruct will offer recognized surfaces from which you can choose how to convert them to HiStruct geometry. The [Surface Generator](roofPolygonGenerator.md) then performs the conversion to roof or wall cladding surfaces, which can then be worked on in the normal way.
 
-After the roof surfaces have been generated, I can use [roofFlashingGenerator.md](roofFlashingGenerator.md).
+After the roof surfaces have been generated, I can still use [roofFlashing Generator](roofFlashingGenerator.md). This method of input is almost work-free.
 
 #### **Simple shape 😊😊😊**
 
@@ -57,11 +57,11 @@ Rectangular roof types for the increasingly popular bungalows are available in H
 
 For us, libraries of coverings and flashings mean not only size and colour, but a whole approach to cladding specific roof areas. Thanks to the variable generator, we are able to enter the specific installation procedure of a particular manufacturer's roofing into the library. We do this as part of [customisation project](customisationProject.md). A well-designed generator then eliminates the necessary interventions in the automatic laying process.
 
-The [RoofPolygonTilling](roofPolygonTillingOptions.md) takes place automatically according to the configuration settings of the roofing. It is also possible to set the start of the laying (left, right, center to centerline, center to panel edge) to achieve the smallest cut. The information about the ratio of the cut to the roof plane area is displayed during the laying adjustments.
+The [RoofPolygonTilling](roofPolygonTillingOptions.md) takes place automatically according to the configuration settings of the roofing. It is also possible to set the start of the laying (left, right, center to centerline, center to panel edge) to achieve the smallest cut. The information about the ratio of the cut to the roof plane area is displayed during the installation adjustments.
 
 ### 4. How to trim and gutter system?
 
-Of course, [flashings, flashings](roofFlashingOptions.md) and [gutter system](roofFlashingGutterOptions.md) can be specified anywhere in the space by grabbing onto already specified roof surfaces, imported geometry or other objects. In addition, it is possible to use the addition of edges to individual sides of roof planes, or directly to the [generator over a group of roof planes](roofFlashingGenerator.md). For the generated elements, the slope of the associated roof planes is automatically adjusted, thus correctly setting the bending angles of the flashings and hooks of the eaves system.
+You can of course specify [flashings, flashings](roofFlashingOptions.md) and [gutter system](roofFlashingGutterOptions.md) anywhere in the space by grabbing onto already specified roof surfaces, imported geometry or other objects. In addition, it is possible to use the addition of edges to individual sides of roof planes, or directly to the [generator over a group of roof planes](roofFlashingGenerator.md). For the generated elements, the slope of the associated roof planes is automatically adjusted, thus correctly setting the bending angles of the flashings and hooks of the eaves system.
 
 HiStruct includes comprehensive [gutter system settings](roofFlashingGutterOptions.md) options. By specifying a polyline defining the downstream gutter, the gutter slope can be set. For each part of the gutter, we also set the slope of the downstream roof plane for the correct calculation of the bend and hook length. It is possible to add clamps to each gutter section, which have additional [setting options](roofFlashingGutterOptions.md).
 
@@ -82,5 +82,5 @@ The [Layout Drawings](roofPolygonTillingDrawing.md) are generated automatically 
 ![example of roof tilling drawing](img\roofTillingPlane2.png)
 
 ### 6. Sharing with the client
-
+Easy sharing of projects
 Is this written by Jirka or Hanka?

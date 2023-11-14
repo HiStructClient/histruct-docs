@@ -1,6 +1,6 @@
 ---
 sourceLang: cs
-sourceHash: dbe0dc3cca5a7f9891e8d00de079d8a2
+sourceHash: abdc6865b16d3659fe5da583bf908abe
 autoTranslated: true
 ---
 
@@ -10,7 +10,7 @@ Depending on the type of cladding chosen for a particular roof or wall area, the
 
 ## Sheet metal strip generator
 
-The sheet metal strip generator places the selected covering along the base of the area. The generator can be set for the entire cladding area or, some settings are then available by clicking on an individual strip. In the editing mode, the proportion of the total area of the strips and the cladding area is always displayed.
+The sheet metal strip generator places the selected covering along the base of the area. The generator can be set for the entire cladding area or, some settings are then available by clicking on an individual strip. In the editing mode, the proportion of the total strip area to the sheathed area is always displayed.
 
 ![Generator strip tiler](img\generatorStripTiler.png)
 
