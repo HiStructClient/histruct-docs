@@ -21,19 +21,19 @@ HiStruct lze rozsáhle přizpůsobit. Systém kladení střešních tvarovek, le
 
 ### 1. Založím projekt s mapou nebo bez
 
-Zpracovávám novou poptávku. První co chci udělat je založit nový projekt. Projekt je místo které může obsahovat jednu nebo více kompoponent - 3D modelů, tedy konfigurací, variant nebo částí. Stránka s projekty má dva pohledy. Defaultní pohled je prostý výpis založených projektů s komponentami. Pokud chci u projektu ukládat i umístění, můžu využít mapový pohled na projekty kde lze zadat i umístění z mapy.
+Zpracovávám novou poptávku. První co chci udělat je založit nový projekt. Projekt je místo, které může obsahovat jednu nebo více komponent - 3D modelů, tedy konfigurací, variant nebo částí. Stránka s projekty má dva pohledy. Defaultní pohled je prostý výpis založených projektů s komponentami. PPokud chci u projektu ukládat i umístění, mohu využít mapový pohled na projekty, kde lze zadat i umístění z mapy.
 
 ### 2. Modelování střešních ploch
 
-Začínáme většinou **volbou typu krytiny, lemovek a okapového systému** (ta lze následně měnit) z knihoven. Následuje tvorba modelu střechy z jednotlivých střešních rovin, případně pokročilejšími způsoby modelování. Vhodný způsob modelování se odvíjí od toho jaká podklady máme pro danou poptávku k dispozici. Platí čím lepší podklady tím méně práce modelování zabere.
+Začínáme většinou **volbou typu krytiny, lemovek a okapového systému** (ta lze následně měnit) z knihoven. Následuje tvorba modelu střechy z jednotlivých střešních rovin, případně pomocí pokročilejších metod modelování. Vhodný způsob modelování závisí na dostupných podkladech pro konkrétní poptávku. Platí, že čím kvalitnější jsou podklady, tím efektivněji lze provést samotný proces modelování.
 
 #### **Mám jen pár náčrtků s rozměry 😊**
 
-Pokud nemám k dispozici digitální podklad, musím střešní roviny zadat. Aby se zadávalo lépe, mám k dispozici několik možností. Pokud je tvar střešní plochy jednoduchý, můžu si [modelovat](modellingRoofs.md) vkládáním střešních ploch předvolených tvarů, nebo zdat obecný tvar střešní plochy v modelovacím prostoru. V módu obecného zadání se využívá trasování a dalších známých pomůcek zadání jako v ostatních CAD programech. Pokud je znám sklon, je možné střešní roviny naotáčet v prostoru a naposouvat v prostoru k sobě tak jak skutečně tvoří střechu. Pokud se podaří sestavit střechu v prostoru s dostatečnou přesností, lze použít  [generátor lemovek a okapového systému](roofFlashingGenerator.md).
+Pokud je tvar střechy jednoduchý, mohu jej [modelovat](modellingRoofs.md) vkládáním střešních ploch s předdefinovanými tvary nebo vytvořit obecný tvar střešní plochy v modelovacím prostoru. V režimu obecného zadání se využívá trasování a dalších známých nástrojů pro zadávání, podobně jako v ostatních CAD programech. Pokud je znám sklon, je možné střešní roviny naotáčet a naposouvat v prostoru tak, aby odpovídaly skutečnému tvaru střechy. Pokud se podaří sestavit střechu v prostoru s dostatečnou přesností, lze použít  [generátor lemovek a okapového systému](roofFlashingGenerator.md).
 
 #### **Mám vektorový výkres půdorysu střechy 😊😊**
 
-Pokud mám k dispozici vektorový výkres, bude se mi modelovat snadněji. Do HiStruct lze [importovat *.dxf](importDxf.md), případně [převést vektorové *.pdf na *.dxf](convertPdfToDxf.md) a to [naimportovat do HiStruct](importDxf.md). Na importované *.dxf se lze přichytávat, zadání jednotlivých střešních ploch pak probíhá oklikáním půdorysu s doplněním sklonu pro každou střešní plochu. Výhodou je přesnost a snadné zhotovení 3D modelu. Téměř vždy lze použít [generátor lemovek a okapového systému](roofFlashingGenerator.md).
+Pokud mám k dispozici vektorový výkres, bude se mi modelovat snadněji. Do HiStruct lze importovat [soubory ve formátu *.dxf](importDxf.md), případně převést vektorové[ *.pdf na *.dxf](convertPdfToDxf.md) a to [naimportovat do HiStruct](importDxf.md). Importované *.dxf umožňuje snadné přichytávání a zadávání jednotlivých střešních ploch probíhá oklikáním půdorysu s možností doplnění sklonu pro každou střešní plochu. Výhodou je přesnost a snadné zhotovení 3D modelu. Téměř vždy lze použít [generátor lemovek a okapového systému](roofFlashingGenerator.md).
 
 #### **Mám 3D model z digitálního zaměření 😊😊😊**
 
@@ -51,7 +51,7 @@ Obdélníkové typy střech na stále oblíbenější bungalovy jsou v HiStruct 
 
 Knihovny krytin a lemovek pro nás znamenají nejen velikost a barvu, ale celý přístup k opláštění konkrétních střešních ploch. Do knihovny jsme díky variabilnímu generátoru schopni zanést konkrétní montážní postup dané krytiny konkrétního výrobce. Toto děláme v rámci [projektu přizpůsobení](customisationProject.md). Kvalitně vytvořený generátor následně eliminuje nutné zásahy do automatického kladení.
 
-[Kladení střeních tvarovek](roofPolygonTillingOptions.md) probíhá automaticky podle konfiguračního nastavení krytiny. Lze dále nastavovat počátek kladení (zleva, zprava, střed na osu, střed na hranu panelu) tak aby bylo dosaženo nejmenšího prořezu. Informace o poměru prořezu ku ploše střešní roviny je zobrazena během úprav kladení.
+[Kladení střeních tvarovek](roofPolygonTillingOptions.md) probíhá automaticky podle konfiguračního nastavení krytiny. Dále je možné upravovat počátek kladení (zleva, zprava, střed na osu, střed na hranu panelu) tak, aby byl dosažen nejmenší možný prořez. Informace o poměru prořezu k ploše střešní roviny jsou zobrazeny během úprav kladení.
 
 ### 4. Jak na lemovky a okapový systém?
 
