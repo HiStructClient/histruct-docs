@@ -1,12 +1,13 @@
 ---
-sourceLang: cs
-sourceHash: 595b3a622e4f84016cafefbdd34d7598
+sourceLang: en
+sourceHash: 2e8ed622f97bf57cee474a2d51ef0304
 autoTranslated: true
 ---
 
+
 # Sistem de jgheaburi
 
-Sistemul de streașină este unul dintre elementele cheie ale structurii acoperișului, al cărui rol principal este de a proteja structura acoperișului de efectele negative ale apei. Acest element structural important include mai multe componente, cum ar fi jgheaburile, burlanele și burlanele de scurgere, care împreună formează un sistem de drenare adecvată a apei de pe suprafața acoperișului. În acest articol vom analiza modul în care un sistem de jgheaburi poate fi modelat în cadrul HiStruct.
+Sistemul de jgheaburi este unul dintre elementele cheie ale structurii acoperișului, al cărui rol principal este de a proteja structura acoperișului de efectele negative ale apei. Acest element structural important include mai multe componente, cum ar fi jgheaburile, burlanele și burlanele de scurgere, care împreună formează un sistem pentru scurgerea corespunzătoare a apei de pe suprafața acoperișului. În acest articol vom analiza modul în care un sistem de jgheaburi poate fi modelat în cadrul HiStruct.
 
 ![Jgheab de scurgere](img/flashingGutter.png)
 
@@ -16,7 +17,7 @@ Există mai multe opțiuni pentru modelarea sistemului de jgheaburi în HiStruct
 
 ## Ajustarea geometriei jgheaburilor și a burlanelor
 
-Sistemul de jgheaburi poate fi modificat din punct de vedere al geometriei. Aveți opțiunea de a muta vârfurile polilinii, ceea ce vă permite să modificați poziția jgheabului, și puteți, de asemenea, să ajustați unghiul de îndoire al cârligelor jgheabului.   Generatorul face acest lucru în mod automat, dar puteți modifica acest lucru făcând clic pe *Edit* și apoi pe *Geometry*, unde puteți modifica unghiul sau poziția polilinii. Modificarea unghiului și a geometriei se face într-un mod similar cu editarea [roofFlashing](roofFlashingOptions.md). În plus, făcând clic pe *Edit* și selectând jgheabul, puteți modifica panta jgheabului. Acest lucru va asigura că jgheabul are panta corectă pentru o scurgere eficientă a apei de ploaie. Ultimul parametru pe care îl puteți modifica este lățimea de acoperire. Această valoare determină lățimea foii de jgheab și afectează aspectul și funcția sistemului de jgheaburi.
+Sistemul de jgheaburi poate fi modificat din punct de vedere al geometriei. Aveți opțiunea de a muta vârfurile polilinii, ceea ce vă permite să modificați poziția jgheabului, și puteți, de asemenea, să ajustați unghiul cârligelor jgheabului.   Generatorul face acest lucru în mod automat, dar puteți modifica acest lucru făcând clic pe *Edit* și apoi pe *Geometry*, unde puteți modifica unghiul sau poziția polilinii. Modificarea unghiului și a geometriei se face într-un mod similar cu editarea [roofFlashing](roofFlashingOptions.md). În plus, făcând clic pe *Edit* și selectând jgheabul, puteți modifica panta jgheabului. Acest lucru va asigura că jgheabul are panta corectă pentru o scurgere eficientă a apei de ploaie. Ultimul parametru pe care îl puteți modifica este lățimea de acoperire. Această valoare determină lățimea foii de jgheab și afectează aspectul și funcția sistemului de jgheaburi.
 
 ![Proprietățile jgheabului cu bliț](img/flashingGutterProperties.png)
 
@@ -24,9 +25,9 @@ Sistemul de jgheaburi poate fi modificat din punct de vedere al geometriei. Ave�
 
 După ce faceți clic pe butonul *Edit* și selectați un jgheab, se va deschide meniul de editare a jgheaburilor HiStruct. Acest meniu oferă mai multe opțiuni de modificare a geometriei jgheabului, permițându-vă să personalizați jgheabul în funcție de cerințele dumneavoastră specifice.
 
-- **Change Distance to Wall**: Puteți modifica distanța jgheabului, permițându-vă să adăugați coturi și să aduceți jgheabul mai aproape de perete.
+- **Modificați distanța față de perete**: Puteți modifica distanța jgheabului, permițându-vă să adăugați coturi și să aduceți jgheabul mai aproape de perete.
 
-- **Extend Downspout**: Gura de scurgere poate fi extinsă fie prin intermediul casetei de dialog, fie prin simpla tragere a punctelor verzi de pe gura de scurgere.
+- **Extindem jgheabul de coborâre**: Gura de scurgere poate fi extinsă fie prin intermediul casetei de dialog, fie prin simpla tragere a punctelor verzi de pe gura de scurgere.
 
 - **Schimbarea poziției jgheabului**: De asemenea, puteți schimba cu ușurință poziția jgheabului selectând jgheabul și apoi deplasându-l cu mouse-ul.
 

@@ -1,10 +1,11 @@
 ---
-sourceLang: cs
-sourceHash: bf6839ca11df4a357d6b728092bb4b3f
+sourceLang: en
+sourceHash: ad025535e5971d0f522d8bd1e5e9517c
 autoTranslated: true
 ---
 
-# Acoperișuri și sclipiri
+
+# Acoperișuri și borduri
 
 Învelișul acoperișului și adăugarea de blițuri la un proiect de acoperiș sunt pași esențiali în crearea unui proiect de acoperiș de calitate. Fără aceste detalii, ar fi imposibil să se prețuiască în mod corespunzător structura acoperișului. În HiStruct, avem două opțiuni pentru dvs.: puteți adăuga manual solnițe pe fiecare parte a planului de acoperiș sau puteți utiliza [Generator de solnițe pentru acoperiș](roofFlashingGenerator.md) pentru un întreg grup de planuri de acoperiș. Modelarea solnițelor și a flashingurilor individuale este ușoară și vă voi arăta cum să o faceți.
 
@@ -50,12 +51,12 @@ O garnitură de coamă este un element de acoperiș care este folosit pentru a a
 
 ![Flashing ridge cap](img/flashingRidgeCap.png)
 
-### Jgheabul
-O șuviță este un punct de pe un acoperiș în care două suprafețe de acoperiș se întâlnesc pentru a forma o vale. Această caracteristică este folosită pentru a evacua apa și zăpada și pentru a proteja clădirea de infiltrarea umidității.
+### A ridge cap
+O vale este un punct de pe un acoperiș în care două suprafețe de acoperiș se întâlnesc pentru a forma o vale. Această caracteristică este folosită pentru a evacua apa și zăpada și pentru a proteja clădirea de infiltrarea umidității.
  
-![Valea de scurgere](img/flashingValley.png)
+![Flashing valley](img/flashingValley.png)
 
-###Estrăpătoare
+###Eaves
 Un jgheab este un element structural situat la marginea unui acoperiș care are rolul de a controla fluxul de apă de ploaie într-un jgheab sau în jgheaburile de scurgere, protejând astfel clădirea de daunele cauzate de apa care curge în structura acoperișului.
 
 

@@ -40,7 +40,7 @@ if (argCommand === "help") {
 
     } else {
 
-        const files = t.findAllFilesToTranslate(argLang, prefix);
+        const files = t.findAllFilesToTranslate(argLang, sourceLang, prefix);
 
         console.log(`Translating ${files.length} files in '${argLang}' lang folder...`);
         t.run(files, service).then(() => {
@@ -54,11 +54,11 @@ if (argCommand === "help") {
     console.log(`All files in '${argLang}' lang folder:`);
     console.log(t.getAllImagesInLangFolder(argLang, prefix));
 } else if (argCommand === "missing") {
-    console.log(t.findMissingTranslations(argLang, prefix).map(t => t.targetLang + ": " + t.file + " (" + t.reason + ")").join("\n"));
+    console.log(t.findMissingTranslations(argLang, sourceLang, prefix).map(t => t.targetLang + ": " + t.file + " (" + t.reason + ")").join("\n"));
 } else if (argCommand === "obsolete") {
-    console.log(t.findOutdatedTranslations(argLang, prefix).map(t => t.targetLang + ": " + t.file + " (" + t.reason + ")").join("\n"));
+    console.log(t.findOutdatedTranslations(argLang, sourceLang, prefix).map(t => t.targetLang + ": " + t.file + " (" + t.reason + ")").join("\n"));
 } else if (argCommand === "forTranslation") {
-    console.log(t.findAllFilesToTranslate(argLang, prefix).map(t => t.targetLang + ": " + t.file + " (" + t.reason + ")").join("\n"));
+    console.log(t.findAllFilesToTranslate(argLang, sourceLang, prefix).map(t => t.targetLang + ": " + t.file + " (" + t.reason + ")").join("\n"));
 } else {
     console.log("Unknown command: " + argCommand);
     process.exit(1);
