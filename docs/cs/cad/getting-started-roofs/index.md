@@ -10,8 +10,8 @@ Slouží k rychlému sestavení nabídky, výkazu materiálu a kladečských pl�
 1. Namodeluji střešní plochy překreslením nebo si pomůžu importem
 1. Upravím vygenerované kladení
 1. Navolím lemovky a okapový systém nebo jej nechám automaticky vygenerovat
-1. Upravím krásnou nabídku, která nám vyhraje zakázku
-1. Sdílím projekt se zákazníkem
+1. Kusovníky, dokumenty, výkresy
+
 
 Hotovo, jdu na kávičku 😊
 
@@ -19,9 +19,9 @@ HiStruct lze rozsáhle přizpůsobit. Systém kladení střešních tvarovek, le
 
 ## Tak a teď podrobněji...
 
-### 1. Zpracovávám novou poptávku
+### 1. Založím projekt s mapou nebo bez
 
-Toto napíše Jirka nebo Hanka?
+Zpracovávám novou poptávku. První co chci udělat je založit nový projekt. Projekt je místo které může obsahovat jednu nebo více kompoponent - 3D modelů, tedy konfigurací, variant nebo částí. Stránka s projekty má dva pohledy. Defaultní pohled je prostý výpis založených projektů s komponentami. Pokud chci u projektu ukládat i umístění, můžu využít mapový pohled na projekty kde lze zadat i umístění z mapy.
 
 ### 2. Modelování střešních ploch
 
@@ -74,7 +74,3 @@ Generovaný kusovník doplněný napojením na ceník výrobce může být souč
 
 ![example of roof tilling drawing](img\roofTillingPlane1.png)
 ![example of roof tilling drawing](img\roofTillingPlane2.png)
-
-### 6. Sdílení s klientem
-Snadné sdílení projektů
-Toto napíše Jirka nebo Hanka?
