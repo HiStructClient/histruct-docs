@@ -6,30 +6,30 @@ proofRead: true
 ---
 
 
-# Importul modelului OBJ
-Modelele 3D ale clădirilor au un potențial uriaș, fie că planificați un proiect nou sau renovați o clădire existentă. Utilizarea unui model OBJ în HiStruct vă poate accelera semnificativ munca și vă poate oferi rezultate precise. Dar cum se face acest lucru? De fapt, este destul de simplu și vă voi arăta cum să creați rapid un acoperiș folosind un model în format OBJ.
+# Importul unui model OBJ
+Modelele de clădiri 3D au un potențial uriaș, indiferent dacă planificați un proiect nou sau renovarea unei clădiri existente. Utilizarea unui model OBJ în HiStruct poate accelera semnificativ munca dvs. și vă poate oferi rezultate precise. Dar cum să faci asta? De fapt, este destul de simplu și vă voi arăta cum să creați rapid un acoperiș folosind un model în format OBJ.
 
-## De unde puteți obține un astfel de model?
-Există o mulțime de servicii care îți permit să obții un model 3D al casei tale, fie că folosești imagini din satelit sau chiar cu ajutorul dronelor. Rezultatul acestor măsurători este, de obicei, un model în format OBJ. Pentru demonstrația noastră, voi folosi unul dintre modelele disponibile gratuit pe internet pentru a vă arăta cum să creați un acoperiș.
+## De unde să obțineți un astfel de model?
+Există multe servicii care vă permit să obțineți un model 3D al casei dvs., fie utilizând imagini satelitare, fie chiar utilizând drone. Rezultatul acestor măsurători este, în mod obișnuit, un model în format OBJ. Pentru demonstrația noastră, voi utiliza unul dintre modelele disponibile gratuit de pe internet pentru a vă arăta cum să creați un acoperiș.
 
 ![Model OBJ](img/objModelBase.png)
 
-## Cum se introduce OBJ în HiStruct?
-Dacă aveți un model în format OBJ, îl puteți importa cu ușurință în proiectul dvs. Trebuie doar să faceți clic pe butonul *Import* și să selectați fișierul cu extensia **.obj*.
+## Cum să inserați un obiect OBJ în HiStruct?
+Dacă aveți un model în format OBJ, îl puteți importa ușor în proiectul dvs. Doar dați clic pe butonul *Import* și selectați fișierul cu extensia **.obj*.
 
 ![Butonul de import](img/importButton.png)
 
-### Rotiți modelul și modificați scara
+### Rotiți modelul și schimbați scara
 
-După import, este important să rotiți corect modelul. Puteți face acest lucru folosind instrumentele pe care le folosiți pentru alte obiecte din HiStruct. În continuare, va trebui să modificați scara modelului OBJ, ceea ce se face cu ușurință cu ajutorul butonului *Edit*.
+După import, este important să rotiți corect modelul. Puteți face acest lucru folosind instrumentele pe care le utilizați pentru alte obiecte în HiStruct. Apoi, va trebui să schimbați scara modelului OBJ, ceea ce este ușor de făcut folosind butonul *Editare*.
 
-![Edit Scale](img/externalObjectEdit.png)
+![Editare scară](img/externalObjectEdit.png)
 
 ## Cum să adăugați un acoperiș la model?
-Puteți modela un acoperiș pe un fișier *.obj importat prin adăugarea incrementală a planurilor acoperișului. Pur și simplu faceți clic pe vârfuri folosind instrumentul [the general roof shape](modellingRoofs.md).
+Puteți modela un acoperiș pe un fișier *.obj importat prin adăugarea treptată a planurilor de acoperiș. Pur și simplu dați clic pe vârfurile utilizând instrumentul [forma generală a acoperișului](modellingRoofs.md).
 
-![Model creat cu obiectul](img/objModel.png)
+![Model creat cu obiect](img/objModel.png)
 
-În acest fel, puteți crea un model 3D detaliat cu care puteți utiliza aproape întotdeauna [generatorul de jgheaburi și burlane](roofFlashingGenerator.md).
+În acest fel, puteți crea un model 3D detaliat cu care puteți utiliza aproape întotdeauna [generatorul de casete și jgheaburi](roofFlashingGenerator.md).
 
 ![Model cu sisteme de jgheaburi](img/objModelFlashings.png)

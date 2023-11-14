@@ -6,10 +6,10 @@ proofRead: true
 ---
 
 
-# Bill of material
+# Lista de materiale
 
-Aspectul și opțiunile din listele de materiale (BOM) individuale variază în funcție de producătorul produsului. Pentru a personaliza BOM în funcție de nevoile dumneavoastră specifice, puteți utiliza [proiectul de personalizare](customisationProject.md).
+Aspectul și opțiunile listelor de materiale (BOM) individuale pot varia în funcție de producătorul produsului. Pentru a personaliza BOM-ul conform nevoilor dvs. specifice, puteți utiliza [proiectul de personalizare](customisationProject.md).
 
-## Editarea BOM
+## Editarea BOM-ului
 
-În prezent, lucrăm la extinderea ajutorului și la adăugarea mai multor informații utile. Vă rugăm să aveți răbdare și să vă așteptați la mai multe actualizări care vor sosi în curând cu un ajutor extins și mai detaliat. 🚀 Vă mulțumim pentru înțelegere! 😊 😊
+Lucrăm în prezent la extinderea ajutorului și adăugarea de informații utile. Vă rugăm să aveți răbdare și să vă așteptați ca în curând să sosească mai multe actualizări cu ajutor extins și mai detaliat. 🚀 Vă mulțumim pentru înțelegere! 😊

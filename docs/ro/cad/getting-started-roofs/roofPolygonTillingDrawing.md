@@ -5,24 +5,22 @@ autoTranslated: true
 ---
 
 
-# Desenul de tasare a planului acoperișului
-Desenul Tilling al planului acoperișului este o parte esențială a procesului de proiectare a clădirii, permițând ca planurile de proiectare să fie transpuse în proiectare practică pe acoperiș. Acest desen servește drept ghid detaliat pentru constructori la instalarea unui sistem de acoperiș și conține informații importante privind amplasarea materialelor, conexiunile și toate aspectele tehnice care sunt esențiale pentru o construcție de acoperiș de calitate și sigură.
+# Desenarea acoperișului printr-o gresie
+Desenarea planului acoperișului prin gresie este o parte esențială a procesului de proiectare a clădirilor, permițând traducerea planurilor de design într-un design practic pe acoperiș. Acest desen servește ca ghid detaliat pentru constructori în momentul instalării unui sistem de acoperiș și conține informații importante despre amplasarea materialelor, conexiuni și toate aspectele tehnice care sunt esențiale pentru o construcție de calitate și sigură a acoperișului.
 
-În HiStruct, desenele complete pentru toate planurile acoperișului sunt generate automat pe baza modelului 3D. Pentru a edita aceste desene, este suficient să apăsați butonul *Drawing*.
+În HiStruct, se generează automat desene complete pentru toate planurile acoperișului, bazate pe modelul 3D. Pentru a edita aceste desene, apăsați pur și simplu butonul *Desenare*.
 
 
-![Alt text](img/drawingsRoofTilling.png)
+![Text alternativ](img/drawingsRoofTilling.png)
 
-## Adaugă dimensiune
+## Adăugarea unei dimensiuni
 
-Cota poate fi introdusă făcând clic pe butonul *Dimension*, selectând două puncte pentru care dorim să determinăm cota și apoi specificând distanța liniei de conducere. După ce se face clic pe cotă, este posibil nu numai să se schimbe culoarea acesteia, ci și să se determine direcția în care va fi măsurată cota. Direcția poate fi setată la *X*, *Y* sau *Default*, care măsoară cea mai scurtă distanță dintre aceste puncte. Alternativ, puteți alege direcția *Angle*, care măsoară dimensiunea la unghiul ales. Ultima opțiune în reglarea cotei este butonul Continue (Continuare), care generează o altă cotă în aceeași direcție.
+Dimensiunea poate fi introdusă făcând clic pe butonul *Dimensiune*, selectând două puncte pentru care dorim să determinăm dimensiunea și specificând apoi distanța liniei. După ce faceți clic pe dimensiune, este posibil nu doar să-i schimbați culoarea, ci și să determinați direcția în care va fi măsurată dimensiunea. Direcția poate fi setată la *X*, *Y* sau *Implicit*, care măsoară distanța cea mai scurtă între aceste puncte. În mod alternativ, puteți alege direcția *Unghi*, care măsoară dimensiunea la unghiul ales. Ultima opțiune în ajustarea dimensiunii este butonul Continuare, care generează o altă dimensiune în aceeași direcție.
 
-În cazul în care este necesară modificarea oricărui punct al cotei, acest lucru este posibil făcând clic pe cotă și mutând punctele galbene.
+Dacă este necesar să editați orice punct al dimensiunii, puteți face acest lucru făcând clic pe dimensiune și mutând punctele galbene.
 
-![Alt text](img/drawingsDimensionsProperties.png)
+![Text alternativ](img/drawingsDimensionsProperties.png)
 
 ## Adăugarea unei linii
 
-Un alt element care poate fi adăugat la desen este [polyline](polylineInput.md). Pentru această linie, se poate modifica doar culoarea.
-
-
+Un alt element care poate fi adăugat la desen este [polilinia](polylineInput.md). Pentru această linie, doar culoarea poate fi modificată.

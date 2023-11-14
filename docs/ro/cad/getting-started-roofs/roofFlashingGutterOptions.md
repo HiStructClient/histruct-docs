@@ -7,36 +7,36 @@ autoTranslated: true
 
 # Sistem de jgheaburi
 
-Sistemul de jgheaburi este un element cheie al structurii acoperișului, rolul său principal fiind protecția construcției acoperișului împotriva efectelor negative ale apei. Acest element de construcție important include mai multe componente, cum ar fi streașina, jgheaburile și jgheaburile, care împreună formează un sistem de drenare adecvată a apei de pe suprafața acoperișului. În acest articol, vom explora opțiunile de modelare a sistemului de jgheaburi din cadrul HiStruct.
+Sistemul de jgheaburi este un element cheie al structurii acoperișului, având rolul principal de a proteja construcția acoperișului împotriva efectelor negative ale apei. Acest element de construcție important include mai multe componente, cum ar fi streșini, burlane și jgheaburi, care formează împreună un sistem pentru drenarea corespunzătoare a apei de pe suprafața acoperișului. În acest articol, vom explora opțiunile de modelare ale sistemului de jgheaburi în cadrul HiStruct.
 
-![Jgheab de scurgere](img/flashingGutter.png)
+![Jgheab futuresc](img/flashingGutter.png)
 
 ## Specificarea unui sistem de jgheaburi
 
-Există mai multe opțiuni pentru modelarea sistemului de jgheaburi în HiStruct. Cel mai rapid mod este să utilizați [generator de jgheaburi și jgheaburi](roofFlashingGenerator.md), care vă permite să creați rapid un sistem complex de jgheaburi și apoi să modificați elementele individuale după cum este necesar. Alternativ, puteți adăuga manual unul sau mai multe jgheaburi folosind [polyline](polylineInput.md), care specifică marginile acoperișului pe care urmează să fie aplicate jgheaburile. Această flexibilitate vă permite să adaptați sistemul de jgheaburi la cerințele specifice ale proiectului.
+Există mai multe opțiuni pentru modelarea sistemului de jgheaburi în HiStruct. Cea mai rapidă modalitate este utilizarea [generatorului de jgheaburi și burlane](roofFlashingGenerator.md), care vă permite să creați rapid un sistem complex de jgheaburi și apoi să modificați elementele individuale după necesități. Alternativ, puteți adăuga manual una sau mai multe jgheaburi utilizând [polilinie](polylineInput.md), care specifică marginile acoperișului pe care se vor aplica jgheaburile. Această flexibilitate vă permite să adaptați sistemul de jgheaburi la cerințele specifice ale proiectului.
 
-## Ajustarea geometriei jgheaburilor și a burlanelor
+## Ajustarea geometriei jgheabului și a burlanului
 
-Sistemul de jgheaburi poate fi modificat din punct de vedere al geometriei. Aveți opțiunea de a muta vârfurile polilinii, ceea ce vă permite să modificați poziția jgheabului, și puteți, de asemenea, să ajustați unghiurile cârligelor jgheabului. Generatorul face acest lucru în mod automat, dar puteți modifica acest lucru făcând clic pe *Edit* și apoi pe *Geometry*, unde puteți modifica unghiul sau edita polilinia. Modificarea unghiului și a geometriei se face într-un mod similar cu editarea [roofFlashing](roofFlashingOptions.md). În plus, făcând clic pe *Edit* și selectând jgheabul, puteți modifica panta jgheabului. Acest lucru va asigura că jgheabul are panta corectă pentru o scurgere eficientă a apei de ploaie. Ultimul parametru pe care îl puteți modifica este lățimea de acoperire. Această valoare determină lățimea foii de jgheab și afectează aspectul și funcția sistemului de jgheaburi.
+Sistemul de jgheaburi poate fi modificat în ceea ce privește geometria. Aveți opțiunea de a muta vârfurile polilinei, ceea ce vă permite să schimbați poziția jgheabului, și puteți ajusta, de asemenea, unghiurile cârligelor jgheabului. Generatorul face acest lucru în mod automat, dar puteți schimba aceasta făcând clic pe *Editare* și apoi *Geometrie*, unde puteți modifica unghiul sau edita polilinia. Schimbarea unghiului și a geometriei se face într-un mod similar cu editarea [flashingului pentru acoperiș](roofFlashingOptions.md). În plus, făcând clic pe *Editare* și selectând jgheabul, puteți modifica înclinarea jgheabului. Aceasta va asigura ca jgheabul să aibă înclinația corectă pentru o drenare eficientă a apei de ploaie. Ultimul parametru pe care îl puteți schimba este lățimea acoperișului. Această valoare determină lățimea foii de jgheab și afectează aspectul și funcționalitatea sistemului de jgheaburi.
 
-![Proprietățile jgheabului cu bliț](img/flashingGutterProperties.png)
+![Proprietăți jgheab futuresc](img/flashingGutterProperties.png)
 
-## Reglarea geometriei jgheabului
+## Ajustarea geometriei jgheabului
 
-Selectând un jgheab și făcând clic pe butonul *Edit*, se va deschide meniul de editare a jgheaburilor HiStruct. Acest meniu oferă mai multe opțiuni de modificare a geometriei jgheabului, permițându-vă să personalizați jgheabul în funcție de cerințele dumneavoastră specifice.
+Prin selectarea unui jgheab și făcând clic pe butonul *Editare*, se va deschide meniul de editare a jgheabului HiStruct. Acest meniu oferă mai multe opțiuni pentru modificarea geometriei jgheabului, permițându-vă să personalizați jgheabul în funcție de cerințele specifice.
 
-- **Change Distance to Wall**: Puteți modifica distanța jgheabului, permițându-vă să adăugați coturi și să aduceți jgheabul mai aproape de perete.
+- **Schimbarea distanței față de perete**: Puteți schimba distanța jgheabului, permițându-vă să adăugați coturi și să aduceți jgheabul mai aproape de perete.
 
-- **Extindem jgheabul de coborâre**: Gura de scurgere poate fi extinsă fie prin intermediul casetei de dialog, fie prin simpla tragere a punctelor verzi de pe gura de scurgere.
+- **Extinderea burlanului**: Burlanul poate fi extins atât prin caseta de dialog, cât și prin simpla tragere a punctelor verzi de pe burlan.
 
-- **Schimbarea poziției jgheabului**: De asemenea, puteți schimba cu ușurință poziția jgheabului selectând jgheabul și apoi deplasându-l cu mouse-ul.
+- **Schimbarea poziției jgheabului**: De asemenea, puteți schimba ușor poziția jgheabului selectând jgheabul și apoi mutându-l cu mouse-ul.
 
-În acest fel, puteți ajusta în mod flexibil geometria jgheabului pentru a se potrivi nevoilor specifice și cerințelor proiectului dumneavoastră.
+În acest fel, puteți ajusta cu flexibilitate geometria jgheabului pentru a se potrivi nevoilor specifice și cerințelor proiectului dumneavoastră.
 
-![Proprietăți ale jgheabului de scurgere a jgheabului](img/flashingGutterDownspoutProperties.png)
+![Proprietăți burlan jgheab futuresc](img/flashingGutterDownspoutProperties.png)
 
 
-## Adăugarea unui jgheab de scurgere a jgheabului
-Coborârile jgheaburilor sunt de obicei generate automat pentru a asigura o scurgere eficientă a apei. Cu toate acestea, dacă doriți să adăugați un jgheab suplimentar, puteți face acest lucru pur și simplu folosind butonul *plus*. Este suficient să faceți clic pe acest buton, iar scurgerea de jgheab va fi adăugată la jgheabul existent pe care l-ați selectat.
+## Adăugarea unui burlan de jgheab
+Burlanele de jgheab sunt de obicei generate automat pentru a asigura o drenare eficientă a apei. Cu toate acestea, dacă doriți să adăugați un burlan suplimentar, puteți face acest lucru pur și simplu utilizând butonul *plus*. Pur și simplu faceți clic pe acest buton și burlanul de jgheab va fi adăugat la jgheabul existent pe care l-ați selectat.
 
-![flashing gutter add downspout](img/flashingGutterAddDownspout.png)
+![Adăugare burlan jgheab futuresc](img/flashingGutterAddDownspout.png)

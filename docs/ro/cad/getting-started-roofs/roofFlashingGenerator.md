@@ -2,18 +2,16 @@
 sourceLang: en
 sourceHash: b265ac7b102d165430f0635e6fc2f8cd
 autoTranslated: true
-proofRead: true
 ---
 
+# Generare de jgheaburi și plăci de etanșare
 
-# Generatorul sistemului de jgheaburi și burlane
+Este special conceput să **economisească timpul** necesar pentru realizarea unui model 3D al plăcilor de etanșare și jgheaburilor pentru geometrii de acoperiș importate sau specificate.
 
-Este conceput în principal pentru a economisi timp** pentru realizarea de modele 3D de jgheaburi și burlane pentru geometrii importate sau specificate ale planului acoperișului.
+Generatorul poate fi folosit și în mod mai general pentru geometrii plane introduse dintr-un desen sau create în întregime manual, și apoi modificate pentru a se potrivi cel mai bine cu marginile planurilor de acoperiș care trebuie acoperite. Nu trebuie să se potrivească perfect, ci trebuie să se încadreze în limitele normale de toleranță.
 
-Generatorul poate fi utilizat, de asemenea, în sens mai larg pentru geometrii plane introduse dintr-un desen sau create în întregime manual, și apoi modificate pentru a se potrivi cât mai bine cu marginile planurilor acoperișului care urmează să fie acoperite. Nu trebuie să se potrivească perfect, dar ar trebui să se încadreze în toleranțele normale.
+![Geometrie sursă pentru generatorul de plăci de etanșare](img/sourceGeometryForFlashingGenerator.png)
 
-![Source geometry for flashing generator](img/sourceGeometryForFlashingGenerator.png)
+HiStruct identifică automat locurile unde sunt necesare plăcile de etanșare pe baza geometriilor planurilor de acoperiș învecinate și generează apoi tipurile corespunzătoare de plăci de etanșare. Aceste plăci generate pot fi apoi modificate ulterior, după cum este necesar.
 
-HiStruct identifică în mod automat locațiile necesare pentru flashing din geometria planurilor de acoperiș apropiate și apoi generează tipurile de flashing corespunzătoare. Aceste flashinguri generate pot fi apoi modificate ulterior, după cum este necesar.
-
-![Generated flashing result](img/generatedFlashingResult.png)
+![Rezultatul generării plăcilor de etanșare](img/generatedFlashingResult.png)

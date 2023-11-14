@@ -7,4 +7,4 @@ proofRead: true
 
 
 # Specificarea unui poligon
-În prezent, lucrăm la extinderea ajutorului și la adăugarea de informații mai utile. Vă rugăm să aveți răbdare și să vă așteptați la mai multe actualizări care vor sosi în curând cu un ajutor extins și mai detaliat. 🚀 Vă mulțumim pentru înțelegere! 😊 😊
+În prezent lucrăm la extinderea ajutorului și adăugarea mai multor informații utile. Vă rugăm să aveți răbdare și să vă așteptați ca în curând să fie disponibile mai multe actualizări cu un ajutor extins și mai detaliat. 🚀 Vă mulțumim pentru înțelegere! 😊

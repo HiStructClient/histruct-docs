@@ -12,7 +12,8 @@
                 "<node_internals>/**"
             ],
             "cwd": "${workspaceFolder}\\translator",
-            "program": "translate.js"
+            "program": "run.js",
+            "args": ["translate", "ro", "--service", "chatgpt"]
         }
     ]
 }

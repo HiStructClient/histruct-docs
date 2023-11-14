@@ -6,21 +6,21 @@ proofRead: true
 ---
 
 
-# Modelarea planului acoperișului
-Modelarea planului acoperișului este o abordare pentru crearea întregului model de acoperiș. Există două metode pentru a face acest lucru. Dacă intenționez să desenez o formă simplă, cel mai simplu este să selectez una dintre formele predefinite. Cu toate acestea, dacă forma planului acoperișului este mai complexă, este recomandabil să folosiți o formă generală de acoperiș.
+# Modelarea planului de acoperiș
+Modelarea planului de acoperiș este o abordare pentru crearea întregului model de acoperiș. Există două metode pentru a face acest lucru. Dacă intenționez să desenez o formă simplă, cel mai ușor este să selectez una dintre formele prestabilite. Cu toate acestea, dacă forma planului de acoperiș este mai complexă, este recomandat să folosesc o formă generală de acoperiș.
 
 ![Forme poligonale](img/rooFPolygonShapes.png)
 
 
-## Forma predefinită
-Vom demonstra cum să creăm un plan de acoperiș folosind forme predefinite pe un plan de acoperiș care are formă trapezoidală. În meniul de forme predefinite, selectez forma corespunzătoare, adică *Trapezoid*, și fac clic pentru a insera forma selectată în scenă. Cu toate acestea, acum trebuie să schimb dimensiunile acestui trapez pentru a se potrivi cu planul acoperișului nostru. Fac acest lucru făcând clic pe butonul *Edit*, unde pot modifica cu ușurință dimensiunile individuale ale trapezului nostru.
-Dacă am o schiță cu dimensiunile acoperișului deja în pantă, acest lucru este mai ușor și nu trebuie să mă ocup de alte ajustări geometrice și doar să rotesc planul acoperișului cu unghiul de care am nevoie. Cu toate acestea, dacă dimensiunile acoperișului meu sunt doar în vedere în plan, este necesar să adaug și o pantă la acoperiș. Pot introduce panta în grade și pot folosi săgețile pentru a selecta direcția în care va fi stabilită panta. În mod similar, adaug celelalte planuri ale acoperișului pentru a modela întregul acoperiș
+## Formă prestabilită
+Vom demonstra cum să creăm un plan de acoperiș folosind forme prestabilite pe un plan de acoperiș în formă de trapez. În meniul formelor prestabilite, selectez forma potrivită, adică *Trapez*, și fac clic pentru a insera forma selectată în scenă. Cu toate acestea, acum trebuie să modific dimensiunile acestui trapez pentru a se potrivi cu planul nostru de acoperiș. Fac acest lucru făcând clic pe butonul *Editare*, unde pot schimba ușor dimensiunile individuale ale trapezului nostru.
+Dacă am deja un proiect cu dimensiunile acoperișului în pantă, acest lucru este mai ușor, și nu trebuie să mă ocup de alte ajustări geometrice și pur și simplu rotesc planul de acoperiș cu unghiul dorit. Cu toate acestea, dacă dimensiunile acoperișului meu sunt doar în vedere plan, este necesar să adaug și o pantă la acoperiș. Pot introduce pantă în grade și folosi săgețile pentru a selecta direcția în care va fi setată pantă. Într-un mod similar, adaug celelalte plane de acoperiș pentru a modela întregul acoperiș.
   
-![Trapezoid polygon input](img/trapezpoidPolygonInput.png)
+![Intrare trapez pentru poligon](img/trapezpoidPolygonInput.png)
 
 
 
-## Forma generală
-Adăugarea unui plan al acoperișului folosind o formă generală a acoperișului aduce o mulțime de variabilitate și, cu ajutorul unor funcții inteligente pentru [add polygon](insertPolygon.md), este și ușor. Crearea unui astfel de plan se face prin simpla selectare a vârfurilor individuale ale planului acoperișului. Acest lucru facilitează modelarea oricărei forme de plan de acoperiș. Din nou, pot ridica planul acoperișului până la panta dorită sau pur și simplu pot roti planul cu panta dorită. În același mod, adaug celelalte planuri de acoperiș pentru a crea un acoperiș complet.
+## Formă generală
+Adăugarea unui plan de acoperiș folosind o formă generală aduce multă variabilitate, iar cu utilizarea unor funcții inteligente pentru [adaugă poligon](insertPolygon.md), este ușor și pentru asta. Crearea unui astfel de plan se face prin selectarea vertecșilor individuali ai planului de acoperiș. Acest lucru face ușor modelarea oricărei forme de acoperiș. Din nou, pot ridica planul de acoperiș la panta dorită sau pur și simplu pot roti planul cu panta dorită. În același mod, adaug celelalte plane de acoperiș pentru a crea un acoperiș complet.
   
-![General polygon input](img/generalPolygonInput.png)
+![Intrare generală pentru poligon](img/generalPolygonInput.png)

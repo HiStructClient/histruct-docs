@@ -27,7 +27,7 @@ const outputDir = '../docs';
 // const outputDir = 'test/docs-merged';
 
 const DEEPL_AUTH_KEY = "0b09c89f-ba2e-c36b-4060-9a0d2a7417b7:fx";
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = "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";
 
 // Rekurzivní procházení složek
 function walkSync(dir, callback) {
@@ -61,7 +61,7 @@ function walkSync(dir, callback) {
  */
 export function getAllFilesInLangFolder(lang, prefix, includeAutoTranslated = true) {
     const folder = path.join(inputDir, lang);
-    const folder2 = path.join(inputDir, lang, prefix);
+    const folder2 = prefix ? path.join(inputDir, lang, prefix) : folder;
     const files = [];
 
     walkSync(folder2, (filepath, stat) => {
@@ -174,7 +174,9 @@ export function findMissingTranslations(lang, sourceLang, prefix) {
         return [];
     }
 
-    const allFiles = getAllFilesInLangFolder(sourceLang, prefix, false);
+    const allFiles = getAllFilesInLangFolder(sourceLang, prefix, true);
+
+    console.log(`V jazyku '${lang}' chybí ${allFiles.length} souborů.`, sourceLang)
 
     for (const file of allFiles) {
         if (!fs.existsSync(path.join(folder1, file))) {
@@ -229,17 +231,17 @@ function mapLanguage(code) {
 let translatorDeepl = undefined;
 
 async function translaleDeepl(text, srcLang, targetLang) {
-        // Inicializace překladače
-        if (!translatorDeepl) {
-            translatorDeepl = new Translator(DEEPL_AUTH_KEY);
-        }
+    // Inicializace překladače
+    if (!translatorDeepl) {
+        translatorDeepl = new Translator(DEEPL_AUTH_KEY);
+    }
 
-        const targetLangDeepl = mapLanguage(targetLang).targetDeepl;
+    const targetLangDeepl = mapLanguage(targetLang).targetDeepl;
 
-        // Překlad pomocí Deepl
-        const translated = await translatorDeepl.translateText(text, srcLang, targetLangDeepl);
+    // Překlad pomocí Deepl
+    const translated = await translatorDeepl.translateText(text, srcLang, targetLangDeepl);
 
-        return translated.text;
+    return translated.text;
 }
 
 /** @type {openai.OpenAI} */
@@ -321,7 +323,7 @@ export async function translateFile(fileData, serviceName = 'deepl') {
             translated = await translateText(text, serviceName, srcLang, targetLang);
         }
     } catch (error) {
-        throw new Error(`Překlad souboru ${fileName} z ${srcLang} do ${targetLang} selhal!` + error);
+        throw new AggregateError(`Překlad souboru ${fileName} z ${srcLang} do ${targetLang} selhal!`, error);
     }
 
     // Uložit informace o překladu do metadat
@@ -366,6 +368,7 @@ let dictionary = {
     cs: [ "opláštění", "hala", "sokl" ],
     en: [ "sheeting", "building", "basewall" ],
     de: [ "verkleidung", "halle", "sockel" ],
+    ro: [ "placare", "hală", "soclu" ],
 }
 
 function getDictionary(sourceLang, targetLang) {
@@ -389,7 +392,7 @@ function getDictionaryString(sourceLang, targetLang) {
         return `${item.source} -> ${item.target}`;
     }).join('; ');
 
-    return result;
+    return result ? undefined : undefined;
 }
 
 
