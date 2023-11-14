@@ -6,7 +6,7 @@ autoTranslated: true
 
 # Roof cladding and flashing
 
-Roof sheathing and adding flashings to a roof design are essential steps in creating a quality roofing project. Without these details, it would be impossible to properly price the roof structure. In HiStruct, we have two options for you: you can manually add flashings to each side of the roof plane or use the [Roof Flashings Generator](roofFlashingGenerator.md) for a whole group of roof planes. Modeling individual flashings and flashings is easy, and I'll show you how to do it.
+Adding flashing to the roof and supplementing eaves in the roof design are essential steps in creating a high-quality roofing project. In HiStruct, you can manually add flashing to each side of the roof plane or use the [roof Flashings Generator](roofFlashingGenerator.md) for an entire group of roof planes.
 
 ## Specifying flashings
 
@@ -14,7 +14,7 @@ The fastest way to create flashings is to use the [roofFlashing Generator](roofF
 
 ## Modifying flashing geometry
 
-All flashings can be modified in terms of geometry. You can move the polyline vertices to change the position of the flashings. You can also adjust the bending angle of some of the flashings. The generator does this automatically, but you can change this by clicking *Edit* and then *Geometry* where you can change the angle or position of the polyline.
+All flashings can be modified in terms of geometry. You can move the polyline vertices to change the position of the flashings. You can also adjust the bending angle of some of the flashings. The generator does this automatically, but you can change this by clicking *Edit* and then *Geometry* where you can change the angle or geometry of the polyline.
 
 ### Adjusting the angle
 
