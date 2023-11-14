@@ -1,22 +1,22 @@
 ---
 sourceLang: cs
 sourceHash: abdc6865b16d3659fe5da583bf908abe
-autoTranslated: true
+autoTranslated: false
 ---
 
 # Cladding options
 
-Depending on the type of cladding chosen for a particular roof or wall area, the appropriate generator is selected. Each type of generator may have a specific control.
+Depending on the type of cladding chosen for a particular roof or wall area, the appropriate generator is selected. Each type of generator may have its specific controls.
 
-## Sheet metal strip generator
+## Sheet strips generator
 
-The sheet metal strip generator places the selected covering along the base of the area. The generator can be set for the entire cladding area or, some settings are then available by clicking on an individual strip. In the editing mode, the proportion of the total strip area to the sheathed area is always displayed.
+The sheet strips generator places the chosen roofing material along the slope of the surface. The generator can be configured for the entire claded area, or some settings are available by clicking on individual strips. In editing mode, the proportion of the total area covered by the strips to the clad area is always displayed.
 
 ![Generator strip tiler](img\generatorStripTiler.png)
 
-### Laying direction
+### Tilling direction 
 
-It is configurable, choosing from the following types:
+Tilling direction is configurable, choosing from the following types:
 
 - from the left
 
@@ -34,18 +34,18 @@ It is configurable, choosing from the following types:
 
 ![Tilling center edge](img\tillingCenterEdge.png)
 
-- general specification of the start of laying (laying from the left + distance)
+- general specification of the start of tiling (laying from the left + distance)
 
 ![General tilling head start](img\generalTillingHeadStart.png)
 
-### The angle of the laying of the strips
+### Tilling angle
 
-It is adjustable as positive or negative offset from the baseline.
+Tilling angle can be adjusted ase as positive or negative offset from the baseline.
 
 ![Tilling angle](img\tillingAngle.png)
 
 ## Each specific strip
-- disable ( then it is not reflected in drawings, detailed model or material reports.)
+- disable ( then it is not reflected in drawings, detailed model or BOM reports.)
 
 ![Individual panel switched off](img\individualPanelSwitchedOff.png)
 
