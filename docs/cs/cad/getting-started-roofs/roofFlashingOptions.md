@@ -1,6 +1,6 @@
 # Oplechování a lemování střech
 
-Oplechování střechy a doplnění lemovek do střešního návrhu jsou zásadním krokem při vytváření kvalitního střešního projektu. Bez těchto detailů by nebylo možné správně ocenit střešní konstrukci. V HiStruct máme pro vás dvě možnosti: můžete ručně přidávat lemovky ke každé straně střešní roviny nebo využít [generátor střešního oplechování](roofFlashingGenerator.md) pro celou skupinu střešních rovin. Modelování jednotlivých lemovek a oplechování je snadné, a já vám ukážu, jak na to.
+Oplechování střechy a doplnění lemovek do střešního návrhu jsou zásadním krokem při vytváření kvalitního střešního projektu. V HiStruct lze ručně přidávat lemovky ke každé straně střešní roviny nebo využít [generátor střešního oplechování](roofFlashingGenerator.md) pro celou skupinu střešních rovin. Modelování jednotlivých lemovek a oplechování je snadné, a já vám ukážu, jak na to.
 
 ## Zadání oplechování
 

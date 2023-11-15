@@ -29,14 +29,6 @@ theme:
       primary: black
 
 # extra:
-#   alternate:
-#     - name: Česky
-#       link: /
-#       lang: cs
-#     - name: English
-#       link: /en/
-#       lang: en
-# extra:
 #   homepage: https://www.histruct.com
 
 markdown_extesion:
@@ -44,83 +36,8 @@ markdown_extesion:
   - md_im_html
 
 nav:
+  - "Úvod": index.md 
 
-  - "Haly":
-    - hbc/index.md
-
-    - "Průvodce návrhem haly":
-      - hbc/tutorial/step01.md
-      - hbc/tutorial/step02.md
-      - hbc/tutorial/step03.md
-      - hbc/tutorial/step04.md
-      - hbc/tutorial/step05.md
-      - hbc/tutorial/step06.md
-      - hbc/tutorial/step07.md
-
-    - "Základní konfigurátor":
-      - hbc/basic/geometry.md
-      - hbc/basic/bays.md
-      - hbc/basic/sheeting.md
-      - hbc/basic/openings.md
-      - hbc/basic/accesories.md
-      - hbc/basic/structure.md
-      - hbc/basic/outputs.md
-
-    - "Detailní konfigurátor":
-      - hbc/advanced/index.md
-      - "Rozměry":
-        - hbc/advanced/geometry/index.md
-        - hbc/advanced/geometry/defaultSettings.md
-        - hbc/advanced/geometry/project.md
-        - hbc/advanced/geometry/dimension.md
-        - hbc/advanced/geometry/leanTo.md
-      - "Moduly":
-        - hbc/advanced/bays/index.md
-        - hbc/advanced/bays/defaultSettings.md
-        - hbc/advanced/bays/mainFrames.md
-        - hbc/advanced/bays/frameGeometry.md
-        - hbc/advanced/bays/portalFrame.md
-      - "Opláštění":
-        - hbc/advanced/sheeting/index.md
-        - hbc/advanced/sheeting/mainSettings.md
-        - "Kontextové nastavení opláštění":
-          - hbc/advanced/sheeting/context/index.md
-          - hbc/advanced/sheeting/context/wall.md
-          - hbc/advanced/sheeting/context/wallPart.md
-          - hbc/advanced/sheeting/context/wallStrip.md
-          - hbc/advanced/sheeting/context/wallSegment.md
-          - hbc/advanced/sheeting/context/wallPanel.md
-          - hbc/advanced/sheeting/context/roof.md
-        - hbc/advanced/sheeting/wallSheeting.md
-        - hbc/advanced/sheeting/wallSecondary.md
-        - hbc/advanced/sheeting/wallOrientation.md
-        - hbc/advanced/sheeting/wallColorSchemeHorizontal.md
-        - hbc/advanced/sheeting/wallColorSchemeVertical.md
-        - hbc/advanced/sheeting/roofSheeting.md
-        - hbc/advanced/sheeting/roofSecondary.md
-        - hbc/advanced/sheeting/roofColor.md
-        - hbc/advanced/sheeting/roofOverhang.md
-      - "Otvory":
-        - hbc/advanced/openings/index.md
-        - hbc/advanced/openings/colors.md
-        - hbc/advanced/openings/ridgeOpenings.md
-        - hbc/advanced/openings/roofOpenings.md
-        - hbc/advanced/openings/wallOpenings.md
-        - "Mapování při změně rozměrů haly": hbc/advanced/openings/mappingAtResizing.md
-      - "Doplňky":
-        - hbc/advanced/accesories/index.md
-        - hbc/advanced/accesories/defaultSettings.md
-        - hbc/advanced/accesories/draining.md
-        - hbc/advanced/accesories/flashing.md
-        - hbc/advanced/accesories/wallAccesories.md
-        - "Mapování při změně rozměrů haly": hbc/advanced/openings/mappingAtResizing.md
-      - "Konstrukce":
-        - hbc/advanced/structure/index.md
-      - "Výstupy":
-        - hbc/advanced/outputs/index.md
-
-    - "Příběhy":
-      - hbc/stories/bathroomStudio.md
   - "Střechy":
     - cad/getting-started-roofs/index.md
     - cad/getting-started-roofs/modellingRoofs.md
@@ -128,18 +45,15 @@ nav:
     - cad/getting-started-roofs/importObj.md
     - cad/getting-started-roofs/convert3dPdfToObj.md
     - cad/getting-started-roofs/convertPdfToDxf.md
-    - cad/getting-started-roofs/roofPolygonGenerator.md      
+    - cad/getting-started-roofs/roofPolygonGenerator.md
     - cad/getting-started-roofs/roofFlashingGenerator.md
     - cad/getting-started-roofs/roofFlashingGutterOptions.md
     - cad/getting-started-roofs/roofFlashingOptions.md
     - cad/getting-started-roofs/roofPolygonTillingDrawing.md
     - cad/getting-started-roofs/roofPolygonTillingOptions.md
-    - cad/getting-started-roofs/customisationProject.md      
+    - cad/getting-started-roofs/customisationProject.md
     - cad/getting-started-roofs/roofQuote.md
-    - cad/getting-started-roofs/roofBom.md      
-
-  - "Script":
-    - fcs/index.md
+    - cad/getting-started-roofs/roofBom.md
 
   - "Zpět na HiStruct": https://www.histruct.com
 
@@ -149,11 +63,13 @@ plugins:
   - search:
       lang:
         - cs
+        - ro
         - en
 
   - i18n:
       docs_structure: folder
       languages:
+
         - locale: cs
           name: Čeština
           default: true
@@ -165,7 +81,7 @@ plugins:
           build: true
           site_name: Documentation
           nav_translations:
-            "Konfigurátor hal": "Building configurator"
+            "Haly": "Buildings"
             "Úvod": "Home"
             "Příběhy": "Stories"
             "Průvodce návrhem haly": "Building design guide"
@@ -181,4 +97,34 @@ plugins:
             "Kontextové nastavení opláštění": "Contextual sheeting settings"
             "Mapování při změně rozměrů haly": "Mapping at resizing"
             "Zpět na HiStruct": "Back to HiStruct"
+            "Střechy": "Roofs"
+        - locale: ro
+          name: Română
+          default: false
+          build: true
+          site_name: Documentație
+          nav_translations:
+            "Haly": "Clădiri"
+            "Úvod": "Casă"
+            "Příběhy": "Povești"
+            "Průvodce návrhem haly": "Ghid de proiectare a clădirii"
+            "Základní konfigurátor": "Configurator de bază"
+            "Detailní konfigurátor": "Configurator detaliat"
+            "Rozměry": "Dimensiuni"
+            "Moduly": "Module"
+            "Opláštění": "Învelitoare"
+            "Otvory": "Deschideri"
+            "Doplňky": "Accesorii"
+            "Konstrukce": "Structură"
+            "Výstupy": "Ieșiri"
+            "Kontextové nastavení opláštění": "Setări contextuale pentru învelitoare"
+            "Mapování při změně rozměrů haly": "Mapare la redimensionare"
+            "Zpět na HiStruct": "Înapoi la HiStruct"
+            "Střechy": "Acoperișuri"
+
+
+  - gen-files:
+      scripts:
+        - gen_pages.py
+
 

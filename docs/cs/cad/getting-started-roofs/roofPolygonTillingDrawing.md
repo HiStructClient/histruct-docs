@@ -2,7 +2,7 @@
 
 Kladečský výkres střešní roviny představuje klíčovou část v procesu stavebního projektu, která umožňuje převést konstrukční plány do praktického provedení na střeše. Tento výkres slouží jako podrobný průvodce pro stavebníky při instalaci střešního systému a obsahuje důležité informace o rozmístění materiálů, spojích a všech technických aspektech, které jsou nezbytné pro kvalitní a bezpečnou střešní konstrukci. 
 
-V HiStruct jsou kompletní výkresy pro všechny střešní roviny generovány automaticky na základě 3D modelu. Pro úpravu těchto výkresů stačí stisknout tlačítko *Výkresy*
+V HiStruct jsou kompletní výkresy pro všechny střešní roviny generovány automaticky na základě 3D modelu. Pro úpravu těchto výkresů stačí stisknout tlačítko *Výkresy*.
 
 
 ![Alt text](img/drawingsRoofTilling.png)
