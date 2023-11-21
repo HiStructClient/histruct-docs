@@ -15,13 +15,13 @@ Slouží k rychlému sestavení nabídky, výkazu materiálu a kladečských pl�
 
 Hotovo, jdu na kávičku 😊
 
-HiStruct lze rozsáhle přizpůsobit. Systém kladení střešních tvarovek, lemovek, oplechování a okapového systému je nastaven pro každého konkrétního výrobce zvlášť v samostatné sadě konfiguračních souborů. Obsahuje informaci o tom jakým způsobem je třeba střešní plochu tvarovkami vyskládat, dále možné barevné kombinace, informace k výkazu materiálu a další. Tyto a další přizpůsobení děláme v rámci [projektu pro přizpůsobení](customisationProject.md).
+HiStruct lze rozsáhle přizpůsobit. Systém kladení střešních tvarovek, lemovek, oplechování a okapového systému je nastaven pro každého konkrétního výrobce zvlášť v samostatné sadě konfiguračních souborů. Obsahuje informaci o tom, jakým způsobem je třeba střešní plochu tvarovkami vyskládat, dále možné barevné kombinace, informace k výkazu materiálu a další. Tato a další přizpůsobení děláme v rámci [projektu pro přizpůsobení](customisationProject.md).
 
-## Tak a teď podrobněji...
+## A teď podrobněji...
 
-### 1. Založím projekt s mapou nebo bez
+### 1. Založím projekt - s mapou nebo bez
 
-Zpracovávám novou poptávku. První co chci udělat je založit nový projekt. Projekt je místo, které může obsahovat jednu nebo více komponent - 3D modelů, tedy konfigurací, variant nebo částí. Stránka s projekty má dva pohledy. Defaultní pohled je prostý výpis založených projektů s komponentami. Pokud chci u projektu ukládat i umístění, mohu využít mapový pohled na projekty, kde lze zadat i umístění z mapy.
+Zpracovávám novou poptávku. První co chci udělat, je založit nový projekt. Projekt je místo, které může obsahovat jednu nebo více komponent - 3D modelů, tedy konfigurací, variant nebo částí. Stránka s projekty má dva pohledy. Defaultní pohled je prostý výpis založených projektů s komponentami. Pokud chci u projektu ukládat i umístění, mohu využít mapový pohled na projekty, kde lze zadat i umístění z mapy.
 
 ### 2. Modelování střešních ploch
 
