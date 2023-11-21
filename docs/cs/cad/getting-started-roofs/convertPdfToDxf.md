@@ -6,5 +6,3 @@ Nejčastější formát pro sdílení výkresů je .pdf, který ovšem neumožň
 2. [CloudConvert](https://cloudconvert.com/pdf-to-dxf)
 3. [AnyConv](https://anyconv.com/pdf-to-dxf-converter/)
 4. [AnyDWG](https://www.microsoft.com/store/productId/9PDCXWGXBPBV?ocid=pdpshare)
-
-Vygenerované .dfx soubory můžete následně [importovat](importDxf.md) do HiStruct.
