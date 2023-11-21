@@ -1,7 +1,7 @@
 # Přizpůsobení HiStruct
 
-Systém kladení střešních tvarovek, lemovek, oplechování a okapového systému je nastaven pro každého konkrétního výrobce zvlášť v samostatném konfiguračním souboru. Obsahuje informaci o tom jakým způsobem je třeba střešní plochu tvarovkami vyskládat, dále možné barevné kombinace, informace k výkazu materiálu (part numbers) a další.
-Tyto konfigurační soubory jsou vytvářeny na míru v rámci projektu přizpůsobení, během kterého nachystáme konfigurátor na míru výrobci s jeho konkrétní produktovou nabídkou.
+Systém kladení střešních tvarovek, lemovek, oplechování a okapového systému je nastaven pro každého konkrétního výrobce zvlášť v samostatném konfiguračním souboru. Obsahuje informaci o tom, jakým způsobem je třeba střešní plochu tvarovkami vyskládat, dále možné barevné kombinace, informace k výkazu materiálu (part numbers) a další.
+Tyto konfigurační soubory jsou vytvářeny na míru v rámci projektu přizpůsobení, během kterého připravíme konfigurátor výrobci s jeho konkrétní produktovou nabídkou.
 
 ## Co všechno přizpůsobíme?
 
