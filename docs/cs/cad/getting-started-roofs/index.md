@@ -33,7 +33,7 @@ Pokud je tvar střechy jednoduchý, mohu jej [modelovat](modellingRoofs.md) vkl�
 
 #### **Mám vektorový výkres půdorysu střechy 😊😊**
 
-Pokud mám k dispozici vektorový výkres, bude se mi modelovat snadněji. Do HiStruct lze importovat [soubory ve formátu *.dxf](importDxf.md), případně převést vektorové[ *.pdf na *.dxf](convertPdfToDxf.md) a to [naimportovat do HiStruct](importDxf.md). Importované *.dxf umožňuje snadné přichytávání a zadávání jednotlivých střešních ploch probíhá oklikáním půdorysu s možností doplnění sklonu pro každou střešní plochu. Výhodou je přesnost a snadné zhotovení 3D modelu. Téměř vždy lze použít [generátor lemovek a okapového systému](roofFlashingGenerator.md).
+Pokud mám k dispozici vektorový výkres, bude se mi modelovat snadněji. Do HiStruct lze importovat [soubory ve formátu *.dxf](importDxf.md), případně převést vektorové[ *.pdf na *.dxf](convertPdfToDxf.md) a to [naimportovat do HiStruct](importDxf.md). Importované *.dxf umožňuje snadné přichytávání a zadávání jednotlivých střešních ploch oklikáním půdorysu s možností doplnění sklonu pro každou střešní plochu. Výhodou je přesnost a snadné zhotovení 3D modelu. Téměř vždy lze použít [generátor lemovek a okapového systému](roofFlashingGenerator.md).
 
 #### **Mám 3D model z digitálního zaměření 😊😊😊**
 
