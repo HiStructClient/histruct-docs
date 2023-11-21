@@ -1,6 +1,6 @@
 # Import výkresu s příponou DXF
 
-Ať už se chystáte namodelovat střechu nebo celý dům, využití výkresu vám práci významně usnadní. Výhodou je především kontrola nad tvarem a velikostí každého modelovaného prvku. 
+Ať už se chystáte namodelovat střechu nebo celý dům, využití výkresu vám práci významně usnadní. Výhodou je především rychlost a také kontrola nad tvarem a velikostí každého modelovaného prvku. 
 
 ## Jak si připravit výkres před vložením?
 
