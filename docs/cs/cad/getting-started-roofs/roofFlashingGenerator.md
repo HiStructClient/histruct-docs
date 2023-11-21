@@ -6,6 +6,6 @@ Generátor lze použít obecně i na geometrie ploch, které jsou zadané z výk
 
 ![Source geometry for flashing generator](img/sourceGeometryForFlashingGenerator.png)
 
-HiStruct automaticky identifikuje potřebná umístění lemovky z geometrií blízkých střešních rovin a následně generuje odpovídající typy lemovky. Tyto vygenerované lemovky lze následně dále upravovat podle potřeby.
+Pokud chcete funkci použít, přejděte v hlavním menu na tlačítko *Vložit* - *Střecha* - *Lemovky* - *Generovat*. HiStruct automaticky identifikuje potřebná umístění lemovky z geometrií blízkých střešních rovin a následně generuje odpovídající typy lemovky. Takto vygenerované lemovky lze následně dále upravovat podle potřeby. 
 
 ![Generated flashing result](img/generatedFlashingResult.png)
