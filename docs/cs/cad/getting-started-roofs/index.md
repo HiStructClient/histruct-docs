@@ -62,14 +62,17 @@ HiStruct obsahuje komplexní možnosti [nastavení okapového systému](roofFlas
 ### 5. Kusovníky, dokumenty, výkresy... prostě výstupy
 
 **Kusovník**
+
 [Kusovník](roofBom.md) se vytváří automaticky z částí střechy vložených do modelového prostoru. Jednotlivé části modelu mají u sebe informaci z jakých částí jsou vytvořeny s možností úpravy počtu a případného přidávání dalších položek.
 
 Způsob generování kusovníku pak může být upraven v rámci [projektu přizpůsobení](customisationProject.md).
 
 **Nabídka**
+
 Generovaný kusovník doplněný napojením na ceník výrobce může být součástí [nabídky](roofQuote.md). Nabídku lze však připravit i bez kusovníku. Způsob generování nabídky pak může být upraven v rámci [projektu přizpůsobení](customisationProject.md).
 
 **Kladecí plány**
+
 [Kladečské výkresy](roofPolygonTillingDrawing.md) jsou generovány automaticky ze zadané geometrie a případných změn uživatele. V případě potřeby lze výkres doplnit dalšími poznámkami či kótami.
 
 ![example of roof tilling drawing](img\roofTillingPlane1.png)
