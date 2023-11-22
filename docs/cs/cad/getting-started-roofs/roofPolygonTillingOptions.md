@@ -1,10 +1,10 @@
 # Možnosti opláštění
 
-Podle typu krytiny zvolené na opláštění konkrétní střešní (nebo stěnové) plochy je zvolen vhodný generátor. Každý typ generátoru může mít specifický ovládací prvek.
+Podle typu krytiny zvolené na opláštění konkrétní střešní (nebo stěnové) plochy HiStruct zvolí vhodný generátor. Každý typ generátoru může mít specifický ovládací prvek.
 
 ## Generátor plechových pásů 
 
-Generátor plechových pásů umisťuje zvolenou krytinu po spádnici plochy. Generátor lze nastavovat pro celou oplášťovanou plochu nebo jednotlivou stranu střešní roviny. Některá nastavení jsou dostupná po kliknutí na jednotlivý pás. V editačním režimu je pak vždy zobrazen podíl celkové plochy pásů k oplášťované ploše.
+Generátor plechových pásů umisťuje zvolenou krytinu po spádnici plochy. Lze jej nastavovat pro celou oplášťovanou plochu nebo zvolit jednotlivou stranu střešní roviny. Některá nastavení jsou dostupná po kliknutí na jednotlivý pás. V editačním režimu je pak vždy zobrazen podíl celkové plochy pásů k oplášťované ploše.
 
 ![Generator strip tiler](img\generatorStripTiler.png)
 
