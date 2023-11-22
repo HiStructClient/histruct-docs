@@ -6,23 +6,23 @@ Okapový systém je jedním z klíčových prvků střešní konstrukce, jehož 
 
 ## Zadání okapového systému
 
-Pro modelování okapového systému v programu HiStruct existuje několik možností. Nejrychlejším způsobem je využití [generátoru okapů a lemovek](roofFlashingGenerator.md), který umožňuje rychle vytvořit komplexní okapový systém a následně upravit jednotlivé prvky dle potřeby. Alternativně můžete okapový systém přidat manuálně pomocí [polylinie](polylineInput.md), která určuje okraj střechy, na kterém má být oplechování aplikováno. Tato flexibilita vám umožňuje přizpůsobit okapový systém vašim konkrétním požadavkům a stavebním projektům.
+Pro modelování okapového systému v HiStruct existuje několik možností. Nejrychlejším způsobem je využití [generátoru okapů a lemovek](roofFlashingGenerator.md), který umožňuje rychle vytvořit komplexní okapový systém a následně upravit jednotlivé prvky dle potřeby. Alternativně můžete okapový systém přidat manuálně pomocí [polylinie](polylineInput.md), která určuje okraj střechy, na kterém má být oplechování aplikováno. Tato flexibilita vám umožňuje přizpůsobit okapový systém vašim konkrétním požadavkům a stavebním projektům.
 
 ## Úprava geometrie žlabu a okapnice
 
-Okapový systém lze upravovat z hlediska geometrie. Máte možnost posunout vrcholy polylinie, což vám umožní změnit polohu okapu, a dále můžete upravit úhel ohybu žlabových háků.   Generátor to dělá automaticky, ale můžete to měnit kliknutím na tlačítko *Upravit* a následně *Geometrie*, kde můžete změnit úhel či polohu polylinie. Změna úhlu a geometrie je provedena podobným způsobem jako při úpravě [oplechování střechy](roofFlashingOptions.md). Kromě toho můžete po kliknutí na tlačítko *Upravit* a výběru žlabu měnit sklon žlabu. Tím zajistíte, že okap bude mít správný sklon pro efektivní odvod srážkové vody. Posledním parametrem, který můžete měnit, je krycí šířka. Tato hodnota určuje šířku okapnicového plechu a má vliv na vzhled a funkci okapového systému.
+Okapový systém lze upravovat z hlediska geometrie. Máte možnost posunout vrcholy polylinie, což vám umožní změnit polohu okapu, a dále můžete upravit úhel ohybu žlabových háků. Generátor to dělá automaticky, ale můžete to měnit kliknutím na tlačítko *Upravit* a následně *Geometrie*, kde můžete změnit úhel či polohu polylinie. Změna úhlu a geometrie je provedena podobným způsobem jako při úpravě [oplechování střechy](roofFlashingOptions.md). Kromě toho můžete po kliknutí na tlačítko *Upravit* a výběru žlabu měnit jeho sklon. Tím zajistíte, že okap bude mít správný sklon pro efektivní odvod srážkové vody. Posledním parametrem, který můžete měnit, je krycí šířka. Tato hodnota určuje šířku okapnicového plechu a má vliv na vzhled a funkci okapového systému.
 
 ![Flashing gutter properties](img/flashingGutterProperties.png)
 
 ## Úprava geometrie okapového svodu
 
-Po kliknutí na tlačítko *Upravit* a výběru okapového svodu se otevře nabídka pro úpravu okapového svodu v programu HiStruct. Tato nabídka poskytuje několik možností pro upravení geometrie okapového svodu, které vám umožní přizpůsobit okapový svod vašim konkrétním požadavkům.
+Po kliknutí na tlačítko *Upravit* a výběru okapového svodu se otevře nabídka pro jeho úpravu. Poskytuje několik možností pro upravení geometrie okapového svodu, které vám umožní přizpůsobit jej vašim konkrétním požadavkům.
 
 - **Změna vzdálenosti od stěny**: Můžete měnit vzdálenost okapového svodu, což umožňuje přidat svodová kolena a přiblížit svod ke stěně.
 
 - **Prodloužení svodu**: Okapový svod lze prodloužit buď prostřednictvím dialogového okna, nebo jednoduše přetažením zelených bodů na okapovém svodu.
 
-- **Změna polohy svodu**: Můžete také změnit polohu okapového svodu snadno vybráním příslušného svodu a následným posunutím pomocí myši.
+- **Změna polohy svodu**: Snadno můžete změnit polohu okapového svodu vybráním příslušného svodu a následným posunutím pomocí myši.
 
 Tímto způsobem můžete flexibilně přizpůsobit geometrii okapového svodu tak, aby vyhovovala vašim konkrétním potřebám a požadavkům na stavební projekt.
 
@@ -30,6 +30,6 @@ Tímto způsobem můžete flexibilně přizpůsobit geometrii okapového svodu t
 
 
 ## Přidání okapového svodu
-V programu HiStruct se okapové svody obvykle generují automaticky, aby byl zajištěn dostatečný odtok z okapového žlabu. Nicméně, pokud byste chtěli přidat další okapový svod, můžete to provést jednoduše pomocí tlačítka *plus*. Stačí kliknout na toto tlačítko, a okapový svod bude přidán ke stávajícímu žlabu, který jste vybrali.
+V HiStruct se okapové svody obvykle generují automaticky, aby byl zajištěn dostatečný odtok z okapového žlabu. Nicméně pokud byste chtěli přidat další okapový svod, můžete to provést jednoduše pomocí tlačítka *plus*. Stačí kliknout na toto tlačítko a okapový svod bude přidán ke stávajícímu žlabu, který jste vybrali.
 
 ![flashing gutter add downspout](img/flashingGutterAddDownspout.png)
