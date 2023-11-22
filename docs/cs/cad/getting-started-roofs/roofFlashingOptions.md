@@ -12,7 +12,7 @@ Veškeré oplechování lze upravovat z hlediska geometrie. Můžete posunout vr
 
 ### Úprava úhlu
 
-Změnu úhlu provedete kliknutím na šipku, která znázorňuje normálu plochy, na kterou lemovek přiléhá.
+Změnu úhlu provedete kliknutím na šipku, která znázorňuje normálu plochy, na kterou lemovka přiléhá.
 
 ![Edit angle of flashing](img/flashingEditAngle.png)
 
@@ -35,7 +35,7 @@ Každá část střechy vyžaduje specifický typ oplechování a lemovek. V HiS
 ![Flashing button](img/flashingsButton.png)
 
 ### Štítová lemovka
-Štítová lemovka zvaná též závětrná lišta je speciální oplechování, který se používá k zakončení štítového průčelí střechy. Štítové průčelí je část střechy, která se nachází na štítové straně budovy, a štítová lemovka slouží k estetickému nebo ochrannému dokončení této části střechy.
+Štítová lemovka zvaná též závětrná lišta je speciální oplechování, který se používá k zakončení štítového průčelí střechy. Štítové průčelí je část střechy, která se nachází na štítové straně budovy a štítová lemovka slouží k estetickému nebo ochrannému dokončení této části střechy.
 
 ![Flashing gable trim](img/flashingGableTrim.png)
 
@@ -45,7 +45,7 @@ Hřebenáč je střešní prvek, který se používá k zakrytí hřebene střec
 ![Flashing ridge cap](img/flashingRidgeCap.png)
 
 ### Úžlabí
-Úžlabí je místo na střeše, kde se setkávají dvě střešní plochy a tvoří údolí. Tento prvek slouží k odvádění vody a sněhu a chrání budovu před pronikání vlhkosti.
+Úžlabí je místo na střeše, kde se setkávají dvě střešní plochy a tvoří údolí. Tento prvek slouží k odvádění vody a sněhu a chrání budovu před pronikáním vlhkosti.
  
 ![Flashing valley](img/flashingValley.png)
 
