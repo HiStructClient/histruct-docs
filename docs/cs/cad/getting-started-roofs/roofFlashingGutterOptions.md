@@ -10,7 +10,7 @@ Pro modelování okapového systému v programu HiStruct existuje několik možn
 
 ## Úprava geometrie žlabu a okapnice
 
-Okapový systém lze upravovat z hlediska geometrie. Máte možnost posunout vrcholy polylinie, což vám umožní změnit polohu okapu, a dále můžete upravit úhel ohybu žlabových háků.   Generátor to dělá automaticky, ale můžete to měnit kliknutím na tlačítko *Upravit* a následně *Geometrie*, kde můžete změnit úhel či polohu polylinie. Změna úhlu a geometrie je provedena podobným způsobem jako při úpravě [oplechování střechy](roofFlashingOptions.md). Kromě toho můžete po kliknutí na tlačítko *Upravit* a výběru žlabu měnit sklon žlabu. Tím zajistíte, že okap bude mít správný sklon pro efektivní odvod srážkové vody. Posledním parametrem, na který můžete měnit, je krycí šířka. Tato hodnota určuje šířku okapnicového plechu a má vliv na vzhled a funkci okapového systému.
+Okapový systém lze upravovat z hlediska geometrie. Máte možnost posunout vrcholy polylinie, což vám umožní změnit polohu okapu, a dále můžete upravit úhel ohybu žlabových háků.   Generátor to dělá automaticky, ale můžete to měnit kliknutím na tlačítko *Upravit* a následně *Geometrie*, kde můžete změnit úhel či polohu polylinie. Změna úhlu a geometrie je provedena podobným způsobem jako při úpravě [oplechování střechy](roofFlashingOptions.md). Kromě toho můžete po kliknutí na tlačítko *Upravit* a výběru žlabu měnit sklon žlabu. Tím zajistíte, že okap bude mít správný sklon pro efektivní odvod srážkové vody. Posledním parametrem, který můžete měnit, je krycí šířka. Tato hodnota určuje šířku okapnicového plechu a má vliv na vzhled a funkci okapového systému.
 
 ![Flashing gutter properties](img/flashingGutterProperties.png)
 
