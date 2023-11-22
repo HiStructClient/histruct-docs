@@ -63,13 +63,13 @@ HiStruct obsahuje komplexní možnosti [nastavení okapového systému](roofFlas
 
 **Kusovník**
 
-[Kusovník](roofBom.md) se vytváří automaticky z částí střechy vložených do modelového prostoru. Jednotlivé části modelu mají u sebe informaci z jakých částí jsou vytvořeny s možností úpravy počtu a případného přidávání dalších položek.
+[Kusovník](roofBom.md) se vytváří automaticky z částí střechy vložených do modelového prostoru. Jednotlivé části modelu mají u sebe informaci, z jakých částí jsou vytvořeny, s možností úpravy počtu a případného přidávání dalších položek.
 
 Způsob generování kusovníku pak může být upraven v rámci [projektu přizpůsobení](customisationProject.md).
 
 **Nabídka**
 
-Generovaný kusovník doplněný napojením na ceník výrobce může být součástí [nabídky](roofQuote.md). Nabídku lze však připravit i bez kusovníku. Způsob generování nabídky pak může být upraven v rámci [projektu přizpůsobení](customisationProject.md).
+Generovaný kusovník doplněný napojením na ceník výrobce může být součástí [nabídky](roofQuote.md). Nabídku lze připravit i bez kusovníku. Způsob generování nabídky pak může být upraven v rámci [projektu přizpůsobení](customisationProject.md).
 
 **Kladecí plány**
 
