@@ -14,4 +14,4 @@ Pokud budete soubory převádět pravidelně, můžete zvážit použití placen
 2. [Autodesk Maya](https://www.autodesk.com/products/maya)
 
 
-Vygenerovaný model ve formátu OBJ dále [importujete](importObj.md) do HiStruct.
+Vygenerovaný model ve formátu .obj dále [importujete](importObj.md) do HiStruct.
