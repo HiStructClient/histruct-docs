@@ -1,4 +1,4 @@
-# Jak převést 3D model v PDF na OBJ?
+# Jak převést 3D model v .pdf na .obj?
 Pokud máte k dispozici 3D model ve formátu .pdf a chcete s ním dále pracovat nebo ho využít v HiStruct, je nutné jej převést do formátu .obj, který je v HiStruct podporován. Proces snadno zvládnete pomocí některých z níže uvedených nástrojů. 
 
 ## Převod pomocí online nástrojů
