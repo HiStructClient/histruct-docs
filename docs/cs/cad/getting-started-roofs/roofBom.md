@@ -1,5 +1,5 @@
 # Kusovník
-Vzhled a možnosti jednotlivých kusovníků se liší v závislosti na výrobci daného výrobku. Pro přizpůsobení kusovníku Vašim potřebám je možné využít [projektu přizpůsobení](customisationProject.md).
+Vzhled a možnosti jednotlivých kusovníků se liší v závislosti na výrobci daného výrobku. Pro přizpůsobení kusovníku vašim potřebám je možné využít [projektu přizpůsobení](customisationProject.md).
 
 ## Editace kusovníku
 
