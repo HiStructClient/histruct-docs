@@ -1,4 +1,4 @@
-# Krásná a přesná nabídka, jak na ni..
+# Jak na krásnou a přesnou nabídku
 
 Vzhled a možnosti nabídky se liší v závislosti na výrobci daného výrobku. Pro přizpůsobení nabídky vašim potřebám je možné využít [projektu přizpůsobení](customisationProject.md).
 
