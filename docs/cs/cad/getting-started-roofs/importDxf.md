@@ -1,4 +1,4 @@
-# Import výkresu s příponou DXF
+# Import výkresu s příponou .dxf
 
 Ať už se chystáte namodelovat střechu nebo celý dům, využití výkresu vám práci významně usnadní. Výhodou je především rychlost a také kontrola nad tvarem a velikostí každého modelovaného prvku. 
 
@@ -7,10 +7,10 @@ Ať už se chystáte namodelovat střechu nebo celý dům, využití výkresu v�
 ### Zvýraznění důležitých prvků
 Vložený výkres je zpravidla tvořen jen čarami, proto je rozumné důležité části výkresu zvýraznit odlišnou barvou.
 
-### Verze a velikost DXF souboru
-HiStruct podporuje většinu verzí DXF souborů, ale doporučujeme volit soubory do velikosti 2 MB pro maximální rychlost při editaci modelu.
+### Verze a velikost .dxf souboru
+HiStruct podporuje většinu verzí .dxf souborů, ale doporučujeme volit soubory do velikosti 2 MB pro maximální rychlost při editaci modelu.
 
-### Podporované objekty souboru DXF
+### Podporované objekty souboru .dxf
 V HiStruct jsou podporovány různé typy objektů, jako jsou *LINE, LWPOLYLINE, POLYLINE, SOLID, POINT, INSERT, SPLINE, CIRCLE, ARC* a *ELLIPSE*. 
 
 ### Výkres připravený pro vložení
@@ -19,7 +19,7 @@ Níže uvádíme příklad výkresu. Důležité hrany střechy jsme zvýraznili
 ![DXF drawings](img/dxfDrawings.png) 
 
 
-## Jak vložit výkres DXF do HiStruct?
+## Jak vložit výkres .dxf do HiStruct?
 
 V hlavním menu kliknete na tlačítko *Import* a vybrete příslušný soubor s příponou *.dxf*.
 
