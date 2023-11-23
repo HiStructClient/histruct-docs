@@ -21,7 +21,7 @@ Níže uvádíme příklad výkresu. Důležité hrany střechy jsme zvýraznili
 
 ## Jak vložit výkres DXF do HiStruct?
 
-V hlavním menu kliknete na tlačítko *Import* a vybrete příslušný soubor s příponou **.dxf*.
+V hlavním menu kliknete na tlačítko *Import* a vybrete příslušný soubor s příponou *.dxf*.
 
 ![Import tlačítko](img/importButton.png)
 
@@ -39,7 +39,7 @@ Pokud je výkres v jiných jednotkách než v metrech, můžete jednoduše změn
 S vloženým výkresem je možné pracovat stejně jako s jakýmkoli jiným objektem. Lze ho posouvat nebo otáčet.
 
 ## Jak z výkresu vytvořit model?
-Na importované *.dxf se lze přichytávat, zadání jednotlivých střešních ploch pak probíhá oklikáním půdorysu [pomocí obecného tvaru](modellingRoofs.md) s doplněním sklonu pro každou střešní plochu. 
+Na importované .dxf se lze přichytávat, zadání jednotlivých střešních ploch pak probíhá oklikáním půdorysu [pomocí obecného tvaru](modellingRoofs.md) s doplněním sklonu pro každou střešní plochu. 
 
 ![Vytvoření modelu](img/dxfModel.png)
 
