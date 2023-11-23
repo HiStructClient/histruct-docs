@@ -14,7 +14,7 @@ HiStruct podporuje většinu verzí DXF souborů, ale doporučujeme volit soubor
 V HiStruct jsou podporovány různé typy objektů, jako jsou *LINE, LWPOLYLINE, POLYLINE, SOLID, POINT, INSERT, SPLINE, CIRCLE, ARC* a *ELLIPSE*. 
 
 ### Výkres připravený pro vložení
-Níže uvádíme příklad výkresu. Důležité hrany střechy jsme zvýrazbnili červenou barvou a nepotřebné objekty odstranili. Díky tomu můžeme model vytvořit rychleji a zároveň se nemusíme starat o rušivé prvky.
+Níže uvádíme příklad výkresu. Důležité hrany střechy jsme zvýraznili červenou barvou a nepotřebné objekty odstranili. Díky tomu můžeme model vytvořit rychleji a zároveň se nemusíme starat o rušivé prvky.
 
 ![DXF drawings](img/dxfDrawings.png) 
 
