@@ -1,4 +1,4 @@
-# Jak převést výkres v PDF do DXF?
+# Jak převést výkres v .pdf do .dxf?
 
 Nejčastější formát pro sdílení výkresů je .pdf, který ovšem neumožňuje další editaci. Existuje však možnost převést výkres ve formátu .pdf na .dxf. Takový formát už je možné nejen editovat, ale i použít jako podklad pro HiStruct. Zde předkládáme seznam online a nástrojů a desktopových aplikací, které ke konverzi můžete zdarma využít:
 
