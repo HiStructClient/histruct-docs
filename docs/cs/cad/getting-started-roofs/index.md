@@ -25,7 +25,7 @@ Zpracováváte novou poptávku. První co chcete udělat, je založit nový proj
 
 ### 2. Modelování střešních ploch
 
-Začínáme většinou **volbou typu krytiny, lemovek a okapového systému** (ta lze měnit) z knihoven. Následuje tvorba modelu střechy z jednotlivých střešních rovin, případně pomocí pokročilejších metod modelování. Vhodný způsob modelování závisí na dostupných podkladech pro konkrétní poptávku. Platí, že čím kvalitnější jsou podklady, tím efektivněji lze provést samotný proces modelování.
+Začínáme většinou **volbou typu krytiny, lemovek a okapového systému** (ty lze měnit) z knihoven. Následuje tvorba modelu střechy z jednotlivých střešních rovin, případně pomocí pokročilejších metod modelování. Vhodný způsob modelování závisí na dostupných podkladech pro konkrétní poptávku. Platí, že čím kvalitnější jsou podklady, tím efektivněji lze provést samotný proces modelování.
 
 #### **Mám jen pár náčrtků s rozměry 😊**
 
