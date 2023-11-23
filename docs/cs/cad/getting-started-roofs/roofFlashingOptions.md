@@ -12,7 +12,7 @@ Veškeré oplechování lze upravovat z hlediska geometrie. Můžete posunout vr
 
 ### Úprava úhlu
 
-Změnu úhlu provedete kliknutím na šipku, která znázorňuje normálu plochy, na kterou lemovka přiléhá.
+Změnu úhlu provedete kliknutím na šipku znázorňující normálu plochy, na kterou lemovka přiléhá.
 
 ![Edit angle of flashing](img/flashingEditAngle.png)
 
