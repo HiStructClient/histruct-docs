@@ -1,13 +1,2 @@
-# Insert
-## Volumes
-
-
-
-
-
-## Import
-
-
-
-
-##
+# Knihovny
+Tento panel skrývá všechny klíčové knihovny použité v našem modelu. Zde najdete knihovnu *Povrchy*, která obsahuje barvy a textury jednotlivých prvků v modelu. Další zajímavou knihovnou je [knihovna *Lemovky*](..\getting-started-roofs\roofFlashingLibrary.md), kde můžete vybírat z různých tvarů, barev a typů lemování. A konečně tu máme knihovnu *Materiály*, která vám umožňuje definovat střešní krytiny ale také celé skladby stěn. Prozkoumejte naše bohaté knihovny a přizpůsobte svůj model podle vašich představ!

@@ -1,13 +1,2 @@
-# Insert
-## Volumes
-
-
-
-
-
-## Import
-
-
-
-
-##
+# Nástroje
+Rozšiřte svou kontrolu nad modelem s našimi užitečnými nástroji. Potřebujete zkontrolovat libovolný rozměr ve vašem modelu? Pro tuto úlohu je ideální [nástroj pro měření](measureTool.md). Druhým užitečným prvkem na této kartě je možnost vkládání pracovních rovin. Tento nástroj je zvláště užitečný, pokud chcete, aby se váš kurzor přichytával pouze k objektům ve stejné rovině. Získejte plnou kontrolu nad každým detailem vašeho modelu!
