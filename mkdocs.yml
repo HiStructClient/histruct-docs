@@ -74,6 +74,8 @@ plugins:
           name: Čeština
           default: true
           build: true
+          link: /cz2/
+          fixed_link: /cz/
 
         - locale: en
           name: English

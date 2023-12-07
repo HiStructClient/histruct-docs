@@ -1,134 +1,39 @@
-site_name: Konfigurátor haly - dokumentace
+INHERIT: mkdocs.yml
+
+site_name: HiStruct Documentation
+
+use_directory_urls: false
 
 theme:
   name: material
   custom_dir: "plain_theme/"
-
-# extra:
-#   alternate:
-#     - name: Česky
-#       link: /
-#       lang: cs
-#     - name: English
-#       link: /en/
-#       lang: en
-# extra:
-#   homepage: https://www.histruct.com
-
-nav:
-  - "Úvod": index.md
-
-  - "Průvodce návrhem haly":
-    - tutorial/step01.md
-    - tutorial/step02.md
-    - tutorial/step03.md
-    - tutorial/step04.md
-    - tutorial/step05.md
-    - tutorial/step06.md
-    - tutorial/step07.md
-
-  - "Základní konfigurátor":
-    - basic/geometry.md
-    - basic/bays.md
-    - basic/sheeting.md
-    - basic/openings.md
-    - basic/accesories.md
-    - basic/structure.md
-    - basic/outputs.md
-
-  - "Detailní konfigurátor":
-    - advanced/index.md
-    - "Rozměry":
-      - advanced/geometry/index.md
-      - advanced/geometry/defaultSettings.md
-      - advanced/geometry/project.md
-      - advanced/geometry/dimension.md
-      - advanced/geometry/leanTo.md
-    - "Moduly":
-      - advanced/bays/index.md
-      - advanced/bays/defaultSettings.md
-      - advanced/bays/mainFrames.md
-      - advanced/bays/frameGeometry.md
-      - advanced/bays/portalFrame.md
-    - "Opláštění":
-      - advanced/sheeting/index.md
-      - advanced/sheeting/mainSettings.md
-      - "Kontextové nastavení opláštění":
-        - advanced/sheeting/context/index.md
-        - advanced/sheeting/context/wall.md
-        - advanced/sheeting/context/wallPart.md
-        - advanced/sheeting/context/wallStrip.md
-        - advanced/sheeting/context/wallSegment.md
-        - advanced/sheeting/context/wallPanel.md
-        - advanced/sheeting/context/roof.md
-      - advanced/sheeting/wallSheeting.md
-      - advanced/sheeting/wallSecondary.md
-      - advanced/sheeting/wallOrientation.md
-      - advanced/sheeting/wallColorSchemeHorizontal.md
-      - advanced/sheeting/wallColorSchemeVertical.md
-      - advanced/sheeting/roofSheeting.md
-      - advanced/sheeting/roofSecondary.md
-      - advanced/sheeting/roofColor.md
-      - advanced/sheeting/roofOverhang.md
-    - "Otvory":
-      - advanced/openings/index.md
-      - advanced/openings/colors.md
-      - advanced/openings/ridgeOpenings.md
-      - advanced/openings/roofOpenings.md
-      - advanced/openings/wallOpenings.md
-      - "Mapování při změně rozměrů haly": advanced/openings/mappingAtResizing.md
-    - "Doplňky":
-      - advanced/accesories/index.md
-      - advanced/accesories/defaultSettings.md
-      - advanced/accesories/draining.md
-      - advanced/accesories/flashing.md
-      - advanced/accesories/wallAccesories.md
-      - "Mapování při změně rozměrů haly": advanced/openings/mappingAtResizing.md
-    - "Konstrukce":
-      - advanced/structure/index.md
-    - "Výstupy":
-      - advanced/outputs/index.md
-
-  - "Příběhy":
-    - stories/bathroomStudio.md
-
-  - "Zpět na HiStruct": https://www.histruct.com
-
 
 plugins:
 
   - search:
       lang:
         - cs
+        - ro
         - en
 
   - i18n:
       docs_structure: folder
       languages:
         - locale: cs
+          link: /en/
+          fixed_link: /cz/
           name: Čeština
-          default: true
-          build: true
-
-        - locale: en
-          name: English
           default: false
+        - locale: en
+          link: /en2/
+          name: English
           build: true
-          site_name: HiStruct Building Configurator - Documentation
-          nav_translations:
-            "Úvod": "Home"
-            "Příběhy": "Stories"
-            "Průvodce návrhem haly": "Building design guide"
-            "Základní konfigurátor": "Basic configurator"
-            "Detailní konfigurátor": "Advanced configurator"
-            "Rozměry": "Dimensions"
-            "Moduly": "Bays"
-            "Opláštění": "Sheeting"
-            "Otvory": "Openings"
-            "Doplňky": "Accesories"
-            "Konstrukce": "Structure"
-            "Výstupy": "Outputs"
-            "Kontextové nastavení opláštění": "Contextual sheeting settings"
-            "Mapování při změně rozměrů haly": "Mapping at resizing"
-            "Zpět na HiStruct": "Back to HiStruct"
+          default: true
+        - locale: ro
+          link: /ro/
+          name: Română
+          build: false
 
+  - gen-files:
+      scripts:
+        - gen_pages.py
