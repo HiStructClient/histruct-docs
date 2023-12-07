@@ -1,8 +1,9 @@
 # Ovládání knihovny povrchů
 
-Ovládání knihovny je jednoduché. Kliknutím na vybranou knihovnu se rozbalí seznam použitých prvků knihovny. Tlačítkem *Přidat* lze přidat další prvek knihovny. Upravit již existující prvek je možné kliknutím na něj v knihovně a následně pomocí dialogového okna upravit prvek knihovny podobně jako při přidávání nového prvku.
+Ovládání naší bohaté knihovny povrchů je hračka. Stačí kliknout na vybranou knihovnu a zobrazí se seznam všech dostupných prvků. Přidání nového prvku je jednoduché - stiskněte tlačítko *Přidat*.
 
-Vzhled povrchu jednotlivých modelů lze měnit pomocí této knihovny. Většina objektů v HiStruct má přiřazenou knihovnu *Povrchy*, která umožňuje objektu měnit nejen barvu povrchu z předdefinované skupiny RAL barev, ale také změnit texturu povrchu nebo přidat libovolnou barvu. U zbývajících modelů, u kterých nedává smysl použití jak textury, tak barvy, jsou k dispozici knihovny *Barev* a *Textur*.
+Pro úpravu existujících prvků klikněte na ně v knihovně a upravujte je prostřednictvím intuitivního dialogového okna. Měňte nejen barvy povrchu z naší rozsáhlé palety RAL barev, ale také přidávejte textury nebo libovolné barvy.
 
+Vytvářejte modely s individuálním vzhledem díky naší knihovně povrchů.
 
 ![Surface library options](img/surfaceLibrary.gif) 

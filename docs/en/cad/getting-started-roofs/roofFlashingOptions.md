@@ -10,7 +10,7 @@ Adding flashing to the roof and supplementing eaves in the roof design are essen
 
 ## Specifying flashings
 
-The fastest way to create flashings is to use the [roofFlashing Generator](roofFlashingGenerator.md) and then modify the individual elements. But all roof flashings can also be defined using [polyline](polylineInput.md), which specifies the roof edges where the flashings should be applied.
+The fastest way to create flashings is to use the [roofFlashing Generator](roofFlashingGenerator.md) and then modify the individual elements. But all roof flashings can also be defined using [polyline](..\instructor-roofs\insertPolyline.md), which specifies the roof edges where the flashings should be applied.
 
 ## Modifying flashing geometry
 
@@ -28,7 +28,7 @@ After clicking on the arrow, click on the cursor icon and then select the area y
 
 ### Edit position
 
-The position change is done in the same way as the [polyline](polylineInput.md) geometry change.
+The position change is done in the same way as the [polyline](..\instructor-roofs\insertPolyline.md) geometry change.
 
 ## Selecting the plating from the library
 
