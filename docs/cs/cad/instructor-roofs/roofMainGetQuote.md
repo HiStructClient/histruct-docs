@@ -1,7 +1,8 @@
 
 # Vítejte v konfigurátoru střech HiStruct Roofs!
 
-Zde můžete snadno vytvořit nabídku na novou střechu se všemi výkresy a výkazy. 
+Zde můžete snadno vytvořit model a odeslat poptávku na vaši novou střechu.
+
 Tlačítka na pravé straně obrazovky vás provedou jednotlivými kroky zadání. 
 
 ## Krok 1: Půdorys
@@ -12,22 +13,17 @@ Nakreslete obrys střechy v půdorysu a nastavte typy hran obrysu. Řešič stř
 ## Krok 2: Krytina
 ![roofingIcon](roofingIcon-en.png)
 
-Vyberte jednu nebo více skladeb střešní krytiny podle přání zákazníka. Pro každou střešní plochu lze dále detailně nastavit kladení, zobrazit výkres nebo výkaz materiálu
+Vyberte jednu nebo více skladeb střešní krytiny podle vašeho přání.
 
 ## Krok 3: Lemovky
 ![flashingIcon](flashingIcon-en.png)
 
 Vyberte typy lemovek, přidejte svody a upravte jejich umístění.
 
-## Krok 4:  Výkresy
+## Krok 4:  Poptávku
 ![drawingsIcon](drawingsIcon-en.png)
 
-Stáhněte nebo upravte automaticky vygenerované pohledy na střechu ze všech stran a detailní kladečské výkresy pro každou střešní plochu.
-
-## Krok 5:  Výkazy
-![reportsIcon](reportsIcon-en.png)
-
-Stáhněte nebo upravte automaticky vygenerované výkazy materiálu nebo podklad pro nabídku.
+Odešlete poptávku spolu s celým modelem svému oblíbenému dodavateli.
 
 ## Jste výrobcem střešní krytiny?
 
