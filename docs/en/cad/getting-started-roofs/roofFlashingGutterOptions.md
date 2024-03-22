@@ -12,7 +12,7 @@ The gutter system is a key element of the roof structure, with its main role bei
 
 ## Specifying a gutter system
 
-There are several options for modelling the gutter system in HiStruct. The fastest way is to use the [gutter and flashing generator](roofFlashingGenerator.md), which allows you to quickly create a complex gutter system and then modify individual elements as needed. Alternatively, you can manually add one or more gutters using [polyline](..\instructor-roofs\insertPolyline.md), which specifies the edges of the roof on which the gutters are to be applied. This flexibility allows you to tailor the gutter system to the specific requirements of the project.
+There are several options for modelling the gutter system in HiStruct. The fastest way is to use the [gutter and flashing generator](roofFlashingGenerator.md), which allows you to quickly create a complex gutter system and then modify individual elements as needed. Alternatively, you can manually add one or more gutters using [polyline](../instructor-roofs/insertPolyline.md), which specifies the edges of the roof on which the gutters are to be applied. This flexibility allows you to tailor the gutter system to the specific requirements of the project.
 
 ## Adjusting the gutter and downspout geometry
 
