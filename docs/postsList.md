@@ -34,8 +34,11 @@ Enjoy!
 Nová verze HiStruct Roofs 2.0 přináší revoluční zjednodušení procesu návrhu střech. S novými funkcemi a vylepšeným uživatelským rozhraním je nyní vytváření návrhů střech snazší než kdy předtím.
 
 ✨ Co je nového?
+
 •  Podpora pro složitější konfigurace střech
+
 •  Automatické kladení tvarovek a oplechování
+
 •  Generované kladecí plány a výkazy materiálu
 
 Připojte se k nám na cestě k inovativnímu designu a objevte, jak HiStruct Roofs 2.0 může usnadnit vaši práci na projektech. #HiStruct #střechy #design #inovace
