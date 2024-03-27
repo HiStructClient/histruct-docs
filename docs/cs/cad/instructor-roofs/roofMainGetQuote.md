@@ -3,7 +3,7 @@
 
 Zde můžete snadno vytvořit model a odeslat poptávku na vaši novou střechu.
 
-Tlačítka na pravé straně obrazovky vás provedou jednotlivými kroky zadání. 
+Tlačítka na levé straně obrazovky vás provedou jednotlivými kroky zadání. 
 
 #### ![roofTopViewIcon](img/roofTopViewIcon-en.png) Krok 1: Půdorys
 

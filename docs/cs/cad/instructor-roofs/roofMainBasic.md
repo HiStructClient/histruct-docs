@@ -2,7 +2,7 @@
 ### Vítejte v konfigurátoru střech HiStruct Roofs!
 
 Zde můžete snadno vytvořit nabídku na novou střechu se všemi výkresy a výkazy. 
-Tlačítka na pravé straně obrazovky vás provedou jednotlivými kroky zadání. 
+Tlačítka na levé straně obrazovky vás provedou jednotlivými kroky zadání. 
 
 #### ![roofTopViewIcon](img/roofTopViewIcon-en.png) Krok 1: Půdorys
 
