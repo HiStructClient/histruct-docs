@@ -45,7 +45,7 @@ Připojte se k nám na cestě k inovativnímu designu a objevte, jak HiStruct Ro
 
 ## čtvrtek 11.04.2024 **Konfigurátor na váš web**
 
-📢 Milí výrobci střešních krytin, jak dlouho trvá vašim zákazníkům výroba poptávky na novou střechu? A kolik času vám zabere zpracování cenové nabídky? Nebylo by hezké tento proces zrychlit?  
+📢 Výrobci střešních krytin, jak dlouho trvá vašim zákazníkům výroba poptat novou střechu? A kolik času vám zabere zpracování cenové nabídky? Nebylo by hezké tento proces zrychlit?  
 Umístěním nástroje HiStruct Roofs na vaše webové stránky zavedou zákazníky k nabídce pouhé tři kroky. Tak jednoduché to je!
 
 💡 Jakmile zákazník zabrousí na vaše webové stránky, v konfigurátoru si zcela bezobslužně střechu nakreslí ve sketch roof, nebo si vybere z mnoha dostupných šablon.
@@ -57,8 +57,6 @@ Umístěním nástroje HiStruct Roofs na vaše webové stránky zavedou zákazn�
 Z dosavadních zkušeností víme, že umístění konfigurátoru na webové stránky výrobce vede k rychlejšímu generování nabídek a uzavření většího počtu prodejů.️
 
 
-
-HiStruct Roofs mění pravidla hry pro výrobce i zákazníky!
 
 Pro výrobce může integrace nástroje HiStruct Roofs na jejich webové stránky výrazně zvýšit počet dotazů od zákazníků. Je to účinný způsob, jak prezentovat své výrobky a umožnit zákazníkům vidět potenciál střešních řešení v reálném čase.
 
