@@ -58,7 +58,7 @@ Z dosavadních zkušeností víme, že umístění konfigurátoru na webové str
 
 
 
-Pro výrobce může integrace nástroje HiStruct Roofs na jejich webové stránky výrazně zvýšit počet dotazů od zákazníků. Je to účinný způsob, jak prezentovat své výrobky a umožnit zákazníkům vidět potenciál střešních řešení v reálném čase.
+Výrobcům střešních krytin může integrace nástroje HiStruct Roofs na jejich webové stránky výrazně zvýšit počet dotazů od zákazníků. Je to účinný způsob, jak prezentovat své výrobky a umožnit zákazníkům vidět potenciál střešních řešení v reálném čase.
 
 S nástrojem HiStruct Roofs si může zákazník snadno namodelovat, jak bude jeho střecha vypadat, získat 3D model a podrobné výkazy materiálu, což urychlí proces získání nabídky na míru.
 
