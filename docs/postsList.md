@@ -35,7 +35,7 @@ Lately I feel like I can see roofs everywhere I look. So why not paint one? 🤣
 #HiStruct #Roof #Design #Fun 
 
 ## pondělí 15.04.2024 
-okapy - ještě vymyslím
+výkazy materiálu apod. - ještě vymyslím
 
 ## pondělí 08.04.2024 **Nová verze HiStruct Roofs 2.0** - právě jsme spustili
 
