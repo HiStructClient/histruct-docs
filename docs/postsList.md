@@ -8,11 +8,11 @@ emotikony pro md zde https://gist.github.com/rxaviers/7360908
    
    HiStruct Roofs 2.0 is almost here
 
-## čtvrtek 28.03.2024 **More Roofs**
+## čtvrtek 28.03.2024 **More Roofs** >> sent
    
 ⭐ Představujeme HiStruct Roofs 2.0 – rychlý návrhář střech! Prohlédněte si naši galerii nakonfigurovaných střech a nechte se inspirovat možnostmi, které přináší HiStruct Roofs. #HiStruct #Roof #Design #Inovation
 
-## úterý 02.04.2024 **HiStruct Roofs in 3 steps**
+## úterý 02.04.2024 **HiStruct Roofs in 3 steps** >> sent
 
 HiStruct Roofs in three steps:
 
@@ -25,10 +25,10 @@ Enjoy!
 
 #HiStruct #Roof #Design #Inovation
 
-## čtvrtek 04.04.2024 **Rychlé volby častých tvarů střech**
+## čtvrtek 04.04.2024 **Rychlé volby častých tvarů střech** >> sent
 :house: :star: S HiStruct Roofs je návrh vaší ideální střechy snazší než kdykoliv předtím! Naše rychlé volby obsahují nejčastější tvary střech, abychom vám ušetřili čas a usnadnili proces konfigurace. Vyberte si z přednastavených možností a sledujte, jak se vaše vize stává realitou. #HiStruct #střechy #architektura #design
 
-## úterý 09.04.2024 
+## úterý 09.04.2024 >> sent
 
 Lately I feel like I can see roofs everywhere I look. So why not paint one? 🤣
 💻🏡 Today, with the help of HiStruct Roofs, I quickly and easily turned the inspiration I found on the internet into drawings and beautiful 3D models 💪 Plus, it was fun! 
@@ -44,7 +44,7 @@ The roof layout drawing is a key part of the construction project process, enabl
  
 💡 At HiStruct Roofs, complete drawings and material statements for all roof planes are automatically generated based on the 3D model. To edit these drawings, simply press the "Drawings" button. ‍
 
-## pondělí 08.04.2024 **Nová verze HiStruct Roofs 2.0** - právě jsme spustili
+## pondělí 22.04.2024 **Nová verze HiStruct Roofs 2.0** - právě jsme spustili
 
 :rocket: Právě jsme spustili HiStruct Roofs 2.0! :house:
 Nová verze HiStruct Roofs 2.0 přináší revoluční zjednodušení procesu návrhu střech. S novými funkcemi a vylepšeným uživatelským rozhraním je nyní vytváření návrhů střech snazší než kdy předtím.
@@ -59,7 +59,7 @@ Nová verze HiStruct Roofs 2.0 přináší revoluční zjednodušení procesu n�
 
 Připojte se k nám na cestě k inovativnímu designu a objevte, jak HiStruct Roofs 2.0 může usnadnit vaši práci na projektech. #HiStruct #střechy #design #inovace
 
-## čtvrtek 11.04.2024 **Konfigurátor na váš web**
+## pondělí 29.04.2024 **Konfigurátor na váš web**
 
 📢 Výrobci střešních krytin, jak dlouho trvá vašim zákazníkům výroba poptat novou střechu? A kolik času vám zabere zpracování cenové nabídky? Nebylo by hezké tento proces zrychlit?  
 Umístěním nástroje HiStruct Roofs na vaše webové stránky zavedou zákazníky k nabídce pouhé tři kroky. Tak jednoduché to je!
