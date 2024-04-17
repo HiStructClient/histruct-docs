@@ -34,15 +34,12 @@ Lately I feel like I can see roofs everywhere I look. So why not paint one? 🤣
 💻🏡 Today, with the help of HiStruct Roofs, I quickly and easily turned the inspiration I found on the internet into drawings and beautiful 3D models 💪 Plus, it was fun! 
 #HiStruct #Roof #Design #Fun 
 
-## pondělí 15.04.2024 
+## středa 17.04.2024 >> sent
 
-Roof Layout Drawing - an essential tool for every construction project! ️ 🏗️
+Roof Tilling Layout Drawing - an essential drawing for every roof project! ️ 🏗️
+Tilling Layout Drawing serves as a detailed guide for builders during the installation of the roofing system and contains important information about the placement of materials, joints, and technical aspects necessary for a quality and safe roof construction. 📐 🏠 
+💡 At HiStruct Roofs, complete drawings and bill of material for all roof planes are automatically generated based on the 3D model. 
 
-The roof layout drawing is a key part of the construction project process, enabling the translation of design plans into practical implementation on the roof. 📐 🏠
-
- This drawing serves as a detailed guide for builders during the installation of the roofing system and contains important information about the placement of materials, joints, and all technical aspects necessary for a quality and safe roof construction. 💪
- 
-💡 At HiStruct Roofs, complete drawings and material statements for all roof planes are automatically generated based on the 3D model. To edit these drawings, simply press the "Drawings" button. ‍
 
 ## pondělí 22.04.2024 **Nová verze HiStruct Roofs 2.0** - právě jsme spustili
 
