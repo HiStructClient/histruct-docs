@@ -40,8 +40,15 @@ Roof Tilling Layout Drawing - an essential drawing for every roof project! ️ �
 Tilling Layout Drawing serves as a detailed guide for builders during the installation of the roofing system and contains important information about the placement of materials, joints, and technical aspects necessary for a quality and safe roof construction. 📐 🏠 
 💡 At HiStruct Roofs, complete drawings and bill of material for all roof planes are automatically generated based on the 3D model. 
 
+## čtvrtek 25.04.2024 >> sent
 
-## pondělí 22.04.2024 **Nová verze HiStruct Roofs 2.0** - právě jsme spustili
+The gutter system is one of the key elements of well-designed roof. 🛠️
+It consists of several components, such as gutters, downspouts, and drains, which together form a system for the proper drainage of water from the roof surface. 
+Can you imagine having to manualy enter all these components into a model? 😫
+💡 The gutter and flashing generator in HiStruct Roofs creates a complete gutter system with a single click. You can even customise the individual elements, whether it's their placement or colour. If that's even necessary. 😉
+#RoofConstruction #GutterSystem #HiStruct #Efficiency #Modeling #ConstructionTech
+
+## **Nová verze HiStruct Roofs 2.0** - právě jsme spustili
 
 :rocket: Právě jsme spustili HiStruct Roofs 2.0! :house:
 Nová verze HiStruct Roofs 2.0 přináší revoluční zjednodušení procesu návrhu střech. S novými funkcemi a vylepšeným uživatelským rozhraním je nyní vytváření návrhů střech snazší než kdy předtím.
@@ -56,7 +63,7 @@ Nová verze HiStruct Roofs 2.0 přináší revoluční zjednodušení procesu n�
 
 Připojte se k nám na cestě k inovativnímu designu a objevte, jak HiStruct Roofs 2.0 může usnadnit vaši práci na projektech. #HiStruct #střechy #design #inovace
 
-## pondělí 29.04.2024 **Konfigurátor na váš web**
+## **Konfigurátor na váš web**
 
 📢 Výrobci střešních krytin, jak dlouho trvá vašim zákazníkům výroba poptat novou střechu? A kolik času vám zabere zpracování cenové nabídky? Nebylo by hezké tento proces zrychlit?  
 Umístěním nástroje HiStruct Roofs na vaše webové stránky zavedou zákazníky k nabídce pouhé tři kroky. Tak jednoduché to je!
@@ -77,19 +84,19 @@ S nástrojem HiStruct Roofs si může zákazník snadno namodelovat, jak bude je
 
 Z dosavadních zkušeností víme, že umístění konfigurátoru na webové stránky výrobce vede k rychlejšímu generování nabídek a uzavření většího počtu prodejů.️
 
-## pondělí 15.04.2024 **Rychlá tvorba nabídky na novou střechu pro vaše zákazníky**
+## **Rychlá tvorba nabídky na novou střechu pro vaše zákazníky**
    
-## čtvrtek 18.04.2024 **Řešič střechy**
+## **Řešič střechy**
 
 :house: Představujeme revoluční HiStruct Roofs - řešič střechy – nástroj, který usnadní workflow vašich projektů! Nyní můžete generovat komplexní geometrii střechy, včetně nároží a hřebenů, pouze z obrysu střechy a sklonu jejích hran. Ušetřete čas a zjednodušte proces plánování s HiStruct Roofs. #HiStruct #Roof #Architektura #Design
    
-## pondělí 22.04.2024 **Import podkladů**
+## **Import podkladů**
    
-## čtvrtek 25.04.2024 **Import geometrie z digitálního zaměření** >> toto ještě nemáme
+## **Import geometrie z digitálního zaměření** >> toto ještě nemáme
    
-## pondělí 29.04.2024 **Knihovna krytin** >> toto ještě nemáme
+## **Knihovna krytin** >> toto ještě nemáme
   
-## čtvrtek 02.05.2024 **Okapy**
+## **Okapy**
 
 
 Další nápady na později
