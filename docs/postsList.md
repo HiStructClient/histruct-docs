@@ -101,7 +101,7 @@ Z dosavadních zkušeností víme, že umístění konfigurátoru na webové str
 
 Další nápady na později
 1. Lemovky
-2. 
+2. popsat rozdíl mezi nástroji dálkového zaměření a HiStruct Roofs???
 1. Knihovna materiálů
 
 
