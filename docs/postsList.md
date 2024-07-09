@@ -30,13 +30,13 @@ Lately I feel like I can see roofs everywhere I look. So why not paint one? 🤣
 💻🏡 Today, with the help of HiStruct Roofs, I quickly and easily turned the inspiration I found on the internet into drawings and beautiful 3D models 💪 Plus, it was fun! 
 #HiStruct #Roof #Design #Fun 
 
-## středa 17.04.2024 **výkresy střešní krytiny - základ pro každou střechu** >> sent
+## 6/ středa 17.04.2024 **výkresy střešní krytiny - základ pro každou střechu** >> sent
 
 Roof Tilling Layout Drawing - an essential drawing for every roof project! ️ 🏗️
 Tilling Layout Drawing serves as a detailed guide for builders during the installation of the roofing system and contains important information about the placement of materials, joints, and technical aspects necessary for a quality and safe roof construction. 📐 🏠 
 💡 At HiStruct Roofs, complete drawings and bill of material for all roof planes are automatically generated based on the 3D model. 
 
-## čtvrtek 25.04.2024 **okapový systém - generátor** >> sent
+## 7/ čtvrtek 25.04.2024 **okapový systém - generátor** >> sent
 
 The gutter system is one of the key elements of well-designed roof. 🛠️
 It consists of several components, such as gutters, downspouts, and drains, which together form a system for the proper drainage of water from the roof surface. 
@@ -44,23 +44,23 @@ Can you imagine having to manualy enter all these components into a model? 😫
 💡 The gutter and flashing generator in HiStruct Roofs creates a complete gutter system with a single click. You can even customise the individual elements, whether it's their placement or colour. If that's even necessary. 😉
 #RoofConstruction #GutterSystem #HiStruct #Efficiency #Modeling #ConstructionTech
 
-## čtvrtek 03.05.2024 **roof of the week** >> sent
+## 8/ čtvrtek 03.05.2024 **roof of the week** >> sent
 
 Roof of the week!
 
-## středa 15.05.2024 **střecha z Alp** >> sent
+## 9/ středa 15.05.2024 **střecha z Alp** >> sent
 
 Last week we went on a short holiday to relax in the wild nature of the Austrian Alps. On one of our bike rides we came across this amazing old farm building.
 And because we live our work, we couldn't help but test how HiStruct Roofs would cope with the design of this complex roof, without a specific brief. 
 You can judge for yourself 😊
 #roof #holiday #HiStruct #innovation #curiosity #exploration #discovery #livework
 
-## úterý 28.05.2024 **video** >> sent
+## 10/ úterý 28.05.2024 **video** >> sent
 
 How easy is it to create a detailed 3D roof model in HiStruct Roofs? Watch our latest video to find out! In addition, HiStruct Roofs automatically generates bills of materials, drawings and tilling plans based on the parameters you enter. This makes it easier to get your quote, with 3D model and drawings, ready in minutes!
 #HiStructRoofs #3DModeling #RoofDesign #ConstructionTech #InnovationInConstruction #ProjectPlanning
 
-## čtvrtek 13.06.2024 **model ze zaměření** >> sent
+## 11/ čtvrtek 13.06.2024 **model ze zaměření** >> sent
 
 🚀 We are thrilled to introduce a groundbreaking feature of our HiStruct Roofs 🏠 that fundamentally changes how we work with roof models. Our advanced system now automatically loads roof models created using satellite or remote measurement services. 
 🔍With sophisticated recognition technology, the configurator identifies relevant roof planes and uses a geometric constraint solver to align them 🧠 This process ensures all unnecessary edges are removed, and the model is unified into an optimal form for subsequent steps. 
@@ -68,7 +68,7 @@ For this unified model, the layout of the selected roofing material is automatic
 Join us on the journey to the digital transformation of roofing and discover how HiStruct Roofs is bringing innovation right to your rooftop! 🙂 
 #Roofing #Innovation #Configurator #Digitalization #ConstructionIndustry
 
-## čtvrtek 27.06.2024 **vizualizace střech-která je nej?** >> sent
+## 12/ čtvrtek 27.06.2024 **vizualizace střech-která je nej?** >> sent
 
 What kind of roofing material would fit? 🤔 Visualize your projects in minutes with HiStruct Roofs!⚡ 
 hashtag#Visualization hashtag#Innovation hashtag#HiStructRoofs hashtag#3D
