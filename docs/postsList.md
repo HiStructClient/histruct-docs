@@ -34,19 +34,23 @@ Lately I feel like I can see roofs everywhere I look. So why not paint one? 🤣
 💻🏡 Today, with the help of HiStruct Roofs, I quickly and easily turned the inspiration I found on the internet into drawings and beautiful 3D models 💪 Plus, it was fun! 
 #HiStruct #Roof #Design #Fun 
 
-## středa 17.04.2024 >> sent
+## středa 17.04.2024 **výkresy střešní krytiny - základ pro každou střechu** >> sent
 
 Roof Tilling Layout Drawing - an essential drawing for every roof project! ️ 🏗️
 Tilling Layout Drawing serves as a detailed guide for builders during the installation of the roofing system and contains important information about the placement of materials, joints, and technical aspects necessary for a quality and safe roof construction. 📐 🏠 
 💡 At HiStruct Roofs, complete drawings and bill of material for all roof planes are automatically generated based on the 3D model. 
 
-## čtvrtek 25.04.2024 >> sent
+## čtvrtek 25.04.2024 **okapový systém - generátor** >> sent
 
 The gutter system is one of the key elements of well-designed roof. 🛠️
 It consists of several components, such as gutters, downspouts, and drains, which together form a system for the proper drainage of water from the roof surface. 
 Can you imagine having to manualy enter all these components into a model? 😫
 💡 The gutter and flashing generator in HiStruct Roofs creates a complete gutter system with a single click. You can even customise the individual elements, whether it's their placement or colour. If that's even necessary. 😉
 #RoofConstruction #GutterSystem #HiStruct #Efficiency #Modeling #ConstructionTech
+
+## čtvrtek 03.05.2024 **roof of the week** >> sent
+
+Roof of the week!
 
 ## **Nová verze HiStruct Roofs 2.0** - právě jsme spustili
 
