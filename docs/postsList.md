@@ -4,31 +4,27 @@ pro střechaře, zaměřujeme se teď na výrobce, ale příspěvky skusíme ps�
 
 emotikony pro md zde https://gist.github.com/rxaviers/7360908
 
-## pondělí 25.03.2024 **Can you feel the change?** >> sent
+## 1/ pondělí 25.03.2024 **Can you feel the change?** >> sent
    
    HiStruct Roofs 2.0 is almost here
 
-## čtvrtek 28.03.2024 **More Roofs** >> sent
+## 2/ čtvrtek 28.03.2024 **More Roofs** >> sent
    
 ⭐ Představujeme HiStruct Roofs 2.0 – rychlý návrhář střech! Prohlédněte si naši galerii nakonfigurovaných střech a nechte se inspirovat možnostmi, které přináší HiStruct Roofs. #HiStruct #Roof #Design #Inovation
 
-## úterý 02.04.2024 **HiStruct Roofs in 3 steps** >> sent
+## 3/ úterý 02.04.2024 **HiStruct Roofs in 3 steps** >> sent
 
 HiStruct Roofs in three steps:
-
 ✏️ draw roof outline and set the slope
-
 :house: choose roofing 
-
 💡 generate drawings and bill of material
 Enjoy!
-
 #HiStruct #Roof #Design #Inovation
 
-## čtvrtek 04.04.2024 **Rychlé volby častých tvarů střech** >> sent
+## 4/ čtvrtek 04.04.2024 **Rychlé volby častých tvarů střech** >> sent
 :house: :star: S HiStruct Roofs je návrh vaší ideální střechy snazší než kdykoliv předtím! Naše rychlé volby obsahují nejčastější tvary střech, abychom vám ušetřili čas a usnadnili proces konfigurace. Vyberte si z přednastavených možností a sledujte, jak se vaše vize stává realitou. #HiStruct #střechy #architektura #design
 
-## úterý 09.04.2024 **Kreslím si střechu** >> sent
+## 5/ úterý 09.04.2024 **Kreslím si střechu** >> sent
 
 Lately I feel like I can see roofs everywhere I look. So why not paint one? 🤣
 💻🏡 Today, with the help of HiStruct Roofs, I quickly and easily turned the inspiration I found on the internet into drawings and beautiful 3D models 💪 Plus, it was fun! 
