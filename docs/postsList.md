@@ -52,6 +52,31 @@ Can you imagine having to manualy enter all these components into a model? 😫
 
 Roof of the week!
 
+## středa 15.05.2024 **střecha z Alp** >> sent
+
+Last week we went on a short holiday to relax in the wild nature of the Austrian Alps. On one of our bike rides we came across this amazing old farm building.
+And because we live our work, we couldn't help but test how HiStruct Roofs would cope with the design of this complex roof, without a specific brief. 
+You can judge for yourself 😊
+#roof #holiday #HiStruct #innovation #curiosity #exploration #discovery #livework
+
+## úterý 28.05.2024 **video** >> sent
+
+How easy is it to create a detailed 3D roof model in HiStruct Roofs? Watch our latest video to find out! In addition, HiStruct Roofs automatically generates bills of materials, drawings and tilling plans based on the parameters you enter. This makes it easier to get your quote, with 3D model and drawings, ready in minutes!
+#HiStructRoofs #3DModeling #RoofDesign #ConstructionTech #InnovationInConstruction #ProjectPlanning
+
+## čtvrtek 13.06.2024 **model ze zaměření** >> sent
+
+🚀 We are thrilled to introduce a groundbreaking feature of our HiStruct Roofs 🏠 that fundamentally changes how we work with roof models. Our advanced system now automatically loads roof models created using satellite or remote measurement services. 
+🔍With sophisticated recognition technology, the configurator identifies relevant roof planes and uses a geometric constraint solver to align them 🧠 This process ensures all unnecessary edges are removed, and the model is unified into an optimal form for subsequent steps. 
+For this unified model, the layout of the selected roofing material is automatically proposed 📋 Our intelligent software generates tilling plans, BOM reports, overview drawings, and even a price offer - all with incredible accuracy and efficiency. 📈
+Join us on the journey to the digital transformation of roofing and discover how HiStruct Roofs is bringing innovation right to your rooftop! 🙂 
+#Roofing #Innovation #Configurator #Digitalization #ConstructionIndustry
+
+## čtvrtek 27.06.2024 **vizualizace střech-která je nej?** >> sent
+
+What kind of roofing material would fit? 🤔 Visualize your projects in minutes with HiStruct Roofs!⚡ 
+hashtag#Visualization hashtag#Innovation hashtag#HiStructRoofs hashtag#3D
+
 ## **Nová verze HiStruct Roofs 2.0** - právě jsme spustili
 
 :rocket: Právě jsme spustili HiStruct Roofs 2.0! :house:
