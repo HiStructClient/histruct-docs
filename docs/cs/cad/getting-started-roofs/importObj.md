@@ -1,27 +1,37 @@
-# Import modelu OBJ
-3D modely budov mají obrovský potenciál, ať už plánujete nový projekt nebo rekonstrukci stávající budovy. Použití modelu ve formátu OBJ v HiStruct může výrazně urychlit vaši práci a poskytnout vám přesné výsledky. Ale jak na to? Je to vlastně docela jednoduché, a já vám ukážu, jak rychle vytvořit střechu s použitím modelu ve formátu OBJ.
-
-## Kde získat takový model?
-Existuje spousta služeb, které vám umožní získat 3D model vašeho domu, ať už pomocí satelitních snímků nebo dokonce pomocí dronů. Výsledkem těchto měření bývá model ve formátu OBJ. Pro naši ukázku budu používat jeden z volně dostupných modelů z internetu, na kterém vám ukážu, jak vytvořit střechu.
+# Generování střechy pomocí OBJ modelu
+S rozvojem BIM technologií se čím dál častěji setkáváme s tím, že stavební projekty mají svůj 3D model, a často ještě dříve, než jsou skutečně realizovány. Pokud ale takový model stavba nemá, jsou k dispozici společnosti, které nabízejí zaměření stávajících objektů. Bez ohledu na to, zda se zaměřuje pomocí dronů nebo satelitů, výsledkem bývá obvykle detailní 3D model ve formátu OBJ. Ten může vypadat například takto:
 
 ![Model OBJ](img/objModelBase.png)
 
-## Jak vložit OBJ do HiStruct?
-Pokud máte model ve formátu OBJ, můžete ho snadno importovat do vašeho projektu. Stačí kliknout na tlačítko *Import* a vybrat soubor s příponou **.obj*.
+## Jak vložit OBJ do HiStruct
 
-![Import tlačítko](img/importButton.png)
+Chcete-li maximálně využít OBJ modelu, doporučujeme použít náš inovativní generátor střech ***Rosol***. Ten dokáže rozpoznat jednotlivé střešní roviny v OBJ modelu a přiřadit jim správné hrany, sklony a vlastnosti.
 
-### Otočení modelu a změna měřítka
+1. Klikněte na tlačítko *Import \*.obj*. Otevře se dialogové okno, kde můžete nahrát svůj model.
+2. Po výběru souboru je třeba určit vkládací bod modelu kliknutím do scény.
 
-Po importu je důležité správně otočit model. To můžete udělat pomocí nástrojů, které používáte i pro jiné objekty v HiStruct. Dále bude třeba změnit měřítko modelu OBJ, což lze snadno provést pomocí tlačítka *Upravit*.
+![Rosol model](img/rosolModelObj.png)
 
-![Upravit měřítko](img/externalObjectEdit.png)
+### Editace rozpoznaného 3D modelu
 
-## Jak přidat střechu k modelu?
-Na importovanému *.obj lze vymodelovat střechu, a to tak, že budete postupně přidávat střešní roviny klikáním na vrcholy pomocí nástroje [obecného tvaru](modellingRoofs.md). 
+I když je náš ***Rosol*** téměř bezchybný, mohou se vyskytnout hrany a varianty, které ne vždy správně rozezná. Proto máte možnost opravit rozpoznávač a přizpůsobit vlastnosti jednotlivých hran.
 
-![Model vytvořený s objektem](img/objModel.png)
+- Kliknutím na jakoukoliv hranu můžete upravit její vlastnosti.
+- Stejným způsobem můžete měnit vlastnosti jednotlivých rozpoznaných rovin. Pokud nechcete na některé rovině generovat střechu, můžete její vlastnosti upravit.
 
-Tímto způsobem můžete vytvořit detailní 3D model, na kterém téměř vždy můžete spustit [generátor lemování a okapového systému](roofFlashingGenerator.md).
+**Jednotlivé hrany jsou barevně rozděleny do 3 skupin dle funkce:**
 
-![Model s okapovými systémy](img/objModelFlashings.png)
+- <span style="color: #395abd;">**Modré hrany**</span> : Šikmé ohraničení jednotlivých střešních rovin.
+- <span style="color: green;">**Zelené hrany**</span>: Vodorovné hrany, jako například hřeben střechy nebo okapová hrana.
+- <span style="color: red;">**Červené hrany**</span>: Hrany, které jsou při generování střechy ignorovány, protože leží v některé střešní rovině.
+
+**Jednotlivé plochy jsou barevně rozděleny do 2 skupin dle funkce:**
+
+- <span style="color: #395abd;">**Modré plochy**</span>: Rovina, na které bude střešní krytina.
+- **Bílé plochy**: Rovina, která není součástí střechy.
+
+## Jak vygenerovat střechu?
+
+Vygenerování střechy je nyní snadné. Stačí použít náš generátor střechy kliknutím na tlačítko *Další*. Generátor vás provede procesem a pomůže vám snadno vytvořit požadovanou střechu včetně příslušenství.
+
+![Roof model](img/roofModelObj.png)
