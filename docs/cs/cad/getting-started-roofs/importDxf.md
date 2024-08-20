@@ -1,48 +1,28 @@
-# Import výkresu s příponou DXF
+# Vložení podkladu DXF pro snadnější modelování
 
-Ať už se chystáš namodelovat střechu nebo celý dům, využití výkresu ti hodně ulehčí práci. S výkresem to budeš mít jednodušší. Proč? No, nejenom, že můžeš jednoduše přichytit kurzor k bodům na výkresu, ale také si udržíš kontrolu nad tvarem a velikostí každého modelovaného prvku. Ale jak na to? Věř mi, je to snadné, pokud následuješ několik jednoduchých kroků.
+Pokud máte jakýkoliv čárový podklad pro vaší střechu, vložením do modelovacího prostoru si výrazně ulehčíte svojí práci. Tento podklad umožní přesnější kreslení vaší střechy a díky automatickému přichycování kurzoru navíc zvýší přesnost modelu. Nemáte výkres v DXF ale pouze ve formátu PDF? Nevadí většina čárových výkresů lze snadno [konvertovat na DXF](convertPdfToDxf.md) Pojďme se kouknout jak na to...
 
-## Jak si připravit výkres před vložením?
+## Jak vložit DXF do HiStruct?
 
-### Zvýraznění důležitých prvků
-Tvůj vložený výkres bude obvykle tvořen jen čarami, proto je rozumné důležité části výkresu zvýraznit různou barvou.
+1. Otevřete záložku *Podklad* a klikněte na tlačítko *Import \*.dxf*. Otevře se dialogové okno, kde můžete nahrát svůj výkres.
+2. Po výběru souboru je třeba určit vkládací bod výkresu kliknutím do scény.
 
-### Verze a velikost DXF souboru
-HiStruct podporuje většinu verzí DXF souborů, ale doporučuji volit soubory do velikosti 2 MB pro maximální rychlost při editaci modelu.
+![Model DXF](img/importDXF.png)
 
-### Podporované objekty souboru DXF
-V našem nástroji jsou podporovány různé typy objektů, jako jsou *LINE, LWPOLYLINE, POLYLINE, SOLID, POINT, INSERT, SPLINE, CIRCLE, ARC* a *ELLIPSE*. 
+## Nastavení správného měřítka výkresu
+Jelikož jsou výkresy v různých měřítkách, je nejprve nutné nastavit správné měřítko aby model odpovídal rozměrům skutečným. 
 
-### Připravený výkres pro vložení
-Pokud postupuješ podle výše uvedených tipů, může výkres vypadat například takto. Já jsem zvýraznil důležité hrany střechy červenou barvou a odstranil nepotřebné objekty. Díky tomu nejenže rychleji vytvořím model, ale také budu mít klid při práci a nemusím se starat o rušivé prvky.
+![Model DXF](img/dxfNoScale.png)
 
-![DXF drawings](img/dxfDrawings.png) 
+1. Nejprve je nutné změřit pomocí tlačítka *Měření* jednu ze známých hran
+2. Vypočíst měřítko jako skutečná délka dělená délkou naměřenou
+3. Kliknout na vložený výkres a změnit v záložce *Vlastnosti* jeho měřítko
+Pokud jste nastavili správnou hodnotu měřítka, pak se Vám budou shodovat hodnoty naměřené s kótami z výkresu. 
 
+![Model DXF](img/dxfWithScale.png)
 
-## Jak vložit výkres DXF do HiStruct?
+## Od výkresu ke kompletní střeše
+Nyní máme naimportovaný podklad ve formě DXF a je možné modelovat střechu běžným způsobem, ať už pomocí jednotlivých střešních rovin, nebo s využitím našeho automatického řešiče, který vytváří střechu jen z obrysového polygonu takové střechy.
 
-Pokud mám připravený výkres, můžu ho snadno vložit do mého projektu. Stačí kliknout na tlačítko *Import* a vybrat soubor s příponou **.dxf*.
+![Model DXF](img/dxfRoof.png)
 
-![Import tlačítko](img/importButton.png)
-
-### Zvolení počátku
-Teď stačí kliknout do scény a vybrat bod, kde chci umístit začátek mého výkresu.
-
-![Zvolení počátku](img/insertDXF.png)
-
-### Úprava měřítka
-Pokud je můj výkres v jiných jednotkách než v metrech, nevadí. Můžu jednoduše upravit měřítko pomocí tlačítka *Upravit*.
-
-![Upravit měřítko](img/externalObjectEdit.png)
-
-### Umístění výkresu
-S vloženým výkresem mohu pracovat stejně jako s jakýmkoli jiným objektem. Můžu ho posouvat nebo otáčet.
-
-## Jak z výkresu vytvořit model?
-Na importované *.dxf se lze přichytávat, zadání jednotlivých střešních ploch pak probíhá oklikáním půdorysu [pomocí obecného tvaru](modellingRoofs.md) s doplněním sklonu pro každou střešní plochu. 
-
-![Vytvoření modelu](img/dxfModel.png)
-
-Tímto způsobem mohu vytvořit přesný 3D model na kterém je možné téměř vždy pustit [generátor lemovek a okapového systému](roofFlashingGenerator.md)
-
-![Model s lemovkami a okapem](img/dxfModelFlashings.png)

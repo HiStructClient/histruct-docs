@@ -39,9 +39,9 @@ nav:
   - "Úvod": index.md 
 
   - "Střechy":
-    # - cad/getting-started-roofs/index.md
+    - cad/getting-started-roofs/index.md
     # - cad/getting-started-roofs/modellingRoofs.md
-    # - cad/getting-started-roofs/importDxf.md
+    - cad/getting-started-roofs/importDxf.md
     - cad/getting-started-roofs/importObj.md
     - cad/getting-started-roofs/convert3dPdfToObj.md
     - cad/getting-started-roofs/convertPdfToDxf.md

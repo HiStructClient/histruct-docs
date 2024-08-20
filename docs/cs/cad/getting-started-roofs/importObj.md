@@ -1,11 +1,11 @@
 # Generování střechy pomocí OBJ modelu
-S rozvojem BIM technologií se čím dál častěji setkáváme s tím, že stavební projekty mají svůj 3D model, a často ještě dříve, než jsou skutečně realizovány. Pokud ale takový model stavba nemá, jsou k dispozici společnosti, které nabízejí zaměření stávajících objektů. Bez ohledu na to, zda se zaměřuje pomocí dronů nebo satelitů, výsledkem bývá obvykle detailní 3D model ve formátu OBJ. Ten může vypadat například takto:
+S rozvojem BIM technologií se čím dál častěji setkáváme s tím, že stavební projekty mají svůj 3D model, a často ještě dříve, než jsou skutečně realizovány. Pokud ale takový model stavba nemá, jsou k dispozici společnosti, které nabízejí zaměření stávajících objektů. Bez ohledu na to, zda se zaměřuje pomocí dronů nebo satelitů, výsledkem bývá obvykle detailní 3D model ve formátu OBJ, pokud model ve formátu OBJ nemáte koukněte se jak lze model do tohoto formátu  [konvertovat](convert3dPdfToObj.md). Výsledný model může vypadat například takto:
 
 ![Model OBJ](img/objModelBase.png)
 
-## Jak vložit OBJ do HiStruct
+## Jak vložit OBJ do HiStruct?
 
-Chcete-li maximálně využít OBJ modelu, doporučujeme použít náš inovativní generátor střech ***Rosol***. Ten dokáže rozpoznat jednotlivé střešní roviny v OBJ modelu a přiřadit jim správné hrany, sklony a vlastnosti.
+Chcete-li maximálně využít OBJ modelu, doporučujeme použít náš inovativní automatický generátor střech. Ten dokáže rozpoznat jednotlivé střešní roviny v OBJ modelu a přiřadit jim správné hrany, sklony a vlastnosti.
 
 1. Klikněte na tlačítko *Import \*.obj*. Otevře se dialogové okno, kde můžete nahrát svůj model.
 2. Po výběru souboru je třeba určit vkládací bod modelu kliknutím do scény.
@@ -14,7 +14,7 @@ Chcete-li maximálně využít OBJ modelu, doporučujeme použít náš inovativ
 
 ### Editace rozpoznaného 3D modelu
 
-I když je náš ***Rosol*** téměř bezchybný, mohou se vyskytnout hrany a varianty, které ne vždy správně rozezná. Proto máte možnost opravit rozpoznávač a přizpůsobit vlastnosti jednotlivých hran.
+I když je náš generátor téměř bezchybný, mohou se vyskytnout hrany a varianty, které ne vždy správně rozezná. Proto máte možnost opravit rozpoznávač a přizpůsobit vlastnosti jednotlivých hran.
 
 - Kliknutím na jakoukoliv hranu můžete upravit její vlastnosti.
 - Stejným způsobem můžete měnit vlastnosti jednotlivých rozpoznaných rovin. Pokud nechcete na některé rovině generovat střechu, můžete její vlastnosti upravit.
