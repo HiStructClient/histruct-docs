@@ -1,6 +1,8 @@
 # Vložení podkladu DXF pro snadnější modelování
 
-Pokud máte jakýkoliv čárový podklad pro vaší střechu, vložením do modelovacího prostoru si výrazně ulehčíte svojí práci. Tento podklad umožní přesnější kreslení vaší střechy a díky automatickému přichycování kurzoru navíc zvýší přesnost modelu. Nemáte výkres v DXF ale pouze ve formátu PDF? Nevadí většina čárových výkresů lze snadno [konvertovat na DXF](convertPdfToDxf.md) Pojďme se kouknout jak na to...
+Pokud máte jakýkoliv čárový podklad pro vaší střechu, vložením do modelovacího prostoru si výrazně ulehčíte svojí práci. Tento podklad umožní přesnější kreslení vaší střechy a díky automatickému přichycování kurzoru navíc zvýší přesnost modelu. Nemáte výkres v DXF ale pouze ve formátu PDF? Nevadí většina čárových výkresů lze snadno [konvertovat na DXF](convertPdfToDxf.md). 
+
+Pojďme se kouknout na to, jak vložit takový výkres...
 
 ## Jak vložit DXF do HiStruct?
 
@@ -14,9 +16,10 @@ Jelikož jsou výkresy v různých měřítkách, je nejprve nutné nastavit spr
 
 ![Model DXF](img/dxfNoScale.png)
 
-1. Nejprve je nutné změřit pomocí tlačítka *Měření* jednu ze známých hran
-2. Vypočíst měřítko jako skutečná délka dělená délkou naměřenou
-3. Kliknout na vložený výkres a změnit v záložce *Vlastnosti* jeho měřítko
+1. Nejprve je nutné změřit pomocí tlačítka *Měření* jednu ze známých hran.
+2. Vypočíst měřítko jako skutečná délka dělená délkou naměřenou.
+3. Kliknout na vložený výkres a změnit v záložce *Vlastnosti* jeho měřítko.
+
 Pokud jste nastavili správnou hodnotu měřítka, pak se Vám budou shodovat hodnoty naměřené s kótami z výkresu. 
 
 ![Model DXF](img/dxfWithScale.png)

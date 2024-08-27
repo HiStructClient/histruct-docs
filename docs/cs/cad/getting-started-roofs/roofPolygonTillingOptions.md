@@ -38,7 +38,7 @@ Je nastavitelný jako kladný nebo záporný odklon od spádnice.
 
 ![Tilling angle](img\tillingAngle.png)
 
-## Každý konkrétní pás
+### Každý konkrétní pás
 - vypnout ( pak se nezohlední ve výkresech, v detailním modelu ani ve výkazech materiálu.)
 
 ![Individual panel switched off](img\individualPanelSwitchedOff.png)
@@ -51,8 +51,20 @@ Je nastavitelný jako kladný nebo záporný odklon od spádnice.
 
 ![Individual panel splitting](img\individualPanelSplitting.png)
 
-## Prodloužení nebo zkrácení panelů u stran
+### Prodloužení nebo zkrácení panelů u stran
 
 Pro každou stranu střešního polygonu lze nastavit prodloužení nebo zkrácení panelů, kliknutím na tlačítko nad hranou.
 
 ![Tilling edge offset](img\tillingEdgeOffset.png)
+
+## Generátor desek
+
+Aktuálně pracujeme na rozšíření nápovědy a přidáváme další užitečné informace. Prosím, buďte trpěliví a očekávejte další aktualizace, které brzy dorazí s rozšířenou a podrobnější nápovědou. 🚀 Děkujeme za pochopení! 😊
+
+## Generátor střešních tašek
+
+Aktuálně pracujeme na rozšíření nápovědy a přidáváme další užitečné informace. Prosím, buďte trpěliví a očekávejte další aktualizace, které brzy dorazí s rozšířenou a podrobnější nápovědou. 🚀 Děkujeme za pochopení! 😊
+
+## Generátor střešních latí
+
+Aktuálně pracujeme na rozšíření nápovědy a přidáváme další užitečné informace. Prosím, buďte trpěliví a očekávejte další aktualizace, které brzy dorazí s rozšířenou a podrobnější nápovědou. 🚀 Děkujeme za pochopení! 😊

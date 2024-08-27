@@ -1,5 +1,5 @@
 
-# HiStruct pro střechaře
+# HiStruct Roofs pro střechaře
 
 HiStruct je webová aplikace, která umožňuje snadnou spolupráci či sdílení projektu nebo jeho částí. Takto umožníte náhled na 3D model střechy koncovému zákazníkovi, spolupracujete na projektu s kolegou nebo montážní firmou.
 Slouží k rychlému sestavení nabídky, výkazu materiálu a kladečských plánů pro střešní krytiny, oplechování, lemovky a okapové systémy. Systém umožňuje několik módů zadání, které zvyšují efektivitu při práci s projektem.
@@ -7,10 +7,10 @@ Slouží k rychlému sestavení nabídky, výkazu materiálu a kladečských pl�
 ## Jak zpracovat poptávku střechy v HiStruct?
 
 1. Založím projekt s mapou nebo bez
-1. Namodeluji střešní plochy překreslením nebo si pomůžu importem
+1. Namodeluji střešní plochy překreslením nebo si pomůžu generátorem
 1. Upravím vygenerované kladení
 1. Navolím lemovky a okapový systém nebo jej nechám automaticky vygenerovat
-1. Kusovníky, dokumenty, výkresy
+1. Získám kusovníky, dokumenty, výkresy
 
 
 Hotovo, jdu na kávičku 😊
@@ -35,6 +35,10 @@ Pokud je tvar střechy jednoduchý, mohu jej [modelovat](modellingRoofs.md) vkl�
 
 Pokud mám k dispozici vektorový výkres, bude se mi modelovat snadněji. Do HiStruct lze importovat [soubory ve formátu *.dxf](importDxf.md), případně převést vektorové[ *.pdf na *.dxf](convertPdfToDxf.md) a to [naimportovat do HiStruct](importDxf.md). Importované *.dxf umožňuje snadné přichytávání a zadávání jednotlivých střešních ploch probíhá oklikáním půdorysu s možností doplnění sklonu pro každou střešní plochu. Výhodou je přesnost a snadné zhotovení 3D modelu. Téměř vždy lze použít [generátor lemovek a okapového systému](roofFlashingGenerator.md).
 
+#### **Mám pouze obrys střechy a potřebuji vymyslet střechu😊😊😊**
+
+Pokud se například jedná o zcela novou střechu, u které máte zatím pouze obrys, můžete v HiStruct využít inovativní nástroj, který automaticky navrhne výsledný tvar střechy, sklony jednotlivých ploch, lemovky i okapový systém. Pro tento postup je samozřejmě možné importovat [soubory ve formátu *.dxf](importDxf.md), případně převést vektorové [*.pdf na *.dxf](convertPdfToDxf.md) a [naimportovat je do HiStruct](importDxf.md).
+
 #### **Mám 3D model z digitálního zaměření 😊😊😊**
 
 Model z digitálního zaměření je výhra. Pokud mám tento model ve vhodném formátu (3D *.pdf nebo přímo *.obj), můžu geometrii rovnou importovat. Do HiStruct lze [importovat *.obj](importObj.md), případně [převést 3D *.pdf na *.obj](convert3dPdfToObj.md) a to [naimportovat do HiStruct](importObj.md).
@@ -45,13 +49,13 @@ Po vygenerování střešních ploch můžu použít ještě [generátor lemovek
 
 #### **Jednoduchý tvar 😊😊😊**
 
-Obdélníkové typy střech na stále oblíbenější bungalovy jsou v HiStruct dostupné přímo jako celá budova, která se automaticky opláští zvolenou krytinou a olemuje tvarovkami.
+Jednoduché typy střech na stále oblíbenější bungalovy jsou v HiStruct dostupné přímo jako celá budova, která se automaticky opláští zvolenou krytinou a olemuje tvarovkami.
 
 ### 3. Kladení střešní krytiny
 
 Knihovny krytin a lemovek pro nás znamenají nejen velikost a barvu, ale celý přístup k opláštění konkrétních střešních ploch. Do knihovny jsme díky variabilnímu generátoru schopni zanést konkrétní montážní postup dané krytiny konkrétního výrobce. Toto děláme v rámci [projektu přizpůsobení](customisationProject.md). Kvalitně vytvořený generátor následně eliminuje nutné zásahy do automatického kladení.
 
-[Kladení střeních tvarovek](roofPolygonTillingOptions.md) probíhá automaticky podle konfiguračního nastavení krytiny. Dále je možné upravovat počátek kladení (zleva, zprava, střed na osu, střed na hranu panelu) tak, aby byl dosažen nejmenší možný prořez. Informace o poměru prořezu k ploše střešní roviny jsou zobrazeny během úprav kladení.
+[Kladení střeních tvarovek](roofPolygonTillingOptions.md) probíhá automaticky podle konfiguračního nastavení krytiny. Dále je možné upravovat počátek kladení tak, aby byl dosažen nejmenší možný prořez. Informace o poměru prořezu k ploše střešní roviny jsou zobrazeny během úprav kladení.
 
 ### 4. Jak na lemovky a okapový systém?
 

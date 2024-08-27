@@ -22,7 +22,7 @@ Po kliknutí na šipku klikněte na kurzorovou ikonu a následně vyberte plochu
 
 ### Úprava polohy
 
-Změna polohy se provede stejným způsobem jako změna geometrie [polylinie](..\instructor-roofs\insertPolyline.md).
+Změna polohy se provede stejným způsobem jako změna geometrie polylinie.
 
 ## Výběr oplechování z knihovny
 
@@ -31,8 +31,6 @@ Můžete vybrat různé typy oplechování z [knihovny](roofFlashingLibrary.md) 
 ## Druhy oplechování
 
 Každá část střechy vyžaduje specifický typ oplechování a lemovek. V HiStruct je široká nabídka oplechování a lemovek, které pokryjí téměř všechny části střech. V následujícím textu se budeme postupně zabývat jednotlivými prvky.
-
-![Flashing button](img/flashingsButton.png)
 
 ### Štítová lemovka
 Štítová lemovka zvaná též závětrná lišta je speciální oplechování, který se používá k zakončení štítového průčelí střechy. Štítové průčelí je část střechy, která se nachází na štítové straně budovy, a štítová lemovka slouží k estetickému nebo ochrannému dokončení této části střechy.
