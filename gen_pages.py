@@ -23,7 +23,7 @@ def copy_file_to_lang(sourcePath, docsPath_target):
     with mkdocs_gen_files.open(targetPath, "wb") as f:
         f: IO[bytes]
         with sourcePath.open("rb") as fsource:
-            print(f"Copy {sourcePath} -> {targetPath}")
+            # print(f"Copy {sourcePath} -> {targetPath}")
             f.write(fsource.read())
 
 
