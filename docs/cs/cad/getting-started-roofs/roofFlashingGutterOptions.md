@@ -6,7 +6,7 @@ Okapový systém je jedním z klíčových prvků střešní konstrukce, jehož 
 
 ## Zadání okapového systému
 
-Pro modelování okapového systému v programu HiStruct existuje několik možností. Nejrychlejším způsobem je využití [generátoru okapů a lemovek](roofFlashingGenerator.md), který umožňuje rychle vytvořit komplexní okapový systém a následně upravit jednotlivé prvky dle potřeby. Alternativně můžete okapový systém přidat manuálně pomocí [polylinie](..\instructor-roofs\insertPolyline.md), která určuje okraje střechy, na které má být oplechování aplikováno. Tato flexibilita vám umožňuje přizpůsobit okapový systém vašim konkrétním požadavkům a stavebním projektům.
+Pro modelování okapového systému v programu HiStruct existuje několik možností. Nejrychlejším způsobem je využití [generátoru okapů a lemovek](roofFlashingGenerator.md), který umožňuje rychle vytvořit komplexní okapový systém a následně upravit jednotlivé prvky dle potřeby. Alternativně můžete okapový systém přidat manuálně pomocí [polylinie](../instructor-roofs/insertPolyline.md), která určuje okraje střechy, na které má být oplechování aplikováno. Tato flexibilita vám umožňuje přizpůsobit okapový systém vašim konkrétním požadavkům a stavebním projektům.
 
 ## Úprava geometrie žlabu a okapnice
 

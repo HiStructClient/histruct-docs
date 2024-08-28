@@ -24,7 +24,7 @@ Odešlete poptávku spolu s celým modelem svému oblíbenému dodavateli.
 
 #### Jste výrobcem střešní krytiny?
 
-Konfigurátor HiStruct Roofs lze rozsáhle přizpůsobit. Systém kladení střešních tvarovek, lemovek, oplechování a okapového systému je nastaven pro každého konkrétního výrobce zvlášť v samostatné sadě konfiguračních souborů. Obsahuje informaci o tom jakým způsobem je třeba střešní plochu tvarovkami vyskládat, dále možné barevné kombinace, informace k výkazu materiálu a další. Tyto a další přizpůsobení děláme v rámci [projektu pro přizpůsobení](customisationProject.md).
+Konfigurátor HiStruct Roofs lze rozsáhle přizpůsobit. Systém kladení střešních tvarovek, lemovek, oplechování a okapového systému je nastaven pro každého konkrétního výrobce zvlášť v samostatné sadě konfiguračních souborů. Obsahuje informaci o tom jakým způsobem je třeba střešní plochu tvarovkami vyskládat, dále možné barevné kombinace, informace k výkazu materiálu a další. Tyto a další přizpůsobení děláme v rámci [projektu pro přizpůsobení](../getting-started-roofs/customisationProject.md).
 Spojte se s námi rádi s vámi projdeme vaše dotazy.
 
 [Spojte se s námi](https://www.histruct.com/company/contact-us)

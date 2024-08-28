@@ -4,7 +4,7 @@ Oplechování střechy a doplnění lemovek do střešního návrhu jsou zásadn
 
 ## Zadání oplechování
 
-Nejrychlejší způsob vytvoření lemovek je použití [generátoru střešního oplechování](roofFlashingGenerator.md) a následné upravení jednotlivých prvků. Ale všechno oplechování střechy může být také definováno pomocí [polylinie](..\instructor-roofs\insertPolyline.md), která určuje okraje střechy, kam má být oplechování aplikováno.
+Nejrychlejší způsob vytvoření lemovek je použití [generátoru střešního oplechování](roofFlashingGenerator.md) a následné upravení jednotlivých prvků. Ale všechno oplechování střechy může být také definováno pomocí [polylinie](../instructor-roofs/insertPolyline.md), která určuje okraje střechy, kam má být oplechování aplikováno.
 
 ## Úprava geometrie oplechování
 

@@ -19,6 +19,6 @@ Pokud bych chtěl upravit kterýkoliv bod mé přidané kóty, stačí kliknout 
 
 ## Přidání čáry
 
-Dalším prvkem, který je možné do výkresu přidat je [polylinie](..\instructor-roofs\insertPolyline.md). U této čáry je možné měnit pouze barvu.
+Dalším prvkem, který je možné do výkresu přidat je [polylinie](../instructor-roofs/insertPolyline.md). U této čáry je možné měnit pouze barvu.
 
 

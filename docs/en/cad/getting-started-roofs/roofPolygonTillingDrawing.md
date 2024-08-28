@@ -22,6 +22,6 @@ If it is required to edit any point of the dimension, it is possible by clicking
 
 ## Adding a line
 
-Another element that can be added to the drawing is [polyline](..\instructor-roofs\insertPolyline.md). For this line, only the color can be modified.
+Another element that can be added to the drawing is [polyline](../instructor-roofs/insertPolyline.md). For this line, only the color can be modified.
 
 
