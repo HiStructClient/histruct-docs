@@ -13,7 +13,7 @@ const tranlationDirections = {
     "cs": "en",
     "en": "cs",
     "de": "en",
-    "ro": "en",
+    "ro": "cs",
 }
 
 export function getDefaultSourceLang(targetLang) {
@@ -56,10 +56,10 @@ function walkSync(dir, callback) {
  * Vrátí seznam souborů v daném jazyce
  * @param {string} lang
  * @param {string} prefix
- * @param {boolean} includeAutoTranslated
+ * @param {boolean} includeOnlyAutoTranslated
  * @returns {Array<string>}
  */
-export function getAllFilesInLangFolder(lang, prefix, includeAutoTranslated = true) {
+export function getAllFilesInLangFolder(lang, prefix, includeOnlyAutoTranslated = true) {
     const folder = path.join(inputDir, lang);
     const folder2 = prefix ? path.join(inputDir, lang, prefix) : folder;
     const files = [];
@@ -69,7 +69,7 @@ export function getAllFilesInLangFolder(lang, prefix, includeAutoTranslated = tr
             const content = fs.readFileSync(filepath, 'utf8');
             const meta = metadataParser(content).metadata ?? { autoTranslated: false };
 
-            if (includeAutoTranslated || meta.autoTranslated !== true) {
+            if (!includeOnlyAutoTranslated || meta.autoTranslated !== true) {
                 files.push(filepath.slice(folder.length + 1));
             }
         }
@@ -99,7 +99,7 @@ export function getAllImagesInLangFolder(lang) {
  * @param {string} prefix
  * @returns {Array<TranslationFile>}
  */
-export function findOutdatedTranslations(lang, sourceLang, prefix) {
+export function findOutdatedTranslations(lang, sourceLang, prefix, skipAutoTranslated = true) {
     if (lang == "all") {
         return langFolders.map(l => findOutdatedTranslations(l)).flat();
     }
@@ -154,9 +154,9 @@ export function findOutdatedTranslations(lang, sourceLang, prefix) {
 }
 
 /// Vrátí seznam souborů, které je potřeba přeložit, protože chybí
-export function findMissingTranslations(lang, sourceLang, prefix) {
+export function findMissingTranslations(lang, sourceLang, prefix, includeOnlyAutoTranslated) {
     if (lang == "all") {
-        return langFolders.map(l => findMissingTranslations(l)).flat();
+        return langFolders.map(l => findMissingTranslations(l, sourceLang, prefix, includeOnlyAutoTranslated)).flat();
     }
 
     const filesToTranslate = [];
@@ -174,7 +174,7 @@ export function findMissingTranslations(lang, sourceLang, prefix) {
         return [];
     }
 
-    const allFiles = getAllFilesInLangFolder(sourceLang, prefix, true);
+    const allFiles = getAllFilesInLangFolder(sourceLang, prefix, includeOnlyAutoTranslated);
 
     console.log(`V jazyku '${lang}' chybí ${allFiles.length} souborů.`, sourceLang)
 

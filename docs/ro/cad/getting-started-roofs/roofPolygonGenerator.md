@@ -1,16 +1,15 @@
 ---
-sourceLang: en
-sourceHash: 70298c03d0cb22a3dc1b138606e69930
+sourceLang: cs
+sourceHash: e51c064155c7f37907ea1cf3e9e95473
 autoTranslated: true
 ---
 
+# Utilizarea modelului din orientarea digitală a clădirii
 
-# Utilizarea modelului de la măsurare digitală
+Un serviciu utilizat pe scară largă pentru ridicarea unei clădiri folosind hărți detaliate sau alte documente oferă de obicei un model tridimensional în format *.obj sau 3D *.pdf. HiStruct permite ca acest model obținut să fie utilizat eficient pentru procesarea ulterioară.
 
-Un serviciu larg utilizat pentru construirea măsurătorilor prin hărți detaliate sau alte surse de date furnizează de obicei un model tridimensional în format *.obj sau 3D *.pdf. HiStruct permite utilizarea eficientă a acestui model achiziționat pentru prelucrarea ulterioară.
+Modelul în format [3D *.pdf poate fi convertit în format *.obj](convert3dPdfToObj.md). Formatul *.obj poate fi apoi direct [importat](importObj.md) în scena HiStruct.
 
-Modelul în format [3D *.pdf poate fi convertit în format *.obj](convert3dPdfToObj.md). Formatul *.obj poate fi apoi [importat](importObj.md) direct în scena HiStruct.
+Modelul din orientarea digitală este de obicei mai mult sau mai puțin corect din punct de vedere geometric. Fiecare suprafață a acoperișului este descompusă într-o serie de triunghiuri, ceea ce nu reprezintă o problemă pentru afișarea fișierului importat în scenă. Cu toate acestea, pentru placarea ulterioară, suprafețele acoperișului trebuie să fie unificate. Prin urmare, după import, se efectuează automat o corecție geometrică în care triunghiurile sunt unificate în suprafețe de acoperiș.
 
-Modelul din măsurătorile digitale este în mod obișnuit mai mult sau mai puțin geometric corect. Fiecare suprafață de acoperiș este divizată într-o serie de triunghiuri, ceea ce este perfect adecvat pentru afișarea fișierului importat în scenă. Cu toate acestea, pentru procesul ulterior de învelire, este necesară unificarea triunghiurilor individuale în suprafețe de acoperiș geometric corecte. Prin urmare, după import, se efectuează automat o corecție a geometriei, în timpul căreia triunghiurile sunt unificate în suprafețe de acoperiș.
-
-Aceste geometrii de suprafață corectate sunt apoi salvate împreună cu proiectul, iar suprafețele individuale ale acoperișurilor și pereților pot fi convertite în zone cu plăci.
+Aceste geometrii de suprafață corectate sunt apoi salvate împreună cu proiectul, iar suprafețele individuale ale acoperișului și pereților pot fi convertite în elemente de placare.

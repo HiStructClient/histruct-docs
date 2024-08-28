@@ -1,65 +1,76 @@
 ---
-sourceLang: en
-sourceHash: 40fe8cfacaf26a30503bdf5cb603f175
+sourceLang: cs
+sourceHash: 5ed3bb04f51f2e738e81a29d4ad9c1c2
 autoTranslated: true
 ---
 
+# Opțiuni de placare
 
-# Opțiuni de învelitoare
+În funcție de tipul de placare ales pentru o anumită zonă de acoperiș sau de perete, este selectat generatorul corespunzător. Fiecare tip de generator poate avea un control specific.
 
-În funcție de tipul de învelitoare ales pentru o anumită zonă a acoperișului sau a pereților, se selectează generatorul corespunzător. Fiecare tip de generator poate avea controale specifice.
+## Generator de benzi de tablă
 
-## Generator de benzi din tablă
+Generatorul de benzi de tablă plasează învelitoarea selectată de-a lungul bazei zonei. Generatorul poate fi setat pentru întreaga zonă de înveliș sau, unele setări sunt apoi disponibile făcând clic pe o bandă individuală. În modul de editare, proporția dintre suprafața totală a benzii și suprafața învelită este întotdeauna afișată.
 
-Generatorul de benzi din tablă plasează materialul de învelitoare ales pe panta suprafeței. Generatorul poate fi configurat pentru întreaga zonă acoperită cu învelitoare, iar unele setări sunt disponibile prin clic pe fiecare bandă în parte. În modul de editare, proporția suprafeței totale acoperite de benzi în raport cu suprafața acoperită cu învelitoare este afișată întotdeauna.
+![Generator strip tiler](img\generatorStripTiler.png)
 
-![Generator de benzi](img/generatorStripTiler.png)
+### Direcția de așternere
 
-### Direcția șindrilei
+Este configurabilă, alegând dintre următoarele tipuri:
 
-Direcția șindrilei poate fi configurată; se poate alege dintre următoarele tipuri:
+- din stânga
 
-- începând din stânga
+![Tilling din stânga](img\tillingFromLeft.png)
 
-![Șindrilare din stânga](img/tillingFromLeft.png)
+- din dreapta
 
-- începând din dreapta
+![Tilling din dreapta](img\tillingFromRight.png)
 
-![Șindrilare din dreapta](img/tillingFromRight.png)
+- centrați banda de mijloc a acoperișului pe centrul laturii de streașină
 
-- centrarea șindrilor în mijlocul pantei
+![Tilling axa centrală](img\tillingCenterAxis.png)
 
-![Centrarea șindrilor](img/tillingCenterAxis.png)
+- așezați marginea benzii de acoperiș pe centrul laturii jgheabului
 
-- plasarea șindrilei pe marginea jgheabului
+![Tilling center edge](img\tillingCenterEdge.png)
 
-![Plasarea șindrilei pe margine](img/tillingCenterEdge.png)
+- specificații generale privind începutul așezării (așezarea de la stânga + distanță)
 
-- specificația generală a începerii șinderelor (începând din stânga + distanță)
+![General tilling head start](img\generalTillingHeadStart.png)
 
-![Începerea generală a șinderelor](img/generalTillingHeadStart.png)
+### Unghiul de așezare a benzilor
 
-### Unghiul de șindrilare
+Este reglabil ca decalaj pozitiv sau negativ față de linia de bază.
 
-Unghiul de șindrilare poate fi ajustat ca deviere pozitivă sau negativă față de linia de bază.
+![Tilling angle](img\tillingAngle.png)
 
-![Unghiul de șindrilare](img/tillingAngle.png)
+### Fiecare bandă specifică
+- dezactivare ( atunci nu se reflectă în desene, model detaliat sau rapoarte privind materialele).
 
-## Fiecare bandă în parte
-- dezactivează (atunci nu se reflectă în desene, modelul detaliat sau rapoartele de RAU.)
+![Panou individual dezactivat](img\individualPanelSwitchedOff.png)
 
-![Panoul individual dezactivat](img/individualPanelSwitchedOff.png)
+- prelungiți sau scurtați suprapunerea
 
-- prelungire sau scurtare a suprapunerii
+![Individual panel extension options](img\individualPanelExtensionOptions.png)
 
-![Opțiuni de prelungire a panoului individual](img/individualPanelExtensionOptions.png)
+- suprapunerea în locurile corespunzătoare (în funcție de grila lamelelor) Făcând clic pe diviziunile indicate deasupra lamelelor puteți diviza banda sau, dimpotrivă, o puteți uni dacă a fost deja divizată.
 
-- suprapunere în locurile potrivite (în conformitate cu grila bârnelor) Făcând clic pe diviziunile indicate deasupra bârnelor, se poate diviza banda sau, dimpotrivă, se poate uni dacă a fost deja divizată.
+![Divizarea individuală a panoului](img\individualPanelSplitting.png)
 
-![Divizarea panelului individual](img/individualPanelSplitting.png)
+### Alungirea sau scurtarea panourilor laterale
 
-## Preluare sau scurtare a panelurilor în laterale
+Pentru fiecare latură a poligonului acoperișului, puteți seta alungirea sau scurtarea panoului făcând clic pe butonul de deasupra marginii.
 
-Pentru fiecare latură a poligonului acoperișului, se poate seta prelungirea sau scurtarea panoului prin clic pe butonul deasupra marginii.
+![Decalarea marginii de tasare](img\tillingEdgeOffset.png)
 
-![Offset de șindrilare](img/tillingEdgeOffset.png)
+## Generator de panouri
+
+În prezent, lucrăm la extinderea ajutorului și la adăugarea mai multor informații utile. Vă rugăm să fiți răbdători și să vă așteptați la mai multe actualizări care vor sosi în curând cu ajutor extins și mai detaliat. 🚀 Vă mulțumim pentru înțelegere! 😊
+
+## Generator de țiglă pentru acoperiș
+
+În prezent lucrăm la extinderea ajutorului și adăugarea de informații mai utile. Vă rugăm să fiți răbdători și să așteptați mai multe actualizări care vor sosi în curând cu ajutor extins și mai detaliat. 🚀 Vă mulțumim pentru înțelegere! 😊
+
+## Generator de baghete de acoperiș
+
+În prezent, lucrăm la extinderea ajutorului și la adăugarea mai multor informații utile. Vă rugăm să fiți răbdători și să așteptați mai multe actualizări care vor sosi în curând cu ajutor extins și mai detaliat. 🚀 Vă mulțumim pentru înțelegere! 😊

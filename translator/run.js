@@ -28,7 +28,7 @@ if (argCommand === "help") {
 } else if (argCommand === "translate") {
     if (argFile) {
         const file = {
-            file: argFile,
+            fileName: argFile,
             targetLang: argLang,
             srcLang: sourceLang,
         }

@@ -1,17 +1,17 @@
 ---
-sourceLang: en
-sourceHash: b265ac7b102d165430f0635e6fc2f8cd
+sourceLang: cs
+sourceHash: 0ec09804c11db8487d8a751ce3e4af21
 autoTranslated: true
 ---
 
-# Generare de jgheaburi și plăci de etanșare
+# Trim generator și sistem de jgheaburi
 
-Este special conceput să **economisească timpul** necesar pentru realizarea unui model 3D al plăcilor de etanșare și jgheaburilor pentru geometrii de acoperiș importate sau specificate.
+Acesta este conceput în principal pentru a **economisi timp** pentru realizarea modelului 3d de solnițe și jgheaburi pentru geometrii importate sau specificate ale planului acoperișului.
 
-Generatorul poate fi folosit și în mod mai general pentru geometrii plane introduse dintr-un desen sau create în întregime manual, și apoi modificate pentru a se potrivi cel mai bine cu marginile planurilor de acoperiș care trebuie acoperite. Nu trebuie să se potrivească perfect, ci trebuie să se încadreze în limitele normale de toleranță.
+Generatorul poate fi, de asemenea, utilizat în general pentru geometrii plane care sunt introduse dintr-un desen sau complet de mână și doar modificate pentru a se potrivi cel mai bine cu marginile planurilor acoperișului care urmează să fie atinse. Nu trebuie să se potrivească complet, ci doar să se potrivească în limitele toleranțelor normale.
 
-![Geometrie sursă pentru generatorul de plăci de etanșare](img/sourceGeometryForFlashingGenerator.png)
+![Geometrie sursă pentru generatorul de blițuri](img/sourceGeometryForFlashingGenerator.png)
 
-HiStruct identifică automat locurile unde sunt necesare plăcile de etanșare pe baza geometriilor planurilor de acoperiș învecinate și generează apoi tipurile corespunzătoare de plăci de etanșare. Aceste plăci generate pot fi apoi modificate ulterior, după cum este necesar.
+HiStruct identifică în mod automat locațiile necesare ale burlanelor din geometria planurilor de acoperiș din apropiere și apoi generează tipurile de burlane corespunzătoare. Aceste solnițe generate pot fi apoi modificate după cum este necesar.
 
-![Rezultatul generării plăcilor de etanșare](img/generatedFlashingResult.png)
+![Generated FlashingResult](img/generatedFlashingResult.png)

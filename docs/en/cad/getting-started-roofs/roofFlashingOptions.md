@@ -1,20 +1,20 @@
 ---
 sourceLang: cs
-sourceHash: bf6839ca11df4a357d6b728092bb4b3f
+sourceHash: a73105b1491809aa47a7e015cab6ba8b
 autoTranslated: true
 ---
 
 # Roof cladding and flashing
 
-Adding flashing to the roof and supplementing eaves in the roof design are essential steps in creating a high-quality roofing project. In HiStruct, you can manually add flashing to each side of the roof plane or use the [roof Flashings Generator](roofFlashingGenerator.md) for an entire group of roof planes.
+Roof sheathing and adding flashings to a roof design are essential steps in creating a quality roofing project. In HiStruct, you can manually add flashings to each side of a roof plane or use the [Roof Flashings Generator](roofFlashingGenerator.md) for an entire group of roof planes. Modeling individual flashings and flashings is easy, and I'll show you how to do it.
 
 ## Specifying flashings
 
 The fastest way to create flashings is to use the [roofFlashing Generator](roofFlashingGenerator.md) and then modify the individual elements. But all roof flashings can also be defined using [polyline](../instructor-roofs/insertPolyline.md), which specifies the roof edges where the flashings should be applied.
 
-## Modifying flashing geometry
+## Modifying the flashing geometry
 
-All flashings can be modified in terms of geometry. You can move the polyline vertices to change the position of the flashings. You can also adjust the bending angle of some of the flashings. The generator does this automatically, but you can change this by clicking *Edit* and then *Geometry* where you can change the angle or geometry of the polyline.
+All flashings can be modified in terms of geometry. You can move the polyline vertices to change the position of the flashings. You can also adjust the bending angle of some of the trims. The generator does this automatically, but you can change this by clicking *Edit* and then *Geometry* where you can change the angle or position of the polyline.
 
 ### Adjusting the angle
 
@@ -28,20 +28,18 @@ After clicking on the arrow, click on the cursor icon and then select the area y
 
 ### Edit position
 
-The position change is done in the same way as the [polyline](../instructor-roofs/insertPolyline.md) geometry change.
+Changing the position is done in the same way as changing the polyline geometry.
 
 ## Selecting the plating from the library
 
-You can select different types of flashings from [library](roofFlashingLibrary.md) for each flashing element. This can be done either for individual elements or for a group of elements at once.
+You can select different types of flashings from the [library](roofFlashingLibrary.md) for each flashing element. This can be done either for individual elements or for a whole group of elements at once.
 
 ## Types of flashings
 
 Each part of the roof requires a specific type of flashings and flashings. HiStruct has a wide range of flashings and flashings to cover almost all parts of the roof. In the following we will go through each element in turn.
 
-![Flashing button](img/flashingsButton.png)
-
-### Gable trim
-Gable flashing, also called leeward trim, is a special flashing used to finish the gable facade of a roof. The gable elevation is the portion of the roof that is located on the gable side of a building, and gable flashings are used to provide an aesthetic or protective finish to this portion of the roof.
+### Gable flashings
+Gable flashings, also called leeward flashings, are special flashings used to finish the gable facade of a roof. The gable elevation is the portion of the roof that is located on the gable side of a building, and gable flashings are used to provide an aesthetic or protective finish to this portion of the roof.
 
 ![Flashing gable trim](img/flashingGableTrim.png)
 

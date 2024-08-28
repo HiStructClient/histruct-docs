@@ -1,14 +1,9 @@
 ---
-sursaLimba: cs
-hashSursa: 40384dd1e0c870b179e9f39e8777d523
-traducereAutomata: true
-corectat: true
-sourceLang: en
-sourceHash: e2ac310824241f67303673f4b3cf5bca
+sourceLang: cs
+sourceHash: 40384dd1e0c870b179e9f39e8777d523
 autoTranslated: true
 ---
 
-
 # Povestea texturilor
 
-În prezent lucrăm la extinderea ajutorului şi adăugarea mai multor informaţii utile. Vă rugăm să aveţi răbdare şi să vă aşteptaţi ca în curând să vindem mai multe actualizări cu un ajutor extins şi mai detaliat. 🚀 Vă mulţumim pentru înţelegere! 😊
+În prezent, lucrăm la extinderea ajutorului și la adăugarea mai multor informații utile. Vă rugăm să fiți răbdători și să așteptați mai multe actualizări care vor sosi în curând cu ajutor extins și mai detaliat. 🚀 Vă mulțumim pentru înțelegere! 😊

@@ -1,26 +1,30 @@
 ---
-sourceLang: en
-sourceHash: a542a22b43d9382905befb46122bcf0b
+sourceLang: cs
+sourceHash: fd76188bc006fb5e3240e8f83ba4dad9
 autoTranslated: true
 ---
 
+# Desen Kladek al planului acoperișului
 
-# Desenarea acoperișului printr-o gresie
-Desenarea planului acoperișului prin gresie este o parte esențială a procesului de proiectare a clădirilor, permițând traducerea planurilor de design într-un design practic pe acoperiș. Acest desen servește ca ghid detaliat pentru constructori în momentul instalării unui sistem de acoperiș și conține informații importante despre amplasarea materialelor, conexiuni și toate aspectele tehnice care sunt esențiale pentru o construcție de calitate și sigură a acoperișului.
+Desenul Kladek al planului acoperișului este o parte esențială a procesului de proiectare a clădirii, permițând ca planurile de proiectare să fie transpuse în proiectare practică pe acoperiș. Acest desen servește drept ghid detaliat pentru constructori la instalarea unui sistem de acoperiș și conține informații importante privind amplasarea materialelor, conexiunile și toate aspectele tehnice care sunt esențiale pentru o construcție de acoperiș de calitate și sigură.
 
-În HiStruct, se generează automat desene complete pentru toate planurile acoperișului, bazate pe modelul 3D. Pentru a edita aceste desene, apăsați pur și simplu butonul *Desenare*.
+În HiStruct, desenele complete pentru toate planurile acoperișului sunt generate automat pe baza modelului 3D. Pentru a edita aceste desene, este suficient să navigați la un anumit plan al acoperișului și să faceți clic pe butonul *Drawings*.
+
+În același timp, aceste desene sunt întotdeauna generate automat în cadrul ieșirilor, de exemplu în nomenclatura acoperișului.
 
 
-![Text alternativ](img/drawingsRoofTilling.png)
+![Alt text](img/drawingsRoofTilling.png)
 
-## Adăugarea unei dimensiuni
+## Adăugarea dimensiunilor
 
-Dimensiunea poate fi introdusă făcând clic pe butonul *Dimensiune*, selectând două puncte pentru care dorim să determinăm dimensiunea și specificând apoi distanța liniei. După ce faceți clic pe dimensiune, este posibil nu doar să-i schimbați culoarea, ci și să determinați direcția în care va fi măsurată dimensiunea. Direcția poate fi setată la *X*, *Y* sau *Implicit*, care măsoară distanța cea mai scurtă între aceste puncte. În mod alternativ, puteți alege direcția *Unghi*, care măsoară dimensiunea la unghiul ales. Ultima opțiune în ajustarea dimensiunii este butonul Continuare, care generează o altă dimensiune în aceeași direcție.
+Puteți introduce o cotă făcând clic pe butonul *Dot*, selectând cele două puncte pentru care doriți să trasați o cotă și apoi specificând distanța liniei de trasare. După ce faceți clic pe cotă, este posibil nu numai să schimbați culoarea acesteia, ci și să specificați direcția în care va fi trasată cota. Direcția poate fi setată la *X*, *Y* sau *Default*, care va măsura cea mai scurtă distanță dintre aceste puncte. Alternativ, se poate selecta direcția *Angle*, care va trasa cota la unghiul selectat. Ultima opțiune din editarea dimensiunii este butonul Continue (Continuare), care va genera o altă dimensiune în aceeași direcție.
 
-Dacă este necesar să editați orice punct al dimensiunii, puteți face acest lucru făcând clic pe dimensiune și mutând punctele galbene.
+Dacă doresc să editez orice punct al dimensiunii adăugate, trebuie doar să fac clic pe dimensiune și, prin deplasarea punctelor galbene, editez deja dimensiunea.
 
-![Text alternativ](img/drawingsDimensionsProperties.png)
+![Alt text](img/drawingsDimensionsProperties.png)
 
 ## Adăugarea unei linii
 
-Un alt element care poate fi adăugat la desen este [polilinia](polylineInput.md). Pentru această linie, doar culoarea poate fi modificată.
+Un alt element care poate fi adăugat la un desen este [polyline](../instructor-roofs/insertPolyline.md). Pentru această linie, se poate modifica doar culoarea.
+
+

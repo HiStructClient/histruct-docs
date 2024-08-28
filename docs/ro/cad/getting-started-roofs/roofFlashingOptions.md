@@ -1,72 +1,70 @@
 ---
-sourceLang: en
-sourceHash: 7cd4cdfdab50f27235f4533edfb32371
+sourceLang: cs
+sourceHash: a73105b1491809aa47a7e015cab6ba8b
 autoTranslated: true
 ---
 
+# Placarea acoperișului și burlanele
 
-# Învelitoarea acoperișului și elementele de etanșare
+Învelitoarea acoperișului și adăugarea burlanelor la un plan de acoperiș sunt etape esențiale în crearea unui proiect de acoperiș de calitate. În HiStruct, puteți adăuga manual burlane pe fiecare parte a unui plan de acoperiș sau puteți utiliza [Generator de burlane pentru acoperiș](roofFlashingGenerator.md) pentru un întreg grup de planuri de acoperiș. Modelarea solbancurilor și a burlanelor individuale este ușoară și vă voi arăta cum să o faceți.
 
-Adăugarea elementelor de etanșare la acoperiș și completarea streșinii în designul acoperișului sunt etape esențiale în crearea unui proiect de acoperiș de înaltă calitate. În HiStruct, puteți adăuga manual elemente de etanșare la fiecare latură a planului acoperișului sau puteți utiliza [Generatorul de Elemente de Etanșare pentru Acoperiș](roofFlashingGenerator.md) pentru un grup întreg de planuri de acoperiș.
+## Specificarea șarpantelor
 
-## Specificarea elementelor de etanșare
+Cel mai rapid mod de a crea solnițe este să utilizați [roofFlashing Generator](roofFlashingGenerator.md) și apoi să modificați elementele individuale. Dar toate burlanele acoperișului pot fi definite și cu ajutorul [polyline](../instructor-roofs/insertPolyline.md), care specifică marginile acoperișului unde ar trebui aplicate burlanele.
 
-Cel mai rapid mod de a crea elemente de etanșare este utilizarea [Generatorului de Elemente de Etanșare pentru Acoperiș](roofFlashingGenerator.md) și apoi modificarea elementelor individuale. Dar toate elementele de etanșare pentru acoperiș pot fi definite și utilizând [polilinie](polylineInput.md), care specifică marginile acoperișului unde trebuie aplicate elementele de etanșare.
+## Modificarea geometriei burlanelor
 
-## Modificarea geometriei elementelor de etanșare
-
-Toate elementele de etanșare pot fi modificate din punct de vedere al geometriei. Puteți muta vârfurile poliliniei pentru a schimba poziția elementelor de etanșare. Puteți, de asemenea, să ajustați unghiul de îndoire al unora dintre elementele de etanșare. Generatorul face acest lucru în mod automat, dar puteți modifica acest lucru făcând clic pe *Editare* și apoi pe *Geometrie*, unde puteți schimba unghiul sau geometria poliliniei.
+Toate solnițele pot fi modificate din punct de vedere al geometriei. Puteți muta vârfurile poliliniei pentru a schimba poziția burlanelor. De asemenea, puteți ajusta unghiul de încovoiere al unora dintre garnituri. Generatorul face acest lucru automat, dar puteți modifica acest lucru făcând clic pe *Edit* și apoi pe *Geometry*, unde puteți modifica unghiul sau poziția poliliniei.
 
 ### Ajustarea unghiului
 
-Pentru a schimba unghiul, faceți clic pe săgeata care arată normala suprafeței la care se învecinează granița.
+Pentru a modifica unghiul, faceți clic pe săgeata care indică normala suprafeței de care este adiacentă marginea.
 
-![Editare unghi element etanșare](img/flashingEditAngle.png)
+![Editarea unghiului de clipire](img/flashingEditAngle.png)
 
-După ce faceți clic pe săgeată, faceți clic pe pictograma cursorului și apoi selectați zona în care doriți să se lipsească franjurile.
+După ce faceți clic pe săgeată, faceți clic pe pictograma cursorului și apoi selectați suprafața pe care doriți să adere franjura.
 
-![Editarea unghiului elementului de etanșare- pasul 2](img/flashingEditAngleStep2.png)
+![Edit angle of flashing- step 2](img/flashingEditAngleStep2.png)
 
-### Editarea poziției
+### Editați poziția
 
-Schimbarea poziției se face în același mod ca și schimbarea geometriei [poliliniei](polylineInput.md).
+Modificarea poziției se face în același mod ca și modificarea geometriei polilinii.
 
-## Selectarea plăcilor din bibliotecă
+## Selectarea placării din bibliotecă
 
-Puteți selecta diferite tipuri de elemente de etanșare din [bibliotecă](roofFlashingLibrary.md) pentru fiecare element de etanșare. Aceasta poate fi făcută fie pentru elemente individuale, fie pentru un grup de elemente în același timp.
+Puteți selecta diferite tipuri de plăsmuire din [bibliotecă](roofFlashingLibrary.md) pentru fiecare element de plăsmuire. Acest lucru se poate face fie pentru elemente individuale, fie pentru un întreg grup de elemente deodată.
 
-## Tipuri de elemente de etanșare
+## Tipuri de burlane
 
-Fiecare parte a acoperișului necesită un tip specific de elemente de etanșare. HiStruct are o gamă largă de elemente de etanșare pentru a acoperi aproape toate părțile acoperișului. În continuare, vom trece prin fiecare element în parte.
+Fiecare parte a acoperișului necesită un anumit tip de solnițe și burlane. HiStruct are o gamă largă de solnițe și burlane pentru a acoperi aproape toate părțile acoperișului. În cele ce urmează vom trece în revistă fiecare element în parte.
 
-![Buton pentru elemente de etanșare](img/flashingsButton.png)
+### Solbanți de fronton
+Solbanții de fronton, numiți și solbanți de pârâu, sunt solbanți speciali utilizați pentru finisarea fațadei frontonului unui acoperiș. Fațada frontonului este porțiunea acoperișului care se află pe partea frontonului unei clădiri, iar solnițele frontonului sunt utilizate pentru a oferi un finisaj estetic sau de protecție acestei porțiuni a acoperișului.
 
-### Bordură laterală
-Elementul de etanșare pentru bordură laterală, numit și tăietură la adiere, este un element special utilizat pentru finisarea fațadei laterale a acoperișului. Elevația bordurii este porțiunea acoperișului care se află pe latura laterala a unei clădiri, iar elementele de etanșare pentru borduri laterale sunt utilizate pentru a oferi o finisare estetică sau de protecție acestei părți a acoperișului.
+![Bandă de protecție a frontoanelor](img/flashingGableTrim.png)
 
-![Element de etanșare bordură laterală](img/flashingGableTrim.png)
+### Ornamente de coamă
+O garnitură de coamă este un element de acoperiș care este utilizat pentru a acoperi coama unui acoperiș. Acest element este utilizat pentru a proteja această zonă de intemperii, de pătrunderea apei și de alte potențiale probleme. În acest fel, garnitura de coamă asigură o finisare completă și sigură a acoperișului.
 
-### Încheietură de coamă
-O încheietură de coamă este un element de acoperiș care este utilizat pentru a acoperi coama unui acoperiș. Acest element este utilizat pentru a proteja această zonă de fenomene meteorologice, infiltrare de apă și alte probleme potențiale. În acest fel, încheietura de coamă asigură o finisare completă și sigură a acoperișului.
+![Acoperiș de acoperiș](img/flashingRidgeCap.png)
 
-![Element de etanșare încheietură de coamă](img/flashingRidgeCap.png)
+### Un capac de coamă
+O vale este un punct de pe un acoperiș în care două suprafețe ale acoperișului se întâlnesc pentru a forma o vale. Această caracteristică este utilizată pentru a evacua apa și zăpada și pentru a proteja clădirea de infiltrarea umidității.
+ 
+![Vâlcea intermitentă](img/flashingValley.png)
 
-### Vale de coamă
-O vale este un punct de pe acoperiș unde două suprafețe ale acoperișului se întâlnesc și formează o vale. Acest element este folosit pentru a scurge apa și zăpada și a proteja clădirea de infiltrarea de umiditate.
+### Gârle
+Un jgheab este un element structural situat la marginea unui acoperiș care servește la controlarea fluxului de apă de ploaie într-un jgheab sau într-un canal de scurgere, protejând astfel clădirea de daunele cauzate de apa care curge în structura acoperișului.
 
-![Element de etanșare vale de coamă](img/flashingValley.png)
 
-### Streșină
-O streșină este un element structural situat la marginea unui acoperiș, care servește la controlul fluxului de apă pluvială într-un canal sau burlan, protejând astfel clădirea de deteriorările cauzate de apa care se scurge în structura acoperișului.
+![Șorț de jgheab](img/flashingGutterApron.png)
 
-![Element de etanșare sort din țiglă](img/flashingGutterApron.png)
+### Șarpantă la perete
+Acest chenar este de obicei situat în locul în care acoperișul întâlnește peretele vertical și servește la asigurarea unei legături strânse și curate din punct de vedere estetic între cele două părți ale clădirii.
 
-### Marginea cu peretele
-Această etanșare este de obicei situată în locul în care acoperișul se întâlnește cu peretele vertical și servește la asigurarea unei conexiuni etanșe și curate din punct de vedere estetic între cele două părți ale construcției.
+![Bandă de protecție a peretelui](img/flashingWallTrim.png)
 
-![Element de etanșare margine perete](img/flashingWallTrim.png)
+### Închiderea deschiderii
+Acest element este utilizat pentru a placa o deschidere în acoperiș pentru a preveni curgerea apei în jurul deschiderii.
 
-### Element de etanșare pentru deschidere
-Acest element este utilizat pentru a prela șarpanta deschiderea în acoperiș pentru a preveni scurgerea apei în jurul acesteia.
-
-![Element de etanșare pentru deschidere în acoperiș](img/flashing
+Deschizătura acoperișului](img/flashingRoofOpening.png)
