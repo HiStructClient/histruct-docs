@@ -31,9 +31,9 @@ theme:
 # extra:
 #   homepage: https://www.histruct.com
 
-markdown_extesion:
-  - attr_list
-  - md_im_html
+# markdown_extesion:
+#   - attr_list
+#   - md_im_html
 
 nav:
   - "Úvod": index.md 
@@ -58,6 +58,9 @@ nav:
   - "Zpět na HiStruct": https://www.histruct.com
 
 
+exclude_docs: |
+  postsList.md
+
 plugins:
 
   - search:
@@ -72,12 +75,12 @@ plugins:
 
         - locale: cs
           name: Čeština
-          default: true
+          default: false
           build: true
 
         - locale: en
           name: English
-          default: false
+          default: true
           build: true
           site_name: Documentation
           nav_translations:

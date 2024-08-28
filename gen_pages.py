@@ -13,6 +13,20 @@ def print_attrs(obj, indent=0):
         else:
             print("    " * (indent+1) + str(value))
 
+
+def copy_file_to_lang(sourcePath, docsPath_target):
+    targetPath = docsPath_target.joinpath(sourcePath.relative_to(docsPath_source))
+
+    if (docsPath.joinpath(targetPath).exists()):
+        return
+
+    with mkdocs_gen_files.open(targetPath, "wb") as f:
+        f: IO[bytes]
+        with sourcePath.open("rb") as fsource:
+            print(f"Copy {sourcePath} -> {targetPath}")
+            f.write(fsource.read())
+
+
 # najít všechny .png soubory v adresáři docs/cs/
 # a přidat je do mkdocs_gen_files
 
@@ -25,15 +39,9 @@ if (currentLang == "en" or currentLang == "ro"):
     docsPath_target = Path( currentLang + "/")
 
     for sourcePath in docsPath_source.rglob("**/*.png"):
+        copy_file_to_lang(sourcePath, docsPath_target)
 
-        targetPath = docsPath_target.joinpath(sourcePath.relative_to(docsPath_source))
-
-        if (docsPath.joinpath(targetPath).exists()):
-            continue
-
-        with mkdocs_gen_files.open(targetPath, "wb") as f:
-            f: IO[bytes]
-            with sourcePath.open("rb") as fsource:
-                # print(f"Copy {sourcePath} -> {targetPath}")
-                f.write(fsource.read())
+    # md soubory bohužel nenajde i18n
+    # for sourcePath in docsPath_source.rglob("**/*.md"):
+    #     copy_file_to_lang(sourcePath, docsPath_target)
 
