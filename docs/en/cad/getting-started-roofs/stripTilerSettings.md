@@ -1,0 +1,1 @@
+We are currently working on extending the help and adding more useful information. Please be patient and expect further updates to arrive soon with expanded and more detailed help. 🚀 Thank you for your understanding! 😊

@@ -19,8 +19,10 @@ Podívejme se, jak to funguje 👇:
     - **Posunout první řadu:** Určuje umístění první vodorovné spáry od počátku. Hlavní využití tohoto parametru je při vypínání první řady, což se dozvíte, když budete pokračovat dále. 
     - **Úhel kladení:** Velikost úhlu určuje odklon kladení od určené hrany.
 
-3. **Nastavení parametrů - úprava:** Tato část slouží k vypnutí první nebo poslední řady, pokud je třeba. To může být užitečné, pokud je poslední řada například pouze 5 cm široký pruh, který bude doplněn z jiné střešní roviny. Nebo například, pokud máte 30 cm zbytek z jiné střešní roviny, můžete nastavit posun první řady o 30 cm a do pole *Popis* napsat: "Bude použit pruh ze střešní roviny K". Tento popis se poté promítne do modelu, výkresu a kusovníku. 📝  
-   ![Roof areas tiling](img/stripGeneratorAdjust.png)
+3. **Nastavení parametrů - úprava:** Tato část slouží k vypnutí první nebo poslední řady, pokud je třeba. To může být užitečné, pokud je poslední řada například pouze 5 cm široký pruh, který bude doplněn z jiné střešní roviny. 
+Použití je snadné: v nabídce pro každý pruh máte 3 možnosti: *Ano, Ne* a *Obecně*. Pokud máte například 30 cm zbytek z jiné střešní roviny, můžete nastavit posun první řady o 30 cm, nastavit první řadu na *Obecně* a do pole *Popis* napsat: "Bude použit pruh ze střešní roviny K". Tento popis se poté promítne do modelu, výkresu a kusovníku. 📝  
+![Roof areas tiling](img/stripGeneratorAdjust.png)
+
 
 4. **Nastavení offsetu:** Pokud chcete nastavit odsazení hrany nebo prodloužení krytiny přes hranu, je to snadné. Klikněte na tlačítko ➕ u zvolené hrany a nastavte hodnotu pro zvětšení nebo zmenšení plochy o daný offset.
 
