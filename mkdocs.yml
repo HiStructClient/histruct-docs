@@ -47,8 +47,9 @@ nav:
     - cad/getting-started-roofs/convertPdfToDxf.md
     - cad/getting-started-roofs/roofPolygonGenerator.md
     - cad/getting-started-roofs/roofFlashingGenerator.md
-    - cad/getting-started-roofs/roofFlashingGutterOptions.md
     - cad/getting-started-roofs/roofFlashingOptions.md
+    - cad/getting-started-roofs/roofFlashingGutterOptions.md
+    - cad/getting-started-roofs/roofFlashingLibrary.md
     - cad/getting-started-roofs/roofPolygonTillingDrawing.md
     - cad/getting-started-roofs/roofPolygonTillingOptions.md
     - cad/getting-started-roofs/customisationProject.md

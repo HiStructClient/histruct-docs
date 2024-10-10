@@ -1,4 +1,4 @@
-# Kladečský výkres střešní roviny
+# 📏 Vytvoření kladečského výkresu pro střešní rovinu
 
 Kladečský výkres střešní roviny představuje klíčovou část v procesu stavebního projektu, která umožňuje převést konstrukční plány do praktického provedení na střeše. Tento výkres slouží jako podrobný průvodce pro stavebníky při instalaci střešního systému a obsahuje důležité informace o rozmístění materiálů, spojích a všech technických aspektech, které jsou nezbytné pro kvalitní a bezpečnou střešní konstrukci. 
 

@@ -1,4 +1,4 @@
-# Jak pracovat s naším generátorem střešních desek 🛠️
+# 🛠️ Snadná práce s generátorem střešních desek
 
 Vítejte u našeho generátoru střešních desek! 🎉 Tento nástroj vám pomůže snadno rozložit střešní desky na vašem projektu. Žádné složité nastavování předem – vše se odehrává přímo na obrazovce, kde si můžete přizpůsobit jednotlivé části střechy podle svého.
 

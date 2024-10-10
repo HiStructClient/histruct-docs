@@ -1,4 +1,4 @@
-# Možnosti opláštění
+# ✨ Výběr správného generátoru opláštění
 
 Podle typu krytiny zvolené na opláštění konkrétní střešní nebo stěnové plochy je zvolen vhodný generátor. Každý typ generátoru může mít specifický ovládací prvek.
 

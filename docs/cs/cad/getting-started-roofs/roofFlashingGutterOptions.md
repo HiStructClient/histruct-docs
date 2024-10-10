@@ -1,4 +1,4 @@
-# Okapový systém
+# 💧 Modelování okapového systému v HiStruct
 
 Okapový systém je jedním z klíčových prvků střešní konstrukce, jehož hlavní rolí je ochrana střešní konstrukce před negativními vlivy vody. Tento důležitý stavební prvek zahrnuje několik komponent, jako jsou okapnice, okapové svody a žlaby, které společně tvoří systém pro správné odvádění vody z povrchu střechy. V tomto článku se podíváme na to, jakým způsobem lze modelovat okapový systém v rámci programu HiStruct. 
 

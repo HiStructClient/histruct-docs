@@ -1,4 +1,4 @@
-# Generování střechy pomocí OBJ modelu
+# 🏠 Využití OBJ modelu k automatickému generování střechy
 S rozvojem BIM technologií se čím dál častěji setkáváme s tím, že stavební projekty mají svůj 3D model, a často ještě dříve, než jsou skutečně realizovány. Pokud ale takový model stavba nemá, jsou k dispozici společnosti, které nabízejí zaměření stávajících objektů. Bez ohledu na to, zda se zaměřuje pomocí dronů nebo satelitů, výsledkem bývá obvykle detailní 3D model ve formátu OBJ, pokud model ve formátu OBJ nemáte koukněte se jak lze model do tohoto formátu  [konvertovat](convert3dPdfToObj.md). Výsledný model může vypadat například takto:
 
 ![Model OBJ](img/objModelBase.png)

@@ -1,6 +1,6 @@
-# Využití modelu z digitální zaměření budovy
+# 🏢 Možnosti využití modelu z digitálního zaměření budovy
 
-Hojně využívaná služba pro zaměření budovy prostřednictvím detailních mapových nebo dalších podkladů poskytuje většinou i trojrozměrný model ve formátu *.obj nebo 3D *.pdf. HiStruct umožňuje tento získaný model efektivně využít pro další zpracování.
+Hojně využívaná služba zaměření budovy pomocí detailních mapových podkladů často poskytuje také trojrozměrný model ve formátu *.obj nebo 3D *.pdf. HiStruct umožňuje efektivně využít tento získaný model pro další zpracování.
 
 Model ve formátu [3D *.pdf lze převést na formát *.obj](convert3dPdfToObj.md). Formát *.obj lze následně rovnou [importovat](importObj.md) do HiStruct scény.
 

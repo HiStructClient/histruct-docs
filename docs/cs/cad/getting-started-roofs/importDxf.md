@@ -1,4 +1,4 @@
-# Vložení podkladu DXF pro snadnější modelování
+# 📐 Vložení DXF výkresu do HiStruct pro přesné modelování
 
 Pokud máte jakýkoliv čárový podklad pro vaší střechu, vložením do modelovacího prostoru si výrazně ulehčíte svojí práci. Tento podklad umožní přesnější kreslení vaší střechy a díky automatickému přichycování kurzoru navíc zvýší přesnost modelu. Nemáte výkres v DXF ale pouze ve formátu PDF? Nevadí většina čárových výkresů lze snadno [konvertovat na DXF](convertPdfToDxf.md). 
 

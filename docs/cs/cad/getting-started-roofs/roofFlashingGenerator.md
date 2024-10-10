@@ -1,4 +1,4 @@
-# Generátor lemovek a okapového systému
+# 🚀 Jak funguje generátor lemovek a okapů v HiStruct
 
 Je určen zejména k **úspoře času** pro zhotovení 3d modelu lemovek a okapů pro importované nebo zadané geometrie střešních rovin.
 

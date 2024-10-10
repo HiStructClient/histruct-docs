@@ -1,4 +1,4 @@
-# Modelování střešní roviny
+# 🏗️ Krok za krokem modelování střešních rovin v HiStruct
 Nakreslení střešní roviny je jedním ze způsobů, jakým lze namodelovat celou střechu. Existují hned dva způsoby, jakými to lze provést. Pokud chci nakreslit jednoduchý tvar, bude nejjednodušší, když vyberu jeden z předdefinovaných tvarů. Pokud je však tvar střešní roviny složitější, je vhodné použít obecný tvar.
 
 ## Modelování po plochách 
