@@ -1,34 +1,43 @@
 ---
 sourceLang: cs
-sourceHash: 29b3af03e9ed30f24e27d1dc4c8abd92
-autoTranslated: false
-proofRead: true
+sourceHash: 58c2838a2ce6f8698332c2066cd4a3b3
+autoTranslated: true
 ---
 
-# Import of OBJ model
-3D building models have huge potential, whether you are planning a new project or renovating an existing building. Using an OBJ model in HiStruct can significantly speed up your work and give you accurate results. But how to do it? It's actually quite simple, and I'll show you how to quickly create a roof using a model in OBJ format.
-
-## Where to get such a model?
-There are plenty of services that allow you to get a 3D model of your house, whether using satellite imagery or even using drones. The result of these measurements is usually a model in OBJ format. For our demonstration, I will use one of the freely available models from the internet to show you how to create a roof.
+# 🏠 Using the OBJ model to automatically generate the roof
+With the development of BIM technology, we are increasingly seeing construction projects having their own 3D model, often before they are actually implemented. However, if a building does not have such a model, there are companies that offer surveying of existing buildings. Regardless of whether the surveying is done with drones or satellites, the result is usually a detailed 3D model in OBJ format, if you don't have an OBJ model, see how to [convert] the model to this format(convert3dPdfToObj.md). The resulting model can look like this:
 
 ![Model OBJ](img/objModelBase.png)
 
 ## How to insert OBJ into HiStruct?
-If you have a model in OBJ format, you can easily import it into your project. Just click on the *Import* button and select the file with the **.obj* extension.
 
-![Import Button](img/importButton.png)
+To make the most of the OBJ model, we recommend using our innovative automatic roof generator. It can recognize the individual roof planes in the OBJ model and assign them the correct edges, slopes and properties.
 
-### Rotate the model and change the scale
+1. Click on the *Import \*.obj* button. This will open a dialog box where you can upload your model.
+2. After selecting the file, you need to specify the insertion point of the model by clicking into the scene.
 
-After import, it is important to rotate the model correctly. You can do this using the tools you use for other objects in HiStruct. Next, you will need to change the scale of the OBJ model, which is easily done using the *Edit* button.
+![Rosol model](img/rosolModelObj.png)
 
-![Edit Scale](img/externalObjectEdit.png)
+### Editing a recognized 3D model
 
-## How to add a roof to the model?
-You can model a roof on an imported *.obj file by incrementally adding roof planes. Simply click on the vertices using [the general roof shape](modellingRoofs.md) tool.
+Even if our generator is almost flawless, there may be edges and variants that it does not always recognize correctly. Therefore, you have the possibility to correct the recognizer and adjust the properties of each edge.
 
-![Model created with object](img/objModel.png)
+- Click on any edge to adjust its properties.
+- In the same way, you can change the properties of each recognized plane. If you do not want to generate a roof on a plane, you can modify its properties.
 
-In this way, you can create a detailed 3D model with which you can almost always use [the flashing and gutter generator](roofFlashingGenerator.md).
+**The individual edges are color coded into 3 groups according to their function:**
 
-![Model with gutter systems](img/objModelFlashings.png)
+- <span style="color: #395abd;">**Blue edges**</span> : Oblique bounding box for individual roof planes.
+- <span style="color: green;">**Green edges**</span> : Horizontal edges such as the roof ridge or eaves edge.
+- <span style="color: red;">**Red edges**</span>: Edges that are ignored when generating a roof because they lie in some roof plane.
+
+**Individual faces are color-coded into 2 groups according to function:**
+
+- <span style="color: #395abd;">**Blue areas**</span>: The plane on which the roofing will be placed.
+- **White areas**: The plane that is not part of the roof.
+
+## How to generate a roof?
+
+Generating a roof is now easy. Just use our roof generator by clicking on the *Next* button. The generator will guide you through the process and help you easily generate the roof you want, including accessories.
+
+![Roof model](img/roofModelObj.png)

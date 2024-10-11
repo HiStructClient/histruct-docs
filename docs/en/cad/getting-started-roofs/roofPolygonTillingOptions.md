@@ -1,64 +1,26 @@
 ---
 sourceLang: cs
-sourceHash: abdc6865b16d3659fe5da583bf908abe
-autoTranslated: false
+sourceHash: d80f4ac2f66fb656af65ae2250f96fde
+autoTranslated: true
 ---
 
-# Cladding options
+# ✨ Choosing the right cladding generator
 
-Depending on the type of cladding chosen for a particular roof or wall area, the appropriate generator is selected. Each type of generator may have its specific controls.
+Depending on the type of roofing material chosen for the cladding of a particular roof or wall area, the appropriate generator is selected. Each type of generator may have a specific control.
 
-## Sheet strips generator
+## Sheet Metal Strip Generator
 
-The sheet strips generator places the chosen roofing material along the slope of the surface. The generator can be configured for the entire claded area, or some settings are available by clicking on individual strips. In editing mode, the proportion of the total area covered by the strips to the clad area is always displayed.
+If the covering is composed of long strips, such as in the case of trapezoidal sheet metal or corrugated roofing sheets, it is advisable to use our innovative strip generator. This generator offers a number of useful tools to make working with this covering easier. Detailed instructions on how to use all the available tools effectively can be found [here](tilerSettings.md).
 
-![Generator strip tiler](img\generatorStripTiler.png)
 
-### Tilling direction 
+## Plate Generator
 
-Tilling direction is configurable, choosing from the following types:
+In case you are working with any roofing system that is composed of boards, for example with over-roof insulation or any sandwich panels, it is advisable to use our innovative board generator. This generator offers a number of useful features such as ensuring continuity, repositioning individual panels and more to make your job easier. Detailed instructions on how to effectively use all the available tools can be found [here](stripTilerSettings.md).
 
-- from the left
+## Roof Tile Generator
 
-![Tilling from left](img\tillingFromLeft.png)
+We are currently working on extending the help and adding more useful information. Please be patient and expect more updates to arrive soon with expanded and more detailed help. 🚀 Thank you for your understanding! 😊
 
-- from the right
+## Roof Batten Generator
 
-![Tilling from right](img\tillingFromRight.png)
-
-- center the middle strip of the roofing on the center of the eave side
-
-![Tilling center axis](img\tillingCenterAxis.png)
-
-- place the edge of the roofing strip on the center of the gutter side
-
-![Tilling center edge](img\tillingCenterEdge.png)
-
-- general specification of the start of tiling (laying from the left + distance)
-
-![General tilling head start](img\generalTillingHeadStart.png)
-
-### Tilling angle
-
-Tilling angle can be adjusted ase as positive or negative offset from the baseline.
-
-![Tilling angle](img\tillingAngle.png)
-
-## Each specific strip
-- disable ( then it is not reflected in drawings, detailed model or BOM reports.)
-
-![Individual panel switched off](img\individualPanelSwitchedOff.png)
-
-- lengthen or shorten the overlap
-
-![Individual panel extension options](img\individualPanelExtensionOptions.png)
-
-- overlay in appropriate places (according to the grid of the slats) Clicking on the indicated divisions above the slats can split the strip or, conversely, merge it if it has already been split.
-
-![Individual panel splitting](img\individualPanelSplitting.png)
-
-## Lengthening or shortening panels at the sides
-
-For each side of the roof polygon, you can set the panel lengthening or shortening by clicking on the button above the edge.
-
-![Tilling edge offset](img\tillingEdgeOffset.png)
+We are currently working on extending the help and adding more useful information. Please be patient and expect more updates to arrive soon with expanded and more detailed help. 🚀 Thank you for your understanding! 😊

@@ -1,12 +1,11 @@
 ---
 sourceLang: cs
-sourceHash: 9c191f6b9448ce62fa1fd9b44ed940a8
-autoTranslated: false
-proofRead: true
+sourceHash: a02bc52f373985c8fcc206e332af414e
+autoTranslated: true
 ---
 
-# How to convert a 3D model in PDF to OBJ?
-If you have a 3D model in PDF format and wan't to work with it or use it in HiStruct, you will need to convert it to OBJ format, which is supported in HiStruct. This process is not difficult and can be done by almost anyone.
+# 🔄 Easy conversion of 3D model from PDF to OBJ
+If you have a 3D model in PDF format and want to work with it or use it in HiStruct, you will need to convert it to OBJ format, which is supported in HiStruct. This process is not difficult and can be done by almost anyone.
 
 ## Conversion using online tools
 There are several online tools that allow you to convert such models. For example:

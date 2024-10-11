@@ -1,12 +1,12 @@
 ---
 sourceLang: cs
-sourceHash: a73105b1491809aa47a7e015cab6ba8b
+sourceHash: 68fce3099952486cd4561024c1f98753
 autoTranslated: true
 ---
 
-# Roof cladding and flashing
+# 🌧️ Proper flashing and flashing of roofs
 
-Roof sheathing and adding flashings to a roof design are essential steps in creating a quality roofing project. In HiStruct, you can manually add flashings to each side of a roof plane or use the [Roof Flashings Generator](roofFlashingGenerator.md) for an entire group of roof planes. Modeling individual flashings and flashings is easy, and I'll show you how to do it.
+Sheathing the roof and adding flashings to the roof design are essential steps in creating a quality roofing project. In HiStruct, you can manually add flashings to each side of a roof plane or use the [Roof Flashings Generator](roofFlashingGenerator.md) for an entire group of roof planes. Modeling individual flashings and flashings is easy, and I'll show you how to do it.
 
 ## Specifying flashings
 
@@ -48,7 +48,7 @@ A ridge trim is a roof element that is used to cover the ridge of a roof. This e
 
 ![Flashing ridge cap](img/flashingRidgeCap.png)
 
-### A ridge cap
+### The chute
 A valley is a point on a roof where two roof surfaces meet to form a valley. This feature is used to shed water and snow and protect the building from moisture infiltration.
  
 ![Flashing valley](img/flashingValley.png)
