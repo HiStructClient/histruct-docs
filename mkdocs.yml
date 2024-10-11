@@ -69,6 +69,7 @@ plugins:
   - search:
       lang:
         - cs
+        - de
         - ro
         - en
 
@@ -104,6 +105,31 @@ plugins:
             "Mapování při změně rozměrů haly": "Mapping at resizing"
             "Zpět na HiStruct": "Back to HiStruct"
             "Střechy": "Roofs"
+
+        - locale: de
+          name: Deutsch
+          default: false
+          build: true
+          site_name: Dokumentation
+          nav_translations:
+            "Haly": "Gebäude"
+            "Úvod": "Startseite"
+            "Příběhy": "Geschichten"
+            "Průvodce návrhem haly": "Gebäude-Design-Leitfaden"
+            "Základní konfigurátor": "Grundkonfigurator"
+            "Detailní konfigurátor": "Erweiterter Konfigurator"
+            "Rozměry": "Abmessungen"
+            "Moduly": "Module"
+            "Opláštění": "Verkleidung"
+            "Otvory": "Öffnungen"
+            "Doplňky": "Zubehör"
+            "Konstrukce": "Konstruktion"
+            "Výstupy": "Ausgaben"
+            "Kontextové nastavení opláštění": "Kontextuelle Verkleidungseinstellungen"
+            "Mapování při změně rozměrů haly": "Zuordnung bei Größenänderung"
+            "Zpět na HiStruct": "Zurück zu HiStruct"
+            "Střechy": "Dächer"
+
         - locale: ro
           name: Română
           default: false

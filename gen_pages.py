@@ -32,7 +32,7 @@ def copy_file_to_lang(sourcePath, docsPath_target):
 
 currentLang = mkdocs_gen_files.config.theme['language']
 
-if (currentLang == "en" or currentLang == "ro"):
+if (currentLang == "en" or currentLang == "ro" or currentLang == "de"):
 
     docsPath = Path("docs/")
     docsPath_source = docsPath.joinpath("cs/")

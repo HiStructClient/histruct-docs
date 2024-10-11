@@ -1,4 +1,5 @@
 import { Translator } from 'deepl-node';
+import gTranslate from '@google-cloud/translate';
 import fs from 'fs';
 import path from 'path';
 import openai from 'openai';
@@ -12,7 +13,7 @@ const langFolders = ['cs', 'en', "de", "ro"];
 const tranlationDirections = {
     "cs": "en",
     "en": "cs",
-    "de": "en",
+    "de": "cs",
     "ro": "cs",
 }
 
@@ -26,8 +27,9 @@ const outputDir = '../docs';
 // const inputDir = 'test/docs-merged';
 // const outputDir = 'test/docs-merged';
 
-const DEEPL_AUTH_KEY = "0b09c89f-ba2e-c36b-4060-9a0d2a7417b7:fx";
-const OPENAI_API_KEY = "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";
+const DEEPL_AUTH_KEY = "";
+const GOOGLE_API_KEY = "";
+const OPENAI_API_KEY = "";
 
 // Rekurzivní procházení složek
 function walkSync(dir, callback) {
@@ -244,6 +246,21 @@ async function translaleDeepl(text, srcLang, targetLang) {
     return translated.text;
 }
 
+/** @type {Translate} */
+let googleTranslator = undefined;
+
+async function translateGoogle(text, srcLang, targetLang) {
+    // Inicializace překladače
+    if (!googleTranslator) {
+        googleTranslator = new gTranslate.v2.Translate({ key: GOOGLE_API_KEY });
+    }
+
+    // Překlad pomocí Google Translate
+    const [translated] = await googleTranslator.translate(text, { from: srcLang, to: targetLang });
+
+    return translated;
+}
+
 /** @type {openai.OpenAI} */
 let openaiClient = undefined;
 
@@ -292,6 +309,8 @@ async function translateChatGpt(text, srcLangKey, targetLangKey) {
 async function translateText(text, serviceName, srcLang, targetLang) {
     if (serviceName === 'deepl') {
         return translaleDeepl(text, srcLang, targetLang);
+    } else if (serviceName === 'google') {
+        return translateGoogle(text, srcLang, targetLang);
     } else if (serviceName === 'chatgpt') {
         return translateChatGpt(text, srcLang, targetLang);
     } else {
