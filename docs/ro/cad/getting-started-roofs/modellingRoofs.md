@@ -1,26 +1,51 @@
 ---
-sourceLang: en
-sourceHash: 76f323e817f50443d04118f8ddee77ee
+sourceLang: cs
+sourceHash: 9288a8311fbc925c855293cf4e6b8bc0
 autoTranslated: true
-proofRead: true
 ---
 
+# 🏗️ Modelarea pas cu pas a planurilor acoperișului în HiStruct
+Desenarea unui plan de acoperiș este una dintre modalitățile prin care puteți modela întregul acoperiș. Există două moduri în care se poate face acest lucru. Dacă vreau să desenez o formă simplă, cel mai ușor este să selectez una dintre formele predefinite. Cu toate acestea, dacă forma planului acoperișului este mai complexă, este recomandabil să utilizați o formă generică.
 
-# Modelarea planului de acoperiș
-Modelarea planului de acoperiș este o abordare pentru crearea întregului model de acoperiș. Există două metode pentru a face acest lucru. Dacă intenționez să desenez o formă simplă, cel mai ușor este să selectez una dintre formele prestabilite. Cu toate acestea, dacă forma planului de acoperiș este mai complexă, este recomandat să folosesc o formă generală de acoperiș.
+## Modelarea suprafeței
 
-![Forme poligonale](img/rooFPolygonShapes.png)
-
-
-## Formă prestabilită
-Vom demonstra cum să creăm un plan de acoperiș folosind forme prestabilite pe un plan de acoperiș în formă de trapez. În meniul formelor prestabilite, selectez forma potrivită, adică *Trapez*, și fac clic pentru a insera forma selectată în scenă. Cu toate acestea, acum trebuie să modific dimensiunile acestui trapez pentru a se potrivi cu planul nostru de acoperiș. Fac acest lucru făcând clic pe butonul *Editare*, unde pot schimba ușor dimensiunile individuale ale trapezului nostru.
-Dacă am deja un proiect cu dimensiunile acoperișului în pantă, acest lucru este mai ușor, și nu trebuie să mă ocup de alte ajustări geometrice și pur și simplu rotesc planul de acoperiș cu unghiul dorit. Cu toate acestea, dacă dimensiunile acoperișului meu sunt doar în vedere plan, este necesar să adaug și o pantă la acoperiș. Pot introduce pantă în grade și folosi săgețile pentru a selecta direcția în care va fi setată pantă. Într-un mod similar, adaug celelalte plane de acoperiș pentru a modela întregul acoperiș.
+### Formă predefinită
+Vom demonstra cum să creăm un plan de acoperiș folosind forme predefinite pe un plan de acoperiș care are o formă trapezoidală. În meniul de forme predefinite, voi selecta forma corespunzătoare, și anume *Lihedral*, și voi face clic în scenă pentru a introduce forma selectată. Cu toate acestea, acum trebuie să modific dimensiunile acestui trapezoid pentru a se potrivi cu planul acoperișului nostru. Fac acest lucru făcând clic pe butonul *Edit*, unde pot modifica cu ușurință dimensiunile individuale ale trapezoidului nostru.
+Dacă am deja o schiță a acoperișului cu o pantă, procesul este mai ușor, deoarece nu trebuie să mă ocup de ajustări geometrice suplimentare. Trebuie doar să rotesc planul acoperișului cu unghiul dorit. Cu toate acestea, dacă dimensiunile acoperișului sunt afișate doar pe planul de situație, trebuie adăugată panta. Panta poate fi introdusă în grade, iar săgețile pot fi utilizate pentru a specifica direcția în care acoperișul va fi înclinat. Linia neagră punctată indică marginea streașinei spre care este înclinată suprafața acoperișului în funcție de panta selectată. Voi adăuga celelalte planuri ale acoperișului în același mod pentru a modela întregul acoperiș.
   
-![Intrare trapez pentru poligon](img/trapezpoidPolygonInput.png)
+![Intrare poligon trapezoid](img/trapezpoidPolygonInput.png)
 
 
 
-## Formă generală
-Adăugarea unui plan de acoperiș folosind o formă generală aduce multă variabilitate, iar cu utilizarea unor funcții inteligente pentru [adaugă poligon](insertPolygon.md), este ușor și pentru asta. Crearea unui astfel de plan se face prin selectarea vertecșilor individuali ai planului de acoperiș. Acest lucru face ușor modelarea oricărei forme de acoperiș. Din nou, pot ridica planul de acoperiș la panta dorită sau pur și simplu pot roti planul cu panta dorită. În același mod, adaug celelalte plane de acoperiș pentru a crea un acoperiș complet.
+### Formă generală
+Adăugarea unui plan de acoperiș folosind o formă generică aduce multă variabilitate și, cu ajutorul unor funcții inteligente pentru [add polygon](insertPolygon.md), este și ușor. Crearea unui astfel de plan se face prin simpla selectare a vârfurilor individuale ale planului acoperișului. Acest lucru facilitează modelarea oricărei forme a planului acoperișului. Din nou, pot ridica planul acoperișului la panta dorită sau pot doar roti planul cu panta dorită.
   
-![Intrare generală pentru poligon](img/generalPolygonInput.png)
+![General polygon input](img/generalPolygonInput.png)
+
+### Acoperiș complet
+În același mod, adaug celelalte planuri de acoperiș și creez un acoperiș complet prin adăugarea incrementală a fiecărui plan de acoperiș. Le rotesc cu unghiul corect și le setez înălțimea corectă. Pe un astfel de model, de obicei, puteți rula [generatorul automat de solnițe și jgheaburi] (roofFlashingGenerator.md).
+
+![Generat](img/byPlanesRoof.png)
+
+## Generare din contur
+### Conturul acoperișului
+A doua abordare posibilă este de a genera acoperișul doar din contur. Mai întâi trebuie să desenați conturul acoperișului. Pentru a face acest lucru, este desigur posibil să importați [fișiere în format *.dxf](importDxf.md) sau să convertiți [*.pdf în *.dxf] vectorial(convertPdfToDxf.md) și să le [importați în HiStruct](importDxf.md). Datorită fundalului, pot desena cu ușurință orice contur de acoperiș
+
+![Intrarea poligonului de delimitare](img/generatedRoofBoundary.png)
+
+### Generarea crestelor acoperișului
+Imediat după desenarea conturului unui acoperiș, crestele acelui acoperiș vor fi rezolvate automat. Acest lucru va genera un acoperiș cu șarpantă pentru care se pot modifica diverse proprietăți.
+
+![Intrarea poligonului crestelor](img/generatedRoofRidges.png)
+
+### Modificarea marginilor individuale ale acoperișului
+
+Toate marginile conturului desenate pot fi modificate cu ușurință. Fiecărei muchii i se poate atribui un set de parametri în funcție de tipul acesteia. În primul rând, puteți schimba tipul de margine de la marginea de streașină implicită, de exemplu, la o margine de fronton sau o margine de streașină ridicată. Pentru a face această alegere, pur și simplu faceți clic pe imaginea corespunzătoare. Apoi, puteți seta suprapunerea planului acoperișului sau, în cazul unei muchii de jgheab, panta planului acoperișului adiacent.
+
+![Introducerea poligonului crestelor](img/generatedEditRoofEave.png)
+
+### Generarea întregului acoperiș
+
+Prin setarea corectă a marginilor individuale și a parametrilor acestora, întregul acoperiș poate fi apoi generat cu ușurință. În plus, generatorul generează în mod automat și toate [burlanele, burlanele](roofFlashingOptions.md) și [sistemul de jgheaburi](roofFlashingGutterOptions.md) necesare.
+
+![Generat](img/generatedRoof.png)

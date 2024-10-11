@@ -1,12 +1,12 @@
 ---
 sourceLang: cs
-sourceHash: fd76188bc006fb5e3240e8f83ba4dad9
+sourceHash: cb8c25d7c048bb7010cca63712ad9b85
 autoTranslated: true
 ---
 
-# Desen Kladek al planului acoperișului
+# 📏 Crearea unui desen de placare pentru planul acoperișului
 
-Desenul Kladek al planului acoperișului este o parte esențială a procesului de proiectare a clădirii, permițând ca planurile de proiectare să fie transpuse în proiectare practică pe acoperiș. Acest desen servește drept ghid detaliat pentru constructori la instalarea unui sistem de acoperiș și conține informații importante privind amplasarea materialelor, conexiunile și toate aspectele tehnice care sunt esențiale pentru o construcție de acoperiș de calitate și sigură.
+Desenul de amenajare a planului acoperișului este o parte esențială a procesului de proiectare a clădirii, permițându-vă să traduceți planurile de proiectare într-un design practic pe acoperiș. Acest desen servește drept ghid detaliat pentru constructori atunci când instalează un sistem de acoperiș și conține informații importante privind amplasarea materialelor, îmbinările și toate aspectele tehnice esențiale pentru o construcție de acoperiș de calitate și sigură.
 
 În HiStruct, desenele complete pentru toate planurile acoperișului sunt generate automat pe baza modelului 3D. Pentru a edita aceste desene, este suficient să navigați la un anumit plan al acoperișului și să faceți clic pe butonul *Drawings*.
 

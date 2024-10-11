@@ -1,12 +1,12 @@
 ---
 sourceLang: cs
-sourceHash: a73105b1491809aa47a7e015cab6ba8b
+sourceHash: 68fce3099952486cd4561024c1f98753
 autoTranslated: true
 ---
 
-# Placarea acoperișului și burlanele
+# 🌧️ Acoperișuri și burlane corespunzătoare
 
-Învelitoarea acoperișului și adăugarea burlanelor la un plan de acoperiș sunt etape esențiale în crearea unui proiect de acoperiș de calitate. În HiStruct, puteți adăuga manual burlane pe fiecare parte a unui plan de acoperiș sau puteți utiliza [Generator de burlane pentru acoperiș](roofFlashingGenerator.md) pentru un întreg grup de planuri de acoperiș. Modelarea solbancurilor și a burlanelor individuale este ușoară și vă voi arăta cum să o faceți.
+Învelirea acoperișului și adăugarea de burlane la planul acoperișului sunt etape esențiale în crearea unui proiect de acoperiș de calitate. În HiStruct, puteți adăuga manual burlane pe fiecare parte a unui plan de acoperiș sau puteți utiliza [Generator de burlane pentru acoperiș](roofFlashingGenerator.md) pentru un întreg grup de planuri de acoperiș. Modelarea solbancurilor și a burlanelor individuale este ușoară și vă voi arăta cum să o faceți.
 
 ## Specificarea șarpantelor
 

@@ -1,11 +1,12 @@
 ---
-sourceLang: en
-sourceHash: 4f4f2616e1848ed5a929d59519fa02d7
+sourceLang: cs
+sourceHash: 827b2a02ed4a99da22e8f3d067da3fdc
 autoTranslated: true
 ---
 
-# HiStruct CAD
+# HiStruct
 
-Bine ați venit în lumea plină de inspirație a HiStruct! 🚀 Acest program CAD revoluționar este conceput pentru a simplifica procesul de creare și modificare a structurilor de acoperișuri cu o ușurință și precizie de neegalat. Chiar dacă este prima dată, nu trebuie să vă faceți griji! Cu îndrumarea noastră, veți putea modela chiar și cele mai complicate acoperișuri în cel mai scurt timp.
+Bine ați venit în lumea inspirată a software-ului HiStruct! 🚀 Acest program CAD revoluționar este aici pentru a vă facilita crearea și modificarea structurilor acoperișurilor cu o ușurință și o precizie de neegalat. Chiar dacă este prima dvs. dată, nu trebuie să vă faceți griji! Datorită ajutorului nostru, veți putea să modelați chiar și cele mai fantastice acoperișuri în cel mai scurt timp.
 
-HiStruct face ca fiecare proiect să fie mai ușor de gestionat și mai plăcut! Pregătiți-vă pentru o aventură creativă care vă va cufunda în tărâmul proiectării acoperișurilor ca niciodată până acum. Fie că sunteți un profesionist sau un începător, HiStruct vă oferă instrumentele necesare pentru a da viață acoperișului visurilor dumneavoastră.
+Cu HiStruct, fiecare proiect devine mai ușor și mai distractiv! Pregătește-te pentru o aventură creativă care te va purta în lumea proiectării acoperișurilor ca niciodată până acum. Fie că sunteți un profesionist sau un începător, HiStruct vă va oferi instrumentele de care aveți nevoie pentru a crea acoperișul visurilor dvs.
+

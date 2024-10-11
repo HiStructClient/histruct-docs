@@ -1,14 +1,14 @@
 ---
 sourceLang: cs
-sourceHash: 0ec09804c11db8487d8a751ce3e4af21
+sourceHash: d3c4dbe3f6616e660690e4e09e4e8541
 autoTranslated: true
 ---
 
-# Trim generator și sistem de jgheaburi
+# 🚀 Cum funcționează generatorul de ornamente și jgheaburi HiStruct
 
-Acesta este conceput în principal pentru a **economisi timp** pentru realizarea modelului 3d de solnițe și jgheaburi pentru geometrii importate sau specificate ale planului acoperișului.
+Acesta este conceput în principal pentru a **economisi timp** pentru realizarea modelului 3d de solnițe și streșini pentru geometrii importate sau specificate ale planului acoperișului.
 
-Generatorul poate fi, de asemenea, utilizat în general pentru geometrii plane care sunt introduse dintr-un desen sau complet de mână și doar modificate pentru a se potrivi cel mai bine cu marginile planurilor acoperișului care urmează să fie atinse. Nu trebuie să se potrivească complet, ci doar să se potrivească în limitele toleranțelor normale.
+Generatorul poate fi, de asemenea, utilizat în general pentru geometrii de plan care sunt introduse dintr-un desen sau complet de mână și doar modificate pentru a se potrivi cel mai bine cu marginile planurilor acoperișului care urmează să fie atinse. Nu trebuie să se potrivească complet, ci doar să se potrivească în limitele toleranțelor normale.
 
 ![Geometrie sursă pentru generatorul de blițuri](img/sourceGeometryForFlashingGenerator.png)
 

@@ -1,75 +1,25 @@
 ---
 sourceLang: cs
-sourceHash: 5ed3bb04f51f2e738e81a29d4ad9c1c2
+sourceHash: d80f4ac2f66fb656af65ae2250f96fde
 autoTranslated: true
 ---
 
-# Opțiuni de placare
+# ✨ Alegerea generatorului de placare potrivit
 
-În funcție de tipul de placare ales pentru o anumită zonă de acoperiș sau de perete, este selectat generatorul corespunzător. Fiecare tip de generator poate avea un control specific.
+În funcție de tipul de material de acoperire ales pentru placarea unei anumite zone de acoperiș sau de perete, se selectează generatorul adecvat. Fiecare tip de generator poate avea un control specific.
 
 ## Generator de benzi de tablă
 
-Generatorul de benzi de tablă plasează învelitoarea selectată de-a lungul bazei zonei. Generatorul poate fi setat pentru întreaga zonă de înveliș sau, unele setări sunt apoi disponibile făcând clic pe o bandă individuală. În modul de editare, proporția dintre suprafața totală a benzii și suprafața învelită este întotdeauna afișată.
+Dacă învelitoarea este compusă din benzi lungi, cum ar fi în cazul tablei trapezoidale sau al tablei ondulate pentru acoperișuri, este recomandabil să utilizați generatorul nostru inovator de benzi. Acest generator oferă o serie de instrumente utile pentru a ușura lucrul cu această învelitoare. Instrucțiuni detaliate privind utilizarea eficientă a tuturor instrumentelor disponibile pot fi găsite [aici](tilerSettings.md).
 
-![Generator strip tiler](img\generatorStripTiler.png)
 
-### Direcția de așternere
+## Generator de plăci
 
-Este configurabilă, alegând dintre următoarele tipuri:
+În cazul în care lucrați cu orice sistem de acoperiș care este compus din plăci, de exemplu cu izolație peste acoperiș sau orice panouri sandwich, este recomandabil să utilizați generatorul nostru inovator de plăci. Acest generator oferă o serie de caracteristici utile, cum ar fi asigurarea continuității, repoziționarea panourilor individuale și multe altele pentru a vă ușura munca. Instrucțiuni detaliate privind modul de utilizare eficientă a tuturor instrumentelor disponibile pot fi găsite [aici](stripTilerSettings.md).
 
-- din stânga
-
-![Tilling din stânga](img\tillingFromLeft.png)
-
-- din dreapta
-
-![Tilling din dreapta](img\tillingFromRight.png)
-
-- centrați banda de mijloc a acoperișului pe centrul laturii de streașină
-
-![Tilling axa centrală](img\tillingCenterAxis.png)
-
-- așezați marginea benzii de acoperiș pe centrul laturii jgheabului
-
-![Tilling center edge](img\tillingCenterEdge.png)
-
-- specificații generale privind începutul așezării (așezarea de la stânga + distanță)
-
-![General tilling head start](img\generalTillingHeadStart.png)
-
-### Unghiul de așezare a benzilor
-
-Este reglabil ca decalaj pozitiv sau negativ față de linia de bază.
-
-![Tilling angle](img\tillingAngle.png)
-
-### Fiecare bandă specifică
-- dezactivare ( atunci nu se reflectă în desene, model detaliat sau rapoarte privind materialele).
-
-![Panou individual dezactivat](img\individualPanelSwitchedOff.png)
-
-- prelungiți sau scurtați suprapunerea
-
-![Individual panel extension options](img\individualPanelExtensionOptions.png)
-
-- suprapunerea în locurile corespunzătoare (în funcție de grila lamelelor) Făcând clic pe diviziunile indicate deasupra lamelelor puteți diviza banda sau, dimpotrivă, o puteți uni dacă a fost deja divizată.
-
-![Divizarea individuală a panoului](img\individualPanelSplitting.png)
-
-### Alungirea sau scurtarea panourilor laterale
-
-Pentru fiecare latură a poligonului acoperișului, puteți seta alungirea sau scurtarea panoului făcând clic pe butonul de deasupra marginii.
-
-![Decalarea marginii de tasare](img\tillingEdgeOffset.png)
-
-## Generator de panouri
+## Generator de țigle
 
 În prezent, lucrăm la extinderea ajutorului și la adăugarea mai multor informații utile. Vă rugăm să fiți răbdători și să vă așteptați la mai multe actualizări care vor sosi în curând cu ajutor extins și mai detaliat. 🚀 Vă mulțumim pentru înțelegere! 😊
-
-## Generator de țiglă pentru acoperiș
-
-În prezent lucrăm la extinderea ajutorului și adăugarea de informații mai utile. Vă rugăm să fiți răbdători și să așteptați mai multe actualizări care vor sosi în curând cu ajutor extins și mai detaliat. 🚀 Vă mulțumim pentru înțelegere! 😊
 
 ## Generator de baghete de acoperiș
 

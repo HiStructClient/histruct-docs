@@ -1,14 +1,15 @@
 ---
-sourceLang: en
-sourceHash: 3a819684079ebcb94ab32d47b3740042
+sourceLang: cs
+sourceHash: a93ca076ea1a3ef51de63a7525d69ef3
 autoTranslated: true
-proofRead: true
 ---
 
+# 🎨 O bibliotecă de margini cu o varietate de opțiuni
 
-# Biblioteca de leme
+Biblioteca de borduri conține diferite forme, culori și tipuri de borduri în funcție de producătorul specific. Acestea și alte personalizări se fac în cadrul [proiectului de personalizare](customisationProject.md).
 
-Biblioteca conține diferite forme, culori și tipuri de luminatoare în funcție de producător. Acestea și alte personalizări se fac în cadrul [proiectului de personalizare](customisationProject.md).
+## Controlul bibliotecii
+În prezent lucrăm la extinderea ajutorului și la adăugarea mai multor informații utile. Vă rugăm să aveți răbdare și să vă așteptați la mai multe actualizări care vor sosi în curând cu ajutor extins și mai detaliat. 🚀 Vă mulțumim pentru înțelegere! 😊
 
-## Setări bibliotecă
-Lucrăm în prezent la extinderea ajutorului și adăugarea mai multor informații utile. Vă rugăm să aveți răbdare și să vă așteptați să vină mai multe actualizări în curând cu ajutor extins și mai detaliat. 🚀 Vă mulțumim pentru înțelegere! 😊
+
+Dacă aveți întrebări, vă rugăm să nu ezitați să [contactați-ne] (https://www.histruct.com/company/contact-us)

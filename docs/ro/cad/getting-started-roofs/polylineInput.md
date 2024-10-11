@@ -1,10 +1,12 @@
 ---
-sourceLang: en
-sourceHash: bdf29e5cf19039933d90c4063f944f6d
+sourceLang: cs
+sourceHash: 4f76fef474f4fbfad773fef4ec5974a4
 autoTranslated: true
-proofRead: true
 ---
 
+# 🛠️ Cum să introduceți elemente folosind polilinii în HiStruct
 
-# Introducerea unei polilinii
-În prezent, lucrăm în extinderea ajutorului și adăugarea de informații utile suplimentare. Vă rugăm să aveți răbdare și să așteptați actualizări mai multe care vor veni în curând cu ajutor extins și mai detaliat. 🚀 Vă mulțumim pentru înțelegere! 😊
+În prezent, lucrăm la extinderea ajutorului și la adăugarea mai multor informații utile. Vă rugăm să fiți răbdători și să vă așteptați la mai multe actualizări care vor sosi în curând cu ajutor extins și mai detaliat. 🚀 Vă mulțumim pentru înțelegere! 😊
+
+
+Dacă aveți întrebări, vă rugăm să nu ezitați să [contactați-ne] (https://www.histruct.com/company/contact-us)

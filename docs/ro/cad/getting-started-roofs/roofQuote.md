@@ -1,15 +1,16 @@
 ---
-sourceLang: en
-sourceHash: 2740b074127fae98231820920bf68afa
+sourceLang: cs
+sourceHash: b4897e65a5ed6e68c0bf345a16efb6d2
 autoTranslated: true
-proofRead: true
 ---
 
+# 📊 Oferte eficiente și clare
 
-# Citat frumos și precis, cum să...
+Aspectul și opțiunile meniului variază în funcție de producătorul produsului. Puteți utiliza [proiectul de personalizare](customisationProject.md) pentru a personaliza meniul în funcție de nevoile dvs.
 
-Cotațiile variază în funcție de producătorul produsului. Puteți utiliza [proiectul de personalizare](customisationProject.md) proiectul de personalizare pentru a adapta cotațiile la nevoile dvs. specifice.
+## Editarea meniului
 
-## Editarea cotației
+În prezent lucrăm la extinderea ajutorului și la adăugarea mai multor informații utile. Vă rugăm să aveți răbdare și să vă așteptați în curând la noi actualizări cu ajutor extins și mai detaliat. 🚀 Vă mulțumim pentru înțelegere! 😊
 
-În prezent, lucrăm la extinderea ajutorului și la adăugarea de informații mai utile. Vă rugăm să aveți răbdare și să vă așteptați la noi actualizări care vor sosi în curând cu un ajutor extins și mai detaliat. 🚀 Vă mulțumim pentru înțelegere! 😊 😊
+
+Dacă aveți întrebări, vă rugăm să nu ezitați să [contactați-ne] (https://www.histruct.com/company/contact-us)

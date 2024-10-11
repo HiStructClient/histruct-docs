@@ -1,12 +1,12 @@
 ---
 sourceLang: cs
-sourceHash: 94f12f621fcf8459f65594a59ffedb77
+sourceHash: 1dbc81005791cde429069f751c433f27
 autoTranslated: true
 ---
 
-# Cum să convertiți un desen PDF în DXF?
+# 🔄 Conversie rapidă PDF în DXF
 
-Cel mai comun format pentru partajarea desenelor este PDF, dar acesta nu permite editarea ulterioară. Cu toate acestea, este posibil să convertiți un desen PDF în DXF. Un astfel de format poate fi deja editat, dar, mai important, utilizat ca bază pentru HiStruct. Aici este o listă de instrumente online gratuite pentru această conversie:
+Cel mai comun format pentru partajarea desenelor este PDF, dar acesta nu permite editarea ulterioară. Cu toate acestea, este posibil să convertiți un desen PDF în DXF. Un astfel de format poate fi deja editat, dar, mai important, utilizat ca bază pentru HiStruct. Iată o listă de instrumente online pentru această conversie care sunt gratuite:
 
 1. [HiPDF](https://www.hipdf.com/en/pdf-to-dxf)
 2. [CloudConvert](https://cloudconvert.com/pdf-to-dxf)

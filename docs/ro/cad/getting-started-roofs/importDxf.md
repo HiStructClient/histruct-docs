@@ -1,56 +1,37 @@
 ---
-sourceLang: en
-sourceHash: 190381ceb421aa273407cadc84baafa0
+sourceLang: cs
+sourceHash: 978114c8a8873bb76c969d812a624842
 autoTranslated: true
-proofRead: true
 ---
 
+# 📐 Introduceți desenul DXF în HiStruct pentru o modelare precisă
 
-# Importarea desenului DXF
+Dacă aveți orice bază de linii pentru acoperișul dvs., inserarea acesteia în spațiul de modelare vă va ușura mult munca. Această bază vă va permite să vă desenați acoperișul mai precis și, datorită fixării automate a cursorului, va crește și precizia modelului dvs. Nu aveți un desen în format DXF, ci doar în format PDF? Nu contează, majoritatea desenelor cu linii pot fi ușor [convertite în DXF](convertPdfToDxf.md).
 
-Indiferent dacă veți modela un acoperiș sau o întreagă casă, utilizarea unui desen vă va facilita munca. Un desen vă va face munca mai ușoară. De ce? Ei bine, nu numai că puteți poziționa ușor cursorul pe punctele de pe desen, dar aveți și control asupra formei și dimensiunii fiecărui element pe care îl modelați. Dar cum să o faceți? Credem, este ușor dacă urmați câțiva pași simpli.
+Să aruncăm o privire la modul de inserare a unui astfel de desen...
 
-## Cum să pregătiți desenul înainte de importare?
+## Cum să introduceți DXF în HiStruct?
 
-### Evidențiați elementele importante
-Desenul importat va consta în general doar din linii, deci este indicat să evidențiați părțile importante ale desenului cu culori diferite.
+1. Deschideți fila *Substrat* și faceți clic pe butonul *Import \*.dxf*. Acest lucru va deschide o casetă de dialog în care puteți încărca desenul dvs.
+2. După selectarea fișierului, trebuie să specificați punctul de inserție al desenului făcând clic în scenă.
 
-### Versiunea și dimensiunea fișierului DXF
-HiStruct suportă majoritatea versiunilor fișierelor DXF, dar recomandăm să alegeți fișiere de maxim 2 MB pentru a avea o viteză optimă la editarea modelului.
+![Model DXF](img/importDXF.png)
 
-### Obiectele suportate în fișierele DXF
-Diverse tipuri de obiecte sunt suportate în instrumentul nostru, precum *LINE, LWPOLYLINE, POLYLINE, SOLID, POINT, INSERT, SPLINE, CIRCLE, ARC* și *ELLIPSE*.
+## Setarea scării corecte a desenului
+Deoarece desenele sunt la scări diferite, este mai întâi necesar să setați scara corectă pentru a face modelul să corespundă dimensiunilor reale.
 
-### Desen pregătit pentru importare
-Dacă urmați sfaturile de mai sus, desenul poate arăta, de exemplu, în felul următor. Am evidențiat marginile importante ale acoperișului în roșu și am îndepărtat obiectele inutile. Aceasta nu numai că face procesul de creare al modelului mai rapid, dar îmi oferă și liniște sufletească în timpul lucrului și nu trebuie să mă preocup de distragerea atenției.
+![Model DXF](img/dxfNoScale.png)
 
-![Desene DXF](img/dxfDrawings.png)
+1. Mai întâi trebuie să măsurați una dintre marginile cunoscute folosind butonul *Measure*.
+2. Calculați scara ca fiind lungimea reală împărțită la lungimea măsurată.
+3. Faceți clic pe desenul inserat și modificați-i scara în fila *Properties*.
 
+Dacă ați setat valoarea corectă a scării, atunci valorile măsurate se vor potrivi cu liniile din desen.
 
-## Cum să importați un desen DXF în HiStruct?
+![Model DXF](img/dxfWithScale.png)
 
-Dacă am un desen pregătit, îl pot importa ușor în proiectul meu. Doar trebuie să apăs pe butonul *Import* și să selectez fișierul **.dxf*.
+## De la desen la acoperișul complet
+Acum că am importat baza ca DXF, este posibil să modelăm acoperișul în mod obișnuit, fie folosind planuri individuale ale acoperișului, fie folosind soluția noastră automată, care creează acoperișul doar din poligonul de contur al unui astfel de acoperiș.
 
-![Butonul de import](img/importButton.png)
+![Model DXF](img/dxfRoof.png)
 
-### Selectarea originii
-Acum doar trebuie să fac clic în scenă și să selectez punctul în care vreau să plasez originea desenului meu.
-
-![Selectarea originii](img/insertDXF.png)
-
-### Ajustare a scării
-Dacă desenul meu este în unități diferite de metri, nu este o problemă. Pot simplu să ajustez scara folosind butonul *Editare*.
-
-![Editarea scalei](img/externalObjectEdit.png)
-
-### Plasarea desenului
-Pot manipula desenul importat la fel cum pot face cu orice alt obiect, mutându-l sau rotindu-l după necesitate.
-
-## Cum creez un model pornind de la un desen?
-Puteți alinia la *.dxf importat, apoi puteți defini suprafețele individuale ale acoperișului prin conturarea planului etajului utilizând o [forma generală de acoperiș](modellingRoofs.md), având opțiunea de a adăuga o înclinare pentru fiecare suprafață a acoperișului.
-
-![Crearea unui model](img/dxfModel.png)
-
-Astfel, puteți crea un model detaliat 3D cu ajutorul căruia puteți utiliza aproape întotdeauna [generatorul de elemente de etanșare și jgheaburi](roofFlashingGenerator.md).
-
-![Model de elemente de etanșare și jgheaburi](img/dxfModelFlashings.png)

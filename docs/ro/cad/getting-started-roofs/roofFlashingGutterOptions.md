@@ -1,10 +1,10 @@
 ---
 sourceLang: cs
-sourceHash: 68f68fb818dd1c8ff2f0e8df711d3de5
+sourceHash: d49dd49ce611b19ee6d3bcda4145d1b8
 autoTranslated: true
 ---
 
-# Sistem de jgheaburi
+# 💧 Modelarea sistemului de jgheaburi în HiStruct
 
 Sistemul de jgheaburi este unul dintre elementele cheie ale structurii acoperișului, al cărui rol principal este de a proteja structura acoperișului de efectele negative ale apei. Acest element structural important include mai multe componente, cum ar fi jgheaburile, burlanele și burlanele descendente, care împreună formează un sistem pentru drenarea corespunzătoare a apei de pe suprafața acoperișului. În acest articol vom analiza modul în care un sistem de jgheaburi poate fi modelat în cadrul HiStruct.
 
