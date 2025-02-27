@@ -23,6 +23,53 @@
             padding-right: 10px;
         }
 
+        h1, h2, h3, h4, h5, h6 {
+            &:has(.btn-navigation-square) {
+                display: flex;
+                gap: 6px;
+                align-items: center;
+            }
+        }
+
+        .btn-navigation-square {
+            background-color: rgb(27, 122, 187);
+            padding: 0;
+            pointer-events: none;
+            border: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            container-type: size;
+            container-name: navigation-button;
+            margin: 0;
+            height: 64px;
+            width: 64px;
+            grid-row: 1;
+            grid-column: 1;
+            overflow: hidden;
+
+            .wrap-button-icon {
+                width: 100%;
+                height: 1px;
+                padding: 2px;
+                flex-grow: 1;
+                overflow: hidden;
+                justify-items: center;
+                align-items: center;
+            }
+
+            .wrap-button-text {
+                grid-row: 1;
+                grid-column: 1;
+                display: flex;
+                flex-direction: column;
+                color: #fff;
+            }
+        }
+
         a, .btn-link, .nav-link {
             color: #337ab7;
             text-decoration: none;
