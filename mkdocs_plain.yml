@@ -8,6 +8,38 @@ theme:
   name: material
   custom_dir: "plain_theme/"
 
+nav:
+  - cad/instructor-roofs/addFlashing.md
+  - cad/instructor-roofs/addRoofPolygon.md
+  - cad/instructor-roofs/basicActions.md
+  - cad/instructor-roofs/drawingPage.md
+  - cad/instructor-roofs/flashingBasic.md
+  - cad/instructor-roofs/flashingGetQuote.md
+  - cad/instructor-roofs/importPage.md
+  - cad/instructor-roofs/insertDimension.md
+  - cad/instructor-roofs/insertPage.md
+  - cad/instructor-roofs/insertPoint.md
+  - cad/instructor-roofs/insertPolygon.md
+  - cad/instructor-roofs/insertPolyline.md
+  - cad/instructor-roofs/insertRectangle.md
+  - cad/instructor-roofs/insertShape.md
+  - cad/instructor-roofs/layersModel.md
+  - cad/instructor-roofs/librariesPage.md
+  - cad/instructor-roofs/mainPage.md
+  - cad/instructor-roofs/measureTool.md
+  - cad/instructor-roofs/roofingBasic.md
+  - cad/instructor-roofs/roofingGetQuote.md
+  - cad/instructor-roofs/roofingLibrary.md
+  - cad/instructor-roofs/roofMainBasic.md
+  - cad/instructor-roofs/roofMainGetQuote.md
+  - cad/instructor-roofs/roofPage.md
+  - cad/instructor-roofs/roofTopViewBasic.md
+  - cad/instructor-roofs/surfaceLibrary.md
+  - cad/instructor-roofs/toolsPage.md
+  - cad/instructor-roofs/viewCamera.md
+  - cad/instructor-roofs/volumePage.md
+  - cad/instructor-roofs/wallPage.md
+
 plugins:
 
   - search:
