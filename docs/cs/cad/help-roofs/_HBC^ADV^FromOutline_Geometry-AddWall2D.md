@@ -1,9 +1,7 @@
-# Výkresy
-Menu <u><i>Výkresy</i></u> umožňuje vytvořit a dále editovat výkresy střešní konstrukce. 
+# Geometrie > Přidat stěnu 2D
+Umožňuje do konstrukce přidávat vnitřní svislé stěny a upravovat vlastnosti stěn.
 
-U všech výkresů je po otevření možné provádět další editace:
-* Měnit jejich měřítko.
-* Přidávat čáry, kóty nebo popisky.
+#
 <style>
 h2{
   border-bottom: none;
@@ -17,41 +15,61 @@ p{
 }
 </style>
 
-#
 <table>
   <tr>
     <td>
       <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/MainDrawings64x64.png" alt="MainDrawings64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Pohledy
+        <img src="img/MainInsert64x64.png" alt="MainInsert64x64.png" width="64" height="64">
+      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 11px; text-align: center;">
+      Přidat stěnu
       </div>
       </div>
     </td>
     <td style="vertical-align: middle; font-size: 20px;">
-      Pohledy
+      Přidat stěnu
     </td>
   </tr>
 </table>
-Tlačítkem <u>Pohledy</u> je možné vygenerovat přednastavené výkresy s pohledy na celou střešní konstrukci orientovanými podle hlavních os X,Y,Z.
+
+Tlačítkem <u>Přidat stěnu</u> je možné do konstrukce přidat nové stěny, jejich kreslení lze provádět obdobně jako kreslení obrysu objektu pomocí volného kreslení nebo s využitím souřadnicových systémů.
 
 #
 <table>
   <tr>
     <td>
       <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/MainDrawings64x64.png" alt="MainDrawings64x64.png" width="64" height="64">
+        <img src="img/WallIcon64x64.png" alt="WallIcon64x64.png" width="64" height="64">
       <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Vlastní
+      Stěny #.#
       </div>
       </div>
     </td>
     <td style="vertical-align: middle; font-size: 20px;">
-      Vlastní
+      Stěny #.#
+    </td>
+  </tr>
+</table> 
+
+Tlačítko <u>Stěny #.#</u> umožňuje nastavit způsob zarovnání jednotlivých stěn a typ výroby stěny.
+
+#
+<table>
+  <tr>
+    <td>
+      <div style="position: relative; width: 64px; height: 64px;">
+        <img src="img/TapeMeasureIcon64x64.png" alt="TapeMeasureIcon64x64.png" width="64" height="64">
+      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
+      Měření
+      </div>
+      </div>
+    </td>
+    <td style="vertical-align: middle; font-size: 20px;">
+      Měření
     </td>
   </tr>
 </table>
-Tlačítkem <u>Vlastní</u> je možné otevřít vlastní výkresy střešní konstrukce vytvořené v menu <u>Opláštění</u>.
+
+Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.
 
 #
 
@@ -70,21 +88,8 @@ Tlačítkem <u>Vlastní</u> je možné otevřít vlastní výkresy střešní ko
       background-color: rgb(20,90,140);
 </style>
 
-### Chybí vám v galerii některá krytina? Napište nám, doplníme ji.
-<table>
-  <tr>
-    <td>
-      <a href="mailto:jiri.podval@histruct.com?subject=Dotaz na HiStruct konfigurátor budov">
-        <button class="btn">
-        Chci doplnit
-        </button>
-      </a>
-    </td>
-  </tr>
-</table>
-
 ### Nepomohla Vám nápověda?
-Pro více informací o funkcích HiStruct Roofs můžete navštívit náš blog nebo zaslat dotaz na naší podporu. 
+Pro více informací o funkcích HiStruct Building Configurator můžete navštívit náš blog nebo zaslat dotaz na naší podporu. 
 <table>
   <tr>
     <td>
@@ -103,5 +108,3 @@ Pro více informací o funkcích HiStruct Roofs můžete navštívit náš blog 
     </td>
   </tr>
 </table>
-
-

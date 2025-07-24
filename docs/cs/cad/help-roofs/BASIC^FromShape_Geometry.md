@@ -1,5 +1,7 @@
-# Nastavení
-Přes tlačítko <u><i>Nastavení</i></u> je možné přizpůsobit funkce modelování a parametry modelovacího prostoru.
+# Geometrie
+Umožňuje měnit geometrické parametry modelu, tedy rozměry budovy a střechy včetně sklonu.
+
+#
 <style>
 h2{
   border-bottom: none;
@@ -12,29 +14,28 @@ p{
   margin-bottom: 10px;
 }
 </style>
-#
-## Zadání
-* <u>Základní</u> nastavení modelovacího prostoru nabídne redukované množství funkcí pro rychlejší modelování.
-* Pro aktivaci všech dostupných funkcí v modelovacím prostoru je třeba přepnout verzi zadání na <u>Rozšířené</u>.
-#
-## Nastavení scény
-* <u>Povrch terénu</u> umožňuje výběr vzhledu okolního terénu v modelovacím prostoru.
-* <u>Automatické kóty</u> .....
-* <u>Měřítko přidávacích tlačítek</u> .....
-* <u>Velikost značky souřadného systému</u> .....
-#
-## Výkon
-.....
+<table>
+  <tr>
+    <td>
+      <div style="position: relative; width: 64px; height: 64px;">
+        <img src="img/Sheated_Building_Page_Building.png" alt="Sheated_Building_Page_Building.png" width="64" height="64">
+      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
+      Budova
+      </div>
+      </div>
+    </td>
+    <td style="vertical-align: middle; font-size: 20px;">
+      Budova
+    </td>
+  </tr>
+</table>
+
+Tlačítkem <u>Budova</u> lze nastavit půdorysné rozměry a výšku budovy a upravit sklon střechy.
+
+- Základní půdorysné rozměry se zadávají pro střešní konstrukci.
+- U některých modelů lze směr sklonu střechy otáčet pomocí tlačítka <u>Změnit okapovou hranu</u>.
 
 #
-## Tahání modelů
-.....
-#
-## Údaje o projektu
-.....
-
-#
-
 <style>
     .btn {
       margin-top: 0px;

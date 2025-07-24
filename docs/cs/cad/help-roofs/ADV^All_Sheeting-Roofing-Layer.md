@@ -1,9 +1,10 @@
-# Výkresy
-Menu <u><i>Výkresy</i></u> umožňuje vytvořit a dále editovat výkresy střešní konstrukce. 
+# Opláštění > Střešní krytina > Vrstva
 
-U všech výkresů je po otevření možné provádět další editace:
-* Měnit jejich měřítko.
-* Přidávat čáry, kóty nebo popisky.
+V menu <u><i>Opláštění > Střešní krytina > Vrstva</i></u> přístupném přes <u>Editační tlačítko</u> je možné nastavit ................... 
+
+Možnosti nastavení se liší v závislosti na typu střešní krytiny.
+
+<b><u>Ovládací a editační tlačítka</u> upravují vlastnosti střešní konstrukce pouze na vybrané střešní rovině.</b>
 <style>
 h2{
   border-bottom: none;
@@ -22,37 +23,31 @@ p{
   <tr>
     <td>
       <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/MainDrawings64x64.png" alt="MainDrawings64x64.png" width="64" height="64">
+        <img src="img/EditPropertiesIcon64x64.png" alt="EditPropertiesIcon64x64.png" width="64" height="64">
       <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Pohledy
+      Vlastnosti
       </div>
       </div>
     </td>
     <td style="vertical-align: middle; font-size: 20px;">
-      Pohledy
+      Vlastnosti
     </td>
   </tr>
 </table>
-Tlačítkem <u>Pohledy</u> je možné vygenerovat přednastavené výkresy s pohledy na celou střešní konstrukci orientovanými podle hlavních os X,Y,Z.
 
+Tlačítko <u>Vlastnosti</u> umožňuje ...................
 #
 <table>
   <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/MainDrawings64x64.png" alt="MainDrawings64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Vlastní
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px;">
-      Vlastní
-    </td>
-  </tr>
-</table>
-Tlačítkem <u>Vlastní</u> je možné otevřít vlastní výkresy střešní konstrukce vytvořené v menu <u>Opláštění</u>.
+    <td><img src="img/ControlButton.png" alt="ControlButton.png" width="64"></td>
+    <td style="vertical-align: middle; font-size: 20px;">Ovládácí tlačítko</td>
+  </tr> 
+  </table>
 
+Pro jednotlivé střešní roviny umožňuje:
+- Nastavení typu skladby střechy, typu krytiny a rozměry sekundární konstrukce. 
+
+- Generování kusovníku s položkami střešní krytiny a také generování půdorysu střešní konstrukce se všemi vrstvami ve formě editovatelného výkresu.
 #
 
 <style>
@@ -103,5 +98,3 @@ Pro více informací o funkcích HiStruct Roofs můžete navštívit náš blog 
     </td>
   </tr>
 </table>
-
-

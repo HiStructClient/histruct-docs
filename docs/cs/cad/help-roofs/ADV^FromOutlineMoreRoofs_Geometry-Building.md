@@ -1,9 +1,9 @@
-# Výkresy
-Menu <u><i>Výkresy</i></u> umožňuje vytvořit a dále editovat výkresy střešní konstrukce. 
+# Geometrie > Budova
+Umožňuje měnit geometrické parametry modelu, tedy rozměry budovy a střechy včetně sklonu a přesahů. Rovněž je zde možné nastavit typ skladby střechy.
 
-U všech výkresů je po otevření možné provádět další editace:
-* Měnit jejich měřítko.
-* Přidávat čáry, kóty nebo popisky.
+<b><u>Ovládací tlačítka</u> upravují vlastnosti střešní konstrukce pouze na vybrané střešní rovině.</b>
+
+#
 <style>
 h2{
   border-bottom: none;
@@ -16,45 +16,59 @@ p{
   margin-bottom: 10px;
 }
 </style>
+<table>
+  <tr>
+    <td>
+      <div style="position: relative; width: 64px; height: 64px;">
+        <img src="img/Sheated_Building_Page_Building.png" alt="Sheated_Building_Page_Building.png" width="64" height="64">
+      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
+      Rozměry
+      </div>
+      </div>
+    </td>
+    <td style="vertical-align: middle; font-size: 20px;">
+      Rozměry
+    </td>
+  </tr>
+</table>
+
+Tlačítko <u>Rozměry</u> slouží k zakreslení půdorysného tvaru objektu, k nastavení výšky objektu a sklonu střechy a také k doplnění otvorů ve střešní konstrukci. 
+
+Základní půdorysné rozměry je možné zadávat buď pro střešní konstrukci nebo pro svislé stěny.
+
+Taktéž je možné nastavit prolínání střešních rovin mezi jednotlivými objekty.
 
 #
 <table>
   <tr>
     <td>
       <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/MainDrawings64x64.png" alt="MainDrawings64x64.png" width="64" height="64">
+        <img src="img/RoofSketchIcon64x64.png" alt="RoofSketchIcon64x64.png" width="64" height="64">
       <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Pohledy
+      Střecha
       </div>
       </div>
     </td>
     <td style="vertical-align: middle; font-size: 20px;">
-      Pohledy
+      Střecha
     </td>
   </tr>
 </table>
-Tlačítkem <u>Pohledy</u> je možné vygenerovat přednastavené výkresy s pohledy na celou střešní konstrukci orientovanými podle hlavních os X,Y,Z.
+
+Tlačítko <u>Střecha</u> umožňuje nastavit typ skladby střechy. Typ krytiny a rozměry sekundární střešní konstrukce lze měnit přes tlačítko <u>Opláštění</u>.
 
 #
 <table>
   <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/MainDrawings64x64.png" alt="MainDrawings64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Vlastní
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px;">
-      Vlastní
-    </td>
-  </tr>
-</table>
-Tlačítkem <u>Vlastní</u> je možné otevřít vlastní výkresy střešní konstrukce vytvořené v menu <u>Opláštění</u>.
+    <td><img src="img/ControlButton.png" alt="ControlButton.png" width="64"></td>
+    <td style="vertical-align: middle; font-size: 20px;">Ovládácí tlačítko</td>
+  </tr> 
+  </table>
+
+Umožňuje nastavení typu skladby střechy pro jednotlivé střešní roviny.
 
 #
-
+ 
 <style>
     .btn {
       margin-top: 0px;
@@ -69,19 +83,6 @@ Tlačítkem <u>Vlastní</u> je možné otevřít vlastní výkresy střešní ko
     .btn:hover {
       background-color: rgb(20,90,140);
 </style>
-
-### Chybí vám v galerii některá krytina? Napište nám, doplníme ji.
-<table>
-  <tr>
-    <td>
-      <a href="mailto:jiri.podval@histruct.com?subject=Dotaz na HiStruct konfigurátor budov">
-        <button class="btn">
-        Chci doplnit
-        </button>
-      </a>
-    </td>
-  </tr>
-</table>
 
 ### Nepomohla Vám nápověda?
 Pro více informací o funkcích HiStruct Roofs můžete navštívit náš blog nebo zaslat dotaz na naší podporu. 
@@ -103,5 +104,3 @@ Pro více informací o funkcích HiStruct Roofs můžete navštívit náš blog 
     </td>
   </tr>
 </table>
-
-

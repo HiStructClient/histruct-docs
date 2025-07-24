@@ -34,7 +34,7 @@ Vygeneruje dokument s výkazem rozměrů jednotlivých střešních rovin a stř
 Vygeneruje dokument s celkovým výkazem všech prvků opláštění a lemování včetně případných doplňků (šroubky,...).
 
 #
-### Nepomohla Vám nápověda?
+
 <style>
     .btn {
       margin-top: 0px;
@@ -49,6 +49,8 @@ Vygeneruje dokument s celkovým výkazem všech prvků opláštění a lemován�
     .btn:hover {
       background-color: rgb(20,90,140);
 </style>
+
+### Nepomohla Vám nápověda?
 Pro více informací o funkcích HiStruct Roofs můžete navštívit náš blog nebo zaslat dotaz na naší podporu. 
 <table>
   <tr>
@@ -60,7 +62,7 @@ Pro více informací o funkcích HiStruct Roofs můžete navštívit náš blog 
       </a>
     </td>
     <td>
-      <a href="mailto:jiri.podval@femcad.com?subject=Dotaz na Support HiStruct">
+      <a href="mailto:support@histruct.com?subject=Dotaz na Support HiStruct">
          <button class="btn">
          Zaslat dotaz
          </button>

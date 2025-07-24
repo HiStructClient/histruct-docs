@@ -1,9 +1,7 @@
-# Výkresy
-Menu <u><i>Výkresy</i></u> umožňuje vytvořit a dále editovat výkresy střešní konstrukce. 
+# Otvory
+Menu <u><i>Otvory</i></u> umožňuje vytvořit a editovat otvory na jednotlivých střešních rovinách. Každému dostupnému typu otvoru lze přiřadit také barvu.  
 
-U všech výkresů je po otevření možné provádět další editace:
-* Měnit jejich měřítko.
-* Přidávat čáry, kóty nebo popisky.
+<b>Nastavení a úpravy otvorů na jednotlivých střešních rovinách je možné provést pomocí <u>Ovládacích tlačítek</u>.</b>
 <style>
 h2{
   border-bottom: none;
@@ -16,42 +14,58 @@ p{
   margin-bottom: 10px;
 }
 </style>
+#
+<table>
+  <tr>
+    <td>
+      <div style="position: relative; width: 64px; height: 64px;">
+        <img src="img/ColorsIcon64x64.png" alt="ColorsIcon64x64.png" width="64" height="64">
+      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
+      Výchozí barvy
+      </div>
+      </div>
+    </td>
+    <td style="vertical-align: middle; font-size: 20px;">
+      Výchozí barvy
+    </td>
+  </tr>
+</table>
+
+Tlačítkem <u>Výchozí barvy</u> je možné nastavit výchozí barvy pro vybrané typy otvorů.
 
 #
 <table>
   <tr>
     <td>
       <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/MainDrawings64x64.png" alt="MainDrawings64x64.png" width="64" height="64">
+        <img src="img/TapeMeasureIcon64x64.png" alt="TapeMeasureIcon64x64.png" width="64" height="64">
       <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Pohledy
+      Měření
       </div>
       </div>
     </td>
     <td style="vertical-align: middle; font-size: 20px;">
-      Pohledy
+      Měření
     </td>
   </tr>
 </table>
-Tlačítkem <u>Pohledy</u> je možné vygenerovat přednastavené výkresy s pohledy na celou střešní konstrukci orientovanými podle hlavních os X,Y,Z.
+
+Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.
 
 #
 <table>
   <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/MainDrawings64x64.png" alt="MainDrawings64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Vlastní
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px;">
-      Vlastní
-    </td>
-  </tr>
-</table>
-Tlačítkem <u>Vlastní</u> je možné otevřít vlastní výkresy střešní konstrukce vytvořené v menu <u>Opláštění</u>.
+    <td><img src="img/ControlButton.png" alt="ControlButton.png" width="64"></td>
+    <td style="vertical-align: middle; font-size: 20px;">Ovládácí tlačítko</td>
+  </tr> 
+  </table>
+
+ <u>Ovládací tlačítko</u> umožňuje na zvolenou střešní rovinu přidat otvor a zvolit jeho typ.
+
+ Po kliknutí na nový otvor v modelu je možné provádět následující úpravy:
+
+- Měnit jeho rozměry, barvu a polohu v rámci dané roviny přepsáním příslušných hodnot v otevřené tabulce.
+- Pomocí myši lze rozměry a polohu taktéž měnit přímo v modelu.
 
 #
 
@@ -69,19 +83,6 @@ Tlačítkem <u>Vlastní</u> je možné otevřít vlastní výkresy střešní ko
     .btn:hover {
       background-color: rgb(20,90,140);
 </style>
-
-### Chybí vám v galerii některá krytina? Napište nám, doplníme ji.
-<table>
-  <tr>
-    <td>
-      <a href="mailto:jiri.podval@histruct.com?subject=Dotaz na HiStruct konfigurátor budov">
-        <button class="btn">
-        Chci doplnit
-        </button>
-      </a>
-    </td>
-  </tr>
-</table>
 
 ### Nepomohla Vám nápověda?
 Pro více informací o funkcích HiStruct Roofs můžete navštívit náš blog nebo zaslat dotaz na naší podporu. 
@@ -103,5 +104,3 @@ Pro více informací o funkcích HiStruct Roofs můžete navštívit náš blog 
     </td>
   </tr>
 </table>
-
-

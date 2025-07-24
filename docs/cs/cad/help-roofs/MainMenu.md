@@ -13,25 +13,7 @@ p{
   margin-bottom: 10px;
 }
 </style>
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/MainSettings64x64.png" alt="MainSettings64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Nastavení
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px;">
-      Nastavení
-    </td>
-  </tr>
-</table>
 
-V <u>Nastavení</u> lze upravit možnosti modelování a vzhled modelovací scény.
-
-#
 <table>
   <tr>
     <td>
@@ -69,7 +51,9 @@ Tlačítko <u>Geometrie</u> umožňuje měnit geometrické parametry modelu, ted
 
 Tlačítko <u>Opláštění</u> umožňuje měnit typ skladby střechy pro celý objekt i pro jednotlivé střešní roviny. 
 
-Dle typu skladby střechy je možné zde upravit typ krytiny a sekundární střešní konstrukci včetně směru kladení a také vygenerovat výkazy materiálů i editovatelné výkresy jednotlivých vrstev střešní konstrukce. 
+V menu <u>Opláštění</u> je v ZÁKLADNÍM módu možné nastavit typ skladby střechy, upravit typ krytiny a rozměry sekundární střešní konstrukce.
+
+V ROŽŠÍŘENÉM módu je možné dle typu skladby střechy upravit typ krytiny a sekundární střešní konstrukci včetně směru kladení a také vygenerovat výkazy materiálů i editovatelné výkresy jednotlivých vrstev střešní konstrukce. 
 
 #
 <table>
@@ -133,7 +117,7 @@ Přes tlačítko <u>Výkresy</u> je možné vygenerovat a upravit výkresy stře
   <tr>
     <td>
       <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/MainReports64x64.png" alt="MainReports64x64.png" width="64" height="64">
+        <img src="img/QuoteIcon64x64.png" alt="QuoteIcon64x64.png" width="64" height="64">
       <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
       Výkazy
       </div>
@@ -147,9 +131,26 @@ Přes tlačítko <u>Výkresy</u> je možné vygenerovat a upravit výkresy stře
 
 Tlačítkem <u>Výkazy</u> je možné vygenerovat pohledy na vymodelovanou konstrukci, výkazy materiálů pro poptávku a editovatelný dokument pro celkové shrnutí nabídky s možností nastavení cen pro jednotlivé prvky.  
 
-
 #
-### Chybí vám v galerii některá krytina? Napište nám, doplníme ji.
+<table>
+  <tr>
+    <td>
+      <div style="position: relative; width: 64px; height: 64px;">
+        <img src="img/MainSettings64x64.png" alt="MainSettings64x64.png" width="64" height="64">
+      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
+      Nastavení
+      </div>
+      </div>
+    </td>
+    <td style="vertical-align: middle; font-size: 20px;">
+      Nastavení
+    </td>
+  </tr>
+</table>
+
+V <u>Nastavení</u> lze upravit možnosti modelování a vzhled modelovací scény.
+#
+
 <style>
     .btn {
       margin-top: 0px;
@@ -164,10 +165,12 @@ Tlačítkem <u>Výkazy</u> je možné vygenerovat pohledy na vymodelovanou konst
     .btn:hover {
       background-color: rgb(20,90,140);
 </style>
+
+### Chybí vám v galerii některá krytina? Napište nám, doplníme ji.
 <table>
   <tr>
     <td>
-      <a href="mailto:jiri.podval@femcad.com?subject=Dotaz na HiStruct konfigurátor budov">
+      <a href="mailto:jiri.podval@histruct.com?subject=Dotaz na HiStruct konfigurátor budov">
         <button class="btn">
         Chci doplnit
         </button>
@@ -188,7 +191,7 @@ Pro více informací o funkcích HiStruct Roofs můžete navštívit náš blog 
       </a>
     </td>
     <td>
-      <a href="mailto:jiri.podval@femcad.com?subject=Dotaz na Support HiStruct">
+      <a href="mailto:support@histruct.com?subject=Dotaz na Support HiStruct">
          <button class="btn">
          Zaslat dotaz
          </button>
