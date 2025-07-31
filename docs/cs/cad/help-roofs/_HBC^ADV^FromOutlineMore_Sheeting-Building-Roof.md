@@ -1,8 +1,11 @@
-# Opláštění > Sekundární konstrukce
+# Opláštění > Budova > Střecha
 
-V menu <u><i>Opláštění > Sekundární konstrukce</i></u> přístupném přes <u>Editační tlačítko</u> je možné generovat editovatelné výkresy sekundární střešní konstrukce.
+V menu <u><i>Opláštění > Budova > Střecha</i></u> je možné nastavit typ skladby střechy, typ střešní krytiny a rozměry sekundární střešní konstrukce. 
 
-<b><u>Ovládací a editační tlačítka</u> upravují vlastnosti střešní konstrukce pouze na vybrané střešní rovině.</b>
+V rámci jednotlivých střešních rovin je navíc možné měnit směr kladení střešní krytiny, generovat kusovník s položkami střešní krytiny a také generovat půdorys střešní konstrukce ve formě editovatelného výkresu.
+
+<b>Nastavení a úpravy jednotlivých střešních rovin je možné provést pomocí <u>Ovládacích a Editačních tlačítek</u>.</b>
+
 <style>
 h2{
   border-bottom: none;
@@ -15,82 +18,101 @@ p{
   margin-bottom: 10px;
 }
 </style>
-
 #
 <table>
   <tr>
     <td>
       <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/TilingEditIcon64x64.png" alt="TilingEditIcon64x64.png" width="64" height="64">
+        <img src="img/EditPropertiesIcon64x64.png" alt="EditPropertiesIcon64x64.png" width="64" height="64">
       <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Rámy
+      Rozvržení
       </div>
       </div>
     </td>
     <td style="vertical-align: middle; font-size: 20px;">
-      Rámy
+      Rozvržení
     </td>
   </tr>
 </table>
 
-* Tlačítko <u>Rámy</u> umožňuje .........
+Tlačítko <u>Rozvržení</u> umožňuje nastavit typ skladby střechy, typ střešní krytiny a rozměry sekundární střešní konstrukce pro celou střechu.
 
 #
+## Nastavení vrstev střešní konstrukce
+Nastavení jednotlivých vrstev se liší podle typu skladby střešní konstrukce následovně:
+
+Pro typ skladby <u>Jednovrstvá střecha</u> se nastavuje:
+* Krytina
+
+Pro typ skladby <u>Střecha s lehkou ocelovou konstrukcí</u> se nastavuje:
+* Krytina
+* Sekundární konstrukce
+
+Pro typ skladby <u>Střecha s kontralatěmi</u> se nastavuje:
+* Krytina
+* Laťování (ve směru sklonu střechy)
+* Laťování (kolmo na směr sklonu střechy)
+
+##
 <table>
   <tr>
     <td>
       <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/BomIcon64x64.png" alt="BomIcon64x64.png" width="64" height="64">
+        <img src="img/WallPartIcon64x64.png" alt="WallPartIcon64x64.png" width="64" height="64">
       <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Kusovník
+      .
       </div>
       </div>
     </td>
     <td style="vertical-align: middle; font-size: 20px;">
-      Kusovník
+      Krytina
     </td>
   </tr>
 </table>
 
-* Tlačítko <u>Kusovník</u> umožňuje .........
+* Umožňuje výběr střešní krytiny z připravené galerie výrobků.
 
-#
+##
 <table>
   <tr>
     <td>
       <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/MainDrawings64x64.png" alt="MainDrawings64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Výkres
+        <img src="img/WallPartIcon64x64.png" alt="WallPartIcon64x64.png" width="64" height="64">
+      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
+      Sekundární k.
       </div>
       </div>
     </td>
     <td style="vertical-align: middle; font-size: 20px;">
-      Výkres
+      Sekundární konstrukce
     </td>
   </tr>
 </table>
 
-Generuje výkres určené střešní roviny s použitou sekundární střešní konstrukcí. Výkres je možné dále editovat, doplnit popisky a kótami.
+* V nastavení sekundární konstrukce lze editovat průřezy jednotlivých prvků z připravené galerie. 
 
-#
+* Taktéž je možné nastavit umístění konstrukce a vzdálenosti mezi prvky, a také odsazení krajních prvků od hřebene, respektive od okapové hrany.
+
+##
 <table>
   <tr>
     <td>
       <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/TapeMeasureIcon64x64.png" alt="TapeMeasureIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Měření
+        <img src="img/WallPartIcon64x64.png" alt="WallPartIcon64x64.png" width="64" height="64">
+      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
+      Laťování
       </div>
       </div>
     </td>
     <td style="vertical-align: middle; font-size: 20px;">
-      Měření
+      Laťování
     </td>
   </tr>
 </table>
 
-Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.
+* V nastavení laťování je možné upravit materiál a dimenze průřezů, rozteče mezi jednotlivými prvky laťování a vzdálenost prvního prvku od okraje střechy. 
+
+* Směr jednotlivých vrstev laťování lze otáčet o 90°, tedy rovnoběžně nebo kolmo se směrem sklonu střechy.
 
 #
 <table>
@@ -151,7 +173,7 @@ Pro jednotlivé vrstvy skladby střechy na určené střešní rovině umožňuj
 </table>
 
 ### Nepomohla Vám nápověda?
-Pro více informací o funkcích HiStruct Roofs můžete navštívit náš blog nebo zaslat dotaz na naší podporu. 
+Pro více informací o funkcích HiStruct Building Configurator můžete navštívit náš blog nebo zaslat dotaz na naší podporu. 
 <table>
   <tr>
     <td>

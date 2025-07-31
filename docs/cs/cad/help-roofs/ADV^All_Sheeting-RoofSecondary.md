@@ -1,10 +1,8 @@
-# Opláštění > Střešní krytina
+# Opláštění > Sekundární konstrukce
 
-V menu <u><i>Opláštění > Střešní krytina</i></u> přístupném přes <u>Editační tlačítko</u> je možné nastavit směr a posun kladení střešní krytiny, vytvářet výkazy materiálů střešní krytiny a generovat editovatelné výkresy střešní krytiny.
+V menu <u><i>Opláštění > Sekundární konstrukce</i></u> přístupném přes <u>Editační tlačítko</u> je možné generovat editovatelné výkresy sekundární střešní konstrukce.
 
-Možnosti nastavení se liší v závislosti na typu střešní krytiny.
-
-<b><u>Ovládací a editační tlačítka</u> upravují vlastnosti střešní konstrukce pouze na vybrané střešní rovině.</b>
+<b><u>Ovládací a Editační tlačítka</u> upravují vlastnosti střešní konstrukce pouze na vybrané střešní rovině.</b>
 <style>
 h2{
   border-bottom: none;
@@ -25,28 +23,17 @@ p{
       <div style="position: relative; width: 64px; height: 64px;">
         <img src="img/TilingEditIcon64x64.png" alt="TilingEditIcon64x64.png" width="64" height="64">
       <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Kladení
-      </div>
-      </div>
-    </td>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/TilingEditIcon64x64.png" alt="TilingEditIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Vrstva
+      Rámy
       </div>
       </div>
     </td>
     <td style="vertical-align: middle; font-size: 20px;">
-      Kladení / Vrstva
+      Rámy
     </td>
   </tr>
 </table>
 
-* Tlačítko <u>Kladení</u> umožňuje upravit směr kladení střešní krytiny, nastavit zarovnání a úhel krytiny.
-Taktéž umožňuje nastavení přesahů a barvy jednotlivých kusů krytiny.
-
-* Tlačítko <u>Vrstva</u> umožňuje .........
+* ...Funkcionalita tlačítka <u>Rámy</u> se připravuje pro budoucí verze programu...
 
 #
 <table>
@@ -65,7 +52,7 @@ Taktéž umožňuje nastavení přesahů a barvy jednotlivých kusů krytiny.
   </tr>
 </table>
 
-Generuje soupis položek střešní krytiny pro příslušnou střešní rovinu do přehledné tabulky.
+* ...Funkcionalita tlačítka <u>Kusovník</u> se připravuje pro budoucí verze programu...
 
 #
 <table>
@@ -84,7 +71,7 @@ Generuje soupis položek střešní krytiny pro příslušnou střešní rovinu 
   </tr>
 </table>
 
-Generuje výkres určené střešní roviny s použitou střešní krytinou. Výkres je možné dále editovat, doplnit popisky a kótami.
+Generuje výkres určené střešní roviny s použitou sekundární střešní konstrukcí. Výkres je možné dále editovat, doplnit popisky a kótami.
 
 #
 <table>

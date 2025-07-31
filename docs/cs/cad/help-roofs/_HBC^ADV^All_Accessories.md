@@ -1,9 +1,12 @@
-# Opláštění
-Menu <u><i>Opláštění</i></u> umožňuje nastavit typ skladby střechy, typ střešní krytiny a rozměry sekundární střešní konstrukce. 
+# Příslušenství
+Menu <u><i>Příslušenství</i></u> umožňuje do modelu přidávat různé doplňky pro lepší vzhled a realističnost modelu.  
 
-V rámci jednotlivých střešních rovin je navíc možné měnit směr kladení střešní krytiny, generovat kusovník s položkami střešní krytiny a také generovat půdorys střešní konstrukce ve formě editovatelného výkresu.
+<b>Kliknutím na vložený doplněk je možné jej dále editovat:</b>
+- upravit jeho přesný typ (například typ vozidla nebo stromu)
+- měnit jeho rozměry
+- posouvat, otáčet či případně smazat 
+- u některých doplňků je také možné měnit jejich barvu
 
-<b>Nastavení a úpravy jednotlivých střešních rovin je možné provést pomocí <u>Ovládacích a editačních tlačítek</u>.</b>
 <style>
 h2{
   border-bottom: none;
@@ -16,45 +19,62 @@ p{
   margin-bottom: 10px;
 }
 </style>
+#
+<table>
+  <tr>
+    <td>
+      <div style="position: relative; width: 64px; height: 64px;">
+        <img src="img/EmptyIcon64x64.png" alt="EmptyIcon64x64.png" width="64" height="64">
+      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
+      Interior
+      </div>
+      </div>
+    </td>
+    <td style="vertical-align: middle; font-size: 20px;">
+      Interior
+    </td>
+  </tr>
+</table>
+
+Tlačítkem <u>Interior</u> je možné do modelu vložit vybrané doplňky.
 
 #
 <table>
   <tr>
     <td>
       <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/DuoPitchBuildingIcon64x64.png" alt="DuoPitchBuildingIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Budova #
+        <img src="img/SelectIcon64x64.png" alt="SelectIcon64x64.png" width="64" height="64">
+      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
+      From Gallery
       </div>
       </div>
     </td>
     <td style="vertical-align: middle; font-size: 20px;">
-      Budova #
+      From Gallery
     </td>
   </tr>
 </table>
 
-Tlačítko <u>Budova #</u> slouží k výběru jednoho z modelovaných objektů.
+Tlačítkem <u>From Gallery</u> je možné do modelu vložit doplňky ze sestavené galerie, kterou Vám můžeme upravit na míru.
 
 #
 <table>
   <tr>
     <td>
       <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/DimensionLinearIcon64x64.png" alt="DimensionLinearIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Anotace
+        <img src="img/MainInsert64x64.png" alt="MainInsert64x64.png" width="64" height="64">
+      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
+      Vložit
       </div>
       </div>
     </td>
     <td style="vertical-align: middle; font-size: 20px;">
-      Anotace
+      Vložit
     </td>
   </tr>
 </table>
 
-Tlačítko <u>Anotace</u> umožňuje do modelu přidávat libovolné půdorysné kóty.
-
+Tlačítkem <u>Vložit</u> je možné do modelu vložit vybrané doplňky.
 #
 <table>
   <tr>
@@ -75,17 +95,7 @@ Tlačítko <u>Anotace</u> umožňuje do modelu přidávat libovolné půdorysné
 Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.
 
 #
-<table>
-  <tr>
-    <td><img src="img/ControlButton.png" alt="ControlButton.png" width="64"></td>
-    <td style="vertical-align: middle; font-size: 20px;">Ovládácí tlačítko</td>
-  </tr> 
-  </table>
 
-Umožňuje nastavení typu skladby střechy pro jednotlivé střešní roviny.
-
-#
- 
 <style>
     .btn {
       margin-top: 0px;
@@ -102,7 +112,7 @@ Umožňuje nastavení typu skladby střechy pro jednotlivé střešní roviny.
 </style>
 
 ### Nepomohla Vám nápověda?
-Pro více informací o funkcích HiStruct Roofs můžete navštívit náš blog nebo zaslat dotaz na naší podporu. 
+Pro více informací o funkcích HiStruct Building Configurator můžete navštívit náš blog nebo zaslat dotaz na naší podporu. 
 <table>
   <tr>
     <td>

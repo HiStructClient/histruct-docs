@@ -118,6 +118,8 @@ Tlačítkem <u>Zvednout</u> je možné upravit výšku stěn modelovaného objek
 
 Umožňuje upravit způsob zadání geometrie, podle nastavení je možné kreslit obrys střechy nebo stěn.
 
+Taktéž je zde možné nastavit prolínání střešních rovin mezi jednotlivými objekty.
+
 #
 <table>
   <tr>

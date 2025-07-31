@@ -1,14 +1,11 @@
-# Opláštění > Budova > Střecha
+# Opláštění > Střecha
 
-V menu <u><i>Opláštění > Budova > Střecha</i></u> je možné nastavit typ skladby střechy, typ střešní krytiny a rozměry sekundární střešní konstrukce. 
+V menu <u><i>Opláštění > Střecha</i></u> je možné nastavit typ skladby střechy, typ střešní krytiny a rozměry sekundární střešní konstrukce. 
 
 V rámci jednotlivých střešních rovin je navíc možné měnit směr kladení střešní krytiny, generovat kusovník s položkami střešní krytiny a také generovat půdorys střešní konstrukce ve formě editovatelného výkresu.
 
-<b>Nastavení a úpravy jednotlivých střešních rovin je možné provést pomocí <u>Ovládacích a editačních tlačítek</u>.</b>
+<b>Nastavení a úpravy jednotlivých střešních rovin je možné provést pomocí <u>Ovládacích a Editačních tlačítek</u>.</b>
 
-* Přes <u>Ovládací tlačítka</u> v modelu je možné nastavit typ skladby střechy, typ krytiny a rozměry prvků sekundární konstrukce zvlášť pro jednotlivé střešní roviny, taktéž umožňují vytvářet výkazy materiálů a výkresy střešní konstrukce.
-
-* Přes <u>Editační tlačítka</u> v modelu je možné editovat vlastnosti jednotlivých vrstev střešní konstrukce na určené střešní rovině, taktéž umožňují vytvářet výkazy materiálů a výkresy příslušných vrstev střešní konstrukce.
 <style>
 h2{
   border-bottom: none;
@@ -176,7 +173,7 @@ Pro jednotlivé vrstvy skladby střechy na určené střešní rovině umožňuj
 </table>
 
 ### Nepomohla Vám nápověda?
-Pro více informací o funkcích HiStruct Roofs můžete navštívit náš blog nebo zaslat dotaz na naší podporu. 
+Pro více informací o funkcích HiStruct Building Configurator můžete navštívit náš blog nebo zaslat dotaz na naší podporu. 
 <table>
   <tr>
     <td>

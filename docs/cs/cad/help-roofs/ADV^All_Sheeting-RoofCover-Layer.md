@@ -1,8 +1,10 @@
-# Opláštění > Laťování > Síť
+# Opláštění > Střešní krytina > Vrstva
 
-V menu <u><i>Opláštění > Laťování > Síť</i></u> přístupném přes <u>Editační tlačítko</u> je možné nastavit rozteče mezi prvky laťování, upravit úhel kladené vrstvy laťování a odsazení prvního prvku od kraje střechy.
+...V menu <u><i>Opláštění > Střešní krytina > Vrstva</i></u> přístupném přes <u>Editační tlačítko</u> se připravují fuknce pro budoucí verze programu...
 
-<b><u>Ovládací a editační tlačítka</u> upravují vlastnosti střešní konstrukce pouze na vybrané střešní rovině.</b>
+Možnosti nastavení se liší v závislosti na typu střešní krytiny.
+
+<b><u>Ovládací a Editační tlačítka</u> upravují vlastnosti střešní konstrukce pouze na vybrané střešní rovině.</b>
 <style>
 h2{
   border-bottom: none;
@@ -33,8 +35,7 @@ p{
   </tr>
 </table>
 
-* Tlačítko <u>Vlastnosti</u> umožňuje nastavit rozteče mezi prvky laťování, upravit úhel kladené vrstvy laťování a odsazení prvního prvku od kraje střechy.
-
+...Funkcionalita tlačítka <u>Vlastnosti</u> se připravuje pro budoucí verzi programu...
 #
 <table>
   <tr>
@@ -47,21 +48,6 @@ Pro jednotlivé střešní roviny umožňuje:
 - Nastavení typu skladby střechy, typu krytiny a rozměry sekundární konstrukce. 
 
 - Generování kusovníku s položkami střešní krytiny a také generování půdorysu střešní konstrukce se všemi vrstvami ve formě editovatelného výkresu.
-#
-<table>
-  <tr>
-    <td><img src="img/EditButton.png" alt="EditButton.png" width="64"></td>
-    <td style="vertical-align: middle; font-size: 20px;">Editační tlačítko</td>
-  </tr> 
-  </table>
-
-Pro jednotlivé vrstvy skladby střechy na určené střešní rovině umožňuje:
-
-- Nastavení směru kladení, taktéž úpravu pozice a úhlu kladení.
-
-- Generování půdorysu příslušné vrstvy střešní konstrukce ve formě editovatelného výkresu.
-
-- Pro střešní krytinu je možné také vygenerovat výkaz materiálu s položkami střešní krytiny.
 #
 
 <style>

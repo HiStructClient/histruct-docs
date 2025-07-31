@@ -72,7 +72,7 @@ Tlačítko <u>Střecha</u> umožňuje nastavit typ skladby střechy. Typ krytiny
   </tr>
 </table>
 
-Tlačítko <u>Stěny</u> umožňuje nastavit způsob zarovnání stěny a typ výroby stěny. 
+Tlačítko <u>Stěny</u> umožňuje nastavit způsob zarovnání stěny, typ výroby stěny, způsob kladení řad opláštění a výšku soklu. 
 
 Tato nastavení lze upravit pro jednotlivé stěny pomocí příslušných Ovládacích tlačítek.
 

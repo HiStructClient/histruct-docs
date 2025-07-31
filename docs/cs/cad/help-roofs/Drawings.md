@@ -1,5 +1,5 @@
 # Výkresy
-Menu <u><i>Výkresy</i></u> umožňuje vytvořit a dále editovat výkresy střešní konstrukce. 
+Menu <u><i>Výkresy</i></u> umožňuje vytvořit a dále editovat výkresy střešní nebo stěnové konstrukce. 
 
 U všech výkresů je po otevření možné provádět další editace:
 * Měnit jejich měřítko.
@@ -33,7 +33,7 @@ p{
     </td>
   </tr>
 </table>
-Tlačítkem <u>Pohledy</u> je možné vygenerovat přednastavené výkresy s pohledy na celou střešní konstrukci orientovanými podle hlavních os X,Y,Z.
+Tlačítkem <u>Pohledy</u> je možné vygenerovat přednastavené výkresy s pohledy na celou střešní nebo stěnovou konstrukci orientovanými podle hlavních os X,Y,Z.
 
 #
 <table>
@@ -51,7 +51,7 @@ Tlačítkem <u>Pohledy</u> je možné vygenerovat přednastavené výkresy s poh
     </td>
   </tr>
 </table>
-Tlačítkem <u>Vlastní</u> je možné otevřít vlastní výkresy střešní konstrukce vytvořené v menu <u>Opláštění</u>.
+Tlačítkem <u>Vlastní</u> je možné otevřít vlastní výkresy střešní nebo stěnové konstrukce vytvořené v menu <u>Opláštění</u>.
 
 #
 
@@ -84,7 +84,7 @@ Tlačítkem <u>Vlastní</u> je možné otevřít vlastní výkresy střešní ko
 </table>
 
 ### Nepomohla Vám nápověda?
-Pro více informací o funkcích HiStruct Roofs můžete navštívit náš blog nebo zaslat dotaz na naší podporu. 
+Pro více informací o funkcích HiStruct Building Configurator můžete navštívit náš blog nebo zaslat dotaz na naší podporu. 
 <table>
   <tr>
     <td>

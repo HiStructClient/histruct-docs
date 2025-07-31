@@ -74,6 +74,8 @@ Tlačítko <u>Obrys</u> slouží k zakreslení půdorysného obrysu střechy. Pr
 * Polární souřadnice pro následující vrchol se zapíší ve formátu ">alfa;L", tedy např. <b>>135;6</b>
 * Zadávaný úhel se odměřuje o kladného směru globální osy X proti směru hodinových ručiček.
 
+Poslední vložený bod je možné smazat pomocí klávesy <b><u>DELETE</u></b>.
+
 #
 <table>
   <tr>

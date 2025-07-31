@@ -1,8 +1,8 @@
-# Opláštění > Sekundární konstrukce > Rámy
+# Opláštění > Laťování
 
-V menu <u><i>Opláštění > Sekundární konstrukce > Rámy</i></u> přístupném přes <u>Editační tlačítko</u> je možné ......
+V menu <u><i>Opláštění > Laťování</i></u> přístupném přes <u>Editační tlačítko</u> je možné nastavit směr a posun kladení vrstev laťování a generovat editovatelné výkresy vrstev laťování.
 
-<b><u>Ovládací a editační tlačítka</u> upravují vlastnosti střešní konstrukce pouze na vybrané střešní rovině.</b>
+<b><u>Ovládací a Editační tlačítka</u> upravují vlastnosti střešní konstrukce pouze na vybrané střešní rovině.</b>
 <style>
 h2{
   border-bottom: none;
@@ -21,19 +21,76 @@ p{
   <tr>
     <td>
       <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/EditPropertiesIcon64x64.png" alt="EditPropertiesIcon64x64.png" width="64" height="64">
+        <img src="img/TilingEditIcon64x64.png" alt="TilingEditIcon64x64.png" width="64" height="64">
       <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Vlastnosti
+      Síť
       </div>
       </div>
     </td>
     <td style="vertical-align: middle; font-size: 20px;">
-      Vlastnosti
+      Síť
     </td>
   </tr>
 </table>
 
-* Tlačítko <u>Vlastnosti</u> umožňuje .........
+* Tlačítko <u>Síť</u> umožňuje nastavit rozteče mezi prvky laťování, upravit úhel kladené vrstvy laťování a odsazení prvního prvku od kraje střechy.
+
+#
+<table>
+  <tr>
+    <td>
+      <div style="position: relative; width: 64px; height: 64px;">
+        <img src="img/BomIcon64x64.png" alt="BomIcon64x64.png" width="64" height="64">
+      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
+      Kusovník
+      </div>
+      </div>
+    </td>
+    <td style="vertical-align: middle; font-size: 20px;">
+      Kusovník
+    </td>
+  </tr>
+</table>
+
+* ...Funckionalita tlačítka <u>Kusovník</u> se připravuje pro budoucí verzi programu...
+
+#
+<table>
+  <tr>
+    <td>
+      <div style="position: relative; width: 64px; height: 64px;">
+        <img src="img/MainDrawings64x64.png" alt="MainDrawings64x64.png" width="64" height="64">
+      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
+      Výkres
+      </div>
+      </div>
+    </td>
+    <td style="vertical-align: middle; font-size: 20px;">
+      Výkres
+    </td>
+  </tr>
+</table>
+
+Generuje výkres určené střešní roviny s určenou vrstvou laťování. Výkres je možné dále editovat, doplnit popisky a kótami.
+
+#
+<table>
+  <tr>
+    <td>
+      <div style="position: relative; width: 64px; height: 64px;">
+        <img src="img/TapeMeasureIcon64x64.png" alt="TapeMeasureIcon64x64.png" width="64" height="64">
+      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
+      Měření
+      </div>
+      </div>
+    </td>
+    <td style="vertical-align: middle; font-size: 20px;">
+      Měření
+    </td>
+  </tr>
+</table>
+
+Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.
 
 #
 <table>
@@ -62,7 +119,6 @@ Pro jednotlivé vrstvy skladby střechy na určené střešní rovině umožňuj
 - Generování půdorysu příslušné vrstvy střešní konstrukce ve formě editovatelného výkresu.
 
 - Pro střešní krytinu je možné také vygenerovat výkaz materiálu s položkami střešní krytiny.
-
 #
 
 <style>

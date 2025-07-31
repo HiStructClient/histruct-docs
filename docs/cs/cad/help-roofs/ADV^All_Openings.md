@@ -1,7 +1,8 @@
 # Otvory
 Menu <u><i>Otvory</i></u> umožňuje vytvořit a editovat otvory na jednotlivých střešních rovinách. Každému dostupnému typu otvoru lze přiřadit také barvu.  
 
-<b>Nastavení a úpravy otvorů na jednotlivých střešních rovinách je možné provést pomocí <u>Ovládacích tlačítek</u>.</b>
+<b>Nastavení a úpravy otvorů na jednotlivých střešních rovinách je možné provést pomocí <u>Ovládacích tlačítek</u>. Na stěnové roviny lze otvory přidávat pomocí tlačítka <u>Přidat</u>.</b>
+
 <style>
 h2{
   border-bottom: none;
@@ -85,7 +86,7 @@ Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.
 </style>
 
 ### Nepomohla Vám nápověda?
-Pro více informací o funkcích HiStruct Roofs můžete navštívit náš blog nebo zaslat dotaz na naší podporu. 
+Pro více informací o funkcích HiStruct Building Configurator můžete navštívit náš blog nebo zaslat dotaz na naší podporu. 
 <table>
   <tr>
     <td>

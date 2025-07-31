@@ -25,10 +25,10 @@ Vygeneruje přehledný dokument shrnující informace o poptávce.
 Vygeneruje dokument s tabulkovým výkazem prvků pro oplechování.
 #
 ## Kusovník opláštění
-Vygeneruje dokument s výkazem prvků opláštění pro jednotlivé střešní roviny včetně jejich rozkreslení.
+Vygeneruje dokument s výkazem prvků opláštění pro jednotlivé střešní či stěnové roviny včetně jejich rozkreslení.
 #
 ## Report rozměrů
-Vygeneruje dokument s výkazem rozměrů jednotlivých střešních rovin a střešních hran.
+Vygeneruje dokument s výkazem rozměrů jednotlivých stěnových či střešních rovin a střešních hran.
 #
 ## Součásti výrobku
 Vygeneruje dokument s celkovým výkazem všech prvků opláštění a lemování včetně případných doplňků (šroubky,...).
@@ -51,7 +51,7 @@ Vygeneruje dokument s celkovým výkazem všech prvků opláštění a lemován�
 </style>
 
 ### Nepomohla Vám nápověda?
-Pro více informací o funkcích HiStruct Roofs můžete navštívit náš blog nebo zaslat dotaz na naší podporu. 
+Pro více informací o funkcích HiStruct Building Configurator můžete navštívit náš blog nebo zaslat dotaz na naší podporu. 
 <table>
   <tr>
     <td>

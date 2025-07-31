@@ -4,7 +4,7 @@ V menu <u><i>Opláštění > Střecha</i></u> je možné nastavit typ skladby st
 
 V rámci jednotlivých střešních rovin je navíc možné měnit směr kladení střešní krytiny, generovat kusovník s položkami střešní krytiny a také generovat půdorys střešní konstrukce ve formě editovatelného výkresu.
 
-<b>Nastavení a úpravy jednotlivých střešních rovin je možné provést pomocí <u>Ovládacích a editačních tlačítek</u>.</b>
+<b>Nastavení a úpravy jednotlivých střešních rovin je možné provést pomocí <u>Ovládacích a Editačních tlačítek</u>.</b>
 
 <style>
 h2{

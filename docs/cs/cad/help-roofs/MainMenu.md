@@ -1,5 +1,5 @@
 # Hlavní menu
-V <u><i>Hlavním menu</i></u> naleznete přehled hlavních modelovacích funkcí platformy HiStruct Roofs.
+V <u><i>Hlavním menu</i></u> naleznete přehled hlavních modelovacích funkcí platformy HiStruct.
 #
 <style>
 h2{
@@ -49,11 +49,11 @@ Tlačítko <u>Geometrie</u> umožňuje měnit geometrické parametry modelu, ted
   </tr>
 </table>
 
-Tlačítko <u>Opláštění</u> umožňuje měnit typ skladby střechy pro celý objekt i pro jednotlivé střešní roviny. 
+Tlačítko <u>Opláštění</u> umožňuje měnit typ skladby opláštění pro celý objekt i pro jednotlivé střešní či stěnové roviny. 
 
-V menu <u>Opláštění</u> je v ZÁKLADNÍM módu možné nastavit typ skladby střechy, upravit typ krytiny a rozměry sekundární střešní konstrukce.
+V menu <u>Opláštění</u> je v ZÁKLADNÍM módu možné nastavit typ skladby střechy, upravit typ krytiny a rozměry sekundární střešní konstrukce. Pro stěnové konstrukce je možné nastavit typ skladby opláštění a upravit pro jednotlivé vstrvy upravit typ materiálu.
 
-V ROŽŠÍŘENÉM módu je možné dle typu skladby střechy upravit typ krytiny a sekundární střešní konstrukci včetně směru kladení a také vygenerovat výkazy materiálů i editovatelné výkresy jednotlivých vrstev střešní konstrukce. 
+V ROŽŠÍŘENÉM módu je možné provádět pokročilou editaci - dle typu opláštění střechy a stěn je možné upravit typ krytiny a sekundární konstrukci včetně směru kladení a také vygenerovat výkazy materiálů i editovatelné výkresy jednotlivých vrstev střešní či stěnové konstrukce. 
 
 #
 <table>
@@ -72,7 +72,7 @@ V ROŽŠÍŘENÉM módu je možné dle typu skladby střechy upravit typ krytiny
   </tr>
 </table>
 
-Tlačítko <u>Lemovky</u> umožňuje přidávání a úpravu jednotlivých střešních lemovacích prvků a nastavení okapového systému.
+Tlačítko <u>Lemovky</u> umožňuje přidávání a úpravu jednotlivých lemovacích prvků a nastavení okapového systému.
 
 #
 <table>
@@ -91,7 +91,7 @@ Tlačítko <u>Lemovky</u> umožňuje přidávání a úpravu jednotlivých stře
   </tr>
 </table>
 
-Přes tlačítko <u>Otvory</u> je možné do střešní konstrukce přidávat otvory pro okna a komíny či jiné překážky.
+Přes tlačítko <u>Otvory</u> je možné do konstrukce přidávat otvory pro okna a komíny či jiné překážky.
 
 #
 <table>
@@ -110,7 +110,7 @@ Přes tlačítko <u>Otvory</u> je možné do střešní konstrukce přidávat ot
   </tr>
 </table>
 
-Přes tlačítko <u>Výkresy</u> je možné vygenerovat a upravit výkresy střešní konstrukce, například půdorys nebo boční pohledy. Výkresy lze v nově otevřeném okně dodatečně upravit a doplnit libovolnými popisky či kótami.
+Přes tlačítko <u>Výkresy</u> je možné vygenerovat a upravit výkresy střešní či stěnové konstrukce, například půdorys nebo boční pohledy. Výkresy lze v nově otevřeném okně dodatečně upravit a doplnit libovolnými popisky či kótami.
 
 #
 <table>
@@ -180,7 +180,7 @@ V <u>Nastavení</u> lze upravit možnosti modelování a vzhled modelovací scé
 </table>
 
 ### Nepomohla Vám nápověda?
-Pro více informací o funkcích HiStruct Roofs můžete navštívit náš blog nebo zaslat dotaz na naší podporu. 
+Pro více informací o funkcích HiStruct Building Configurator můžete navštívit náš blog nebo zaslat dotaz na naší podporu. 
 <table>
   <tr>
     <td>

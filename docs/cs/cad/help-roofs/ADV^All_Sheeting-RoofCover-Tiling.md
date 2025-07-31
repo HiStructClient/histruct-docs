@@ -1,10 +1,12 @@
-# Opláštění > Střešní krytina > Vrstva
+# Opláštění > Střešní krytina > Kladení
 
-V menu <u><i>Opláštění > Střešní krytina > Vrstva</i></u> přístupném přes <u>Editační tlačítko</u> je možné nastavit ................... 
+V menu <u><i>Opláštění > Střešní krytina > Kladení</i></u> přístupném přes <u>Editační tlačítko</u> je možné nastavit směr, úhel a posun kladení prvků střešní krytiny od okraje střechy. 
+
+Po kliknutí na zvolený prvek střešní krytiny je možné prvek prodloužit na začátku i na konci o zvolenou délku, případně editovat jeho barvu.
 
 Možnosti nastavení se liší v závislosti na typu střešní krytiny.
 
-<b><u>Ovládací a editační tlačítka</u> upravují vlastnosti střešní konstrukce pouze na vybrané střešní rovině.</b>
+<b><u>Ovládací a Editační tlačítka</u> upravují vlastnosti střešní konstrukce pouze na vybrané střešní rovině.</b>
 <style>
 h2{
   border-bottom: none;
@@ -17,7 +19,6 @@ p{
   margin-bottom: 10px;
 }
 </style>
-
 #
 <table>
   <tr>
@@ -35,7 +36,24 @@ p{
   </tr>
 </table>
 
-Tlačítko <u>Vlastnosti</u> umožňuje ...................
+Tlačítko <u>Vlastnosti</u> umožňuje nastavit směr, úhel a posun kladení prvků střešní krytiny od okraje střechy. 
+
+#
+## Nastavení vlastností jednotlivých prvků krytiny
+<u>Kliknutím přímo na zvolený prvek střešní krytiny</u> je možné prvek prodloužit na začátku i na konci o zvolenou délku, případně editovat jeho barvu.
+<table>
+  <tr>
+    <td>
+      <img src="img/AddOffsetButton.png" alt="AddOffsetButton.png" width="50">
+    </td>
+    <td style="vertical-align: middle; font-size: 15px;">
+    Přesah
+    </td>
+  </tr> 
+</table>
+
+Umožňuje nastavit přesah krytiny přes danou střešní hranu.
+
 #
 <table>
   <tr>
@@ -48,6 +66,7 @@ Pro jednotlivé střešní roviny umožňuje:
 - Nastavení typu skladby střechy, typu krytiny a rozměry sekundární konstrukce. 
 
 - Generování kusovníku s položkami střešní krytiny a také generování půdorysu střešní konstrukce se všemi vrstvami ve formě editovatelného výkresu.
+
 #
 
 <style>

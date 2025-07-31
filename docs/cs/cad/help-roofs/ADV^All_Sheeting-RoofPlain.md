@@ -2,7 +2,7 @@
 
 V menu <u><i>Opláštění > Střešní rovina</i></u> přístupném přes <u>Ovládací tlačítko</u> je možné nastavit typ skladby střechy, typ střešní krytiny a rozměry sekundární střešní konstrukce pro jednotlivé střešní roviny. Taktéž umožňuje pro určenou střešní rovinu vytvářet výkazy materiálů a výkresy střešní konstrukce.
 
-<b><u>Ovládací a editační tlačítka</u> upravují vlastnosti střešní konstrukce pouze na vybrané střešní rovině.</b>
+<b><u>Ovládací a Editační tlačítka</u> upravují vlastnosti střešní konstrukce pouze na vybrané střešní rovině.</b>
 <style>
 h2{
   border-bottom: none;

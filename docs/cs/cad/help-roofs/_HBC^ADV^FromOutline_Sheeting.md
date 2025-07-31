@@ -3,7 +3,7 @@ Menu <u><i>Opláštění</i></u> umožňuje nastavit typ skladby střechy, typ s
 
 U stěn pak lze nastavit typ výroby stěny a materiál stěny.
 
-<b>Nastavení a úpravy jednotlivých střešních a stěnových rovin je možné provést pomocí <u>Ovládacích a editačních tlačítek</u>.</b>
+<b>Nastavení a úpravy jednotlivých střešních a stěnových rovin je možné provést pomocí <u>Ovládacích a Editačních tlačítek</u>.</b>
 
 <style>
 h2{
@@ -54,7 +54,7 @@ Tlačítko <u>Střecha</u> umožňuje nastavit typ skladby střechy, typ střeš
   </tr>
 </table> 
 
-Tlačítko <u>Stěny #.#</u> umožňuje nastavit typ výroby stěny a materiál stěny.
+Tlačítko <u>Stěny #.#</u> umožňuje nastavit typ výroby stěny, způsob kladení řad opláštění a výšku soklu.
 
 #
 <table>

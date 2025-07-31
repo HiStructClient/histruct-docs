@@ -1,10 +1,10 @@
 # Opláštění > Stěna
 
-V menu <u><i>Opláštění > Stěna</i></u> je možné nastavit typ výroby stěny, kladení řad opláštění a výšku soklu.
+V menu <u><i>Opláštění > Stěna</i></u> je možné nastavit typ výroby stěny, kladení řad opláštění a výšku soklu. Taktéž je zde možné upravit jednotlivé vrstvy opláštění.
 
 U jednotlivých stěn je navíc možné upravovat barevné schéma a materiály jednotlivých vrstev opláštění. Také je zde možné generovat kusovník s položkami opláštění nebo pohled na stěnu ve formě editovatelného výkresu.
 
-<b>Nastavení a úpravy jednotlivých stěnových rovin je možné provést pomocí <u>Ovládacích a editačních tlačítek</u>.</b>
+<b>Nastavení a úpravy jednotlivých stěnových rovin je možné provést pomocí <u>Ovládacích a Editačních tlačítek</u>.</b>
 
 <style>
 h2{
@@ -141,7 +141,9 @@ Pro typ skladby <u>Opláštění se soklem</u> se nastavuje:
 
 Pro jednotlivé stěnové roviny umožňuje:
 * Nastavit typ výroby stěny, kladení řad opláštění a výšku soklu, dále barevné schéma a typ materiálů jednotlivých vrstev opláštní včetně rozměrů prvků sekundární konstrukce. 
+
 * Taktéž umožňuje vytvářet výkazy materiálů a generovat pohled na stěnu ve fromě editovatelného výkresu.
+
 #
 <table>
   <tr>
@@ -150,7 +152,7 @@ Pro jednotlivé stěnové roviny umožňuje:
   </tr> 
   </table>
 
-Pro jednotlivé vrstvy skladby střechy na určené stěnové rovině umožňuje:
+Pro jednotlivé vrstvy skladby stěny na určené stěnové rovině umožňuje:
 
 - Nastavení směru kladení, taktéž úpravu pozice a úhlu kladení opláštění.
 

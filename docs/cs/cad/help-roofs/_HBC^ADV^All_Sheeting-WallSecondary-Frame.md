@@ -1,10 +1,8 @@
-# Opláštění > Budova
+# Opláštění > Sekundární struktura stěny > Rámy
 
-Menu <u><i>Opláštění > Budova</i></u> umožňuje nastavit typ skladby střechy, typ střešní krytiny a rozměry sekundární střešní konstrukce. 
+...V menu <u><i>Opláštění > Sekundární struktura stěny > Rámy</i></u> přístupném přes <u>Editační tlačítko</u> se připravují funkce pro budoucí verze programu...
 
-V rámci jednotlivých střešních rovin je navíc možné měnit směr kladení střešní krytiny, generovat kusovník s položkami střešní krytiny a také generovat půdorys střešní konstrukce ve formě editovatelného výkresu.
-
-<b>Nastavení a úpravy jednotlivých střešních rovin je možné provést pomocí <u>Ovládacích a editačních tlačítek</u>.</b>
+<b><u>Ovládací a Editační tlačítka</u> upravují vlastnosti konstrukce pouze na vybrané stěnové rovině.</b>
 <style>
 h2{
   border-bottom: none;
@@ -23,19 +21,19 @@ p{
   <tr>
     <td>
       <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/RoofSketchIcon64x64.png" alt="RoofSketchIcon64x64.png" width="64" height="64">
+        <img src="img/EditPropertiesIcon64x64.png" alt="EditPropertiesIcon64x64.png" width="64" height="64">
       <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Střecha
+      Vlastnosti
       </div>
       </div>
     </td>
     <td style="vertical-align: middle; font-size: 20px;">
-      Střecha
+      Vlastnosti
     </td>
   </tr>
 </table>
 
-Tlačítko <u>Střecha</u> umožňuje nastavit typ skladby střechy, typ střešní krytiny a rozměry sekundární střešní konstrukce pro celou střechu.
+* ...Funkcionalita tlačítka <u>Vlastnosti</u> se připravuje pro budoucí verze programu...
 
 #
 <table>
@@ -45,10 +43,11 @@ Tlačítko <u>Střecha</u> umožňuje nastavit typ skladby střechy, typ střeš
   </tr> 
   </table>
 
-Pro jednotlivé střešní roviny umožňuje:
-- Nastavení typu skladby střechy, typu krytiny a rozměry sekundární konstrukce. 
+Pro jednotlivé stěnové roviny umožňuje:
+* Nastavit typ výroby stěny, kladení řad opláštění a výšku soklu, dále barevné schéma a typ materiálů jednotlivých vrstev opláštní včetně rozměrů prvků sekundární konstrukce. 
 
-- Generování kusovníku s položkami střešní krytiny a také generování půdorysu střešní konstrukce se všemi vrstvami ve formě editovatelného výkresu.
+* Taktéž umožňuje vytvářet výkazy materiálů a generovat pohled na stěnu ve fromě editovatelného výkresu.
+
 #
 <table>
   <tr>
@@ -57,16 +56,18 @@ Pro jednotlivé střešní roviny umožňuje:
   </tr> 
   </table>
 
-Pro jednotlivé vrstvy skladby střechy na určené střešní rovině umožňuje:
+Pro jednotlivé vrstvy skladby stěny na určené stěnové rovině umožňuje:
 
-- Nastavení směru kladení, taktéž úpravu pozice a úhlu kladení.
+- Nastavení směru kladení, taktéž úpravu pozice a úhlu kladení opláštění.
 
-- Generování půdorysu příslušné vrstvy střešní konstrukce ve formě editovatelného výkresu.
+- Úpravu barevného schématu opláštění.
 
-- Pro střešní krytinu je možné také vygenerovat výkaz materiálu s položkami střešní krytiny.
+- Generování výkresu příslušné vrstvy stěnové konstrukce ve formě editovatelného výkresu.
+
+- Pro vrstvu vnějšího opláštění je možné také vygenerovat výkaz materiálu s položkami.
+
 
 #
-
 <style>
     .btn {
       margin-top: 0px;
@@ -96,7 +97,7 @@ Pro jednotlivé vrstvy skladby střechy na určené střešní rovině umožňuj
 </table>
 
 ### Nepomohla Vám nápověda?
-Pro více informací o funkcích HiStruct Roofs můžete navštívit náš blog nebo zaslat dotaz na naší podporu. 
+Pro více informací o funkcích HiStruct Building Configurator můžete navštívit náš blog nebo zaslat dotaz na naší podporu. 
 <table>
   <tr>
     <td>
