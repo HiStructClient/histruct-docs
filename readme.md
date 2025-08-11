@@ -40,7 +40,11 @@ Ve složce ***C:\GitHub\histruct-docs\docs\en\cad\instructor-roofs*** je náš i
 Jednotlivé stránky jsou bez jakéhokoliv třídění v této složce a zpravidla odpovídají jedné konkrétní navigaci následně v modelovacím prostředí.
 
 ### Převod Markdown na HTML
-Provede se úplně stejně jako v případě nápovědy. 
+Pro převod dodržuj následující postup:
+1. Vymaž složku C:\GitHub\histruct-docs\.venv
+1. Vymaž složku C:\GitHub\histruct-docs\site
+1. V příkazové řádce spusť C:\GitHub\histruct-docs\buildDocs.cmd
+1. V příkazové řádce spusť C:\GitHub\histruct-docs\buildInstructor.cmd
 
 ### Spuštění lokální nápovědy 
 Aby nebylo nutné každou novou verzi nahrávat na Azure odkud si construct-2 následně bere instruktora, tak je možné spusti localhost na kterém tyto stránky běží. Pro spuštění lokální nápovědy postupuj takto: 
