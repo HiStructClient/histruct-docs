@@ -1,7 +1,7 @@
 # **NÁVOD**
 <small>Autor: Šimon Glanc</small>
 
-Abych já a všichni ostatní nemuseli zase žádat Honzu o pomoc, je tady návod jak pracovat s Markdownem. Kdyby přsto byly nějaké nejasnosti ozvěte se mně a nebo Honzovi Kuboškovi.
+Abych příště nemusel zase žádat Honzu o pomoc s docs.histruct, je tady návod jak pracovat s Markdownem. Kdyby přsto byly nějaké nejasnosti ozvěte se mně a nebo Honzovi Kuboškovi.
 
 ## Nápověda na dcos.histruct.com
 
