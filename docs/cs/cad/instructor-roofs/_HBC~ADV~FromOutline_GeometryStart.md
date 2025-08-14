@@ -64,7 +64,7 @@ Tlačítko <u>Obrys</u> slouží k zakreslení půdorysného obrysu střechy. Pr
 <p>
 <!-- Tlačítko pro otevření modálního videa -->
 <button onclick="document.getElementById('modal0').style.display='flex';" class="btn">
-  Přehrát videoukázku
+  &#9654; Videoukázka
 </button>
 </p>
 
@@ -122,7 +122,7 @@ Tlačítko <u>Obrys</u> slouží k zakreslení půdorysného obrysu střechy. Pr
 <p>
 <!-- Tlačítko pro otevření modálního videa -->
 <button onclick="document.getElementById('modal1').style.display='flex';" class="btn">
-  Přehrát videoukázku
+  &#9654; Videoukázka
 </button>
 </p>
 
@@ -179,7 +179,7 @@ Tlačítko <u>Obrys</u> slouží k zakreslení půdorysného obrysu střechy. Pr
 <p>
 <!-- Tlačítko pro otevření modálního videa -->
 <button onclick="document.getElementById('modal2').style.display='flex';" class="btn">
-  Přehrát videoukázku
+  &#9654; Videoukázka
 </button>
 </p>
 
@@ -237,7 +237,7 @@ Tlačítko <u>Obrys</u> slouží k zakreslení půdorysného obrysu střechy. Pr
 <p>
 <!-- Tlačítko pro otevření modálního videa -->
 <button onclick="document.getElementById('modal3').style.display='flex';" class="btn">
-  Přehrát videoukázku
+  &#9654; Videoukázka
 </button>
 </p>
 

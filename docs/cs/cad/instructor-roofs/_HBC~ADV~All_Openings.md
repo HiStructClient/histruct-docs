@@ -1,7 +1,13 @@
 # Otvory
-Menu <u><i>Otvory</i></u> umožňuje vytvořit a editovat otvory na jednotlivých střešních rovinách. Každému dostupnému typu otvoru lze přiřadit také barvu.  
+Menu <u><i>Otvory</i></u> umožňuje vytvořit a editovat otvory na jednotlivých rovinách. Každému dostupnému typu otvoru lze přiřadit také barvu.  
 
 <b>Nastavení a úpravy otvorů na jednotlivých střešních rovinách je možné provést pomocí <u>Ovládacích tlačítek</u>. Na stěnové roviny lze otvory přidávat pomocí tlačítka <u>Přidat</u>.</b>
+
+Po kliknutí na nový otvor v modelu je možné provádět následující úpravy:
+
+- Měnit jeho rozměry, barvu a polohu v rámci dané roviny přepsáním příslušných hodnot v otevřené tabulce.
+- Pomocí myši lze otvory zvětšovat či zmenšovat a taktéž posouvat i přímo v modelu.
+- Podle typu příslušného otvoru je možné navíc přidávat transparentní výplň, reflektory, parkující nákladní auto, zabudované dveře, směr otevírání dvěří, rámování, atd.
 
 <style>
 h2{

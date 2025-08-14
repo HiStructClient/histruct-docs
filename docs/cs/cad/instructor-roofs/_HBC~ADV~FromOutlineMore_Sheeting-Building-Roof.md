@@ -42,15 +42,21 @@ Tlačítko <u>Rozvržení</u> umožňuje nastavit typ skladby střechy, typ stř
 Nastavení jednotlivých vrstev se liší podle typu skladby střešní konstrukce následovně:
 
 Pro typ skladby <u>Jednovrstvá střecha</u> se nastavuje:
+
 * Krytina
 
 Pro typ skladby <u>Střecha s lehkou ocelovou konstrukcí</u> se nastavuje:
+
 * Krytina
+
 * Sekundární konstrukce
 
 Pro typ skladby <u>Střecha s kontralatěmi</u> se nastavuje:
+
 * Krytina
+
 * Laťování (ve směru sklonu střechy)
+
 * Laťování (kolmo na směr sklonu střechy)
 
 ##

@@ -1,131 +1,50 @@
-# Geometrie
-Menu <u><i>Geometrie</i></u> v prvním kroku umožňuje importovat soubor typu "<b>.obj</b>" pro rychlé generování střešních rovin. 
-
-Po importu 3D objektu umožňuje v dalších krocích změnit nastavení generátoru hran a ploch, upravit rozměry a sklony vygenerovaných hran a ploch pomocí řešiče ROSOL a také nastavit typ skladby střechy.
-
-<b><u>Ovládací tlačítka</u> upravují vlastnosti střešní konstrukce pouze na vybrané střešní rovině.</b>
-
-#
-## Úprava geometrie modelu po importu
-Ihned po vložení modelu je možné v tabulce vlevo upravit měřítko importovaného modelu a změnit nastavení generovaných hran a ploch. Tytéž úpravy je možné později provést přes tlačítko <b><u>Import > Nastavení</u></b>.  
-
-#
-<style>
-h2{
-  border-bottom: none;
-  margin-top: 10px;
-  margin-bottom: 0px;
-}
-p{
-  border-bottom: none;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-</style>
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/Sheated_Building_Page_Building.png" alt="Sheated_Building_Page_Building.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Import
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px;">
-      Import
-    </td>
-  </tr>
-</table>
-
-Umožňuje upravit měřítko importovaného modelu a přizpůsobit parametry generátoru střešních rovin.
-#
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/RoofSketchIcon64x64.png" alt="RoofSketchIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Střecha
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px;">
-      Střecha
-    </td>
-  </tr>
-</table>
-
-Tlačítko <u>Střecha</u> umožňuje nastavit typ skladby střechy. Typ krytiny a rozměry sekundární střešní konstrukce lze měnit přes tlačítko <u>Opláštění</u>.
-#
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/ImportObjIcon64x64.png" alt="ImportObjIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Rosol
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px;">
-      Rosol
-    </td>
-  </tr>
-</table>
-
-Umožňuje upravit rozměry a sklony vygenerovaných hran a ploch, změnit výšku a případně excentricitu střechy.
-
-#
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/DimensionLinearIcon64x64.png" alt="DimensionLinearIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Anotace
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px;">
-      Anotace
-    </td>
-  </tr>
-</table>
-
-Tlačítko <u>Anotace</u> umožňuje do modelu přidávat libovolné půdorysné kóty.
-
-#
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/TapeMeasureIcon64x64.png" alt="TapeMeasureIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Měření
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px;">
-      Měření
-    </td>
-  </tr>
-</table>
-
-Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.
-#
-<table>
-  <tr>
-    <td><img src="img/ControlButton.png" alt="ControlButton.png" width="64"></td>
-    <td style="vertical-align: middle; font-size: 20px;">Ovládácí tlačítko</td>
-  </tr> 
-  </table>
-
-Umožňuje nastavení typu skladby střechy pro jednotlivé střešní roviny.
-#
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<title>Geometrie</title>
+</head>
 
 <style>
-    .btn {
+    body{ /* Nastavení okrajů a řádkování pro celý dokument */
+      line-height: 1.8;
+      padding-top: 30px;
+      padding-right: 30px;
+      padding-bottom: 30px;
+      padding-left: 30px;
+    }
+    h1{ /* Styl hlavního nadpisu */
+      font-size: 28px;
+      border-bottom: none;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+    h2{ /* Styl podnadpisů */
+      font-size: 22px;
+      border-bottom: none;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+    p{ /* Styl odstavců */
+      border-bottom: none;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    hr.main{ /* Hlavní oddělovací čára */
+      border: none;
+      border-top: 2px solid #555; /* čárkovaná čára */
+      height: 1px; /* zruší výšku, protože border se použije místo background */
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    hr{ /* Běžná oddělovací čára */
+      all: unset; /* zruší úplně veškeré defaultní styly */
+      display: block;
+      width: 100%;
+      border-top: 2px dashed #555;
+      margin: 20px 0;
+    }
+    .btn { /* Styl tlačítek */
       margin-top: 0px;
       padding: 12px 20px;
       background-color: rgb(27,122,187);
@@ -135,27 +54,126 @@ Umožňuje nastavení typu skladby střechy pro jednotlivé střešní roviny.
       cursor: pointer;
       font-size: 16px;
     }
-    .btn:hover {
+    .btn:hover { /* Styl tlačítek při najetí myší */
       background-color: rgb(20,90,140);
+    }
 </style>
 
-### Nepomohla Vám nápověda?
-Pro více informací o funkcích HiStruct Roofs můžete navštívit náš blog nebo zaslat dotaz na naší podporu. 
+<body>
+
+<h1>Geometrie</h1>
+<p>Menu <u><i>Geometrie</i></u> v prvním kroku umožňuje importovat soubor typu "<b>.obj</b>" pro rychlé generování střešních rovin.</p>
+<p>Po importu 3D objektu umožňuje v dalších krocích změnit nastavení generátoru hran a ploch, upravit rozměry a sklony vygenerovaných hran a ploch pomocí řešiče ROSOL a také nastavit typ skladby střechy.</p>
+<p><b><u>Ovládací tlačítka</u> upravují vlastnosti střešní konstrukce pouze na vybrané střešní rovině.</b></p>
+
+<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+
+<h2>Úprava geometrie modelu po importu</h2>
+<p>Ihned po vložení modelu je možné v tabulce vlevo upravit měřítko importovaného modelu a změnit nastavení generovaných hran a ploch. Tytéž úpravy je možné později provést přes tlačítko <b><u>Import &gt; Nastavení</u></b>.</p>
+
+<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+
+<table>
+  <tr>
+    <td>
+      <div style="position: relative; width: 64px; height: 64px;">
+        <img src="img/Sheated_Building_Page_Building.png" alt="Sheated_Building_Page_Building.png" width="64" height="64">
+        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">Import</div>
+      </div>
+    </td>
+    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">Import</td>
+  </tr>
+</table>
+<p>Umožňuje upravit měřítko importovaného modelu a přizpůsobit parametry generátoru střešních rovin.</p>
+
+<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+
+<table>
+  <tr>
+    <td>
+      <div style="position: relative; width: 64px; height: 64px;">
+        <img src="img/RoofSketchIcon64x64.png" alt="RoofSketchIcon64x64.png" width="64" height="64">
+        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">Střecha</div>
+      </div>
+    </td>
+    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">Střecha</td>
+  </tr>
+</table>
+<p>Tlačítko <u>Střecha</u> umožňuje nastavit typ skladby střechy. Typ krytiny a rozměry sekundární střešní konstrukce lze měnit přes tlačítko <u>Opláštění</u>.</p>
+
+<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+
+<table>
+  <tr>
+    <td>
+      <div style="position: relative; width: 64px; height: 64px;">
+        <img src="img/ImportObjIcon64x64.png" alt="ImportObjIcon64x64.png" width="64" height="64">
+        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">Rosol</div>
+      </div>
+    </td>
+    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">Rosol</td>
+  </tr>
+</table>
+<p>Umožňuje upravit rozměry a sklony vygenerovaných hran a ploch, změnit výšku a případně excentricitu střechy.</p>
+
+<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+
+<table>
+  <tr>
+    <td>
+      <div style="position: relative; width: 64px; height: 64px;">
+        <img src="img/DimensionLinearIcon64x64.png" alt="DimensionLinearIcon64x64.png" width="64" height="64">
+        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">Anotace</div>
+      </div>
+    </td>
+    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">Anotace</td>
+  </tr>
+</table>
+<p>Tlačítko <u>Anotace</u> umožňuje do modelu přidávat libovolné půdorysné kóty.</p>
+
+<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+
+<table>
+  <tr>
+    <td>
+      <div style="position: relative; width: 64px; height: 64px;">
+        <img src="img/TapeMeasureIcon64x64.png" alt="TapeMeasureIcon64x64.png" width="64" height="64">
+        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">Měření</div>
+      </div>
+    </td>
+    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">Měření</td>
+  </tr>
+</table>
+<p>Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.</p>
+
+<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+
+<table>
+  <tr>
+    <td><img src="img/ControlButton.png" alt="ControlButton.png" width="64"></td>
+    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">Ovládácí tlačítko</td>
+  </tr> 
+</table>
+<p>Umožňuje nastavení typu skladby střechy pro jednotlivé střešní roviny.</p>
+
+<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+
+<h2>Nepomohla Vám nápověda?</h2>
+<p>Pro více informací o funkcích HiStruct Roofs můžete navštívit náš blog nebo zaslat dotaz na naší podporu.</p>
 <table>
   <tr>
     <td>
       <a href="https://docs.histruct.com/cs/"> 
-        <button class="btn">
-        Navštívit blog
-        </button>
+        <button class="btn">Navštívit blog</button>
       </a>
     </td>
     <td>
       <a href="mailto:support@histruct.com?subject=Dotaz na Support HiStruct">
-         <button class="btn">
-         Zaslat dotaz
-         </button>
+         <button class="btn">Zaslat dotaz</button>
       </a>
     </td>
   </tr>
 </table>
+
+</body>
+</html>

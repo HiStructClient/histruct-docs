@@ -2,6 +2,8 @@
 Menu <u><i>Otvory</i></u> umožňuje vytvořit a editovat otvory na jednotlivých střešních rovinách. Každému dostupnému typu otvoru lze přiřadit také barvu.  
 
 <b>Nastavení a úpravy otvorů na jednotlivých střešních rovinách je možné provést pomocí <u>Ovládacích tlačítek</u>.</b>
+
+Otvory vytvořené v části <u><i>Geometrie > Rozměry > Otvor</i></u> je možné editovat pouze v menu <u><i>Geometrie > Rozměry</i></u>, týká se zejména modelů střešních konstrukcí typu FROM OUTLINE vytvořených pomocí půdorysného obrysu střechy nebo modelů typu BY PLANES vytvořených pomocí střešních rovin. 
 <style>
 h2{
   border-bottom: none;

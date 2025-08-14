@@ -115,6 +115,10 @@ Tlačítko <u>Podklad</u> slouží k importu podkladu pro rychlejší kreslení 
 Tlačítkem <u>Otvor</u> je možné do vygenerované střešní roviny vsadit otvor, zakresluje se jako půdorysný průmět.
 
 Otvor může být obdélníkový či obecného tvaru a lze mu přiřadit typ otvoru pro komín.
+
+Otvor obdélníkového tvaru lze zadat volným klikáním do půdorysné roviny nebo pomocí jeho rozměrů ve tvaru "X;Y", tedy např. <b>2;4</b>. Otvor obecného tvaru lze zakreslit volným klikáním nebo pomocí souřadnicových systémů podobně jako obrys střešní konstrukce.
+
+Po kliknutí na příslušný otvor lze pomocí tlačítek v horní části otevřené tabulky měnit jeho typ, polohu či jej smazat.
 #
 <table>
   <tr>

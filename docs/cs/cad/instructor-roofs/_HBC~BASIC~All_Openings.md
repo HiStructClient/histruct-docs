@@ -7,7 +7,7 @@ Po kliknutí na nový otvor v modelu je možné provádět následující úprav
 
 - Měnit jeho rozměry, barvu a polohu v rámci dané roviny přepsáním příslušných hodnot v otevřené tabulce.
 - Pomocí myši lze otvory zvětšovat či zmenšovat a taktéž posouvat i přímo v modelu.
-- U otvorů typu VJEZDOVÁ VRATA je možné navíc přidávat transparentní výplň, reflektory, parkující nákladní auto nebo zabudované dveře.
+- Podle typu příslušného otvoru je možné navíc přidávat transparentní výplň, reflektory, parkující nákladní auto, zabudované dveře, směr otevírání dvěří, rámování, atd.
 <style>
 h2{
   border-bottom: none;
