@@ -16,6 +16,22 @@
                 document.head.appendChild(style);
             }
         });
+
+        function openVideoModal(elementId) {
+            const dialogEle = document.getElementById(elementId);
+            dialogEle.style.display = 'flex';
+            const v = dialogEle.getElementsByTagName('video')[0];
+            v.muted = true;
+            v.play();
+        }
+
+        function closeVideoModal(elementId) {
+            const dialogEle = document.getElementById(elementId);
+            dialogEle.style.display = 'none';
+            const v = dialogEle.getElementsByTagName('video')[0];
+            v.pause();
+            v.currentTime = 0;
+        }
     </script>
     <style>
         body {
@@ -235,26 +251,43 @@
             }
         }
 
+        .video-modal {
+            display: none;
+            position: fixed;
+            top: 0; left: 0;
+            width: 100vw; height: 100vh;
+            background-color: rgba(0, 0, 0, 0.85);
+            z-index: 10000;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            video {
+                max-width: 90%;
+                max-height: 80vh;
+            }
+        }
+
         
     </style>
 
     <script>
-    function openModal(id) {
-        const modal = document.getElementById(id);
-        modal.style.display = "flex";
-        const video = document.getElementById("modalVideo");
-        video.muted = true;
-        video.play();
-    }
+        function openModal(id) {
+            const modal = document.getElementById(id);
+            modal.style.display = "flex";
+            const video = document.getElementById("modalVideo");
+            video.muted = true;
+            video.play();
+        }
 
-    function closeModal() {
-        const modal = document.getElementById("modalVideo");
-        modal.style.display = "none";
-        const video = document.getElementById("modalVideo");
-        video.pause();
-        video.currentTime = 0;
-    }
-</script>
+        function closeModal() {
+            const modal = document.getElementById("modalVideo");
+            modal.style.display = "none";
+            const video = document.getElementById("modalVideo");
+            video.pause();
+            video.currentTime = 0;
+        }
+    </script>
 </head>
 
 <body>

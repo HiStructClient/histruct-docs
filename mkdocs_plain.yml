@@ -40,6 +40,8 @@ plugins:
       scripts:
         - gen_pages.py
 
+  - macros
+
 
 extra:
   ui:
@@ -49,15 +51,24 @@ extra:
       visit_blog: "Navštívit blog"
       send_query: "Zaslat dotaz"
       send_query_subject: "Dotaz na Support HiStruct"
+      open_video: "▶ Videoukázka"
+      close_video: "Zavřít video"
+      unsupported_video: "Váš prohlížeč nepodporuje přehrávání videa."
     en:
       next_help_title : "Need more help?"
       next_help_description: "For more information about the features of HiStruct Building Configurator, you can visit our blog or send a query to our support."
       visit_blog: "Visit Blog"
       send_query: "Send Query"
       send_query_subject: "Support Inquiry HiStruct"
+      open_video: "▶ Watch demo"
+      close_video: "Close Video"
+      unsupported_video: "Your browser does not support video playback."
     ro:
       next_help_title : "Aveți nevoie de mai mult ajutor?"
       next_help_description: "Pentru mai multe informații despre funcțiile HiStruct Building Configurator, puteți vizita blogul nostru sau trimite o întrebare către suportul nostru."
       visit_blog: "Vizitați blogul"
       send_query: "Trimite întrebare"
       send_query_subject: "Întrebare de suport HiStruct"
+      open_video: "▶ Vezi demo"
+      close_video: "Închideți videoclipul"
+      unsupported_video: "Browserul dumneavoastră nu suportă redarea videoclipurilor."

@@ -44,110 +44,13 @@
 Po kliknutí na tlačítko <u><i>Import > Nastavení</i></u> je možné měřítko změnit přímo v příslušné buňce v otevřené tabulce. 
 </li></p>
 
-<p>
-  <button onclick="document.getElementById('modal0').style.display='flex';" class="btn">
-    &#9654; Videoukázka
-  </button>
-</p>
-
-<div id="modal0" style="
-  display: none;
-  position: fixed;
-  top: 0; left: 0;
-  width: 100vw; height: 100vh;
-  background-color: rgba(0, 0, 0, 0.85);
-  z-index: 10000;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-">
-  <video id="modalVideo0" controls autoplay style="max-width: 90%; max-height: 80vh;">
-    <source src="img/VideoImportOBJ.mp4" type="video/mp4">
-    Váš prohlížeč nepodporuje přehrávání videa.
-  </video>
-  <br>
-  <button onclick="
-    document.getElementById('modal0').style.display='none';
-    const vid = document.getElementById('modalVideo0');
-    vid.pause();
-    vid.currentTime = 0;
-  " class="btn">
-    Zavřít video
-  </button>
-</div>
-
-<script>
-  function openModal0() {
-    const modal = document.getElementById("modalVideo0");
-    modal.style.display = "flex";
-    const video = document.getElementById("modalVideo0");
-    video.muted = true;
-    video.play();
-  }
-
-  function closeModal0() {
-    const modal = document.getElementById("modalVideo0");
-    modal.style.display = "none";
-    const video = document.getElementById("modalVideo0");
-    video.pause();
-    video.currentTime = 0;
-  }
-</script>
+{{ modal_video_button("img/VideoImportOBJ.mp4") }}
 
 <p><li>
 Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>, které je umístěno v horní části otevřené tabulky. Pomocí tohoto tlačítka je možné nastavit měřítko podkladu pomocí zvolené hrany, u které známe její skutečné rozměry.
 </li></p>
 
-<p>
-  <button onclick="document.getElementById('modal1').style.display='flex';" class="btn">
-    &#9654; Videoukázka pro DXF
-  </button>
-</p>
-
-<div id="modal1" style="
-  display: none;
-  position: fixed;
-  top: 0; left: 0;
-  width: 100vw; height: 100vh;
-  background-color: rgba(0, 0, 0, 0.85);
-  z-index: 10000;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-">
-  <video id="modalVideo1" controls autoplay style="max-width: 90%; max-height: 80vh;">
-    <source src="img/VideoImportDXF.mp4" type="video/mp4">
-    Váš prohlížeč nepodporuje přehrávání videa.
-  </video>
-  <br>
-  <button onclick="
-    document.getElementById('modal1').style.display='none';
-    const vid = document.getElementById('modalVideo1');
-    vid.pause();
-    vid.currentTime = 0;
-  " class="btn">
-    Zavřít video
-  </button>
-</div>
-
-<script>
-  function openModal1() {
-    const modal = document.getElementById("modalVideo1");
-    modal.style.display = "flex";
-    const video = document.getElementById("modalVideo1");
-    video.muted = true;
-    video.play();
-  }
-
-  function closeModal1() {
-    const modal = document.getElementById("modalVideo1");
-    modal.style.display = "none";
-    const video = document.getElementById("modalVideo1");
-    video.pause();
-    video.currentTime = 0;
-  }
-</script>
-
+{{ modal_video_button("img/VideoImportDXF.mp4") }}
 
 </ul>
 

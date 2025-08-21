@@ -5,3 +5,4 @@ site/*
 .venv/
 
 translator/keys.js
+*.pyc

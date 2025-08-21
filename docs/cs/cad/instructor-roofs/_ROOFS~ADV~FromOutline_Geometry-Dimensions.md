@@ -7,58 +7,7 @@
 <h2>Editace jednotlivých hran</h2>
 <p><b>Po kliknutí na příslušnou okapovou hranu je možné nastavit typ hrany, provést úpravu její délky, nastavení sklonu příslušné části střechy a jejího přesahu.</b></p>
 
-<p>
-  <!-- Tlačítko pro otevření modálního videa -->
-  <button onclick="document.getElementById('modal0').style.display='flex';" class="btn">
-    Přehrát videoukázku
-  </button>
-</p>
-
-<!-- Modální okno (skryté) -->
-<div id="modal0" style="
-  display: none;
-  position: fixed;
-  top: 0; left: 0;
-  width: 100vw; height: 100vh;
-  background-color: rgba(0, 0, 0, 0.85);
-  z-index: 10000;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-">
-  <video id="modalVideo0" controls autoplay style="max-width: 90%; max-height: 80vh;">
-    <source src="img/VideoEditEdges.mp4" type="video/mp4">
-    Váš prohlížeč nepodporuje přehrávání videa.
-  </video>
-  <br>
-  <button onclick="
-    document.getElementById('modal0').style.display='none';
-    const vid = document.getElementById('modalVideo0');
-    vid.pause();
-    vid.currentTime = 0;
-  " class="btn">
-    Zavřít video
-  </button>
-</div>
-
-<!-- Skript -->
-<script>
-  function openModal0() {
-    const modal = document.getElementById("modalVideo0");
-    modal.style.display = "flex";
-    const video = document.getElementById("modalVideo0");
-    video.muted = true;
-    video.play();
-  }
-
-  function closeModal0() {
-    const modal = document.getElementById("modalVideo0");
-    modal.style.display = "none";
-    const video = document.getElementById("modalVideo0");
-    video.pause();
-    video.currentTime = 0;
-  }
-</script>
+{{ modal_video_button("img/VideoEditEdges.mp4") }}
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
@@ -94,55 +43,7 @@ Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>
 </li></p>
 </ul>
 
-<p>
-  <button onclick="document.getElementById('modal2').style.display='flex';" class="btn">
-    &#9654; Videoukázka
-  </button>
-</p>
-
-<div id="modal2" style="
-  display: none;
-  position: fixed;
-  top: 0; left: 0;
-  width: 100vw; height: 100vh;
-  background-color: rgba(0, 0, 0, 0.85);
-  z-index: 10000;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-">
-  <video id="modalVideo2" controls autoplay style="max-width: 90%; max-height: 80vh;">
-    <source src="img/VideoImportDXF.mp4" type="video/mp4">
-    Váš prohlížeč nepodporuje přehrávání videa.
-  </video>
-  <br>
-  <button onclick="
-    document.getElementById('modal2').style.display='none';
-    const vid = document.getElementById('modalVideo2');
-    vid.pause();
-    vid.currentTime = 0;
-  " class="btn">
-    Zavřít video
-  </button>
-</div>
-
-<script>
-  function openModal2() {
-    const modal = document.getElementById("modalVideo2");
-    modal.style.display = "flex";
-    const video = document.getElementById("modalVideo2");
-    video.muted = true;
-    video.play();
-  }
-
-  function closeModal2() {
-    const modal = document.getElementById("modalVideo2");
-    modal.style.display = "none";
-    const video = document.getElementById("modalVideo2");
-    video.pause();
-    video.currentTime = 0;
-  }
-</script>
+{{ modal_video_button("img/VideoImportDXF.mp4") }}
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
@@ -167,55 +68,7 @@ Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>
 <p>Otvor obdélníkového tvaru lze zadat volným klikáním do půdorysné roviny nebo pomocí jeho rozměrů ve tvaru "X;Y", tedy např. <b>2;4</b>. Otvor obecného tvaru lze zakreslit volným klikáním nebo pomocí souřadnicových systémů podobně jako obrys střešní konstrukce.</p>
 <p>Po kliknutí na příslušný otvor lze pomocí tlačítek v horní části otevřené tabulky měnit jeho typ, polohu či jej smazat.</p>
 
-<p>
-    <button onclick="document.getElementById('modal1').style.display='flex';" class="btn">
-      &#9654; Videoukázka
-    </button>
-  </p>
-
-  <!-- Modal 1 -->
-  <div id="modal1" style="
-    display: none;
-    position: fixed;
-    top: 0; left: 0;
-    width: 100vw; height: 100vh;
-    background-color: rgba(0, 0, 0, 0.85);
-    z-index: 10000;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  ">
-    <video id="modalVideo1" controls autoplay style="max-width: 90%; max-height: 80vh;">
-      <source src="img/VideoEditOpenings.mp4" type="video/mp4">
-      Váš prohlížeč nepodporuje přehrávání videa.
-    </video>
-    <br>
-    <button onclick="
-      document.getElementById('modal1').style.display='none';
-      const vid = document.getElementById('modalVideo1');
-      vid.pause();
-      vid.currentTime = 0;
-    " class="btn">
-      Zavřít video
-    </button>
-  </div>
-
-  <script>
-    function openModal1() {
-      const modal = document.getElementById("modalVideo1");
-      modal.style.display = "flex";
-      const video = document.getElementById("modalVideo1");
-      video.muted = true;
-      video.play();
-    }
-    function closeModal1() {
-      const modal = document.getElementById("modalVideo1");
-      modal.style.display = "none";
-      const video = document.getElementById("modalVideo1");
-      video.pause();
-      video.currentTime = 0;
-    }
-  </script>
+{{ modal_video_button("img/VideoEditOpenings.mp4") }}
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 

@@ -37,55 +37,7 @@ Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>
 </li></p>
 </ul>
 
-<p>
-  <button onclick="document.getElementById('modal5').style.display='flex';" class="btn">
-    &#9654; Videoukázka
-  </button>
-</p>
-
-<div id="modal5" style="
-  display: none;
-  position: fixed;
-  top: 0; left: 0;
-  width: 100vw; height: 100vh;
-  background-color: rgba(0, 0, 0, 0.85);
-  z-index: 10000;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-">
-  <video id="modalVideo5" controls autoplay style="max-width: 90%; max-height: 80vh;">
-    <source src="img/VideoImportDXF.mp4" type="video/mp4">
-    Váš prohlížeč nepodporuje přehrávání videa.
-  </video>
-  <br>
-  <button onclick="
-    document.getElementById('modal5').style.display='none';
-    const vid = document.getElementById('modalVideo5');
-    vid.pause();
-    vid.currentTime = 0;
-  " class="btn">
-    Zavřít video
-  </button>
-</div>
-
-<script>
-  function openModal5() {
-    const modal = document.getElementById("modalVideo5");
-    modal.style.display = "flex";
-    const video = document.getElementById("modalVideo5");
-    video.muted = true;
-    video.play();
-  }
-
-  function closeModal5() {
-    const modal = document.getElementById("modalVideo5");
-    modal.style.display = "none";
-    const video = document.getElementById("modalVideo5");
-    video.pause();
-    video.currentTime = 0;
-  }
-</script>
+{{ modal_video_button("img/VideoImportDXF.mp4") }}
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
@@ -180,165 +132,21 @@ Po zakreslení či vložení plochy je možné v závislosti na typu plochy upra
     <li><p><b>Při kreslení střešní plochy ve 3D prostoru je třeba využít koncových bodů již namodelovaných střešních ploch a poté změnit typ plochy PROMÍTÁNÍ -> OBECNÝ</b>.
   </ul>
 
-  <p>
-    <button onclick="document.getElementById('modal0').style.display='flex';" class="btn">
-      &#9654; Videoukázka
-    </button>
-  </p>
-
-  <!-- Modal 0 -->
-  <div id="modal0" style="
-    display: none;
-    position: fixed;
-    top: 0; left: 0;
-    width: 100vw; height: 100vh;
-    background-color: rgba(0, 0, 0, 0.85);
-    z-index: 10000;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  ">
-    <video id="modalVideo0" controls autoplay style="max-width: 90%; max-height: 80vh;">
-      <source src="img/VideoPlanes3D.mp4" type="video/mp4">
-      Váš prohlížeč nepodporuje přehrávání videa.
-    </video>
-    <br>
-    <button onclick="
-      document.getElementById('modal0').style.display='none';
-      const vid = document.getElementById('modalVideo0');
-      vid.pause();
-      vid.currentTime = 0;
-    " class="btn">
-      Zavřít video
-    </button>
-  </div>
-
-  <script>
-    function openModal0() {
-      const modal = document.getElementById("modalVideo0");
-      modal.style.display = "flex";
-      const video = document.getElementById("modalVideo0");
-      video.muted = true;
-      video.play();
-    }
-    function closeModal0() {
-      const modal = document.getElementById("modalVideo0");
-      modal.style.display = "none";
-      const video = document.getElementById("modalVideo0");
-      video.pause();
-      video.currentTime = 0;
-    }
-  </script>
+{{ modal_video_button("img/VideoPlanes3D.mp4") }}
 
   <p><b><u>Globální souřadnice vrcholů polygonu</u></b></p>
   <ul>
     <li><p>Globální souřadnice pro následující vrchol se zapíší ve formátu "X;Y", tedy např. <b>2;4</b></p></li>
   </ul>
 
-  <p>
-    <button onclick="document.getElementById('modal1').style.display='flex';" class="btn">
-      &#9654; Videoukázka
-    </button>
-  </p>
-
-  <!-- Modal 1 -->
-  <div id="modal1" style="
-    display: none;
-    position: fixed;
-    top: 0; left: 0;
-    width: 100vw; height: 100vh;
-    background-color: rgba(0, 0, 0, 0.85);
-    z-index: 10000;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  ">
-    <video id="modalVideo1" controls autoplay style="max-width: 90%; max-height: 80vh;">
-      <source src="img/VideoPlanesGlobal.mp4" type="video/mp4">
-      Váš prohlížeč nepodporuje přehrávání videa.
-    </video>
-    <br>
-    <button onclick="
-      document.getElementById('modal1').style.display='none';
-      const vid = document.getElementById('modalVideo1');
-      vid.pause();
-      vid.currentTime = 0;
-    " class="btn">
-      Zavřít video
-    </button>
-  </div>
-
-  <script>
-    function openModal1() {
-      const modal = document.getElementById("modalVideo1");
-      modal.style.display = "flex";
-      const video = document.getElementById("modalVideo1");
-      video.muted = true;
-      video.play();
-    }
-    function closeModal1() {
-      const modal = document.getElementById("modalVideo1");
-      modal.style.display = "none";
-      const video = document.getElementById("modalVideo1");
-      video.pause();
-      video.currentTime = 0;
-    }
-  </script>
+{{ modal_video_button("img/VideoPlanesGlobal.mp4") }}
 
   <p><b><u>Relativní souřadnice vrcholů polygonu</u></b></p>
   <ul>
     <li><p>Relativní souřadnice pro následující vrchol se zapíší ve formátu "@X;Y", tedy např. <b>@2;4</b></p></li>
   </ul>
 
-  <p>
-    <button onclick="document.getElementById('modal2').style.display='flex';" class="btn">
-      &#9654; Videoukázka
-    </button>
-  </p>
-
-  <!-- Modal 2 -->
-  <div id="modal2" style="
-    display: none;
-    position: fixed;
-    top: 0; left: 0;
-    width: 100vw; height: 100vh;
-    background-color: rgba(0, 0, 0, 0.85);
-    z-index: 10000;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  ">
-    <video id="modalVideo2" controls autoplay style="max-width: 90%; max-height: 80vh;">
-      <source src="img/VideoPlanesRelative.mp4" type="video/mp4">
-      Váš prohlížeč nepodporuje přehrávání videa.
-    </video>
-    <br>
-    <button onclick="
-      document.getElementById('modal2').style.display='none';
-      const vid = document.getElementById('modalVideo2');
-      vid.pause();
-      vid.currentTime = 0;
-    " class="btn">
-      Zavřít video
-    </button>
-  </div>
-
-  <script>
-    function openModal2() {
-      const modal = document.getElementById("modalVideo2");
-      modal.style.display = "flex";
-      const video = document.getElementById("modalVideo2");
-      video.muted = true;
-      video.play();
-    }
-    function closeModal2() {
-      const modal = document.getElementById("modalVideo2");
-      modal.style.display = "none";
-      const video = document.getElementById("modalVideo2");
-      video.pause();
-      video.currentTime = 0;
-    }
-  </script>
+{{ modal_video_button("img/VideoPlanesRelative.mp4") }}
 
   <p><b><u>Polární souřadnice vrcholů polygonu</u></b></p>
   <ul>
@@ -346,55 +154,7 @@ Po zakreslení či vložení plochy je možné v závislosti na typu plochy upra
     <li><p>Zadávaný úhel se odměřuje o kladného směru globální osy X proti směru hodinových ručiček.</p></li>
   </ul>
 
-  <p>
-    <button onclick="document.getElementById('modal3').style.display='flex';" class="btn">
-      &#9654; Videoukázka
-    </button>
-  </p>
-
-  <!-- Modal 3 -->
-  <div id="modal3" style="
-    display: none;
-    position: fixed;
-    top: 0; left: 0;
-    width: 100vw; height: 100vh;
-    background-color: rgba(0, 0, 0, 0.85);
-    z-index: 10000;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  ">
-    <video id="modalVideo3" controls autoplay style="max-width: 90%; max-height: 80vh;">
-      <source src="img/VideoPlanesPolar.mp4" type="video/mp4">
-      Váš prohlížeč nepodporuje přehrávání videa.
-    </video>
-    <br>
-    <button onclick="
-      document.getElementById('modal3').style.display='none';
-      const vid = document.getElementById('modalVideo3');
-      vid.pause();
-      vid.currentTime = 0;
-    " class="btn">
-      Zavřít video
-    </button>
-  </div>
-
-  <script>
-    function openModal3() {
-      const modal = document.getElementById("modalVideo3");
-      modal.style.display = "flex";
-      const video = document.getElementById("modalVideo3");
-      video.muted = true;
-      video.play();
-    }
-    function closeModal3() {
-      const modal = document.getElementById("modalVideo3");
-      modal.style.display = "none";
-      const video = document.getElementById("modalVideo3");
-      video.pause();
-      video.currentTime = 0;
-    }
-  </script>
+{{ modal_video_button("img/VideoPlanesPolar.mp4") }}
 
   <p>Poslední vložený bod je možné smazat pomocí klávesy <b><u>DELETE</u></b>.</p>
 
@@ -460,58 +220,7 @@ Střešní rovinu dalších tvarů lze zadat přímo kliknutím do modelovacího
 Plochu lze pomocí tlačítek v horní části tabulky kopírovat, smazat, otáčet v půdorysné rovině nebo v rovině plochy, a také posouvat ve všech 3 směrech.
 </p>
 
-<p>
-<!-- Tlačítko pro otevření modálního videa -->
-<button onclick="document.getElementById('modal4').style.display='flex';" class="btn">
-  &#9654; Videoukázka
-</button>
-</p>
-
-<!-- Modální okno (skryté) -->
-<div id="modal4" style="
-  display: none;
-  position: fixed;
-  top: 0; left: 0;
-  width: 100vw; height: 100vh;
-  background-color: rgba(0, 0, 0, 0.85);
-  z-index: 10000;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-">
-  <video id="modalVideo4" controls autoplay style="max-width: 90%; max-height: 80vh;">
-    <source src="img/VideoEditPlanes.mp4" type="video/mp4">
-    Váš prohlížeč nepodporuje přehrávání videa.
-  </video>
-  <br>
-  <button onclick="
-    document.getElementById('modal4').style.display='none';
-    const vid = document.getElementById('modalVideo4');
-    vid.pause();
-    vid.currentTime = 0;
-  " class="btn">
-    Zavřít video
-  </button>
-</div>
-
-<!-- Skript -->
-<script>
-  function openModal4() {
-    const modal = document.getElementById("modalVideo4");
-    modal.style.display = "flex";
-    const video = document.getElementById("modalVideo4");
-    video.muted = true;
-    video.play();
-  }
-
-  function closeModal4() {
-    const modal = document.getElementById("modalVideo4");
-    modal.style.display = "none";
-    const video = document.getElementById("modalVideo4");
-    video.pause();
-    video.currentTime = 0;
-  }
-</script>
+{{ modal_video_button("img/VideoEditPlanes.mp4") }}
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
@@ -547,58 +256,7 @@ Otvor obdélníkového tvaru lze zadat volným klikáním do půdorysné roviny 
 Po kliknutí na příslušný otvor lze pomocí tlačítek v horní části otevřené tabulky měnit jeho typ, polohu či jej smazat.
 </p>
 
-<p>
-<!-- Tlačítko pro otevření modálního videa -->
-<button onclick="document.getElementById('modal5').style.display='flex';" class="btn">
-  &#9654; Videoukázka
-</button>
-</p>
-
-<!-- Modální okno (skryté) -->
-<div id="modal5" style="
-  display: none;
-  position: fixed;
-  top: 0; left: 0;
-  width: 100vw; height: 100vh;
-  background-color: rgba(0, 0, 0, 0.85);
-  z-index: 10000;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-">
-  <video id="modalVideo5" controls autoplay style="max-width: 90%; max-height: 80vh;">
-    <source src="img/VideoEditOpenings.mp4" type="video/mp4">
-    Váš prohlížeč nepodporuje přehrávání videa.
-  </video>
-  <br>
-  <button onclick="
-    document.getElementById('modal5').style.display='none';
-    const vid = document.getElementById('modalVideo5');
-    vid.pause();
-    vid.currentTime = 0;
-  " class="btn">
-    Zavřít video
-  </button>
-</div>
-
-<!-- Skript -->
-<script>
-  function openModal5() {
-    const modal = document.getElementById("modalVideo5");
-    modal.style.display = "flex";
-    const video = document.getElementById("modalVideo5");
-    video.muted = true;
-    video.play();
-  }
-
-  function closeModal5() {
-    const modal = document.getElementById("modalVideo5");
-    modal.style.display = "none";
-    const video = document.getElementById("modalVideo5");
-    video.pause();
-    video.currentTime = 0;
-  }
-</script>
+{{ modal_video_button("img/VideoEditOpenings.mp4") }}
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 

@@ -7,57 +7,7 @@
 <h2>Editace jednotlivých hran</h2>
 <p><b>Po kliknutí na příslušnou okapovou hranu je možné nastavit typ hrany, provést úpravu její délky, nastavení sklonu příslušné části střechy a jejího přesahu.</b></p>
 
-<p>
-  <!-- Tlačítko pro otevření modálního videa -->
-  <button onclick="document.getElementById('modal').style.display='flex';" class="btn">
-    Přehrát videoukázku
-  </button>
-</p>
-
-<!-- Modální okno (skryté) -->
-<div id="modal" style="
-  display: none;
-  position: fixed;
-  top: 0; left: 0;
-  width: 100vw; height: 100vh;
-  background-color: rgba(0, 0, 0, 0.85);
-  z-index: 10000;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-">
-  <video id="modalVideo" controls autoplay style="max-width: 90%; max-height: 80vh;">
-    <source src="img/VideoEditEdges.mp4" type="video/mp4">
-    Váš prohlížeč nepodporuje přehrávání videa.
-  </video>
-  <br>
-  <button onclick="
-    document.getElementById('modal').style.display='none';
-    const vid = document.getElementById('modalVideo');
-    vid.pause();
-    vid.currentTime = 0;
-  " class="btn">
-    Zavřít video
-  </button>
-</div>
-
-<!-- Skript -->
-<script>
-  function openModal() {
-    const modal = document.getElementById("modalVideo");
-    modal.style.display = "flex";
-    const video = document.getElementById("modalVideo");
-    video.muted = true;
-    video.play();
-  }
-  function closeModal() {
-    const modal = document.getElementById("modalVideo");
-    modal.style.display = "none";
-    const video = document.getElementById("modalVideo");
-    video.pause();
-    video.currentTime = 0;
-  }
-</script>
+{{ modal_video_button("img/VideoEditEdges.mp4") }}
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 

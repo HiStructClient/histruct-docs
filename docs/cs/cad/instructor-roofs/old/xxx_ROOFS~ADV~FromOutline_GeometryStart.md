@@ -36,55 +36,7 @@ Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>
 </li></p>
 </ul>
 
-<p>
-  <button onclick="document.getElementById('modal5').style.display='flex';" class="btn">
-    &#9654; Videoukázka
-  </button>
-</p>
-
-<div id="modal5" style="
-  display: none;
-  position: fixed;
-  top: 0; left: 0;
-  width: 100vw; height: 100vh;
-  background-color: rgba(0, 0, 0, 0.85);
-  z-index: 10000;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-">
-  <video id="modalVideo5" controls autoplay style="max-width: 90%; max-height: 80vh;">
-    <source src="img/VideoImportDXF.mp4" type="video/mp4">
-    Váš prohlížeč nepodporuje přehrávání videa.
-  </video>
-  <br>
-  <button onclick="
-    document.getElementById('modal5').style.display='none';
-    const vid = document.getElementById('modalVideo5');
-    vid.pause();
-    vid.currentTime = 0;
-  " class="btn">
-    Zavřít video
-  </button>
-</div>
-
-<script>
-  function openModal5() {
-    const modal = document.getElementById("modalVideo5");
-    modal.style.display = "flex";
-    const video = document.getElementById("modalVideo5");
-    video.muted = true;
-    video.play();
-  }
-
-  function closeModal5() {
-    const modal = document.getElementById("modalVideo5");
-    modal.style.display = "none";
-    const video = document.getElementById("modalVideo5");
-    video.pause();
-    video.currentTime = 0;
-  }
-</script>
+{{ modal_video_button("img/VideoImportDXF.mp4") }}
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
@@ -112,165 +64,21 @@ Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>
   <li><p>Během kreslení hran je možné využít funkce zarovnávání kurzoru podle směrů os X a Y, případně zarovnávání kurzoru kolmo k poslední zadané hraně.</p></li>
 </ul>
 
-<p>
-  <button onclick="document.getElementById('modal0').style.display='flex';" class="btn">
-    &#9654; Videoukázka
-  </button>
-</p>
-
-<div id="modal0" style="
-  display: none;
-  position: fixed;
-  top: 0; left: 0;
-  width: 100vw; height: 100vh;
-  background-color: rgba(0, 0, 0, 0.85);
-  z-index: 10000;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-">
-  <video id="modalVideo0" controls autoplay style="max-width: 90%; max-height: 80vh;">
-    <source src="img/VideoOutlineFree.mp4" type="video/mp4">
-    Váš prohlížeč nepodporuje přehrávání videa.
-  </video>
-  <br>
-  <button onclick="
-    document.getElementById('modal0').style.display='none';
-    const vid = document.getElementById('modalVideo0');
-    vid.pause();
-    vid.currentTime = 0;
-  " class="btn">
-    Zavřít video
-  </button>
-</div>
-
-<script>
-  function openModal0() {
-    const modal = document.getElementById("modalVideo0");
-    modal.style.display = "flex";
-    const video = document.getElementById("modalVideo0");
-    video.muted = true;
-    video.play();
-  }
-
-  function closeModal0() {
-    const modal = document.getElementById("modalVideo0");
-    modal.style.display = "none";
-    const video = document.getElementById("modalVideo0");
-    video.pause();
-    video.currentTime = 0;
-  }
-</script>
+{{ modal_video_button("img/VideoOutlineFree.mp4") }}
 
 <p><b><u>Globální souřadnice vrcholů polygonu</u></b></p>
 <ul>
   <li><p>Globální souřadnice pro následující vrchol se zapíší ve formátu &quot;X;Y&quot;, tedy např. <b>2;4</b></p></li>
 </ul>
 
-<p>
-  <button onclick="document.getElementById('modal1').style.display='flex';" class="btn">
-    &#9654; Videoukázka
-  </button>
-</p>
-
-<div id="modal1" style="
-  display: none;
-  position: fixed;
-  top: 0; left: 0;
-  width: 100vw; height: 100vh;
-  background-color: rgba(0, 0, 0, 0.85);
-  z-index: 10000;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-">
-  <video id="modalVideo1" controls autoplay style="max-width: 90%; max-height: 80vh;">
-    <source src="img/VideoOutlineGlobal.mp4" type="video/mp4">
-    Váš prohlížeč nepodporuje přehrávání videa.
-  </video>
-  <br>
-  <button onclick="
-    document.getElementById('modal1').style.display='none';
-    const vid = document.getElementById('modalVideo1');
-    vid.pause();
-    vid.currentTime = 0;
-  " class="btn">
-    Zavřít video
-  </button>
-</div>
-
-<script>
-  function openModal1() {
-    const modal = document.getElementById("modalVideo1");
-    modal.style.display = "flex";
-    const video = document.getElementById("modalVideo1");
-    video.muted = true;
-    video.play();
-  }
-
-  function closeModal1() {
-    const modal = document.getElementById("modalVideo1");
-    modal.style.display = "none";
-    const video = document.getElementById("modalVideo1");
-    video.pause();
-    video.currentTime = 0;
-  }
-</script>
+{{ modal_video_button("img/VideoOutlineGlobal.mp4") }}
 
 <p><b><u>Relativní souřadnice vrcholů polygonu</u></b></p>
 <ul>
   <li><p>Relativní souřadnice pro následující vrchol se zapíší ve formátu &quot;@X;Y&quot;, tedy např. <b>@2;4</b></p></li>
 </ul>
 
-<p>
-  <button onclick="document.getElementById('modal2').style.display='flex';" class="btn">
-    &#9654; Videoukázka
-  </button>
-</p>
-
-<div id="modal2" style="
-  display: none;
-  position: fixed;
-  top: 0; left: 0;
-  width: 100vw; height: 100vh;
-  background-color: rgba(0, 0, 0, 0.85);
-  z-index: 10000;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-">
-  <video id="modalVideo2" controls autoplay style="max-width: 90%; max-height: 80vh;">
-    <source src="img/VideoOutlineRelative.mp4" type="video/mp4">
-    Váš prohlížeč nepodporuje přehrávání videa.
-  </video>
-  <br>
-  <button onclick="
-    document.getElementById('modal2').style.display='none';
-    const vid = document.getElementById('modalVideo2');
-    vid.pause();
-    vid.currentTime = 0;
-  " class="btn">
-    Zavřít video
-  </button>
-</div>
-
-<script>
-  function openModal2() {
-    const modal = document.getElementById("modalVideo2");
-    modal.style.display = "flex";
-    const video = document.getElementById("modalVideo2");
-    video.muted = true;
-    video.play();
-  }
-
-  function closeModal2() {
-    const modal = document.getElementById("modalVideo2");
-    modal.style.display = "none";
-    const video = document.getElementById("modalVideo2");
-    video.pause();
-    video.currentTime = 0;
-  }
-</script>
+{{ modal_video_button("img/VideoOutlineRelative.mp4") }}
 
 <p><b><u>Polární souřadnice vrcholů polygonu</u></b></p>
 <ul>
@@ -278,55 +86,7 @@ Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>
   <li><p>Zadávaný úhel se odměřuje o kladného směru globální osy X proti směru hodinových ručiček.</p></li>
 </ul>
 
-<p>
-  <button onclick="document.getElementById('modal3').style.display='flex';" class="btn">
-    &#9654; Videoukázka
-  </button>
-</p>
-
-<div id="modal3" style="
-  display: none;
-  position: fixed;
-  top: 0; left: 0;
-  width: 100vw; height: 100vh;
-  background-color: rgba(0, 0, 0, 0.85);
-  z-index: 10000;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-">
-  <video id="modalVideo3" controls autoplay style="max-width: 90%; max-height: 80vh;">
-    <source src="img/VideoOutlinePolar.mp4" type="video/mp4">
-    Váš prohlížeč nepodporuje přehrávání videa.
-  </video>
-  <br>
-  <button onclick="
-    document.getElementById('modal3').style.display='none';
-    const vid = document.getElementById('modalVideo3');
-    vid.pause();
-    vid.currentTime = 0;
-  " class="btn">
-    Zavřít video
-  </button>
-</div>
-
-<script>
-  function openModal3() {
-    const modal = document.getElementById("modalVideo3");
-    modal.style.display = "flex";
-    const video = document.getElementById("modalVideo3");
-    video.muted = true;
-    video.play();
-  }
-
-  function closeModal3() {
-    const modal = document.getElementById("modalVideo3");
-    modal.style.display = "none";
-    const video = document.getElementById("modalVideo3");
-    video.pause();
-    video.currentTime = 0;
-  }
-</script>
+{{ modal_video_button("img/VideoOutlinePolar.mp4") }}
 
 <p>Poslední vložený bod je možné smazat pomocí klávesy <b><u>DELETE</u></b>.</p>
 

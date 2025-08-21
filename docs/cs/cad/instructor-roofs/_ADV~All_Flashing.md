@@ -62,56 +62,7 @@
 
 <p>Pro jednotlivé prvky je možné měnit i typ hrany nebo prvky prodloužit o příslušnou délku.</p>
 
-<!-- Tlačítko pro otevření modálního videa -->
-<button onclick="document.getElementById('modal').style.display='flex'; const v=document.getElementById('modalVideo'); v.muted=true; v.play();" class="btn">
-  Přehrát videoukázku
-</button>
-
-<!-- Modální okno (skryté) -->
-<div id="modal" style="
-  display: none;
-  position: fixed;
-  top: 0; left: 0;
-  width: 100vw; height: 100vh;
-  background-color: rgba(0, 0, 0, 0.85);
-  z-index: 10000;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-">
-  <video id="modalVideo" controls autoplay style="max-width: 90%; max-height: 80vh;">
-    <source src="img/VideoEditFlashing.mp4" type="video/mp4">
-    Váš prohlížeč nepodporuje přehrávání videa.
-  </video>
-  <br>
-  <button onclick="
-    document.getElementById('modal').style.display='none';
-    const vid = document.getElementById('modalVideo');
-    vid.pause();
-    vid.currentTime = 0;
-  " class="btn">
-    Zavřít video
-  </button>
-</div>
-
-<!-- Skript – oprava ID kontejneru modálu -->
-<script>
-  function openModal() {
-    const modal = document.getElementById('modal');
-    modal.style.display = 'flex';
-    const video = document.getElementById('modalVideo');
-    video.muted = true;
-    video.play();
-  }
-
-  function closeModal() {
-    const modal = document.getElementById('modal');
-    modal.style.display = 'none';
-    const video = document.getElementById('modalVideo');
-    video.pause();
-    video.currentTime = 0;
-  }
-</script>
+{{ modal_video_button("img/VideoEditFlashing.mp4") }}
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
