@@ -44,8 +44,20 @@ plugins:
 extra:
   ui:
     cs:
+      next_help_title : "Nepomohla Vám nápověda?"
+      next_help_description: "Pro více informací o funkcích HiStruct Building Configurator můžete navštívit náš blog nebo zaslat dotaz na naší podporu."
+      visit_blog: "Navštívit blog"
       send_query: "Zaslat dotaz"
+      send_query_subject: "Dotaz na Support HiStruct"
     en:
+      next_help_title : "Need more help?"
+      next_help_description: "For more information about the features of HiStruct Building Configurator, you can visit our blog or send a query to our support."
+      visit_blog: "Visit Blog"
       send_query: "Send Query"
+      send_query_subject: "Support Inquiry HiStruct"
     ro:
+      next_help_title : "Aveți nevoie de mai mult ajutor?"
+      next_help_description: "Pentru mai multe informații despre funcțiile HiStruct Building Configurator, puteți vizita blogul nostru sau trimite o întrebare către suportul nostru."
+      visit_blog: "Vizitați blogul"
       send_query: "Trimite întrebare"
+      send_query_subject: "Întrebare de suport HiStruct"

@@ -35,20 +35,5 @@
 
   <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-  <h2>Nepomohla Vám nápověda?</h2>
-  <p>Pro více informací o funkcích HiStruct Building Configurator můžete navštívit náš blog nebo zaslat dotaz na naši podporu.</p>
+<!-- product: HiStruct Building Configurator -->
 
-  <table>
-    <tr>
-      <td>
-        <a href="https://docs.histruct.com/cs/" target="_blank" rel="noopener noreferrer">
-          <button class="btn">Navštívit blog</button>
-        </a>
-      </td>
-      <td>
-        <a href="mailto:support@histruct.com?subject=Dotaz na Support HiStruct">
-          <button class="btn">Zaslat dotaz</button>
-        </a>
-      </td>
-    </tr>
-  </table>

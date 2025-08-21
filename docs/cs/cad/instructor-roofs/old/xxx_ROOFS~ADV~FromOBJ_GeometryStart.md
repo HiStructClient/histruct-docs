@@ -10,18 +10,9 @@
 <p>Pokud máte data k dispozici v komprimované složce (například ".zip"), je třeba z ní tento soubor extrahovat a případně převést na typ ".obj".</p>
 
 <p>Přesný návod jak převést soubor do formátu ".obj" si můžete přečíst na našem blogu.</p>
-
-<table>
-  <tr>
-    <td>
-      <a href="https://docs.histruct.com/cs/" target="_blank" rel="noopener noreferrer"> 
-        <button class="btn">
-        Navštívit blog
-        </button>
-      </a>
-    </td>
-  </tr>
-</table>
+<a href="" target="_blank" rel="noopener noreferrer" class="btn">
+  Navštívit blog
+</a>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
@@ -223,24 +214,6 @@ Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<h2>Nepomohla Vám nápověda?</h2>
-<p>Pro více informací o funkcích HiStruct Roofs můžete navštívit náš blog nebo zaslat dotaz na naší podporu.</p>
+<!-- product: HiStruct Roofs -->
 
-<table>
-  <tr>
-    <td>
-      <a href="https://docs.histruct.com/cs/" target="_blank" rel="noopener noreferrer"> 
-        <button class="btn">
-        Navštívit blog
-        </button>
-      </a>
-    </td>
-    <td>
-      <a href="mailto:support@histruct.com?subject=Dotaz na Support HiStruct">
-         <button class="btn">
-         Zaslat dotaz
-         </button>
-      </a>
-    </td>
-  </tr>
-</table>
+
