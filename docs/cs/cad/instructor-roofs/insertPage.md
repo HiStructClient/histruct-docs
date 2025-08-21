@@ -35,5 +35,3 @@ Tlačítko *Dekorace* vám umožňuje zdobit vaše modely a přidávat estetick�
 ![Anotate button](img/addAnotateButton.png)
 
 Tlačítko *Anotace* je ideální pro přidávání čar a kót, které pomáhají zpřehlednit váš projekt.
-
-

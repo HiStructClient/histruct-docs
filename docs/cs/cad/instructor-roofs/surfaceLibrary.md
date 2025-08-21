@@ -6,4 +6,4 @@ Pro úpravu existujících prvků klikněte na ně v knihovně a upravujte je pr
 
 Vytvářejte modely s individuálním vzhledem díky naší knihovně povrchů.
 
-![Surface library options](img/surfaceLibrary.gif) 
+![Surface library options](img/surfaceLibrary.gif)

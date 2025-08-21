@@ -6,4 +6,3 @@ Tlačítko *Stěna* vám umožňuje snadno přidat stěnu pomocí polylinie. Po 
 ![Add wall to project](img/addWall.png)
 
 <!-- [❔Nápověda pro editaci skladby stěny](layersLibrary.md) -->
-

@@ -6,5 +6,3 @@ Tlačítko *Objemy* vám umožňuje snadno přidat obecný objem do vašeho mode
 
 
 ![Add volume to project](img/addVolume.png)
-
-

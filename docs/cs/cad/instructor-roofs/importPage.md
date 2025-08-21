@@ -14,4 +14,3 @@ Tlačítko *Import* slouží k snadnému importování různých podkladů, kter
 [❔Nápověda pro konverzi PDF na DXF](../getting-started-roofs/convertPdfToDxf.md)
 
 [❔Nápověda pro konverzi 3D PDF na OBJ](../getting-started-roofs/convert3dPdfToObj.md)
-

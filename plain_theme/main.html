@@ -111,57 +111,129 @@
             background-color: rgb(20, 90, 140);
         }
 
-         body{ /* Nastavení okrajů a řádkování pro celý dokument */
-        line-height: 1.8;
-        padding-top: 30px;
-        padding-right: 30px;
-        padding-bottom: 30px;
-        padding-left: 30px;
+        body {
+            /* Nastavení okrajů a řádkování pro celý dokument */
+            line-height: 1.8;
+            padding-top: 30px;
+            padding-right: 30px;
+            padding-bottom: 30px;
+            padding-left: 30px;
         }
-        h1{ /* Styl hlavního nadpisu */
-        font-size: 28px;
-        border-bottom: none;
-        margin-top: 10px;
-        margin-bottom: 0px;
+
+        h1 {
+            /* Styl hlavního nadpisu */
+            font-size: 28px;
+            border-bottom: none;
+            margin-top: 10px;
+            margin-bottom: 0px;
         }
-        h2{ /* Styl podnadpisů */
-        font-size: 22px;
-        border-bottom: none;
-        margin-top: 10px;
-        margin-bottom: 0px;
+
+        h2 {
+            /* Styl podnadpisů */
+            font-size: 22px;
+            border-bottom: none;
+            margin-top: 10px;
+            margin-bottom: 0px;
         }
-        p{ /* Styl odstavců */
-        border-bottom: none;
-        margin-top: 10px;
-        margin-bottom: 10px;
+
+        h3 {
+            /* Styl podnadpisů */
+            font-size: 18px;
+            border-bottom: none;
+            margin-top: 10px;
+            margin-bottom: 0px;
         }
-        hr.main{ /* Hlavní oddělovací čára */
-        border: none;
-        border-top: 2px solid #555; /* čárkovaná čára */
-        height: 1px; /* zruší výšku, protože border se použije místo background */
-        margin-top: 20px;
-        margin-bottom: 20px;
+
+        p {
+            /* Styl odstavců */
+            border-bottom: none;
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
-        hr{ /* Běžná oddělovací čára */
-        all: unset; /* zruší úplně veškeré defaultní styly */
-        display: block;
-        width: 100%;
-        border-top: 2px dashed #555;
-        margin: 20px 0;
+
+        hr.main {
+            /* Hlavní oddělovací čára */
+            border: none;
+            border-top: 2px solid #555;
+            /* čárkovaná čára */
+            height: 1px;
+            /* zruší výšku, protože border se použije místo background */
+            margin-top: 20px;
+            margin-bottom: 20px;
         }
-        .btn { /* Styl tlačítek */
-        margin-top: 0px;
-        padding: 12px 20px;
-        background-color: rgb(27,122,187);
-        color: white;
-        border: none;
-        border-radius: 6px;
-        cursor: pointer;
-        font-size: 16px;
+
+        hr {
+            /* Běžná oddělovací čára */
+            all: unset;
+            /* zruší úplně veškeré defaultní styly */
+            display: block;
+            width: 100%;
+            border-top: 2px dashed #555;
+            margin: 20px 0;
         }
-        .btn:hover { /* Styl tlačítek při najetí myší */
-        background-color: rgb(20,90,140);
+
+        .btn {
+            /* Styl tlačítek */
+            margin-top: 0px;
+            padding: 12px 20px;
+            background-color: rgb(27, 122, 187);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
         }
+
+        .btn:hover {
+            /* Styl tlačítek při najetí myší */
+            background-color: rgb(20, 90, 140);
+        }
+
+        details {
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            padding: 0 10px;
+            
+            summary {
+                /* skryje defaultní trojúhelník v některých prohlížečích */
+                list-style: none;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 6px 10px;
+                margin: 0 -10px
+            }
+
+            /* vlastní šipka */
+            summary::after {
+                content: "▶";
+                transition: transform 0.25s ease;
+            }
+
+            /* rámeček pro obsah */
+            /* .panel {
+                margin-top: 8px;
+                padding: 10px 10px;
+                border: 1px solid #ccc;
+                border-radius: 6px;
+            } */
+        }
+
+        details[open] {
+            padding-bottom: 10px;
+            
+            summary {
+                border-bottom: 1px solid #ccc;
+                margin-bottom: 8px;
+            }
+            
+            /* otočení šipky při otevření */
+            summary::after {
+                transform: rotate(90deg);
+            }
+        }
+
+        
     </style>
 
     <script>
@@ -186,7 +258,6 @@
 <body>
     {{ page.content }}
 
-    <h3>Nepomohla Vám nápověda?</h3>
 
     <p>Pro více informací o funkcích HiStruct Building Configurator můžete navštívit náš blog nebo zaslat dotaz na naší podporu.</p>
 

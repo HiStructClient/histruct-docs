@@ -1,73 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Opláštění &gt; Budova</title>
-</head>
 
-<style>
-    body{ /* Nastavení okrajů a řádkování pro celý dokument */
-      line-height: 1.8;
-      padding-top: 30px;
-      padding-right: 30px;
-      padding-bottom: 30px;
-      padding-left: 30px;
-    }
-    h1{ /* Styl hlavního nadpisu */
-      font-size: 28px;
-      border-bottom: none;
-      margin-top: 10px;
-      margin-bottom: 0px;
-    }
-    h2{ /* Styl podnadpisů */
-      font-size: 22px;
-      border-bottom: none;
-      margin-top: 10px;
-      margin-bottom: 0px;
-    }
-    h3{ /* Styl podnadpisů */
-      font-size: 18px;
-      border-bottom: none;
-      margin-top: 10px;
-      margin-bottom: 0px;
-    }
-    p{ /* Styl odstavců */
-      border-bottom: none;
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-    hr.main{ /* Hlavní oddělovací čára */
-      border: none;
-      border-top: 2px solid #555; /* čárkovaná čára */
-      height: 1px; /* zruší výšku, protože border se použije místo background */
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-    hr{ /* Běžná oddělovací čára */
-      all: unset; /* zruší úplně veškeré defaultní styly */
-      display: block;
-      width: 100%;
-      border-top: 2px dashed #555;
-      margin: 20px 0;
-    }
-    .btn { /* Styl tlačítek */
-      margin-top: 0px;
-      padding: 12px 20px;
-      background-color: rgb(27,122,187);
-      color: white;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      font-size: 16px;
-    }
-    .btn:hover { /* Styl tlačítek při najetí myší */
-      background-color: rgb(20,90,140);
-    }
-</style>
-
-<body>
-
-  <h1>Opláštění &gt; Budova</h1>
+<h1>Opláštění &gt; Budova</h1>
 
   <p>Menu <u><i>Opláštění &gt; Budova</i></u> umožňuje nastavit typ skladby střechy, typ střešní krytiny a rozměry sekundární střešní konstrukce.</p>
 
@@ -111,36 +43,7 @@
   <li><p>Generování kusovníku s položkami střešní krytiny a také generování půdorysu střešní konstrukce se všemi vrstvami ve formě editovatelného výkresu.</p></li>
 </ul>
 
-<details>
-<style>
-  details summary {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    cursor: pointer;
-    list-style: none; /* skryje defaultní trojúhelník v některých prohlížečích */
-    padding: 6px 10px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-  }
-  /* vlastní šipka */
-  details summary::after {
-    content: "▶"; /* trojúhelník */
-    transition: transform 0.25s ease;
-  }
-  /* při otevření se otočí */
-  details[open] summary::after {
-    transform: rotate(90deg);
-  }
-  /* rámeček pro obsah */
-  details .panel {
-    margin-top: 8px;
-    padding: 10px 10px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-  }
-</style>
-  <summary>
+<details>  <summary>
     <span>Funkce přístupné přes Ovládací tlačítko</span>
   </summary>
   <div class="panel">
@@ -292,36 +195,7 @@ Pro některé krytiny může být v defaultním stavu tlačítko <u>Nižší vrs
   <li><p>Pro střešní krytinu je možné také vygenerovat výkaz materiálu s položkami střešní krytiny.</p></li>
 </ul>
 
-<details>
-<style>
-  details summary {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    cursor: pointer;
-    list-style: none; /* skryje defaultní trojúhelník v některých prohlížečích */
-    padding: 6px 10px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-  }
-  /* vlastní šipka */
-  details summary::after {
-    content: "▶"; /* trojúhelník */
-    transition: transform 0.25s ease;
-  }
-  /* při otevření se otočí */
-  details[open] summary::after {
-    transform: rotate(90deg);
-  }
-  /* rámeček pro obsah */
-  details .panel {
-    margin-top: 8px;
-    padding: 10px 10px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-  }
-</style>
-  <summary>
+<details>  <summary>
     <span>Funkce přístupné přes Editační tlačítko</span>
   </summary>
   <div class="panel">
@@ -533,6 +407,3 @@ Funckionalita nemusí být dočasně přístupná pro všechny vrstvy sklaby st�
       </td>
     </tr>
   </table>
-
-</body>
-</html>

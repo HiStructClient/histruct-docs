@@ -16,5 +16,3 @@ Smaže celé zadání obrysu i násladných změn v dalších krocích zadání.
 
 #### ![naviNextIcon](img/nextIcon-en.png) Další 
 Pomocí tlačítka Další pokračujte na následující krok zadání.
-
-

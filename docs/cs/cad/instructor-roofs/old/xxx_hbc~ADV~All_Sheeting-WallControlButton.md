@@ -1,71 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Opláštění > Stěnová rovina</title>
-</head>
-
-<style>
-    body{ /* Nastavení okrajů a řádkování pro celý dokument */
-      line-height: 1.8;
-      padding-top: 30px;
-      padding-right: 30px;
-      padding-bottom: 30px;
-      padding-left: 30px;
-    }
-    h1{ /* Styl hlavního nadpisu */
-      font-size: 28px;
-      border-bottom: none;
-      margin-top: 10px;
-      margin-bottom: 0px;
-    }
-    h2{ /* Styl podnadpisů */
-      font-size: 22px;
-      border-bottom: none;
-      margin-top: 10px;
-      margin-bottom: 0px;
-    }
-    h3{ /* Styl podnadpisů */
-      font-size: 18px;
-      border-bottom: none;
-      margin-top: 10px;
-      margin-bottom: 0px;
-    }
-    p{ /* Styl odstavců */
-      border-bottom: none;
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-    hr.main{ /* Hlavní oddělovací čára */
-      border: none;
-      border-top: 2px solid #555; /* čárkovaná čára */
-      height: 1px; /* zruší výšku, protože border se použije místo background */
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-    hr{ /* Běžná oddělovací čára */
-      all: unset; /* zruší úplně veškeré defaultní styly */
-      display: block;
-      width: 100%;
-      border-top: 2px dashed #555;
-      margin: 20px 0;
-    }
-    .btn { /* Styl tlačítek */
-      margin-top: 0px;
-      padding: 12px 20px;
-      background-color: rgb(27,122,187);
-      color: white;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      font-size: 16px;
-    }
-    .btn:hover { /* Styl tlačítek při najetí myší */
-      background-color: rgb(20,90,140);
-    }
-</style>
-
-<body>
 
 <h1>Opláštění &gt; Stěnová rovina</h1>
 <p>V menu <u><i>Opláštění &gt; Stěnová rovina</i></u> přístupném přes <u>Ovládací tlačítko</u> je možné nastavit typ výroby stěny, kladení řad opláštění a výšku soklu.</p>
@@ -318,6 +250,3 @@ Pro některé typy opláštění může být v defaultním stavu tlačítko <u>V
   </tr>
 </table>
 </p>
-
-</body>
-</html>
