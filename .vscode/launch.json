@@ -13,7 +13,7 @@
             ],
             "cwd": "${workspaceFolder}\\translator",
             "program": "run.js",
-            "args": ["translate", "ro", "--service", "chatgpt"]
+            "args": ["translate", "en", "cad\\instructor-roofs\\_HBC~BASIC*", "--service", "chatgpt"]
         }
     ]
 }

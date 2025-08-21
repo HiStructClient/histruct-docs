@@ -1,11 +1,14 @@
-<!DOCTYPE html> 
+{% from "partials/i18n.html" import t with context %}
+
+<!DOCTYPE html>
 <html lang="{ config.theme.locale.language }">
+
 <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script>
-        window.addEventListener("message", function(e) {
+        window.addEventListener("message", function (e) {
             var options = e.data;
             if (options?.styles) {
                 var style = document.createElement("style");
@@ -23,7 +26,12 @@
             padding-right: 10px;
         }
 
-        h1, h2, h3, h4, h5, h6 {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
             &:has(.btn-navigation-square) {
                 display: flex;
                 gap: 6px;
@@ -70,12 +78,15 @@
             }
         }
 
-        a, .btn-link, .nav-link {
+        a,
+        .btn-link,
+        .nav-link {
             color: #337ab7;
             text-decoration: none;
         }
 
-        a:hover, .btn-link:hover {
+        a:hover,
+        .btn-link:hover {
             color: #1175b9;
             text-decoration: underline;
             filter: brightness(0.75);
@@ -84,9 +95,119 @@
         img {
             max-width: 100%;
         }
+
+        .btn {
+            margin-top: 0px;
+            padding: 12px 20px;
+            background-color: rgb(27, 122, 187);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: rgb(20, 90, 140);
+        }
+
+         body{ /* Nastavení okrajů a řádkování pro celý dokument */
+        line-height: 1.8;
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        }
+        h1{ /* Styl hlavního nadpisu */
+        font-size: 28px;
+        border-bottom: none;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        }
+        h2{ /* Styl podnadpisů */
+        font-size: 22px;
+        border-bottom: none;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        }
+        p{ /* Styl odstavců */
+        border-bottom: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        }
+        hr.main{ /* Hlavní oddělovací čára */
+        border: none;
+        border-top: 2px solid #555; /* čárkovaná čára */
+        height: 1px; /* zruší výšku, protože border se použije místo background */
+        margin-top: 20px;
+        margin-bottom: 20px;
+        }
+        hr{ /* Běžná oddělovací čára */
+        all: unset; /* zruší úplně veškeré defaultní styly */
+        display: block;
+        width: 100%;
+        border-top: 2px dashed #555;
+        margin: 20px 0;
+        }
+        .btn { /* Styl tlačítek */
+        margin-top: 0px;
+        padding: 12px 20px;
+        background-color: rgb(27,122,187);
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 16px;
+        }
+        .btn:hover { /* Styl tlačítek při najetí myší */
+        background-color: rgb(20,90,140);
+        }
     </style>
+
+    <script>
+    function openModal(id) {
+        const modal = document.getElementById(id);
+        modal.style.display = "flex";
+        const video = document.getElementById("modalVideo");
+        video.muted = true;
+        video.play();
+    }
+
+    function closeModal() {
+        const modal = document.getElementById("modalVideo");
+        modal.style.display = "none";
+        const video = document.getElementById("modalVideo");
+        video.pause();
+        video.currentTime = 0;
+    }
+</script>
 </head>
+
 <body>
     {{ page.content }}
+
+    <h3>Nepomohla Vám nápověda?</h3>
+
+    <p>Pro více informací o funkcích HiStruct Building Configurator můžete navštívit náš blog nebo zaslat dotaz na naší podporu.</p>
+
+    <table>
+        <tr>
+            <td>
+                <a href="https://docs.histruct.com/cs/">
+                    <button class="btn">
+                        Navštívit blog
+                    </button>
+                </a>
+            </td>
+            <td>
+                <a href="mailto:support@histruct.com?subject=Dotaz na Support HiStruct">
+                    <button class="btn">
+                        Zaslat dotaz
+                    </button>
+                </a>
+            </td>
+        </tr>
+    </table>
 </body>
+
 </html>

@@ -128,7 +128,16 @@ export function findOutdatedTranslations(lang, sourceLang, prefix, skipAutoTrans
             const metadataParsed = metadataParser(fileContent).metadata ?? {};
 
             if (metadataParsed.sourceHash && metadataParsed.sourceLang) {
-                const sourceFile = filepath.replace(folder1, path.join(inputDir, sourceLang));
+                // Oprava: správné mapování relativní cesty
+                const relativePath = filepath.replace(folder1 + path.sep, '');
+                const sourceFile = path.join(inputDir, sourceLang, relativePath);
+                
+                // Kontrola existence source souboru
+                if (!fs.existsSync(sourceFile)) {
+                    console.warn(`Source soubor neexistuje: ${sourceFile}`);
+                    return;
+                }
+                
                 const sourceFileContent = fs.readFileSync(sourceFile, 'utf8');
                 const sourceFileHash = getFileContentHash(sourceFileContent);
 
@@ -137,18 +146,33 @@ export function findOutdatedTranslations(lang, sourceLang, prefix, skipAutoTrans
                     filesToTranslate.push({
                         srcLang: sourceLang,
                         targetLang: lang,
-                        file: filepath.replace(folder1 + path.sep, ''),
-                        fileName: filepath.replace(folder1 + path.sep, ''),
+                        file: relativePath,
+                        fileName: relativePath,
                         reason: "outdated",
                     });
                 } else {
                     //   console.log(`Soubor ${filepath} je aktuální.`);
                 }
             } else {
-                //console.log(`Soubor ${filepath} nemá metadata!`);
+                // Soubor nemá metadata - považovat za zastaralý a přeložit
+                const relativePath = filepath.replace(folder1 + path.sep, '');
+                const sourceFile = path.join(inputDir, sourceLang, relativePath);
+                
+                if (fs.existsSync(sourceFile)) {
+                    // console.log(`Soubor ${filepath} nemá metadata - bude přeložen!`);
+                    filesToTranslate.push({
+                        srcLang: sourceLang,
+                        targetLang: lang,
+                        file: relativePath,
+                        fileName: relativePath,
+                        reason: "no_metadata",
+                    });
+                } else {
+                    console.warn(`Soubor ${filepath} nemá metadata a source soubor neexistuje!`);
+                }
             }
         } else {
-            //console.log(`Soubor ${filepath} není soubor!`);
+            // console.log(`Soubor ${filepath} není soubor!`);
         }
     });
 
@@ -178,7 +202,7 @@ export function findMissingTranslations(lang, sourceLang, prefix, includeOnlyAut
 
     const allFiles = getAllFilesInLangFolder(sourceLang, prefix, includeOnlyAutoTranslated);
 
-    console.log(`V jazyku '${lang}' chybí ${allFiles.length} souborů.`, sourceLang)
+    // console.log(`V jazyku '${lang}' chybí ${allFiles.length} souborů.`, sourceLang)
 
     for (const file of allFiles) {
         if (!fs.existsSync(path.join(folder1, file))) {
@@ -186,7 +210,7 @@ export function findMissingTranslations(lang, sourceLang, prefix, includeOnlyAut
                 srcLang: sourceLang,
                 targetLang: lang,
                 file: file,
-                fileName: file.replace(folder1 + path.sep, ''),
+                fileName: file, // Oprava: odstranil zbytečný replace
                 reason: "missing",
             });
         }
@@ -371,13 +395,13 @@ function getFileContentHash(fileContent) {
 function saveInfoToMetadata(text, sourceLang, sourceHash) {
     let metadataParsed = metadataParser(text);
 
-    const metadata = metadataParsed.metadata;
+    const metadata = metadataParsed.metadata ?? {};
     metadata.sourceLang = sourceLang;
     metadata.sourceHash = sourceHash;
     metadata.autoTranslated = true;
     const metadataYaml = yaml.dump(metadata);
 
-    const content = metadataParsed.content ?? "  ";
+    const content = metadataParsed.content ?? "";
 
     return `---\n${metadataYaml}---\n\n${content}`;
 }

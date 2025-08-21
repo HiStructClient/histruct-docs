@@ -1,0 +1,12 @@
+{# plain_theme/partials/i18n.html #}
+{% macro t(key) -%}
+  {# Zjisti aktuální jazyk stránky (od mkdocs-static-i18n), fallback 'en' #}
+  {%- set L = i18n_page_locale or 'en' -%}
+
+  {# Bezpečné vytažení slovníků z extra.ui #}
+  {%- set ui_root = (config.extra.ui if (config.extra is defined and config.extra and config.extra.ui is defined) else {}) -%}
+  {%- set ui_lang = (ui_root.get(L) if ui_root else {}) -%}
+  {%- set ui_fallback = (ui_root.get('en') if ui_root else {}) -%}
+
+  {{ ui_lang.get(key) or ui_fallback.get(key) or key }}
+{%- endmacro %}

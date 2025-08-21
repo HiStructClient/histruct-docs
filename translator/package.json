@@ -1,14 +1,14 @@
 {
   "type": "module",
   "dependencies": {
-    "@google-cloud/translate": "^8.5.0",
-    "deepl-node": "^1.10.2",
+    "@google-cloud/translate": "^9.2.0",
+    "deepl-node": "^1.19.0",
     "js-yaml": "^4.1.0",
     "markdown-yaml-metadata-parser": "^3.0.0",
     "minimist": "^1.2.8",
-    "openai": "^4.14.1"
+    "openai": "^5.13.1"
   },
   "devDependencies": {
-    "eslint": "^8.53.0"
+    "eslint": "^9.33.0"
   }
 }

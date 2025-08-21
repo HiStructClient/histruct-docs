@@ -69,3 +69,13 @@ plugins:
   - gen-files:
       scripts:
         - gen_pages.py
+
+
+extra:
+  ui:
+    cs:
+      send_query: "Zaslat dotaz"
+    en:
+      send_query: "Send Query"
+    ro:
+      send_query: "Trimite întrebare"
