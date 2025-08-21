@@ -29,7 +29,7 @@ const outputDir = '../docs';
 
 const DEEPL_AUTH_KEY = "";
 const GOOGLE_API_KEY = "";
-const OPENAI_API_KEY = "";
+const OPENAI_API_KEY = "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";
 
 // Rekurzivní procházení složek
 function walkSync(dir, callback) {
