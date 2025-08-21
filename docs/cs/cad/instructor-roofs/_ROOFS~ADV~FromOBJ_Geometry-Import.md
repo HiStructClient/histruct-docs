@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html>
 <head>
 <meta charset="UTF-8">
 <title>Geometrie &gt; Import</title>
@@ -21,6 +21,12 @@
     }
     h2{ /* Styl podnadpisů */
       font-size: 22px;
+      border-bottom: none;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+    h3{ /* Styl podnadpisů */
+      font-size: 18px;
       border-bottom: none;
       margin-top: 10px;
       margin-bottom: 0px;
@@ -62,7 +68,7 @@
 <body>
 
 <h1>Geometrie &gt; Import</h1>
-<p>V menu <u><i>Geometrie &gt; Import</i></u> je možné změnit nastavení generátoru hran a ploch, upravit rozměry a sklony vygenerovaných hran a ploch pomocí řešiče ROSOL a také nastavit typ skladby střechy.</p>
+<p>V menu <u><i>Geometrie &gt; Import</i></u> je možné změnit nastavení generátoru hran a ploch, upravit rozměry a sklony vygenerovaných hran a ploch pomocí řešiče ROSOL.</p>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
@@ -218,7 +224,7 @@
 <table>
   <tr>
     <td>
-      <a href="https://docs.histruct.com/cs/">
+      <a href="https://docs.histruct.com/cs/" target="_blank" rel="noopener noreferrer">
         <button class="btn">Navštívit blog</button>
       </a>
     </td>

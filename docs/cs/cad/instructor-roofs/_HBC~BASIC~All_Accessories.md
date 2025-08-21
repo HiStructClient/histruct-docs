@@ -1,85 +1,55 @@
-# Příslušenství
-Menu <u><i>Příslušenství</i></u> umožňuje do modelu přidávat různé doplňky pro lepší vzhled a realističnost modelu.  
-
-<b>Kliknutím na vložený doplněk je možné jej dále editovat:</b>
-- upravit jeho přesný typ (například typ vozidla nebo stromu)
-- měnit jeho rozměry
-- posouvat, otáčet či případně smazat 
-- u některých doplňků je také možné měnit jejich barvu
-
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Příslušenství</title>
+</head>
 <style>
-h2{
-  border-bottom: none;
-  margin-top: 10px;
-  margin-bottom: 0px;
-}
-p{
-  border-bottom: none;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-</style>
-#
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/EmptyIcon64x64.png" alt="EmptyIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
-      Interior
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px;">
-      Interior
-    </td>
-  </tr>
-</table>
-
-Tlačítkem <u>Interior</u> je možné do modelu vložit vybrané doplňky.
-
-#
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/SelectIcon64x64.png" alt="SelectIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
-      From Gallery
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px;">
-      From Gallery
-    </td>
-  </tr>
-</table>
-
-Tlačítkem <u>From Gallery</u> je možné do modelu vložit doplňky ze sestavené galerie, kterou Vám můžeme upravit na míru.
-
-#
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/MainInsert64x64.png" alt="MainInsert64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
-      Vložit
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px;">
-      Vložit
-    </td>
-  </tr>
-</table>
-
-Tlačítkem <u>Vložit</u> je možné do modelu vložit vybrané doplňky.
-
-#
-
-<style>
-    .btn {
+    body{ /* Nastavení okrajů a řádkování pro celý dokument */
+      line-height: 1.8;
+      padding-top: 30px;
+      padding-right: 30px;
+      padding-bottom: 30px;
+      padding-left: 30px;
+    }
+    h1{ /* Styl hlavního nadpisu */
+      font-size: 28px;
+      border-bottom: none;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+    h2{ /* Styl podnadpisů */
+      font-size: 22px;
+      border-bottom: none;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+    h3{ /* Styl podnadpisů */
+      font-size: 18px;
+      border-bottom: none;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+    p{ /* Styl odstavců */
+      border-bottom: none;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    hr.main{ /* Hlavní oddělovací čára */
+      border: none;
+      border-top: 2px solid #555; /* čárkovaná čára */
+      height: 1px; /* zruší výšku, protože border se použije místo background */
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    hr{ /* Běžná oddělovací čára */
+      all: unset; /* zruší úplně veškeré defaultní styly */
+      display: block;
+      width: 100%;
+      border-top: 2px dashed #555;
+      margin: 20px 0;
+    }
+    .btn { /* Styl tlačítek */
       margin-top: 0px;
       padding: 12px 20px;
       background-color: rgb(27,122,187);
@@ -89,27 +59,104 @@ Tlačítkem <u>Vložit</u> je možné do modelu vložit vybrané doplňky.
       cursor: pointer;
       font-size: 16px;
     }
-    .btn:hover {
+    .btn:hover { /* Styl tlačítek při najetí myší */
       background-color: rgb(20,90,140);
+    }
 </style>
 
-### Nepomohla Vám nápověda?
-Pro více informací o funkcích HiStruct Building Configurator můžete navštívit náš blog nebo zaslat dotaz na naší podporu. 
+<body>
+
+<h1>Příslušenství</h1>
+
+<p>Menu <u><i>Příslušenství</i></u> umožňuje do modelu přidávat různé doplňky pro lepší vzhled a realističnost modelu.</p>
+
+<p><b>Kliknutím na vložený doplněk je možné jej dále editovat:</b></p>
+<ul>
+  <li><p>upravit jeho přesný typ (například typ vozidla nebo stromu)</p></li>
+  <li><p>měnit jeho rozměry</p></li>
+  <li><p>posouvat, otáčet či případně smazat</p></li>
+  <li><p>u některých doplňků je také možné měnit jejich barvu</p></li>
+</ul>
+
+<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+
 <table>
   <tr>
     <td>
-      <a href="https://docs.histruct.com/cs/"> 
-        <button class="btn">
-        Navštívit blog
-        </button>
+      <div style="position: relative; width: 64px; height: 64px;">
+        <img src="img/EmptyIcon64x64.png" alt="EmptyIcon64x64.png" width="64" height="64" />
+        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
+          Interior
+        </div>
+      </div>
+    </td>
+    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
+      Interior
+    </td>
+  </tr>
+</table>
+
+<p>Tlačítkem <u>Interior</u> je možné do modelu vložit vybrané doplňky.</p>
+
+<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+
+<table>
+  <tr>
+    <td>
+      <div style="position: relative; width: 64px; height: 64px;">
+        <img src="img/SelectIcon64x64.png" alt="SelectIcon64x64.png" width="64" height="64" />
+        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
+          From Gallery
+        </div>
+      </div>
+    </td>
+    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
+      From Gallery
+    </td>
+  </tr>
+</table>
+
+<p>Tlačítkem <u>From Gallery</u> je možné do modelu vložit doplňky ze sestavené galerie, kterou Vám můžeme upravit na míru.</p>
+
+<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+
+<table>
+  <tr>
+    <td>
+      <div style="position: relative; width: 64px; height: 64px;">
+        <img src="img/MainInsert64x64.png" alt="MainInsert64x64.png" width="64" height="64" />
+        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
+          Vložit
+        </div>
+      </div>
+    </td>
+    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
+      Vložit
+    </td>
+  </tr>
+</table>
+
+<p>Tlačítkem <u>Vložit</u> je možné do modelu vložit vybrané doplňky.</p>
+
+<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+
+<h2>Nepomohla Vám nápověda?</h2>
+<p>Pro více informací o funkcích HiStruct Building Configurator můžete navštívit náš blog nebo zaslat dotaz na naší podporu.</p>
+
+<table>
+  <tr>
+    <td>
+      <a href="https://docs.histruct.com/cs/" target="_blank" rel="noopener noreferrer">
+        <button class="btn">Navštívit blog</button>
       </a>
     </td>
     <td>
       <a href="mailto:support@histruct.com?subject=Dotaz na Support HiStruct">
-         <button class="btn">
-         Zaslat dotaz
-         </button>
+        <button class="btn">Zaslat dotaz</button>
       </a>
     </td>
   </tr>
 </table>
+
+</body>
+</html>

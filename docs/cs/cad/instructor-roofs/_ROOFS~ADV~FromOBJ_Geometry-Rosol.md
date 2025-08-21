@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html>
 <head>
 <meta charset="UTF-8">
 <title>Geometrie &gt; Rosol</title>
@@ -21,6 +21,12 @@
     }
     h2{ /* Styl podnadpisů */
       font-size: 22px;
+      border-bottom: none;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+    h3{ /* Styl podnadpisů */
+      font-size: 18px;
       border-bottom: none;
       margin-top: 10px;
       margin-bottom: 0px;
@@ -167,7 +173,7 @@
 <table>
   <tr>
     <td>
-      <a href="https://docs.histruct.com/cs/"> 
+      <a href="https://docs.histruct.com/cs/" target="_blank" rel="noopener noreferrer"> 
         <button class="btn">Navštívit blog</button>
       </a>
     </td>

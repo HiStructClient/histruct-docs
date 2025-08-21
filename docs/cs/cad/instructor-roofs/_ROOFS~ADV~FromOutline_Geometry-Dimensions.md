@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html>
 <head>
 <meta charset="UTF-8">
 <title>Geometrie &gt; Rozměry</title>
@@ -21,6 +21,12 @@
     }
     h2{ /* Styl podnadpisů */
       font-size: 22px;
+      border-bottom: none;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+    h3{ /* Styl podnadpisů */
+      font-size: 18px;
       border-bottom: none;
       margin-top: 10px;
       margin-bottom: 0px;
@@ -67,17 +73,17 @@
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
 <h2>Editace jednotlivých hran</h2>
-<b>Po kliknutí na příslušnou okapovou hranu je možné nastavit typ hrany, provést úpravu její délky, nastavení sklonu příslušné části střechy a jejího přesahu.</b>
+<p><b>Po kliknutí na příslušnou okapovou hranu je možné nastavit typ hrany, provést úpravu její délky, nastavení sklonu příslušné části střechy a jejího přesahu.</b></p>
 
 <p>
   <!-- Tlačítko pro otevření modálního videa -->
-  <button onclick="document.getElementById('modal').style.display='flex';" class="btn">
+  <button onclick="document.getElementById('modal0').style.display='flex';" class="btn">
     Přehrát videoukázku
   </button>
 </p>
 
 <!-- Modální okno (skryté) -->
-<div id="modal" style="
+<div id="modal0" style="
   display: none;
   position: fixed;
   top: 0; left: 0;
@@ -88,14 +94,14 @@
   align-items: center;
   flex-direction: column;
 ">
-  <video id="modalVideo" controls autoplay style="max-width: 90%; max-height: 80vh;">
+  <video id="modalVideo0" controls autoplay style="max-width: 90%; max-height: 80vh;">
     <source src="img/VideoEditEdges.mp4" type="video/mp4">
     Váš prohlížeč nepodporuje přehrávání videa.
   </video>
   <br>
   <button onclick="
-    document.getElementById('modal').style.display='none';
-    const vid = document.getElementById('modalVideo');
+    document.getElementById('modal0').style.display='none';
+    const vid = document.getElementById('modalVideo0');
     vid.pause();
     vid.currentTime = 0;
   " class="btn">
@@ -105,18 +111,18 @@
 
 <!-- Skript -->
 <script>
-  function openModal() {
-    const modal = document.getElementById("modalVideo");
+  function openModal0() {
+    const modal = document.getElementById("modalVideo0");
     modal.style.display = "flex";
-    const video = document.getElementById("modalVideo");
+    const video = document.getElementById("modalVideo0");
     video.muted = true;
     video.play();
   }
 
-  function closeModal() {
-    const modal = document.getElementById("modalVideo");
+  function closeModal0() {
+    const modal = document.getElementById("modalVideo0");
     modal.style.display = "none";
-    const video = document.getElementById("modalVideo");
+    const video = document.getElementById("modalVideo0");
     video.pause();
     video.currentTime = 0;
   }
@@ -140,11 +146,71 @@
   </tr>
 </table>
 
-<p>Tlačítko <u>Podklad</u> slouží k importu podkladu pro rychlejší kreslení obrysu střechy.</p>
-<p><b>Po importu pokladu je třeba zkontrolovat jeho rozměry a případně upravit měřítko.</b></p>
+<p>Tlačítko <u>Podklad</u> slouží k importu podkladu pro rychlejší kreslení obrysu střechy.</p> 
+
+<p>Po importu pokladu je třeba zkontrolovat jeho rozměry a případně upravit měřítko.</p>
+
+<p><b><u>Úprava měřítka importovaného podkladu</u></b></p>
+
 <ul>
-  <li><p>Nastavení měřítka je možné změnit po importu podkladu kliknutím na šedé obdélníkové tlačítko v modelovacím prostoru.</p></li>
+<p><li>
+Po kliknutí na mřížku importovaného podkladu je možné měřítko změnit přímo v příslušné buňce v otevřené tabulce. 
+</li></p>
+
+<p><li>
+Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>, které je umístěno v horní části otevřené tabulky. Pomocí tohoto tlačítka je možné nastavit měřítko podkladu pomocí zvolené hrany, u které známe její skutečné rozměry.
+</li></p>
 </ul>
+
+<p>
+  <button onclick="document.getElementById('modal2').style.display='flex';" class="btn">
+    &#9654; Videoukázka
+  </button>
+</p>
+
+<div id="modal2" style="
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 10000;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+">
+  <video id="modalVideo2" controls autoplay style="max-width: 90%; max-height: 80vh;">
+    <source src="img/VideoImportDXF.mp4" type="video/mp4">
+    Váš prohlížeč nepodporuje přehrávání videa.
+  </video>
+  <br>
+  <button onclick="
+    document.getElementById('modal2').style.display='none';
+    const vid = document.getElementById('modalVideo2');
+    vid.pause();
+    vid.currentTime = 0;
+  " class="btn">
+    Zavřít video
+  </button>
+</div>
+
+<script>
+  function openModal2() {
+    const modal = document.getElementById("modalVideo2");
+    modal.style.display = "flex";
+    const video = document.getElementById("modalVideo2");
+    video.muted = true;
+    video.play();
+  }
+
+  function closeModal2() {
+    const modal = document.getElementById("modalVideo2");
+    modal.style.display = "none";
+    const video = document.getElementById("modalVideo2");
+    video.pause();
+    video.currentTime = 0;
+  }
+</script>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
@@ -168,6 +234,56 @@
 <p>Otvor může být obdélníkový či obecného tvaru a lze mu přiřadit typ otvoru pro komín.</p>
 <p>Otvor obdélníkového tvaru lze zadat volným klikáním do půdorysné roviny nebo pomocí jeho rozměrů ve tvaru "X;Y", tedy např. <b>2;4</b>. Otvor obecného tvaru lze zakreslit volným klikáním nebo pomocí souřadnicových systémů podobně jako obrys střešní konstrukce.</p>
 <p>Po kliknutí na příslušný otvor lze pomocí tlačítek v horní části otevřené tabulky měnit jeho typ, polohu či jej smazat.</p>
+
+<p>
+    <button onclick="document.getElementById('modal1').style.display='flex';" class="btn">
+      &#9654; Videoukázka
+    </button>
+  </p>
+
+  <!-- Modal 1 -->
+  <div id="modal1" style="
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 10000;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  ">
+    <video id="modalVideo1" controls autoplay style="max-width: 90%; max-height: 80vh;">
+      <source src="img/VideoEditOpenings.mp4" type="video/mp4">
+      Váš prohlížeč nepodporuje přehrávání videa.
+    </video>
+    <br>
+    <button onclick="
+      document.getElementById('modal1').style.display='none';
+      const vid = document.getElementById('modalVideo1');
+      vid.pause();
+      vid.currentTime = 0;
+    " class="btn">
+      Zavřít video
+    </button>
+  </div>
+
+  <script>
+    function openModal1() {
+      const modal = document.getElementById("modalVideo1");
+      modal.style.display = "flex";
+      const video = document.getElementById("modalVideo1");
+      video.muted = true;
+      video.play();
+    }
+    function closeModal1() {
+      const modal = document.getElementById("modalVideo1");
+      modal.style.display = "none";
+      const video = document.getElementById("modalVideo1");
+      video.pause();
+      video.currentTime = 0;
+    }
+  </script>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
@@ -310,10 +426,8 @@
 
 <p>Tlačítkem <u>Přidat</u> je možné do modelového prostoru přidat další (vedlejší) střešní konstrukce.</p>
 <ul>
-  <li><p>Pultovou střechu na obdélníkovém půdorysu</p></li>
-  <li><p>Sedlovou střechu na obdélníkovém půdorysu</p></li>
   <li><p>Další střechu definovanou obrysem</p></li>
-  <li><p>Střechu určenou pomocí 3D souboru typu ".obj"</p></li>
+  <li><p>Střechu zakreslenou pomocí střešních ploch</p></li>
 </ul>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
@@ -323,7 +437,7 @@
 <table>
   <tr>
     <td>
-      <a href="https://docs.histruct.com/cs/">
+      <a href="https://docs.histruct.com/cs/" target="_blank" rel="noopener noreferrer">
         <button class="btn">Navštívit blog</button>
       </a>
     </td>

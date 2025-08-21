@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Opláštění > Střecha</title>
+</head>
+
+<style>
+    body{ /* Nastavení okrajů a řádkování pro celý dokument */
+      line-height: 1.8;
+      padding-top: 30px;
+      padding-right: 30px;
+      padding-bottom: 30px;
+      padding-left: 30px;
+    }
+    h1{ /* Styl hlavního nadpisu */
+      font-size: 28px;
+      border-bottom: none;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+    h2{ /* Styl podnadpisů */
+      font-size: 22px;
+      border-bottom: none;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+    h3{ /* Styl podnadpisů */
+      font-size: 18px;
+      border-bottom: none;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+    p{ /* Styl odstavců */
+      border-bottom: none;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    hr.main{ /* Hlavní oddělovací čára */
+      border: none;
+      border-top: 2px solid #555; /* čárkovaná čára */
+      height: 1px; /* zruší výšku, protože border se použije místo background */
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    hr{ /* Běžná oddělovací čára */
+      all: unset; /* zruší úplně veškeré defaultní styly */
+      display: block;
+      width: 100%;
+      border-top: 2px dashed #555;
+      margin: 20px 0;
+    }
+    .btn { /* Styl tlačítek */
+      margin-top: 0px;
+      padding: 12px 20px;
+      background-color: rgb(27,122,187);
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .btn:hover { /* Styl tlačítek při najetí myší */
+      background-color: rgb(20,90,140);
+    }
+</style>
+
+<body>
+
+  <h1>Opláštění &gt; Střecha</h1>
+
+  <p>V menu <u><i>Opláštění &gt; Střecha</i></u> je možné nastavit typ skladby střechy, typ střešní krytiny a rozměry sekundární střešní konstrukce.</p>
+
+  <p>Pro detailnější úpravy střešní konstrukce je třeba se přepnout do ROZŠÍŘENÉHO režimu přes tlačítko <u>Nastavení</u>.</p>
+
+  <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+
+  <h2>Nastavení vrstev střešní konstrukce</h2>
+<p>Nastavení skladby střešní konstrukce se provádí pomocí tlačítek:</p>
+
+<ul>
+  <li><p><u>Vrchní vrstva</u></p></li>
+  <li><p><u>Nižší vrstvy</u></p></li>
+</ul>
+
+<p>
+Pro některé krytiny může být v defaultním stavu tlačítko <u>Nižší vrstvy</u> schované a sekundární konstrukce pak pro takovou krytinu není generována.
+</p> 
+
+<hr> <!-- Vodorovná čára jako oddělovač sekce -->
+
+<table>
+  <tr>
+    <td>
+      <div style="position: relative; width: 64px; height: 64px;">
+        <img src="img/RoofTopLayer_64x64.png" alt="RoofTopLayer_64x64.png" width="64" height="64">
+      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
+      Vrchní vrstva
+      </div>
+      </div>
+    </td>
+    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
+      Vrchní vrstva
+    </td>
+  </tr>
+</table>
+
+<ul>
+  <li><p>Umožňuje výběr střešní krytiny z připravené galerie výrobků.</p></li>
+</ul>
+
+<hr> <!-- Vodorovná čára jako oddělovač sekce -->
+
+<table>
+  <tr>
+    <td>
+      <div style="position: relative; width: 64px; height: 64px;">
+        <img src="img/RoofLowerLayers_64x64.png" alt="RoofLowerLayers_64x64.png" width="64" height="64">
+      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
+      Nižší vrstvy
+      </div>
+      </div>
+    </td>
+    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
+      Nižší vrstvy
+    </td>
+  </tr>
+</table>
+
+<ul>
+  <li><p>Umožňuje výběr typu skladby sekundární konstrukce z připravené galerie výrobků.</p></li>
+</ul>
+
+<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+
+  <h2>Chybí vám v galerii některá krytina? Napište nám, doplníme ji.</h2>
+  <p>
+  <table>
+    <tr>
+      <td>
+        <a href="mailto:jiri.podval@histruct.com?subject=Dotaz na HiStruct konfigurátor budov">
+          <button class="btn">Chci doplnit</button>
+        </a>
+      </td>
+    </tr>
+  </table>
+  </p>
+
+  <h2>Nepomohla Vám nápověda?</h2>
+  <p>Pro více informací o funkcích HiStruct Roofs můžete navštívit náš blog nebo zaslat dotaz na naší podporu.</p>
+
+  <table>
+    <tr>
+      <td>
+        <a href="https://docs.histruct.com/cs/" target="_blank" rel="noopener noreferrer">
+          <button class="btn">Navštívit blog</button>
+        </a>
+      </td>
+      <td>
+        <a href="mailto:support@histruct.com?subject=Dotaz na Support HiStruct">
+          <button class="btn">Zaslat dotaz</button>
+        </a>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>

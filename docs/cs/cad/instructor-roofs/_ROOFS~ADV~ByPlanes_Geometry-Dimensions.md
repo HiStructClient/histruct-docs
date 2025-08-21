@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html>
 <head>
   <meta charset="UTF-8" />
   <title>Geometrie &gt; Rozměry</title>
@@ -20,6 +20,12 @@
     }
     h2{ /* Styl podnadpisů */
       font-size: 22px;
+      border-bottom: none;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+    h3{ /* Styl podnadpisů */
+      font-size: 18px;
       border-bottom: none;
       margin-top: 10px;
       margin-bottom: 0px;
@@ -85,10 +91,66 @@
   <p>Tlačítko <u>Podklad</u> slouží k importu podkladu pro rychlejší kreslení obrysu střešních rovin. Po importu pokladu je třeba zkontrolovat jeho rozměry a případně upravit měřítko.</p>
 
   <p><b><u>Úprava měřítka importovaného podkladu</u></b></p>
-  <ul>
-    <li><p>Po kliknutí na importovaný podklad je možné měřítko změnit přímo v příslušné buňce v otevřené tabulce.</p></li>
-    <li><p>Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>, které je umístěno v horní části otevřené tabulky. Pomocí tohoto tlačítka je možné nastavit měřítko podkladu pomocí zvolené hrany, u které známe její skutečné rozměry.</p></li>
-  </ul>
+
+<ul>
+<p><li>
+Po kliknutí na mřížku importovaného podkladu je možné měřítko změnit přímo v příslušné buňce v otevřené tabulce. 
+</li></p>
+
+<p><li>
+Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>, které je umístěno v horní části otevřené tabulky. Pomocí tohoto tlačítka je možné nastavit měřítko podkladu pomocí zvolené hrany, u které známe její skutečné rozměry.
+</li></p>
+</ul>
+
+<p>
+  <button onclick="document.getElementById('modal6').style.display='flex';" class="btn">
+    &#9654; Videoukázka
+  </button>
+</p>
+
+<div id="modal6" style="
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 10000;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+">
+  <video id="modalVideo6" controls autoplay style="max-width: 90%; max-height: 80vh;">
+    <source src="img/VideoImportDXF.mp4" type="video/mp4">
+    Váš prohlížeč nepodporuje přehrávání videa.
+  </video>
+  <br>
+  <button onclick="
+    document.getElementById('modal6').style.display='none';
+    const vid = document.getElementById('modalVideo6');
+    vid.pause();
+    vid.currentTime = 0;
+  " class="btn">
+    Zavřít video
+  </button>
+</div>
+
+<script>
+  function openModal6() {
+    const modal = document.getElementById("modalVideo6");
+    modal.style.display = "flex";
+    const video = document.getElementById("modalVideo6");
+    video.muted = true;
+    video.play();
+  }
+
+  function closeModal6() {
+    const modal = document.getElementById("modalVideo6");
+    modal.style.display = "none";
+    const video = document.getElementById("modalVideo6");
+    video.pause();
+    video.currentTime = 0;
+  }
+</script>
 
   <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
@@ -503,6 +565,135 @@
     }
   </script>
 
+  <details>
+<style>
+  details summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    list-style: none; /* skryje defaultní trojúhelník v některých prohlížečích */
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  /* vlastní šipka */
+  details summary::after {
+    content: "▶"; /* trojúhelník */
+    transition: transform 0.25s ease;
+  }
+  /* při otevření se otočí */
+  details[open] summary::after {
+    transform: rotate(90deg);
+  }
+  /* rámeček pro obsah */
+  details .panel {
+    margin-top: 8px;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+</style>
+  <summary>
+    <span>Další možnosti editace střešních rovin</span>
+  </summary>
+  <div class="panel">
+<h1>Geometrie &gt; Rozměry &gt; Plocha</h1>
+
+  <p> Menu <u><i>Geometrie &gt; Rozměry &gt; Plocha</i></u> přístupné přes kliknutí na zvolenou plochu umožňuje provádět editace střešních rovin přes otevřenou tabulku.
+
+  <p>
+  U jednotlivých střešních ploch lze upravovat typ geometrického promítání plochy, rozměry některých tvarů ploch, dále sklon a směr sklonu a také výšku okapové hrany nad půdorysným průmětem roviny.
+  </p>
+  
+  <p>
+  Plochu lze pomocí tlačítek v horní části tabulky kopírovat, smazat, otáčet v půdorysné rovině nebo v rovině plochy, a také posouvat ve všech 3 směrech.
+  </p>
+
+<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+
+<table>
+    <tr>
+      <td>
+        <div style="position: relative; width: 64px; height: 64px;">
+          <img src="img/LoopEditIcon64x64.png" alt="LoopEditIcon64x64.png" width="64" height="64">
+          <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
+            Geometrie
+          </div>
+        </div>
+      </td>
+      <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
+        Geometrie
+      </td>
+    </tr>
+  </table>
+
+  <p>
+  Tlačítko <u>Geometrie</u> umožňuje u příslušné střešní roviny provádět další úpravy geometrie. 
+  </p>
+
+  <p>
+  <b>
+  Úpravy je možné provádět po kliknutí na hranu přislušné plochy, u rovin zakreslených pomocí Obecného tvaru je možné využít i některá ze žlutých tlačítek zobrazených u hran.
+  </b>
+  </p>
+
+  <p><b><u>Roviny zakreslenené pomocí předdefinovaných tvarů</u></b></p>
+  
+  <ul>
+  <li>
+  <p>
+  U rovin zakreselných pomocí předdefinovaných tvarů (Obdélník, Trojúhelník, Lichoběžník, ...) je možné změnit typ geometrického tvaru a rozměry, případně plochu otáčet kolem roviny Z.
+  </p>
+  </li>
+  </ul>
+
+  <p><b><u>Roviny zakreslené pomocí Obecného tvaru</u></b></p>
+
+  <ul>
+  <li>
+  <p>
+  U rovin zakreselných pomocí Obecného tvar je možné po kliknutí na hranu plochy změnit typ jejího geometrického tvaru (a následně upravovat rozměry), případně plochu otáčet kolem roviny Z.
+  </p>
+  </li>
+  <li>
+  <p>
+  Po kliknutí na jeden z rohových bodů (zobrazeny červeným křížkem) je možné tomuto bodu v příslušné tabulce upravit pozici v Globálních souřadnicích.
+  Tyto body lze na hranu také přidávat pomocí žlutého tlačítka Přidat 
+  <img src="img/AddButtonRound.png" alt="AddButtonRound.png" width="20">.
+
+  </ul>
+
+  <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+
+  <table>
+    <tr>
+      <td>
+        <div style="position: relative; width: 64px; height: 64px;">
+          <img src="img/ActionsIcon64x64.png" alt="ActionsIcon64x64.png" width="64" height="64">
+          <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
+            Akce
+          </div>
+        </div>
+      </td>
+      <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
+        Akce
+      </td>
+    </tr>
+  </table>
+
+  <p>
+  Tlačítkem <u>Akce</u> je možné provádět úpravu pozice a orientace střešní roviny.
+  </p>
+
+  <p>
+  Roviny je možné otáčet kolem hlavních os X,Y a Z, dále je možné upravit jejich pozici nebo je převrátit.
+  </p>
+
+  <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+  </div>
+  </details>
+
   <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
   <table>
@@ -675,7 +866,7 @@
   <table>
     <tr>
       <td>
-        <a href="https://docs.histruct.com/cs/">
+        <a href="https://docs.histruct.com/cs/" target="_blank" rel="noopener noreferrer">
           <button class="btn">
             Navštívit blog
           </button>

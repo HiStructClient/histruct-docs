@@ -25,6 +25,12 @@
       margin-top: 10px;
       margin-bottom: 0px;
     }
+    h3{ /* Styl podnadpisů */
+      font-size: 18px;
+      border-bottom: none;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
     p{ /* Styl odstavců */
       border-bottom: none;
       margin-top: 10px;
@@ -201,7 +207,7 @@ Pro více informací o funkcích HiStruct Roofs můžete navštívit náš blog 
 <table>
   <tr>
     <td>
-      <a href="https://docs.histruct.com/cs/"> 
+      <a href="https://docs.histruct.com/cs/" target="_blank" rel="noopener noreferrer"> 
         <button class="btn">
         Navštívit blog
         </button>
