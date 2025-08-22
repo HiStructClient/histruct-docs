@@ -1,5 +1,5 @@
 
-<h1>Geometrie &gt; Pole</h1>
+# Geometrie &gt; Pole
   <p>Umožňuje nastavit počet rámů primární nosné kosntrukce a rozteče polí mezi nimi při zachování nastavených půdorysných rozměrů.</p>
 
   <p><b><u>Ovládací tlačítka</u> upravují vlastnosti konstrukce pouze na vybrané stěnové rovině.</b></p>

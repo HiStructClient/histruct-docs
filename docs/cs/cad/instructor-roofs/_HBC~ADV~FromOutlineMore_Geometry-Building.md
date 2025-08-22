@@ -1,5 +1,5 @@
 
-<h1>Geometrie &gt; Budova</h1>
+# Geometrie &gt; Budova
 
 <p>Umožňuje měnit geometrické parametry modelu, tedy rozměry budovy a střechy včetně sklonu a přesahů. Rovněž je zde možné nastavit typ skladby střechy.</p>
 

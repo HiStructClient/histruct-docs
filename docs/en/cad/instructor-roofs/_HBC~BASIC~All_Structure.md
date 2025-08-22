@@ -4,7 +4,7 @@ sourceHash: cdd13ef6b0d5e2a95bbcf2917407213a
 autoTranslated: true
 ---
 
-<h1>Structure</h1>
+# Structure
 
 <p>The <u><i>Structure</i></u> menu allows you to set the parameters of the primary load-bearing structure, adjust materials and cross-sections of elements, and add wall and roof bracings.</p>
 

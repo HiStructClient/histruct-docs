@@ -4,7 +4,7 @@ sourceHash: a7365b1ff87923d75e50cbdfb3528795
 autoTranslated: true
 ---
 
-<h1>Geometry &gt; Rosol</h1>
+# Geometry &gt; Rosol
 <p>In the <u><i>Geometry &gt; Rosol</i></u> menu, it is possible to adjust the dimensions and slopes of the generated roof edges and surfaces using the ROSOL solver.</p>
 
 <hr class="main">

@@ -4,7 +4,7 @@ sourceHash: 8e3126fb7559234a14a03953e9003eef
 autoTranslated: true
 ---
 
-<h1>Geometry &gt; Bays</h1>
+# Geometry &gt; Bays
   <p>Allows you to set the number of frames of the primary load-bearing structure and the distances between bays while maintaining the set floor plan dimensions.</p>
 
   <p><b><u>Control buttons</u> change the properties of the structure only on the selected wall plane.</b></p>

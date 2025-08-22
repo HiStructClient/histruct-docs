@@ -4,7 +4,7 @@ sourceHash: a920f831af0b17d2f48bfd56ba360dae
 autoTranslated: true
 ---
 
-<h1>Structure</h1>
+# Structure
 
 <p>The <u><i>Structure</i></u> menu allows you to set the parameters of the primary load-bearing structure, modify materials and cross-sections of elements, and add wall and roof bracings.</p>
 <p>Settings and modifications for the entire primary structure can be performed by clicking the <b><u>Control Button</u></b> in the center of the model.</p>

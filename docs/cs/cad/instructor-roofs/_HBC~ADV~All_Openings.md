@@ -1,5 +1,5 @@
 
-<h1>Otvory</h1>
+# Otvory
 
 <p>Menu <u><i>Otvory</i></u> umožňuje vytvořit a editovat otvory na jednotlivých rovinách. Každému dostupnému typu otvoru lze přiřadit také barvu.</p>
 <p><b>Nastavení a úpravy otvorů na jednotlivých střešních rovinách je možné provést pomocí <u>Ovládacích tlačítek</u>. Na stěnové roviny lze otvory přidávat pomocí tlačítka <u>Přidat</u>.</b></p>

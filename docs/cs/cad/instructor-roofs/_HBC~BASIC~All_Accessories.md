@@ -1,5 +1,5 @@
 
-<h1>Příslušenství</h1>
+# Příslušenství
 
 <p>Menu <u><i>Příslušenství</i></u> umožňuje do modelu přidávat různé doplňky pro lepší vzhled a realističnost modelu.</p>
 

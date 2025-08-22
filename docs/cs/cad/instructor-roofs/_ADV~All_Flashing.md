@@ -1,4 +1,6 @@
-<h1>Lemovky</h1>
+
+# Lemovky
+
 <p>Umožňuje měnit jednotlivé lemovací prvky včetně typu materiálu nebo barvy.</p>
 
 <p>Tyto vlastnosti lze upravit pomocí tlačítek vlevo pro všechny lemovací prvky z dané skupiny.</p>

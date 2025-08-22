@@ -4,7 +4,7 @@ sourceHash: dc6c04679e49a4b2b9d9c9f2615e84e1
 autoTranslated: true
 ---
 
-<h1>Geometry</h1>
+# Geometry
 <p>
 Allows you to draw roof planes, modify their shapes, dimensions, or slopes.
 </p>
@@ -19,7 +19,7 @@ Allows you to draw roof planes, modify their shapes, dimensions, or slopes.
 
 //// details | PHASE 1: I want to draw the first area
 
-<h1>Geometry</h1>
+# Geometry
 <p>
 Allows you to draw roof planes, modify their shapes, dimensions, or slopes, and also set the type of roof composition.
 </p>
@@ -199,7 +199,7 @@ The <u>Add</u> button allows you to add additional (secondary) roof structures t
 
 //// details | PHASE 2: After drawing the first area
   
-<h1>Geometry</h1>
+# Geometry
 
 {{ box_icon("img/Sheated_Building_Page_Building.png", "Dimensions", "Dimensions") }}
 

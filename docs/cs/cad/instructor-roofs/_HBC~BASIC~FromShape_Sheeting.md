@@ -1,5 +1,5 @@
 
-<h1>Opláštění</h1>
+# Opláštění
   <p>
     Menu <u><i>Opláštění</i></u> umožňuje nastavit typ skladby střechy, typ střešní krytiny a rozměry sekundární střešní konstrukce. 
   </p> 

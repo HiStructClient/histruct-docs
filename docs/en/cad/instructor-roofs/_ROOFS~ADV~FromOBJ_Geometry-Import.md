@@ -4,7 +4,7 @@ sourceHash: 77bd7a3e8bfde6f0c05e9ef6c8a1f548
 autoTranslated: true
 ---
 
-<h1>Geometry &gt; Import</h1>
+# Geometry &gt; Import
 <p>In the <u><i>Geometry &gt; Import</i></u> menu, you can change the settings of the edge and surface generator, adjust the dimensions and slopes of the generated edges and surfaces using the ROSOL solver.</p>
 
 <hr class="main">

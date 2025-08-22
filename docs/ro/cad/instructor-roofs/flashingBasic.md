@@ -5,21 +5,21 @@ autoTranslated: true
 ---
 
 
-### Sistem de streașină și jgheaburi
+# Sistem de streașină și jgheaburi
 Aici puteți selecta burlanele pentru acoperișul configurat.
 
-#### ![naviBackIcon](img/backIcon-en.png) Înapoi
+## ![naviBackIcon](img/backIcon-en.png) Înapoi
 Utilizați butonul Înapoi pentru a reveni la pasul anterior al înregistrării.
 
-#### ![roofingLibraryIcon](img/roofingLibraryIcon-en.png) Lămpi
+## ![roofingLibraryIcon](img/roofingLibraryIcon-en.png) Lămpi
 Selectați garniturile pentru întregul acoperiș.
 
 Dacă trebuie să setați un anumit șarpantă, faceți clic pe șarpanta selectată în model.
 
-#### Leads
+## Leads
 Puteți muta, edita sau șterge garnitura selectată. Puteți adăuga o altă lespede la streașină făcând clic pe butonul de adăugare din model.
 
-#### ![naviNextIcon](img/nextIcon-en.png) Următorul
+## ![naviNextIcon](img/nextIcon-en.png) Următorul
 Utilizați butonul Next pentru a trece la pasul următor al intrării.
 
 Lipsește vreun tip de margine din galerie? Contactați-ne, le vom adăuga.

@@ -1,5 +1,5 @@
 
-<h1>Geometrie &gt; Výkon</h1>
+# Geometrie &gt; Výkon
 <p>
 Umožňuje vyhodnotit potenciální výkon solárního záření na jednotlivé střešní plochy.
 </p>

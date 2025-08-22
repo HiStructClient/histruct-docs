@@ -4,7 +4,7 @@ sourceHash: d2f284984ec4b82fc029b357e6b2a22a
 autoTranslated: true
 ---
 
-<h1>Geometry &gt; Import &gt; Preview</h1>
+# Geometry &gt; Import &gt; Preview
 <p>In the <u><i>Geometry &gt; Import &gt; Preview</i></u> menu, it is possible to check the generated roof surfaces and edges in the model space, including their lengths and slopes.</p>
 
 <hr class="main">

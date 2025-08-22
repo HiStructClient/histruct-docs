@@ -4,7 +4,7 @@ sourceHash: e6f4fd3bf9629cd8377dd4e0040b41df
 autoTranslated: true
 ---
 
-<h1>Settings</h1>
+# Settings
 
   <p>Via the <u><i>Settings</i></u> button, you can customize modeling functions and the parameters of the modeling space.</p>
 

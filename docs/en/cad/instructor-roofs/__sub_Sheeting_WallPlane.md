@@ -4,7 +4,7 @@ sourceHash: 56de3c26254c02b8b18b60e700d99a25
 autoTranslated: true
 ---
 
-<h1>Cladding &gt; Wall Plane</h1>
+# Cladding &gt; Wall Plane
 
 <p>In the <u><i>Cladding &gt; Wall Plane</i></u> menu accessible via the <u>Edit button</u>, you can set the wall production type, cladding row arrangement, and plinth height.</p>
 

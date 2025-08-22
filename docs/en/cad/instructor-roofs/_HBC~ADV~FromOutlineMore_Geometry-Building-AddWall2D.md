@@ -4,7 +4,7 @@ sourceHash: f82e33f43a9cc42a651ac12ced8c4dcc
 autoTranslated: true
 ---
 
-<h1>Geometry &gt; Building &gt; Add wall 2D</h1>
+# Geometry &gt; Building &gt; Add wall 2D
 
 <p>Enables adding interior vertical walls to the structure and editing wall properties.</p>
 

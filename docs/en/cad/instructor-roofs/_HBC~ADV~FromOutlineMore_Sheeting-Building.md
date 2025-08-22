@@ -4,7 +4,7 @@ sourceHash: aee06f134419d1578c96aa0cec553120
 autoTranslated: true
 ---
 
-<h1>Sheeting &gt; Building</h1>
+# Sheeting &gt; Building
 
 <p>The <u><i>Sheeting &gt; Building</i></u> menu allows you to set the roof composition type, roof covering type, and dimensions of the secondary roof structure.</p>
 

@@ -4,7 +4,7 @@ sourceHash: 4786c5c512b4e82999f1de22b1faabe3
 autoTranslated: true
 ---
 
-<h1>Edging Strips</h1>
+# Edging Strips
 <p>Allows you to change the color of individual edging elements.</p>
 
 <p>The color can be adjusted using the buttons on the left for all edging elements in the given group, or you can click directly on individual elements in the model and adjust their color individually.</p>

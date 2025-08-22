@@ -1,5 +1,5 @@
 
-<h1>Geometrie &gt; Budova &gt; Přidat stěnu 2D</h1>
+# Geometrie &gt; Budova &gt; Přidat stěnu 2D
 
 <p>Umožňuje do konstrukce přidávat vnitřní svislé stěny a upravovat vlastnosti stěn.</p>
 

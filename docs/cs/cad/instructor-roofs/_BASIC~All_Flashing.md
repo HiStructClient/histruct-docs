@@ -1,5 +1,5 @@
 
-<h1>Lemovky</h1>
+# Lemovky
 
 <p>Umožňuje měnit barvu jednotlivých lemovacích prvků.</p>
 

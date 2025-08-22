@@ -4,7 +4,7 @@ sourceHash: 6dd65173c1c40339c6ac0ffd16b0a0b9
 autoTranslated: true
 ---
 
-<h1>Geometry > Dimensions</h1>
+# Geometry > Dimensions
 
   <p>Allows you to draw roof planes, change their shapes, dimensions or slopes, and set their connections.</p>
 

@@ -4,7 +4,7 @@ sourceHash: 65421b7b60dae450b0e31064fa30928c
 autoTranslated: true
 ---
 
-<h1>Geometry &gt; Rosol</h1>
+# Geometry &gt; Rosol
 
 <p>
 In the <u><i>Geometry &gt; Rosol</i></u> menu, you can adjust the dimensions and slopes of generated edges and surfaces using the ROSOL solver.

@@ -4,7 +4,7 @@ sourceHash: aa15364fe7fd396851114baa47b4922f
 autoTranslated: true
 ---
 
-<h1>Openings</h1>
+# Openings
 
 <p>The <u><i>Openings</i></u> menu allows you to create and edit openings on individual planes. You can also assign a color to each available type of opening.</p>
 <p><b>Settings and edits of openings on individual roof planes can be done using <u>Control Buttons</u>. Openings can be added to wall planes using the <u>Add</u> button.</b></p>

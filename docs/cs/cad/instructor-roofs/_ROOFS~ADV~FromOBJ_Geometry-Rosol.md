@@ -1,5 +1,5 @@
 
-<h1>Geometrie &gt; Rosol</h1>
+# Geometrie &gt; Rosol
 <p>V menu <u><i>Geometrie &gt; Rosol</i></u> je možné upravit rozměry a sklony vygenerovaných hran a ploch pomocí řešiče ROSOL.</p>
 
 <hr class="main">

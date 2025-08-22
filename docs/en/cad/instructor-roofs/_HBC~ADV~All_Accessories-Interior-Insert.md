@@ -4,7 +4,7 @@ sourceHash: 660053283cae55d57730657b3c16aef8
 autoTranslated: true
 ---
 
-<h1>Accessories &gt; Interior &gt; Insert</h1>
+# Accessories &gt; Interior &gt; Insert
 
 <p>
 The menu <u><i>Accessories &gt; Interior &gt; Insert</i></u> allows you to add various accessories to the model for better appearance and realism.</p>

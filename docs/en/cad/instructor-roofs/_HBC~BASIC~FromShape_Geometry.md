@@ -4,7 +4,7 @@ sourceHash: b98191dc11dcf998c983bf303a3818fe
 autoTranslated: true
 ---
 
-<h1>Geometry</h1>
+# Geometry
 
 <p>Allows you to modify the geometric parameters of the model, i.e. the building dimensions and the roof pitch. You can also set the wall production type, cladding stack arrangement, and plinth height here.</p>
 

@@ -1,5 +1,5 @@
 
-<h1>Geometrie &gt; Rozměry</h1>
+# Geometrie &gt; Rozměry
 
 <p>Umožňuje měnit geometrické parametry modelu, tedy rozměry okapových hran, sklon a přesah střechy. Taktéž je možné změnit výšku celé střešní konstrukce.</p>
 

@@ -4,7 +4,7 @@ sourceHash: 35a63c16784bc8bbbeba1181d6df8a31
 autoTranslated: true
 ---
 
-<h1>Drawings</h1>
+# Drawings
 
 <p>The <u><i>Drawings</i></u> menu allows you to create and further edit drawings of roof or wall structures.</p>
 

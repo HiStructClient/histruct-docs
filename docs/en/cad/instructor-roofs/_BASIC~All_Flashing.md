@@ -4,7 +4,7 @@ sourceHash: b8f4b1f92bf3b9e1ac3d4a7e142ef5b2
 autoTranslated: true
 ---
 
-<h1>Trims</h1>
+# Trims
 
 <p>Allows you to change the color of individual trim elements.</p>
 

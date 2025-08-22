@@ -1,5 +1,5 @@
 
-<h1>Geometrie &gt; Import</h1>
+# Geometrie &gt; Import
 <p>V menu <u><i>Geometrie &gt; Import</i></u> je možné změnit nastavení generátoru hran a ploch, upravit rozměry a sklony vygenerovaných hran a ploch pomocí řešiče ROSOL.</p>
 
 <hr class="main">

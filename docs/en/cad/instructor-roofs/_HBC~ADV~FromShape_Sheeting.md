@@ -4,7 +4,7 @@ sourceHash: d16d7a8a1a10750da86734973ad454b7
 autoTranslated: true
 ---
 
-<h1>Cladding</h1>
+# Cladding
 
 <p>The <u><i>Cladding</i></u> menu allows you to set the type of roof assembly, type of roof covering, and dimensions of the secondary roof structure.</p>
 <p>For walls, it is possible to set the type of wall construction and the material of the individual wall layers.</p>

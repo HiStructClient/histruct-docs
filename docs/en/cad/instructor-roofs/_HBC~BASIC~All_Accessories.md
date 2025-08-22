@@ -4,7 +4,7 @@ sourceHash: 4bbadbe8447721427f6311beb4f2059d
 autoTranslated: true
 ---
 
-<h1>Accessories</h1>
+# Accessories
 
 <p>The <u><i>Accessories</i></u> menu allows you to add various add-ons to the model for better appearance and realism.</p>
 

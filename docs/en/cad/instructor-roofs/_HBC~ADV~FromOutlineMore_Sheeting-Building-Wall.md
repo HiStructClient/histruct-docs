@@ -4,7 +4,7 @@ sourceHash: 94138e5d9e621e884d631ddf800762df
 autoTranslated: true
 ---
 
-<h1>Cladding &gt; Building &gt; Wall</h1>
+# Cladding &gt; Building &gt; Wall
 
 <p>In the <u><i>Cladding &gt; Building &gt; Wall</i></u> menu, it is possible to set the wall production type, cladding row layout, and plinth height. Here you can also edit individual cladding layers.</p>
 

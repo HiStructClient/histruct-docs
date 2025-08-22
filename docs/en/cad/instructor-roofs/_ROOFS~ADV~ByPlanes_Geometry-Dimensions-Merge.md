@@ -4,7 +4,7 @@ sourceHash: 2d944a8b45e0412d94c922b7147d7dc3
 autoTranslated: true
 ---
 
-<h1>Geometry &gt; Dimensions &gt; Connect</h1>
+# Geometry &gt; Dimensions &gt; Connect
 
   <p>Allows you to check the geometry of drawn roof planes and adjust the parameters of their connection.</p>
 

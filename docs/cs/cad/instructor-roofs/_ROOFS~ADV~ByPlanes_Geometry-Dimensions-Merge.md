@@ -1,5 +1,5 @@
 
-<h1>Geometrie &gt; Rozměry &gt; Propojit</h1>
+# Geometrie &gt; Rozměry &gt; Propojit
 
   <p>Umožňuje zkontrolovat geometrii zakreslených střešních rovin a upravit parametry jejich propojení.</p>
 

@@ -4,7 +4,7 @@ sourceHash: 19017a56dfc9ae4a019d2573ec46eee8
 autoTranslated: true
 ---
 
-<h1>Geometry</h1>
+# Geometry
 <p>The <u><i>Geometry</i></u> menu in the first step allows you to import a "<b>.obj</b>" file for rapid generation of roof planes.</p>
 
 <p><b>For a clearer workflow, the content of the <u>Geometry</u> menu differs before and after importing a model in .obj format.</b></p>
@@ -16,7 +16,7 @@ autoTranslated: true
 
 //// details | PHASE 1: I want to import a .obj file
 
-<h1>Geometry</h1>
+# Geometry
 
 <h2>Converting a file to ".obj" format</h2>
 <p>If you have your data in a compressed folder (such as ".zip"), you need to extract this file and convert it to ".obj" format if necessary.</p>
@@ -79,7 +79,7 @@ You can also use the <u>Scale</u> button located at the top of the open table to
 
 //// details | PHASE 2: After importing a .obj file
 
-<h1>Geometry</h1>
+# Geometry
 
 <h2>Editing model geometry after import</h2>
 <p>Immediately after inserting the model, you can adjust the scale of the imported model and change the settings of the generated edges and faces in the table on the left. The same adjustments can later be made using the <b><u>Import &gt; Settings</u></b> button.</p>

@@ -1,5 +1,5 @@
 
-<h1>Příslušenství &gt; Interior &gt; Vložit</h1>
+# Příslušenství &gt; Interior &gt; Vložit
 
 <p>
 Menu <u><i>Příslušenství &gt; Interior &gt; Vložit</i></u> umožňuje do modelu přidávat různé doplňky pro lepší vzhled a realističnost modelu.</p>

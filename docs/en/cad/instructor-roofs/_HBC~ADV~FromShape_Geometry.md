@@ -4,7 +4,7 @@ sourceHash: 13229aaa79e869e3167a5c5bc071b428
 autoTranslated: true
 ---
 
-<h1>Geometry</h1>
+# Geometry
 <p>Allows you to change the geometric parameters of the model, i.e. the dimensions of the building and roof, including pitch and overhangs. It is also possible to set the type of roof structure here.</p>
 
 <p><b><u>Control buttons</u> modify the properties of the structure only on the selected roof or wall plane.</b></p>

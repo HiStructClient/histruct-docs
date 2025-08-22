@@ -4,7 +4,7 @@ sourceHash: c23a55c2a28ada275831634cd187fd51
 autoTranslated: true
 ---
 
-<h1>Geometry &gt; Dimensions</h1>
+# Geometry &gt; Dimensions
 
 <p>Allows you to change the geometric parameters of the model, i.e. the dimensions of the eaves edges, the slope and the overhang of the roof. It is also possible to change the height of the entire roof structure.</p>
 

@@ -4,7 +4,7 @@ sourceHash: 2435d71d16bbc9f8593a4230a60a7684
 autoTranslated: true
 ---
 
-<h1>Cladding</h1>
+# Cladding
 
 <p>The <u><i>Cladding</i></u> menu allows you to set the roof assembly type, type of roofing, and dimensions of the secondary roof structure.</p>
 

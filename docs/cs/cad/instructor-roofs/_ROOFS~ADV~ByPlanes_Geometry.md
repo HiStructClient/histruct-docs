@@ -1,5 +1,5 @@
 
-<h1>Geometrie</h1>
+# Geometrie
 <p>
 Umožňuje kreslit střešní roviny, měnit jejich tvary, rozměry či sklony.
 </p>
@@ -14,7 +14,7 @@ Umožňuje kreslit střešní roviny, měnit jejich tvary, rozměry či sklony.
 
 //// details | FÁZE 1: Chci nakreslit první plochu
 
-<h1>Geometrie</h1>
+# Geometrie
 <p>
 Umožňuje kreslit střešní roviny, měnit jejich tvary, rozměry či sklony, taktéž umožňuje nastavit typ skladby střechy.
 </p>
@@ -194,7 +194,7 @@ Tlačítkem <u>Přidat</u> je možné do modelového prostoru přidat další (v
 
 //// details | FÁZE 2: Po nakreslení první plochy
   
-<h1>Geometrie</h1>
+# Geometrie
 
 {{ box_icon("img/Sheated_Building_Page_Building.png", "Rozměry", "Rozměry") }}
 

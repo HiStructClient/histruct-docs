@@ -1,5 +1,5 @@
 
-<h1>Geometrie</h1>
+# Geometrie
 <p>Menu <u><i>Geometrie</i></u> v prvním kroku umožňuje importovat soubor typu "<b>.obj</b>" pro rychlé generování střešních rovin.</p>
 
 <p><b>Pro přehlednější práci s programem se obsah menu <u>Geometrie</u> liší pro fázi před importem modelu ve formátu .obj a fázi po importu.</b></p>
@@ -11,7 +11,7 @@
 
 //// details | FÁZE 1: Chci importovat soubor .obj
 
-<h1>Geometrie</h1>
+# Geometrie
 
 <h2>Převod souboru do formátu ".obj"</h2>
 <p>Pokud máte data k dispozici v komprimované složce (například ".zip"), je třeba z ní tento soubor extrahovat a případně převést na typ ".obj".</p>
@@ -74,7 +74,7 @@ Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>
 
 //// details | FÁZE 2: Po importu souboru .obj
 
-<h1>Geometrie</h1>
+# Geometrie
 
 
 <h2>Úprava geometrie modelu po importu</h2>

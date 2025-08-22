@@ -1,5 +1,5 @@
 
-<h1>Geometrie</h1>
+# Geometrie
 <p>Umožňuje měnit geometrické parametry modelu, tedy rozměry budovy a střechy včetně sklonu a přesahů. Rovněž je zde možné nastavit typ skladby střechy.</p>
 
 <p><b>Pro přehlednější práci s programem se obsah menu <u>Geometrie</u> liší pro fázi před nakreslením obrysu a fázi po nakreslení prvního obrysu.</b></p>
@@ -10,7 +10,7 @@
 
 //// details | FÁZE 1: Chci vytvořit první střechu z obrysu
 
-<h1>Geometrie</h1>
+# Geometrie
 <p>Umožňuje měnit geometrické parametry modelu, tedy rozměry budovy a střechy včetně sklonu a přesahů.</p>
 
 <hr class="main">
@@ -122,7 +122,7 @@ Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>
 
 //// details | FÁZE 2: Po vytvoření první střechy z obrysu
 
-<h1>Geometrie</h1>
+# Geometrie
 
 <p>
 {{ box_icon("img/Sheated_Building_Page_Building.png", "Rozměry", "Rozměry") }}

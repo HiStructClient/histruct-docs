@@ -1,5 +1,5 @@
 
-<h1>Opláštění &gt; Stěna</h1>
+# Opláštění &gt; Stěna
 
 <p>V menu <u><i>Opláštění &gt; Stěna</i></u> je možné nastavit typ výroby stěny, kladení řad opláštění a výšku soklu. Taktéž je zde možné upravit jednotlivé vrstvy opláštění.</p>
 

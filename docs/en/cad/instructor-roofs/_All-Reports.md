@@ -4,7 +4,7 @@ sourceHash: c0319af10e558e1506443adf2e268178
 autoTranslated: true
 ---
 
-<h1>Reports</h1>
+# Reports
 
   <p>The <u><i>Reports</i></u> menu allows you to create summary documents for the final offer. Outputs are available in <b>.pdf</b> format, or as <b>.html</b> or <b>.docx</b> files.</p>
 

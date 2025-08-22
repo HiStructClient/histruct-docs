@@ -1,5 +1,5 @@
 
-<h1>Lemovky</h1>
+# Lemovky
 <p>Umožňuje měnit barvu jednotlivých lemovacích prvků.</p>
 
 <p>Barvu lze upravit pomocí tlačítek vlevo pro všechny lemovací prvky z dané skupiny, případně je možné kliknout přímo na jednotlivé prvky v modelu a upravit jim barvu jednotlivě.</p>
@@ -22,6 +22,8 @@
 
 <h2>Editace jednotlivých prvků</h2>
 <p>Vlastnosti jednotlivých prvků je možné měnit přímo kliknutím na jednotlivé prvky v modelu.</p>
+
+---{ .main }
 
 <hr class="main">
 

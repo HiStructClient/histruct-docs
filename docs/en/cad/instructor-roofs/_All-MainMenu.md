@@ -4,7 +4,7 @@ sourceHash: 59fc3ea42788a24b3c68b2c4068db4f9
 autoTranslated: true
 ---
 
-<h1>Main Menu</h1>
+# Main Menu
 
   <p>In the <u><i>Main Menu</i></u>, you can find an overview of the main modeling functions of the HiStruct platform.
   

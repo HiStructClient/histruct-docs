@@ -1,5 +1,5 @@
 
-<h1>Konstrukce</h1>
+# Konstrukce
 
 <p>Menu <u><i>Konstrukce</i></u> umožňuje nastavit parametry primární nosné konstrukce, upravit materiály a průřezy prvků a přidávat stěnová a střešní ztužidla.</p>
 <p>Nastavení a úpravy pro celou primární konstrukci je možné provádět kliknutím na <b><u>Ovládací tlačítko</u></b> ve středu modelu.</p>

@@ -4,7 +4,7 @@ sourceHash: fd9b4ca9354e2999f688019741170e63
 autoTranslated: true
 ---
 
-<h1>Geometry</h1>
+# Geometry
 
 <p>Allows you to change the geometric parameters of the model, i.e., the dimensions of the building and roof including slope and overhangs. Here you can also set the type of roof structure.</p>
 

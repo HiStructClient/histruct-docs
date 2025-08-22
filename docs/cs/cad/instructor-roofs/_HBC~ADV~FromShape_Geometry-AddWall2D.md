@@ -1,8 +1,6 @@
 
-</head>
+# Geometrie &gt; Přidat stěnu 2D
 
-
-  <h1>Geometrie &gt; Přidat stěnu 2D</h1>
   <p>Umožňuje do konstrukce přidávat vnitřní svislé stěny a upravovat vlastnosti stěn.</p>
 
   <hr class="main">

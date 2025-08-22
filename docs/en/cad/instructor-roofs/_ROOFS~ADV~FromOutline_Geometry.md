@@ -4,7 +4,7 @@ sourceHash: f5fb1162a42c07c38cd7b7270c825b9b
 autoTranslated: true
 ---
 
-<h1>Geometry</h1>
+# Geometry
 <p>Allows you to change the geometric parameters of the model, i.e., the dimensions of the building and roof, including pitch and overhangs. Here you can also set the type of roof structure.</p>
 
 <p><b>For greater clarity, the contents of the <u>Geometry</u> menu differ depending on whether you are before or after drawing the outline.</b></p>
@@ -15,7 +15,7 @@ autoTranslated: true
 
 //// details | PHASE 1: I want to create the first roof from an outline
 
-<h1>Geometry</h1>
+# Geometry
 <p>Allows you to change the geometric parameters of the model, i.e., the dimensions of the building and roof, including pitch and overhangs.</p>
 
 <hr class="main">
@@ -127,7 +127,7 @@ To adjust the scale, you can also use the <u>Scale</u> button, which is located 
 
 //// details | PHASE 2: After creating the first roof from the outline
 
-<h1>Geometry</h1>
+# Geometry
 
 <p>
 {{ box_icon("img/Sheated_Building_Page_Building.png", "Dimensions", "Dimensions") }}

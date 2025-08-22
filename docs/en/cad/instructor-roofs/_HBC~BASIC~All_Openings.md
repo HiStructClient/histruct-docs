@@ -4,7 +4,7 @@ sourceHash: dec1fc31dd685b7b269cae136a2f74f6
 autoTranslated: true
 ---
 
-<h1>Openings</h1>
+# Openings
 
 <p>The <u><i>Openings</i></u> menu allows you to create and edit openings on individual roof planes. Each available type of opening can also be assigned a color.</p>
 

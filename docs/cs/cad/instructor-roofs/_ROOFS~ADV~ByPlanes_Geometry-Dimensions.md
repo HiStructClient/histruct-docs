@@ -1,5 +1,5 @@
 
-<h1>Geometrie > Rozměry</h1>
+# Geometrie > Rozměry
 
   <p>Umožňuje kreslit střešní roviny, měnit jejich tvary, rozměry či sklony, a nastavit jejich propojení.</p>
 

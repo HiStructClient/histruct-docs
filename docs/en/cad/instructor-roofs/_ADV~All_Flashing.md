@@ -4,7 +4,7 @@ sourceHash: 71a06034228e56cac75c751d417107b3
 autoTranslated: true
 ---
 
-<h1>Flashings</h1>
+# Flashings
 <p>Allows you to modify individual flashing elements, including the material type or color.</p>
 
 <p>These properties can be adjusted using the buttons on the left for all flashing elements in the given group.</p>

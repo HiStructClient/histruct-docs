@@ -1,5 +1,5 @@
 
-<h1>Geometrie</h1>
+# Geometrie
 
 <p>Umožňuje měnit geometrické parametry modelu, tedy rozměry budovy a sklon střechy. Taktéž je možné zde nastavit typ výroby stěny, kladení řad opláštění a výšku soklu.</p>
 

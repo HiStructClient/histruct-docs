@@ -4,7 +4,7 @@ sourceHash: 042d509600a0ea425ce7210fa876140e
 autoTranslated: true
 ---
 
-<h1>Cladding &gt; Wall Layer</h1>
+# Cladding &gt; Wall Layer
 
 <p>In the <u><i>Cladding &gt; Wall Layer</i></u> menu accessible via the <u>Edit button</u>, it is possible to set, for individual layers of the cladding assembly on the specified wall plane:</p>
 

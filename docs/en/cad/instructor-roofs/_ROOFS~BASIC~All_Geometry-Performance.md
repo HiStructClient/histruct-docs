@@ -4,7 +4,7 @@ sourceHash: be3d5c6049b4fa53f041e68a0fc3accd
 autoTranslated: true
 ---
 
-<h1>Geometry &gt; Performance</h1>
+# Geometry &gt; Performance
 <p>
 Allows you to evaluate the potential performance of solar radiation on individual roof surfaces.
 </p>
