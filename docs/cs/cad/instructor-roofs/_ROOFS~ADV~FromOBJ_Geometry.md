@@ -9,11 +9,9 @@
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<details>  <summary>
-    <span>FÁZE 1: Chci importovat soubor .obj</span>
-  </summary>
-  <div class="panel">
-  <h1>Geometrie</h1>
+//// details | FÁZE 1: Chci importovat soubor .obj
+
+<h1>Geometrie</h1>
 
 <h2>Převod souboru do formátu ".obj"</h2>
 <p>Pokud máte data k dispozici v komprimované složce (například ".zip"), je třeba z ní tento soubor extrahovat a případně převést na typ ".obj".</p>
@@ -70,16 +68,13 @@ Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>
 
 <p>Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.</p>
 
-</div>
-</details>
+////
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<details>  <summary>
-    <span>FÁZE 2: Po importu souboru .obj</span>
-  </summary>
-  <div class="panel">
-  <h1>Geometrie</h1>
+//// details | FÁZE 2: Po importu souboru .obj
+
+<h1>Geometrie</h1>
 
 
 <h2>Úprava geometrie modelu po importu</h2>
@@ -122,10 +117,8 @@ Umožňuje vyhodnotit potenciální výkon solárního záření na jednotlivé 
 {{ box_icon("img/TapeMeasureIcon64x64.png", "Měření", "Měření") }}
 <p>Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.</p>
 
-</div>
-</details>
+////
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
 <!-- product: HiStruct Roofs -->
-

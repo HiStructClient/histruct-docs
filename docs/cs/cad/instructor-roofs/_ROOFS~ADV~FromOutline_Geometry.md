@@ -8,11 +8,9 @@
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<details>  <summary>
-    <span>FÁZE 1: Chci vytvořit první střechu z obrysu</span>
-  </summary>
-  <div class="panel">
-  <h1>Geometrie</h1>
+//// details | FÁZE 1: Chci vytvořit první střechu z obrysu
+
+<h1>Geometrie</h1>
 <p>Umožňuje měnit geometrické parametry modelu, tedy rozměry budovy a střechy včetně sklonu a přesahů.</p>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
@@ -117,18 +115,14 @@ Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>
   <li><p>Střechu zakreslenou pomocí střešních ploch</p></li>
 </ul>
 
-
-</div>
-</details>
+////
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
 
-<details>  <summary>
-    <span>FÁZE 2: Po vytvoření první střechy z obrysu</span>
-  </summary>
-  <div class="panel">
-  <h1>Geometrie</h1>
+//// details | FÁZE 2: Po vytvoření první střechy z obrysu
+
+<h1>Geometrie</h1>
 
 <p>
 {{ box_icon("img/Sheated_Building_Page_Building.png", "Rozměry", "Rozměry") }}
@@ -167,8 +161,7 @@ Umožňuje vyhodnotit potenciální výkon solárního záření na jednotlivé 
 
 <p>Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.</p>
 
-</div>
-</details>
+////
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 

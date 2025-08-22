@@ -12,10 +12,7 @@ Umožňuje kreslit střešní roviny, měnit jejich tvary, rozměry či sklony.
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<details>  <summary>
-    <span>FÁZE 1: Chci nakreslit první plochu</span>
-  </summary>
-  <div class="panel">
+//// details | FÁZE 1: Chci nakreslit první plochu
 
 <h1>Geometrie</h1>
 <p>
@@ -132,12 +129,9 @@ Plochu lze pomocí tlačítek v horní části tabulky kopírovat, smazat, otá�
 
 {{ modal_video_button("img/VideoEditPlanes.mp4") }}
 
-<details>
-  <summary>
-    <span>Další možnosti editace střešních rovin</span>
-  </summary>
+/// details | Další možnosti editace střešních rovin
 {{ include_md("__sub_Geometry_Dimension_Plane.md") }}
-</details>
+///
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
@@ -194,16 +188,13 @@ Tlačítkem <u>Přidat</u> je možné do modelového prostoru přidat další (v
   </li>
 </ul>
 
-</div>
-</details>
+////
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<details>  <summary>
-    <span>FÁZE 2: Po nakreslení první plochy</span>
-  </summary>
-  <div class="panel">
-  <h1>Geometrie</h1>
+//// details | FÁZE 2: Po nakreslení první plochy
+  
+<h1>Geometrie</h1>
 
 {{ box_icon("img/Sheated_Building_Page_Building.png", "Rozměry", "Rozměry") }}
 
@@ -254,11 +245,8 @@ Tlačítko <u>Anotace</u> umožňuje do modelu přidávat libovolné půdorysné
 Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.
 </p>
 
-</div>
-</details>
+////
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
 <!-- product: HiStruct Roofs -->
-
-

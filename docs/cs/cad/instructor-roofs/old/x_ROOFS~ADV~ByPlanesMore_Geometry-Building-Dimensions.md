@@ -93,12 +93,10 @@
 
 {{ modal_video_button("img/VideoEditPlanes.mp4") }}
 
-<details>
-  <summary>
-    <span>Další možnosti editace střešních rovin</span>
-  </summary>
+/// details | Další možnosti editace střešních rovin
 {{ include_md("__sub_Geometry_Dimension_Plane.md") }}
-</details>
+///
+
 
   <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 

@@ -51,11 +51,10 @@ Pro některé krytiny může být v defaultním stavu tlačítko <u>Nižší vrs
   <li><p>Generování kusovníku s položkami střešní krytiny a také generování půdorysu střešní konstrukce se všemi vrstvami ve formě editovatelného výkresu.</p></li>
 </ul>
 
-<details>  <summary>
-    <span>Funkce přístupné přes Ovládací tlačítko</span>
-  </summary>
+/// details | Funkce přístupné přes Ovládací tlačítko
 {{ include_md("__sub_Sheeting_RoofPlane.md") }}
-</details>
+///
+
 
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
@@ -70,11 +69,10 @@ Pro některé krytiny může být v defaultním stavu tlačítko <u>Nižší vrs
   <li><p>Pro střešní krytinu je možné také vygenerovat výkaz materiálu s položkami střešní krytiny.</p></li>
 </ul>
 
-<details>  <summary>
-    <span>Funkce přístupné přes Editační tlačítko</span>
-  </summary>
+/// details | Funkce přístupné přes Editační tlačítko
 {{ include_md("__sub_Sheeting_RoofLayer.md") }}
-</details>
+///
+
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 

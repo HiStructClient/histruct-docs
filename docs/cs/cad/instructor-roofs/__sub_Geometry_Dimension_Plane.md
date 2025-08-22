@@ -1,7 +1,7 @@
 
-<h1>Geometrie &gt; Rozměry &gt; Plocha</h1>
+# Geometrie &gt; Rozměry &gt; Plocha
 
-<p>Menu <u><i>Geometrie &gt; Rozměry &gt; Plocha</i></u> přístupné přes kliknutí na zvolenou plochu umožňuje provádět editace střešních rovin přes otevřenou tabulku.
+<p>Menu <u><i>Geometrie &gt; Rozměry &gt; Plocha</i></u> přístupné přes kliknutí na zvolenou plochu umožňuje provádět editace střešních rovin přes otevřenou tabulku.</p>
 
 <p>
 U jednotlivých střešních ploch lze upravovat typ geometrického promítání plochy, rozměry některých tvarů ploch, dále sklon a směr sklonu a také výšku okapové hrany nad půdorysným průmětem roviny.
@@ -47,7 +47,7 @@ U rovin zakreselných pomocí Obecného tvar je možné po kliknutí na hranu pl
 <p>
 Po kliknutí na jeden z rohových bodů (zobrazeny červeným křížkem) je možné tomuto bodu v příslušné tabulce upravit pozici v Globálních souřadnicích.
 Tyto body lze na hranu také přidávat pomocí žlutého tlačítka Přidat 
-<img src="img/AddButtonRound.png" alt="AddButtonRound.png" width="20">.
+<img src="img/AddButtonRound.png" alt="AddButtonRound.png" width="20">.</p>
 
 </ul>
 

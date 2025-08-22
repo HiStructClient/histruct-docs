@@ -29,11 +29,10 @@
   <li><p>Generování kusovníku s položkami střešní krytiny a také generování půdorysu střešní konstrukce se všemi vrstvami ve formě editovatelného výkresu.</p></li>
 </ul>
 
-<details>  <summary>
-    <span>Funkce pro STŘECHU přístupné přes Ovládací tlačítko</span>
-  </summary>
+/// details | Funkce pro STŘECHU přístupné přes Ovládací tlačítko
 {{ include_md("__sub_Sheeting_RoofPlane.md") }}
-</details>
+///
+
 
 <p><b><u>Pro jednotlivé stěnové roviny umožňuje:</u></b></p>
 <ul>
@@ -42,11 +41,10 @@
 <li><p>Generování kusovníku s položkami opláštění stěny a pohledu na stěnu ve formě editovatelného výkresu.</p></li>
 </ul>
 
-<details>  <summary>
-    <span>Funkce pro STĚNU přístupné přes Ovládací tlačítko</span>
-  </summary>
+/// details | Funkce pro STĚNU přístupné přes Ovládací tlačítko
 {{ include_md("__sub_Sheeting_WallPlane.md") }}
-</details>
+///
+
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
@@ -59,11 +57,10 @@
   <li><p>Pro střešní krytinu je možné také vygenerovat výkaz materiálu s položkami střešní krytiny.</p></li>
 </ul>
 
-<details>  <summary>
-    <span>Funkce pro STŘECHU přístupné přes Editační tlačítko</span>
-  </summary>
+/// details | Funkce pro STŘECHU přístupné přes Editační tlačítko
 {{ include_md("__sub_Sheeting_RoofLayer.md") }}
-</details>
+///
+
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
@@ -76,11 +73,10 @@
 <li><p>Pro vrstvu vnějšího opláštění je možné také vygenerovat výkaz materiálu s položkami.</p></li>
 </ul>
 
-<details>  <summary>
-    <span>Funkce pro STĚNU přístupné přes Editační tlačítko</span>
-  </summary>
+/// details | Funkce pro STĚNU přístupné přes Editační tlačítko
 {{ include_md("__sub_Sheeting_WallLayer.md") }}
-</details>
+///
+
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
