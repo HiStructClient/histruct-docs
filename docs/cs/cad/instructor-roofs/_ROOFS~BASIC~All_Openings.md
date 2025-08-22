@@ -7,13 +7,13 @@
 
   <p>Otvory vytvořené v části <u><i>Geometrie &gt; Rozměry &gt; Otvor</i></u> je možné editovat pouze v menu <u><i>Geometrie &gt; Rozměry</i></u>, týká se zejména modelů střešních konstrukcí typu FROM OUTLINE vytvořených pomocí půdorysného obrysu střechy nebo modelů typu BY PLANES vytvořených pomocí střešních rovin.</p>
 
-  <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+  <hr class="main">
 
   {{ box_icon("img/ColorsIcon64x64.png", "Výchozí barvy", "Výchozí barvy", fontSize=10) }}
 
   <p>Tlačítkem <u>Výchozí barvy</u> je možné nastavit výchozí barvy pro vybrané typy otvorů.</p>
 
-  <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+  <hr class="main">
 
   {{ box_icon("img/ControlButton.png", "", "Ovládací tlačítko", width=64) }}
 
@@ -25,7 +25,7 @@
     <li><p>Pomocí myši lze rozměry a polohu taktéž měnit přímo v modelu.</p></li>
   </ul>
 
-  <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+  <hr class="main">
 
 <!-- product: HiStruct Roofs -->
 

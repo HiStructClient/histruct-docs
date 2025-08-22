@@ -7,14 +7,14 @@
 
 <p><b><u>Ovládací a Editační tlačítka</u> upravují vlastnosti konstrukce pouze na vybrané stěnové rovině\.</b></p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 <p>
 {{ box_icon("img/EditPropertiesIcon64x64.png", "Rozvržení", "Rozvržení") }}
 </p>
 <p>Tlačítko <u>Rozvržení</u> umožňuje nastavit typ výroby, kladení řad opláštění a výšku soklu\.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 <p>
 {{ box_icon("img/ColorsIcon64x64.png", "Barvy", "Barvy") }}
@@ -22,7 +22,7 @@
 <p>Tlačítko <u>Barvy</u> umožňuje nastavit barevné schéma pro danou stěnovou rovinu, podle typu schématu je možné nastavit barvy pro vybrané stěnové panely\.</p>
 <p>Stěnové panely jsou číslovány od 0\.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/WallPartIcon64x64.png", "Materiály", "Materiály") }}
 
@@ -40,34 +40,34 @@ Pro některé typy opláštění může být v defaultním stavu tlačítko <u>V
 
 <p>Tlačítko <u>Sokl</u> je dostupné podle typu výroby stěny nastavené v <u>Rozvržení</u>\.
 
-<hr> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr>
 
 {{ box_icon("img/RoofTopLayer_64x64.png", "Vrchní vrstva", "Vrchní vrstva", fontSize=10) }}
 <ul>
   <li><p>Umožňuje výběr materiálu opláštění z připravené galerie výrobků\.</p></li>
 </ul>
 
-<hr> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr>
 
 {{ box_icon("img/RoofLowerLayers_64x64.png", "Vnitřní vrstvy", "Vnitřní vrstvy", fontSize=10) }}
 <ul>
   <li><p>Umožňuje výběr typu skladby sekundární konstrukce z připravené galerie výrobků\.</p></li>
 </ul>
 
-<hr> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr>
 
 {{ box_icon("img/WallPartLayerIcon64x64.png", "Sokl", "Sokl", fontSize=10) }}
 <ul>
   <li><p>Umožňuje výběr materiálu soklu z připravené galerie výrobků\.</p></li>
 </ul>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/BomIcon64x64.png", "Kusovník", "Kusovník") }}
 
 <p>Generuje soupis položek opláštění stěny pro příslušnou stěnovou rovinu do přehledné tabulky\.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/MainDrawings64x64.png", "Výkres", "Výkres") }}
 

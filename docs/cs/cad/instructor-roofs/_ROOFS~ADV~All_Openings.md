@@ -4,7 +4,7 @@
 <p><b>Nastavení a úpravy otvorů na jednotlivých střešních rovinách je možné provést pomocí <u>Ovládacích tlačítek</u>.</b></p>
 <p>Otvory vytvořené v části <u><i>Geometrie > Rozměry > Otvor</i></u> je možné editovat pouze v menu <u><i>Geometrie > Rozměry</i></u>, týká se zejména modelů střešních konstrukcí typu FROM OUTLINE vytvořených pomocí půdorysného obrysu střechy nebo modelů typu BY PLANES vytvořených pomocí střešních rovin.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 <p>
 {{ box_icon("img/ColorsIcon64x64.png", "Výchozí barvy", "Výchozí barvy", fontSize=10) }}
@@ -12,7 +12,7 @@
 
 <p>Tlačítkem <u>Výchozí barvy</u> je možné nastavit výchozí barvy pro vybrané typy otvorů.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 <p>
 {{ box_icon("img/TapeMeasureIcon64x64.png", "Měření", "Měření") }}
@@ -20,7 +20,7 @@
 
 <p>Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 <p>
 {{ box_icon("img/ControlButton.png", "", "Ovládácí tlačítko", width=64) }}
@@ -33,7 +33,7 @@
   <li>Pomocí myši lze rozměry a polohu taktéž měnit přímo v modelu.</li>
 </ul>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 <!-- product: HiStruct Building Configurator -->
 

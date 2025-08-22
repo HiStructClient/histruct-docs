@@ -11,7 +11,7 @@ U jednotlivých střešních ploch lze upravovat typ geometrického promítání
 Plochu lze pomocí tlačítek v horní části tabulky kopírovat, smazat, otáčet v půdorysné rovině nebo v rovině plochy, a také posouvat ve všech 3 směrech.
 </p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/LoopEditIcon64x64.png", "Geometrie", "Geometrie") }}
 
@@ -51,7 +51,7 @@ Tyto body lze na hranu také přidávat pomocí žlutého tlačítka Přidat
 
 </ul>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/ActionsIcon64x64.png", "Akce", "Akce") }}
 

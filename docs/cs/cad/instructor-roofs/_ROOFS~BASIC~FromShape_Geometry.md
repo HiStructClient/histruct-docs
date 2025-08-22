@@ -3,7 +3,7 @@
 
   <p>Umožňuje měnit geometrické parametry modelu, tedy rozměry budovy a střechy včetně sklonu.</p>
 
-  <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+  <hr class="main">
 
 {{ box_icon("img/Sheated_Building_Page_Building.png", "Budova", "Budova") }}
 
@@ -14,7 +14,7 @@
     <li><p>U některých modelů lze směr sklonu střechy otáčet pomocí tlačítka <u>Změnit okapovou hranu</u>.</p></li>
   </ul>
 
-  <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+  <hr class="main">
 
 {{ box_icon("img/PvgisIcon64x64.png", "Výkon", "Výkon") }}
 
@@ -26,7 +26,7 @@ Umožňuje vyhodnotit potenciální výkon solárního záření na jednotlivé 
 ...Funkcionalita tlačítka <u>Výkon</u> se připravuje pro budoucí verzi programu...
 </p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 <!-- product: HiStruct Roofs -->
 

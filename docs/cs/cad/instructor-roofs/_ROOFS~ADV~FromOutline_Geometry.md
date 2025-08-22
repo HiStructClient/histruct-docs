@@ -6,14 +6,14 @@
 
 <p><b><u>Ovládací tlačítka</u> upravují vlastnosti střešní konstrukce pouze na vybrané střešní rovině.</b></p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 //// details | FÁZE 1: Chci vytvořit první střechu z obrysu
 
 <h1>Geometrie</h1>
 <p>Umožňuje měnit geometrické parametry modelu, tedy rozměry budovy a střechy včetně sklonu a přesahů.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/ImportDxfIcon64x64.png", "Podklad", "Podklad") }}
 
@@ -35,7 +35,7 @@ Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>
 
 {{ modal_video_button("img/VideoImportDXF.mp4") }}
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/RoofBoundaryIcon64x64.png", "Obrys", "Obrys") }}
 
@@ -73,39 +73,39 @@ Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>
 
 <p>Poslední vložený bod je možné smazat pomocí klávesy <b><u>DELETE</u></b>.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/ClassRectLoopIcon64x64.png", "Otvor", "Otvor") }}
 
 <p>Tlačítkem <u>Otvor</u> je možné do vygenerované střešní roviny vsadit otvor, zakresluje se jako půdorysný průmět.</p>
 <p>Otvor může být obdélníkový či obecného tvaru a lze mu přiřadit typ otvoru pro komín.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/EditPropertiesIcon64x64.png", "Vlastnosti", "Vlastnosti") }}
 
 <p>Umožňuje upravit způsob zadání geometrie, podle nastavení je možné kreslit obrys střechy nebo stěn.</p>
 <p>Taktéž je zde možné nastavit prolínání střešních rovin mezi jednotlivými objekty.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/DeleteIcon64x64.png", "Smazat", "Smazat") }}
 
 <p>Smaže všechny importované podklady a střešní konstrukce zakreslené pomocí funkce <u>Obrys</u>.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/DimensionLinearIcon64x64.png", "Anotace", "Anotace") }}
 
 <p>Tlačítko <u>Anotace</u> umožňuje do modelu přidávat libovolné půdorysné kóty.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/TapeMeasureIcon64x64.png", "Měření", "Měření") }}
 
 <p>Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/MainInsert64x64.png", "Přidat", "Přidat") }}
 
@@ -117,7 +117,7 @@ Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>
 
 ////
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 
 //// details | FÁZE 2: Po vytvoření první střechy z obrysu
@@ -131,13 +131,13 @@ Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>
 <p>Tlačítko <u>Rozměry</u> slouží k zakreslení půdorysného tvaru objektu, k nastavení výšky objektu a sklonu střechy a také k doplnění otvorů ve střešní konstrukci.</p>
 <p>Základní půdorysné rozměry je možné zadávat buď pro střešní konstrukci nebo pro svislé stěny.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 <!--{{ box_icon("img/RoofSketchIcon64x64.png", "Střecha", "Střecha") }}
 
 <p>Tlačítko <u>Střecha</u> umožňuje nastavit typ skladby střechy. Typ krytiny a rozměry sekundární střešní konstrukce lze měnit přes tlačítko <u>Opláštění</u>.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/PvgisIcon64x64.png", "Výkon", "Výkon") }}
 
@@ -149,13 +149,13 @@ Umožňuje vyhodnotit potenciální výkon solárního záření na jednotlivé 
 ...Funkcionalita tlačítka <u>Výkon</u> se připravuje pro budoucí verzi programu...
 </p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/DimensionLinearIcon64x64.png", "Anotace", "Anotace") }}
 
 <p>Tlačítko <u>Anotace</u> umožňuje do modelu přidávat libovolné půdorysné kóty.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/TapeMeasureIcon64x64.png", "Měření", "Měření") }}
 
@@ -163,6 +163,6 @@ Umožňuje vyhodnotit potenciální výkon solárního záření na jednotlivé 
 
 ////
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 <!-- product: HiStruct Roofs  -->

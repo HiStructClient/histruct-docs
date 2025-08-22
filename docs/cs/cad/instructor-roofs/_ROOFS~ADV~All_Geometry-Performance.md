@@ -8,7 +8,7 @@ Umožňuje vyhodnotit potenciální výkon solárního záření na jednotlivé 
 ...Funkcionalita tlačítka <u>Výkon</u> se připravuje pro budoucí verzi programu...
 </p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 <!-- product: HiStruct Roofs -->
 

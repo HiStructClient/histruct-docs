@@ -7,19 +7,19 @@
 
 <p><b>Nastavení a úpravy jednotlivých střešních a stěnových rovin je možné provést pomocí <u>Ovládacích a Editačních tlačítek</u>.</b></p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/RoofSketchIcon64x64.png", "Střecha", "Střecha") }}
 
 <p>Tlačítko <u>Střecha</u> umožňuje nastavit typ skladby střechy, typ střešní krytiny a rozměry sekundární střešní konstrukce pro celou střechu.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/WallIcon64x64.png", "Stěny #.#", "Stěny #.#") }}
 
 <p>Tlačítko <u>Stěny #.#</u> umožňuje nastavit typ výroby stěny, způsob kladení řad opláštění a výšku soklu.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/ControlButton.png", "", "Ovládací tlačítko", width=64) }}
 
@@ -46,7 +46,7 @@
 ///
 
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/EditButton.png", "", "Editační tlačítko", width=64) }}
 
@@ -62,7 +62,7 @@
 ///
 
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 
 <p><b><u>Pro jednotlivé vrstvy skladby opláštění na určené stěnové rovině umožňuje:</u></b></p>
@@ -78,7 +78,7 @@
 ///
 
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 <h2>Chybí vám v galerii některá krytina? Napište nám, doplníme ji.</h2>
 <a href="mailto:jiri.podval@histruct.com?subject=Dotaz na HiStruct konfigurátor budov" class="btn">

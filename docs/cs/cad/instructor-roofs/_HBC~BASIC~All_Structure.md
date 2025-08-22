@@ -11,13 +11,13 @@
 
 <p>Kliknutím na tlačítko <b><u>Ztužidlo v rovině</u></b> je možné do příslušné části stěny nebo střechy přidat ztužidlo, kterému lze následně nastavit materiál, průřez, geometrii a rozmístění v rámci dané roviny. Úpravy jednotlivých sekcí ztužidel je možné provádět přímo kliknutím na daný prut. Do dané roviny je možné přidávat více typů ztužidel.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/MainSettings64x64.png", "Nastavení", "Nastavení", fontSize=12) }}
 
 <p>...Funkcionalita tlačítka <u>Nastavení</u> se připravuje pro budoucí verzi programu...</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/ControlButton.png", "", "Ovládácí tlačítko", width=64) }}
 
@@ -30,7 +30,7 @@
   <li><p>Generování tlačených výztuh, pokud je uživatel chce v konstrukci použít.</p></li>
 </ul>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/EditButton.png", "", "Editační tlačítko", width=64) }}
 
@@ -41,7 +41,7 @@
 
 <p>Pokud je prvek z dané skupiny vyřazen, je možné jej dále upravovat nezávisle na původní skupině. Podle typu prvku je možné dále upravit jeho materiál, průřez, náběhy, umístění paty či aktivovat táhla.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/StiffenerButton.png", "", "Ztužidlo v rovině", width=64) }}
 
@@ -52,7 +52,7 @@
   <li><p>Do dané roviny je možné přidávat více typů ztužidel.</p></li>
 </ul>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 <!-- product: HiStruct Building Configurator -->
 

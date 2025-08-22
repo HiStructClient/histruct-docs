@@ -18,7 +18,7 @@
   <b><u>Ovládací a Editační tlačítka</u> upravují vlastnosti střešní konstrukce pouze na vybrané střešní rovině.</b>
 </p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icons([
   ("img/TilingEditIcon64x64.png", "Kladení"),
@@ -75,7 +75,7 @@
 </p></li>
 </ul>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/BomIcon64x64.png", "Kusovník", "Kusovník") }}
 
@@ -87,7 +87,7 @@
 Funckionalita nemusí být dočasně přístupná pro všechny vrstvy sklaby střechy
 </p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/MainDrawings64x64.png", "Výkres", "Výkres") }}
 
@@ -95,7 +95,7 @@ Funckionalita nemusí být dočasně přístupná pro všechny vrstvy sklaby st�
   Generuje výkres určené vrstvy střešní roviny. Výkres je možné dále editovat, doplnit popisky a kótami.
 </p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/TapeMeasureIcon64x64.png", "Měření", "Měření") }}
 

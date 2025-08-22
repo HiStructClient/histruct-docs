@@ -7,7 +7,7 @@
 <p>Po importu 3D objektu umožňuje v dalších krocích změnit nastavení generátoru hran a ploch, upravit rozměry a sklony vygenerovaných hran a ploch pomocí řešiče ROSOL.</p>
 <p><b><u>Ovládací tlačítka</u> upravují vlastnosti střešní konstrukce pouze na vybrané střešní rovině.</b></p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 //// details | FÁZE 1: Chci importovat soubor .obj
 
@@ -23,7 +23,7 @@
   Navštívit blog
 </a>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/ImportObjIcon64x64.png", "SoCol*.obj", "Import ze služby SoCol") }}
 
@@ -49,20 +49,20 @@ Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>
 
 </ul>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/ImportObjIcon64x64.png", "Rexplorer*.obj", "Import ze služby Rexplorer", fontSize=10) }}
 
 <p>Umožňuje importovat soubor typu .obj získaný ze služby Rexplorer.</p>
 <p>Vložení souboru do modelu je třeba potvrdit klinutím nebo klávesou ENTER.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/DimensionLinearIcon64x64.png", "Anotace", "Anotace") }}
 
 <p>Tlačítko <u>Anotace</u> umožňuje do modelu přidávat libovolné půdorysné kóty.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/TapeMeasureIcon64x64.png", "Měření", "Měření") }}
 
@@ -70,7 +70,7 @@ Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>
 
 ////
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 //// details | FÁZE 2: Po importu souboru .obj
 
@@ -80,22 +80,22 @@ Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>
 <h2>Úprava geometrie modelu po importu</h2>
 <p>Ihned po vložení modelu je možné v tabulce vlevo upravit měřítko importovaného modelu a změnit nastavení generovaných hran a ploch. Tytéž úpravy je možné později provést přes tlačítko <b><u>Import &gt; Nastavení</u></b>.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/Sheated_Building_Page_Building.png", "Import", "Import") }}
 <p>Umožňuje upravit měřítko importovaného modelu a přizpůsobit parametry generátoru střešních rovin.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 <!--{{ box_icon("img/RoofSketchIcon64x64.png", "Střecha", "Střecha") }}
 <p>Tlačítko <u>Střecha</u> umožňuje nastavit typ skladby střechy. Typ krytiny a rozměry sekundární střešní konstrukce lze měnit přes tlačítko <u>Opláštění</u>.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/ImportObjIcon64x64.png", "Rosol", "Rosol") }}
 <p>Umožňuje upravit rozměry a sklony vygenerovaných hran a ploch, změnit výšku a případně excentricitu střechy.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/PvgisIcon64x64.png", "Výkon", "Výkon") }}
 
@@ -107,18 +107,18 @@ Umožňuje vyhodnotit potenciální výkon solárního záření na jednotlivé 
 ...Funkcionalita tlačítka <u>Výkon</u> se připravuje pro budoucí verzi programu...
 </p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/DimensionLinearIcon64x64.png", "Anotace", "Anotace") }}
 <p>Tlačítko <u>Anotace</u> umožňuje do modelu přidávat libovolné půdorysné kóty.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/TapeMeasureIcon64x64.png", "Měření", "Měření") }}
 <p>Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.</p>
 
 ////
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 <!-- product: HiStruct Roofs -->

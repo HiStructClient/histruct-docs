@@ -2,7 +2,7 @@
 <h1>Geometrie &gt; Import</h1>
 <p>V menu <u><i>Geometrie &gt; Import</i></u> je možné změnit nastavení generátoru hran a ploch, upravit rozměry a sklony vygenerovaných hran a ploch pomocí řešiče ROSOL.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 <h2>Nastavení generovaných hran a ploch</h2>
 <p>Generátor vytvoří 3D model z trojúhelníkových ploch, které jsou ohraničeny hranami.</p>
@@ -37,7 +37,7 @@
 
 <p>Jednotlivé hrany v rámci aktivních střešních ploch je možné zapnout nebo vypnout a dále jim nastavit, zda je má generátor dále považovat za vodorovné či nikoliv.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/MainSettings64x64.png", "Nastavení", "Nastavení") }}
 
@@ -74,24 +74,24 @@
   <li><p>Slouží k nastavení maximálního sklonu hrany, při kterém bude hrana stále považována za vodorovnou.</p></li>
 </ul>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/PreviewGeometry64x64.png", "Náhled", "Náhled") }}
 
 <p>Tlačítkem <u>Náhled</u> je možné v modelovém prostoru zkontrolovat vygenerované střešní plochy a hrany, včetně jejich délek a sklonů.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/DimensionLinearIcon64x64.png", "Anotace", "Anotace") }}
 
 <p>Tlačítko <u>Anotace</u> umožňuje do modelu přidávat libovolné půdorysné kóty.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/TapeMeasureIcon64x64.png", "Měření", "Měření") }}
 
 <p>Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 <!-- product: HiStruct Roofs -->

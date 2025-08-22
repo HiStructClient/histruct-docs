@@ -5,31 +5,31 @@
 
 <p><b><u>Ovládací tlačítka</u> upravují vlastnosti konstrukce pouze na vybrané střešní či stěnové rovině.</b></p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/DuoPitchBuildingIcon64x64.png", "Budova #", "Budova #") }}
 
 <p>Tlačítko <u>Budova #</u> slouží k výběru jednoho z modelovaných objektů.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/DimensionLinearIcon64x64.png", "Anotace", "Anotace") }}
 
 <p>Tlačítko <u>Anotace</u> umožňuje do modelu přidávat libovolné půdorysné kóty.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/TapeMeasureIcon64x64.png", "Měření", "Měření") }}
 
 <p>Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/ControlButton.png", "", "Ovládací tlačítko", width=64) }}
 
 <p>Umožňuje nastavení typu skladby střechy pro jednotlivé střešní roviny.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 <!-- product: HiStruct Building Configurator -->
 

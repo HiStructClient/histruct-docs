@@ -18,7 +18,7 @@
   <b><u>Ovládací a Editační tlačítka</u> upravují vlastnosti střešní konstrukce pouze na vybrané střešní rovině.</b>
 </p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icons([
   ("img/TilingEditIcon64x64.png", "Kladení"),
@@ -75,7 +75,7 @@
 </p></li>
 </ul>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 <p>
 {{ box_icon("img/ColorsIcon64x64.png", "Barvy", "Barvy") }}
@@ -83,7 +83,7 @@
 <p>Tlačítko <u>Barvy</u> umožňuje nastavit barevné schéma pro danou stěnovou rovinu, podle typu schématu je možné nastavit barvy pro vybrané stěnové panely.</p>
 <p>Stěnové panely jsou číslovány od 0.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/BomIcon64x64.png", "Kusovník", "Kusovník") }}
 
@@ -95,7 +95,7 @@
 Funckionalita nemusí být dočasně přístupná pro všechny vrstvy sklaby opláštění.
 </p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/MainDrawings64x64.png", "Výkres", "Výkres") }}
 
@@ -103,7 +103,7 @@ Funckionalita nemusí být dočasně přístupná pro všechny vrstvy sklaby opl
   Generuje výkres určené vrstvy stěnové roviny. Výkres je možné dále editovat, doplnit popisky a kótami.
 </p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/TapeMeasureIcon64x64.png", "Měření", "Měření") }}
 

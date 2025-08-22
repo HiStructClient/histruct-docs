@@ -14,13 +14,13 @@ Menu <u><i>Příslušenství &gt; Interior &gt; Vložit</i></u> umožňuje do mo
   <li><p>u některých doplňků je také možné měnit jejich barvu</p></li>
 </ul>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
     
 {{ box_icon("img/RectBlockIcon64x64.png", "Objemy", "Objemy", fontSize=10) }}
 
 <p>Tlačítkem <u>Objemy</u> je možné do modelu vložit 3D geometrické doplňky.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icons([
   ("img/DecorationsOuter64x64.png", ""),
@@ -29,19 +29,19 @@ Menu <u><i>Příslušenství &gt; Interior &gt; Vložit</i></u> umožňuje do mo
 
 <p>Doplňkovými tlačítky je možné do modelu vložit další 3D doplňky.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 <!--{{ box_icon("img/MainInsert64x64.png", "Vložit", "Vložit", fontSize=10) }}
 
 <p>Tlačítkem <u>Vložit</u> je možné do modelu vložit vybrané doplňky.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 <!--{{ box_icon("img/TapeMeasureIcon64x64.png", "Měření", "Měření") }}
 
 <p>Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 <!-- product: HiStruct Building Configurator -->
 

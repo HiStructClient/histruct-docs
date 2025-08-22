@@ -12,13 +12,13 @@
   <li><p>Přes <u>Editační tlačítka</u> v modelu je možné editovat vlastnosti jednotlivých vrstev stěnové konstrukce na určené stěnové rovině, taktéž umožňují vytvářet výkazy materiálů a výkresy příslušných vrstev stěnové konstrukce.</p></li>
 </ul>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/EditPropertiesIcon64x64.png", "Rozvržení", "Rozvržení") }}
 
 <p>Tlačítko <u>Rozvržení</u> umožňuje nastavit typ výroby, kladení řad opláštění a výšku soklu.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 <h2>Nastavení vrstev opláštění stěny</h2>
 
@@ -36,28 +36,28 @@ Pro některé typy opláštění může být v defaultním stavu tlačítko <u>V
 
 <p>Tlačítko <u>Sokl</u> je dostupné podle typu výroby stěny nastavené v <u>Rozvržení</u>.
 
-<hr> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr>
 
 {{ box_icon("img/RoofTopLayer_64x64.png", "Vrchní vrstva", "Vrchní vrstva", fontSize=10) }}
 <ul>
   <li><p>Umožňuje výběr materiálu opláštění z připravené galerie výrobků.</p></li>
 </ul>
 
-<hr> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr>
 
 {{ box_icon("img/RoofLowerLayers_64x64.png", "Vnitřní vrstvy", "Vnitřní vrstvy", fontSize=10) }}
 <ul>
   <li><p>Umožňuje výběr typu skladby sekundární konstrukce z připravené galerie výrobků.</p></li>
 </ul>
 
-<hr> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr>
 
 {{ box_icon("img/WallPartLayerIcon64x64.png", "Sokl", "Sokl", fontSize=10) }}
 <ul>
   <li><p>Umožňuje výběr materiálu soklu z připravené galerie výrobků.</p></li>
 </ul>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/ControlButton.png", "", "Ovládací tlačítko", width=64) }}
 
@@ -84,7 +84,7 @@ Pro některé typy opláštění může být v defaultním stavu tlačítko <u>V
 ///
 
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/EditButton.png", "", "Editační tlačítko", width=64) }}
 
@@ -100,7 +100,7 @@ Pro některé typy opláštění může být v defaultním stavu tlačítko <u>V
 ///
 
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 
 <p><b><u>Pro jednotlivé vrstvy skladby opláštění na určené stěnové rovině umožňuje:</u></b></p>
@@ -116,7 +116,7 @@ Pro některé typy opláštění může být v defaultním stavu tlačítko <u>V
 ///
 
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 <h2>Chybí vám v galerii některá krytina? Napište nám, doplníme ji.</h2>
 <a href="mailto:jiri.podval@histruct.com?subject=Dotaz na HiStruct konfigurátor budov" class="btn">

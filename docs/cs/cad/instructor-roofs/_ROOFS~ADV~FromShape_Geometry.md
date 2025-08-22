@@ -9,7 +9,7 @@
     <b><u>Ovládací tlačítka</u> upravují vlastnosti střešní konstrukce pouze na vybrané střešní rovině.</b>
   </p>
 
-  <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+  <hr class="main">
 
   {{ box_icon("img/Sheated_Building_Page_Building.png", "Budova", "Budova") }}
 
@@ -28,9 +28,9 @@
     Tlačítko <u>Střecha</u> umožňuje nastavit typ skladby střechy. Typ krytiny a rozměry sekundární střešní konstrukce lze měnit přes tlačítko <u>Opláštění</u>.
   </p>
 
-  <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+  <hr class="main">
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/PvgisIcon64x64.png", "Výkon", "Výkon") }}
 
@@ -42,14 +42,14 @@ Umožňuje vyhodnotit potenciální výkon solárního záření na jednotlivé 
 ...Funkcionalita tlačítka <u>Výkon</u> se připravuje pro budoucí verzi programu...
 </p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
   {{ box_icon("img/DimensionLinearIcon64x64.png", "Anotace", "Anotace") }}
 
   <p>
     Tlačítko <u>Anotace</u> umožňuje do modelu přidávat libovolné půdorysné kóty.
   </p>
 
-  <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+  <hr class="main">
 
   {{ box_icon("img/TapeMeasureIcon64x64.png", "Měření", "Měření") }}
 
@@ -57,7 +57,7 @@ Umožňuje vyhodnotit potenciální výkon solárního záření na jednotlivé 
     Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.
   </p>
 
-  <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+  <hr class="main">
 
 <!-- product: HiStruct Roofs -->
 

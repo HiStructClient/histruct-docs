@@ -2,14 +2,14 @@
 <h1>Geometrie &gt; Rozměry</h1>
 <p>Umožňuje měnit geometrické parametry modelu, tedy rozměry okapových hran, sklon a přesah střechy. Taktéž je možné změnit výšku celé střešní konstrukce.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 <h2>Editace jednotlivých hran</h2>
 <p><b>Po kliknutí na příslušnou okapovou hranu je možné nastavit typ hrany, provést úpravu její délky, nastavení sklonu příslušné části střechy a jejího přesahu.</b></p>
 
 {{ modal_video_button("img/VideoEditEdges.mp4") }}
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/ImportDxfIcon64x64.png", "Podklad", "Podklad") }}
 
@@ -31,7 +31,7 @@ Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>
 
 {{ modal_video_button("img/VideoImportDXF.mp4") }}
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/ClassRectLoopIcon64x64.png", "Otvor", "Otvor") }}
 
@@ -42,44 +42,44 @@ Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>
 
 {{ modal_video_button("img/VideoEditOpenings.mp4") }}
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/SetSlopeIcon64x64.png", "Sklon", "Sklon") }}
 
 <p>Tlačítkem <u>Sklon</u> je možné nastavit stejný sklon pro všechny střešní roviny.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/RoofLiftIcon64x64.png", "Zvednout", "Zvednout") }}
 
 <p>Tlačítkem <u>Zvednout</u> je možné upravit výšku stěn modelovaného objektu.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/EditPropertiesIcon64x64.png", "Vlastnosti", "Vlastnosti") }}
 
 <p>Umožňuje upravit způsob zadání geometrie, podle nastavení je možné kreslit obrys střechy nebo stěn.</p>
 <p>Taktéž je zde možné nastavit prolínání střešních rovin mezi jednotlivými objekty.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/DeleteIcon64x64.png", "Smazat", "Smazat") }}
 
 <p>Smaže všechny importované podklady a střešní konstrukce zakreslené pomocí funkce <u>Obrys</u>.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/DimensionLinearIcon64x64.png", "Anotace", "Anotace") }}
 
 <p>Tlačítko <u>Anotace</u> umožňuje do modelu přidávat libovolné půdorysné kóty.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/TapeMeasureIcon64x64.png", "Měření", "Měření") }}
 
 <p>Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.</p>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 {{ box_icon("img/MainInsert64x64.png", "Přidat", "Přidat") }}
 
@@ -89,6 +89,6 @@ Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>
   <li><p>Střechu zakreslenou pomocí střešních ploch</p></li>
 </ul>
 
-<hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
+<hr class="main">
 
 <!-- product: HiStruct Roofs -->
