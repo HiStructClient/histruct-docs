@@ -22,25 +22,10 @@ Menu <u><i>Příslušenství &gt; Vložit</i></u> umožňuje do modelu přidáva
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/DecorationsOuter64x64.png" alt="DecorationsOuter64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">.</div>
-      </div>
-    </td>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/StructureGroupIcon64x64.png" alt="StructureGroupIcon64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">.</div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      ... a další
-    </td>
-  </tr>
-</table>
+{{ box_icons([
+  ("img/DecorationsOuter64x64.png", ""),
+  ("img/StructureGroupIcon64x64.png", ""),
+], "... a další") }}
 
 <p>Doplňkovými tlačítky je možné do modelu vložit další 3D doplňky.</p>
 

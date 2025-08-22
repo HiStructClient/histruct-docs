@@ -7,25 +7,10 @@
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<p>
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/TilingEditIcon64x64.png" alt="TilingEditIcon64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">Kladení</div>
-      </div>
-    </td>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/TilingEditIcon64x64.png" alt="TilingEditIcon64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">Vrstva</div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">Kladení / Vrstva</td>
-  </tr>
-</table>
-</p>
+{{ box_icons([
+  ("img/TilingEditIcon64x64.png", "Kladení"),
+  ("img/TilingEditIcon64x64.png", "Vrstva")
+], "Kladení / Vrstva") }}
 
 <h3>Kladení</h3>
 

@@ -21,45 +21,12 @@
 
   <p>Tlačítko <u>Plocha</u> slouží k zakreslení půdorysného obrysu střešní roviny. Střešní roviny lze kreslit pomocí předdefinovaných tvarů ploch:</p>
 
-  <table>
-    <tr>
-      <td>
-        <div style="position: relative; width: 55px; height: 55px;">
-          <img src="img/GeneralLoopIcon64x64.png" alt="GeneralLoopIcon64x64.png" width="55" height="55">
-          <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
-            Obecný
-          </div>
-        </div>
-      </td>
-      <td>
-        <div style="position: relative; width: 55px; height: 55px;">
-          <img src="img/ClassRectLoopIcon64x64.png" alt="ClassRectLoopIcon64x64.png" width="55" height="55">
-          <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
-            Obdélník
-          </div>
-        </div>
-      </td>
-      <td>
-        <div style="position: relative; width: 55px; height: 55px;">
-          <img src="img/ClassTriangleLoopIcon64x64.png" alt="ClassTriangleLoopIcon64x64.png" width="55" height="55">
-          <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
-            Trojúhelník
-          </div>
-        </div>
-      </td>
-      <td>
-        <div style="position: relative; width: 55px; height: 55px;">
-          <img src="img/ClassTrapezoidLoopIcon64x64.png" alt="ClassTrapezoidLoopIcon64x64.png" width="55" height="55">
-          <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
-            Lichoběžník
-          </div>
-        </div>
-      </td>
-      <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-        ... a další
-      </td>
-    </tr>
-  </table>
+{{ box_icons([
+  ("img/GeneralLoopIcon64x64.png", "Obecný"),
+  ("img/ClassRectLoopIcon64x64.png", "Obdélník"),
+  ("img/ClassTriangleLoopIcon64x64.png", "Trojúhelník"),
+  ("img/ClassTrapezoidLoopIcon64x64.png", "Lichoběžník"),
+], "... a další", width=55, height=55, fontSize=10) }}
 
   <p>Po zakreslení či vložení plochy je možné v závislosti na typu plochy upravovat její rozměry a sklon, a také výšku i směr okapové hrany v příslušné otevřené tabulce.</p>
 
@@ -109,29 +76,10 @@
 
   <hr> <!-- Vodorovná čára jako oddělovač sekce -->
 
-  <table>
-    <tr>
-      <td>
-        <div style="position: relative; width: 55px; height: 55px;">
-          <img src="img/ClassTriangleLoopIcon64x64.png" alt="ClassTriangleLoopIcon64x64.png" width="55" height="55">
-          <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
-            Trojúhelník
-          </div>
-        </div>
-      </td>
-      <td>
-        <div style="position: relative; width: 55px; height: 55px;">
-          <img src="img/ClassTrapezoidLoopIcon64x64.png" alt="ClassTrapezoidLoopIcon64x64.png" width="55" height="55">
-          <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
-            Lichoběžník
-          </div>
-        </div>
-      </td>
-      <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-        ... a další
-      </td>
-    </tr>
-  </table>
+{{ box_icons([
+  ("img/ClassTriangleLoopIcon64x64.png", "Trojúhelník"),
+  ("img/ClassTrapezoidLoopIcon64x64.png", "Lichoběžník"),
+], "... a další", width=55, height=55, fontSize=10) }}
 
   <p>Střešní rovinu dalších tvarů lze zadat přímo kliknutím do modelovacího prostoru, následně lze v editační tabulce upravit rozměry.</p>
 

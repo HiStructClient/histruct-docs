@@ -12,45 +12,12 @@
 <h2>Editace skupin prvků pomocí tlačítek vlevo</h2>
 <p>Kliknutím na tlačítko lemovacího prvku na levé straně je možné editovat vlastnosti celé příslušné skupiny lemovacích prvků.</p>
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 55px; height: 55px;">
-        <img src="img/FlashingGableTrimIcon64x64.png" alt="FlashingGableTrimIcon64x64.png" width="55" height="55">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
-          Štít
-        </div>
-      </div>
-    </td>
-    <td>
-      <div style="position: relative; width: 55px; height: 55px;">
-        <img src="img/FlashingGutterIcon64x64.png" alt="FlashingGutterIcon64x64.png" width="55" height="55">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
-          Okap
-        </div>
-      </div>
-    </td>
-    <td>
-      <div style="position: relative; width: 55px; height: 55px;">
-        <img src="img/FlashingGutterApronIcon64x64.png" alt="FlashingGutterApronIcon64x64.png" width="55" height="55">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
-          Okapnice
-        </div>
-      </div>
-    </td>
-    <td>
-      <div style="position: relative; width: 55px; height: 55px;">
-        <img src="img/FlashingRidgeRidgeIcon64x64.png" alt="FlashingRidgeRidgeIcon64x64.png" width="55" height="55">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
-          Hřeben
-        </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      ... a další
-    </td>
-  </tr>
-</table>
+{{ box_icons([
+  ("img/FlashingGableTrimIcon64x64.png", "Štít"),
+  ("img/FlashingGutterIcon64x64.png", "Okap"),
+  ("img/FlashingGutterApronIcon64x64.png", "Okapnice"),
+  ("img/FlashingRidgeRidgeIcon64x64.png", "Hřeben")
+], "... a další", width=55, height=55, fontSize=10) }}
 
 <p>Provedené změny vlastností se propíší na všechny prvky spadající do určené skupiny.</p>
 
