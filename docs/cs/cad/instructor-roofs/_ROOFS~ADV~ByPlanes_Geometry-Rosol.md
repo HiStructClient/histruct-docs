@@ -30,101 +30,31 @@ Přímo v modelu je nyní možné upravit typ, délku a případně vynutit vodo
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/RoofLiftIcon64x64.png" alt="RoofLiftIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Zvednout
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Zvednout
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/RoofLiftIcon64x64.png", "Zvednout", "Zvednout") }}
 
 Tlačítkem <u>Zvednout</u> je možné upravit výšku stěn modelovaného objektu.
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/RoofEccentricityIcon64x64.png" alt="RoofEccentricityIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Excentricita
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Excentricita
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/RoofEccentricityIcon64x64.png", "Excentricita", "Excentricita") }}
 
 Tlačítkem <u>Excentricita</u> je možné odsadit skladbu střechy mimo generovanou střešní rovinu o určenou hodnotu.
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/LockIcon64x64.png" alt="LockIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Zámky
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Zámky
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/LockIcon64x64.png", "Zámky", "Zámky") }}
 
 Tlačítkem <u>Zámky</u> je možné uzamknout či odemknout sklony všech střešních rovin.
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/StartOverIcon64x64.png" alt="StartOverIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Znovu
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Znovu
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/StartOverIcon64x64.png", "Znovu", "Znovu") }}
 
 Tlačítkem <u>Znovu</u> je možné smazat všechny uživatelské úpravy geometrie a vrátit se zpět k původnímu výsledku řešiče.
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/TapeMeasureIcon64x64.png" alt="TapeMeasureIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Měření
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Měření
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/TapeMeasureIcon64x64.png", "Měření", "Měření") }}
 
 Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.
 

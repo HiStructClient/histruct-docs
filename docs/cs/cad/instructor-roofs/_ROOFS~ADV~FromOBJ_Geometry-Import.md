@@ -39,21 +39,7 @@
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/MainSettings64x64.png" alt="MainSettings64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-        Nastavení
-        </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Nastavení
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/MainSettings64x64.png", "Nastavení", "Nastavení") }}
 
 <p>Umožňuje upravit měřítko importovaného modelu a přizpůsobit parametry generátoru střešních rovin.</p>
 
@@ -90,61 +76,19 @@
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/PreviewGeometry64x64.png" alt="PreviewGeometry64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-        Náhled
-        </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Náhled
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/PreviewGeometry64x64.png", "Náhled", "Náhled") }}
 
 <p>Tlačítkem <u>Náhled</u> je možné v modelovém prostoru zkontrolovat vygenerované střešní plochy a hrany, včetně jejich délek a sklonů.</p>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/DimensionLinearIcon64x64.png" alt="DimensionLinearIcon64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-        Anotace
-        </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Anotace
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/DimensionLinearIcon64x64.png", "Anotace", "Anotace") }}
 
 <p>Tlačítko <u>Anotace</u> umožňuje do modelu přidávat libovolné půdorysné kóty.</p>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/TapeMeasureIcon64x64.png" alt="TapeMeasureIcon64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-        Měření
-        </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Měření
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/TapeMeasureIcon64x64.png", "Měření", "Měření") }}
 
 <p>Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.</p>
 

@@ -45,16 +45,7 @@
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <img src="img/AddButton.png" alt="AddButton.png" width="64">
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Přidat
-    </td>
-  </tr> 
-</table>
+{{ box_icon("img/AddButton.png", "", "Přidat", width=64) }}
 
 <p>Tlačítko <u>Přidat</u> umožňuje přidat k příslušnému okapovému žlabu další okapový svod.</p>
 

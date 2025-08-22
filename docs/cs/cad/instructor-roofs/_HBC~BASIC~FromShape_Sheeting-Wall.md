@@ -5,21 +5,7 @@
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/EditPropertiesIcon64x64.png" alt="EditPropertiesIcon64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-          Rozvržení
-        </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Rozvržení
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/EditPropertiesIcon64x64.png", "Rozvržení", "Rozvržení") }}
 
 <p>Tlačítko <u>Rozvržení</u> umožňuje nastavit typ výroby, kladení řad opláštění a výšku soklu.</p>
 
@@ -43,66 +29,21 @@ Pro některé typy opláštění může být v defaultním stavu tlačítko <u>V
 
 <hr> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/RoofTopLayer_64x64.png" alt="RoofTopLayer_64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
-      Vrchní vrstva
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Vrchní vrstva
-    </td>
-  </tr>
-</table>
-
+{{ box_icon("img/RoofTopLayer_64x64.png", "Vrchní vrstva", "Vrchní vrstva", fontSize=10) }}
 <ul>
   <li><p>Umožňuje výběr materiálu opláštění z připravené galerie výrobků.</p></li>
 </ul>
 
 <hr> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/RoofLowerLayers_64x64.png" alt="RoofLowerLayers_64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
-      Vnitřní vrstvy
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Vnitřní vrstvy
-    </td>
-  </tr>
-</table>
-
+{{ box_icon("img/RoofLowerLayers_64x64.png", "Vnitřní vrstvy", "Vnitřní vrstvy", fontSize=10) }}
 <ul>
   <li><p>Umožňuje výběr typu skladby sekundární konstrukce z připravené galerie výrobků.</p></li>
 </ul>
 
 <hr> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/WallPartLayerIcon64x64.png" alt="WallPartLayerIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
-      Sokl
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Sokl
-    </td>
-  </tr>
-</table>
-
+{{ box_icon("img/WallPartLayerIcon64x64.png", "Sokl", "Sokl", fontSize=10) }}
 <ul>
   <li><p>Umožňuje výběr materiálu soklu z připravené galerie výrobků.</p></li>
 </ul>

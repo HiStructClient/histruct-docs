@@ -36,7 +36,7 @@
     <style>
         body {
             color: white;
-            background-color: transparent;
+            background-color: black;
             font-size: 14px;
             font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
             padding-right: 10px;
@@ -240,13 +240,13 @@
         details[open] {
             padding-bottom: 10px;
             
-            summary {
+            & > summary {
                 border-bottom: 1px solid #ccc;
                 margin-bottom: 8px;
             }
             
             /* otočení šipky při otevření */
-            summary::after {
+            & > summary::after {
                 transform: rotate(90deg);
             }
         }

@@ -35,6 +35,38 @@ def define_env(env):
   </button>
 </div>
 """
+
+
+    # vlastní snippet pro ikonu s textem
+    @env.macro
+    def box_icon(img, text, title, fontSize=12, width=0, height=0):
+        if width == 0 and height == 0:
+            width = 64
+            height = 64
+
+        img = f"""<img src="{img}" {"width=" + str(width) + "\"" if width > 0 else ""} {"height=" + str(height) + "\"" if height > 0 else ""}>"""
+        # if text is not null or empty
+        if text:
+            img = f"""
+      <div style="position: relative; {"width: " + str(width) + "px;" if width > 0 else ""} {"height: " + str(height) + "px;" if height > 0 else ""}">
+        {img}
+        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: {fontSize}px; text-align: center;">
+          {text}
+        </div>
+      </div>
+"""
+        return f"""
+<table>
+  <tr>
+    <td>
+      {img}
+    </td>
+    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
+      {title}
+    </td>
+  </tr>
+</table>
+"""
     
 
     @env.macro

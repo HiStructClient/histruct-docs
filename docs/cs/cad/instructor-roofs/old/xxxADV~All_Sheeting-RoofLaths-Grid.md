@@ -11,21 +11,7 @@ V menu <u><i>Opláštění &gt; Laťování &gt; Síť</i></u> přístupném př
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/WallPartIcon64x64.png" alt="WallPartIcon64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-          Materiál
-        </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Materiál
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/WallPartIcon64x64.png", "Materiál", "Materiál") }}
 
 <p>
   Umožňuje výběr materiálu pro danou vrstvu střešní konstrukce z připravené galerie výrobků, zde je možné vybrat požadovaný průřez latí včetně jejich rozteče.
@@ -33,21 +19,7 @@ V menu <u><i>Opláštění &gt; Laťování &gt; Síť</i></u> přístupném př
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/EditPropertiesIcon64x64.png" alt="EditPropertiesIcon64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-          Vlastnosti
-        </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Vlastnosti
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/EditPropertiesIcon64x64.png", "Vlastnosti", "Vlastnosti") }}
 
 <ul>
   <li><p>Tlačítko <u>Vlastnosti</u> umožňuje nastavit rozteče mezi prvky laťování, upravit úhel kladené vrstvy laťování a odsazení prvního prvku od kraje střechy.</p></li>
@@ -55,12 +27,7 @@ V menu <u><i>Opláštění &gt; Laťování &gt; Síť</i></u> přístupném př
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td><img src="img/ControlButton.png" alt="ControlButton.png" width="64"></td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">Ovládací tlačítko</td>
-  </tr> 
-</table>
+{{ box_icon("img/ControlButton.png", "", "Ovládací tlačítko", width=64) }}
 
 <p>Pro jednotlivé střešní roviny umožňuje:</p>
 
@@ -71,12 +38,7 @@ V menu <u><i>Opláštění &gt; Laťování &gt; Síť</i></u> přístupném př
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td><img src="img/EditButton.png" alt="EditButton.png" width="64"></td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">Editační tlačítko</td>
-  </tr> 
-</table>
+{{ box_icon("img/EditButton.png", "", "Editační tlačítko", width=64) }}
 
 <p>Pro jednotlivé vrstvy skladby střechy na určené střešní rovině umožňuje:</p>
 

@@ -72,3 +72,8 @@ extra:
       open_video: "▶ Vezi demo"
       close_video: "Închideți videoclipul"
       unsupported_video: "Browserul dumneavoastră nu suportă redarea videoclipurilor."
+
+
+markdown_extensions:
+  - admonition        # (doporučené, často spolu)
+  - pymdownx.blocks.details

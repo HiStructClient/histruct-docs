@@ -5,21 +5,7 @@
 
   <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-  <table>
-    <tr>
-      <td>
-        <div style="position: relative; width: 64px; height: 64px;">
-          <img src="img/Sheated_Building_Page_Building.png" alt="Sheated_Building_Page_Building.png" width="64" height="64">
-          <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-            Budova
-          </div>
-        </div>
-      </td>
-      <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-        Budova
-      </td>
-    </tr>
-  </table>
+{{ box_icon("img/Sheated_Building_Page_Building.png", "Budova", "Budova") }}
 
   <p>Tlačítkem <u>Budova</u> lze nastavit půdorysné rozměry a výšku budovy a upravit sklon střechy.</p>
 
@@ -30,21 +16,7 @@
 
   <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/PvgisIcon64x64.png" alt="PvgisIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Výkon
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Výkon
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/PvgisIcon64x64.png", "Výkon", "Výkon") }}
 
 <p>
 Umožňuje vyhodnotit potenciální výkon solárního záření na jednotlivé střešní plochy.

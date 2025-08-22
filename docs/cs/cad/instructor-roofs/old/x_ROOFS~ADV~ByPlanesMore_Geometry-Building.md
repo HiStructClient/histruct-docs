@@ -10,21 +10,7 @@ Umožňuje kreslit střešní roviny, měnit jejich tvary, rozměry či sklony, 
 </p>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/Sheated_Building_Page_Building.png" alt="Sheated_Building_Page_Building.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Rozměry
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Rozměry
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/Sheated_Building_Page_Building.png", "Rozměry", "Rozměry") }}
 
 <p>
 Tlačítko <u>Rozměry</u> slouží k kreslení a vkládání střešních rovin. Pro tyto roviny je možné dále upravovat jejich geometrii, vytvářet v nich otvory a nastavit parametry pro správné propojení rovin.
@@ -33,21 +19,7 @@ Tlačítko <u>Rozměry</u> slouží k kreslení a vkládání střešních rovin
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<!--<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/RoofSketchIcon64x64.png" alt="RoofSketchIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Střecha
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px;">
-      Střecha
-    </td>
-  </tr>
-</table>
+<!--{{ box_icon("img/RoofSketchIcon64x64.png", "Střecha", "Střecha") }}
 
 <p>
 Tlačítko <u>Střecha</u> umožňuje nastavit typ skladby střechy. Typ krytiny a rozměry sekundární střešní konstrukce lze měnit přes tlačítko <u>Opláštění</u>.

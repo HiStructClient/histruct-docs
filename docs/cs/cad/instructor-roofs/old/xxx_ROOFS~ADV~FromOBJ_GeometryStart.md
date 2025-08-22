@@ -16,21 +16,7 @@
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/ImportObjIcon64x64.png" alt="ImportObjIcon64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-        SoCol*.obj
-        </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Import ze služby SoCol
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/ImportObjIcon64x64.png", "SoCol*.obj", "Import ze služby SoCol") }}
 
 <p>Umožňuje importovat soubor typu .obj získaný ze služby SoCol.</p>
 <p>Vložení souboru do modelu je třeba potvrdit klinutím nebo klávesou ENTER.</p> 
@@ -56,62 +42,20 @@ Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/ImportObjIcon64x64.png" alt="ImportObjIcon64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
-        Rexplorer*.obj
-        </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Import ze služby Rexplorer
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/ImportObjIcon64x64.png", "Rexplorer*.obj", "Import ze služby Rexplorer", fontSize=10) }}
 
 <p>Umožňuje importovat soubor typu .obj získaný ze služby Rexplorer.</p>
 <p>Vložení souboru do modelu je třeba potvrdit klinutím nebo klávesou ENTER.</p>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/DimensionLinearIcon64x64.png" alt="DimensionLinearIcon64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-        Anotace
-        </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Anotace
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/DimensionLinearIcon64x64.png", "Anotace", "Anotace") }}
 
 <p>Tlačítko <u>Anotace</u> umožňuje do modelu přidávat libovolné půdorysné kóty.</p>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/TapeMeasureIcon64x64.png" alt="TapeMeasureIcon64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-        Měření
-        </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Měření
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/TapeMeasureIcon64x64.png", "Měření", "Měření") }}
 
 <p>Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.</p>
 

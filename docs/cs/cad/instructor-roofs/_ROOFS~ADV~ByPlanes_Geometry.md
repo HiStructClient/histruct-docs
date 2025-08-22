@@ -23,21 +23,7 @@ Umožňuje kreslit střešní roviny, měnit jejich tvary, rozměry či sklony, 
 </p>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/ImportDxfIcon64x64.png" alt="ImportDxfIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Podklad
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Podklad
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/ImportDxfIcon64x64.png", "Podklad", "Podklad") }}
 
 <p>Tlačítko <u>Podklad</u> slouží k importu podkladu pro rychlejší kreslení obrysu střechy.</p> 
 
@@ -59,21 +45,7 @@ Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/TiledAreaGeneralIcon64x64.png" alt="TiledAreaGeneralIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Plocha
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Plocha
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/TiledAreaGeneralIcon64x64.png", "Plocha", "Plocha") }}
 
 <p>
 Tlačítko <u>Plocha</u> slouží k zakreslení půdorysného obrysu střešní roviny. Střešní roviny lze kreslit pomocí předdefinovaných tvarů ploch:
@@ -125,21 +97,7 @@ Po zakreslení či vložení plochy je možné v závislosti na typu plochy upra
 
 <hr> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-    <tr>
-      <td>
-        <div style="position: relative; width: 64px; height: 64px;">
-          <img src="img/GeneralLoopIcon64x64.png" alt="GeneralLoopIcon64x64.png" width="64" height="64">
-          <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-            Obecný
-          </div>
-        </div>
-      </td>
-      <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-        Obecný
-      </td>
-    </tr>
-  </table>
+{{ box_icon("img/GeneralLoopIcon64x64.png", "Obecný", "Obecný") }}
 
   <p>Tlačítkem <u>Obecný</u> je možné kreslit střešní rovinu libovolného tvaru, přičemž kreslení je možné jednak v půdorysné rovině, ale také ve 3D prostoru. K tomu lze využít:</p>
 
@@ -178,21 +136,7 @@ Po zakreslení či vložení plochy je možné v závislosti na typu plochy upra
 
 <hr> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/ClassRectLoopIcon64x64.png" alt="ClassRectLoopIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Obdélník
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Obdélník
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/ClassRectLoopIcon64x64.png", "Obdélník", "Obdélník") }}
 
 <p>
 Střešní rovinu obdélníkového tvaru lze zadat volným klikáním do půdorysné roviny nebo pomocí jeho rozměrů ve tvaru "X;Y", tedy např. <b>2;4</b>.
@@ -249,21 +193,7 @@ Plochu lze pomocí tlačítek v horní části tabulky kopírovat, smazat, otá�
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/ClassRectLoopIcon64x64.png" alt="ClassRectLoopIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Otvor
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Otvor
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/ClassRectLoopIcon64x64.png", "Otvor", "Otvor") }}
 
 <p>
 Tlačítkem <u>Otvor</u> je možné do vygenerované střešní roviny vsadit otvor, zakresluje se jako půdorysný průmět.
@@ -285,21 +215,7 @@ Po kliknutí na příslušný otvor lze pomocí tlačítek v horní části otev
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/DimensionLinearIcon64x64.png" alt="DimensionLinearIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Anotace
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Anotace
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/DimensionLinearIcon64x64.png", "Anotace", "Anotace") }}
 
 <p>
 Tlačítko <u>Anotace</u> umožňuje do modelu přidávat libovolné půdorysné kóty.
@@ -307,21 +223,7 @@ Tlačítko <u>Anotace</u> umožňuje do modelu přidávat libovolné půdorysné
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/TapeMeasureIcon64x64.png" alt="TapeMeasureIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Měření
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Měření
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/TapeMeasureIcon64x64.png", "Měření", "Měření") }}
 
 <p>
 Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.
@@ -329,21 +231,7 @@ Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/MainInsert64x64.png" alt="MainInsert64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Přidat
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Přidat
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/MainInsert64x64.png", "Přidat", "Přidat") }}
 
 <p>
 Tlačítkem <u>Přidat</u> je možné do modelového prostoru přidat další (vedlejší) střešní konstrukce.
@@ -369,21 +257,7 @@ Tlačítkem <u>Přidat</u> je možné do modelového prostoru přidat další (v
   <div class="panel">
   <h1>Geometrie</h1>
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/Sheated_Building_Page_Building.png" alt="Sheated_Building_Page_Building.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Rozměry
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Rozměry
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/Sheated_Building_Page_Building.png", "Rozměry", "Rozměry") }}
 
 <p>
 Tlačítko <u>Rozměry</u> slouží ke kreslení a vkládání střešních rovin. Pro tyto roviny je možné dále upravovat jejich geometrii, vytvářet v nich otvory a nastavit parametry pro správné propojení rovin.
@@ -392,41 +266,13 @@ Tlačítko <u>Rozměry</u> slouží ke kreslení a vkládání střešních rovi
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<!--<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/RoofSketchIcon64x64.png" alt="RoofSketchIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Střecha
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Střecha
-    </td>
-  </tr>
-</table>
+<!--{{ box_icon("img/RoofSketchIcon64x64.png", "Střecha", "Střecha") }}
 
 Tlačítko <u>Střecha</u> umožňuje nastavit typ skladby střechy. Typ krytiny a rozměry sekundární střešní konstrukce lze měnit přes tlačítko <u>Opláštění</u>.
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/ImportObjIcon64x64.png" alt="ImportObjIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Rosol
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Rosol
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/ImportObjIcon64x64.png", "Rosol", "Rosol") }}
 
 <p>
 Umožňuje upravit rozměry a sklony vygenerovaných hran a ploch, změnit výšku a případně excentricitu střechy.
@@ -434,21 +280,7 @@ Umožňuje upravit rozměry a sklony vygenerovaných hran a ploch, změnit výš
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/PvgisIcon64x64.png" alt="PvgisIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Výkon
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Výkon
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/PvgisIcon64x64.png", "Výkon", "Výkon") }}
 
 <p>
 Umožňuje vyhodnotit potenciální výkon solárního záření na jednotlivé střešní plochy.
@@ -460,21 +292,7 @@ Umožňuje vyhodnotit potenciální výkon solárního záření na jednotlivé 
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/DimensionLinearIcon64x64.png" alt="DimensionLinearIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Anotace
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Anotace
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/DimensionLinearIcon64x64.png", "Anotace", "Anotace") }}
 
 <p>
 Tlačítko <u>Anotace</u> umožňuje do modelu přidávat libovolné půdorysné kóty.
@@ -482,21 +300,7 @@ Tlačítko <u>Anotace</u> umožňuje do modelu přidávat libovolné půdorysné
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/TapeMeasureIcon64x64.png" alt="TapeMeasureIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Měření
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Měření
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/TapeMeasureIcon64x64.png", "Měření", "Měření") }}
 
 <p>
 Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.

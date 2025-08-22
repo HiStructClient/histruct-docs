@@ -7,41 +7,13 @@
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/DuoPitchBuildingIcon64x64.png" alt="DuoPitchBuildingIcon64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-          Budova #
-        </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Budova #
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/DuoPitchBuildingIcon64x64.png", "Budova #", "Budova #") }}
 
 <p>Tlačítko <u>Budova #</u> slouží k výběru jednoho z modelovaných objektů.</p>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/PvgisIcon64x64.png" alt="PvgisIcon64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-      Výkon
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Výkon
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/PvgisIcon64x64.png", "Výkon", "Výkon") }}
 
 <p>
 Umožňuje vyhodnotit potenciální výkon solárního záření na jednotlivé střešní plochy.
@@ -53,41 +25,13 @@ Umožňuje vyhodnotit potenciální výkon solárního záření na jednotlivé 
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/DimensionLinearIcon64x64.png" alt="DimensionLinearIcon64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-          Anotace
-        </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Anotace
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/DimensionLinearIcon64x64.png", "Anotace", "Anotace") }}
 
 <p>Tlačítko <u>Anotace</u> umožňuje do modelu přidávat libovolné půdorysné kóty.</p>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/TapeMeasureIcon64x64.png" alt="TapeMeasureIcon64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-          Měření
-        </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Měření
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/TapeMeasureIcon64x64.png", "Měření", "Měření") }}
 
 <p>Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.</p>
 

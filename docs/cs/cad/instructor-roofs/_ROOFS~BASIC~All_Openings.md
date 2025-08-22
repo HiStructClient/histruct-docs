@@ -9,32 +9,13 @@
 
   <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-  <table>
-    <tr>
-      <td>
-        <div style="position: relative; width: 64px; height: 64px;">
-          <img src="img/ColorsIcon64x64.png" alt="ColorsIcon64x64.png" width="64" height="64">
-          <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
-            Výchozí barvy
-          </div>
-        </div>
-      </td>
-      <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-        Výchozí barvy
-      </td>
-    </tr>
-  </table>
+  {{ box_icon("img/ColorsIcon64x64.png", "Výchozí barvy", "Výchozí barvy", fontSize=10) }}
 
   <p>Tlačítkem <u>Výchozí barvy</u> je možné nastavit výchozí barvy pro vybrané typy otvorů.</p>
 
   <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-  <table>
-    <tr>
-      <td><img src="img/ControlButton.png" alt="ControlButton.png" width="64"></td>
-      <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">Ovládací tlačítko</td>
-    </tr> 
-  </table>
+  {{ box_icon("img/ControlButton.png", "", "Ovládací tlačítko", width=64) }}
 
   <p><u>Ovládací tlačítko</u> umožňuje na zvolenou střešní rovinu přidat otvor a zvolit jeho typ.</p>
 

@@ -19,21 +19,7 @@
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/WallPartIcon64x64.png" alt="WallPartIcon64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-          Materiál
-        </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Materiál
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/WallPartIcon64x64.png", "Materiál", "Materiál") }}
 
 <p>
   Umožňuje výběr materiálu pro danou vrstvu střešní konstrukce z připravené galerie výrobků.
@@ -41,21 +27,7 @@
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/EditPropertiesIcon64x64.png" alt="EditPropertiesIcon64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-          Vlastnosti
-        </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Vlastnosti
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/EditPropertiesIcon64x64.png", "Vlastnosti", "Vlastnosti") }}
 
 <p>
   Tlačítko <u>Vlastnosti</u> umožňuje nastavit směr, úhel a posun kladení prvků střešní krytiny od okraje střechy.
@@ -69,16 +41,7 @@
   <u>Kliknutím přímo na zvolený prvek střešní krytiny</u> je možné prvek prodloužit na začátku i na konci o zvolenou délku, případně editovat jeho barvu.
 </p>
 
-<table>
-  <tr>
-    <td>
-      <img src="img/AddOffsetButton.png" alt="AddOffsetButton.png" width="50">
-    </td>
-    <td style="vertical-align: middle; font-size: 15px; padding-left: 30px;">
-      Přesah
-    </td>
-  </tr> 
-</table>
+{{ box_icon("img/AddOffsetButton.png", "", "Přesah", width=50) }}
 
 <p>
   Umožňuje nastavit přesah krytiny přes danou střešní hranu.
@@ -86,12 +49,7 @@
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td><img src="img/ControlButton.png" alt="ControlButton.png" width="64"></td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">Ovládací tlačítko</td>
-  </tr> 
-</table>
+{{ box_icon("img/ControlButton.png", "", "Ovládací tlačítko", width=64) }}
 
 <p>Pro jednotlivé střešní roviny umožňuje:</p>
 

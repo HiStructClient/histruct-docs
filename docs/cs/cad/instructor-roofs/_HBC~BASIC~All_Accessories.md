@@ -13,61 +13,19 @@
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/EmptyIcon64x64.png" alt="EmptyIcon64x64.png" width="64" height="64" />
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
-          Interior
-        </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Interior
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/EmptyIcon64x64.png", "Interior", "Interior", fontSize=10) }}
 
 <p>Tlačítkem <u>Interior</u> je možné do modelu vložit vybrané doplňky.</p>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/SelectIcon64x64.png" alt="SelectIcon64x64.png" width="64" height="64" />
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
-          From Gallery
-        </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      From Gallery
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/SelectIcon64x64.png", "From Gallery", "From Gallery", fontSize=10) }}
 
 <p>Tlačítkem <u>From Gallery</u> je možné do modelu vložit doplňky ze sestavené galerie, kterou Vám můžeme upravit na míru.</p>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/MainInsert64x64.png" alt="MainInsert64x64.png" width="64" height="64" />
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
-          Vložit
-        </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Vložit
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/MainInsert64x64.png", "Vložit", "Vložit", fontSize=10) }}
 
 <p>Tlačítkem <u>Vložit</u> je možné do modelu vložit vybrané doplňky.</p>
 

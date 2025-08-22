@@ -13,21 +13,7 @@
 
   <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-  <table>
-    <tr>
-      <td>
-        <div style="position: relative; width: 64px; height: 64px;">
-          <img src="img/LoopEditIcon64x64.png" alt="LoopEditIcon64x64.png" width="64" height="64">
-          <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-            Geometrie
-          </div>
-        </div>
-      </td>
-      <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-        Geometrie
-      </td>
-    </tr>
-  </table>
+{{ box_icon("img/LoopEditIcon64x64.png", "Geometrie", "Geometrie") }}
 
   <p>
   Tlačítko <u>Geometrie</u> umožňuje u příslušné střešní roviny provádět další úpravy geometrie. 
@@ -42,21 +28,7 @@
 
   <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-  <table>
-    <tr>
-      <td>
-        <div style="position: relative; width: 64px; height: 64px;">
-          <img src="img/ActionsIcon64x64.png" alt="ActionsIcon64x64.png" width="64" height="64">
-          <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-            Akce
-          </div>
-        </div>
-      </td>
-      <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-        Akce
-      </td>
-    </tr>
-  </table>
+{{ box_icon("img/ActionsIcon64x64.png", "Akce", "Akce") }}
 
   <p>
   Tlačítkem <u>Akce</u> je možné provádět úpravu pozice a orientace střešní roviny.

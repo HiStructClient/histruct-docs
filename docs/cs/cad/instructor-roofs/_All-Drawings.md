@@ -10,41 +10,13 @@
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/MainDrawings64x64.png" alt="MainDrawings64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-          Pohledy
-        </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Pohledy
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/MainDrawings64x64.png", "Pohledy", "Pohledy") }}
 
 <p>Tlačítkem <u>Pohledy</u> je možné vygenerovat přednastavené výkresy s pohledy na celou střešní nebo stěnovou konstrukci orientovanými podle hlavních os X,Y,Z.</p>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/MainDrawings64x64.png" alt="MainDrawings64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-          Vlastní
-        </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Vlastní
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/MainDrawings64x64.png", "Vlastní", "Vlastní") }}
 
 <p>Tlačítkem <u>Vlastní</u> je možné otevřít vlastní výkresy střešní nebo stěnové konstrukce vytvořené v menu <u>Opláštění</u>.</p>
 

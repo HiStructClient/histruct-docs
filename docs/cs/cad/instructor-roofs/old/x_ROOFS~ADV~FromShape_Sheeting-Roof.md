@@ -29,56 +29,21 @@ Pro některé krytiny může být v defaultním stavu tlačítko <u>Nižší vrs
 
 <hr> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/RoofTopLayer_64x64.png" alt="RoofTopLayer_64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
-      Vrchní vrstva
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Vrchní vrstva
-    </td>
-  </tr>
-</table>
-
+{{ box_icon("img/RoofTopLayer_64x64.png", "Vrchní vrstva", "Vrchní vrstva", fontSize=10) }}
 <ul>
   <li><p>Umožňuje výběr střešní krytiny z připravené galerie výrobků.</p></li>
 </ul>
 
 <hr> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/RoofLowerLayers_64x64.png" alt="RoofLowerLayers_64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
-      Nižší vrstvy
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Nižší vrstvy
-    </td>
-  </tr>
-</table>
-
+{{ box_icon("img/RoofLowerLayers_64x64.png", "Nižší vrstvy", "Nižší vrstvy", fontSize=10) }}
 <ul>
   <li><p>Umožňuje výběr typu skladby sekundární konstrukce z připravené galerie výrobků.</p></li>
 </ul>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td><img src="img/ControlButton.png" alt="ControlButton.png" width="64"></td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">Ovládací tlačítko</td>
-  </tr> 
-</table>
+{{ box_icon("img/ControlButton.png", "", "Ovládací tlačítko", width=64) }}
 
 <p>Pro jednotlivé střešní roviny umožňuje:</p>
 
@@ -96,12 +61,7 @@ Pro některé krytiny může být v defaultním stavu tlačítko <u>Nižší vrs
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td><img src="img/EditButton.png" alt="EditButton.png" width="64"></td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">Editační tlačítko</td>
-  </tr> 
-</table>
+{{ box_icon("img/EditButton.png", "", "Editační tlačítko", width=64) }}
 
 <p>Pro jednotlivé vrstvy skladby střechy na určené střešní rovině umožňuje:</p>
 

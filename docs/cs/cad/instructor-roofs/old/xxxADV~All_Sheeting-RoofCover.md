@@ -48,19 +48,7 @@
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/BomIcon64x64.png" alt="BomIcon64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">Kusovník</div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Kusovník
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/BomIcon64x64.png", "Kusovník", "Kusovník") }}
 
 <p>
   Generuje soupis položek střešní krytiny pro příslušnou střešní rovinu do přehledné tabulky.
@@ -68,19 +56,7 @@
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/MainDrawings64x64.png" alt="MainDrawings64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">Výkres</div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Výkres
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/MainDrawings64x64.png", "Výkres", "Výkres") }}
 
 <p>
   Generuje výkres určené střešní roviny s použitou střešní krytinou. Výkres je možné dále editovat, doplnit popisky a kótami.
@@ -88,19 +64,7 @@
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/TapeMeasureIcon64x64.png" alt="TapeMeasureIcon64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">Měření</div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Měření
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/TapeMeasureIcon64x64.png", "Měření", "Měření") }}
 
 <p>
   Tlačítkem <u>Měření</u> je možné zkontrolovat rozměry modelu.
@@ -108,12 +72,7 @@
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td><img src="img/ControlButton.png" alt="ControlButton.png" width="64"></td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">Ovládací tlačítko</td>
-  </tr> 
-</table>
+{{ box_icon("img/ControlButton.png", "", "Ovládací tlačítko", width=64) }}
 
 <p>Pro jednotlivé střešní roviny umožňuje:</p>
 
@@ -124,12 +83,7 @@
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td><img src="img/EditButton.png" alt="EditButton.png" width="64"></td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">Editační tlačítko</td>
-  </tr> 
-</table>
+{{ box_icon("img/EditButton.png", "", "Editační tlačítko", width=64) }}
 
 <p>Pro jednotlivé vrstvy skladby střechy na určené střešní rovině umožňuje:</p>
 

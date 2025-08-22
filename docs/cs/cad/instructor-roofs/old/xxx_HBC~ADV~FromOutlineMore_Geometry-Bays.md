@@ -13,44 +13,20 @@
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/EditPropertiesIcon64x64.png" alt="EditPropertiesIcon64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-          Vlastnosti
-        </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Vlastnosti
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/EditPropertiesIcon64x64.png", "Vlastnosti", "Vlastnosti") }}
 
 <p>Tlačítkem <u>Vlastnosti</u> je možné nastavit pravidla pro generování polí mezi rámy primární nosné konstrukce.</p>
 <p>Tytéž vlastnosti lze upravit pomocí <u>Ovládacího tlačítka</u> umístěného ve středu modelu.</p>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td><img src="img/BayEditButton64.png" alt="BayEditButton64.png" width="64"></td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">Rozteče</td>
-  </tr> 
-</table>
+{{ box_icon("img/BayEditButton64.png", "", "Rozteče", width=64) }}
 
 <p>Tlačítko <u>Rozteče</u> umožňuje upravit počet a délku polí mezi rámy hlavní nosné konstrukce.</p>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td><img src="img/ControlButton.png" alt="ControlButton.png" width="64"></td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">Ovládací tlačítko</td>
-  </tr> 
-</table>
+{{ box_icon("img/ControlButton.png", "", "Ovládací tlačítko", width=64) }}
 
 <p><u>Ovládací tlačítko</u> umožňuje přidání a nastavení portálových rámů v rámci jednotlivých polí.</p>
 <p>Portálovým rámům je možné nastavit umístění pomocí vzdálenosti od konce pole a pomocí délky rámu. Rámu lze také nastavit vlastní výšku a případně vypnout jednotlivé sloupy.</p>

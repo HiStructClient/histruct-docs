@@ -11,33 +11,13 @@
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/EditPropertiesIcon64x64.png" alt="EditPropertiesIcon64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">Vlastnosti</div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">Vlastnosti</td>
-  </tr>
-</table>
+{{ box_icon("img/EditPropertiesIcon64x64.png", "Vlastnosti", "Vlastnosti") }}
 
 <p>Tlačítko <u>Vlastnosti</u> umožňuje pojmenovat určenou střešní rovinu a upravit excentricitu střechy, tedy odsazení vygenerované střešní roviny od její skutečné polohy.</p>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/WallPartIcon64x64.png" alt="WallPartIcon64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">Materiály</div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">Materiály</td>
-  </tr>
-</table>
+{{ box_icon("img/WallPartIcon64x64.png", "Materiály", "Materiály") }}
 
 <p>Nastavení skladby střešní konstrukce se provádí pomocí tlačítek:</p>
 
@@ -52,77 +32,27 @@ Pro některé krytiny může být v defaultním stavu tlačítko <u>Nižší vrs
 
 <hr> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/RoofTopLayer_64x64.png" alt="RoofTopLayer_64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
-      Vrchní vrstva
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Vrchní vrstva
-    </td>
-  </tr>
-</table>
-
+{{ box_icon("img/RoofTopLayer_64x64.png", "Vrchní vrstva", "Vrchní vrstva", fontSize=10) }}
 <ul>
   <li><p>Umožňuje výběr střešní krytiny z připravené galerie výrobků.</p></li>
 </ul>
 
 <hr> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/RoofLowerLayers_64x64.png" alt="RoofLowerLayers_64x64.png" width="64" height="64">
-      <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 10px; text-align: center;">
-      Nižší vrstvy
-      </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px">
-      Nižší vrstvy
-    </td>
-  </tr>
-</table>
-
+{{ box_icon("img/RoofLowerLayers_64x64.png", "Nižší vrstvy", "Nižší vrstvy", fontSize=10) }}
 <ul>
   <li><p>Umožňuje výběr typu skladby sekundární konstrukce z připravené galerie výrobků.</p></li>
 </ul>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/BomIcon64x64.png" alt="BomIcon64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">Kusovník</div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">Kusovník</td>
-  </tr>
-</table>
+{{ box_icon("img/BomIcon64x64.png", "Kusovník", "Kusovník") }}
 
 <p>Generuje soupis položek střešní krytiny pro příslušnou střešní rovinu do přehledné tabulky.</p>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/MainDrawings64x64.png" alt="MainDrawings64x64.png" width="64" height="64">
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">Výkres</div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">Výkres</td>
-  </tr>
-</table>
+{{ box_icon("img/MainDrawings64x64.png", "Výkres", "Výkres") }}
 
 <p>Generuje výkres určené střešní roviny včetně celé skladby střešní konstrukce. Výkres je možné dále editovat, doplnit popisky a kótami.</p>
 </div>

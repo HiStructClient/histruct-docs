@@ -13,32 +13,13 @@
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td>
-      <div style="position: relative; width: 64px; height: 64px;">
-        <img src="img/MainSettings64x64.png" alt="MainSettings64x64.png" width="64" height="64" />
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: 12px; text-align: center;">
-          Nastavení
-        </div>
-      </div>
-    </td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">
-      Nastavení
-    </td>
-  </tr>
-</table>
+{{ box_icon("img/MainSettings64x64.png", "Nastavení", "Nastavení", fontSize=12) }}
 
 <p>...Funkcionalita tlačítka <u>Nastavení</u> se připravuje pro budoucí verzi programu...</p>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td><img src="img/ControlButton.png" alt="ControlButton.png" width="64" /></td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">Ovládácí tlačítko</td>
-  </tr>
-</table>
+{{ box_icon("img/ControlButton.png", "", "Ovládácí tlačítko", width=64) }}
 
 <p><b><u>Ovládací tlačítko uprostřed modelu umožňuje nastavit:</u></b></p>
 <ul>
@@ -51,12 +32,7 @@
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td><img src="img/EditButton.png" alt="EditButton.png" width="64" /></td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">Editační tlačítko</td>
-  </tr>
-</table>
+{{ box_icon("img/EditButton.png", "", "Editační tlačítko", width=64) }}
 
 <p><b><u>Pro jednotlivé prvky primární konstrukce umožňuje:</u></b></p>
 <ul>
@@ -67,12 +43,7 @@
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->
 
-<table>
-  <tr>
-    <td><img src="img/StiffenerButton.png" alt="StiffenerButton.png" width="64" /></td>
-    <td style="vertical-align: middle; font-size: 20px; padding-left: 30px;">Ztužidlo v rovině</td>
-  </tr>
-</table>
+{{ box_icon("img/StiffenerButton.png", "", "Ztužidlo v rovině", width=64) }}
 
 <p><b><u>Pro jednotlivé střešní či stěnové roviny umožňuje:</u></b></p>
 <ul>
