@@ -29,7 +29,7 @@ const outputDir = '../docs';
 
 const DEEPL_AUTH_KEY = "";
 const GOOGLE_API_KEY = "";
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = "";
 
 // Rekurzivní procházení složek
 function walkSync(dir, callback) {
@@ -313,13 +313,37 @@ async function translateChatGpt(text, srcLangKey, targetLangKey) {
     }
 
     try {
+      const prompt = `
+Translate the following Markdown text from ${srcLang} to ${targetLang}. 
+Use the following rules:
+
+1. Keep all Markdown formatting unchanged (headings, lists, code blocks, links, etc.).
+2. Keep any HTML tags unchanged, but translate the text inside them.
+   Example: <u>Edit button</u> → <u>Tlačítko Upravit</u>
+3. Keep macros in the form {{ ... }} unchanged, only translate the human-readable text arguments inside them if appropriate.
+   Example: {{ box_icon("img/MainInsert64x64.png", "Add", "Add") }} → {{ box_icon("img/MainInsert64x64.png", "Přidat", "Přidat") }}
+4. For custom blocks starting with /// or ////:
+   - Do not modify the beginning (/// details | ...).
+   - Translate only the text after the vertical bar "|".
+   - Leave the rest of the block unchanged.
+   Example:
+     Input:  /// details | Functions for WALL available via Edit button
+     Output: /// details | Funkce pro STĚNU přístupné přes Ovládací tlačítko
+
+Dictionary (preferred translations):
+${dictionaryString}
+
+Text:\n\n
+${text}
+`.trim();
+
       const response = await openaiClient.chat.completions.create({
-        model: 'gpt-3.5-turbo', // Model pro textové úkoly
+        model: 'gpt-4.1', // Model pro textové úkoly
         messages: [ {
             role: "system",
-            content: `Translate the following Markdown text from ${srcLang} to ${targetLang}. ${dictionaryString} Text:\n\n${text}`,
+            content: prompt,
         } ],
-        max_tokens: 1500, // Maximální délka překladu
+        max_tokens: 2500, // Maximální délka překladu
       });
 
       const translatedText = response.choices[0].message.content?.trim().replace(/\r?\n/g, "\n");
