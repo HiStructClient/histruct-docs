@@ -15,11 +15,6 @@ plugins:
   - i18n:
       docs_structure: folder
       languages:
-        - locale: xx
-          link: /xx/
-          name: "Language XX"
-          build: true
-          default: true
         - locale: cs
           link: /cs/
           name: Čeština
@@ -27,7 +22,7 @@ plugins:
         - locale: en
           link: /en/
           name: English
-          default: false
+          default: true
         - locale: ro
           link: /ro/
           name: Română
@@ -42,8 +37,6 @@ plugins:
 extra:
   dev_mode: true
   ui:
-    xx:
-      xx: "xx"
     cs:
       next_help_title : "Nepomohla Vám nápověda?"
       next_help_description: "Pro více informací o funkcích HiStruct Building Configurator můžete navštívit náš blog nebo zaslat dotaz na naší podporu."
@@ -62,6 +55,15 @@ extra:
       open_video: "▶ Watch demo"
       close_video: "Close Video"
       unsupported_video: "Your browser does not support video playback."
+    de:
+      next_help_title : "Brauchen Sie mehr Hilfe?"
+      next_help_description: "Für weitere Informationen zu den Funktionen des HiStruct Building Configurator können Sie unseren Blog besuchen oder eine Anfrage an unseren Support senden."
+      visit_blog: "Blog besuchen"
+      send_query: "Anfrage senden"
+      send_query_subject: "Anfrage an Support HiStruct"
+      open_video: "▶ Video anzeigen"
+      close_video: "Video schließen"
+      unsupported_video: "Ihr Browser unterstützt keine Video-Wiedergabe."
     ro:
       next_help_title : "Aveți nevoie de mai mult ajutor?"
       next_help_description: "Pentru mai multe informații despre funcțiile HiStruct Building Configurator, puteți vizita blogul nostru sau trimite o întrebare către suportul nostru."
