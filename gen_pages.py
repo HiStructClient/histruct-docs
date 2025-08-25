@@ -30,7 +30,7 @@ def copy_file_to_lang(sourcePath, docsPath_target):
 # najít všechny .png soubory v adresáři docs/cs/
 # a přidat je do mkdocs_gen_files
 
-currentLang = mkdocs_gen_files.config.theme['language']
+currentLang = mkdocs_gen_files.config.theme['locale'].language
 
 if (currentLang == "en" or currentLang == "ro" or currentLang == "de"):
 

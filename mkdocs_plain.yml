@@ -1,40 +1,36 @@
-INHERIT: mkdocs.yml
 
 site_name: HiStruct Documentation
+# site_url: https://docs.histruct.com/
 
 use_directory_urls: false
 
 theme:
-  name: material
+  name: null
   custom_dir: "plain_theme/"
 
-nav:
+# nav: # auto-generated
 
 plugins:
-
-  - search:
-      lang:
-        - cs
-        - ro
-        - en
 
   - i18n:
       docs_structure: folder
       languages:
+        - locale: xx
+          link: /xx/
+          name: "Language XX"
+          build: true
+          default: true
         - locale: cs
-          link: /en/
-          fixed_link: /cz/
+          link: /cs/
           name: Čeština
           default: false
         - locale: en
-          link: /en2/
+          link: /en/
           name: English
-          build: true
-          default: true
+          default: false
         - locale: ro
           link: /ro/
           name: Română
-          build: false
 
   - gen-files:
       scripts:
@@ -44,7 +40,10 @@ plugins:
 
 
 extra:
+  dev_mode: true
   ui:
+    xx:
+      xx: "xx"
     cs:
       next_help_title : "Nepomohla Vám nápověda?"
       next_help_description: "Pro více informací o funkcích HiStruct Building Configurator můžete navštívit náš blog nebo zaslat dotaz na naší podporu."
@@ -75,5 +74,6 @@ extra:
 
 
 markdown_extensions:
-  - admonition        # (doporučené, často spolu)
+  - admonition
   - pymdownx.blocks.details
+  - attr_list

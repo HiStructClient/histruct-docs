@@ -31,7 +31,7 @@ def define_env(env):
 
     @env.macro
     def modal_video_button(videoUrl, format = "mp4"):
-      lang = env.conf['theme']['language']
+      lang = env.conf['theme']['locale'].language
       t = env.conf['extra']['ui'][lang]
 
       modalVideoId = "video-modal" + id_generator()

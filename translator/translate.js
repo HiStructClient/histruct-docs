@@ -6,6 +6,7 @@ import openai from 'openai';
 import crypto from 'crypto';
 import metadataParser from 'markdown-yaml-metadata-parser';
 import yaml from 'js-yaml';
+import * as keys from './keys.js'
 
 // Složky s jazyky
 const langFolders = ['cs', 'en', "de", "ro"];
@@ -27,9 +28,9 @@ const outputDir = '../docs';
 // const inputDir = 'test/docs-merged';
 // const outputDir = 'test/docs-merged';
 
-const DEEPL_AUTH_KEY = "";
-const GOOGLE_API_KEY = "";
-const OPENAI_API_KEY = "";
+const DEEPL_AUTH_KEY = keys.DEEPL_AUTH_KEY;
+const GOOGLE_API_KEY = keys.GOOGLE_API_KEY;
+const OPENAI_API_KEY = keys.OPENAI_API_KEY;
 
 // Rekurzivní procházení složek
 function walkSync(dir, callback) {

@@ -130,10 +130,6 @@
         body {
             /* Nastavení okrajů a řádkování pro celý dokument */
             line-height: 1.8;
-            padding-top: 30px;
-            padding-right: 30px;
-            padding-bottom: 30px;
-            padding-left: 30px;
         }
 
         h1 {
@@ -211,7 +207,7 @@
             border: 1px solid #ccc;
             border-radius: 6px;
             padding: 0 10px;
-            
+
             summary {
                 /* skryje defaultní trojúhelník v některých prohlížečích */
                 list-style: none;
@@ -239,14 +235,14 @@
 
         details[open] {
             padding-bottom: 10px;
-            
-            & > summary {
+
+            &>summary {
                 border-bottom: 1px solid #ccc;
                 margin-bottom: 8px;
             }
-            
+
             /* otočení šipky při otevření */
-            & > summary::after {
+            &>summary::after {
                 transform: rotate(90deg);
             }
         }
@@ -254,8 +250,10 @@
         .video-modal {
             display: none;
             position: fixed;
-            top: 0; left: 0;
-            width: 100vw; height: 100vh;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
             background-color: rgba(0, 0, 0, 0.85);
             z-index: 10000;
             justify-content: center;
@@ -268,41 +266,179 @@
             }
         }
 
-        
+{% if config.extra.dev_mode %}
+
+        article {
+            flex: 1 1 auto;
+            padding: 30px;
+            max-width: 100%;
+            height: 100%;
+            overflow: auto;
+        }
+
+        html,
+        body {
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav {
+            flex: 0 0 450px;
+            font-size: 0.8rem;
+            background: #ccc;
+            color: black;
+            height: 100%;
+            overflow: auto;
+
+            ul {
+                padding: 0;
+                padding-left: 0.75rem;
+                margin: 0;
+                list-style: none;
+
+                li {
+                    margin: 0;
+                    padding: 0;
+
+                    a {
+                        display: block;
+                        padding: 4px 6px;
+                        text-decoration: none;
+
+                        &:hover {
+                            background-color: #f0f0f0;
+                        }
+                    }
+
+                    a.active {
+                        font-weight: bold;
+                        background-color: #f0f0f0;
+                    }
+
+                    .nav-item-title {
+                        padding: 4px 6px;
+                        font-weight: bold;
+
+                        &.active {
+                            background-color: #f0f0f0;
+                        }
+                    }
+
+                    .nav-file-name {
+                        font-size: 0.6rem;
+                        color: #666;
+                        font-style: italic;
+                    }
+                }
+            }
+        }
+{% endif %}
+
     </style>
-
-    <script>
-        function openModal(id) {
-            const modal = document.getElementById(id);
-            modal.style.display = "flex";
-            const video = document.getElementById("modalVideo");
-            video.muted = true;
-            video.play();
-        }
-
-        function closeModal() {
-            const modal = document.getElementById("modalVideo");
-            modal.style.display = "none";
-            const video = document.getElementById("modalVideo");
-            video.pause();
-            video.currentTime = 0;
-        }
-    </script>
 </head>
 
-<body>
-    {{ page.content }}
+<body class="d-flex">
+    <article class="flex-grow-1">
+        {% if config.extra.dev_mode %}
+        <div class="open-in-vscode">
+            <a href="vscode://file/{{ page.file.abs_src_path }}">📝 Open in VS Code</a>
+        </div>
+        {% endif %}
 
-    <h2 class="pt-4">{{ t("next_help_title") }}</h2>
-    <p>{{ t("next_help_description") }}</p>
-    <div class="d-flex gap-2">
-        <a href="https://docs.histruct.com/{ config.theme.locale.language }/" class="btn">
-            {{ t("visit_blog") }}
-        </a>
-        <a href="mailto:support@histruct.com?subject=Dotaz na Support HiStruct" class="btn">
-            {{ t("send_query") }}
-        </a>
-    </div>
+        {{ page.content }}
+
+        <h2 class="pt-4">{{ t("next_help_title") }}</h2>
+        <p>{{ t("next_help_description") }}</p>
+        <div class="d-flex gap-2">
+            <a href="https://docs.histruct.com/{ config.theme.locale.language }/" class="btn">
+                {{ t("visit_blog") }}
+            </a>
+            <a href="mailto:support@histruct.com?subject=Dotaz na Support HiStruct" class="btn">
+                {{ t("send_query") }}
+            </a>
+        </div>
+
+    </article>
+
+    {% if config.extra.dev_mode %}
+    <nav>
+        {% if nav|length > 1 and config.extra.dev_mode %}
+        <ul>
+            {% for nav_item in nav %}
+            {% if nav_item.children %}
+            <li>
+                <div class="nav-item-title {% if nav_item.active %}active{% endif %}">{{ nav_item.title }}</div>
+                <ul>
+                    {% for nav_item in nav_item.children %}
+                    {% if nav_item.children %}
+                    <li>
+                        <div class="nav-item-title {% if nav_item.active %}active{% endif %}">{{ nav_item.title }} {{ nav_item.url }}</div>
+                        <ul>
+                            {% for nav_item in nav_item.children %}
+                            <li>
+                                <a href="{{ nav_item.url|url }}" class="{% if nav_item.active %}active{% endif %}">
+                                    {{ nav_item.title }}
+                                    <div class="nav-file-name">{{ nav_item.file.name }}</div>
+                                </a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                    {% else %}
+                    <li>
+                        <a href="{{ nav_item.url|url }}" class="{% if nav_item.active %}active{% endif %}">
+                            {{ nav_item.title }}
+                            <div class="nav-file-name">{{ nav_item.file.name }}</div>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </li>
+            {% else %}
+            <li>
+                <a href="{{ nav_item.url|url }}" class="{% if nav_item.active %}active{% endif %}">
+                    {{ nav_item.title }}
+                    <div class="nav-file-name">{{ nav_item.file.name }}</div>
+                </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+    </nav>
+    {% endif %}
+
 </body>
+
+{% if config.extra.dev_mode %}
+<script>
+    window.addEventListener("DOMContentLoaded", function () {
+        const nav = document.querySelector("nav");
+        const activeLink = nav?.querySelector("a.active");
+        if (nav && activeLink) {
+            const linkTop = activeLink.offsetTop;
+            const linkBottom = linkTop + activeLink.offsetHeight;
+
+            const viewTop = nav.scrollTop;
+            const viewBottom = viewTop + nav.clientHeight;
+
+            // Pokud odkaz už je viditelný, nedělej nic
+            if (linkTop >= viewTop && linkBottom <= viewBottom) {
+                return;
+            }
+
+            // pozice aktivního odkazu vůči nav
+            const offsetTop = activeLink.offsetTop;
+
+            // posuň scroll, třeba 50px pod horní okraj
+            nav.scrollTop = linkTop - 75;
+        }
+    });
+</script>
+{% endif %}
+
 
 </html>
