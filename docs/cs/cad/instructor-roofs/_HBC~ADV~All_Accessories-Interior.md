@@ -4,12 +4,12 @@
   <p>Menu <u><i>Příslušenství &gt; Interior</i></u> umožňuje do modelu přidávat různé doplňky pro lepší vzhled a realističnost modelu.</p>
 
   <p><b>Kliknutím na vložený doplněk je možné jej dále editovat:</b></p>
-    <ul>
-      <li><p>upravit jeho přesný typ (například typ vozidla nebo stromu)</p></li>
-      <li><p>měnit jeho rozměry</p></li>
-      <li><p>posouvat, otáčet či případně smazat</p></li>
-      <li><p>u některých doplňků je také možné měnit jejich barvu</p></li>
-    </ul>
+  <ul>
+    <li><p>upravit jeho přesný typ (například typ vozidla nebo stromu)</p></li>
+    <li><p>měnit jeho rozměry</p></li>
+    <li><p>posouvat, otáčet či případně smazat</p></li>
+    <li><p>u některých doplňků je také možné měnit jejich barvu</p></li>
+  </ul>
 
   <hr class="main">
 

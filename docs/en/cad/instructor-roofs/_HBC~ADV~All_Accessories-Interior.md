@@ -9,12 +9,12 @@ autoTranslated: true
   <p>The <u><i>Accessories &gt; Interior</i></u> menu allows you to add various accessories to the model for a better appearance and more realism.</p>
 
   <p><b>By clicking on the inserted accessory, you can further edit it:</b></p>
-    <ul>
-      <li><p>adjust its exact type (for example, vehicle or tree type)</p></li>
-      <li><p>change its dimensions</p></li>
-      <li><p>move, rotate, or possibly delete it</p></li>
-      <li><p>for some accessories, it is also possible to change their color</p></li>
-    </ul>
+  <ul>
+    <li><p>adjust its exact type (for example, vehicle or tree type)</p></li>
+    <li><p>change its dimensions</p></li>
+    <li><p>move, rotate, or possibly delete it</p></li>
+    <li><p>for some accessories, it is also possible to change their color</p></li>
+  </ul>
 
   <hr class="main">
 
