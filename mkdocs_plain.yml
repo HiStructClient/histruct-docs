@@ -14,11 +14,12 @@ plugins:
 
   - i18n:
       docs_structure: folder
+      build_only_locale: !ENV [BUILD_ONLY_LOCALE]
+      fallback_to_default: true
       languages:
         - locale: cs
           link: /cs/
           name: Čeština
-          default: false
         - locale: en
           link: /en/
           name: English
@@ -35,7 +36,7 @@ plugins:
 
 
 extra:
-  dev_mode: false
+  dev_mode: !ENV [DEV_MODE, false]
   ui:
     cs:
       next_help_title : "Nepomohla Vám nápověda?"
