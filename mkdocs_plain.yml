@@ -35,7 +35,7 @@ plugins:
 
 
 extra:
-  dev_mode: true
+  dev_mode: false
   ui:
     cs:
       next_help_title : "Nepomohla Vám nápověda?"

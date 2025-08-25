@@ -1,0 +1,230 @@
+body {
+    color: white;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-right: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    &:has(.btn-navigation-square) {
+        display: flex;
+        gap: 6px;
+        align-items: center;
+    }
+}
+
+.btn-navigation-square {
+    background-color: rgb(27, 122, 187);
+    padding: 0;
+    pointer-events: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    container-type: size;
+    container-name: navigation-button;
+    margin: 0;
+    height: 64px;
+    width: 64px;
+    grid-row: 1;
+    grid-column: 1;
+    overflow: hidden;
+
+    .wrap-button-icon {
+        width: 100%;
+        height: 1px;
+        padding: 2px;
+        flex-grow: 1;
+        overflow: hidden;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .wrap-button-text {
+        grid-row: 1;
+        grid-column: 1;
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+    }
+}
+
+a,
+.btn-link,
+.nav-link {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:hover,
+.btn-link:hover {
+    color: #1175b9;
+    text-decoration: underline;
+    /* filter: brightness(0.75); */
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn {
+    margin-top: 0px;
+    padding: 12px 20px;
+    background-color: rgb(27, 122, 187);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: rgb(20, 90, 140);
+}
+
+body {
+    /* Nastavení okrajů a řádkování pro celý dokument */
+    line-height: 1.8;
+}
+
+h1 {
+    /* Styl hlavního nadpisu */
+    font-size: 28px;
+    border-bottom: none;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    /* Styl podnadpisů */
+    font-size: 22px;
+    border-bottom: none;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    /* Styl podnadpisů */
+    font-size: 18px;
+    border-bottom: none;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+p {
+    /* Styl odstavců */
+    border-bottom: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+hr.main {
+    /* Hlavní oddělovací čára */
+    border: none;
+    border-top: 2px solid #555;
+    /* čárkovaná čára */
+    height: 1px;
+    /* zruší výšku, protože border se použije místo background */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+hr {
+    /* Běžná oddělovací čára */
+    all: unset;
+    /* zruší úplně veškeré defaultní styly */
+    display: block;
+    width: 100%;
+    border-top: 2px dashed #555;
+    margin: 20px 0;
+}
+
+.btn {
+    /* Styl tlačítek */
+    margin-top: 0px;
+    padding: 12px 20px;
+    background-color: rgb(27, 122, 187);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    /* Styl tlačítek při najetí myší */
+    background-color: rgb(20, 90, 140);
+    text-decoration: none;
+}
+
+details {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 0 10px;
+
+    summary {
+        /* skryje defaultní trojúhelník v některých prohlížečích */
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 6px 10px;
+        margin: 0 -10px
+    }
+
+    /* vlastní šipka */
+    summary::after {
+        content: "▶";
+        transition: transform 0.25s ease;
+    }
+
+    /* rámeček pro obsah */
+    /* .panel {
+                margin-top: 8px;
+                padding: 10px 10px;
+                border: 1px solid #ccc;
+                border-radius: 6px;
+            } */
+}
+
+details[open] {
+    padding-bottom: 10px;
+
+    &>summary {
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 8px;
+    }
+
+    /* otočení šipky při otevření */
+    &>summary::after {
+        transform: rotate(90deg);
+    }
+}
+
+.video-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 10000;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    video {
+        max-width: 90%;
+        max-height: 80vh;
+    }
+}
