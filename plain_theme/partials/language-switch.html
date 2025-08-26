@@ -1,0 +1,55 @@
+<!-- {# očekává se mkdocs>=1.5, mkdocs-static-i18n #}
+<div class="lang-switch">
+  <ul>
+    {# projdi všechny jazyky z konfigurace #}
+    {% for lang in i18n_config.languages %}
+      {% set code = lang.locale %}
+      {% set name = lang.name %}
+      {% set alt = page.file.alternates.get(code) %}
+      {% if alt %}
+        <li class="{{ 'active' if code == page.file.locale }}">
+          <a href="{{ alt.dest_uri|url }}" hreflang="{{ code }}">{{ name }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <!-- {{ page.file.alternates }}
+  
+  {{ i18n_config }} -->
+<!-- </div> -->
+
+
+{% set cur = page.file.locale %}
+{% set cur_lang = (i18n_config.languages | selectattr("locale","equalto",cur) | first) %}
+
+<div class="lang-switch">
+  <button class="lang-btn"
+          aria-label="Change language"
+          popovertarget="lang-menu"
+          popovertargetaction="toggle">
+    {{ cur_lang.name if cur_lang else cur|upper }}
+    <svg class="chev" viewBox="0 0 10 6" aria-hidden="true">
+      <path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.7"/>
+    </svg>
+  </button>
+
+  <div id="lang-menu" class="lang-popover" popover role="listbox" aria-label="Languages">
+    <ul>
+      {% for lang in i18n_config.languages %}
+        {% set alt = page.file.alternates.get(lang.locale) %}
+        {% if alt %}
+          <li>
+            <a role="option"
+               aria-selected="{{ 'true' if lang.locale == cur else 'false' }}"
+               class="lang-item {{ 'is-active' if lang.locale == cur }}"
+               href="{{ alt.dest_uri|url }}"
+               hreflang="{{ lang.locale }}">
+              {{ lang.name }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>

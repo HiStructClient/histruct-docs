@@ -65,10 +65,88 @@ nav {
     }
 }
 
+/* Kontejner */
+.lang-switch {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+        
+    /* Tlačítko + šipka */
+    .lang-btn {
+        anchor-name: --langbtn;
+        display: inline-flex;
+        align-items: center;
+        gap: .5rem;
+        padding: .4rem .6rem;
+        border: 1px solid var(--md-default-fg-color--light, #ccc);
+        border-radius: .5rem;
+        background: var(--md-default-bg-color, #fff);
+        cursor: pointer;
+    }
+
+    .lang-btn .chev {
+        width: 10px;
+        height: 10px;
+        transition: transform .15s ease;
+    }
+
+    /* Otevřený stav tlačítka (využijeme :has + :popover-open) */
+    .lang-switch:has(.lang-popover:popover-open) .lang-btn .chev {
+        transform: rotate(180deg);
+    }
+
+    /* Popover (Chrome podporuje popover + anchor positioning) */
+    .lang-popover {
+        position-anchor: --langbtn;
+        inset: unset;
+        top: anchor(bottom);
+        right: anchor(right);
+        /* left: anchor(center); */
+        /* transform: translateX(-50%); */
+        margin: 0;
+        margin-top: .25rem;
+
+        padding: .25rem;
+        min-width: 12rem;
+        background: var(--md-default-bg-color, #fff);
+        border: 1px solid var(--md-default-fg-color--light, #ddd);
+        border-radius: .5rem;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, .08);
+    }
+
+    /* Seznam v popoveru */
+    .lang-popover ul {
+        list-style: none;
+        margin: 0;
+        padding: .25rem;
+        max-height: 60vh;
+        overflow: auto;
+    }
+
+    .lang-item {
+        display: block;
+        padding: .45rem .6rem;
+        border-radius: .35rem;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .lang-item:hover {
+        background: rgba(0, 0, 0, .06);
+    }
+
+    .lang-item.is-active {
+        font-weight: 600;
+    }
+}
+
+
 .open-in-vscode {
     position: absolute;
-    right: 1.5rem;
-    top: 1rem;
+    right: 10px;
+    top: 55px;
 }
 
 body.in-iframe {
