@@ -67,7 +67,7 @@ def define_env(env):
             img = f"""
       <div style="position: relative; {"width: " + str(width) + "px;" if width > 0 else ""} {"height: " + str(height) + "px;" if height > 0 else ""}">
         {img}
-        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: {fontSize}px; text-align: center;">
+        <div style="position: absolute; bottom: 0; width: 100%; background: none; color: white; font-size: {fontSize}px; text-align: center; line-height: normal;">
           {text}
         </div>
       </div>

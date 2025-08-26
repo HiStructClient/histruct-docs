@@ -20,7 +20,6 @@
         <li>
             <div class="nav-item-title {% if nav_item.active %}active{% endif %}">
                 {{ nav_item.title }}
-                {{ nav_item.is_section }}
             </div>
             <ul>
                 {% for child_item in nav_item.children %}

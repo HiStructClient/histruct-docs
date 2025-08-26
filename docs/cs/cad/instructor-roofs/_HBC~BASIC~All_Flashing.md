@@ -23,8 +23,6 @@
 <h2>Editace jednotlivých prvků</h2>
 <p>Vlastnosti jednotlivých prvků je možné měnit přímo kliknutím na jednotlivé prvky v modelu.</p>
 
----{ .main }
-
 <hr class="main">
 
 {{ box_icon("img/AddButton.png", "", "Přidat", width=64) }}
