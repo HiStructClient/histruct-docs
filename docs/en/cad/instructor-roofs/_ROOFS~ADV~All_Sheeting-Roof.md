@@ -8,7 +8,7 @@ autoTranslated: true
 
 <p>In the <u><i>Sheeting &gt; Roof</i></u> menu, you can set the type of roof composition, type of roofing material, and the dimensions of the secondary roof structure.</p>
 
-<p>Within individual roof planes, you can additionally change the direction of the roofing installation, generate a bill of materials with roofing items, and also generate a plan view of the roof structure as an editable drawing.</p>
+<p>Within individual roof planes, you can additionally change the direction of the roofing installation, generate a bill of materials with roofing items, and also generate a ground plan view of the roof structure as an editable drawing.</p>
 
 <p><b>Settings and modifications of individual roof planes can be done using <u>Control and Edit buttons</u>.</b></p>
 
@@ -52,8 +52,8 @@ For some roofing materials, the <u>Lower layers</u> button may be hidden by defa
 <p>For individual roof planes, it allows you to:</p>
 
 <ul>
-  <li><p>Set the type of roof composition – covering type and secondary structure.</p></li>
-  <li><p>Generate a bill of materials with roof covering items and also generate a plan of the roof structure with all layers in the form of an editable drawing.</p></li>
+  <li><p>Set the type of roof composition – roof covering type and secondary structure.</p></li>
+  <li><p>Generate a bill of materials with roof covering items and also generate a ground plan of the roof structure with all layers in the form of an editable drawing.</p></li>
 </ul>
 
 /// details | Functions accessible via Control Button
@@ -70,8 +70,8 @@ For some roofing materials, the <u>Lower layers</u> button may be hidden by defa
 
 <ul>
   <li><p>Set the type of covering or individual layers of the secondary structure including dimensions, direction of installation, as well as editing the position and angle of installation.</p></li>
-  <li><p>Generate a plan of the relevant layer of the roof structure in the form of an editable drawing.</p></li>
-  <li><p>For the roof covering, it is also possible to generate a material statement with roof covering items.</p></li>
+  <li><p>Generate a ground plan of the relevant layer of the roof structure in the form of an editable drawing.</p></li>
+  <li><p>For the roof covering, it is also possible to generate a material report with roof covering items.</p></li>
 </ul>
 
 /// details | Functions accessible via Edit Button

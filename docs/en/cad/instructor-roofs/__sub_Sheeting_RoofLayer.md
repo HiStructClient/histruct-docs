@@ -11,7 +11,7 @@ autoTranslated: true
 
 <ul>
   <li><p>Set the type of roof covering or individual layers of the secondary structure, including dimensions, laying direction, position adjustment, and laying angle.</p></li>
-  <li><p>Generate a floor plan of the respective layer of the roof structure in the form of an editable drawing.</p></li>
+  <li><p>Generate a ground plan of the respective layer of the roof structure in the form of an editable drawing.</p></li>
   <li><p>For roof coverings, it is also possible to generate a bill of materials including roof covering items.</p></li>
 </ul>
 
@@ -58,10 +58,10 @@ autoTranslated: true
 <h3>Grid</h3>
 
 <ul>
-<li><p>The <u>Grid</u> button allows you to select a material for the given layer of the roof structure from a prepared product gallery; here it is possible to select the desired cross-section of battens, including their spacing.
+<li><p>The <u>Grid</u> button allows you to select a material for the given layer of the roof structure from a prepared product gallery; here it is possible to select the desired cross-section of laths, including their spacing.
 </p></li>
 
-<li><p>It also allows you to set the spacing between batten elements, adjust the laying angle of the batten layer, and the offset of the first element from the edge of the roof.
+<li><p>It also allows you to set the spacing between laths elements, adjust the laying angle of the laths layer, and the offset of the first element from the edge of the roof.
 </p></li>
 </ul>
 

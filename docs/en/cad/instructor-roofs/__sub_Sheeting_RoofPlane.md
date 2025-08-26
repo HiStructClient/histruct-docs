@@ -6,7 +6,7 @@ autoTranslated: true
 
 # Sheeting > Roof Plane
 
-<p>In the <u><i>Sheeting > Roof Plane</i></u> menu accessible via the <u>Edit button</u>, it is possible for each roof plane to:</p>
+<p>In the <u><i>Sheeting > Roof Plane</i></u> menu accessible via the <u>Control button</u>, it is possible for each roof plane to:</p>
 
 <ul>
   <li><p>Set the type of roof composition - covering type and secondary structure.</p></li>

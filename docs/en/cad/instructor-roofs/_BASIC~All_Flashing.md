@@ -8,14 +8,14 @@ autoTranslated: true
 
 <p>Allows you to change the color of individual trim elements.</p>
 
-<p>You can adjust the color using the buttons on the left for all trim elements in a given group, or you can click directly on individual elements in the model and adjust their color individually.</p>
+<p>You can adjust the color using the buttons on the left for all flashing elements in a given group, or you can click directly on individual elements in the model and adjust their color individually.</p>
 
-<p><b><u>The number of groups of editable trim elements may vary depending on the options of individual models.</u></b></p>
+<p><b><u>The number of groups of editable flashing elements may vary depending on the options of individual models.</u></b></p>
 
 <hr class="main">
 
 <h2>Editing groups of elements using the buttons on the left</h2>
-<p>By clicking on the trim element button on the left side, you can edit the properties of the entire corresponding group of trim elements.</p>
+<p>By clicking on the flashing element button on the left side, you can edit the properties of the entire corresponding group of flashing elements.</p>
 
 {{ box_icons([
   ("img/ColorsIcon64x64.png", "Flashing"),

@@ -40,7 +40,7 @@ autoTranslated: true
 
 {{ box_icon("img/MainDrawings64x64.png", "Drawings", "Drawings") }}
 
-  <p>Through the <u>Drawings</u> button, you can generate and edit drawings of the roof or wall structure, such as floor plans or side elevations. Drawings can be further edited in a newly opened window and supplemented with arbitrary annotations or dimensions.</p>
+  <p>Through the <u>Drawings</u> button, you can generate and edit drawings of the roof or wall structure, such as ground plans or side elevations. Drawings can be further edited in a newly opened window and supplemented with arbitrary annotations or dimensions.</p>
 
   <hr class="main">
 

@@ -6,14 +6,14 @@ autoTranslated: true
 
 # Geometry &gt; Dimensions &gt; Area
 
-<p>The <u><i>Geometry &gt; Dimensions &gt; Area</i></u> menu, accessible by clicking on the selected surface, allows you to edit roof planes via an open table.</p>
+<p>The <u><i>Geometry &gt; Dimensions &gt; Area</i></u> menu, accessible by clicking on the selected roof plane, allows you to edit roof planes via an open table.</p>
 
 <p>
-For each roof surface, you can edit the type of geometric projection of the surface, the dimensions for certain surface shapes, as well as the slope, slope direction, and the eaves height above the plan projection of the plane.
+For each roof plane, you can edit the type of geometric projection of the plane, the dimensions for certain area shapes, as well as the slope, slope direction, and the eaves height above the ground plan projection of the plane.
 </p>
 
 <p>
-Using buttons at the top of the table, a surface can be copied, deleted, rotated in the plan view or in the plane of the surface, and also moved in all 3 directions.
+Using buttons at the top of the table, a surface can be copied, deleted, rotated in the ground plan view or in the plane of the area, and also moved in all 3 directions.
 </p>
 
 <hr class="main">

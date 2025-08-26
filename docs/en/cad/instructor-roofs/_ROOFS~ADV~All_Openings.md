@@ -7,7 +7,7 @@ autoTranslated: true
 # Openings
 <p>The <u><i>Openings</i></u> menu allows you to create and edit openings on individual roof planes. Each available type of opening can also be assigned a color.</p>
 <p><b>Settings and modifications of openings on individual roof planes can be made using the <u>Control Button</u>.</b></p>
-<p>Openings created in the section <u><i>Geometry > Dimensions > Opening</i></u> can only be edited in the <u><i>Geometry > Dimensions</i></u> menu. This primarily applies to roof structure models of the FROM OUTLINE type created using the roof floor plan outline or models of the BY PLANES type created using roof planes.</p>
+<p>Openings created in the section <u><i>Geometry > Dimensions > Opening</i></u> can only be edited in the <u><i>Geometry > Dimensions</i></u> menu. This primarily applies to roof structure models of the FROM OUTLINE type created using the roof ground plan outline or models of the BY PLANES type created using roof planes.</p>
 
 <hr class="main">
 
