@@ -138,6 +138,13 @@ def define_env(env):
             return f"**[include_md] file not found: {rel_path}**"
 
         src = candidate.read_text(encoding="utf-8")
+        
+        # Skip YAML front matter if present
+        if src.startswith('---'):
+            # Find the end of front matter
+            end_frontmatter = src.find('\n---\n', 3)
+            if end_frontmatter != -1:
+                src = src[end_frontmatter + 5:]  # Skip past the closing ---\n
 
         if start:
             # useknout vše před markerem start (včetně něj)
