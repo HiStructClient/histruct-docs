@@ -1,20 +1,20 @@
 ---
 sourceLang: cs
-sourceHash: 9c4318ceb042a97d27985d31cc774c14
+sourceHash: 2a20989259d56a544ec1a52c6cdbaad0
 autoTranslated: true
 ---
 
-### Abdeckung
+# Dacheindeckung
 
-Hier können Sie das Dachmaterial für Ihr neues Dach auswählen.
+Hier können Sie die Dacheindeckung für Ihr neues Dach auswählen.
 
-#### ![naviBackIcon](img/backIcon-de.png) Zurück
-Verwenden Sie die Schaltfläche Zurück, um zum vorherigen Schritt der Eingabe zurückzukehren.
+## ![naviBackIcon](img/backIcon-en.png) Zurück
+Mit der Schaltfläche Zurück kehren Sie zum vorherigen Schritt der Eingabe zurück.
 
-#### ![roofingLibraryIcon](img/roofingLibraryIcon-de.png) Bedachung
-Klicken Sie auf die Schaltfläche Bedachung, um das Dachmaterial für Ihr Dach auszuwählen.
+## ![roofingLibraryIcon](img/roofingLibraryIcon-en.png) Dacheindeckung
+Klicken Sie auf die Schaltfläche Dacheindeckung, um die Eindeckung für Ihr Dach auszuwählen.
 
-#### ![naviNextIcon](img/nextIcon-de.png) Weiter
-Verwenden Sie die Schaltfläche Weiter, um mit dem nächsten Schritt der Eingabe fortzufahren.
+## ![naviNextIcon](img/nextIcon-en.png) Weiter 
+Mit der Schaltfläche Weiter fahren Sie mit dem nächsten Schritt der Eingabe fort.
 
-Vermissen Sie ein Dachmaterial in der Galerie? Kontaktieren Sie uns, wir werden es hinzufügen.
+Fehlt eine Dacheindeckung in der Galerie? Schreiben Sie uns, wir werden sie ergänzen.

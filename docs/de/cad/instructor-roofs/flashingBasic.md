@@ -1,25 +1,24 @@
 ---
 sourceLang: cs
-sourceHash: 63557d33c5f14c6083365d7b519be953
+sourceHash: cd428c8438329c0aeef48d5454334e49
 autoTranslated: true
 ---
 
+# Anschlussprofile und Dachrinnensystem
+Hier können Sie Anschlussprofile für das konfigurierte Dach auswählen.
 
-### Trauf- und Dachrinnensystem
-Hier können Sie die Abdeckungen für Ihr konfiguriertes Dach auswählen.
+## ![naviBackIcon](img/backIcon-en.png) Zurück
+Mit der Taste Zurück gelangen Sie zum vorherigen Schritt der Eingabe.
 
-#### ![naviBackIcon](img/backIcon-de.png) Zurück
-Verwenden Sie die Schaltfläche Zurück, um zum vorherigen Schritt der Eingabe zurückzukehren.
+## ![roofingLibraryIcon](img/roofingLibraryIcon-en.png) Anschlussprofile
+Wählen Sie die Anschlussprofile für das gesamte Dach aus.
 
-#### ![roofingLibraryIcon](img/roofingLibraryIcon-de.png) Leisten
-Wählen Sie die Verkleidungen für das gesamte Dach.
+Wenn Sie ein bestimmtes Anschlussprofil einstellen möchten, klicken Sie im Modell auf das gewünschte Anschlussprofil.
 
-Wenn Sie einen bestimmten Eindeckrahmen einstellen müssen, klicken Sie auf den ausgewählten Eindeckrahmen im Modell.
+## Fallrohre
+Das ausgewählte Fallrohr können Sie verschieben, bearbeiten oder löschen. Ein weiteres Fallrohr kann zur Rinne hinzugefügt werden, indem Sie im Modell auf die Hinzufügen-Taste klicken.
 
-#### Leisten
-Sie können den ausgewählten Eindeckrahmen verschieben, bearbeiten oder löschen. Sie können eine weitere Leine an der Traufe hinzufügen, indem Sie im Modell auf die Schaltfläche Hinzufügen klicken.
+## ![naviNextIcon](img/nextIcon-en.png) Weiter
+Mit der Taste Weiter fahren Sie mit dem nächsten Eingabeschritt fort.
 
-#### ![naviNextIcon](img/nextIcon-de.png) Weiter
-Verwenden Sie die Schaltfläche Weiter, um mit dem nächsten Schritt der Eingabe fortzufahren.
-
-Vermissen Sie irgendwelche Randtypen in der Galerie? Kontaktieren Sie uns, wir werden sie hinzufügen.
+Fehlt Ihnen ein bestimmter Anschlussprofiltyp in der Galerie? Schreiben Sie uns, wir fügen ihn hinzu.

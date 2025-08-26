@@ -1,15 +1,15 @@
 ---
 sourceLang: cs
-sourceHash: 2d07a308a6db46a87781f5c43345b02b
+sourceHash: 1ea97d68fdae3180ef74d9530bd31844
 autoTranslated: true
 ---
 
 # Steuerung der Oberflächenbibliothek
 
-Die Steuerung unserer reichhaltigen Bibliothek von Oberflächen ist ein Kinderspiel. Klicken Sie einfach auf die ausgewählte Bibliothek und eine Liste aller verfügbaren Elemente wird angezeigt. Das Hinzufügen eines neuen Elements ist einfach - drücken Sie die Schaltfläche *Hinzufügen*.
+Die Bedienung unserer umfangreichen Oberflächenbibliothek ist ein Kinderspiel. Klicken Sie einfach auf die gewünschte Bibliothek und eine Liste aller verfügbaren Elemente wird angezeigt. Das Hinzufügen eines neuen Elements ist ganz einfach – drücken Sie die *Hinzufügen*-Schaltfläche.
 
-Um vorhandene Elemente zu bearbeiten, klicken Sie sie in der Bibliothek an und bearbeiten Sie sie über das intuitive Dialogfeld. Ändern Sie nicht nur Oberflächenfarben aus unserer umfangreichen RAL-Farbpalette, sondern fügen Sie auch Texturen oder beliebige Farben hinzu.
+Um bestehende Elemente zu bearbeiten, klicken Sie in der Bibliothek darauf und nehmen Sie die Anpassungen über das intuitive Dialogfenster vor. Ändern Sie nicht nur die Oberflächenfarben aus unserer umfangreichen RAL-Farbpalette, sondern fügen Sie auch Texturen oder beliebige Farben hinzu.
 
-Erstellen Sie Modelle mit einem individuellen Look dank unserer Oberflächenbibliothek.
+Erstellen Sie Modelle mit individuellem Aussehen dank unserer Oberflächenbibliothek.
 
-Optionen der Oberflächenbibliothek](img/surfaceLibrary.gif)
+![Surface library options](img/surfaceLibrary.gif)

@@ -1,23 +1,22 @@
 ---
 sourceLang: cs
-sourceHash: 6626e61fde507eba90dfc7aae14fe8de
+sourceHash: f63057ad2e326a5a52cc3b21f6106114
 autoTranslated: true
 ---
 
+# Dacheindeckung
+Hier können Sie die Dacheindeckung für das konfigurierte Dach auswählen.
 
-### Abdeckung
-Hier können Sie die Abdeckung für das konfigurierte Dach auswählen.
+## ![naviBackIcon](img/backIcon-en.png) Zurück
+Mit der Schaltfläche Zurück gelangen Sie zum vorherigen Eingabeschritt.
 
-#### ![naviBackIcon](img/backIcon-de.png) Zurück
-Verwenden Sie die Schaltfläche Zurück, um zum vorherigen Schritt der Eingabe zurückzukehren.
+## ![roofingLibraryIcon](img/roofingLibraryIcon-en.png) Dacheindeckung
+Wählen Sie die Dacheindeckung für das gesamte Dach aus. 
 
-#### ![roofingLibraryIcon](img/roofingLibraryIcon-de.png) Bedachung
-Wählen Sie das Dachdeckungsmaterial für das gesamte Dach.
+## ![Alt text](img/roofPlaneDicon-en) Dachfläche
+Wenn Sie die Verlegung der Dachziegel detailliert einstellen oder die Zeichnung und das Materialverzeichnis anzeigen möchten, wählen Sie die Schaltfläche Dachfläche oder klicken Sie auf die gewünschte Dachfläche im Modell.
 
-#### ![Alttext](img/roofPlaneDicon-de) Dachfläche
-Wenn Sie Details zur Verlegung von Beschlägen benötigen oder die Zeichnung und die Stückliste ansehen möchten, wählen Sie die Schaltfläche Dachfläche oder klicken Sie auf die ausgewählte Dachfläche im Modell.
+## ![naviNextIcon](img/nextIcon-en.png) Weiter
+Mit der Schaltfläche Weiter fahren Sie mit dem nächsten Eingabeschritt fort.
 
-#### ![naviNextIcon](img/nextIcon-de.png) Weiter
-Verwenden Sie die Schaltfläche Weiter, um mit dem nächsten Schritt der Eingabe fortzufahren.
-
-Vermissen Sie Dachziegel in der Galerie? Kontaktieren Sie uns, wir werden sie hinzufügen.
+Fehlt Ihnen eine Dacheindeckung in der Galerie? Schreiben Sie uns, wir fügen sie hinzu.

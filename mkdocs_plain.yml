@@ -24,6 +24,9 @@ plugins:
           link: /en/
           name: English
           default: true
+        - locale: de
+          link: /de/
+          name: Deutsch
         - locale: ro
           link: /ro/
           name: Română

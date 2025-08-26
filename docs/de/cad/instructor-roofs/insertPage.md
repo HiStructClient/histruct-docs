@@ -1,45 +1,43 @@
 ---
 sourceLang: cs
-sourceHash: 8a0304abc98aaf53bca19d70e9b46ca5
+sourceHash: 11321f01f1f31df3d454e23e91226408
 autoTranslated: true
 ---
 
 # Einfügen
-Hier finden Sie einen kurzen Überblick über die Kategorien, mit denen Sie Objekte in Ihren Projekten leicht erstellen und bearbeiten können.
+Hier finden Sie eine schnelle Übersicht der Kategorien, mit denen Sie Objekte in Ihren Projekten einfach erstellen und bearbeiten können.
 
-### Volumes
-![Volumen Schaltfläche](img/addVolumeButton.png)
+## Volumen
+![Volumes button](img/addVolumeButton.png)
 
-In der Kategorie *Volumen* können Sie verschiedene Volumina erstellen, z. B. Blöcke oder rotierende Solids. Eingefügte Volumen können durch einfaches Bearbeiten dieser Objekte leicht verändert werden.
+Die Kategorie *Volumen* ermöglicht es Ihnen, verschiedene Volumen wie Quader oder Rotationskörper zu erstellen. Die eingefügten Volumen können dank der einfachen Bearbeitung dieser Objekte leicht verändert werden.
 
-### Importieren
-![Import-Schaltfläche](img/addImportButton.png)
+## Import
+![Import button](img/addImportButton.png)
 
-Mit der Schaltfläche *Importieren* können Sie ganz einfach Objekte hinzufügen. Wir unterstützen Formate wie [DXF](../getting-started-roofs/importDxf.md) und [OBJ](../getting-started-roofs/importObj.md). Darüber hinaus können Sie Dateien importieren, die von [PDF zu DXF](../getting-started-roofs/convertPdfToDxf.md) oder 3D-Modelle von [PDF zu OBJ](../getting-started-roofs/convert3dPdfToObj.md) konvertiert wurden.
+Mit der Schaltfläche *Importieren* können Sie ganz einfach Objekte hinzufügen. Wir unterstützen Formate wie [DXF](../getting-started-roofs/importDxf.md) und [OBJ](../getting-started-roofs/importObj.md). Außerdem können Sie Dateien importieren, die von [PDF zu DXF](../getting-started-roofs/convertPdfToDxf.md) oder 3D-Modelle von [PDF zu OBJ](../getting-started-roofs/convert3dPdfToObj.md) konvertiert wurden.
 
-### Dächer
-![Dach-Schaltfläche](img/addRoofButton.png)
+## Dächer
+![Roof button](img/addRoofButton.png)
 
-Mit der Schaltfläche *Dächer* können Sie ganz einfach Schlüsselelemente für die Modellierung von Dächern hinzufügen. Erstellen Sie schnell und effizient komplexe Dachstrukturen.
+Die Schaltfläche *Dächer* erleichtert das Hinzufügen von Schlüsselteilen für die Modellierung von Dächern. Erstellen Sie schnell und effizient komplexe Dachkonstruktionen.
 
-###Gebäude
-Gebäude-Schaltfläche](img/addBuildingsButton.png)
+## Gebäude
+![Buildings button](img/addBuildingsButton.png)
 
-Die Schaltfläche *Gebäude* bietet Ihnen vorgefertigte Gebäude, die Sie an Ihre Bedürfnisse anpassen können. So können Sie schnell und einfach Gebäude zu Ihren Projekten hinzufügen.
+Die Schaltfläche *Gebäude* stellt Ihnen fertige Gebäude zur Verfügung, die Sie nach Ihren Bedürfnissen anpassen können. Fügen Sie Gebäude schnell und einfach zu Ihren Projekten hinzu.
 
-### Wand
-![Wand-Schaltfläche](img/addWallButton.png)
+## Wand
+![Wall button](img/addWallButton.png)
 
-Mit der Schaltfläche *Wand* können Sie ganz einfach Wände in Ihren Modellen hinzufügen und bearbeiten.
+Mit der Schaltfläche *Wand* können Sie problemlos Wände zu Ihren Modellen hinzufügen und bearbeiten.
 
-### Dekoration
-![Schaltfläche Dekorationen](img/addDecorationsButton.png)
+## Dekorationen
+![Decorations button](img/addDecorationsButton.png)
 
-Die Schaltfläche *Dekorationen* ermöglicht es Ihnen, Ihre Modelle zu dekorieren und ästhetische Elemente hinzuzufügen. Der Kreativität sind keine Grenzen gesetzt!
+Die Schaltfläche *Dekorationen* ermöglicht es Ihnen, Ihre Modelle zu verschönern und ästhetische Elemente hinzuzufügen. Ihrer Kreativität sind keine Grenzen gesetzt!
 
-### Annotation
-[[Schaltfläche Kommentieren]](img/addAnotateButton.png)
+## Anmerkungen
+![Anotate button](img/addAnotateButton.png)
 
-Die Schaltfläche *Annotieren* eignet sich hervorragend zum Hinzufügen von Linien und Kästen, um Ihr Projekt übersichtlicher zu gestalten.
-
-
+Die Schaltfläche *Anmerkungen* ist ideal zum Hinzufügen von Linien und Bemaßungen, die zur Übersichtlichkeit Ihres Projekts beitragen.

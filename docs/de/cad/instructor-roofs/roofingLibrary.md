@@ -1,11 +1,11 @@
 ---
 sourceLang: cs
-sourceHash: 869698ba7f0b4a7146132298178f580c
+sourceHash: 4455db98a5032c1189b9c8bfabab7cef
 autoTranslated: true
 ---
 
-# Kontrolle der Materialbibliothek
+# Steuerung der Materialbibliothek
 
-Die Steuerung der Materialbibliothek in HiStruct ist intuitiv und einfach. Um einen Dachbaustoff hinzuzufügen, drücken Sie einfach die Schaltfläche *Hinzufügen* im Menü, und der neue Dachbaustoff wird sofort angezeigt. Hier haben Sie die Möglichkeit, den *Typ* des Bedachungsmaterials zu ändern, was eine breite Palette von Parametern für weitere Anpassungen eröffnet. In diesem Menü finden Sie eine Fülle von Anpassungsoptionen, die Sie einfach und intuitiv an Ihre Bedürfnisse anpassen können.
+Die Steuerung der Materialbibliothek in HiStruct ist intuitiv und einfach. Um eine Dachdeckung hinzuzufügen, drücken Sie einfach die *Hinzufügen*-Schaltfläche im Menü, und eine neue Dachdeckung erscheint sofort. Hier haben Sie die Möglichkeit, den *Typ* der Deckung zu ändern, was eine breite Auswahl an Parametern für weitere Anpassungen eröffnet. In diesem Menü finden Sie zahlreiche Anpassungsmöglichkeiten, die Sie einfach und intuitiv nach Ihren Bedürfnissen ändern können.
 
-Optionen der Bedachungsbibliothek](img/roofingLibrary.gif)
+![Roofing library options](img/roofingLibrary.gif)

@@ -1,69 +1,67 @@
 ---
 sourceLang: cs
-sourceHash: 1bbbdc43e413504ee13c67aa8911c26a
+sourceHash: e5cfbcb25f88c998ed75e5aefda3d611
 autoTranslated: true
 ---
 
 # Main
 
-## Linkes Menü
+## Menü auf der linken Seite
 ### Einfügen
-![Alttext](img/insertButton.png)
+![Alt text](img/insertButton.png)
 
-Mit dieser Schaltfläche fügen Sie ein Objekt in den Modellierbereich ein. Sie können hier verschiedene Elemente einfügen, wie z.B. allgemeine Formen, Dächer, Wände oder sogar ganze Häuser. Wenn Sie darauf klicken, werden Gruppen von Objekten angezeigt, aus denen Sie für Ihre Arbeit auswählen können.
+Diese Schaltfläche dient dazu, ein Objekt in den Modellierungsbereich hinzuzufügen. Hier können Sie verschiedene Elemente wie allgemeine Formen, Dächer, Wände oder sogar ganze Häuser hinzufügen. Nach dem Klicken werden Objektgruppen angezeigt, aus denen Sie für Ihre Arbeit auswählen können.
 
 ### Werkzeuge
-![Alttext](img/toolsButton.png)
+![Alt text](img/toolsButton.png)
 
-Unterhalb dieser Schaltfläche finden Sie die Werkzeuge zur Überprüfung Ihres Modells. Mit ihnen können Sie verschiedene Abmessungen Ihres Projekts messen und auch mit der Arbeitsebene arbeiten.
+Unter dieser Schaltfläche finden Sie Werkzeuge zur Überprüfung Ihres Modells. Sie können sie zum Messen verschiedener Abmessungen Ihres Projekts sowie zur Arbeit mit der Arbeitsebene verwenden.
 
 ### Zeichnungen
-![Alttext](img/drawingsButton.png)
+![Alt text](img/drawingsButton.png)
 
-Mit dieser Schaltfläche können Sie die erstellten Zeichnungen des räumlichen Modells verwalten und bearbeiten.
-
+Diese Schaltfläche ermöglicht es Ihnen, die generierten Zeichnungen des 3D-Modells zu verwalten und zu bearbeiten.
 
 ### Berichte
-![Alttext](img/reportsButton.png)
+![Alt text](img/reportsButton.png)
 
-Um die Ausgaben Ihres Modells zu verwalten, verwenden Sie diese Schaltfläche. Hier können Sie nicht nur alle Ausgaben sehen, sondern die meisten auch bearbeiten.
+Um die Ausgaben Ihres Modells zu verwalten, verwenden Sie diese Schaltfläche. Sie können hier nicht nur alle Ausgaben anzeigen, sondern die meisten davon auch bearbeiten.
 
 ### Bibliotheken
-![Alttext](img/librariesButton.png)
+![Alt text](img/librariesButton.png)
 
-Mit dieser Schaltfläche können Sie alle Bibliotheken bearbeiten, die für die 3D-Modellierung benötigt werden. Sie können damit Farben hinzufügen, die Bedachung ändern oder vielleicht Texturen zu einzelnen Materialien hinzufügen.
+Diese Schaltfläche dient zum Bearbeiten aller Bibliotheken, die für das 3D-Modellieren benötigt werden. Damit können Sie Farben hinzufügen, Dachbedeckungen ändern oder beispielsweise Texturen zu einzelnen Materialien hinzufügen.
 
 ## Kamerasteuerung
-Mit diesem Smart Cube können Sie bequem zwischen verschiedenen Ansichten des Modells umschalten. Schalten Sie einfach die axonometrische Ansicht ein und aus oder ändern Sie die Art und Weise, wie sich die Kamera dreht.
+Mit diesem intelligenten Würfel können Sie bequem zwischen verschiedenen Ansichten des Modells wechseln. Sie können einfach die axonometrische Ansicht ein- und ausschalten oder die Art der Kameradrehung ändern.
 
 ![Roofing library options](img/viewCamera.gif)
 
-### Modi der Kamerasteuerung
-HiStruct bietet 3 Kamerasteuerungsmodi, die für unterschiedliche Anwendungen ausgelegt sind. Die Steuerung der Szene mit der linken und rechten Maustaste kann unterschiedlich aussehen, je nachdem welcher Modus aktiv ist.
+### Kamerasteuerungs-Modi
+HiStruct bietet 3 Kamerasteuerungs-Modi, die für verschiedene Nutzungsarten bestimmt sind. Die Bedienung der Szene mit der linken und rechten Maustaste kann also unterschiedlich aussehen, je nachdem, welcher Modus aktiv ist.
 
-#### Drohnen-Perspektive
-Bei der Betrachtung der Szene "aus der Drohne" drehen wir beide Maustasten (oder tippen und schieben einen Finger auf dem Touchscreen) durch das Modell, das in der Mitte des Bildschirms bleibt. Die gesamte Szene ist also jederzeit sichtbar, und das Zoomen erfolgt immer von oder zur Mitte der Szene.
-![Alt-Text](img/CameraRooferDrone.png)
+#### Drohnenperspektive
+Beim Blick auf die Szene „aus der Drohne“ drehen Sie mit beiden Maustasten (oder durch Tippen und Ziehen mit dem Finger auf einem Touchscreen) das Modell, das stets im Mittelpunkt des Bildschirms bleibt. Die gesamte Szene ist somit immer sichtbar, und das Zoomen erfolgt immer vom beziehungsweise zum Mittelpunkt der Szene.
+![Alt text](img/CameraRooferDrone.png)
 
-Praktisch ist in diesem Modus auch die Taste "A", mit der Sie die automatische und konstante Drehung des Modells um die Mitte ein- und ausschalten können.
+In diesem Modus ist auch die Nutzung der Taste „A“ praktisch, deren Betätigen das automatische und ständige Drehen des Modells um das Zentrum ein- oder ausschaltet.
 
 #### Punktfokus
-Dieser fortgeschrittene Modus ist besonders für erfahrene Benutzer nützlich, die einen bestimmten Punkt des Modells fokussieren und näher betrachten möchten. Denn die Drehung der linken Maustaste erfolgt um den Punkt, der die aktuelle Position des Mauszeigers bestimmt. Auch das Zoomen erfolgt in Richtung des Punktes, an dem sich der Mauszeiger gerade befindet, oder von ihm weg. Auf diese Weise ist es möglich, die Kamera näher an den zu untersuchenden Ausschnitt heranzuführen und ihn durch Drehen aus allen Winkeln zu betrachten. Der Nachteil der Punktfokussierung ist, dass das gesamte Modell aus der Szene "herausdriften" kann.
-![Alttext](img/KameraRooferGeek.png)
+Dieser fortgeschrittene Modus ist besonders für erfahrene Benutzer geeignet, die sich auf einen bestimmten Punkt des Modells fokussieren und ihn sich genauer anschauen möchten. Die Drehung mit der linken Maustaste erfolgt nämlich um den Punkt, den die aktuelle Mauszeigerposition bestimmt. Ebenso erfolgt das Zoomen zum bzw. vom Punkt, auf den gerade der Mauszeiger zeigt. Auf diese Weise können Sie die Kamera auf ein zu untersuchendes Detail der Szene heranholen und es durch Drehen aus allen Blickwinkeln betrachten. Nachteil dieses Modus ist, dass das gesamte Modell „aus der Szene verschwinden“ kann.
+![Alt text](img/CameraRooferGeek.png)
 
-_TIP_: In diesem Modus ist es möglich, von der perspektivischen Ansicht zur axonometrischen Ansicht zu wechseln. Obwohl dies für das menschliche Auge nicht natürlich und visuell ansprechend ist, kann es beim Modellieren oder Ausrichten von Linien besonders hilfreich sein, da es die Abstände nicht verzerrt.
-![Alt-Text](img/CameraRooferAxo.png)
+_TIPP_: In diesem Modus können Sie von der perspektivischen zur axonometrischen Ansicht umschalten. Das ist zwar für das menschliche Auge nicht natürlich und optisch weniger attraktiv, aber es kann beim Modellieren oder Ausrichten von Linien helfen, da es die Distanzen nicht verzerrt.
+![Alt text](img/CameraRooferAxo.png)
 
-#### Menschliche Vogelperspektive
-In diesem Modus bewegt sich die Kamera auf die Augenhöhe der Person und das Drehen des Modells mit der linken Taste folgt der Drehung des Kopfes der stehenden Figur. Mit der rechten Maustaste wird die Bewegung der Person um das Modell herum simuliert.
-![Alttext](img/CameraRooferPerson.png)
-_TIP_: Wenn Sie diesen Modus aktivieren, nachdem Sie die Draufsicht ausgewählt haben, befindet sich die Kamera im Inneren des Modells und Sie können sich umsehen, als ob Sie in der Mitte eines Gebäudes stehen würden.
+#### Ansicht aus Menschenhöhe
+In diesem Modus wird die Kamera auf Augenhöhe des Menschen versetzt, und das Drehen des Modells mit der linken Maustaste folgt dem Drehen des Kopfes einer stehenden Figur. Die Nutzung der rechten Maustaste simuliert die Bewegung einer Person um das Modell herum.
+![Alt text](img/CameraRooferPerson.png)
+_TIPP_: Wenn Sie diesen Modus direkt nach dem Auswählen der Draufsicht aktivieren, befindet sich die Kamera im Inneren des Modells und Sie können sich umsehen, als würden Sie mitten im Gebäude stehen.
 
 Der zuletzt verwendete Modus wird im Speicher des Browsers gespeichert und ist bei jedem erneuten Öffnen von HiStruct aktiv.
 
-## Steuerung der Ebenen im Modell
+## Ebenensteuerung im Modell
 
-Sie können einzelne Ebenen des 3D-Modells im Modellierbereich ein- und ausschalten. Das Modell ist in einzelne Objekte unterteilt, die über eigene Ebenen verfügen. Durch Klicken auf die Schaltfläche mit dem Ebenennamen auf der rechten Seite des Bildschirms können die einzelnen Ebenen aus- und wieder eingeschaltet werden. Ebenso ist es möglich, beliebige Kanten oder Flächen im Modellierbereich mit den Schaltflächen oben in diesem Bereich global ein- und auszuschalten.
+Im Modellierungsbereich können die einzelnen Ebenen des 3D-Modells ein- und ausgeschaltet werden. Das Modell ist in einzelne Objekte unterteilt, die ihre Ebenen haben. Durch Klicken auf die Schaltfläche mit dem Ebenennamen auf der rechten Seite des Bildschirms können Sie die einzelnen Ebenen aus- und wieder einschalten. Ebenso ist es möglich, global alle Kanten oder Flächen im Modellierungsbereich mit den Schaltflächen am oberen Rand dieses Abschnitts ein- oder auszuschalten.
 
-
-![Ebenen des 3D-Modells](img/layersModel.gif)
+![Layers of the 3D model](img/layersModel.gif)

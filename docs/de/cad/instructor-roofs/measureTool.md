@@ -1,11 +1,11 @@
 ---
 sourceLang: cs
-sourceHash: 019e4eb334568436a8736ba0b1fcd6cf
+sourceHash: 32916c0f6076c5799092550c392ebb56
 autoTranslated: true
 ---
 
-# Messung
+# Messen
 
-In HiStruct kann jeder Abstand zwischen zwei Punkten gemessen werden. Dazu werden diese Punkte einfach mit dem Cursor markiert.
+In HiStruct kann beliebige Entfernung zwischen zwei Punkten gemessen werden. Dies geschieht einfach, indem diese Punkte mit dem Cursor ausgewählt werden.
 
-![Wie wird gemessen?](img/measureTool.gif)
+![How to measure?](img/measureTool.gif)

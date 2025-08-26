@@ -1,26 +1,23 @@
 ---
 sourceLang: cs
-sourceHash: 1b909e71498113d0fac5a55cdfcf8086
+sourceHash: a1399eb3f2bea1b0719f8f0704229cb6
 autoTranslated: true
 ---
 
+# Grundriss
+Hier können Sie den Umriss des Daches eingeben oder einen bereits eingegebenen Umriss bearbeiten.
 
-### Grundriss
-Hier können Sie die Dachkontur eingeben oder die hintere Kontur bearbeiten.
+## ![roofBoundaryIcon](img/roofBoundaryIcon-en.png) Dachumriss
+Wenn Sie noch keinen Umriss erstellt haben, können Sie ihn durch Klicken auf die Schaltfläche Umriss eingeben. Die Schaltfläche ist nicht verfügbar, wenn der Dachumriss bereits eingegeben wurde.
 
-#### ![roofBoundaryIcon](img/roofBoundaryIcon-de.png) Dachumriss
-Wenn Sie noch keinen Umriss erstellt haben, können Sie einen Umriss eingeben, indem Sie auf die Schaltfläche Umriss klicken. Die Schaltfläche ist nicht verfügbar, wenn der Dachumriss bereits eingegeben ist.
+## ![setSlopeIcon](img/setSlopeIcon-en.png) Neigung für das gesamte Dach einstellen
+Die Neigung der Dachflächen kann für das gesamte Dach in Grad eingestellt werden. Wenn Sie die Neigung für eine bestimmte Dachfläche separat einstellen möchten, klicken Sie im Modell auf eine beliebige Umrisskante und stellen Sie die Neigung dort ein.
 
-#### ![setSlopeIcon](img/setSlopeIcon-de.png) Neigung für das gesamte Dach festlegen
-Die Neigung der Dachflächen kann in Grad für das gesamte Dach eingestellt werden. Wenn Sie die Neigung für eine einzelne Dachfläche einstellen möchten, klicken Sie auf eine Konturkante im Modell und stellen dort die Neigung ein.
+## ![roofLiftToolIcon](img/roofLiftToolIcon-en.png) Dach anheben
+Das eingegebene Dach kann um einen Wert, der für die gesamte Geometrie gilt, angehoben werden.
 
-#### ![roofLiftToolIcon](img/roofLiftToolIcon-de.png) Anheben des Daches
-Das angegebene Dach kann um einen für die gesamte Geometrie gültigen Wert in den Raum gehoben werden.
+## ![deleteAllIcon](img/deleteAllIcon-en.png) Alles löschen
+Löscht die gesamte Eingabe des Umrisses sowie alle nachfolgenden Änderungen in den weiteren Eingabeschritten.
 
-#### ![deleteAllIcon](img/deleteAllIcon-de.png) Alles löschen
-Löscht den gesamten Gliederungseintrag und nachfolgende Änderungen in nachfolgenden Schritten des Eintrags.
-
-#### ![naviNextIcon](img/nextIcon-de.png) Weiter
-Verwenden Sie die Schaltfläche Weiter, um mit dem nächsten Schritt der Eingabe fortzufahren.
-
-
+## ![naviNextIcon](img/nextIcon-en.png) Weiter
+Mit der Schaltfläche Weiter gelangen Sie zum nächsten Eingabeschritt.

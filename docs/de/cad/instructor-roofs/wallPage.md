@@ -1,15 +1,13 @@
 ---
 sourceLang: cs
-sourceHash: 1ae69fea24a187e9726d6c37e8a52f16
+sourceHash: 746a2a3ab48e81972de86aeaf855b606
 autoTranslated: true
 ---
 
-# Mauer
+# Wand
 
-Mit der Schaltfläche *Wand* können Sie ganz einfach eine Wand mithilfe einer Polylinie hinzufügen. Nachdem Sie eine Wand hinzugefügt haben, können Sie unsere Bibliothek nutzen, um Ihre eigenen komplexen Wandkompositionen zu erstellen, einschließlich Dämmung, tragende Elemente und Ansichtselemente.
+Die Schaltfläche *Wand* ermöglicht es Ihnen, ganz einfach eine Wand mithilfe einer Polylinie hinzuzufügen. Nach dem Hinzufügen einer Wand können Sie außerdem unsere Bibliothek nutzen, um eigene komplexe Wandaufbauten zu erstellen, einschließlich Isolierung, tragender Elemente und Sichtflächen.
 
+![Add wall to project](img/addWall.png)
 
-![Wand zum Projekt hinzufügen](img/addWall.png)
-
-<!-- [❔Wandaufbau-Bearbeitungshilfe](layersLibrary.md) -->
-
+<!-- [❔Hilfe zur Bearbeitung des Wandaufbaus](layersLibrary.md) -->

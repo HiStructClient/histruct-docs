@@ -1,9 +1,8 @@
 ---
 sourceLang: cs
-sourceHash: 7f5c9380b564628c55be5eafe91a2b0f
+sourceHash: 503ddd6482ae3e59776789df1c5c09f3
 autoTranslated: true
 ---
 
 # Zeichnungen
-Dieser Abschnitt enthält Optionen zur Bearbeitung automatisch erstellter Zeichnungen und zum Hinzufügen Ihrer eigenen Zeichnungen.
-
+Dieser Abschnitt bietet Möglichkeiten zur Bearbeitung automatisch generierter Zeichnungen und zum Hinzufügen eigener Zeichnungen.
