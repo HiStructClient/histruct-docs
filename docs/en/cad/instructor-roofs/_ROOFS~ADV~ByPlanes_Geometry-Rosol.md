@@ -53,9 +53,9 @@ With the <u>Locks</u> button, you can lock or unlock the slopes of all roof plan
 
 <hr class="main">
 
-{{ box_icon("img/StartOverIcon64x64.png", "Restart", "Restart") }}
+{{ box_icon("img/StartOverIcon64x64.png", "Start over", "Start over") }}
 
-With the <u>Restart</u> button, you can delete all user modifications of the geometry and return to the original solver result.
+With the <u>Start over</u> button, you can delete all user modifications of the geometry and return to the original solver result.
 
 <hr class="main">
 

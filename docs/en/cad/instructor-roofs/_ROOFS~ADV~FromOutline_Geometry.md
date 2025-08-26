@@ -42,9 +42,9 @@ To adjust the scale, you can also use the <u>Scale</u> button, which is located 
 
 <hr class="main">
 
-{{ box_icon("img/RoofBoundaryIcon64x64.png", "Outline", "Outline") }}
+{{ box_icon("img/RoofBoundaryIcon64x64.png", "Boundary", "Boundary") }}
 
-<p>The <u>Outline</u> button is used to draw the floor plan outline of the roof. To input the length and direction of individual eave edges, you can use:</p>
+<p>The <u>Boundary</u> button is used to draw the floor plan outline of the roof. To input the length and direction of individual eave edges, you can use:</p>
 
 <p><b><u>Freehand drawing with the cursor</u></b></p>
 <ul>
@@ -94,9 +94,9 @@ To adjust the scale, you can also use the <u>Scale</u> button, which is located 
 
 <hr class="main">
 
-{{ box_icon("img/DeleteIcon64x64.png", "Delete", "Delete") }}
+{{ box_icon("img/DeleteIcon64x64.png", "Delete all", "Delete all") }}
 
-<p>Deletes all imported backgrounds and roof constructions drawn using the <u>Outline</u> function.</p>
+<p>Deletes all imported backgrounds and roof constructions drawn using the <u>Boundary</u> function.</p>
 
 <hr class="main">
 
@@ -116,7 +116,7 @@ To adjust the scale, you can also use the <u>Scale</u> button, which is located 
 
 <p>The <u>Add</u> button allows you to add additional (auxiliary) roof structures to the model space.</p>
 <ul>
-  <li><p>Another outline-defined roof</p></li>
+  <li><p>Another roof defined by a boundary</p></li>
   <li><p>A roof drawn using roof planes</p></li>
 </ul>
 

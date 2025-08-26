@@ -10,7 +10,7 @@ autoTranslated: true
 
   <hr class="main">
 
-  <h2>Assignment</h2>
+  <h2>Input</h2>
   <ul>
     <li><p><u><b>Basic</b></u> modeling space settings offer a reduced set of functions for faster modeling.</p></li>
     <li><p>To activate all available functions in the modeling space, you need to switch the assignment version to <u><b>Advanced</b></u>.</p></li>
@@ -22,8 +22,8 @@ autoTranslated: true
   <ul>
     <li><p><u>Terrain surface</u> allows you to select the appearance of the surrounding terrain in the modeling space.</p></li>
     <li><p>The <u>Automatic dimensions</u> button allows you to enable the rendering of plan dimensions of the object in the modeling space. The display can then be controlled manually using the buttons on the right side of the screen.</p></li>
-    <li><p><u>Add button scale</u> adjusts the size of the buttons in the model.</p></li>
-    <li><p><u>Coordinate system marker size</u> adjusts the size of the coordinate system marker in the model.</p></li>
+    <li><p><u>Scale of add buttons</u> adjusts the size of the buttons in the model.</p></li>
+    <li><p><u>Insert Lcs symbol size</u> adjusts the size of the coordinate system marker in the model.</p></li>
   </ul>
 
   <hr class="main">

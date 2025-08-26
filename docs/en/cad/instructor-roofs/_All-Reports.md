@@ -10,7 +10,7 @@ autoTranslated: true
 
   <hr class="main">
 
-  <h2>Views</h2>
+  <h2>Site views</h2>
   <p>Generates a document with views of the modeled structure.</p>
 
   <hr class="main">
@@ -20,22 +20,22 @@ autoTranslated: true
 
   <hr class="main">
 
-  <h2>Bill of Materials</h2>
+  <h2>BOM (Bill of Materials)</h2>
   <p>Generates a document with a tabular report for sheet metal elements.</p>
 
   <hr class="main">
 
-  <h2>Sheeting Bill of Materials</h2>
+  <h2>Sheeting BOM (Bill of Materials)</h2>
   <p>Generates a document with a report of cladding elements for individual roof or wall planes, including their layouts.</p>
 
   <hr class="main">
 
-  <h2>Dimensions Report</h2>
+  <h2>Measurement report</h2>
   <p>Generates a document with a report of dimensions for individual wall or roof planes and roof edges.</p>
 
   <hr class="main">
 
-  <h2>Product Components</h2>
+  <h2>Product parts</h2>
   <p>Generates a document with an overall report of all cladding and flashing elements, including any accessories (screws, etc.).</p>
 
   <hr class="main">

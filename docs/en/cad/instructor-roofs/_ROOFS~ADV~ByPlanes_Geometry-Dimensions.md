@@ -126,9 +126,9 @@ You can also use the <u>Scale</u> button, located at the top of the open table, 
 
   <hr class="main">
 
-{{ box_icon("img/PreviewGeometry64x64.png", "Connect", "Connect") }}
+{{ box_icon("img/PreviewGeometry64x64.png", "Merge", "Merge") }}
 
-  <p>The <u>Connect</u> button is used to set the maximum distance between points that can be considered identical. The generator will then merge points that meet the set maximum distance.</p>
+  <p>The <u>Merge</u> button is used to set the maximum distance between points that can be considered identical. The generator will then merge points that meet the set maximum distance.</p>
 
   <p><b><u>Adjusting the scale of the imported background</u></b></p>
   <ul>

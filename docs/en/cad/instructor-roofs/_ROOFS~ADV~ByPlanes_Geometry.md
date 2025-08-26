@@ -214,7 +214,7 @@ The <u>Roof</u> button allows you to set the type of roof composition. The type 
 
 <hr class="main">-->
 
-{{ box_icon("img/ImportObjIcon64x64.png", "Jelly", "Jelly") }}
+{{ box_icon("img/ImportObjIcon64x64.png", "Rosol", "Rosol") }}
 
 <p>
 Allows you to adjust dimensions and slopes of generated edges and planes, change the height and possibly the eccentricity of the roof.
@@ -222,14 +222,14 @@ Allows you to adjust dimensions and slopes of generated edges and planes, change
 
 <hr class="main">
 
-{{ box_icon("img/PvgisIcon64x64.png", "Output", "Output") }}
+{{ box_icon("img/PvgisIcon64x64.png", "Performance", "Performance") }}
 
 <p>
 Allows you to evaluate the potential solar radiation performance on individual roof surfaces.
 </p>
 
 <p>
-...Functionality of the <u>Output</u> button is being prepared for a future program version...
+...Functionality of the <u>Performance</u> button is being prepared for a future program version...
 </p>
 
 <hr class="main">

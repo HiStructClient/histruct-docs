@@ -44,9 +44,9 @@ autoTranslated: true
 
   <hr class="main">
 
-{{ box_icon("img/QuoteIcon64x64.png", "Schedules", "Schedules") }}
+{{ box_icon("img/QuoteIcon64x64.png", "Reports", "Reports") }}
 
-  <p>With the <u>Schedules</u> button, you can generate views of the modeled structure, material schedules for quotation, and an editable document for an overall offer summary with the option to set prices for individual components.</p>
+  <p>With the <u>Reports</u> button, you can generate views of the modeled structure, material schedules for quotation, and an editable document for an overall offer summary with the option to set prices for individual components.</p>
 
   <hr class="main">
 

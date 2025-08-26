@@ -23,24 +23,24 @@ autoTranslated: true
 <p>You can configure the roof structure composition using the following buttons:</p>
 
 <ul>
-  <li><p><u>Top Layer</u></p></li>
-  <li><p><u>Lower Layers</u></p></li>
+  <li><p><u>Top layer</u></p></li>
+  <li><p><u>Lower layers</u></p></li>
 </ul>
 
 <p>
-For some roofing materials, the <u>Lower Layers</u> button may be hidden by default, and the secondary structure is not generated for such materials.
+For some roofing materials, the <u>Lower layers</u> button may be hidden by default, and the secondary structure is not generated for such materials.
 </p>
 
 <hr>
 
-{{ box_icon("img/RoofTopLayer_64x64.png", "Top Layer", "Top Layer", fontSize=10) }}
+{{ box_icon("img/RoofTopLayer_64x64.png", "Top layer", "Top layer", fontSize=10) }}
 <ul>
   <li><p>Allows you to select a roofing product from a prepared product gallery.</p></li>
 </ul>
 
 <hr>
 
-{{ box_icon("img/RoofLowerLayers_64x64.png", "Lower Layers", "Lower Layers", fontSize=10) }}
+{{ box_icon("img/RoofLowerLayers_64x64.png", "Lower layers", "Lower layers", fontSize=10) }}
 <ul>
   <li><p>Allows you to select the type of secondary structure composition from a prepared product gallery.</p></li>
 </ul>
