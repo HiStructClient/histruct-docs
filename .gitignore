@@ -1,5 +1,6 @@
 **/site/*
 site/*
+site_instructor/*
 
 **/node_modules/*
 .venv/

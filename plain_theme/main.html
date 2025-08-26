@@ -1,8 +1,8 @@
-{% from "partials/i18n.html" import t with context %}
-{% from "partials/navigation.html" import render_navigation with context %}
-
 <!DOCTYPE html>
 <html lang="{{ i18n_page_locale }}">
+
+{% from "partials/i18n.html" import t with context %}
+{% from "partials/navigation.html" import render_navigation with context %}
 
 <head>
     <meta charset="utf-8">
@@ -67,7 +67,9 @@
             </a>
         </div>
 
+        {% if config.extra.dev_mode %}
         {% include "partials/language-switch.html" with context %}
+        {% endif %}
 
     </article>
 
@@ -118,6 +120,5 @@
     });
 </script>
 {% endif %}
-
 
 </html>

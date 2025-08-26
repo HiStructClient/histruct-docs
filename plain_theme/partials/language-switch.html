@@ -1,25 +1,3 @@
-<!-- {# očekává se mkdocs>=1.5, mkdocs-static-i18n #}
-<div class="lang-switch">
-  <ul>
-    {# projdi všechny jazyky z konfigurace #}
-    {% for lang in i18n_config.languages %}
-      {% set code = lang.locale %}
-      {% set name = lang.name %}
-      {% set alt = page.file.alternates.get(code) %}
-      {% if alt %}
-        <li class="{{ 'active' if code == page.file.locale }}">
-          <a href="{{ alt.dest_uri|url }}" hreflang="{{ code }}">{{ name }}</a>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-
-  <!-- {{ page.file.alternates }}
-  
-  {{ i18n_config }} -->
-<!-- </div> -->
-
-
 {% set cur = page.file.locale %}
 {% set cur_lang = (i18n_config.languages | selectattr("locale","equalto",cur) | first) %}
 
