@@ -16,15 +16,15 @@ autoTranslated: true
 
 <hr class="main">
 
-{{ box_icon("img/MainDrawings64x64.png", "Views", "Views") }}
+{{ box_icon("img/MainDrawings64x64.png", "Site Views", "Site Views") }}
 
-<p>The <u>Views</u> button allows you to generate preset drawings with views of the entire roof or wall structure oriented according to the main X, Y, Z axes.</p>
+<p>The <u>Site Views</u> button allows you to generate preset drawings with views of the entire roof or wall structure oriented according to the main X, Y, Z axes.</p>
 
 <hr class="main">
 
-{{ box_icon("img/MainDrawings64x64.png", "Custom", "Custom") }}
+{{ box_icon("img/MainDrawings64x64.png", "Assemblies", "Assemblies") }}
 
-<p>The <u>Custom</u> button allows you to open custom drawings of a roof or wall structure created in the <u>Cladding</u> menu.</p>
+<p>The <u>Assemblies</u> button allows you to open custom drawings of a roof or wall structure created in the <u>Sheeting</u> menu.</p>
 
 <hr class="main">
 

@@ -6,7 +6,7 @@ autoTranslated: true
 
 # Openings
 <p>The <u><i>Openings</i></u> menu allows you to create and edit openings on individual roof planes. Each available type of opening can also be assigned a color.</p>
-<p><b>Setting up and editing openings on individual roof planes can be done using the <u>Control Buttons</u>.</b></p>
+<p><b>Settings and modifications of openings on individual roof planes can be made using the <u>Control Button</u>.</b></p>
 <p>Openings created in the section <u><i>Geometry > Dimensions > Opening</i></u> can only be edited in the <u><i>Geometry > Dimensions</i></u> menu. This primarily applies to roof structure models of the FROM OUTLINE type created using the roof floor plan outline or models of the BY PLANES type created using roof planes.</p>
 
 <hr class="main">
@@ -20,10 +20,10 @@ autoTranslated: true
 <hr class="main">
 
 <p>
-{{ box_icon("img/TapeMeasureIcon64x64.png", "Measurement", "Measurement") }}
+{{ box_icon("img/TapeMeasureIcon64x64.png", "Measure", "Measure") }}
 </p>
 
-<p>The <u>Measurement</u> button allows you to check the dimensions of the model.</p>
+<p>The <u>Measure</u> button allows you to check the dimensions of the model.</p>
 
 <hr class="main">
 

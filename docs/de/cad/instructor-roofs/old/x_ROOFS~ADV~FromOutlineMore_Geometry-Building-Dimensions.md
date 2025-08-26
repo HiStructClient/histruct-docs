@@ -4,7 +4,7 @@ sourceHash: 270e8a64d8508ac2574615b8b98071d8
 autoTranslated: true
 ---
 
-<h1>Geometrie &gt; Gebäude &gt; Abmessungen</h1>
+# Geometrie &gt; Gebäude &gt; Abmessungen
 <p>Ermöglicht das Ändern der geometrischen Parameter des Modells, also der Abmessungen der Traufkanten, der Dachneigung und des Dachüberstands. Es ist auch möglich, die Höhe der gesamten Dachkonstruktion zu ändern.</p>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->

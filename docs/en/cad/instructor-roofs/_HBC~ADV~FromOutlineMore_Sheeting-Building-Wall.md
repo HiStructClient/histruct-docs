@@ -4,9 +4,9 @@ sourceHash: 94138e5d9e621e884d631ddf800762df
 autoTranslated: true
 ---
 
-# Cladding &gt; Building &gt; Wall
+# Sheeting &gt; Building &gt; Wall
 
-<p>In the <u><i>Cladding &gt; Building &gt; Wall</i></u> menu, it is possible to set the wall production type, cladding row layout, and plinth height. Here you can also edit individual cladding layers.</p>
+<p>In the <u><i>Sheeting &gt; Building &gt; Wall</i></u> menu, it is possible to set the wall production type, cladding row layout, and plinth height. Here you can also edit individual cladding layers.</p>
 
 <p>For individual walls, you can further edit the color scheme and materials of the individual cladding layers. You can also generate a bill of materials for cladding items or a view of the wall in the form of an editable drawing.</p>
 
@@ -25,7 +25,7 @@ autoTranslated: true
 
 <hr class="main">
 
-<h2>Wall Cladding Layer Settings</h2>
+<h2>Wall Sheeting Layer Settings</h2>
 
 <p>The roof construction composition is set using the buttons:</p>
 

@@ -4,7 +4,7 @@ sourceHash: e2803ca8f474e182d1c5174ebb5e27ae
 autoTranslated: true
 ---
 
-<h1>Verkleidung &gt; Sekundäre Wandstruktur</h1>
+# Verkleidung &gt; Sekundäre Wandstruktur
 
 <p>Im Menü <u><i>Verkleidung &gt; Sekundäre Wandstruktur</i></u>, das über das <u>Bearbeitungs-Button</u> zugänglich ist, können editierbare Zeichnungen der sekundären Wandkonstruktion generiert werden.</p>
 <p><b><u>Die Steuer- und Bearbeitungs-Buttons</u> ändern die Eigenschaften der Konstruktion nur auf der ausgewählten Wandebene.</b></p>

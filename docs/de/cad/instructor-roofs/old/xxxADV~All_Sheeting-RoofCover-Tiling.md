@@ -4,7 +4,7 @@ sourceHash: 33604f744364e0607d88963ed19760f6
 autoTranslated: true
 ---
 
-<h1>Bekleidung &gt; Dacheindeckung &gt; Verlegung</h1>
+# Bekleidung &gt; Dacheindeckung &gt; Verlegung
 
 <p>
   Im Menü <u><i>Bekleidung &gt; Dacheindeckung &gt; Verlegung</i></u>, das über das <u>Editier-Button</u> zugänglich ist, können Richtung, Winkel und Versatz der Verlegung der Dacheindeckungselemente vom Dachrand eingestellt werden.

@@ -1,5 +1,5 @@
 
-<h1>Opláštění &gt; Střešní krytina &gt; Kladení</h1>
+# Opláštění &gt; Střešní krytina &gt; Kladení
 
 <p>
   V menu <u><i>Opláštění &gt; Střešní krytina &gt; Kladení</i></u> přístupném přes <u>Editační tlačítko</u> je možné nastavit směr, úhel a posun kladení prvků střešní krytiny od okraje střechy.

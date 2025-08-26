@@ -17,9 +17,9 @@ autoTranslated: true
 
 <hr class="main">
 
-{{ box_icon("img/ImportDxfIcon64x64.png", "Background", "Background") }}
+{{ box_icon("img/ImportDxfIcon64x64.png", "Underlay", "Underlay") }}
 
-<p>The <u>Background</u> button is used for importing a background to speed up the roof outline drawing process.</p>
+<p>The <u>Underlay</u> button is used for importing a background to speed up the roof outline drawing process.</p>
 
 <p><b>After importing the background, it is important to check its dimensions and adjust the scale if necessary.</b></p>
 
@@ -41,15 +41,15 @@ autoTranslated: true
 
 <hr class="main">
 
-{{ box_icon("img/SetSlopeIcon64x64.png", "Slope", "Slope") }}
+{{ box_icon("img/SetSlopeIcon64x64.png", "Set slope", "Set slope") }}
 
-<p>The <u>Slope</u> button sets the same slope for all roof planes.</p>
+<p>The <u>Set slope</u> button sets the same slope for all roof planes.</p>
 
 <hr class="main">
 
-{{ box_icon("img/RoofLiftIcon64x64.png", "Lift", "Lift") }}
+{{ box_icon("img/RoofLiftIcon64x64.png", "Lift roof", "Lift roof") }}
 
-<p>The <u>Lift</u> button allows you to adjust the height of the walls of the modeled object.</p>
+<p>The <u>Lift roof</u> button allows you to adjust the height of the walls of the modeled object.</p>
 
 <hr class="main">
 
@@ -67,9 +67,9 @@ autoTranslated: true
 
 <hr class="main">
 
-{{ box_icon("img/DimensionLinearIcon64x64.png", "Annotation", "Annotation") }}
+{{ box_icon("img/DimensionLinearIcon64x64.png", "Anotate", "Anotate") }}
 
-<p>The <u>Annotation</u> button allows you to add arbitrary floor plan dimensions to the model.</p>
+<p>The <u>Anotate</u> button allows you to add arbitrary floor plan dimensions to the model.</p>
 
 <hr class="main">
 

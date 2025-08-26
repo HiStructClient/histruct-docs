@@ -1,5 +1,5 @@
 
-<h1>Opláštění &gt; Střešní krytina &gt; Vrstva</h1>
+# Opláštění &gt; Střešní krytina &gt; Vrstva
 
 <p>
   ...V menu <u><i>Opláštění &gt; Střešní krytina &gt; Vrstva</i></u> přístupném přes <u>Editační tlačítko</u> se připravují funkce pro budoucí verze programu...

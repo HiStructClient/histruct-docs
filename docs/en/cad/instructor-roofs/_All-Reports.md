@@ -25,7 +25,7 @@ autoTranslated: true
 
   <hr class="main">
 
-  <h2>Cladding Bill of Materials</h2>
+  <h2>Sheeting Bill of Materials</h2>
   <p>Generates a document with a report of cladding elements for individual roof or wall planes, including their layouts.</p>
 
   <hr class="main">

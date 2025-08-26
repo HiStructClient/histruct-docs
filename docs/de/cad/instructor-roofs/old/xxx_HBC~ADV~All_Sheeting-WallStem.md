@@ -4,7 +4,7 @@ sourceHash: c565c220dc13baacb8393abe6dd80a57
 autoTranslated: true
 ---
 
-<h1>Verkleidung &gt; Sockelleiste der Wand</h1>
+# Verkleidung &gt; Sockelleiste der Wand
 
 <p>Im Menü <u><i>Verkleidung &gt; Sockelleiste der Wand</i></u>, das über das <u>Bearbeiten-Button</u> zugänglich ist, können die Richtung und der Versatz der Verlegung des Sockelmaterials eingestellt, Materiallisten erstellt und bearbeitbare Zeichnungen des Sockelmaterials generiert werden.</p>
 

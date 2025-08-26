@@ -4,7 +4,7 @@ sourceHash: 66d87e0c2c261a359ce3e1de9499fee7
 autoTranslated: true
 ---
 
-<h1>Verkleidung > Sekundärkonstruktionen > Rahmen</h1>
+# Verkleidung > Sekundärkonstruktionen > Rahmen
 
 <p>...Im Menü <u><i>Verkleidung > Sekundärkonstruktionen > Rahmen</i></u>, das über das <u>Bearbeiten-Button</u> zugänglich ist, ist es möglich, die Querschnitte der Sekundärkonstruktionen einzustellen.</p>
 

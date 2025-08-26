@@ -22,7 +22,7 @@ autoTranslated: true
 
 <!--{{ box_icon("img/RoofSketchIcon64x64.png", "Roof", "Roof") }}
 
-<p>The <u>Roof</u> button allows you to set the type of roof composition. The type of cladding and the dimensions of the secondary roof structure can be changed via the <u>Cladding</u> button.</p>
+<p>The <u>Roof</u> button allows you to set the type of roof composition. The type of cladding and the dimensions of the secondary roof structure can be changed via the <u>Sheeting</u> button.</p>
 
 <hr class="main">
 

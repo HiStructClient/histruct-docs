@@ -4,7 +4,7 @@ sourceHash: 7dcf1e04d0df3ca8c84240ed8ec96720
 autoTranslated: true
 ---
 
-<h1>Bekleidung &gt; Gebäude &gt; Dach</h1>
+# Bekleidung &gt; Gebäude &gt; Dach
 
 <p>Im Menü <u><i>Bekleidung &gt; Gebäude &gt; Dach</i></u> kann der Typ des Dachaufbaus, der Typ der Dacheindeckung und die Abmessungen der sekundären Dachkonstruktion eingestellt werden.</p>
 

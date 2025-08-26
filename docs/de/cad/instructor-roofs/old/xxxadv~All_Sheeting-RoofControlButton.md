@@ -4,7 +4,7 @@ sourceHash: 041c25bc8757da430b6264dc0e5b3316
 autoTranslated: true
 ---
 
-<h1>Bekleidung > Dachfläche</h1>
+# Bekleidung > Dachfläche
 
 <p>Im Menü <u><i>Bekleidung > Dachfläche</i></u>, zugänglich über die <u>Steuerungsschaltfläche</u>, ist es für einzelne Dachflächen möglich:</p>
 

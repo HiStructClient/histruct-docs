@@ -4,7 +4,7 @@ sourceHash: 5aa7fd661ca019424f28a5b70a63f39b
 autoTranslated: true
 ---
 
-<h1>Geometrie &gt; Feld</h1>
+# Geometrie &gt; Feld
 
 <p>Ermöglicht das Festlegen der Anzahl der Rahmen der primären Tragkonstruktion und der Feldabstände zwischen ihnen bei Beibehaltung der eingestellten Grundrissmaße.</p>
 

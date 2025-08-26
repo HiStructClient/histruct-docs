@@ -4,9 +4,9 @@ sourceHash: 729c1e79688b11ea6235bf488f077974
 autoTranslated: true
 ---
 
-# Cladding &gt; Building &gt; Roof
+# Sheeting &gt; Building &gt; Roof
 
-<p>In the <u><i>Cladding &gt; Building &gt; Roof</i></u> menu, you can set the roof composition type, the type of roofing, and the dimensions of the secondary roof structure.</p>
+<p>In the <u><i>Sheeting &gt; Building &gt; Roof</i></u> menu, you can set the roof composition type, the type of roofing, and the dimensions of the secondary roof structure.</p>
 
 <p>Within each individual roof plane, you can also change the direction of roofing layout, generate a bill of materials for the roofing items, and generate a roof structure floor plan in the form of an editable drawing.</p>
 

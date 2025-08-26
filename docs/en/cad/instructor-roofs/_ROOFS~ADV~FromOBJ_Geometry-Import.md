@@ -87,15 +87,15 @@ autoTranslated: true
 
 <hr class="main">
 
-{{ box_icon("img/DimensionLinearIcon64x64.png", "Annotation", "Annotation") }}
+{{ box_icon("img/DimensionLinearIcon64x64.png", "Anotate", "Anotate") }}
 
-<p>The <u>Annotation</u> button allows you to add any floor plan dimensions to the model.</p>
+<p>The <u>Anotate</u> button enables you to add any ground plan dimensions to the model.</p>
 
 <hr class="main">
 
 {{ box_icon("img/TapeMeasureIcon64x64.png", "Measure", "Measure") }}
 
-<p>The <u>Measure</u> button allows you to check the model's dimensions.</p>
+<p>The <u>Measure</u> button allows you to check the dimensions of the model.</p>
 
 <hr class="main">
 

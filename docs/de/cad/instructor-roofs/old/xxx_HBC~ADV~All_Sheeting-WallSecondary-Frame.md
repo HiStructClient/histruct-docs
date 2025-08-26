@@ -4,7 +4,7 @@ sourceHash: 7f8d3a18fd7acf48415f59b3f247499a
 autoTranslated: true
 ---
 
-<h1>Bekleidung &gt; Sekundärstruktur der Wand &gt; Rahmen</h1>
+# Bekleidung &gt; Sekundärstruktur der Wand &gt; Rahmen
 
 <p>...Im Menü <u><i>Bekleidung &gt; Sekundärstruktur der Wand &gt; Rahmen</i></u>, das über das <u>Editier-Button</u> zugänglich ist, werden Funktionen für zukünftige Versionen des Programms vorbereitet...</p>
 <p><b><u>Steuer- und Editier-Buttons</u> ändern die Eigenschaften der Konstruktion nur auf der ausgewählten Wandebene.</b></p>

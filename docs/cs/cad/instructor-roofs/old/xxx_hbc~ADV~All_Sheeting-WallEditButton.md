@@ -1,7 +1,7 @@
 
 
 
-<h1>Opláštění &gt; Stěnová vrstva</h1>
+# Opláštění &gt; Stěnová vrstva
 
 <p>V menu <u><i>Opláštění &gt; Stěnová vrstva</i></u> přístupném přes <u>Editační tlačítko</u> je možné pro jednotlivé vrstvy skladby opláštění na určené stěnové rovině nastavit:</p>
 

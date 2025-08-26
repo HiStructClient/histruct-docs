@@ -1,5 +1,5 @@
 
-<h1>Opláštění &gt; Stěnové panely</h1>
+# Opláštění &gt; Stěnové panely
 
 <p>V menu <u><i>Opláštění &gt; Stěnové panely</i></u> přístupném přes <u>Editační tlačítko</u> je možné nastavit směr a posun kladení stěnových panelů, vytvářet výkazy materiálů a generovat editovatelné výkresy stěnových panelů.</p>
 <p>Možnosti nastavení se liší v závislosti na typu použitého materiálu.</p>

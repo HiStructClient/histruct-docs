@@ -4,7 +4,7 @@ sourceHash: 955e7550c43655dfe3a9a6c252e37d07
 autoTranslated: true
 ---
 
-<h1>Bekleidungen > Sekundärkonstruktionen</h1>
+# Bekleidungen > Sekundärkonstruktionen
 
 <p>Im Menü <u><i>Bekleidungen > Sekundärkonstruktionen</i></u>, das über das <u>Bearbeitungsfeld</u> zugänglich ist, können editierbare Zeichnungen der sekundären Dachkonstruktion generiert werden.</p>
 

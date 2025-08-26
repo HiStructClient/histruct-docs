@@ -1,7 +1,7 @@
 
 
 
-<h1>Opláštění &gt; Střešní vrstva</h1>
+# Opláštění &gt; Střešní vrstva
 
 <p>
   Menu <u><i>Opláštění &gt; Střešní vrstva</i></u> přístupném přes <u>Editační tlačítko</u> umožňuje pro jednotlivé vrstvy skladby střechy na určené střešní rovině:</p>

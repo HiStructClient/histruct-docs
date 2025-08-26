@@ -4,7 +4,7 @@ sourceHash: 66c0d6e503e2d3676a347befdebf5b74
 autoTranslated: true
 ---
 
-<h1>Geometrie &gt; Abmessungen &gt; Fläche &gt; Geometrie</h1>
+# Geometrie &gt; Abmessungen &gt; Fläche &gt; Geometrie
 
   <p> Das Menü <u><i>Geometrie &gt; Abmessungen &gt; Fläche &gt; Geometrie</i></u> ermöglicht es, die Geometrie der jeweiligen Dachfläche weiter anzupassen. 
 

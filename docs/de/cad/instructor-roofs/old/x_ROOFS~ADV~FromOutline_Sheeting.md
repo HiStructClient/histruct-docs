@@ -4,7 +4,7 @@ sourceHash: 6df87c3e92bd5d82f45ae2361bfdc1b5
 autoTranslated: true
 ---
 
-<h1>Verkleidung</h1>
+# Verkleidung
 
   <p>Das Menü <u><i>Verkleidung</i></u> ermöglicht das Festlegen des Dachaufbaus, des Dachdeckungs-Typs und der Maße der sekundären Dachkonstruktion.</p>
   <p>Für die einzelnen Dachflächen kann zusätzlich die Verlegerichtung der Dachdeckung geändert, ein Stücklistenbericht mit Dachdeckungs-Positionen erstellt sowie der Grundriss der Dachkonstruktion als editierbare Zeichnung generiert werden.</p>

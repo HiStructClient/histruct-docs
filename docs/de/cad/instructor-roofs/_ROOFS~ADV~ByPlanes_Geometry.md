@@ -212,7 +212,7 @@ Die Schaltfläche <u>Abmessungen</u> dient zum Zeichnen und Einfügen von Dachfl
 
 <!--{{ box_icon("img/RoofSketchIcon64x64.png", "Dach", "Dach") }}
 
-Die Schaltfläche <u>Dach</u> ermöglicht das Festlegen des Dachaufbaus. Der Typ der Eindeckung und die Abmessungen der sekundären Dachkonstruktion können über die Schaltfläche <u>Verkleidung</u> geändert werden.
+Die Schaltfläche <u>Dach</u> ermöglicht das Festlegen des Dachaufbaus. Der Typ der Eindeckung und die Abmessungen der sekundären Dachkonstruktion können über die Schaltfläche <u>Verkleidung</u> geändert werden.-->
 
 <hr class="main">
 
@@ -243,5 +243,3 @@ Mit der Schaltfläche <u>Anmerkung</u> können beliebige Grundrissbemaßungen zu
 </p>
 
 <hr class="main">
-
-{{ box_icon("img/Tape

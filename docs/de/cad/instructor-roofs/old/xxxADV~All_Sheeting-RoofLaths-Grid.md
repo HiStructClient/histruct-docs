@@ -4,7 +4,7 @@ sourceHash: f65731f81fbaf768cd38e3e7a9790bb3
 autoTranslated: true
 ---
 
-<h1>Bekleidung &gt; Lattung &gt; Raster</h1>
+# Bekleidung &gt; Lattung &gt; Raster
 
 <p>
 Im Menü <u><i>Bekleidung &gt; Lattung &gt; Raster</i></u>, das über das <u>Bearbeitungs-Knopf</u> zugänglich ist, können die Abmessungen der Lattungselemente einschließlich des Abstands zwischen den Elementen, der Winkel der verlegten Lattungsschicht sowie der Abstand des ersten Elements vom Rand des Daches eingestellt werden.

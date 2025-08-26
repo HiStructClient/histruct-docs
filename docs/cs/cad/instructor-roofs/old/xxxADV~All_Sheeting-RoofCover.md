@@ -1,5 +1,5 @@
 
-<h1>Opláštění &gt; Střešní krytina</h1>
+# Opláštění &gt; Střešní krytina
 
 <p>
   V menu <u><i>Opláštění &gt; Střešní krytina</i></u> přístupném přes <u>Editační tlačítko</u> je možné nastavit směr a posun kladení střešní krytiny, vytvářet výkazy materiálů střešní krytiny a generovat editovatelné výkresy střešní krytiny.

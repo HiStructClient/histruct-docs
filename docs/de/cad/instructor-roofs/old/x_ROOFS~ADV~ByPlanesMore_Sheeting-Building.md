@@ -4,7 +4,7 @@ sourceHash: 8bd1f8897e559dee8de425940d1d67d3
 autoTranslated: true
 ---
 
-<h1>Verkleidung &gt; Gebäude</h1>
+# Verkleidung &gt; Gebäude
 
 <p>Das Menü <u><i>Verkleidung &gt; Gebäude</i></u> ermöglicht das Einstellen des Dachaufbaus, des Dachdeckungsmaterials und der Maße der sekundären Dachkonstruktion.</p>
 

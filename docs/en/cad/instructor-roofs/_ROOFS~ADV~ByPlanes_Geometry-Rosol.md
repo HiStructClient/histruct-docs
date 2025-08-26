@@ -35,9 +35,9 @@ By editing the geometry of individual edges and surfaces, the geometry of the en
 
 <hr class="main">
 
-{{ box_icon("img/RoofLiftIcon64x64.png", "Lift", "Lift") }}
+{{ box_icon("img/RoofLiftIcon64x64.png", "Lift roof", "Lift roof") }}
 
-With the <u>Lift</u> button, you can adjust the height of the modeled object's walls.
+With the <u>Lift roof</u> button, you can adjust the height of the modeled object's walls.
 
 <hr class="main">
 
@@ -61,7 +61,7 @@ With the <u>Restart</u> button, you can delete all user modifications of the geo
 
 {{ box_icon("img/TapeMeasureIcon64x64.png", "Measure", "Measure") }}
 
-With the <u>Measure</u> button, you can check the model's dimensions.
+<p>The <u>Measure</u> button allows you to check the dimensions of the model.</p>
 
 <hr class="main">
 

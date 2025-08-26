@@ -20,7 +20,7 @@ autoTranslated: true
 
 <!--{{ box_icon("img/RoofSketchIcon64x64.png", "Roof", "Roof") }}
 
-<p>The <u>Roof</u> button allows you to set the type of roof structure. The type of covering and dimensions of the secondary roof structure can be changed via the <u>Cladding</u> button.</p>
+<p>The <u>Roof</u> button allows you to set the type of roof structure. The type of covering and dimensions of the secondary roof structure can be changed via the <u>Sheeting</u> button.</p>
 
 <hr class="main">
 
@@ -37,7 +37,7 @@ autoTranslated: true
 
 <hr class="main">
 
-{{ box_icon("img/PvgisIcon64x64.png", "Performance", "Performance") }}
+{{ box_icon("img/PvgisIcon64x64.png", "Performance", "Performance", fontSize=10) }}
 
 <p>
 Allows the assessment of the potential solar radiation performance on individual roof surfaces.
@@ -55,15 +55,15 @@ Allows the assessment of the potential solar radiation performance on individual
 
 <hr class="main">
 
-{{ box_icon("img/DimensionLinearIcon64x64.png", "Annotation", "Annotation") }}
+{{ box_icon("img/DimensionLinearIcon64x64.png", "Anotate", "Anotate") }}
 
-<p>The <u>Annotation</u> button allows you to add arbitrary floor plan dimensions to the model.</p>
+<p>The <u>Anotate</u> button allows you to add arbitrary floor plan dimensions to the model.</p>
 
 <hr class="main">
 
-{{ box_icon("img/TapeMeasureIcon64x64.png", "Measurement", "Measurement") }}
+{{ box_icon("img/TapeMeasureIcon64x64.png", "Measure", "Measure") }}
 
-<p>The <u>Measurement</u> button allows you to check the dimensions of the model.</p>
+<p>The <u>Measure</u> button allows you to check the dimensions of the model.</p>
 
 <hr class="main">
 

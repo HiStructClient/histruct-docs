@@ -1,5 +1,5 @@
 
-<h1>Opláštění &gt; Budova &gt; Střecha</h1>
+# Opláštění &gt; Budova &gt; Střecha
 
 <p>V menu <u><i>Opláštění &gt; Budova &gt; Střecha</i></u> je možné nastavit typ skladby střechy, typ střešní krytiny a rozměry sekundární střešní konstrukce.</p>
 

@@ -4,7 +4,7 @@ sourceHash: 7f6a19e267a0f328ff94ae7807f4d952
 autoTranslated: true
 ---
 
-<h1>Geometrie &gt; Gebäude &gt; Abmessungen</h1>
+# Geometrie &gt; Gebäude &gt; Abmessungen
 
   <p>Ermöglicht das Zeichnen von Dachflächen, das Ändern ihrer Formen, Abmessungen oder Neigungen sowie das Einstellen ihrer Verbindungen.</p>
 

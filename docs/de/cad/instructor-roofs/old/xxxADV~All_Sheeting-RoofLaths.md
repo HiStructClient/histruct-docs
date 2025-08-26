@@ -4,7 +4,7 @@ sourceHash: 9bc6b021986f3c849ed82ad161a1313d
 autoTranslated: true
 ---
 
-<h1>Verkleidung &gt; Lattung</h1>
+# Verkleidung &gt; Lattung
 
 <p>
 Im Menü <u><i>Verkleidung &gt; Lattung</i></u>, das über das <u>Editier-Button</u> zugänglich ist, können die Abmessungen der Lattenelemente einschließlich des Abstands zwischen den Elementen, die Richtung und der Versatz der Lattenlagen eingestellt sowie bearbeitbare Zeichnungen der Lattungslagen generiert werden.

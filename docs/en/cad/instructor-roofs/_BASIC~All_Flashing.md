@@ -4,7 +4,7 @@ sourceHash: b8f4b1f92bf3b9e1ac3d4a7e142ef5b2
 autoTranslated: true
 ---
 
-# Trims
+# Flashing
 
 <p>Allows you to change the color of individual trim elements.</p>
 
@@ -18,7 +18,7 @@ autoTranslated: true
 <p>By clicking on the trim element button on the left side, you can edit the properties of the entire corresponding group of trim elements.</p>
 
 {{ box_icons([
-  ("img/ColorsIcon64x64.png", "Trims"),
+  ("img/ColorsIcon64x64.png", "Flashing"),
   ("img/ColorsIcon64x64.png", "Downspout"),
 ], "... and others", width=55, height=55, fontSize=10) }}
 

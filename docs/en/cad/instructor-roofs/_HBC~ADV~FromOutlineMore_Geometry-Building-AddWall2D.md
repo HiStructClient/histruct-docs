@@ -22,9 +22,9 @@ autoTranslated: true
 
 <hr class="main">
 
-{{ box_icon("img/TapeMeasureIcon64x64.png", "Measurement", "Measurement") }}
+{{ box_icon("img/TapeMeasureIcon64x64.png", "Measure", "Measure") }}
 
-<p>The <u>Measurement</u> button allows you to check the model's dimensions.</p>
+<p>The <u>Measure</u> button allows you to check the model's dimensions.</p>
 
 <hr class="main">
 

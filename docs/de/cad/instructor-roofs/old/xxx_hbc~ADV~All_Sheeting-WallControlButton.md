@@ -4,7 +4,7 @@ sourceHash: e26fd6c207442d9d932b094816cacc1e
 autoTranslated: true
 ---
 
-<h1>Verkleidung &gt; Wandebene</h1>
+# Verkleidung &gt; Wandebene
 <p>Im Menü <u><i>Verkleidung &gt; Wandebene</i></u>, das über das <u>Steuerungsbutton</u> zugänglich ist, kann der Fertigungstyp der Wand, das Verlegen der Verkleidungsreihen und die Sockelhöhe eingestellt werden.</p>
 <p>Weiterhin ist es möglich, das Farbschema und die Materialien der einzelnen Verkleidungsschichten zu bearbeiten. Außerdem kann hier ein Stücklistenbericht mit Verkleidungsposten oder eine Ansicht der Wand in Form einer editierbaren Zeichnung erzeugt werden.</p>
 <p><b><u>Steuerungs- und Bearbeitungsbuttons</u> passen die Eigenschaften der Konstruktion nur auf der ausgewählten Wandebene an.</b></p>

@@ -1,5 +1,5 @@
 
-<h1>Opláštění > Střešní rovina</h1>
+# Opláštění > Střešní rovina
 
 <p>V menu <u><i>Opláštění > Střešní rovina</i></u> přístupném přes <u>Ovládací tlačítko</u> je možné nastavit skladbu střechy - typ střešní krytiny a sekundární střešní konstrukce pro jednotlivé střešní roviny. Taktéž umožňuje pro určenou střešní rovinu vytvářet výkazy materiálů a výkresy střešní konstrukce.</p>
 

@@ -4,7 +4,7 @@ sourceHash: e79cc655223dff360a167c3b481ba646
 autoTranslated: true
 ---
 
-<h1>Verkleidung &gt; Dachdeckung &gt; Schicht</h1>
+# Verkleidung &gt; Dachdeckung &gt; Schicht
 
 <p>
   ...Im Menü <u><i>Verkleidung &gt; Dachdeckung &gt; Schicht</i></u>, das über das <u>Bearbeiten-Button</u> zugänglich ist, werden Funktionen für zukünftige Versionen des Programms vorbereitet...

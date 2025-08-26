@@ -1,5 +1,5 @@
 
-<h1>Geometrie &gt; Rozměry &gt; Plocha</h1>
+# Geometrie &gt; Rozměry &gt; Plocha
 
   <p> Menu <u><i>Geometrie &gt; Rozměry &gt; Plocha</i></u> přístupné přes kliknutí na zvolenou plochu umožňuje provádět editace střešních rovin přes otevřenou tabulku.
 

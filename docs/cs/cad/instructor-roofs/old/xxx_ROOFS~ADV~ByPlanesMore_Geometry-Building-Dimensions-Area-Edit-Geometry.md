@@ -1,5 +1,5 @@
 
-<h1>Geometrie &gt; Budova &gt; Rozměry &gt; Plocha &gt; Upravit &gt; Geometrie</h1>
+# Geometrie &gt; Budova &gt; Rozměry &gt; Plocha &gt; Upravit &gt; Geometrie
 
   <p> Menu <u><i>Geometrie &gt; Budova &gt; Rozměry &gt; Plocha &gt; Upravit &gt; Geometrie</i></u> umožňuje u příslušné střešní roviny provádět další úpravy geometrie. 
 

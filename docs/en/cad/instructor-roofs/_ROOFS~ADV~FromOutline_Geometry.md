@@ -20,9 +20,9 @@ autoTranslated: true
 
 <hr class="main">
 
-{{ box_icon("img/ImportDxfIcon64x64.png", "Background", "Background") }}
+{{ box_icon("img/ImportDxfIcon64x64.png", "Underlay", "Underlay") }}
 
-<p>The <u>Background</u> button is used to import a background for faster drawing of the roof outline.</p> 
+<p>The <u>Underlay</u> button is used to import a background for faster drawing of the roof outline.</p> 
 
 <p>After importing the background, it is necessary to check its dimensions and adjust the scale if necessary.</p>
 
@@ -100,9 +100,9 @@ To adjust the scale, you can also use the <u>Scale</u> button, which is located 
 
 <hr class="main">
 
-{{ box_icon("img/DimensionLinearIcon64x64.png", "Annotation", "Annotation") }}
+{{ box_icon("img/DimensionLinearIcon64x64.png", "Anotate", "Anotate") }}
 
-<p>The <u>Annotation</u> button allows you to add arbitrary floor plan dimensions to the model.</p>
+<p>The <u>Anotate</u> button allows you to add arbitrary floor plan dimensions to the model.</p>
 
 <hr class="main">
 
@@ -140,11 +140,11 @@ To adjust the scale, you can also use the <u>Scale</u> button, which is located 
 
 <!--{{ box_icon("img/RoofSketchIcon64x64.png", "Roof", "Roof") }}
 
-<p>The <u>Roof</u> button allows you to set the type of roof construction. The type of covering and the dimensions of the secondary roof structure can be changed via the <u>Cladding</u> button.</p>
+<p>The <u>Roof</u> button allows you to set the type of roof construction. The type of covering and the dimensions of the secondary roof structure can be changed via the <u>Sheeting</u> button.</p>
 
-<hr class="main">
+<hr class="main">-->
 
-{{ box_icon("img/PvgisIcon64x64.png", "Performance", "Performance") }}
+{{ box_icon("img/PvgisIcon64x64.png", "Performance", "Performance", fontSize=10) }}
 
 <p>
 Allows you to evaluate the potential solar radiation power on individual roof planes.
@@ -156,9 +156,9 @@ Allows you to evaluate the potential solar radiation power on individual roof pl
 
 <hr class="main">
 
-{{ box_icon("img/DimensionLinearIcon64x64.png", "Annotation", "Annotation") }}
+{{ box_icon("img/DimensionLinearIcon64x64.png", "Anotate", "Anotate") }}
 
-<p>The <u>Annotation</u> button allows you to add arbitrary floor plan dimensions to the model.</p>
+<p>The <u>Anotate</u> button enables you to add any ground plan dimensions to the model.</p>
 
 <hr class="main">
 

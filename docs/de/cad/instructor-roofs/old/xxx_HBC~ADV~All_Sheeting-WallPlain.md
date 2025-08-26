@@ -4,7 +4,7 @@ sourceHash: e26fd6c207442d9d932b094816cacc1e
 autoTranslated: true
 ---
 
-<h1>Bekleidung &gt; Wandfläche</h1>
+# Bekleidung &gt; Wandfläche
 <p>Im Menü <u><i>Bekleidung &gt; Wandfläche</i></u>, das über die <u>Steuerungsschaltfläche</u> zugänglich ist, können Sie den Fertigungstyp der Wand, die Verlegung der Bekleidungsreihen und die Sockelhöhe einstellen.</p>
 <p>Außerdem können Sie das Farbschema und die Materialien der einzelnen Bekleidungsschichten anpassen. Hier können Sie auch ein Stücklistenverzeichnis mit den Bekleidungsposten oder eine Ansicht der Wand in Form einer editierbaren Zeichnung generieren.</p>
 <p><b><u>Steuerungs- und Bearbeitungsschaltflächen</u> verändern die Eigenschaften der Konstruktion nur auf der ausgewählten Wandfläche.</b></p>

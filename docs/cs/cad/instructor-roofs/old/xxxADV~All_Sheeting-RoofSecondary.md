@@ -1,5 +1,5 @@
 
-<h1>Opláštění > Sekundární konstrukce</h1>
+# Opláštění > Sekundární konstrukce
 
 <p>V menu <u><i>Opláštění > Sekundární konstrukce</i></u> přístupném přes <u>Editační tlačítko</u> je možné generovat editovatelné výkresy sekundární střešní konstrukce.</p>
 

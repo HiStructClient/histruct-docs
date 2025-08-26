@@ -1,5 +1,5 @@
 
-<h1>Opláštění &gt; Laťování</h1>
+# Opláštění &gt; Laťování
 
 <p>
 V menu <u><i>Opláštění &gt; Laťování</i></u> přístupném přes <u>Editační tlačítko</u> je možné nastavit rozměry prvků laťování včetně rozteče mezi prvky, dále směr a posun kladení vrstev laťování a generovat editovatelné výkresy vrstev laťování.

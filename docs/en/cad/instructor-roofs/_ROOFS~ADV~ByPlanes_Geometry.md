@@ -25,9 +25,9 @@ Allows you to draw roof planes, modify their shapes, dimensions, or slopes, and 
 </p>
 
 <hr class="main">
-{{ box_icon("img/ImportDxfIcon64x64.png", "Background", "Background") }}
+{{ box_icon("img/ImportDxfIcon64x64.png", "Underlay", "Underlay") }}
 
-<p>The <u>Background</u> button is used to import a background for faster drawing of the roof outline.</p> 
+<p>The <u>Underlay</u> button is used to import a background for faster drawing of the roof outline.</p> 
 
 <p>After importing the background, you need to check its dimensions and adjust the scale if necessary.</p>
 
@@ -162,18 +162,16 @@ After clicking on the relevant opening, you can use the buttons at the top of th
 
 <hr class="main">
 
-{{ box_icon("img/DimensionLinearIcon64x64.png", "Annotation", "Annotation") }}
+{{ box_icon("img/DimensionLinearIcon64x64.png", "Anotate", "Anotate") }}
 
-<p>
-The <u>Annotation</u> button allows you to add any floorplan dimensioning into the model.
-</p>
+<p>The <u>Anotate</u> button enables you to add any ground plan dimensions to the model.</p>
 
 <hr class="main">
 
-{{ box_icon("img/TapeMeasureIcon64x64.png", "Measuring", "Measuring") }}
+{{ box_icon("img/TapeMeasureIcon64x64.png", "Measure", "Measure") }}
 
 <p>
-The <u>Measuring</u> button can be used to check model dimensions.
+<p>The <u>Measure</u> button allows you to check the dimensions of the model.</p>
 </p>
 
 <hr class="main">
@@ -214,7 +212,7 @@ The <u>Dimensions</u> button is used for drawing and inserting roof planes. For 
 
 The <u>Roof</u> button allows you to set the type of roof composition. The type of covering and dimensions of the secondary roof structure can be changed with the <u>Sheathing</u> button.
 
-<hr class="main">
+<hr class="main">-->
 
 {{ box_icon("img/ImportObjIcon64x64.png", "Jelly", "Jelly") }}
 
@@ -236,18 +234,18 @@ Allows you to evaluate the potential solar radiation performance on individual r
 
 <hr class="main">
 
-{{ box_icon("img/DimensionLinearIcon64x64.png", "Annotation", "Annotation") }}
+{{ box_icon("img/DimensionLinearIcon64x64.png", "Anotate", "Anotate") }}
 
 <p>
-The <u>Annotation</u> button allows you to add any floorplan dimensioning into the model.
+The <u>Anotate</u> button allows you to add any floorplan dimensioning into the model.
 </p>
 
 <hr class="main">
 
-{{ box_icon("img/TapeMeasureIcon64x64.png", "Measuring", "Measuring") }}
+{{ box_icon("img/TapeMeasureIcon64x64.png", "Measure", "Measure") }}
 
 <p>
-The <u>Measuring</u> button can be used to check model dimensions.
+The <u>Measure</u> button can be used to check model dimensions.
 </p>
 
 ////

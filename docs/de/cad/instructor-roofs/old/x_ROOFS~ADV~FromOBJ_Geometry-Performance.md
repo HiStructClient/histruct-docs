@@ -4,7 +4,7 @@ sourceHash: c21e612bb9084143c47a2eb71feb2a4a
 autoTranslated: true
 ---
 
-<h1>Geometrie &gt; Leistung</h1>
+# Geometrie &gt; Leistung
 <p>
 Ermöglicht die Bewertung des potenziellen Ertrags der Sonnenstrahlung auf einzelne Dachflächen.
 </p>

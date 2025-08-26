@@ -4,7 +4,7 @@ sourceHash: 10be0891ebb9c73aef43ae131ab229dc
 autoTranslated: true
 ---
 
-<h1>Geometrie</h1>
+# Geometrie
 <p>Ermöglicht das Ändern der geometrischen Parameter des Modells, also der Abmessungen des Gebäudes und des Daches einschließlich Neigung und Überstand. Ebenso kann hier der Typ des Dachaufbaus eingestellt werden.</p>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->

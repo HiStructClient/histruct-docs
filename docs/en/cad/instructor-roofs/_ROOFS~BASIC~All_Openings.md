@@ -10,13 +10,13 @@ autoTranslated: true
 
   <p><b>Settings and modifications of openings on individual roof planes can be made using the <u>Control Button</u>.</b></p>
 
-  <p>Openings created in the section <u><i>Geometry &gt; Dimensions &gt; Opening</i></u> can only be edited in the menu <u><i>Geometry &gt; Dimensions</i></u>. This mainly concerns roof structure models of the FROM OUTLINE type created using a roof outline, or models of the BY PLANES type created using roof planes.</p>
+  <p>Openings created in the section <u><i>Geometry > Dimensions > Opening</i></u> can only be edited in the <u><i>Geometry > Dimensions</i></u> menu. This primarily applies to roof structure models of the FROM OUTLINE type created using the roof floor plan outline or models of the BY PLANES type created using roof planes.</p>
 
   <hr class="main">
 
   {{ box_icon("img/ColorsIcon64x64.png", "Default colors", "Default colors", fontSize=10) }}
 
-  <p>With the <u>Default colors</u> button, you can set default colors for selected types of openings.</p>
+  <p>The <u>Default colors</u> button allows you to set default colors for selected types of openings.</p>
 
   <hr class="main">
 

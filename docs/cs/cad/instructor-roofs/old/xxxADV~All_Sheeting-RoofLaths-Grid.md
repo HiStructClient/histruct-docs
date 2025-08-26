@@ -1,5 +1,5 @@
 
-<h1>Opláštění &gt; Laťování &gt; Síť</h1>
+# Opláštění &gt; Laťování &gt; Síť
 
 <p>
 V menu <u><i>Opláštění &gt; Laťování &gt; Síť</i></u> přístupném přes <u>Editační tlačítko</u> je možné nastavit rozměry prvků laťování včetně rozteče mezi prvky, upravit úhel kladené vrstvy laťování a odsazení prvního prvku od kraje střechy.

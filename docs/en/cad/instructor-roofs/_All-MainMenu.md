@@ -14,21 +14,21 @@ autoTranslated: true
 
 {{ box_icon("img/Sheated_Building_Page_Building.png", "Geometry", "Geometry") }}
 
-  <p>The <u>Geometry</u> button allows you to change the geometric parameters of the model, i.e., the dimensions of the building and the roof including slope and overhangs. It is also possible to set the type of roof structure here.</p>
+  <p>The <u>Geometry</u> button allows you to change the geometric parameters of the model, i.e., the dimensions of the building and the roof including slope and overhangs.</p>
 
   <hr class="main">
 
-{{ box_icon("img/Sheated_Building_Page_Sheeting.png", "Cladding", "Cladding") }}
+{{ box_icon("img/Sheated_Building_Page_Sheeting.png", "Sheeting", "Sheeting") }}
 
-  <p>The <u>Cladding</u> button allows you to change the type of cladding structure for the entire object as well as for individual roof or wall planes.</p>
-  <p>In the <u>Cladding</u> menu, in the <b>BASIC</b> mode, you can set the type of roof construction, adjust the type of roofing, and the dimensions of the secondary roof structure. For wall structures, you can set the type of cladding structure and, for individual layers, adjust the type of material.</p>
-  <p>In the <b>ADVANCED</b> mode, you can perform advanced editing – depending on the type of cladding for the roof and walls, you can adjust the type of roofing and secondary structure including installation direction, and also generate material reports and editable drawings of individual layers of the roof or wall structure.</p>
+  <p>The <u>Sheeting</u> button allows you to change the type of the sheeting structure for the entire object as well as for individual roof or wall planes.</p>
+  <p>In the <u>Sheeting</u> menu, in the <b>BASIC</b> mode, you can set the type of roof construction, adjust the type of roofing, and the dimensions of the secondary roof structure. For wall structures, you can set the type of sheeting structure and, for individual layers, adjust the type of material.</p>
+  <p>In the <b>ADVANCED</b> mode, you can perform advanced editing – depending on the type of the sheeting for the roof and walls, you can adjust the type of roofing and secondary structure including installation direction, and also generate material reports and editable drawings of individual layers of the roof or wall structure.</p>
 
   <hr class="main">
 
-{{ box_icon("img/FlashingGutterApronIcon64x64.png", "Flashings", "Flashings") }}
+{{ box_icon("img/FlashingGutterApronIcon64x64.png", "Flashing", "Flashing") }}
 
-  <p>The <u>Flashings</u> button allows you to add and edit individual flashing components and set up the gutter system.</p>
+  <p>The <u>Flashing</u> button allows you to add and edit individual flashing components and set up the gutter system.</p>
 
   <hr class="main">
 

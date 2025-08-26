@@ -4,9 +4,9 @@ sourceHash: dcc3c76ac262ff66b115961d08aff21b
 autoTranslated: true
 ---
 
-# Cladding > Roof Plane
+# Sheeting > Roof Plane
 
-<p>In the <u><i>Cladding > Roof Plane</i></u> menu accessible via the <u>Edit button</u>, it is possible for each roof plane to:</p>
+<p>In the <u><i>Sheeting > Roof Plane</i></u> menu accessible via the <u>Edit button</u>, it is possible for each roof plane to:</p>
 
 <ul>
   <li><p>Set the type of roof composition - covering type and secondary structure.</p></li>
@@ -52,7 +52,7 @@ For some coverings, the <u>Lower layers</u> button may be hidden by default, and
 
 <hr class="main">
 
-{{ box_icon("img/BomIcon64x64.png", "Bill of Materials", "Bill of Materials") }}
+{{ box_icon("img/BomIcon64x64.png", "BOM", "Bill of Materials") }}
 
 <p>Generates a list of roof covering items for the respective roof plane in a clear table.</p>
 

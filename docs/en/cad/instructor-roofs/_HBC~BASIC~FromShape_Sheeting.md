@@ -4,9 +4,9 @@ sourceHash: 4aef6be328e3f61ccf95a55984965630
 autoTranslated: true
 ---
 
-# Cladding
+# Sheeting
   <p>
-    The <u><i>Cladding</i></u> menu allows you to set the type of roof composition, the type of roofing material, and the dimensions of the secondary roof structure.
+    The <u><i>Sheeting</i></u> menu allows you to set the type of roof composition, the type of roofing material, and the dimensions of the secondary roof structure.
   </p> 
   <p>
     For walls, you can set the type of wall production and the material of each wall layer.

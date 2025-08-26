@@ -4,7 +4,7 @@ sourceHash: 62ff41e274a0d4e9ccec35cf65c93fc7
 autoTranslated: true
 ---
 
-<h1>Verkleidung &gt; Wandlage</h1>
+# Verkleidung &gt; Wandlage
 
 <p>Im Menü <u><i>Verkleidung &gt; Wandlage</i></u>, das über das <u>Editier-Button</u> zugänglich ist, kann man für die einzelnen Lagen des Verkleidungsaufbaus auf der gewählten Wandfläche einstellen:</p>
 

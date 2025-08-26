@@ -21,7 +21,7 @@ autoTranslated: true
 
   <hr class="main">
 
-{{ box_icon("img/PvgisIcon64x64.png", "Performance", "Performance") }}
+{{ box_icon("img/PvgisIcon64x64.png", "Performance", "Performance", fontSize=10) }}
 
 <p>
 Allows you to evaluate the potential performance of solar radiation on individual roof surfaces.

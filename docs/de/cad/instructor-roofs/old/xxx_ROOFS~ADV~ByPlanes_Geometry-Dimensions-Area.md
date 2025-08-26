@@ -4,7 +4,7 @@ sourceHash: fffbfa94895cd8e680c4d281093ca63c
 autoTranslated: true
 ---
 
-<h1>Geometrie &gt; Abmessungen &gt; Fläche</h1>
+# Geometrie &gt; Abmessungen &gt; Fläche
 
   <p> Das Menü <u><i>Geometrie &gt; Abmessungen &gt; Fläche</i></u>, das durch Anklicken der gewählten Fläche zugänglich ist, ermöglicht die Bearbeitung von Dachflächen über eine geöffnete Tabelle.
 

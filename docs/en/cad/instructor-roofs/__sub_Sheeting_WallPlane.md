@@ -4,9 +4,9 @@ sourceHash: 56de3c26254c02b8b18b60e700d99a25
 autoTranslated: true
 ---
 
-# Cladding &gt; Wall Plane
+# Sheeting &gt; Wall Plane
 
-<p>In the <u><i>Cladding &gt; Wall Plane</i></u> menu accessible via the <u>Edit button</u>, you can set the wall production type, cladding row arrangement, and plinth height.</p>
+<p>In the <u><i>Sheeting &gt; Wall Plane</i></u> menu accessible via the <u>Edit button</u>, you can set the wall production type, cladding row arrangement, and plinth height.</p>
 
 <p>Furthermore, it is possible to adjust the color scheme and materials of individual cladding layers. Here, you can also generate a bill of materials (BOM) with cladding items or a view of the wall in the form of an editable drawing.</p>
 
@@ -68,7 +68,7 @@ For some types of cladding, the <u>Inner layers</u> button may be hidden by defa
 
 <hr class="main">
 
-{{ box_icon("img/BomIcon64x64.png", "Bill of Materials", "Bill of Materials") }}
+{{ box_icon("img/BomIcon64x64.png", "BOM", "Bill of Materials") }}
 
 <p>Generates a list of cladding items for the relevant wall plane in a clear table.</p>
 

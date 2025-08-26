@@ -1,5 +1,5 @@
 
-<h1>Opláštění &gt; Sekundární struktura stěny</h1>
+# Opláštění &gt; Sekundární struktura stěny
 
 <p>V menu <u><i>Opláštění &gt; Sekundární struktura stěny</i></u> přístupném přes <u>Editační tlačítko</u> je možné generovat editovatelné výkresy sekundární stěnové konstrukce.</p>
 <p><b><u>Ovládací a Editační tlačítka</u> upravují vlastnosti konstrukce pouze na vybrané stěnové rovině.</b></p>

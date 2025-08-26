@@ -1,5 +1,5 @@
 
-<h1>Geometrie &gt; Rozměry &gt; Plocha &gt; Geometrie</h1>
+# Geometrie &gt; Rozměry &gt; Plocha &gt; Geometrie
 
   <p> Menu <u><i>Geometrie &gt; Rozměry &gt; Plocha &gt; Geometrie</i></u> umožňuje u příslušné střešní roviny provádět další úpravy geometrie. 
 

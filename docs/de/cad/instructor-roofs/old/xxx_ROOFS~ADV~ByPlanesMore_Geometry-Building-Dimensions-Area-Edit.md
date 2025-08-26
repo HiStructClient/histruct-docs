@@ -4,7 +4,7 @@ sourceHash: 45aaf7195ca89a187ff33fa21b430589
 autoTranslated: true
 ---
 
-<h1>Geometrie &gt; Gebäude &gt; Abmessungen &gt; Fläche &gt; Bearbeiten</h1>
+# Geometrie &gt; Gebäude &gt; Abmessungen &gt; Fläche &gt; Bearbeiten
 
 <p> Das Menü <u><i>Geometrie &gt; Gebäude &gt; Abmessungen &gt; Fläche &gt; Bearbeiten</i></u> ermöglicht es, die Grundrissbemaßungen der jeweiligen Dachfläche anzuzeigen und ermöglicht auch weitere geometrische Anpassungen.
 

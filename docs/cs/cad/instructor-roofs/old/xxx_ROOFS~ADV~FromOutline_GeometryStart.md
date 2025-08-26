@@ -1,5 +1,5 @@
 
-<h1>Geometrie</h1>
+# Geometrie
 <p>Umožňuje měnit geometrické parametry modelu, tedy rozměry budovy a střechy včetně sklonu a přesahů. Rovněž je zde možné nastavit typ skladby střechy.</p>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->

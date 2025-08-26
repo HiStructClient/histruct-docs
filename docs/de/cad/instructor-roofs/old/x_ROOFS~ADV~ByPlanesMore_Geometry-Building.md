@@ -4,7 +4,7 @@ sourceHash: 3d1a39ef1938dc9a2f07b25c737dfd15
 autoTranslated: true
 ---
 
-<h1>Geometrie &gt; Gebäude</h1>
+# Geometrie &gt; Gebäude
 
 <p>
 Ermöglicht das Zeichnen von Dachflächen, das Ändern ihrer Formen, Maße oder Neigungen und das Festlegen des Dachaufbaus.

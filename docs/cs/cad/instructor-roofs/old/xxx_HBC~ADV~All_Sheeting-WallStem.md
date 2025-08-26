@@ -1,5 +1,5 @@
 
-<h1>Opláštění &gt; Stěnový sokl</h1>
+# Opláštění &gt; Stěnový sokl
 
 <p>V menu <u><i>Opláštění &gt; Stěnový sokl</i></u> přístupném přes <u>Editační tlačítko</u> je možné nastavit směr a posun kladení materiálu soklu, vytvářet výkazy materiálů a generovat editovatelné výkresy materiálu soklu.</p>
 

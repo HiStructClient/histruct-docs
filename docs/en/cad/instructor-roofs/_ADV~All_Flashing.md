@@ -4,7 +4,7 @@ sourceHash: 71a06034228e56cac75c751d417107b3
 autoTranslated: true
 ---
 
-# Flashings
+# Flashing
 <p>Allows you to modify individual flashing elements, including the material type or color.</p>
 
 <p>These properties can be adjusted using the buttons on the left for all flashing elements in the given group.</p>
@@ -19,9 +19,9 @@ autoTranslated: true
 <p>By clicking the flashing element button on the left side, you can edit the properties of the entire corresponding group of flashing elements.</p>
 
 {{ box_icons([
-  ("img/FlashingGableTrimIcon64x64.png", "Gable"),
+  ("img/FlashingGableTrimIcon64x64.png", "Gable trim"),
   ("img/FlashingGutterIcon64x64.png", "Gutter"),
-  ("img/FlashingGutterApronIcon64x64.png", "Drip edge"),
+  ("img/FlashingGutterApronIcon64x64.png", "Drip"),
   ("img/FlashingRidgeRidgeIcon64x64.png", "Ridge")
 ], "... and more", width=55, height=55, fontSize=10) }}
 
@@ -39,8 +39,8 @@ autoTranslated: true
 
 <hr class="main">
 
-{{ box_icon("img/TapeMeasureIcon64x64.png", "Measurement", "Measurement") }}
-<p>The <u>Measurement</u> button allows you to check the dimensions of the model.</p>
+{{ box_icon("img/TapeMeasureIcon64x64.png", "Measure", "Measure") }}
+<p>The <u>Measure</u> button allows you to check the dimensions of the model.</p>
 
 <hr class="main">
 

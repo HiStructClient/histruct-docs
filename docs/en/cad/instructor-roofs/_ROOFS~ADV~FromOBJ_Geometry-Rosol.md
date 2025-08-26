@@ -19,7 +19,7 @@ autoTranslated: true
 <hr class="main">
 
 <p>
-{{ box_icon("img/RoofLiftIcon64x64.png", "Raise", "Raise") }}
+{{ box_icon("img/RoofLiftIcon64x64.png", "Lift roof", "Lift roof") }}
 </p>
 <p>The <u>Raise</u> button can be used to adjust the height of the modeled object's walls.</p>
 
@@ -47,9 +47,9 @@ autoTranslated: true
 <hr class="main">
 
 <p>
-{{ box_icon("img/TapeMeasureIcon64x64.png", "Measurement", "Measurement") }}
+{{ box_icon("img/TapeMeasureIcon64x64.png", "Measure", "Measure") }}
 </p>
-<p>The <u>Measurement</u> button can be used to check the dimensions of the model.</p>
+<p>The <u>Measure</u> button allows you to check the dimensions of the model.</p>
 
 <hr class="main">
 

@@ -4,16 +4,16 @@ sourceHash: 01f953f81795c88fde0da94a259a3828
 autoTranslated: true
 ---
 
-# Cladding &gt; Roof
+# Sheeting &gt; Roof
 
-  <p>In the <u><i>Cladding &gt; Roof</i></u> menu, you can set the type of roof assembly, the type of roofing, and the dimensions of the secondary roof structure.</p>
+  <p>In the <u><i>Sheeting &gt; Roof</i></u> menu, you can set the type of roof composition, the type of roofing, and the dimensions of the secondary roof structure.</p>
 
   <p>For more detailed adjustments of the roof structure, you need to switch to ADVANCED mode via the <u>Settings</u> button.</p>
 
   <hr class="main">
 
   <h2>Roof Structure Layer Settings</h2>
-<p>The roof structure assembly is configured using the following buttons:</p>
+<p>The roof structure composition is configured using the following buttons:</p>
 
 <ul>
   <li><p><u>Top Layer</u></p></li>
@@ -35,7 +35,7 @@ For some roofings, the <u>Lower Layers</u> button may be hidden by default, and 
 
 {{ box_icon("img/RoofLowerLayers_64x64.png", "Lower Layers", "Lower Layers", fontSize=10) }}
 <ul>
-  <li><p>Allows you to select the assembly type of the secondary structure from a prepared product gallery.</p></li>
+  <li><p>Allows you to select the composition type of the secondary structure from a prepared product gallery.</p></li>
 </ul>
 
 <hr class="main">

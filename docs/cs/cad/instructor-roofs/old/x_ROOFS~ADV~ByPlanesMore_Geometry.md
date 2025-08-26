@@ -1,5 +1,5 @@
 
-<h1>Geometrie</h1>
+# Geometrie
 
 <p>
 Umožňuje kreslit střešní roviny, měnit jejich tvary, rozměry či sklony, taktéž umožňuje nastavit typ skladby střechy.

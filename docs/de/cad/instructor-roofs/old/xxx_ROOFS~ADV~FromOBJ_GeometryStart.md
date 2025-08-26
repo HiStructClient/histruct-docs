@@ -4,7 +4,7 @@ sourceHash: 3306e889dac30398fc19b243da4d783e
 autoTranslated: true
 ---
 
-<h1>Geometrie</h1>
+# Geometrie
 <p>Das Menü <u><i>Geometrie</i></u> ermöglicht im ersten Schritt den Import einer Datei des Typs "<b>.obj</b>" für die schnelle Generierung von Dachflächen.</p>
 
 <p>Nach dem Import des 3D-Objekts können in den weiteren Schritten die Einstellungen des Kanten- und Flächengenerators geändert, die Maße und Neigungen der generierten Kanten und Flächen mit dem ROSOL-Löser angepasst sowie der Dachaufbau-Typ eingestellt werden.</p>

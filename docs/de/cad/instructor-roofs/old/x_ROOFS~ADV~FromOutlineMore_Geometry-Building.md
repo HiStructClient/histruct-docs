@@ -4,7 +4,7 @@ sourceHash: 6c50b603b3c06462e86d507f8d1a3c85
 autoTranslated: true
 ---
 
-<h1>Geometrie &gt; Gebäude</h1>
+# Geometrie &gt; Gebäude
 
 <p>
   Ermöglicht das Ändern der geometrischen Parameter des Modells, d.h. der Abmessungen des Gebäudes und des Daches einschließlich Neigung und Überstände. 

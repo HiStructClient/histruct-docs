@@ -40,7 +40,7 @@ The <u><i>Accessories &gt; Interior &gt; Insert</i></u> menu allows you to add v
 
 <p>With the <u>Insert</u> button you can insert selected accessories into the model.</p>
 
-<hr class="main">
+<hr class="main"> 
 
 <!--{{ box_icon("img/TapeMeasureIcon64x64.png", "Measure", "Measure") }}
 

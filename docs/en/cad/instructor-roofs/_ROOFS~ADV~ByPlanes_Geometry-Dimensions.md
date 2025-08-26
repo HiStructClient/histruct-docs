@@ -10,9 +10,9 @@ autoTranslated: true
 
   <hr class="main">
 
-{{ box_icon("img/ImportDxfIcon64x64.png", "Background", "Background") }}
+{{ box_icon("img/ImportDxfIcon64x64.png", "Underlay", "Underlay") }}
 
-  <p>The <u>Background</u> button is used to import a background for faster drawing of roof plane outlines. After importing the background, you need to check its dimensions and adjust the scale if necessary.</p>
+  <p>The <u>Underlay</u> button is used to import a background for faster drawing of roof plane outlines. After importing the background, you need to check its dimensions and adjust the scale if necessary.</p>
 
   <p><b><u>Adjusting the scale of the imported background</u></b></p>
 
@@ -138,15 +138,15 @@ You can also use the <u>Scale</u> button, located at the top of the open table, 
 
   <hr class="main">
 
-{{ box_icon("img/DimensionLinearIcon64x64.png", "Annotation", "Annotation") }}
+{{ box_icon("img/DimensionLinearIcon64x64.png", "Anotate", "Anotate") }}
 
-  <p>The <u>Annotation</u> button allows you to add any plan dimensions to the model.</p>
+  <p>The <u>Anotate</u> button enables you to add any ground plan dimensions to the model.</p>
 
   <hr class="main">
 
 {{ box_icon("img/TapeMeasureIcon64x64.png", "Measure", "Measure") }}
 
-  <p>The <u>Measure</u> button lets you check the dimensions of the model.</p>
+  <p>The <u>Measure</u> button allows you to check the dimensions of the model.</p>
 
   <hr class="main">
 

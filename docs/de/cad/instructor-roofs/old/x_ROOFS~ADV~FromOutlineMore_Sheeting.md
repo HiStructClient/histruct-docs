@@ -4,7 +4,7 @@ sourceHash: 4e5a4e886a6ba79ab22830bcde13d4ce
 autoTranslated: true
 ---
 
-<h1>Verkleidung</h1>
+# Verkleidung
 
   <p>Das Menü <u><i>Verkleidung</i></u> ermöglicht es, den Typ des Dachaufbaus, die Art der Dacheindeckung und die Maße der Sekundärdachkonstruktion festzulegen.</p>
 

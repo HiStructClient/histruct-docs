@@ -1,5 +1,5 @@
 
-<h1>Opláštění > Sekundární konstrukce > Rámy</h1>
+# Opláštění > Sekundární konstrukce > Rámy
 
 <p>...V menu <u><i>Opláštění > Sekundární konstrukce > Rámy</i></u> přístupném přes <u>Editační tlačítko</u> je možné nastavit průřezy sekundární konstrukce.</p>
 

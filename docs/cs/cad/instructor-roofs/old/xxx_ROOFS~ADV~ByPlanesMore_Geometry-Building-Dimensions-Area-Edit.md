@@ -1,5 +1,5 @@
 
-<h1>Geometrie &gt; Budova &gt; Rozměry &gt; Plocha &gt; Upravit</h1>
+# Geometrie &gt; Budova &gt; Rozměry &gt; Plocha &gt; Upravit
 
   <p> Menu <u><i>Geometrie &gt; Budova &gt; Rozměry &gt; Plocha &gt; Upravit</i></u> umožňuje zobrazit půdorysné kóty příslušné střešní roviny a taktéž umožňuje provádět některé další úpravy geometrie.
 

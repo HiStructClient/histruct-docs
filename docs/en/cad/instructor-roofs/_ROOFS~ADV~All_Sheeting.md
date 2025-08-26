@@ -4,9 +4,9 @@ sourceHash: 9cfa59e2426affabd6ee4982cd7e055a
 autoTranslated: true
 ---
 
-# Cladding
+# Sheeting
 
-<p>The <u><i>Cladding</i></u> menu allows you to set the type of roof assembly, the type of roof covering, and the dimensions of the secondary roof structure.</p>
+<p>The <u><i>Sheeting</i></u> menu allows you to set the type of roof composition, the type of roof covering, and the dimensions of the secondary roof structure.</p>
 
 <p>For individual roof planes, it is also possible to change the direction of roof covering installation, generate a bill of materials for roof covering items, and generate a plan of the roof structure in the form of an editable drawing.</p>
 
@@ -16,19 +16,19 @@ autoTranslated: true
 
 {{ box_icon("img/RoofSketchIcon64x64.png", "Roof", "Roof") }}
 
-<p>The <u>Roof</u> button allows you to set the type of roof assembly, the type of roof covering, and the dimensions of the secondary roof structure for the entire roof.</p>
+<p>The <u>Roof</u> button allows you to set the type of roof composition, the type of roof covering, and the dimensions of the secondary roof structure for the entire roof.</p>
 
 <hr class="main">
 
-{{ box_icon("img/DimensionLinearIcon64x64.png", "Annotation", "Annotation") }}
+{{ box_icon("img/DimensionLinearIcon64x64.png", "Anotate", "Anotate") }}
 
-<p>The <u>Annotation</u> button allows you to add arbitrary floor plan dimensions to the model.</p>
+<p>The <u>Anotate</u> button enables you to add any ground plan dimensions to the model.</p>
 
 <hr class="main">
 
-{{ box_icon("img/TapeMeasureIcon64x64.png", "Measuring", "Measuring") }}
+{{ box_icon("img/TapeMeasureIcon64x64.png", "Measure", "Measure") }}
 
-<p>The <u>Measuring</u> button allows you to check the model's dimensions.</p>
+<p>The <u>Measure</u> button allows you to check the model's dimensions.</p>
 
 <hr class="main">
 
@@ -37,7 +37,7 @@ autoTranslated: true
 <p>For individual roof planes, it allows you to:</p>
 
 <ul>
-  <li><p>Set the type of roof assembly – covering type and secondary structure.</p></li>
+  <li><p>Set the type of roof composition – covering type and secondary structure.</p></li>
   <li><p>Generate a bill of materials with roof covering items and also generate a plan of the roof structure with all layers in the form of an editable drawing.</p></li>
 </ul>
 
@@ -51,7 +51,7 @@ autoTranslated: true
 
 {{ box_icon("img/EditButton.png", "", "Edit button", width=64) }}
 
-<p>For individual layers of the roof assembly on a specified roof plane, it allows you to:</p>
+<p>For individual layers of the roof composition on a specified roof plane, it allows you to:</p>
 
 <ul>
   <li><p>Set the type of covering or individual layers of the secondary structure including dimensions, direction of installation, as well as editing the position and angle of installation.</p></li>

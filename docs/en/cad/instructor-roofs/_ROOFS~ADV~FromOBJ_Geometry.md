@@ -63,15 +63,15 @@ You can also use the <u>Scale</u> button located at the top of the open table to
 
 <hr class="main">
 
-{{ box_icon("img/DimensionLinearIcon64x64.png", "Annotation", "Annotation") }}
+{{ box_icon("img/DimensionLinearIcon64x64.png", "Anotate", "Anotate") }}
 
-<p>The <u>Annotation</u> button enables you to add any ground plan dimensions to the model.</p>
+<p>The <u>Anotate</u> button enables you to add any ground plan dimensions to the model.</p>
 
 <hr class="main">
 
-{{ box_icon("img/TapeMeasureIcon64x64.png", "Measurement", "Measurement") }}
+{{ box_icon("img/TapeMeasureIcon64x64.png", "Measure", "Measure") }}
 
-<p>The <u>Measurement</u> button allows you to check the dimensions of the model.</p>
+<p>The <u>Measure</u> button allows you to check the dimensions of the model.</p>
 
 ////
 
@@ -92,16 +92,16 @@ You can also use the <u>Scale</u> button located at the top of the open table to
 <hr class="main">
 
 <!--{{ box_icon("img/RoofSketchIcon64x64.png", "Roof", "Roof") }}
-<p>The <u>Roof</u> button lets you set the roof structure type. The type of covering and secondary roof structure dimensions can be changed using the <u>Cladding</u> button.</p>
+<p>The <u>Roof</u> button lets you set the roof structure type. The type of covering and secondary roof structure dimensions can be changed using the <u>Sheeting</u> button.</p>
 
-<hr class="main">
+<hr class="main">-->
 
 {{ box_icon("img/ImportObjIcon64x64.png", "Rosol", "Rosol") }}
 <p>Allows you to modify the dimensions and slopes of generated edges and faces, change the height, and if necessary, the eccentricity of the roof.</p>
 
 <hr class="main">
 
-{{ box_icon("img/PvgisIcon64x64.png", "Performance", "Performance") }}
+{{ box_icon("img/PvgisIcon64x64.png", "Performance", "Performance", fontSize=10) }}
 
 <p>
 Allows you to evaluate the potential solar radiation output on each roof surface.
@@ -113,13 +113,13 @@ Allows you to evaluate the potential solar radiation output on each roof surface
 
 <hr class="main">
 
-{{ box_icon("img/DimensionLinearIcon64x64.png", "Annotation", "Annotation") }}
-<p>The <u>Annotation</u> button enables you to add any ground plan dimensions to the model.</p>
+{{ box_icon("img/DimensionLinearIcon64x64.png", "Anotate", "Anotate") }}
+<p>The <u>Anotate</u> button enables you to add any ground plan dimensions to the model.</p>
 
 <hr class="main">
 
-{{ box_icon("img/TapeMeasureIcon64x64.png", "Measurement", "Measurement") }}
-<p>The <u>Measurement</u> button allows you to check the dimensions of the model.</p>
+{{ box_icon("img/TapeMeasureIcon64x64.png", "Measure", "Measure") }}
+<p>The <u>Measure</u> button allows you to check the dimensions of the model.</p>
 
 ////
 

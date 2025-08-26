@@ -4,9 +4,9 @@ sourceHash: 277492101b50ce1e43e86c7e11084d99
 autoTranslated: true
 ---
 
-# Cladding &gt; Roof
+# Sheeting &gt; Roof
 
-<p>In the <u><i>Cladding &gt; Roof</i></u> menu, you can set the type of roof composition, type of roofing material, and the dimensions of the secondary roof structure.</p>
+<p>In the <u><i>Sheeting &gt; Roof</i></u> menu, you can set the type of roof composition, type of roofing material, and the dimensions of the secondary roof structure.</p>
 
 <p>Within individual roof planes, you can additionally change the direction of the roofing installation, generate a bill of materials with roofing items, and also generate a plan view of the roof structure as an editable drawing.</p>
 
@@ -49,14 +49,14 @@ For some roofing materials, the <u>Lower Layers</u> button may be hidden by defa
 
 {{ box_icon("img/ControlButton.png", "", "Control Button", width=64) }}
 
-<p>For each individual roof plane, it allows you to:</p>
+<p>For individual roof planes, it allows you to:</p>
 
 <ul>
-  <li><p>Set the type of roof composition - type of roofing and secondary structure.</p></li>
-  <li><p>Generate a bill of materials with roofing items as well as generate a plan view of the roof structure with all layers as an editable drawing.</p></li>
+  <li><p>Set the type of roof composition – covering type and secondary structure.</p></li>
+  <li><p>Generate a bill of materials with roof covering items and also generate a plan of the roof structure with all layers in the form of an editable drawing.</p></li>
 </ul>
 
-/// details | Functions available via Control Button
+/// details | Functions accessible via Control Button
 {{ include_md("__sub_Sheeting_RoofPlane.md") }}
 ///
 
@@ -66,15 +66,15 @@ For some roofing materials, the <u>Lower Layers</u> button may be hidden by defa
 
 {{ box_icon("img/EditButton.png", "", "Edit Button", width=64) }}
 
-<p>For each layer of the roof composition on a given roof plane, it allows you to:</p>
+<p>For individual layers of the roof composition on a specified roof plane, it allows you to:</p>
 
 <ul>
-  <li><p>Set the type of roofing or individual secondary structure layers including dimensions, installation direction, as well as adjust the position and installation angle.</p></li>
-  <li><p>Generate a plan view of the respective roof structure layer as an editable drawing.</p></li>
-  <li><p>For roofing materials, it is also possible to generate a material report with roofing items.</p></li>
+  <li><p>Set the type of covering or individual layers of the secondary structure including dimensions, direction of installation, as well as editing the position and angle of installation.</p></li>
+  <li><p>Generate a plan of the relevant layer of the roof structure in the form of an editable drawing.</p></li>
+  <li><p>For the roof covering, it is also possible to generate a material statement with roof covering items.</p></li>
 </ul>
 
-/// details | Functions available via Edit Button
+/// details | Functions accessible via Edit Button
 {{ include_md("__sub_Sheeting_RoofLayer.md") }}
 ///
 

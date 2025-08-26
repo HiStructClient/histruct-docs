@@ -18,16 +18,16 @@ autoTranslated: true
 
 <!--
 {{ box_icon("img/RoofSketchIcon64x64.png", "Roof", "Roof") }}
-<p>The <u>Roof</u> button allows you to set the type of roof structure. The roofing type and dimensions of the secondary roof structure can be changed using the <u>Cladding</u> button.</p>
+<p>The <u>Roof</u> button allows you to set the type of roof structure. The roofing type and dimensions of the secondary roof structure can be changed using the <u>Sheeting</u> button.</p>
 
-<hr class="main">
+<hr class="main">-->
 
 {{ box_icon("img/WallIcon64x64.png", "Walls", "Walls") }}
 <p>The <u>Walls</u> button allows you to set the wall production type, the cladding stack arrangement, and the plinth height.</p>
 
 <hr class="main">
 
-{{ box_icon("img/PvgisIcon64x64.png", "Performance", "Performance") }}
+{{ box_icon("img/PvgisIcon64x64.png", "Performance", "Performance", fontSize=10) }}
 
 <p>
 Allows you to evaluate the potential output of solar radiation on individual roof surfaces.

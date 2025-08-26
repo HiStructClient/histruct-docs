@@ -16,13 +16,13 @@ autoTranslated: true
 
 <hr class="main">
 
-{{ box_icon("img/ImportDxfIcon64x64.png", "Background", "Background") }}
+{{ box_icon("img/ImportDxfIcon64x64.png", "Underlay", "Underlay") }}
 
-<p>The <u>Background</u> button is used to import a background for faster roof outline drawing.</p> 
+<p>The <u>Underlay</u> button is used to import a background for faster roof outline drawing.</p> 
 
 <p>After importing the background, you need to check its dimensions and adjust the scale if necessary.</p>
 
-<p><b><u>Adjusting the Scale of the Imported Background</u></b></p>
+<p><b><u>Adjusting the Scale of the Imported Underlay</u></b></p>
 
 <ul>
 <p><li>
@@ -49,15 +49,15 @@ To adjust the scale, you can also use the <u>Scale</u> button, which is located 
 
 <hr class="main">
 
-{{ box_icon("img/SetSlopeIcon64x64.png", "Slope", "Slope") }}
+{{ box_icon("img/SetSlopeIcon64x64.png", "Set slope", "Set slope") }}
 
-<p>The <u>Slope</u> button allows you to set the same slope for all roof planes.</p>
+<p>The <u>Set slope</u> button allows you to set the same slope for all roof planes.</p>
 
 <hr class="main">
 
-{{ box_icon("img/RoofLiftIcon64x64.png", "Lift", "Lift") }}
+{{ box_icon("img/RoofLiftIcon64x64.png", "Lift roof", "Lift roof") }}
 
-<p>The <u>Lift</u> button allows you to adjust the height of the walls of the modeled object.</p>
+<p>The <u>Lift roof</u> button allows you to adjust the height of the walls of the modeled object.</p>
 
 <hr class="main">
 
@@ -74,15 +74,15 @@ To adjust the scale, you can also use the <u>Scale</u> button, which is located 
 
 <hr class="main">
 
-{{ box_icon("img/DimensionLinearIcon64x64.png", "Annotation", "Annotation") }}
+{{ box_icon("img/DimensionLinearIcon64x64.png", "Anotate", "Anotate") }}
 
-<p>The <u>Annotation</u> button allows you to add any plan dimensions to the model.</p>
+<p>The <u>Anotate</u> button enables you to add any ground plan dimensions to the model.</p>
 
 <hr class="main">
 
 {{ box_icon("img/TapeMeasureIcon64x64.png", "Measure", "Measure") }}
 
-<p>With the <u>Measure</u> button, you can check the dimensions of the model.</p>
+<p>The <u>Measure</u> button allows you to check the dimensions of the model.</p>
 
 <hr class="main">
 

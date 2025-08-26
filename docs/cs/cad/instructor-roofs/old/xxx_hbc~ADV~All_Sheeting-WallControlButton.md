@@ -1,5 +1,5 @@
 
-<h1>Opláštění &gt; Stěnová rovina</h1>
+# Opláštění &gt; Stěnová rovina
 <p>V menu <u><i>Opláštění &gt; Stěnová rovina</i></u> přístupném přes <u>Ovládací tlačítko</u> je možné nastavit typ výroby stěny, kladení řad opláštění a výšku soklu.</p>
 <p>Dále je možné upravovat barevné schéma a materiály jednotlivých vrstev opláštění. Také je zde možné generovat kusovník s položkami opláštění nebo pohled na stěnu ve formě editovatelného výkresu.</p>
 <p><b><u>Ovládací a Editační tlačítka</u> upravují vlastnosti konstrukce pouze na vybrané stěnové rovině.</b></p>

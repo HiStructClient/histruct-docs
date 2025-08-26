@@ -1,5 +1,5 @@
 
-<h1>Geometrie &gt; Budova &gt; Rozměry</h1>
+# Geometrie &gt; Budova &gt; Rozměry
 <p>Umožňuje měnit geometrické parametry modelu, tedy rozměry okapových hran, sklon a přesah střechy. Taktéž je možné změnit výšku celé střešní konstrukce.</p>
 
 <hr class="main"> <!-- Vodorovná čára jako oddělovač sekce -->

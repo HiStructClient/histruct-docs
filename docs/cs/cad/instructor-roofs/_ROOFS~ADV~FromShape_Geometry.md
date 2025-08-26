@@ -28,7 +28,7 @@
     Tlačítko <u>Střecha</u> umožňuje nastavit typ skladby střechy. Typ krytiny a rozměry sekundární střešní konstrukce lze měnit přes tlačítko <u>Opláštění</u>.
   </p>
 
-  <hr class="main">
+  <hr class="main">-->
 
 <hr class="main">
 

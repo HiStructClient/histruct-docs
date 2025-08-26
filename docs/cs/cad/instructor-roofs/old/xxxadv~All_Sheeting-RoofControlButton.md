@@ -1,7 +1,7 @@
 
 
 
-<h1>Opláštění > Střešní rovina</h1>
+# Opláštění > Střešní rovina
 
 <p>V menu <u><i>Opláštění > Střešní rovina</i></u> přístupném přes <u>Ovládací tlačítko</u> je pro jednotlivé střešní roviny možné :</p>
 

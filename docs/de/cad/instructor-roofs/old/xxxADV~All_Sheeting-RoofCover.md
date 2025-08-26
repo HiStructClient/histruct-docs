@@ -4,7 +4,7 @@ sourceHash: 5aa381237523c549844d36d428a0a982
 autoTranslated: true
 ---
 
-<h1>Verkleidung &gt; Dachdeckung</h1>
+# Verkleidung &gt; Dachdeckung
 
 <p>
   Im Menü <u><i>Verkleidung &gt; Dachdeckung</i></u>, das über das <u>Editier-Button</u> zugänglich ist, kann die Richtung und der Versatz der Dachdeckung eingestellt, Materialauszüge der Dachdeckung erstellt und editierbare Zeichnungen der Dachdeckung generiert werden.

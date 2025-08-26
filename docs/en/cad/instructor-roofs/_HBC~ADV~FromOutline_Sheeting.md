@@ -4,9 +4,9 @@ sourceHash: e5720aab134340f47e39cf38a5560734
 autoTranslated: true
 ---
 
-# Cladding
+# Sheeting
 
-<p>The <u><i>Cladding</i></u> menu allows you to set the type of roof composition, the type of roofing material, and the dimensions of the secondary roof structure.</p>
+<p>The <u><i>Sheeting</i></u> menu allows you to set the type of roof composition, the type of roofing material, and the dimensions of the secondary roof structure.</p>
 <p>For walls, you can set the wall production type and the material of each wall layer.</p>
 <p><b>Settings and adjustments of individual roof and wall planes can be made using the <u>Control and Edit Buttons</u>.</b></p>
 
@@ -24,15 +24,15 @@ autoTranslated: true
 
 <hr class="main">
 
-{{ box_icon("img/DimensionLinearIcon64x64.png", "Annotations", "Annotations") }}
+{{ box_icon("img/DimensionLinearIcon64x64.png", "Anotate", "Anotate") }}
 
-<p>The <u>Annotations</u> button allows you to add any floor plan dimensions to the model.</p>
+<p>The <u>Anotate</u> button allows you to add any floor plan dimensions to the model.</p>
 
 <hr class="main">
 
-{{ box_icon("img/TapeMeasureIcon64x64.png", "Measuring", "Measuring") }}
+{{ box_icon("img/TapeMeasureIcon64x64.png", "Measure", "Measure") }}
 
-<p>The <u>Measuring</u> button allows you to check the dimensions of the model.</p>
+<p>The <u>Measure</u> button allows you to check the dimensions of the model.</p>
 
 <hr class="main">
 

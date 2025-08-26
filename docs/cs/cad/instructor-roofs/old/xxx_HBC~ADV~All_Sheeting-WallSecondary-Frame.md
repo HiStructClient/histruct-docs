@@ -1,5 +1,5 @@
 
-<h1>Opláštění &gt; Sekundární struktura stěny &gt; Rámy</h1>
+# Opláštění &gt; Sekundární struktura stěny &gt; Rámy
 
 <p>...V menu <u><i>Opláštění &gt; Sekundární struktura stěny &gt; Rámy</i></u> přístupném přes <u>Editační tlačítko</u> se připravují funkce pro budoucí verze programu...</p>
 <p><b><u>Ovládací a Editační tlačítka</u> upravují vlastnosti konstrukce pouze na vybrané stěnové rovině.</b></p>

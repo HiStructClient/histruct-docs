@@ -4,7 +4,7 @@ sourceHash: 2fab412dc25a976995ad83e142153dad
 autoTranslated: true
 ---
 
-<h1>Verkleidung &gt; Wandpaneele</h1>
+# Verkleidung &gt; Wandpaneele
 
 <p>Im Menü <u><i>Verkleidung &gt; Wandpaneele</i></u>, zugänglich über das <u>Editier-Button</u>, kann die Verlegerichtung und der Versatz der Wandpaneele eingestellt, Materiallisten erstellt und editierbare Zeichnungen der Wandpaneele generiert werden.</p>
 <p>Die Einstellungsmöglichkeiten unterscheiden sich je nach verwendetem Materialtyp.</p>

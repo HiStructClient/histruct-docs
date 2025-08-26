@@ -4,9 +4,9 @@ sourceHash: 042d509600a0ea425ce7210fa876140e
 autoTranslated: true
 ---
 
-# Cladding &gt; Wall Layer
+# Sheeting &gt; Wall Layer
 
-<p>In the <u><i>Cladding &gt; Wall Layer</i></u> menu accessible via the <u>Edit button</u>, it is possible to set, for individual layers of the cladding assembly on the specified wall plane:</p>
+<p>In the <u><i>Sheeting &gt; Wall Layer</i></u> menu accessible via the <u>Edit button</u>, it is possible to set, for individual layers of the cladding composition on the specified wall plane:</p>
 
 <ul>
 <li><p>Setting the material of the cladding or individual layers of the secondary structure or plinth, as well as setting the laying direction, as well as editing the position and angle of the cladding placement.</p></li>
@@ -26,17 +26,17 @@ autoTranslated: true
 <hr class="main">
 
 {{ box_icons([
-  ("img/TilingEditIcon64x64.png", "Laying"),
+  ("img/TilingEditIcon64x64.png", "Tiling"),
   ("img/TilingEditIcon64x64.png", "Grid"),
   ("img/TilingEditIcon64x64.png", "Frames"),
   ("img/TilingEditIcon64x64.png", "Layer")
-], "Laying / Grid / Frames / Layer") }}
+], "Tiling / Grid / Frames / Layer") }}
 
-<h3>Laying</h3>
+<h3>Tiling</h3>
 
 <ul>
 <li><p>
-  The <u>Laying</u> button allows you to select the material for the given wall layer from a prepared product gallery.
+  The <u>Tiling</u> button allows you to select the material for the given wall layer from a prepared product gallery.
   </p></li>
 <li><p>It also allows you to set the direction, angle, and offset of the cladding elements from the edge of the building.
 </p></li>
@@ -93,11 +93,11 @@ autoTranslated: true
 {{ box_icon("img/BomIcon64x64.png", "BOM", "BOM") }}
 
 <p>
-  Generates a list of items for the selected layer of the wall structure assembly for the relevant wall plane into a clear table.
+  Generates a list of items for the selected layer of the wall structure composition for the relevant wall plane into a clear table.
 </p>
 
 <p>
-Functionality may not be temporarily available for all cladding assembly layers.
+Functionality may not be temporarily available for all cladding composition layers.
 </p>
 
 <hr class="main">
@@ -110,8 +110,8 @@ Functionality may not be temporarily available for all cladding assembly layers.
 
 <hr class="main">
 
-{{ box_icon("img/TapeMeasureIcon64x64.png", "Measurement", "Measurement") }}
+{{ box_icon("img/TapeMeasureIcon64x64.png", "Measure", "Measure") }}
 
 <p>
-  The <u>Measurement</u> button allows you to check the model dimensions.
+  The <u>Measure</u> button allows you to check the model dimensions.
 </p>

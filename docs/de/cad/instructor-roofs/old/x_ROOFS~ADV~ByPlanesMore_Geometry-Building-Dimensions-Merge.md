@@ -4,7 +4,7 @@ sourceHash: 91833375f462f07ebbe991fd975bc5ef
 autoTranslated: true
 ---
 
-<h1>Geometrie &gt; Gebäude &gt; Abmessungen &gt; Verbinden</h1>
+# Geometrie &gt; Gebäude &gt; Abmessungen &gt; Verbinden
 
   <p>Ermöglicht es, die Geometrie der gezeichneten Dachflächen zu überprüfen und die Parameter ihrer Verbindung anzupassen.</p>
 

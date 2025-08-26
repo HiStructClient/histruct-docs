@@ -1,5 +1,5 @@
 
-<h1>Geometrie</h1>
+# Geometrie
 <p>Menu <u><i>Geometrie</i></u> v prvním kroku umožňuje importovat soubor typu "<b>.obj</b>" pro rychlé generování střešních rovin.</p>
 
 <p>Po importu 3D objektu umožňuje v dalších krocích změnit nastavení generátoru hran a ploch, upravit rozměry a sklony vygenerovaných hran a ploch pomocí řešiče ROSOL a také nastavit typ skladby střechy.</p>

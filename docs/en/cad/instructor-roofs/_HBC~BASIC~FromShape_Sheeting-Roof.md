@@ -4,9 +4,9 @@ sourceHash: b0e4c4f6d679432e80db775e2fbd8549
 autoTranslated: true
 ---
 
-# Cladding &gt; Roof
+# Sheeting &gt; Roof
 
-<p>In the <u><i>Cladding &gt; Roof</i></u> menu, you can set the type of roof composition, type of roofing, and the dimensions of the secondary roof structure.</p>
+<p>In the <u><i>Sheeting &gt; Roof</i></u> menu, you can set the type of roof composition, type of roofing, and the dimensions of the secondary roof structure.</p>
 
 <hr class="main">
 

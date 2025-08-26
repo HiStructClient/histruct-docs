@@ -4,7 +4,7 @@ sourceHash: 3fc51c7aff31905118e774cab17d76d0
 autoTranslated: true
 ---
 
-<h1>Geometrie &gt; Gebäude &gt; Abmessungen &gt; Fläche &gt; Bearbeiten &gt; Geometrie</h1>
+# Geometrie &gt; Gebäude &gt; Abmessungen &gt; Fläche &gt; Bearbeiten &gt; Geometrie
 
   <p> Das Menü <u><i>Geometrie &gt; Gebäude &gt; Abmessungen &gt; Fläche &gt; Bearbeiten &gt; Geometrie</i></u> ermöglicht bei der entsprechenden Dachfläche weitere Anpassungen der Geometrie.
 

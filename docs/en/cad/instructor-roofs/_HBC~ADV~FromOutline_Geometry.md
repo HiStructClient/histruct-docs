@@ -21,7 +21,7 @@ autoTranslated: true
 
 <!--{{ box_icon("img/RoofSketchIcon64x64.png", "Roof", "Roof") }}
 
-<p>The <u>Roof</u> button allows you to set the type of roof assembly. The roofing type and dimensions of the secondary roof structure can be changed via the <u>Cladding</u> button.</p>
+<p>The <u>Roof</u> button allows you to set the type of roof assembly. The roofing type and dimensions of the secondary roof structure can be changed via the <u>Sheeting</u> button.</p>
 
 <hr class="main">
 
@@ -38,21 +38,21 @@ autoTranslated: true
 
 <hr class="main">
 
-{{ box_icon("img/PvgisIcon64x64.png", "Power", "Power") }}
+{{ box_icon("img/PvgisIcon64x64.png", "Performance", "Performance", fontSize=10) }}
 
 <p>
 Allows you to evaluate the potential solar radiation output on individual roof surfaces.
 </p>
 
 <p>
-...The functionality of the <u>Power</u> button is being prepared for a future version of the program...
+...The functionality of the <u>Performance</u> button is being prepared for a future version of the program...
 </p>
 
 <hr class="main">
 
-{{ box_icon("img/DimensionLinearIcon64x64.png", "Annotation", "Annotation") }}
+{{ box_icon("img/DimensionLinearIcon64x64.png", "Anotate", "Anotate") }}
 
-<p>The <u>Annotation</u> button allows you to add arbitrary floor plan dimensions to the model.</p>
+<p>The <u>Anotate</u> button allows you to add arbitrary floor plan dimensions to the model.</p>
 
 <hr class="main">
 

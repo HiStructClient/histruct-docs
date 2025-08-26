@@ -4,7 +4,7 @@ sourceHash: 3effd7b926bed6debc3b5e8e9ab7bf11
 autoTranslated: true
 ---
 
-<h1>Verkleidung > Dachfläche</h1>
+# Verkleidung > Dachfläche
 
 <p>Im Menü <u><i>Verkleidung > Dachfläche</i></u>, das über das <u>Steuerungsknopf</u> zugänglich ist, kann der Dachaufbau – der Typ der Dachdeckung und der Sekundärkonstruktion – für die einzelnen Dachflächen eingestellt werden. Es ermöglicht ebenfalls, für eine bestimmte Dachfläche Materialauszüge und Zeichnungen der Dachkonstruktion zu erstellen.</p>
 

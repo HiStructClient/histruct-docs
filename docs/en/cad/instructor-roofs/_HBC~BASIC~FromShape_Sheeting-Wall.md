@@ -4,9 +4,9 @@ sourceHash: b523b3544dc879248ef45a877af0e6be
 autoTranslated: true
 ---
 
-# Cladding &gt; Wall
+# Sheeting &gt; Wall
 
-<p>In the <u><i>Cladding > Wall</i></u> menu, you can set the wall production type, cladding row layout, and plinth height. You can also edit individual cladding layers here.</p>
+<p>In the <u><i>Sheeting > Wall</i></u> menu, you can set the wall production type, cladding row layout, and plinth height. You can also edit individual cladding layers here.</p>
 
 <hr class="main">
 
@@ -16,7 +16,7 @@ autoTranslated: true
 
 <hr class="main">
 
-<h2>Wall Cladding Layer Settings</h2>
+<h2>Wall Sheeting Layer Settings</h2>
 
 <p>The composition of the roof structure is set using the buttons:</p>
 

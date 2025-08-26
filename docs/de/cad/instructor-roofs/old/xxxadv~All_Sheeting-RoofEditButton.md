@@ -4,7 +4,7 @@ sourceHash: 032fea8b1f8e781f9f732022853ae38e
 autoTranslated: true
 ---
 
-<h1>Verkleidung &gt; Dachschicht</h1>
+# Verkleidung &gt; Dachschicht
 
 <p>
   Das Menü <u><i>Verkleidung &gt; Dachschicht</i></u>, das über das <u>Editier-Button</u> erreichbar ist, ermöglicht für die einzelnen Schichten des Dachaufbaus auf der ausgewählten Dachfläche:

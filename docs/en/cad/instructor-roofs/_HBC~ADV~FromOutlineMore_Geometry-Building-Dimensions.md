@@ -38,15 +38,15 @@ autoTranslated: true
 
 <hr class="main">
 
-{{ box_icon("img/SetSlopeIcon64x64.png", "Slope", "Slope") }}
+{{ box_icon("img/SetSlopeIcon64x64.png", "Set slope", "Set slope") }}
 
-<p>The <u>Slope</u> button allows you to set the same slope for all roof planes.</p>
+<p>The <u>Set slope</u> button allows you to set the same slope for all roof planes.</p>
 
 <hr class="main">
 
-{{ box_icon("img/RoofLiftIcon64x64.png", "Lift", "Lift") }}
+{{ box_icon("img/RoofLiftIcon64x64.png", "Lift roof", "Lift roof") }}
 
-<p>The <u>Lift</u> button allows you to adjust the height of the walls of the modeled object.</p>
+<p>The <u>Lift roof</u> button allows you to adjust the height of the walls of the modeled object.</p>
 
 <hr class="main">
 
@@ -63,9 +63,9 @@ autoTranslated: true
 
 <hr class="main">
 
-{{ box_icon("img/DimensionLinearIcon64x64.png", "Annotation", "Annotation") }}
+{{ box_icon("img/DimensionLinearIcon64x64.png", "Anotate", "Anotate") }}
 
-<p>The <u>Annotation</u> button allows you to add any planar dimension labels to the model.</p>
+<p>The <u>Anotate</u> button allows you to add any planar dimension labels to the model.</p>
 
 <hr class="main">
 
