@@ -30,7 +30,8 @@ def copy_file_to_lang(sourcePath, docsPath_target):
 # najít všechny .png soubory v adresáři docs/cs/
 # a přidat je do mkdocs_gen_files
 
-currentLang = mkdocs_gen_files.config.theme['locale'].language
+i18n = mkdocs_gen_files.config.plugins.get("i18n")
+currentLang = i18n.current_language
 
 if (currentLang == "en" or currentLang == "ro" or currentLang == "de"):
 
@@ -38,7 +39,12 @@ if (currentLang == "en" or currentLang == "ro" or currentLang == "de"):
     docsPath_source = docsPath.joinpath("cs/")
     docsPath_target = Path( currentLang + "/")
 
+    # print(f"Processing language {currentLang}: {docsPath_source} -> {docsPath_target}")
+
     for sourcePath in docsPath_source.rglob("**/*.png"):
+        copy_file_to_lang(sourcePath, docsPath_target)
+
+    for sourcePath in docsPath_source.rglob("**/*.mp4"):
         copy_file_to_lang(sourcePath, docsPath_target)
 
     # md soubory bohužel nenajde i18n
