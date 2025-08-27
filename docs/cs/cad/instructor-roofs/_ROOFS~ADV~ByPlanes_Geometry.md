@@ -196,6 +196,12 @@ Tlačítkem <u>Přidat</u> je možné do modelového prostoru přidat další (v
   
 # Geometrie
 
+<p>
+Umožňuje kreslit střešní roviny, měnit jejich tvary, rozměry či sklony, taktéž umožňuje nastavit typ skladby střechy.
+</p>
+
+<hr class="main">
+
 {{ box_icon("img/Sheated_Building_Page_Building.png", "Rozměry", "Rozměry") }}
 
 <p>
@@ -207,8 +213,6 @@ Tlačítko <u>Rozměry</u> slouží ke kreslení a vkládání střešních rovi
 <!--{{ box_icon("img/RoofSketchIcon64x64.png", "Střecha", "Střecha") }}
 
 Tlačítko <u>Střecha</u> umožňuje nastavit typ skladby střechy. Typ krytiny a rozměry sekundární střešní konstrukce lze měnit přes tlačítko <u>Opláštění</u>.-->
-
-<hr class="main">
 
 {{ box_icon("img/ImportObjIcon64x64.png", "Rosol", "Rosol") }}
 

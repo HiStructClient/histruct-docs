@@ -51,4 +51,9 @@
 
   <hr class="main">
 
+  <h2>Chybí vám v galerii některá krytina? Napište nám, doplníme ji.</h2>
+<a href="mailto:jiri.podval@histruct.com?subject=Dotaz na HiStruct konfigurátor budov" class="btn">
+  Chci doplnit
+</a>
+
 <!-- product: HiStruct Building Configurator -->

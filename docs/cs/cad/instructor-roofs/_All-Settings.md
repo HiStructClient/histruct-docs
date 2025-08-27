@@ -18,7 +18,7 @@
   <li><p><u>Povrch terénu</u> umožňuje výběr vzhledu okolního terénu v modelovacím prostoru.</p></li>
   <li><p>Tlačítkem <u>Automatické kóty</u> je možné v modelovacím prostoru zapnout vykreslování půdorysných kót objektu. Zobrazení lze poté ovládat manuálně pomocí tlačítek v pravé části obrazovky.</p></li>
   <li><p><u>Měřítko přidávacích tlačítek</u> upravuje velikost tlačítek v modelu.</p></li>
-  <li><p><u>Velikost značky souřadného systému</u>upravuje velikost značky souřadného systému v modelu.</p></li>
+  <li><p><u>Velikost značky souřadného systému</u> upravuje velikost značky souřadného systému v modelu.</p></li>
 </ul>
 
 <hr class="main">

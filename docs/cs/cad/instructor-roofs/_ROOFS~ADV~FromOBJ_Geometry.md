@@ -18,7 +18,6 @@
 
 <p>Přesný návod jak převést soubor do formátu ".obj" si můžete přečíst na našem blogu.</p>
 
-<h2>Chybí vám v galerii některá krytina? Napište nám, doplníme ji.</h2>
 <a href="" target="_blank" rel="noopener noreferrer" class="btn">
   Navštívit blog
 </a>
