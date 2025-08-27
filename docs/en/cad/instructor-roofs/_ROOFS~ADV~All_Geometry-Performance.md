@@ -1,6 +1,6 @@
 ---
 sourceLang: cs
-sourceHash: be3d5c6049b4fa53f041e68a0fc3accd
+sourceHash: 90a32363ade4ca4bf973146638438ebd
 autoTranslated: true
 ---
 
