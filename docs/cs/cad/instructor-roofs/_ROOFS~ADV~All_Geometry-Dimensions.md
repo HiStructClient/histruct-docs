@@ -3,7 +3,7 @@
 
 <p>Umožňuje měnit geometrické parametry modelu, tedy rozměry budovy a střechy včetně sklonu a přesahů.</p>
 
-<p>Obsah menu <u><i>Geometrie &gt; Rozměry</i></u> se liší podle typu použité šablony:
+<p>Obsah menu <u><i>Geometrie &gt; Rozměry</i></u> se liší podle typu použité šablony:</p>
 
 <ul>
 <li>MODELOVAT PO PLOCHÁCH</li>

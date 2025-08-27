@@ -171,6 +171,7 @@ details {
     border: 1px solid #ccc;
     border-radius: 6px;
     padding: 0 10px;
+    margin-top: 5px;
 
     summary {
         /* skryje defaultní trojúhelník v některých prohlížečích */
