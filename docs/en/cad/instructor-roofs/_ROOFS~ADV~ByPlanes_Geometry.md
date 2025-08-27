@@ -199,12 +199,17 @@ The <u>Add</u> button allows you to add additional (secondary) roof structures t
   
 # Geometry
 
+<p>
+Allows you to draw roof planes, modify their shapes, dimensions, or slopes.
+</p>
+
+<hr class="main">
+
 {{ box_icon("img/Sheated_Building_Page_Building.png", "Dimensions", "Dimensions") }}
 
 <p>
 The <u>Dimensions</u> button is used for drawing and inserting roof planes. For these planes, it is possible to further modify their geometry, create openings, and set parameters for correct plane connections.
 </p>
-<p>
 
 <hr class="main">
 

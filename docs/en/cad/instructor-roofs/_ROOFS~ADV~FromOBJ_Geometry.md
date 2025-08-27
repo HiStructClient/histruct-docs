@@ -23,7 +23,6 @@ autoTranslated: true
 
 <p>For detailed instructions on how to convert a file to .obj format, please read our blog.</p>
 
-<h2>Is a specific roofing material missing from the gallery? Let us know and we'll add it.</h2>
 <a href="" target="_blank" rel="noopener noreferrer" class="btn">
   Visit blog
 </a>

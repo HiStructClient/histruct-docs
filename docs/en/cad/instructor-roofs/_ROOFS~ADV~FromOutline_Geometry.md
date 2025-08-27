@@ -129,6 +129,10 @@ To adjust the scale, you can also use the <u>Scale</u> button, which is located 
 
 # Geometry
 
+<p>Allows you to change the geometric parameters of the model, i.e., the dimensions of the building and roof, including pitch and overhangs.</p>
+
+<hr class="main">
+
 <p>
 {{ box_icon("img/Sheated_Building_Page_Building.png", "Dimensions", "Dimensions") }}
 </p>
