@@ -1,6 +1,6 @@
 
 # Geometrie
-<p>Umožňuje měnit geometrické parametry modelu, tedy rozměry budovy a střechy včetně sklonu a přesahů. Rovněž je zde možné nastavit typ skladby střechy.</p>
+<p>Umožňuje měnit geometrické parametry modelu, tedy rozměry budovy a střechy včetně sklonu a přesahů.</p>
 
 <p><b>Pro přehlednější práci s programem se obsah menu <u>Geometrie</u> liší pro fázi před nakreslením obrysu a fázi po nakreslení prvního obrysu.</b></p>
 
@@ -137,7 +137,7 @@ Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>
 
 <p>Tlačítko <u>Střecha</u> umožňuje nastavit typ skladby střechy. Typ krytiny a rozměry sekundární střešní konstrukce lze měnit přes tlačítko <u>Opláštění</u>.</p>
 
-<hr class="main">
+<hr class="main">-->
 
 {{ box_icon("img/PvgisIcon64x64.png", "Výkon", "Výkon") }}
 

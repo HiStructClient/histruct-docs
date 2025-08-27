@@ -90,7 +90,7 @@ Pro úpravu měřítka je taktéž možné použít tlačítko <u>Měřítko</u>
 <!--{{ box_icon("img/RoofSketchIcon64x64.png", "Střecha", "Střecha") }}
 <p>Tlačítko <u>Střecha</u> umožňuje nastavit typ skladby střechy. Typ krytiny a rozměry sekundární střešní konstrukce lze měnit přes tlačítko <u>Opláštění</u>.</p>
 
-<hr class="main">
+<hr class="main">-->
 
 {{ box_icon("img/ImportObjIcon64x64.png", "Rosol", "Rosol") }}
 <p>Umožňuje upravit rozměry a sklony vygenerovaných hran a ploch, změnit výšku a případně excentricitu střechy.</p>
