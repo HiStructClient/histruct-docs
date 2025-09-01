@@ -10,3 +10,6 @@ Willkommen in der inspirierenden Welt der HiStruct-Software! 🚀 Dieses revolut
 
 Mit HiStruct wird jedes Projekt einfacher und macht mehr Spaß! Machen Sie sich bereit für ein kreatives Abenteuer, das Sie in die Welt des Dachdesigns führt wie nie zuvor. Egal, ob Sie ein Profi oder ein Anfänger sind, HiStruct gibt Ihnen die Werkzeuge an die Hand, die Sie brauchen, um das Dach Ihrer Träume zu gestalten.
 
+<a href="https://docs.histruct.com/de/cad/getting-started-roofs/" class="btn">
+  Hier beginnen
+</a>

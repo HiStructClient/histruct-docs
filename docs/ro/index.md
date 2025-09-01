@@ -10,3 +10,6 @@ Bine ați venit în lumea inspirată a software-ului HiStruct! 🚀 Acest progra
 
 Cu HiStruct, fiecare proiect devine mai ușor și mai distractiv! Pregătește-te pentru o aventură creativă care te va purta în lumea proiectării acoperișurilor ca niciodată până acum. Fie că sunteți un profesionist sau un începător, HiStruct vă va oferi instrumentele de care aveți nevoie pentru a crea acoperișul visurilor dvs.
 
+<a href="https://docs.histruct.com/ro/cad/getting-started-roofs/" class="btn">
+  Începe aici
+</a>
