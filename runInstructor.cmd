@@ -11,4 +11,4 @@ if not "%LANG%"=="" (
 call .venv\Scripts\activate
 
 set DEV_MODE=true
-python -m mkdocs serve -f mkdocs_plain.yml -a localhost:8067
+python -m mkdocs serve -f mkdocs_instructor.yml -a localhost:8067
