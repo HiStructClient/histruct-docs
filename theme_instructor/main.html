@@ -59,7 +59,7 @@
         <h2 class="pt-4">{{ t("next_help_title") }}</h2>
         <p>{{ t("next_help_description") }}</p>
         <div class="d-flex gap-2">
-            <a href="https://docs.histruct.com/{{ i18n_page_locale }}/" class="btn" target="_blank" rel="noopener">
+            <a href="https://docs.histruct.com/{% if i18n_page_locale != 'en' %}{{ i18n_page_locale }}/{% endif %}" class="btn" target="_blank" rel="noopener">
                 {{ t("visit_blog") }}
             </a>
             <a href="mailto:support@histruct.com?subject={{ t('send_query_subject') }}" class="btn">
