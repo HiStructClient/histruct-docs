@@ -11,6 +11,7 @@ const argPattern = argv._[3] ?? null; // New pattern argument
 const prefix = argv.folder ?? "";
 
 const service = argv.service ?? "chatgpt";
+const model = argv.model ?? argv.m ?? undefined;
 
 const sourceLang = t.getDefaultSourceLang(argLang);
 
@@ -37,6 +38,7 @@ if (argCommand === "help") {
     console.log("Commands:");
     console.log("  help");
     console.log("  translate <lang> [file|pattern]");
+    console.log("    options: --service=chatgpt|deepl|google --model=<openai-model> --folder=<path>");
     console.log("  udpateHashes <lang> [file]");
     console.log("  allFiles <lang> [pattern]");
     console.log("  obsolete <lang>");
@@ -52,7 +54,7 @@ if (argCommand === "help") {
             const filteredFiles = allFiles.filter(file => matchesPattern(file.fileName, argFile));
             
             console.log(`Translating ${filteredFiles.length} files matching pattern '${argFile}' from '${sourceLang}' to '${argLang}'...`);
-            t.run(filteredFiles, service).then(() => {
+            t.run(filteredFiles, service, model).then(() => {
                 console.log("Done.");
             });
         } else {
@@ -64,7 +66,7 @@ if (argCommand === "help") {
             }
 
             console.log(`Translating '${argFile}' from '${sourceLang}' to '${argLang}'...`);
-            t.translateFile(file, service).then(() => {
+            t.translateFile(file, service, model).then(() => {
                 console.log("Done.");
             });
         }
@@ -72,7 +74,7 @@ if (argCommand === "help") {
         const files = t.findAllFilesToTranslate(argLang, sourceLang, prefix);
 
         console.log(`Translating ${files.length} files in '${argLang}' lang folder...`);
-        t.run(files, service).then(() => {
+        t.run(files, service, model).then(() => {
             console.log("Done.");
         });
     }

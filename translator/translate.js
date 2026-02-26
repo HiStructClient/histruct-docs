@@ -13,9 +13,9 @@ const langFolders = ['cs', 'en', "de", "ro"];
 
 const tranlationDirections = {
     "cs": "en",
-    "en": "cs",
-    "de": "cs",
-    "ro": "cs",
+    "en": "en",
+    "de": "en",
+    "ro": "en",
 }
 
 export function getDefaultSourceLang(targetLang) {
@@ -31,6 +31,7 @@ const outputDir = '../docs';
 const DEEPL_AUTH_KEY = keys.DEEPL_AUTH_KEY;
 const GOOGLE_API_KEY = keys.GOOGLE_API_KEY;
 const OPENAI_API_KEY = keys.OPENAI_API_KEY;
+const OPENAI_MODEL_DEFAULT = process.env.OPENAI_MODEL ?? 'gpt-4.1';
 
 // Rekurzivní procházení složek
 function walkSync(dir, callback) {
@@ -292,7 +293,7 @@ let openaiClient = undefined;
 var disctionaryCache = new Map();
 
 // Funkce pro překlad textu pomocí ChatGPT API
-async function translateChatGpt(text, srcLangKey, targetLangKey) {
+async function translateChatGpt(text, srcLangKey, targetLangKey, modelName = OPENAI_MODEL_DEFAULT) {
     const srcLang = mapLanguage(srcLangKey).name;
     const targetLang = mapLanguage(targetLangKey).name;
 
@@ -314,7 +315,7 @@ async function translateChatGpt(text, srcLangKey, targetLangKey) {
     }
 
     try {
-      const prompt = `
+    const instructions = `
 Translate the following Markdown text from ${srcLang} to ${targetLang}. 
 Use the following rules:
 
@@ -334,34 +335,76 @@ Use the following rules:
 Dictionary (preferred translations):
 ${dictionaryString}
 
-Text:\n\n
-${text}
+Return only translated Markdown, without extra comments.
 `.trim();
 
-      const response = await openaiClient.chat.completions.create({
-        model: 'gpt-4.1', // Model pro textové úkoly
-        messages: [ {
-            role: "system",
-            content: prompt,
-        } ],
-        max_tokens: 2500, // Maximální délka překladu
-      });
+      const userContent = `Text:\n\n${text}`;
 
-      const translatedText = response.choices[0].message.content?.trim().replace(/\r?\n/g, "\n");
-      return translatedText;
+            const modelsToTry = [modelName];
+            if (modelName.toLowerCase().startsWith('gpt-5')) {
+                modelsToTry.push('gpt-4.1');
+            }
+
+            for (const modelToTry of modelsToTry) {
+                const isGpt5Model = modelToTry.toLowerCase().startsWith('gpt-5');
+                const maxTokenSteps = isGpt5Model ? [6000, 12000] : [3500];
+
+                for (const tokenLimit of maxTokenSteps) {
+                    const request = {
+                            model: modelToTry,
+                            messages: [
+                                    {
+                                            role: "system",
+                                            content: instructions,
+                                    },
+                                    {
+                                            role: "user",
+                                            content: userContent,
+                                    }
+                            ],
+                    };
+
+                    if (isGpt5Model) {
+                            request.max_completion_tokens = tokenLimit;
+                    } else {
+                            request.max_tokens = tokenLimit;
+                    }
+
+                    const response = await openaiClient.chat.completions.create(request);
+
+                    const messageContent = response.choices?.[0]?.message?.content;
+                    const translatedRaw = Array.isArray(messageContent)
+                            ? messageContent.map(part => typeof part === 'string' ? part : (part?.text ?? '')).join('')
+                            : messageContent;
+
+                    if (translatedRaw && typeof translatedRaw === 'string') {
+                        const translatedText = translatedRaw.trim().replace(/\r?\n/g, "\n");
+                        if (translatedText.length > 0) {
+                            return translatedText;
+                        }
+                    }
+
+                    const finishReason = response.choices?.[0]?.finish_reason ?? 'unknown';
+                    if (finishReason !== 'length') {
+                        throw new Error(`OpenAI vrátil prázdnou odpověď (finish_reason=${finishReason}, model=${modelToTry}).`);
+                    }
+                }
+            }
+
+            throw new Error(`OpenAI vrátil prázdnou odpověď po všech pokusech (model=${modelName}).`);
     } catch (error) {
       console.error('Chyba při překladu:', error);
-      return null;
+            throw error;
     }
   }
 
-async function translateText(text, serviceName, srcLang, targetLang) {
+async function translateText(text, serviceName, srcLang, targetLang, modelName = OPENAI_MODEL_DEFAULT) {
     if (serviceName === 'deepl') {
         return translaleDeepl(text, srcLang, targetLang);
     } else if (serviceName === 'google') {
         return translateGoogle(text, srcLang, targetLang);
     } else if (serviceName === 'chatgpt') {
-        return translateChatGpt(text, srcLang, targetLang);
+        return translateChatGpt(text, srcLang, targetLang, modelName);
     } else {
         throw new Error(`Neznámá služba pro překlad: ${serviceName}`);
     }
@@ -375,7 +418,7 @@ async function translateText(text, serviceName, srcLang, targetLang) {
  * @throws {Error}
  * @async
  */
-export async function translateFile(fileData, serviceName = 'deepl') {
+export async function translateFile(fileData, serviceName = 'deepl', modelName = OPENAI_MODEL_DEFAULT) {
     const { srcLang, targetLang, fileName } = fileData;
 
     // Načíst vstupní soubor
@@ -388,10 +431,14 @@ export async function translateFile(fileData, serviceName = 'deepl') {
     // Přeložit soubor
     try {
         if (text) {
-            translated = await translateText(text, serviceName, srcLang, targetLang);
+            translated = await translateText(text, serviceName, srcLang, targetLang, modelName);
+        }
+
+        if (!translated || typeof translated !== 'string') {
+            throw new Error(`Překlad vrátil prázdný/invalidní výstup pro ${fileName}.`);
         }
     } catch (error) {
-        throw new AggregateError(`Překlad souboru ${fileName} z ${srcLang} do ${targetLang} selhal!`, error);
+        throw new AggregateError([error], `Překlad souboru ${fileName} z ${srcLang} do ${targetLang} selhal!`);
     }
 
     // Uložit informace o překladu do metadat
@@ -471,13 +518,30 @@ function getDictionaryString(sourceLang, targetLang) {
  * @returns {Promise<void>}
  * @async
  */
-export async function run(files, serviceName) {
+export async function run(files, serviceName, modelName = OPENAI_MODEL_DEFAULT) {
+    const failedFiles = [];
+
     for (const file of files) {
-        if (await translateFile(file, serviceName)) {
-            console.log(`Přeloženo ${file.srcLang}->${file.targetLang}: ${file.file}`);
-        } else {
-            console.log(`Prázdný soubor ${file.srcLang}->${file.targetLang}: ${file.file}`);
+        try {
+            if (await translateFile(file, serviceName, modelName)) {
+                console.log(`Přeloženo ${file.srcLang}->${file.targetLang}: ${file.file}`);
+            } else {
+                console.log(`Prázdný soubor ${file.srcLang}->${file.targetLang}: ${file.file}`);
+            }
+        } catch (error) {
+            failedFiles.push(`${file.srcLang}->${file.targetLang}: ${file.file}`);
+            console.error(`Selhalo ${file.srcLang}->${file.targetLang}: ${file.file}`);
+            console.error(error?.message ?? error);
+            if (error instanceof AggregateError && error.errors?.length > 0) {
+                const rootError = error.errors[0];
+                console.error(rootError?.message ?? rootError);
+            }
         }
+    }
+
+    if (failedFiles.length > 0) {
+        console.warn(`Nedokončeno ${failedFiles.length} souborů:`);
+        console.warn(failedFiles.join("\n"));
     }
 }
 
