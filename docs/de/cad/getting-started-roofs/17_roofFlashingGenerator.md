@@ -14,4 +14,4 @@ Der Generator kann auch allgemein für Flächengeometrien verwendet werden, die 
 
 HiStruct identifiziert automatisch die erforderlichen Verblechungspositionen aus den Geometrien nahegelegener Dachflächen und erzeugt anschließend die entsprechenden Verblechungstypen. Diese erzeugten Verblechungen können dann bei Bedarf weiter angepasst werden.
 
-![Erzeugtes Verblechungsergebnis](img/GeneratedFlashingResult.png)
+![Erzeugtes Verblechungsergebnis](img/generatedFlashingResult.png)

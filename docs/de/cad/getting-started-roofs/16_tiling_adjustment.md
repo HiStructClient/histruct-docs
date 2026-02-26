@@ -33,41 +33,41 @@ HiStruct Roofs platziert das ausgewählte Dachdeckungsmaterial automatisch entla
  ![Tilling from right](img/TilingFromRight.png)
 - **die Dachplatte zentrieren**
 
- ![Tilling center axis](img/TilingCenterAxis.png)
+ ![Tilling center axis](img/tillingCenterAxis.png)
 
 - **die Fuge zentrieren**
 
- ![Tilling center edge](img/TilingCenterEdge.png)
+ ![Tilling center edge](img/tillingCenterEdge.png)
 
 - **allgemeine Festlegung des Verlegebeginns (Verlegung positiv + Abstand)**
 
- ![General tilling head start](img/GeneralTillingHeadstart.png)
+ ![General tilling head start](img/generalTillingHeadStart.png)
 
  **Der Winkel der Verlegung der Streifen**
 
  **Er ist als positiver oder negativer Versatz zur Basislinie einstellbar.**
 
- ![Tilling angle](img/TillingAngle.png){width="6.3in" height="3.2083333333333335in"}
+ ![Tilling angle](img/tillingAngle.png){width="6.3in" height="3.2083333333333335in"}
 
  **Jeder einzelne Streifen**
 
 - **deaktivieren (dann wird er in Zeichnungen, im Detailmodell oder in Materialberichten nicht berücksichtigt.)**
 
- ![Individual panel switched off](img/IndividualPanelSwitchedOff.png)
+ ![Individual panel switched off](img/individualPanelSwitchedOff.png)
 
 - **die Überdeckung verlängern oder verkürzen**
 
- ![Individual panel extension options](img/IndividualPanelExtensionOptions.png)
+ ![Individual panel extension options](img/individualPanelExtensionOptions.png)
 
 - **an geeigneten Stellen überlagern (gemäß dem Raster der Latten). Durch Klicken auf die markierten Teilungen oberhalb der Latten kann der Streifen geteilt oder – falls er bereits geteilt wurde – wieder zusammengeführt werden.**
 
- ![Individual panel splitting](img/IndividualPanelSplitting.png)
+ ![Individual panel splitting](img/individualPanelSplitting.png)
 
  **Verlängern oder Verkürzen von Paneelen an den Seiten**
 
  Für jede Seite des Dachpolygons kannst du die Verlängerung oder Verkürzung der Paneele festlegen, indem du auf die Schaltfläche oberhalb der Kante klickst.
 
- ![Tilling edge offset](img/TillingEdgeOffset.png)
+ ![Tilling edge offset](img/tillingEdgeOffset.png)
 
 
 **👉 Zurück zum Artikel  [*Wie man mit dem Sheeting-Menü arbeitet*](8_sheeting_menu.md)**

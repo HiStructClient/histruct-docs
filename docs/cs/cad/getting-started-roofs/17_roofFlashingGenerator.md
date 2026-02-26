@@ -14,4 +14,4 @@ Generátor lze také obecně použít pro rovinné geometrie, které jsou zadán
 
 HiStruct automaticky identifikuje požadovaná místa pro oplechování z geometrií přilehlých střešních ploch a poté vygeneruje odpovídající typy oplechování. Tato vygenerovaná oplechování lze pak dále upravovat podle potřeby.
 
-![Výsledek vygenerovaného oplechování](img/GeneratedFlashingResult.png)
+![Výsledek vygenerovaného oplechování](img/generatedFlashingResult.png)

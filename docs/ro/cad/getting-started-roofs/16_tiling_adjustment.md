@@ -33,41 +33,41 @@ HiStruct Roofs plasează automat materialul de învelitoare selectat de-a lungul
  ![Tilling from right](img/TilingFromRight.png)
 - **centrează țigla**
 
- ![Tilling center axis](img/TillingCenterAxis.png)
+ ![Tilling center axis](img/tillingCenterAxis.png)
 
 - **centrează îmbinarea**
 
- ![Tilling center edge](img/TillingCenterEdge.png)
+ ![Tilling center edge](img/tillingCenterEdge.png)
 
 - **specificare generală a începutului așezării (așezare pozitivă + distanță)**
 
- ![General tilling head start](img/GeneralTillingHeadstart.png)
+ ![General tilling head start](img/generalTillingHeadStart.png)
 
  **Unghiul de așezare al fâșiilor**
 
  **Este ajustabil ca abatere pozitivă sau negativă față de linia de bază.**
 
- ![Tilling angle](img/TillingAngle.png){width="6.3in" height="3.2083333333333335in"}
+ ![Tilling angle](img/tillingAngle.png){width="6.3in" height="3.2083333333333335in"}
 
  **Fiecare fâșie specifică**
 
 - **dezactivează (atunci nu este reflectată în desene, în modelul detaliat sau în rapoartele de materiale.)**
 
- ![Individual panel switched off](img/IndividualPanelSwitchedOff.png)
+ ![Individual panel switched off](img/individualPanelSwitchedOff.png)
 
 - **mărește sau micșorează suprapunerea**
 
- ![Individual panel extension options](img/IndividualPanelExtensionOptions.png)
+ ![Individual panel extension options](img/individualPanelExtensionOptions.png)
 
 - **suprapune în locurile potrivite (conform grilei șipcilor) Făcând clic pe diviziunile indicate deasupra șipcilor poți diviza fâșia sau, dimpotrivă, o poți îmbina dacă a fost deja divizată.**
 
- ![Individual panel splitting](img/IndividualPanelSplitting.png)
+ ![Individual panel splitting](img/individualPanelSplitting.png)
 
  **Alungirea sau scurtarea panourilor pe laterale**
 
  Pentru fiecare latură a poligonului acoperișului, poți seta alungirea sau scurtarea panoului făcând clic pe butonul de deasupra muchiei.
 
- ![Tilling edge offset](img/TillingEdgeOffset.png)
+ ![Tilling edge offset](img/tillingEdgeOffset.png)
 
 
 **👉 Înapoi la articolul  [*Cum să lucrezi cu meniul Sheeting*](8_sheeting_menu.md)**

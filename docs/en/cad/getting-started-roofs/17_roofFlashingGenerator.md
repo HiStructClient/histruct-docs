@@ -8,4 +8,4 @@ The generator can also be used in general for plane geometries that are entered 
 
 HiStruct automatically identifies the required flashing locations from the geometries of nearby roof planes, and then generates the corresponding flashing types. These generated flashings can then be further modified as required.
 
-![Generated flashing result](img/GeneratedFlashingResult.png)
+![Generated flashing result](img/generatedFlashingResult.png)

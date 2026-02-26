@@ -14,4 +14,4 @@ Generatorul poate fi folosit, de asemenea, în general pentru geometrii plane in
 
 HiStruct identifică automat locațiile necesare pentru elementele de tinichigerie din geometriile planurilor de acoperiș din apropiere, apoi generează tipurile corespunzătoare. Aceste elemente generate pot fi apoi modificate suplimentar, după cum este necesar.
 
-![Rezultat tinichigerie generată](img/GeneratedFlashingResult.png)
+![Rezultat tinichigerie generată](img/generatedFlashingResult.png)

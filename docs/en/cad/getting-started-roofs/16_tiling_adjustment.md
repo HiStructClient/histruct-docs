@@ -27,7 +27,7 @@ HiStruct Roofs automatically places the selected roofing material along the flat
  ![Tilling from right](img/TilingFromRight.png)
 - **center the tile**
 
- ![Tilling center axis](img/TillingCenterAxis.png)
+ ![Tilling center axis](img/tillingCenterAxis.png)
 
 - **center the joint**
 
@@ -35,33 +35,33 @@ HiStruct Roofs automatically places the selected roofing material along the flat
 
 - **general specification of the start of laying (laying positive + distance)**
 
- ![General tilling head start](img/GeneralTillingHeadstart.png)
+ ![General tilling head start](img/generalTillingHeadStart.png)
 
  **The angle of the laying of the strips**
 
  **It is adjustable as positive or negative offset from the baseline.**
 
- ![Tilling angle](img/TillingAngle.png){width="6.3in" height="3.2083333333333335in"}
+ ![Tilling angle](img/tillingAngle.png){width="6.3in" height="3.2083333333333335in"}
 
  **Each specific strip**
 
 - **disable ( then it is not reflected in drawings, detailed model or material reports.)**
 
- ![Individual panel switched off](img/IndividualPanelSwitchedOff.png)
+ ![Individual panel switched off](img/individualPanelSwitchedOff.png)
 
 - **lengthen or shorten the overlap**
 
- ![Individual panel extension options](img/IndividualPanelExtensionOptions.png)
+ ![Individual panel extension options](img/individualPanelExtensionOptions.png)
 
 - **overlay in appropriate places (according to the grid of the slats) Clicking on the indicated divisions above the slats can split the strip or, conversely, merge it if it has already been split.**
 
- ![Individual panel splitting](img/IndividualPanelSplitting.png)
+ ![Individual panel splitting](img/individualPanelSplitting.png)
 
  **Lengthening or shortening panels at the sides**
 
  For each side of the roof polygon, you can set the panel lengthening or shortening by clicking on the button above the edge.
 
- ![Tilling edge offset](img/TillingEdgeOffset.png)
+ ![Tilling edge offset](img/tillingEdgeOffset.png)
 
 
 **👉 Back to article  [*How to Work with Sheeting menu*](8_sheeting_menu.md)**

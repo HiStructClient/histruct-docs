@@ -33,41 +33,41 @@ HiStruct Roofs automaticky umístí vybraný střešní materiál na rovný povr
  ![Pokládka zprava](img/TilingFromRight.png)
 - **zarovnat prvek na střed**
 
- ![Pokládka středová osa](img/TillingCenterAxis.png)
+ ![Pokládka středová osa](img/tillingCenterAxis.png)
 
 - **zarovnat spáru na střed**
 
- ![Pokládka střed hrany](img/TillingCenterEdge.png)
+ ![Pokládka střed hrany](img/tillingCenterEdge.png)
 
 - **obecné určení začátku pokládky (kladný směr + vzdálenost)**
 
- ![Obecný začátek pokládky](img/GeneralTillingHeadstart.png)
+ ![Obecný začátek pokládky](img/generalTillingHeadStart.png)
 
  **Úhel pokládky pásů**
 
  **Lze jej upravit jako kladné nebo záporné odsazení od základní osy.**
 
- ![Úhel pokládky](img/TillingAngle.png){width="6.3in" height="3.2083333333333335in"}
+ ![Úhel pokládky](img/tillingAngle.png){width="6.3in" height="3.2083333333333335in"}
 
  **Každý konkrétní pás**
 
 - **vypnout (poté se neprojeví ve výkresech, detailním modelu ani v přehledech materiálu.)**
 
- ![Jednotlivý panel vypnut](img/IndividualPanelSwitchedOff.png)
+ ![Jednotlivý panel vypnut](img/individualPanelSwitchedOff.png)
 
 - **prodloužit nebo zkrátit překrytí**
 
- ![Možnosti prodloužení jednotlivého panelu](img/IndividualPanelExtensionOptions.png)
+ ![Možnosti prodloužení jednotlivého panelu](img/individualPanelExtensionOptions.png)
 
 - **překrytí na příslušných místech (podle osazení latí). Kliknutím na označené dělení nad latěmi lze pás rozdělit nebo naopak sloučit, pokud už byl rozdělen.**
 
- ![Rozdělení jednotlivého panelu](img/IndividualPanelSplitting.png)
+ ![Rozdělení jednotlivého panelu](img/individualPanelSplitting.png)
 
  **Prodloužení nebo zkrácení panelů na okrajích**
 
  Pro každou hranu polygonu střechy lze nastavit prodloužení nebo zkrácení panelu kliknutím na tlačítko nad hranou.
 
- ![Posunutí okraje pokládky](img/TillingEdgeOffset.png)
+ ![Posunutí okraje pokládky](img/tillingEdgeOffset.png)
 
 
 **👉 Zpět na článek  [*Jak pracovat s menu Krytiny*](8_sheeting_menu.md)**
