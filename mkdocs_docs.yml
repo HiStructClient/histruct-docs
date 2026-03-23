@@ -40,24 +40,22 @@ nav:
   - "Úvod": index.md 
 
   - "Střechy":
-    - cad/getting-started-roofs/index.md
-    - cad/getting-started-roofs/modellingRoofs.md
-    - cad/getting-started-roofs/importDxf.md
-    - cad/getting-started-roofs/importObj.md
-    - cad/getting-started-roofs/convert3dPdfToObj.md
-    - cad/getting-started-roofs/convertPdfToDxf.md
-    - cad/getting-started-roofs/roofPolygonGenerator.md
-    - cad/getting-started-roofs/roofFlashingGenerator.md
-    - cad/getting-started-roofs/roofFlashingOptions.md
-    - cad/getting-started-roofs/roofFlashingGutterOptions.md
-    - cad/getting-started-roofs/roofFlashingLibrary.md
-    - cad/getting-started-roofs/roofPolygonTillingDrawing.md
-    - cad/getting-started-roofs/roofPolygonTillingOptions.md
-    - cad/getting-started-roofs/stripTilerSettings.md
-    - cad/getting-started-roofs/tilerSettings.md
-    - cad/getting-started-roofs/customisationProject.md
-    - cad/getting-started-roofs/roofQuote.md
-    - cad/getting-started-roofs/roofBom.md
+    - cad/getting-started-roofs/1_new_project.md
+    - cad/getting-started-roofs/2_start_with_template.md
+    - cad/getting-started-roofs/3_generate_from_DXF.md
+    - cad/getting-started-roofs/4_PDF_to_DXF.md
+    - cad/getting-started-roofs/5_OBJ_model.md
+    - cad/getting-started-roofs/6_PDF_to_OBJ.md
+    - cad/getting-started-roofs/7_flashing_libraries.md
+    - cad/getting-started-roofs/8_sheeting_menu.md
+    - cad/getting-started-roofs/9_flashing_and_gutter_system.md
+    - cad/getting-started-roofs/10_openings.md
+    - cad/getting-started-roofs/11_installation_drawings.md
+    - cad/getting-started-roofs/12_outputs.md
+    - cad/getting-started-roofs/13_settings.md
+    - cad/getting-started-roofs/14_generate_from_outline.md
+    - cad/getting-started-roofs/15_insert_DXF.md
+    - cad/getting-started-roofs/16_tiling_adjustment.md
 
   - "Zpět na HiStruct": https://www.histruct.com
 

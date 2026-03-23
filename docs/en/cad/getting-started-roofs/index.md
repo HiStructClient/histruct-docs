@@ -1,82 +1,115 @@
----
-sourceLang: cs
-sourceHash: 416bbf07b5108c0b7ebd028174620591
-autoTranslated: true
----
-
-
 # HiStruct Roofs for roofers
 
-HiStruct is a web application that allows easy collaboration or sharing of a project or parts of a project. In this way, you can give a preview of the 3D roof model to the end customer, collaborate on the project with a colleague or an installation company.
-It is used to quickly create quotations, bills of materials and laying plans for roofing, flashings, flashings and gutter systems. The system allows for several entry modes to increase efficiency when working with a project.
+**HiStruct Roofs** is a web-based application designed to quickly and easily generate professional roofing quotations. It automatically produces detailed bills of materials and installation plans for roofing systems, including roofing, flashings, trims, and gutter components. The platform offers multiple input modes to streamline project workflows and enhance efficiency.
 
-## How to process a roof enquiry in HiStruct?
+HiStruct also supports seamless collaboration and project sharing. Whether you're providing a 3D roof model preview to an end client or co-working on a design with a colleague or installation company, the system makes it effortless to share complete projects or specific parts with others.
 
-1.
-1. I model the roof areas by redrawing or using the generator
-1. Edit the generated layout
-1. select the flashing and eaves system or have it automatically generated
-1. I get BOMs, documents, drawings
+**❓How to process a roof enquiry in HiStruct?**
 
+1.  Create a project [with or without a map](1_new_project.md)
 
-Done, I'm going for a coffee 😊
+2.  Model the roof
 
-HiStruct can be extensively customized. The system for laying roof fittings, flashings, flashings and guttering is set up separately for each individual manufacturer in a separate set of configuration files. It contains information on how the roof area is to be laid with fittings, possible colour combinations, information on the bill of materials and more. These and other customizations are done within the [customization project](customisationProject.md).
+3.  Pick the sheeting
 
-## Now, in more detail...
+4.  Adjust automatically generated flashings and the gutter system
 
-### 1. I create a project with or without a map
+5.  Add windows and other openings
 
-I'm processing a new request. The first thing I want to do is start a new project. A project is a place that can contain one or more components - 3D models, i.e. configurations, variants or parts. The project page has two views. The default view is a simple listing of established projects with components. If I also want to store a location for a project, I can use the map view of the projects, where I can also specify a location from the map.
+6.  Get your bill of materials, documents, drawings, and quotations in just a few clicks
 
-### 2. Modeling roof surfaces
+**Done, time for a coffee ☕**😊
 
-We usually start by **selecting the type of roofing, flashings and gutter system** (these can be changed later) from the libraries. This is followed by creating a roof model from the individual roof planes, possibly using more advanced modelling methods. The appropriate modelling method depends on the available documents for a particular enquiry. The better the quality of the documentation, the more efficiently the modelling process can be carried out.
+HiStruct can be extensively customized. The system for laying roofing, flashings and guttering is set up separately for each individual manufacturer in a separate set of configuration files. It contains information on how the roof area is to be laid with roof covering, possible colour combinations, information on the bill of materials and more. These and other customizations are done within the [customization project](18_customisationProject.md).
 
-#### **😊 I only have a few sketches with dimensions**
+**👉 Let's take a closer look at the whole journey:**
 
-If the roof shape is simple, I can [model it](modellingRoofs.md) by inserting roof surfaces with predefined shapes or create a generic roof surface shape in the modelling space. The general input mode uses tracing and other familiar input tools, similar to other CAD programs. If the slope is known, the roof planes can be rotated and moved in space to match the actual roof shape. If the roof can be built in space with sufficient accuracy, the [flashing and gutter generator](roofFlashingGenerator.md) can be used.
+## Creating a New Project
 
-#### **😊😊 I have a vector drawing of the roof plan**
+If you are processing a new request, the first thing you need to do is start a new project. A **Project** is a place that can contain one or more **components** - 3D models, i.e. configurations, variants or parts. The project page offers two views:
 
-If I have a vector drawing, it will be easier to model. It is possible to import [files in *.dxf format](importDxf.md) into HiStruct, or convert vector[ *.pdf to *.dxf](convertPdfToDxf.md) to [importDxf.md). The imported *.dxf allows for easy snapping and entering of individual roof surfaces is done by clicking through the floor plan with the option of adding a slope for each roof surface. The advantage is the accuracy and ease of making a 3D model. Almost always the [flashing and eaves generator](roofFlashingGenerator.md) can be used.
+- The **Table** (default view) is a simple listing of established projects with components. It gives you a clear overview of all your projects. It's perfect for adding detailed notes, checking project status, and sharing content.
 
-#### **😊😊😊 I only have an outline and need to design a roof**
+- The **Map** is ideal if you want to view projects by their location. Even better - you can place a 3D model of your building right on the map and see how it fits in with its surroundings.
 
-For example, if you have a brand new roof and only have an outline, HiStruct has an innovative tool that automatically designs the final roof shape, pitches, flashings and gutter system. To do this, it is of course possible to import [*.dxf files](importDxf.md) or convert vector [*.pdf to *.dxf](convertPdfToDxf.md) and [import them into HiStruct](importDxf.md).
+**👉 We recommend combining both views depending on your current needs.**
 
-#### **😊😊😊😊 I have a 3D model from a digital orientation**
+**👉 Check article [How to start a new project](1_new_project.md) for more information.**
 
-A model from a digital orientation is a win. If I have this model in a suitable format (3D *.pdf or directly *.obj), I can import the geometry straight away. I can [import *.obj](importObj.md) into HiStruct, or [convert 3D *.pdf to *.obj](convert3dPdfToObj.md) and [import that into HiStruct](importObj.md).
+## 🏠 Modelling the Roof
 
-After importing, HiStruct will offer recognized surfaces from which you can choose how to convert them to HiStruct geometry. The [Surface Generator](roofPolygonGenerator.md) then performs the conversion to roof or wall cladding surfaces, which can then be worked on in the normal way.
+In HiStruct, you can model a roof in several different ways. Each method has its own advantages and is suitable for different situations. **The most appropriate modelling approach depends on the available reference materials for the specific project**. As a general rule, the better the input data, the more efficiently the modelling process can be completed. The good news? You don't need perfect drawings -- even a hand sketch is enough to get started.
 
-After the roof surfaces have been generated, I can still use [roofFlashing Generator](roofFlashingGenerator.md). This method of input is almost work-free.
+**Choose the way that best fits your project:**
 
-### 3. Laying the roofing
+- **I need to create a model of a simple, standard-shaped roof, and I have the dimensions available**
 
-For us, roofing and flashing libraries mean not only size and color, but the whole approach to sheathing specific roof areas. Thanks to the variable generator, we are able to enter the specific installation procedure of a particular manufacturer's roofing into the library. We do this as part of [customisation project](customisationProject.md). A well-designed generator then eliminates the necessary interventions in the automatic laying process.
+> 😊 Use one of our **templates** - HiStruct offers a wide range of pre-made templates, featuring the most common roof types. This option is perfect for modelling standard-shaped, simple roofs.
+>
+> **👉 *How to start with a template? [See this article](2_start_with_template.md)***.
 
-The [RoofPolygonTilling](roofPolygonTillingOptions.md) takes place automatically according to the configuration settings of the roofing. It is also possible to adjust the start of the laying process to achieve the smallest possible cut. The information about the ratio of the cut to the roof plane area is displayed during the laying modification.
+- **I have a hand-drawn sketch or vector drawing**
 
-### 4. How to use the flashing and gutter system?
+> 😊😊 In this case, you can **generate roof shape from an outline or model them by planes**. If you have a vector drawing, you're already halfway there! HiStruct supports importing files in \*.dxf format, and you can also convert a vector-based PDF to \*.dxf for easy use. The advantage? Greater precision and a smoother 3D modelling experience.
+>
+> **👉 *How to generate a roof from an outline? [See this article](3_generate_from_DXF.md)***.
+>
+> **👉 *How to convert PDF to DXF? [See this article](4_PDF_to_DXF.md)***.
 
-Of course, [flashings, flashings](roofFlashingOptions.md) and [gutter system](roofFlashingGutterOptions.md) can be specified anywhere in the space by grabbing onto already specified roof surfaces, imported geometry, or other objects. In addition, it is possible to use the addition of edges to individual sides of roof planes, or directly to the [generator over a group of roof planes](roofFlashingGenerator.md). For the generated elements, the slope of the associated roof planes is automatically adjusted, thus correctly setting the bending angles of the flashings and hooks of the eaves system.
+- **I have a model from a digital orientation**
 
-HiStruct includes comprehensive [gutter system settings](roofFlashingGutterOptions.md) options. By specifying a polyline defining the downstream gutter, the gutter slope can be set. For each part of the gutter, we also set the slope of the downstream roof plane for the correct calculation of the bend and hook length. It is possible to add clamps to each gutter section, which have additional [setting options](roofFlashingGutterOptions.md).
+> 😊😊😊 This is a real win! Use **satellite survey modelling** **(Remote geometry import) or any other 3D model**. If your roof model is available in a compatible format (such as a 3D PDF or directly as an \*.obj file), you can import the geometry straight into HiStruct.\
+> Supported formats: \*.obj files or converted 3D PDFs.
+>
+> **👉 *How to use OBJ model to generate the roof automatically? [See this article](5_OBJ_model.md)***
+>
+> **👉 *How to convert PDF to DXF? [See this article](5_OBJ_model.md)***.
 
-### 5. Pieces, documents, drawings... simply outputs
+💡**How to convert your own models and drawings to use it in HiStruct**
 
-**Sketch**
-The [Piece List](roofBom.md) is created automatically from roof parts inserted into the model space. The individual parts of the model have information next to them about which parts they are created from, with the possibility of editing the number and possibly adding more items.
+Most of us have building plans in PDF and 3D models in various formats - from BIM software, drone scans, or satellite data. **The good news?** You can easily convert these into **DXF** and **OBJ** files - the perfect formats supported by HiStruct. And once you have them converted, uploading them into HiStruct is a breeze -just a few clicks and you're on your way to a precise, fully generated roof model. No fuss, no redraws, just fast results. Check guidelines:
 
-The way the BOM is generated can then be modified within the [customisation project](customisationProject.md).
+- [How to convert PDF to DXF to use it in HiStruct](4_PDF_to_DXF.md)
 
-**Offer**
-The generated BOM, complete with a link to the manufacturer's price list, can be part of the [offer](roofQuote.md). However, the offer can be prepared without the BOM. The method of generating the quote can then be modified within the [customisation project](customisationProject.md).
+- [Easy conversion of 3D model from PDF to OBJ](6_PDF_to_OBJ.md)
 
-**Plans**
-The [Layout Drawings](roofPolygonTillingDrawing.md) are generated automatically from the specified geometry and any changes made by the user. If necessary, additional notes or annotations can be added to the drawing.
+<span id="roofing"></span>
+## 🧱 Roofing layout 
 
-![example of roof tilling drawing](img\roofTillingPlane1.png)
-![example of roof tilling drawing](img\roofTillingPlane2.png)
+Once you've set up the roof geometry, it's time to move on to the **Sheeting menu**. The roof sheeting is generated automatically, but in the **Sheeting menu**, you have full control: you can **set the type of roof composition**, **choose the roof covering from the [library](7_flashing_libraries.md)**, and **also choose the secondary roof structure.**
+
+For each roof plane, you can adjust the **tiling parameters** (the direction, angle, and offset for the placement of roof elements from the edge of the roof), **generate a bill of materials** for all roofing items, and even **create an editable drawing of the roof structure**.
+
+**👉 How to work with the Sheeting menu step by step? [See this article](8_sheeting_menu.md).**
+
+## 🌧️ Flashing & Gutter System
+
+Now when your roof geometry and sheeting are complete, it's time to add the details. Adding flashings and gutters to the roof design are essential steps in creating a quality roofing project. In HiStruct, these elements are generated automatically by built-in [gutter and flashing generator](17_roofFlashingGenerator.md), so you already have a complete system in place. But every project is unique, and that's why you can customize automatically generated elements to fit your exact needs.  Whether it's adjusting the flashing type, changing materials, or fine-tuning the layout, HiStruct gives you precise control over every detail.
+
+**👉 How to edit flashings and gutter system step by step? [See this article](9_flashing_and_gutter_system.md)**.
+
+## 🪟 Openings - Adding Windows, Skylights, and More
+
+The final touch for your model is adding openings. This can be done quickly and intuitively in the **Openings** menu. Here, you can create and edit various types of openings in individual roof planes - such as windows, skylights, or vents. With the **Control button**, you can insert new openings, adjust their dimensions and position, and fine-tune them directly in the 3D model. Default colour settings and measuring tools help you keep your design precise, clear, and consistent.
+
+👉 **Let's take a look at how simple it is! To learn how to work with the Openings menu step [see this article](10_openings.md)**.
+
+## 📐 Drawings, Documents, BOMs... Simply Outputs
+
+Once your 3D model is ready, it's time to get your outputs - everything you need to prepare a polished quote for your client in just a few clicks!
+
+- **📐 Drawings:** The  [Layout Drawings](11_installation_drawings.md) are generated automatically from the specified geometry and any changes you made. You can also add extra notes or annotations if needed.
+
+- **📦 Bill of Materials (BOM):** The BOM is created automatically from the roof parts in your model. Each part shows what it's made of, and you can edit quantities or add new items. The way the BOM is generated can be adjusted within the [customization project](18_customisationProject.md).
+
+- **🧾 Quote:** You can include the BOM, complete with a link to the manufacturer's price list, in your quote - or create a quote without it. How the quotation is generated can also be modified within the [customization project](18_customisationProject.md).
+
+**📌 Any changes you make in your 3D model are automatically updated in all outputs - drawings, BOMs, and others.** **That means you don't need to worry about changes, and if last-minute adjustments are needed, a single click updates everything instantly. Fast, practical, and stress-free!**
+
+> **👉 For a step-by-step guide on working with drawings, BOMs, and offers, check out [this chapter](12_outputs.md)**.
+
+## ⚙️ Settings - Customize Your Modeling Space
+
+HiStruct supports flexible workflows, letting you tailor the modeling experience to your needs. Using the **Settings** **button**, you can switch between **Basic** and **Advanced** **modes** and adjust modeling parameters, scene appearance, and performance settings.
+
+**👉 For detailed guidance on all available options, see our full [Settings guide](13_settings.md)**.

@@ -10,7 +10,7 @@ If you want to model simple standard-shaped roof and have the dimensions availab
 
 ![Geometry button](img/2Geometry.png)
 
- And that's it! You can now see your roof almost done. In other steps you will choose sheeting, flashing, add openings and generate outputs.
+> And that's it! You can now see your roof almost done. In other steps you will choose sheeting, flashing, add openings and generate outputs.
 
 **👉 [*Go to next steps*](8_sheeting_menu.md)**
 

@@ -57,7 +57,7 @@ The **Editing** buttons are located directly on the roof model, right next to th
 
 - choose the type of roof covering or secondary structure layer, and adjust its **size, position, direction, and angle**.
 
- **💡For roof covering layers, you can also adjust the tiling in detail (see below)**
+> **💡For roof covering layers, you can also adjust the tiling in detail (see below)**
 
 - create a simple floor plan of the layer as an editable drawing
 

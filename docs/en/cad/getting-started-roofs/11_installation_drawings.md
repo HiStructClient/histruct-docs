@@ -19,7 +19,7 @@ In HiStruct, complete drawings for all roof planes are **automatically generated
 
 ## Adding dimensions
 
- You can enter a datum by clicking on the **Dimension button**, selecting the two points for which you want to plot a datum, and then specifying the distance of the plotting line. After clicking on the dimension, it is possible to:
+> You can enter a datum by clicking on the **Dimension button**, selecting the two points for which you want to plot a datum, and then specifying the distance of the plotting line. After clicking on the dimension, it is possible to:
 
 - **Change its color**
 
@@ -27,10 +27,10 @@ In HiStruct, complete drawings for all roof planes are **automatically generated
 
 - The last option in the dimension edit is the **Continue** **button**, which will generate another dimension in the same direction.
 
- **💡** If you want to **edit any point of your added dimension,** just **click on the dimension** and by moving the yellow points you are already editing the dimension**.**
+> **💡** If you want to **edit any point of your added dimension,** just **click on the dimension** and by moving the yellow points you are already editing the dimension**.**
 
 ![Editing drawing](img/drawingsDimensionsProperties.png)
-
+>
 
 
 **❓Where can I find and download the generated drawings?**\

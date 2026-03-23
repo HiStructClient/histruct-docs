@@ -1,4 +1,4 @@
-# ⚙️Settings - Customize Your Modeling Space
+# ![](./media/media/image3.png)⚙️Settings - Customize Your Modeling Space
 
 HiStruct is built for flexibility, letting you tailor the modeling experience to your needs. Using the **Settings** **button** in left-side menu, you can customize modeling functions and adjust parameters in the modeling space.
 

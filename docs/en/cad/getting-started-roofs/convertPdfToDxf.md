@@ -16,4 +16,4 @@ Or even desktop applications:
 
 1. [AnyDWG](https://www.microsoft.com/store/productId/9PDCXWGXBPBV?ocid=pdpshare)
 
-You can then use the generated DXF files for [import](importDxf.md) into HiStruct.
+You can then use the generated DXF files for [import](15_insert_DXF.md) into HiStruct.

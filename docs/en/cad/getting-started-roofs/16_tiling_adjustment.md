@@ -14,54 +14,54 @@ HiStruct Roofs automatically places the selected roofing material along the flat
 
 - Edit individual strips
 
- **Laying direction**
-
- It is configurable, choosing from the following types:
+> **Laying direction**
+>
+> It is configurable, choosing from the following types:
 
 - **positive**
 
- ![Tiling from left.png](img/TilingFromLeft.png)
+> ![Tiling from left.png](img/TilingFromLeft.png)
 
 - **negative**
 
- ![Tilling from right](img/TilingFromRight.png)
+> ![Tilling from right](img/TilingFromRight.png)
 - **center the tile**
 
- ![Tilling center axis](img/tillingCenterAxis.png)
+> ![Tilling center axis](img/TillingCenterAxis.png)
 
 - **center the joint**
 
- ![Tilling center edge](img/TilingCenterEdge.png)
+> ![Tilling center edge](img/TilingCenterEdge.png)
 
 - **general specification of the start of laying (laying positive + distance)**
 
- ![General tilling head start](img/generalTillingHeadStart.png)
-
- **The angle of the laying of the strips**
-
- **It is adjustable as positive or negative offset from the baseline.**
-
- ![Tilling angle](img/tillingAngle.png){width="6.3in" height="3.2083333333333335in"}
-
- **Each specific strip**
+> ![General tilling head start](img/GeneralTillingHeadstart.png)
+>
+> **The angle of the laying of the strips**
+>
+> **It is adjustable as positive or negative offset from the baseline.**
+>
+> ![Tilling angle](img/TillingAngle.png){width="6.3in" height="3.2083333333333335in"}
+>
+> **Each specific strip**
 
 - **disable ( then it is not reflected in drawings, detailed model or material reports.)**
 
- ![Individual panel switched off](img/individualPanelSwitchedOff.png)
+> ![Individual panel switched off](img/IndividualPanelSwitchedOff.png)
 
 - **lengthen or shorten the overlap**
 
- ![Individual panel extension options](img/individualPanelExtensionOptions.png)
+> ![Individual panel extension options](img/IndividualPanelExtensionOptions.png)
 
 - **overlay in appropriate places (according to the grid of the slats) Clicking on the indicated divisions above the slats can split the strip or, conversely, merge it if it has already been split.**
 
- ![Individual panel splitting](img/individualPanelSplitting.png)
+> ![Individual panel splitting](img/IndividualPanelSplitting.png)
 
- **Lengthening or shortening panels at the sides**
-
- For each side of the roof polygon, you can set the panel lengthening or shortening by clicking on the button above the edge.
-
- ![Tilling edge offset](img/tillingEdgeOffset.png)
+> **Lengthening or shortening panels at the sides**
+>
+> For each side of the roof polygon, you can set the panel lengthening or shortening by clicking on the button above the edge.
+>
+> ![Tilling edge offset](img/TillingEdgeOffset.png)
 
 
 **👉 Back to article  [*How to Work with Sheeting menu*](8_sheeting_menu.md)**
