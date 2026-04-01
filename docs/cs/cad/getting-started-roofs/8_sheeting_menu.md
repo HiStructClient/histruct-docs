@@ -1,77 +1,74 @@
 ---
 sourceLang: en
-sourceHash: 218cd63a3cb94ce1300b7b581e19f03d
+sourceHash: d2405b46901311d15b8483f2a3c1cd79
 autoTranslated: true
 ---
 
-# 🧱 Jak pracovat s menu Krytiny
+# 🧱 Jak pracovat s nabídkou Krytiny
 
-V tomto kroku budete **nastavovat typ střešního systému a krytiny**.
+V tomto kroku **nastavíte typ střešního systému a krytiny**.
 
-V **menu Krytiny** vidíte v levém postranním panelu tři základní tlačítka - **Střecha**, **Anotace** a **Měření** a také velmi důležitá **tlačítka Ovládání a Úprav**, umístěná přímo na každé jednotlivé střešní ploše.
+V nabídce **Krytiny** vidíte tři základní tlačítka v levém postranním menu - **Střecha**, **Popisovat** a **Měřit** a také velmi důležitá ovládací tlačítka **Ovládací tlačítko** a **Upravit** přímo na každé jednotlivé rovině střechy.
 
-**Menu Krytiny** vám umožňuje:
+Nabídka **Krytiny** vám umožňuje:
 
 - Nastavit typ střešního systému a krytiny.
 
 - Vybrat sekundární střešní konstrukci
 
-**Pro každou jednotlivou střešní plochu můžete:** 
+**Pro každou jednotlivou rovinu střechy můžete:**
 
 - Změnit **parametry pokládky** (směr, úhel a odsazení pro umístění střešních prvků od okraje střechy).
 
-- Zobrazit **výkaz materiálu** pro položky krytiny.
+- Zobrazit **výkaz materiálu** pro položky střešní krytiny.
 
-- Vygenerovat **půdorys střešní konstrukce** ve formě editovatelného výkresu. 💡**Tip:** Když tento výkres upravíte, změny se automaticky promítnou do všech výstupů, ve kterých je zahrnut.
+- Vygenerovat **půdorys střešní konstrukce** ve formě editovatelného výkresu. 💡**Tip:** Když tento výkres upravíte, změny se automaticky projeví ve všech výstupech, kde je zahrnut.
 
 ## 1️⃣ Nastavení typu střešního systému a krytiny
 
-Klikněte na **tlačítko Střecha**. Objeví se dvě další tlačítka: **Horní vrstva** a **Spodní vrstvy**. Pomocí těchto tlačítek vyberte materiál pro každou vrstvu z knihovny produktů.
+Klikněte na tlačítko **Střecha**. Objeví se další dvě tlačítka: **Vrchní vrstva** a **Spodní vrstvy**. Pomocí těchto tlačítek vyberete materiál pro každou vrstvu z produktové knihovny.
 
 **📌 Tímto způsobem** **pracujete se střechou jako celkem.**
 
-Pokud chcete **pracovat s jednotlivými střešními plochami** a upravovat jejich vlastnosti, použijte **tlačítka Upravit a Ovládání** umístěná přímo na každé střešní ploše v modelu. Tato tlačítka vám umožňují upravit střešní konstrukci vybrané střešní plochy a více.
+Pokud chcete **pracovat s jednotlivými střešními rovinami** a upravovat jejich vlastnosti, použijte tlačítka **Upravit** a **Ovládací tlačítko** umístěná přímo na každé střešní rovině v modelu. Tato tlačítka vám umožní upravit konstrukci konkrétní střešní roviny a další vlastnosti.
 
-## 2️⃣ Změna vlastností jednotlivých střešních ploch pomocí tlačítek Ovládání a Úprav
+## 2️⃣ Změna vlastností jednotlivých střešních rovin pomocí Ovládacího a Editačního tlačítka
 
-Nastavení a úpravy jednotlivých střešních ploch lze provádět pomocí **tlačítek Ovládání a Úprav**.
+Nastavení a úpravy jednotlivých střešních rovin provádíte pomocí tlačítek **Ovládací tlačítko** a **Upravit**.
 
-![Ovládací a tlačítka Úprav](img/buttons.png)
+![Control and Edit buttons](img/buttons.png)
 
+⚠️ ***Poznámka:** Některé funkce, například **Ovládací tlačítko** a **Upravit**, jsou přístupné pouze v **Pokročilém režimu**. Postup, jak zpřístupnit všechny funkce, najdete v [**Průvodci nastavením**](13_settings.md).*
 
-⚠️ ***Poznámka:** Některé funkce jako **tlačítka Ovládání** a **Úprav** jsou dostupné pouze v **Pokročilém režimu**. Podívejte se do [**Průvodce nastavením**](13_settings.md)* *pro pokyny k odemčení všech funkcí.*
+**Ovládací tlačítko**   ![Control button](img/controlbutton.png)
 
-
-**Tlačítko Ovládání**   ![Tlačítko Ovládání](img/controlbutton.png)
-
-Po kliknutí na kulaté **tlačítko Ovládání** se v levém menu zobrazí několik dalších tlačítek:
+Po kliknutí na kulaté **Ovládací tlačítko** se v levém menu objeví několik dalších tlačítek:
 
 - **Vlastnosti**\
-  Pomocí tlačítka **Vlastnosti** pojmenujte vybranou střešní plochu a upravte další parametry konkrétní střešní plochy.
+  Pomocí tlačítka **Vlastnosti** můžete **pojmenovat vybranou rovinu střechy** a upravit další parametry konkrétní střešní roviny.
 
-- Pomocí tlačítka **Materiály** vyberte materiál pro každou vrstvu z knihovny produktů. U některých krytin může být tlačítko **Spodní vrstvy** ve výchozím nastavení skryté, a sekundární konstrukce pro takovou krytinu proto není generována.
+- Tlačítkem **Materiály** vyberete materiál pro jednotlivé vrstvy z produktové knihovny. U některých krytin může být tlačítko **Spodní vrstvy** ve výchozím stavu skryto a sekundární konstrukce pro takovou krytinu není generována.
 
-- Stiskněte tlačítko **BOM (Výkaz materiálu)** pro zobrazení seznamu položek krytiny pro příslušnou střešní plochu v přehledné tabulce.
+- Stisknutím tlačítka **BOM (Výkaz materiálu)** zobrazíte seznam položek střešní krytiny pro danou rovinu střechy v přehledné tabulce.
 
-- Použijte tlačítko **Výkres** pro vygenerování montážního výkresu zadané střešní plochy, včetně celého složení střešní konstrukce.
+- Pomocí tlačítka **Výkres** vygenerujete montážní výkres dané roviny střechy včetně celé skladby střešní konstrukce.
 
-**💡Jak vygenerovat a upravit montážní výkres.** 👉  [Podrobnosti v tomto článku](11_installation_drawings.md).
+**💡Jak generovat a upravovat montážní výkresy.** 👉  [Podívejte se na tento článek pro více informací](11_installation_drawings.md).
 
+**Editační tlačítka** ![Control button](img/editbutton.png)
 
-**Tlačítka Úprav** ![Tlačítko Úprav](img/editbutton.png)
+Tlačítka **Upravit** jsou umístěna přímo na modelu střechy hned vedle **Ovládacího tlačítka**. Po kliknutí na konkrétní **Upravit** tlačítko můžete přistupovat k úpravě a editaci vybrané vrstvy střechy. U každé vrstvy střechy v konkrétní rovině můžete:
 
-Tlačítka **Úprav** se nacházejí přímo na modelu střechy, hned vedle **tlačítka Ovládání**. Kliknutím na konkrétní **tlačítko Upravit** můžete otevřít a upravit vybranou vrstvu střechy. Pro každou vrstvu střechy na vybrané ploše můžete:
+- zvolit typ střešní krytiny nebo vrstvy sekundární konstrukce a upravit její **velikost, pozici, směr a úhel**.
 
-- vybrat typ krytiny nebo vrstvu sekundární konstrukce a upravit její **velikost, umístění, směr a úhel**.
-
-  **💡U vrstvách krytiny můžete také podrobně upravit pokládku (viz níže)**
+> **💡U vrstev střešní krytiny můžete také detailně upravit pokládku (viz níže)**
 
 - vytvořit jednoduchý půdorys vrstvy jako editovatelný výkres
 
-- a u krytin zobrazit výkaz materiálu této vrstvy
+- a pro krytiny zobrazit výkaz materiálu této vrstvy
 
-**📌** Dostupné možnosti se mohou lišit v závislosti na typu krytiny nebo sekundární konstrukce.
+**📌** Dostupné možnosti se mohou lišit v závislosti na typu střešní krytiny nebo sekundární konstrukce.
 
-**💡Jak upravit pokládku - Rychlé a jednoduché úpravy pokládky👉**  [Více informací zde](16_tiling_adjustment.md).
+**💡Jak upravit pokládku - Rychlé a jednoduché úpravy pokládky👉**  [Viz zde více informací](16_tiling_adjustment.md).
 
-**👉 [*Návrat k hlavnímu článku*](index.md)**
+**👉 [*Zpět na hlavní článek*](index.md)**

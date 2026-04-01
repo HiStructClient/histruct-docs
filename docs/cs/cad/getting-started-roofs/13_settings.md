@@ -1,35 +1,35 @@
 ---
 sourceLang: en
-sourceHash: e44ff1fdcdfac57e3b696c37cff8f0f4
+sourceHash: ff38b70ad38bbd559711e1821f175cee
 autoTranslated: true
 ---
 
-# ⚙️Nastavení - Přizpůsobte si modelovací prostor
+# ![](./media/media/image3.png)⚙️Nastavení - Přizpůsobte si svůj modelační prostor
 
-HiStruct je navržen s ohledem na flexibilitu, takže si můžete přizpůsobit způsob modelování podle svých potřeb. Pomocí **tlačítka Nastavení** v levém menu můžete upravit modelovací funkce a nastavit parametry v modelovacím prostoru.
+HiStruct je navržen pro flexibilitu, což vám umožňuje přizpůsobit si modelovací prostředí podle svých potřeb. Pomocí **tlačítka Nastavení** v levém menu si můžete upravit modelovací funkce a nastavit parametry v modelovacím prostoru.
 
 **Nastavení krok za krokem**
 
-**Vstup: Můžete si vybrat mezi dvěma režimy:** 
+**Vstup: Můžete si vybrat mezi dvěma režimy:**
 
-- **Základní**: Zjednodušená sada nástrojů a funkcí pro rychlejší modelování - ideální pro jednoduché projekty nebo když chcete pracovat rychle.
+- **Základní**: Zjednodušená sada nástrojů a funkcí pro rychlejší modelování – ideální pro jednoduché projekty nebo když chcete pracovat rychle.
 
-- **Pokročilý**: Odemkne všechny dostupné funkce a poskytuje plnou kontrolu nad každým aspektem modelovacího prostoru. Výborné pro komplikované projekty nebo detailní přizpůsobení.
+- **Pokročilý**: Odemkne všechny dostupné funkce, které dávají plnou kontrolu nad každým aspektem modelovacího prostoru. Ideální pro složitější projekty nebo detailní úpravy.
 
 **Nastavení scény**
 
 - **Povrch terénu**: Vyberte vzhled okolního terénu v modelovacím prostoru.
 
-- **Automatické rozměry**: Zapněte automatické vykreslování půdorysných rozměrů objektu. Jejich zobrazení pak můžete ručně ovládat pomocí tlačítek na pravé straně obrazovky.
+- **Automatické kóty**: Umožní automatické vykreslení kót objektu v půdorysu. Jejich zobrazení můžete později ovládat ručně pomocí tlačítek na pravé straně obrazovky.
 
-- **Měřítko tlačítek pro přidání**: Upravte velikost tlačítek umístěných na modelu.
+- **Měřítko tlačítek Přidat**: Nastavte velikost tlačítek, která jsou umístěna na modelu.
 
-- **Velikost symbolu LCS**: Upravte velikost značky souřadnicového systému v modelu.
+- **Velikost symbolu LCS**: Nastavte velikost značky souřadnicového systému v modelu.
 
-**Data projektu**
+**Projektová data**
 
-Data projektu se načítají z umístění projektu, pokud je zadáno, čímž se zajistí automatické použití všech relevantních informací ve vašem modelu.
+Projektová data jsou načítána z umístění projektu, pokud je specifikováno, což zajistí, že všechny relevantní informace budou automaticky aplikovány na váš model.
 
-**💡 Přepínání mezi Základním a Pokročilým režimem vám umožní vyvážit rychlost a funkčnost podle složitosti projektu. Kombinujte to s automatickou aktualizací výkresů, kusovníků (BOM) a reportů, a získáte pracovní postup, který je rychlý, přesný a plně přizpůsobitelný.**
+**💡 Přepínání mezi základním a pokročilým režimem umožňuje najít rovnováhu mezi rychlostí a funkčností v závislosti na složitosti vašeho projektu. V kombinaci s automatickými aktualizacemi výkresů, kusovníků a zpráv získáte pracovní postup, který je rychlý, precizní a plně přizpůsobitelný.**
 
-**👉 [*Návrat k hlavnímu článku*](index.md)**
+**👉 [*Zpět na hlavní článek*](index.md)**

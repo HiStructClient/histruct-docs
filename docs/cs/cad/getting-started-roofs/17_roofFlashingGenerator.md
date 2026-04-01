@@ -1,17 +1,17 @@
 ---
 sourceLang: en
-sourceHash: 29c806166677115d214ff2f00ac97c48
+sourceHash: d2d648194432608fc297a9166744386c
 autoTranslated: true
 ---
 
-# 🚀 Jak funguje generátor oplechování a okapů HiStruct
+# 🚀 Jak funguje generátor lemování a žlabů v HiStruct
 
-Je především navržen tak, aby **ušetřil čas** při vytváření 3D modelů oplechování a okapů z importovaných nebo zadaných geometrií střešních ploch.
+Je navržen především tak, aby **šetřil čas** při tvorbě 3D modelu lemování a okapů pro importované nebo specifikované geometrie střešních rovin.
 
-Generátor lze také obecně použít pro rovinné geometrie, které jsou zadány z výkresu nebo zcela ručně a následně upraveny tak, aby co nejlépe seděly na hranách dotýkaných střešních ploch. Nemusí sedět dokonale, stačí, když jsou v rámci běžných tolerancí.
+Generátor lze obecně použít i pro rovinné geometrie, které jsou zadány z výkresu nebo zcela ručně a jsou jen upraveny tak, aby co nejlépe navazovaly na okraje střešních rovin, kterých se mají dotknout. Nemusí přesně sedět, stačí zapadnout do běžné tolerance.
 
-![Výchozí geometrie pro generátor oplechování](img/SourceGeometryFlashing.png)
+![Výchozí geometrie pro generátor lemování](img/SourceGeometryFlashing.png)
 
-HiStruct automaticky identifikuje požadovaná místa pro oplechování z geometrií přilehlých střešních ploch a poté vygeneruje odpovídající typy oplechování. Tato vygenerovaná oplechování lze pak dále upravovat podle potřeby.
+HiStruct automaticky rozpozná potřebná místa pro lemování z geometrií blízkých střešních rovin a následně vygeneruje odpovídající typy lemování. Tato vygenerovaná lemování lze dále upravovat podle potřeby.
 
-![Výsledek vygenerovaného oplechování](img/generatedFlashingResult.png)
+![Výsledek vygenerovaného lemování](img/generatedFlashingResult.png)

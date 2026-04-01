@@ -1,76 +1,121 @@
+---
+sourceLang: en
+sourceHash: af050fc01015b10b51a71506fe46235a
+autoTranslated: true
+---
 
-# HiStruct Roofs pro střechaře
+# HiStruct Roofs pro pokrývače
 
-HiStruct je webová aplikace, která umožňuje snadnou spolupráci či sdílení projektu nebo jeho částí. Takto umožníte náhled na 3D model střechy koncovému zákazníkovi, spolupracujete na projektu s kolegou nebo montážní firmou.
-Slouží k rychlému sestavení nabídky, výkazu materiálu a kladečských plánů pro střešní krytiny, oplechování, lemovky a okapové systémy. Systém umožňuje několik módů zadání, které zvyšují efektivitu při práci s projektem.
+**HiStruct Roofs** je webová aplikace navržená pro rychlou a snadnou tvorbu profesionálních cenových nabídek na střechy. Automaticky vytváří detailní výkazy materiálu a montážní plány střešních systémů, včetně střešní krytiny, lemování, oplechování a okapových prvků. Platforma nabízí více režimů zadávání pro zjednodušení pracovních postupů a zvýšení efektivity.
 
-## Jak zpracovat poptávku střechy v HiStruct?
+HiStruct také podporuje plynulou spolupráci a sdílení projektů. Ať už poskytujete 3D náhled střechy koncovému zákazníkovi, nebo spolupracujete na návrhu s kolegou či realizační firmou, systém vám umožní snadno sdílet celé projekty nebo jen jejich konkrétní části s ostatními.
 
-1. Založím projekt s mapou nebo bez
-1. Namodeluji střešní plochy překreslením nebo si pomůžu generátorem
-1. Upravím vygenerované kladení
-1. Navolím lemovky a okapový systém nebo jej nechám automaticky vygenerovat
-1. Získám kusovníky, dokumenty, výkresy
+**❓Jak zpracovat poptávku na střechu v HiStructu?**
 
+1.  Vytvořte projekt [s mapou nebo bez ní](1_new_project.md)
 
-Hotovo, jdu na kávičku 😊
+2.  Vymodelujte střechu
 
-HiStruct lze rozsáhle přizpůsobit. Systém kladení střešních tvarovek, lemovek, oplechování a okapového systému je nastaven pro každého konkrétního výrobce zvlášť v samostatné sadě konfiguračních souborů. Obsahuje informaci o tom jakým způsobem je třeba střešní plochu tvarovkami vyskládat, dále možné barevné kombinace, informace k výkazu materiálu a další. Tyto a další přizpůsobení děláme v rámci [projektu pro přizpůsobení](customisationProject.md).
+3.  Vyberte krytinu
 
-## Tak a teď podrobněji...
+4.  Upravte automaticky generované oplechování a okapový systém
 
-### 1. Založím projekt s mapou nebo bez
+5.  Přidejte okna a další prostupy
 
-Zpracovávám novou poptávku. První co chci udělat je založit nový projekt. Projekt je místo, které může obsahovat jednu nebo více komponent - 3D modelů, tedy konfigurací, variant nebo částí. Stránka s projekty má dva pohledy. Defaultní pohled je prostý výpis založených projektů s komponentami. Pokud chci u projektu ukládat i umístění, mohu využít mapový pohled na projekty, kde lze zadat i umístění z mapy.
+6.  Získejte výkaz materiálu, dokumenty, výkresy a cenovou nabídku na pár kliknutí
 
-### 2. Modelování střešních ploch
+**Hotovo, čas na kávu ☕**😊
 
-Začínáme většinou **volbou typu krytiny, lemovek a okapového systému** (ta lze následně měnit) z knihoven. Následuje tvorba modelu střechy z jednotlivých střešních rovin, případně pomocí pokročilejších metod modelování. Vhodný způsob modelování závisí na dostupných podkladech pro konkrétní poptávku. Platí, že čím kvalitnější jsou podklady, tím efektivněji lze provést samotný proces modelování.
+HiStruct lze rozsáhle přizpůsobit. Systém hry pokládky krytiny, oplechování a okapů je nastaven samostatně pro každého jednotlivého výrobce v samostatné sadě konfiguračních souborů. Obsahuje informace o způsobu pokládky střešní krytiny, možných barevných kombinacích, informace o výkazu materiálu a další. Tyto a další úpravy provádíte v rámci [projektu pro úpravu přizpůsobení](18_customisationProject.md).
 
-#### **😊 Mám jen pár náčrtků s rozměry**
+**👉 Pojďme se na celý proces podívat podrobněji:**
 
-Pokud je tvar střechy jednoduchý, mohu jej [modelovat](modellingRoofs.md) vkládáním střešních ploch s předdefinovanými tvary nebo vytvořit obecný tvar střešní plochy v modelovacím prostoru. V režimu obecného zadání se využívá trasování a dalších známých nástrojů pro zadávání, podobně jako v ostatních CAD programech. Pokud je znám sklon, je možné střešní roviny naotáčet a naposouvat v prostoru tak, aby odpovídaly skutečnému tvaru střechy. Pokud se podaří sestavit střechu v prostoru s dostatečnou přesností, lze použít  [generátor lemovek a okapového systému](roofFlashingGenerator.md).
+## Vytvoření nového projektu
 
-#### **😊😊 Mám vektorový výkres půdorysu střechy**
+Pokud zpracováváte novou poptávku, první co potřebujete udělat, je založit nový projekt. **Projekt** je místo, které může obsahovat jeden nebo více **komponentů** – 3D modelů, tzn. konfigurací, variant či částí. Stránka projektu nabízí dva pohledy:
 
-Pokud mám k dispozici vektorový výkres, bude se mi modelovat snadněji. Do HiStruct lze importovat [soubory ve formátu *.dxf](importDxf.md), případně převést vektorové[ *.pdf na *.dxf](convertPdfToDxf.md) a to [naimportovat do HiStruct](importDxf.md). Importované *.dxf umožňuje snadné přichytávání a zadávání jednotlivých střešních ploch probíhá oklikáním půdorysu s možností doplnění sklonu pro každou střešní plochu. Výhodou je přesnost a snadné zhotovení 3D modelu. Téměř vždy lze použít [generátor lemovek a okapového systému](roofFlashingGenerator.md).
+- **Tabulka** (výchozí pohled) je jednoduchý seznam založených projektů s jejich komponenty. Poskytuje jasný přehled o všech vašich projektech. Skvělá je pro doplňování podrobných poznámek, kontrolu stavu projektu a sdílení obsahu.
 
-#### **😊😊😊 Mám pouze obrys a potřebuji navrhnout střechu**
+- **Mapa** je ideální, pokud chcete projekty zobrazit podle jejich umístění. Ještě lepší – 3D model vaší stavby můžete umístit přímo do mapy a vidět, jak zapadne do okolí.
 
-Pokud se například jedná o zcela novou střechu, u které máte zatím pouze obrys, můžete v HiStruct využít inovativní nástroj, který automaticky navrhne výsledný tvar střechy, sklony jednotlivých ploch, lemovky i okapový systém. Pro tento postup je samozřejmě možné importovat [soubory ve formátu *.dxf](importDxf.md), případně převést vektorové [*.pdf na *.dxf](convertPdfToDxf.md) a [naimportovat je do HiStruct](importDxf.md).
+**👉 Doporučujeme kombinovat oba pohledy podle aktuální potřeby.**
 
-#### **😊😊😊😊 Mám 3D model z digitálního zaměření**
+**👉 Pro více informací si přečtěte článek [Jak začít nový projekt](1_new_project.md).**
 
-Model z digitálního zaměření je výhra. Pokud mám tento model ve vhodném formátu (3D *.pdf nebo přímo *.obj), můžu geometrii rovnou importovat. Do HiStruct lze [importovat *.obj](importObj.md), případně [převést 3D *.pdf na *.obj](convert3dPdfToObj.md) a to [naimportovat do HiStruct](importObj.md).
+## 🏠 Modelování střechy
 
-Po importu HiStruct nabídne rozpoznané plochy, ze kterých vyberete, jak se mají převést na HiStruct geometrii. [Generátor ploch](roofPolygonGenerator.md) pak provede převod na střešní nebo stěnové opláštěné plochy, na kterých lze dále postupovat běžným způsobem.
+V HiStructu lze střechu modelovat několika různými způsoby. Každá metoda má své výhody a je vhodná pro jiné situace. **Nejvhodnější způsob modelování závisí na kvalitě podkladů, které máte k dispozici pro daný projekt.** Obecně platí: čím lepší vstupní data, tím efektivněji lze modelování dokončit. Dobrá zpráva? Nemusíte mít dokonalé výkresy – k zahájení práce stačí i ruční skica.
 
-Po vygenerování střešních ploch můžu použít ještě [generátor lemovek a okapového systému](roofFlashingGenerator.md). Tento způsob zadání je téměř bezpracný.
+**Vyberte si způsob, který nejlépe vyhovuje vašemu projektu:**
 
-### 3. Kladení střešní krytiny
+- **Potřebuji vytvořit model jednoduché střechy běžného tvaru a mám k dispozici rozměry**
 
-Knihovny krytin a lemovek pro nás znamenají nejen velikost a barvu, ale celý přístup k opláštění konkrétních střešních ploch. Do knihovny jsme díky variabilnímu generátoru schopni zanést konkrétní montážní postup dané krytiny konkrétního výrobce. Toto děláme v rámci [projektu přizpůsobení](customisationProject.md). Kvalitně vytvořený generátor následně eliminuje nutné zásahy do automatického kladení.
+> 😊 Použijte některou z našich **šablon** – HiStruct nabízí širokou škálu předpřipravených šablon pro nejběžnější typy střech. Tato volba je ideální pro modelování standardních jednoduchých střech.
+>
+> **👉 *Jak začít se šablonou? [Přečtěte si tento článek](2_start_with_template.md)***.
 
-[Kladení střeních tvarovek](roofPolygonTillingOptions.md) probíhá automaticky podle konfiguračního nastavení krytiny. Dále je možné upravovat počátek kladení tak, aby byl dosažen nejmenší možný prořez. Informace o poměru prořezu k ploše střešní roviny jsou zobrazeny během úprav kladení.
+- **Mám ruční skicu nebo vektorový výkres**
 
-### 4. Jak na lemovky a okapový systém?
+> 😊😊 V tomto případě můžete **vygenerovat tvar střechy z obrysu nebo je modelovat po plochách**. Pokud máte vektorový výkres, jste už v polovině! HiStruct podporuje import souborů ve formátu \*.dxf, případně můžete snadno převést vektorové PDF na \*.dxf. Výhodou je vyšší přesnost a plynulejší modelování ve 3D.
+>
+> **👉 *Jak vytvořit střechu podle obrysu? [Přečtěte si tento článek](3_generate_from_DXF.md)***.
+>
+> **👉 *Jak převést PDF na DXF? [Přečtěte si tento článek](4_PDF_to_DXF.md)***.
 
-[Oplechování, lemovky](roofFlashingOptions.md) a [okapový systém](roofFlashingGutterOptions.md) lze samozřejmě zadávat kamkoliv v prostoru chytáním na již zadané střešní plochy, importovanou geometrii nebo jiné objekty. Navíc je možné využít přidávání lemovek na jednotlivé strany střešních rovin, nebo rovnou [generátoru nad skupinou střešních rovin](roofFlashingGenerator.md). U generovaných prvků se automaticky nastavuje sklon souvisejících střešních rovin, a tak se správně nastaví ohýbací úhly lemovek a háků okapového systému.
+- **Mám model z digitálního zaměření**
 
-HiStruct obsahuje komplexní možnosti [nastavení okapového systému](roofFlashingGutterOptions.md). Zadání pomocí polylinie definující navazující okap, lze nastavit sklon okapu. Pro každou část okapu nastavíme i sklon navazující střešní roviny pro správný výpočet ohybu a délky háků. Na každou část okapu lze přidat svody, které mají další [možnosti nastavení](roofFlashingGutterOptions.md).
+> 😊😊😊 To je výhra! Využijte **modelování podle satelitního zaměření** **(vzdálený import geometrie) nebo jakýkoli jiný 3D model**. Pokud je model střechy k dispozici v podporovaném formátu (třeba 3D PDF nebo přímo jako \*.obj soubor), můžete geometrii importovat rovnou do HiStructu.\
+> Podporované formáty: \*.obj soubory nebo převedené 3D PDF.
+>
+> **👉 *Jak použít OBJ model pro automatické vytvoření střechy? [Přečtěte si tento článek](5_OBJ_model.md)***
+>
+> **👉 *Jak převést PDF na DXF? [Přečtěte si tento článek](5_OBJ_model.md)***.
 
-### 5. Kusovníky, dokumenty, výkresy... prostě výstupy
+💡**Jak převést vlastní modely a výkresy pro použití v HiStructu**
 
-**Kusovník**
-[Kusovník](roofBom.md) se vytváří automaticky z částí střechy vložených do modelového prostoru. Jednotlivé části modelu mají u sebe informaci z jakých částí jsou vytvořeny s možností úpravy počtu a případného přidávání dalších položek.
+Většina z nás má stavební plány v PDF nebo 3D modely v různých formátech – z BIM softwaru, dronových skenů nebo satelitních dat. **Dobrá zpráva?** Tyto soubory snadno převedete na **DXF** a **OBJ** – ideální formáty podporované v HiStructu. Jakmile je máte převedené, jejich nahrání do HiStructu je otázka pár kliknutí – jste na cestě k přesnému a plně vygenerovanému 3D modelu střechy. Žádné složité překreslování, jen rychlé výsledky. Podívejte se na návody:
 
-Způsob generování kusovníku pak může být upraven v rámci [projektu přizpůsobení](customisationProject.md).
+- [Jak převést PDF na DXF pro použití v HiStructu](4_PDF_to_DXF.md)
 
-**Nabídka**
-Generovaný kusovník doplněný napojením na ceník výrobce může být součástí [nabídky](roofQuote.md). Nabídku lze však připravit i bez kusovníku. Způsob generování nabídky pak může být upraven v rámci [projektu přizpůsobení](customisationProject.md).
+- [Snadná konverze 3D modelu z PDF na OBJ](6_PDF_to_OBJ.md)
 
-**Kladecí plány**
-[Kladečské výkresy](roofPolygonTillingDrawing.md) jsou generovány automaticky ze zadané geometrie a případných změn uživatele. V případě potřeby lze výkres doplnit dalšími poznámkami či kótami.
+<span id="roofing"></span>
+## 🧱 Rozvržení krytiny 
 
-![example of roof tilling drawing](img\roofTillingPlane1.png)
-![example of roof tilling drawing](img\roofTillingPlane2.png)
+Jakmile máte geometrii střechy připravenou, je čas přejít do **menu Krytina**. Těsnicí vrstvy střechy se generují automaticky, ale v **menu Krytina** máte plnou kontrolu: můžete **nastavit typ skladby střechy**, **vybrat krytinu z [knihovny](7_flashing_libraries.md)** a také **zvolit sekundární nosnou konstrukci**.
+
+U každé střešní plochy můžete upravit **parametry kladení** (směr, úhel a posun umístění střešních prvků od hrany střechy), **generovat výkaz materiálu** pro všechny střešní prvky a také **vytvořit editovatelný výkres skladby střechy**.
+
+**👉 Jak krok za krokem pracovat s menu Krytina? [Přečtěte si tento článek](8_sheeting_menu.md).**
+
+## 🌧️ Oplechování & Okapový systém
+
+Teď když je geometrie i krytina hotová, je čas na detaily. Přidání oplechování a okapů je nezbytným krokem pro kvalitní střešní projekt. V HiStructu se tyto prvky generují automaticky vestavěným [generátorem okapů a oplechování](17_roofFlashingGenerator.md), takže už máte kompletní systém připraven. Ale každý projekt je jedinečný, proto si můžete automaticky generované prvky upravit podle svých potřeb. Ať už měníte typ oplechování, materiály, nebo si jemně dolaďujete rozvržení, HiStruct dává plnou kontrolu nad každým detailem.
+
+**👉 Jak krok za krokem upravit oplechování a okapový systém? [Přečtěte si tento článek](9_flashing_and_gutter_system.md)**.
+
+## 🪟 Prostupy – přidání oken, světlíků a dalších otvorů
+
+Poslední tečkou v modelu je přidání prostupů. To lze rychle a intuitivně provést v menu **Otvorů**. Zde můžete vytvářet a upravovat různé typy otvorů v jednotlivých střešních plochách – například okna, světlíky či větrací průduchy. Pomocí **Ovládacího tlačítka** můžete vkládat nové otvory, měnit jejich rozměry a polohu, a jemně je dolaďovat přímo ve 3D modelu. Výchozí nastavení barev a měřicí nástroje pomáhají udržet návrh přesný, přehledný a jednotný.
+
+👉 **Podívejte se, jak je to jednoduché! Jak krok za krokem pracovat s menu Otvory [viz tento článek](10_openings.md)**.
+
+## 📐 Výkresy, dokumenty, výkazy... jednoduše výstupy
+
+Jakmile je váš 3D model hotový, je čas získat výstupy – vše, co potřebujete pro rychlou přípravu precizní nabídky pro zákazníka během pár minut!
+
+- **📐 Výkresy:** [Montážní výkresy](11_installation_drawings.md) se generují automaticky ze zadané geometrie a všech provedených změn. Samozřejmě, pokud je potřeba, můžete doplnit své poznámky a značky.
+
+- **📦 Výkaz materiálu (BOM):** Výkaz je automaticky generován z dílů střechy v modelu. Každý díl ukazuje, z čeho je vyroben, můžete upravit množství nebo přidat nové položky. Princip tvorby výkazu lze upravit v [projektu pro úpravy přizpůsobení](18_customisationProject.md).
+
+- **🧾 Cenová nabídka:** Výkaz materiálu s odkazem na ceník výrobce můžete přidat do nabídky – nebo vytvořit nabídku bez něj. Způsob generování nabídky lze také měnit v [projektu pro úpravy přizpůsobení](18_customisationProject.md).
+
+**📌 Veškeré změny ve 3D modelu se automaticky aktualizují i ve výstupech – ve výkresech, výkazech a dalších dokumentech.** **Nemusíte se tedy strachovat o změny, pokud dojde na poslední chvíli k úpravám, jedním klikem ihned vše aktualizujete. Rychlé, praktické a bez stresu!**
+
+> **👉 Pro krok za krokem návod, jak pracovat s výkresy, výkazy materiálu i nabídkami, si přečtěte [tuto kapitolu](12_outputs.md)**.
+
+## ⚙️ Nastavení – přizpůsobte si pracovní prostor
+
+HiStruct podporuje flexibilní pracovní postupy a umožní vám přizpůsobit si pracovní prostředí podle vlastních potřeb. Pomocí tlačítka **Nastavení** můžete přepínat mezi režimem **Základní** a **Pokročilý** a nastavovat parametry modelování, vzhled scény i výkonnostní limity.
+
+**👉 Kompletní přehled všech možností najdete v našem [průvodci nastavením](13_settings.md)**.

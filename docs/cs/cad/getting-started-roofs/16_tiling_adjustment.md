@@ -1,75 +1,75 @@
 ---
 sourceLang: en
-sourceHash: 9541f67b142f95c0abbeba45be7d5a45
+sourceHash: 1ca4f660b4fa493281cd7223ede2939a
 autoTranslated: true
 ---
 
-# 🛠️ Rychlé a snadné nastavení pokládky
+# 🛠️ Rychlé a snadné nastavení kladení krytiny
 
-HiStruct Roofs automaticky umístí vybraný střešní materiál na rovný povrch. **Po vygenerování lze pruhy upravovat a přizpůsobovat podle potřeby.**
+HiStruct Roofs automaticky umisťuje vybraný střešní materiál podél rovné plochy. **Po vygenerování lze pásy upravovat dle potřeby.**
 
-**💡 Chcete-li vidět, jak jsou jednotlivé pruhy pokládány**, přejděte do **menu Krytiny** ⇒ klikněte na **Tlačítko Upravit** u vrstvy střešního krytí umístěné přímo na modelu střechy [viz předchozí návod](8_sheeting_menu.md) ⇒ a v levém menu stiskněte tlačítko **Pokládka**.
+**💡 Chcete-li vidět, jak jsou jednotlivé pásy rozloženy**, přejděte do nabídky **Krytina** ⇒ klikněte na **Ovládací tlačítko Upravit** u vrstvy střešní krytiny umístěné přímo na modelu střechy [viz předchozí návod](8_sheeting_menu.md) ⇒ a stiskněte tlačítko **Kladení** v menu vlevo.
 
-![Pokládka](img/Tilling.png)
+![Tiling](img/Tilling.png)
 
-⚠️ ***Poznámka:** Některé funkce jako **Ovládání** a **Tlačítko Upravit** jsou dostupné pouze v **pokročilém režimu**. Podívejte se do [**návodu Nastavení**](13_settings.md)* *pro pokyny k odemknutí všech funkcí.*
+⚠️ ***Poznámka:** Některé funkce, jako **Ovládací tlačítko Kontrola** a **Ovládací tlačítko Upravit**, jsou dostupné pouze v **Pokročilém režimu**. Podívejte se do [**návodu Nastavení**](13_settings.md) *pro informace o odemčení všech funkcí.*
 
-📌 **Nyní jste v režimu úprav. Můžete:**
+📌 **Nyní se nacházíte v režimu úprav. Můžete:**
 
-- Upravit celou pokládku
+- Upravit celé kladení
 
-- Upravit jednotlivé pruhy
+- Upravit jednotlivé pásy
 
- **Směr pokládky**
+> **Směr kladení**
+>
+> Je možné konfigurovat, z následujících typů:
 
- Lze jej nakonfigurovat výběrem z následujících typů:
+- **pozitivní**
 
-- **kladný**
+> ![Tiling from left.png](img/TilingFromLeft.png)
 
- ![Pokládka zleva.png](img/TilingFromLeft.png)
+- **negativní**
 
-- **záporný**
+> ![Tilling from right](img/TilingFromRight.png)
+- **centrovat dlaždici**
 
- ![Pokládka zprava](img/TilingFromRight.png)
-- **zarovnat prvek na střed**
+> ![Tilling center axis](img/tillingCenterAxis.png)
 
- ![Pokládka středová osa](img/tillingCenterAxis.png)
+- **centrovat spoj**
 
-- **zarovnat spáru na střed**
+> ![Tilling center edge](img/TilingCenterEdge.png)
 
- ![Pokládka střed hrany](img/tillingCenterEdge.png)
+- **obecná specifikace začátku kladení (kladeni pozitivní + vzdálenost)**
 
-- **obecné určení začátku pokládky (kladný směr + vzdálenost)**
+> ![General tilling head start](img/generalTillingHeadstart.png)
+>
+> **Úhel kladení pásů**
+>
+> **Lze upravit jako pozitivní nebo negativní odchylku od základní linie.**
+>
+> ![Tilling angle](img/tillingAngle.png)
+>
+> **Každý konkrétní pás**
 
- ![Obecný začátek pokládky](img/generalTillingHeadStart.png)
+- **zakázat (poté se nepromítá do výkresů, detailního modelu nebo výkazů materiálu.)**
 
- **Úhel pokládky pásů**
+> ![Individual panel switched off](img/individualPanelSwitchedOff.png)
 
- **Lze jej upravit jako kladné nebo záporné odsazení od základní osy.**
+- **prodloužit nebo zkrátit přesah**
 
- ![Úhel pokládky](img/tillingAngle.png){width="6.3in" height="3.2083333333333335in"}
+> ![Individual panel extension options](img/individualPanelExtensionOptions.png)
 
- **Každý konkrétní pás**
+- **překrýt ve vhodných místech (podle rastru latí). Kliknutím na vyznačená dělení nad latěmi lze pás rozdělit, nebo naopak sloučit, pokud byl již rozdělen.**
 
-- **vypnout (poté se neprojeví ve výkresech, detailním modelu ani v přehledech materiálu.)**
+> ![Individual panel splitting](img/individualPanelSplitting.png)
 
- ![Jednotlivý panel vypnut](img/individualPanelSwitchedOff.png)
-
-- **prodloužit nebo zkrátit překrytí**
-
- ![Možnosti prodloužení jednotlivého panelu](img/individualPanelExtensionOptions.png)
-
-- **překrytí na příslušných místech (podle osazení latí). Kliknutím na označené dělení nad latěmi lze pás rozdělit nebo naopak sloučit, pokud už byl rozdělen.**
-
- ![Rozdělení jednotlivého panelu](img/individualPanelSplitting.png)
-
- **Prodloužení nebo zkrácení panelů na okrajích**
-
- Pro každou hranu polygonu střechy lze nastavit prodloužení nebo zkrácení panelu kliknutím na tlačítko nad hranou.
-
- ![Posunutí okraje pokládky](img/tillingEdgeOffset.png)
+> **Prodloužení nebo zkrácení panelů na stranách**
+>
+> Pro každou stranu střešního polygonu můžete nastavit prodloužení nebo zkrácení panelu kliknutím na tlačítko nad hranou.
+>
+> ![Tilling edge offset](img/tillingEdgeOffset.png)
 
 
-**👉 Zpět na článek  [*Jak pracovat s menu Krytiny*](8_sheeting_menu.md)**
+**👉 Zpět na článek  [*Jak pracovat s menu Krytina*](8_sheeting_menu.md)**
 
 **👉 [*Zpět na hlavní článek*](index.md)**

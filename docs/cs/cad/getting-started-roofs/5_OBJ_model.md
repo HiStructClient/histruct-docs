@@ -1,69 +1,64 @@
 ---
 sourceLang: en
-sourceHash: b19295ae6f483236663b205d0c047661
+sourceHash: 0aa30f8c3868783ed16c60a164d850d2
 autoTranslated: true
 ---
 
-# 🏠 Použití OBJ modelu k automatickému vytvoření střechy
+# 🏠 Automatické generování střechy pomocí OBJ modelu
 
-Máte 3D model z BIM projektu, sken z dronu nebo satelitní průzkum? Skvělé — HiStruct formát OBJ plně podporuje. S OBJ HiStruct automaticky vygeneruje 3D model střechy. Pokud takový model nemáte k dispozici, existují firmy, které nabízejí 3D zaměření existujících budov. Ať už je zaměření provedeno drony nebo satelity, výsledkem je obvykle podrobný 3D model ve formátu OBJ.
+Máte 3D model z BIM projektu, leteckého snímkování dronem nebo satelitního zaměření? Skvělé – HiStruct rozumí OBJ skvěle. S OBJ HiStruct automaticky vygeneruje 3D model střechy. Pokud takový model nemáte k dispozici, existují společnosti, které nabízejí zaměření stávajících budov. Ať už je zaměření provedeno drony nebo satelity, výsledkem je obvykle detailní 3D model ve formátu OBJ.
 
 **❓Co když obdržím 3D model ve formátu PDF a nemám OBJ?**
 
-Pokud máte 3D model ve formátu PDF, je třeba jej převést do formátu OBJ, který HiStruct podporuje. Je to snadné. Podívejte se na [tento návod](6_PDF_to_OBJ.md), jak rychle převést 3D model z PDF do OBJ.
+Pokud máte 3D model v PDF formátu, je potřeba jej převést do formátu OBJ, který HiStruct podporuje. Je to snadné. Podívejte se na [tento návod](6_PDF_to_OBJ.md), jak rychle převést 3D model z PDF do OBJ.
 
 Výsledný model může vypadat takto:
 
-![OBJ model](img/5objModelBase.png)
+![OBJmodel](img/5objModelBase.png)
 
+## Jak vložit OBJ model do HiStructu
 
-## Jak vložit OBJ model do HiStruct
+1.  **Klikněte na tlačítko Import.obj.** Otevře se dialog, kde můžete nahrát svůj model.
 
-1. **Klikněte na tlačítko Import.obj.** Otevře se dialogové okno, kde můžete nahrát svůj model.
+2.  **Zvolte bod vložení.** Po výběru souboru klikněte kamkoli ve scéně, kde chcete model zobrazit.
 
-2. **Vyberte bod vložení.** Po výběru souboru klikněte kdekoli ve scéně, kde chcete model umístit.
+3.  **Nechte generátor střechy zapracovat.** HiStruct automaticky rozpozná roviny a hrany střechy a vytvoří 3D model z trojúhelníkových ploch definovaných těmito hranami.
 
-3. **Nechte generátor střechy pracovat.** HiStruct automaticky detekuje plochy a hrany střechy a následně vytvoří 3D model z trojúhelníkových ploch definovaných těmito hranami.
+4.  **Ruční úpravy podle potřeby.** I když je generátor téměř dokonalý, občas může některá hrana chybět nebo plocha být nesprávně zařazena. Jakoukoli vygenerovanou hranu nebo plochu můžete doladit přímo v modelu.
 
-4. **Proveďte ruční úpravy podle potřeby.** I když je generátor téměř bezchybný, občas může být některá hrana opomenuta nebo plocha nesprávně klasifikována. Můžete doladit jakékoli vygenerované hrany nebo plochy přímo v modelu.
+![Model](img/5rosolModelObj.png)
 
-5. **Když je vše v pořádku, klikněte na "Další"** a nechte HiStruct udělat zbytek.
+## 🔧 Doladění modelu
 
-6. Generátor vás provede dalšími kroky a pomůže vám bez námahy vytvořit požadovanou střechu — včetně všech doplňků.
+<u>**Hrany**</u>
 
-![Model střechy](img/5roofModelObj.png)
+- **Klikněte na libovolnou hranu** pro úpravu jejích **vlastností**
 
+- **Jednotlivé hrany jsou barevně rozděleny do 3 skupin podle funkce:**
 
+> **🟦 Štítová hrana** – šikmá hrana na konci střešní roviny; vymezuje okraj této plochy.\
+> **🟩 Okapová hrana** – vodorovná hrana střešní roviny.\
+> **🟥 Vnitřní hrana** – hrana uvnitř střešní roviny, používá se pouze pro rozdělení ploch; při generování střechy se ignoruje.
 
-## 🔧 Doladění vašeho modelu
+- **Každou hranu můžete zapnout nebo vypnout a nastavit, zda je vodorovná.**
 
-![Model](img\5rosolModelObj.png)
+<u>**Plochy**</u>
 
-  <u>**Hrany**</u>
+- Stejně jako u hran můžete **měnit vlastnosti každé rozpoznané plochy**.
 
-  - **Klikněte na libovolnou hranu** pro úpravu jejích **vlastností**
+- Podle orientace HiStruct rozhoduje, zda je plocha součástí střechy.
 
-  - **Jednotlivé hrany jsou barevně rozděleny do 3 skupin podle jejich funkce:**
+- Klikněte na libovolnou plochu pro zahrnutí nebo vyloučení z generování střechy. Na zahrnutých plochách budou vygenerovány krytiny, podkonstrukce a oplechování.
 
-    * **🟦 Štítová hrana** - šikmá hrana na konci střešní plochy; označuje hranici této plochy.
-    * **🟩 Okapová hrana** - vodorovná hrana střešní plochy.
-    * **🟥 Vnitřní hrana** - hrana uvnitř střešní roviny, slouží pouze k rozdělení ploch; při generování střechy se ignoruje.
+- Plochy jsou barevně rozděleny do dvou skupin:\
+  🟦 **Modrá** – součást střechy; používá se při generování.\
+  ⬜ **Bílá** – není součástí střechy; je vyloučená.
 
-  - **Každou hranu můžete zapnout nebo vypnout a nastavit, zda má být považována za vodorovnou.**
+5. **Když je vše v pořádku, klikněte na „Další“** a nechte HiStruct udělat zbytek.
 
-  <u>**Plochy**</u>
+![Roof model](img/5roofModelObj.png)
 
-  - Stejně jako u hran můžete **změnit vlastnosti každé rozpoznané plochy**.
-
-  - Na základě její orientace HiStruct rozhodne, zda je součástí střechy.
-
-  - Klikněte na libovolnou plochu, abyste ji zahrnuli nebo vyloučili ze střechy. Zahrnuté plochy budou mít vygenerovanou krytinu, sekundární konstrukce a oplechování.
-
-  - Plochy jsou barevně rozděleny do dvou skupin:
-
-    * 🟦 **Modrá** - součást střechy; použitá při generování.
-    * ⬜ **Bílá** - není součástí střechy; vyloučená.
-
+6.  Generátor vás provede dalšími kroky a pomůže vám bez námahy vytvořit střechu dle vašich představ – včetně všech doplňků.
 
 **👉 [*Přejít na další kroky*](8_sheeting_menu.md)** 
 

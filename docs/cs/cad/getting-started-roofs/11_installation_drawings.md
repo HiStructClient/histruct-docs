@@ -1,56 +1,57 @@
 ---
 sourceLang: en
-sourceHash: 6f27661dfd88764d059df7c11c4b0ec0
+sourceHash: 0195ec07b156a1bbb392da1441b65e71
 autoTranslated: true
 ---
 
-# 📏 Vytvoření instalačního výkresu pro střešní rovinu
+# 📏 Vytvoření instalačního výkresu pro rovinu střechy
 
-Výkres uspořádání střešní roviny je klíčovou součástí návrhu budovy, která vám umožní převést projektové plány do praktického provedení na střeše. Tento výkres slouží jako podrobný návod pro realizační týmy při montáži střešního systému a obsahuje důležité informace o umístění materiálů, spárách a všech technických aspektech, které jsou nezbytné pro kvalitní a bezpečnou konstrukci střechy.
+Výkres rozvržení střešní roviny je klíčovou součástí procesu návrhu budovy, která umožňuje převést projektovou dokumentaci do praktického návrhu na střeše. Tento výkres slouží jako podrobný průvodce pro stavitele při instalaci střešního systému a obsahuje důležité informace o umístění materiálů, spojích a všech technických aspektech, které jsou nezbytné pro kvalitní a bezpečnou konstrukci střechy.
 
-V HiStructu jsou kompletní výkresy všech střešních rovin **automaticky generovány na základě 3D modelu. Chcete-li tyto výkresy upravit:**
+V HiStruct jsou kompletní výkresy všech střešních rovin **automaticky generovány na základě 3D modelu. Pro úpravu těchto výkresů:**
 
-1.  V **Sheeting** **menu** jednoduše přejděte na konkrétní střešní rovinu pomocí **tlačítka Upravit**, které uvidíte přímo na dané střešní rovině
+1.  V **menu Krytina** jednoduše přejděte na konkrétní rovinu střechy pomocí **Ovládacího tlačítka**, které vidíte přímo na dané střešní rovině
 
-![Tlačítko Upravit](img/controlbutton.png)
+![Ovládací tlačítko](img/controlbutton.png)
 
-2.  Klikněte na tlačítko **Drawings**.
+2.  Klikněte na tlačítko **Výkresy**.
 
-![Tlačítko Drawing](img/11Drawing.png)
+![Tlačítko Výkresy](img/11Drawing.png)
 
-3.  Nyní můžete výkres dále upravovat: přidávat kóty, přidávat popisky, změnit název a měřítko v záložce Vlastnosti.
+3.  Nyní můžete dále výkres upravovat: přidat kóty, přidat popisky, změnit název a měřítko v záložce Vlastnosti.
 
 ![Výkres](img/drawingsRoofTilling.png)
 
 
-## Přidávání kót
+## Přidání kót
 
-Můžete zadat kótu kliknutím na **tlačítko Kóta**, výběrem dvou bodů, pro které chcete kótu zakreslit, a následným určením vzdálenosti kótovací čáry. Po kliknutí na kótu je možné:
+> Zadání kóty provedete kliknutím na **Kóta**, výběrem dvou bodů, mezi kterými chcete kótu zakreslit, a následným zadáním vzdálenosti pro zakreslení kótovací čáry. Po kliknutí na kótu lze:
 
 - **Změnit její barvu**
 
-- **Určit směr, ve kterém bude kóta zakreslena.** Směr lze nastavit na *X*, *Y* nebo *Výchozí*, který změří nejkratší vzdálenost mezi těmito body. Alternativně lze zvolit směr *Úhel*, který zakreslí kótu pod vybraným úhlem.
+- **Určit směr, ve kterém se bude kóta zakreslovat.** Směr může být nastaven na ***X*, *Y*,** anebo ***Výchozí***, což změří nejkratší vzdálenost mezi body. Případně můžete zvolit směr ***Úhel***, který zakreslí kótu ve zvoleném úhlu.
 
-- Poslední možností při úpravě kóty je **tlačítko Pokračovat**, které vygeneruje další kótu ve stejném směru.
+- Poslední možností v úpravě kóty je tlačítko **Pokračovat**, které vygeneruje další kótu ve stejném směru.
 
-**💡** Pokud chcete **upravit libovolný bod přidané kóty**, stačí **kliknout na kótu** a přesouváním žlutých bodů ji upravovat.
+> **💡** Pokud chcete **upravit jakýkoliv bod u přidané kóty**, stačí **kliknout na kótu** a pohybem žlutých bodů již kótu upravujete**.**
 
 ![Úprava výkresu](img/drawingsDimensionsProperties.png)
+>
 
 
-**❓Kde najdu a stáhnu vygenerované výkresy?**\
-Po vygenerování a úpravách jsou výkresy automaticky zařazeny do výstupů. Vraťte se do hlavního levého menu:
+**❓Kde mohu najít a stáhnout vygenerované výkresy?**\
+Po vygenerování a případné úpravě jsou výkresy automaticky zahrnuty do výstupů. Vraťte se zpět do hlavního levého menu:
 
-- Přejděte na **Drawings ⇒ Assemblies** v hlavním levém menu. Zde můžete výkresy dále upravovat - například: přidat kóty, přidat popisky nebo změnit název a měřítko v záložce **Vlastnosti**.
+- Přejděte do **Výkresy ⇒ Sestavy** v hlavním levém menu. Zde můžete výkresy dále upravovat – například: přidat kóty, popisky nebo změnit název a měřítko v záložce **Vlastnosti**.
 
-- Můžete je **stáhnout** přes oranžové **tlačítko Reports ⇒ Sheeting BOM**, kde jsou výkresy zahrnuty.
+- **Stáhnout je můžete** pod oranžovým **tlačítkem Zprávy ⇒ Krytiny BOM**, kde jsou výkresy zahrnuté.
 
-- Když jste v konkrétním výkresu, můžete jej stáhnout jako PDF pomocí tlačítka s kamerou a poté jej vytisknout do PDF.
+- Když jste v konkrétním výkresu, můžete jej stáhnout jako PDF pomocí tlačítka fotoaparátu a následně vytisknout do PDF
 
-⚠️ ***Poznámka:** Některé funkce jako **tlačítka Control a Edit** jsou přístupné pouze v **pokročilém režimu**. Podívejte se na [**Průvodce nastavením**](13_settings.md) pro instrukce, jak odemknout všechny funkce.*
+⚠️ ***Poznámka:** Některé funkce jako **Ovládací** a **Editační tlačítka** jsou dostupné pouze v **Pokročilém režimu**. Podívejte se na [**Průvodce nastavením**](13_settings.md) *pro instrukce k odemčení všech funkcí.*
 
 ![Úprava výkresu](img/buttonsdrawings2.png)
 
-**👉 Zpět na článek [*Jak pracovat s nabídkou Sheeting*](8_sheeting_menu.md)**
+**👉 Zpět na článek  [*Jak pracovat s menu Krytina*](8_sheeting_menu.md)**
 
-**👉 [*Vrátit se na hlavní článek*](index.md)**
+**👉 [*Zpět na hlavní článek*](index.md)**
