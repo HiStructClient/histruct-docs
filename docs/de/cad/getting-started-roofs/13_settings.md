@@ -1,35 +1,35 @@
 ---
 sourceLang: en
-sourceHash: e44ff1fdcdfac57e3b696c37cff8f0f4
+sourceHash: ff38b70ad38bbd559711e1821f175cee
 autoTranslated: true
 ---
 
-# ⚙️Einstellungen – Passen Sie Ihren Modellierraum an
+# ![](./media/media/image3.png)⚙️Einstellungen - Passen Sie Ihren Modellierungsbereich an
 
-HiStruct ist auf Flexibilität ausgelegt und ermöglicht es Ihnen, das Modelliererlebnis an Ihre Bedürfnisse anzupassen. Mit der **Schaltfläche** **Einstellungen** im linken Seitenmenü können Sie Modellierfunktionen anpassen und Parameter im Modellierraum einstellen.
+HiStruct ist für Flexibilität konzipiert und ermöglicht es Ihnen, das Modelliererlebnis an Ihre Bedürfnisse anzupassen. Über den **Einstellungen** **Button** im linken Menü können Sie Modellierfunktionen anpassen und Parameter im Modellierungsbereich einstellen.
 
 **Einstellungen Schritt für Schritt**
 
 **Eingabe: Sie können zwischen zwei Modi wählen:**
 
-- **Basic**: Ein vereinfachter Satz an Werkzeugen und Funktionen für schnelleres Modellieren – perfekt für unkomplizierte Projekte oder wenn Sie zügig arbeiten möchten.
+- **Basic**: Ein vereinfachtes Set an Werkzeugen und Funktionen für schnelleres Modellieren – perfekt für einfache Projekte oder wenn Sie zügig arbeiten möchten.
 
-- **Advanced**: Schaltet alle verfügbaren Funktionen frei und bietet volle Kontrolle über jeden Aspekt des Modellierraums. Ideal für komplexe Projekte oder detaillierte Anpassungen.
+- **Erweitert**: Schaltet alle verfügbaren Funktionen frei und gibt Ihnen die volle Kontrolle über alle Aspekte des Modellierungsbereichs. Ideal für komplexe Projekte oder detailreiche Anpassungen.
 
 **Szeneneinstellungen**
 
-- **Geländeoberfläche**: Wählen Sie das Erscheinungsbild des umliegenden Geländes im Modellierraum aus.
+- **Geländeoberfläche**: Wählen Sie das Aussehen des umgebenden Geländes im Modellierungsbereich.
 
-- **Automatische Bemaßung**: Aktivieren Sie die Planbemaßung des Objekts, damit sie automatisch gerendert wird. Sie können deren Anzeige später manuell über die Schaltflächen auf der rechten Seite des Bildschirms steuern.
+- **Automatische Bemaßung**: Aktivieren Sie die automatische Anzeige der Planmaße des Objekts. Später können Sie deren Darstellung manuell über die Buttons auf der rechten Seite des Bildschirms steuern.
 
-- **Skalierung der Hinzufügen-Schaltflächen**: Passen Sie die Größe der Schaltflächen an, die auf dem Modell platziert sind.
+- **Skalierung der Hinzufügen-Buttons**: Passen Sie die Größe der Buttons an, die auf dem Modell platziert sind.
 
-- **Größe des LCS-Symbols einfügen**: Passen Sie die Größe der Koordinatensystem-Markierung im Modell an.
+- **Symbolgröße des eingefügten KOS**: Passen Sie die Größe des Koordinatensystem-Markers im Modell an.
 
 **Projektdaten**
 
-Projektdaten werden – sofern angegeben – vom Projektstandort geladen, wodurch sichergestellt wird, dass alle relevanten Informationen automatisch auf Ihr Modell angewendet werden.
+Die Projektdaten werden vom Projektstandort geladen (sofern angegeben), sodass alle relevanten Informationen automatisch auf Ihr Modell angewendet werden.
 
-**💡 Das Umschalten zwischen Basic- und Advanced-Modus ermöglicht es Ihnen, je nach Komplexität Ihres Projekts ein Gleichgewicht zwischen Geschwindigkeit und Funktionsumfang zu finden. Kombinieren Sie dies mit automatischen Updates für Zeichnungen, Stücklisten und Berichte – und Sie erhalten einen Workflow, der schnell, präzise und vollständig anpassbar ist.**
+**💡 Das Umschalten zwischen Basic und Erweitert ermöglicht Ihnen, Geschwindigkeit und Funktionalität je nach Komplexität Ihres Projektes auszubalancieren. Kombinieren Sie dies mit automatischen Aktualisierungen von Zeichnungen, Stücklisten und Berichten, und Sie erhalten einen Workflow, der schnell, präzise und vollständig anpassbar ist.**
 
 **👉 [*Zurück zum Hauptartikel*](index.md)**

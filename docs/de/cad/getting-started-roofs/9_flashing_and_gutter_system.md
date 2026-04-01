@@ -1,81 +1,78 @@
 ---
 sourceLang: en
-sourceHash: b52b0507f8a17a8828e4e03d697c673f
+sourceHash: e37e2a609c4acb25f6124a8b62d3a730
 autoTranslated: true
 ---
 
-# 🌧️ Ortgang- und Rinnensystem – Die Details meistern
+# 🌧️ Dachanschluss- und Rinnensystem – Die Details meistern
 
- In Histruct werden Ortgänge und das Rinnensystem automatisch generiert. Im Menü **Flashing** können Sie einzelne Elemente des Ortgang- und Rinnensystems bearbeiten, einschließlich Material und Farbe.
+> In HiStruct werden Dachanschluss- und Rinnensystem automatisch generiert. Im **Dachanschlüsse**-Menü kannst du einzelne Elemente des Anschluss- und Rinnensystems, einschließlich Material und Farbe, bearbeiten.
+>
+> **💡 Änderungen können auf zwei Arten vorgenommen werden:**
 
- **💡Anpassungen können auf zwei Arten vorgenommen werden:**
-
-- Gruppen über die Schaltflächen auf der linken Seite bearbeiten
+- Gruppen bearbeiten mit den Schaltflächen auf der linken Seite
 
 - Einzelne Elemente direkt im 3D-Modell bearbeiten
 
- ⚠️ ***Hinweis:** Bestimmte Funktionen wie **Control** und die **Edit-Schaltflächen** sind nur im **Advanced mode** zugänglich. Siehe die [**Einstellungsanleitung**](13_settings.md)* *für Anweisungen zum Freischalten aller Funktionen.*
+> ⚠️ ***Hinweis:** Bestimmte Funktionen wie **Steuerung** und **Bearbeiten-Schaltflächen** sind nur im **Erweiterten Modus** verfügbar. Schau in die [**Einstellungen-Anleitung**](13_settings.md) für Hinweise, wie du alle Funktionen freischalten kannst.*
 
-## 1️⃣Gruppen von Elementen über die Schaltflächen links bearbeiten
+## 1️⃣ Bearbeiten von Elementgruppen über die Schaltflächen auf der linken Seite
 
- Auf der linken Seite des Bildschirms finden Sie spezielle Schaltflächen für jede Gruppe von Ortgang-Elementen. Durch Auswahl einer dieser Schaltflächen können Sie Material und Farbe der gesamten Gruppe auf einmal ändern. Die Anzahl der aufgeführten Ortgang-Gruppen hängt vom jeweiligen Dachmodell und seiner Geometrie ab.
+> Auf der linken Seite des Bildschirms findest du eigene Schaltflächen für jede Gruppe von Anschluss-Elementen. Wenn du eine dieser Schaltflächen auswählst, kannst du das Material und die Farbe der gesamten Gruppe gleichzeitig ändern. Die Anzahl der aufgeführten Anschluss-Gruppen hängt vom jeweiligen Dachmodell und seiner Geometrie ab.
+>
+>**Typisch verfügbare Gruppen sind:**
 
-**Verfügbare Gruppen umfassen typischerweise:**
+- Ortgang
 
-- Ortgangblech
+- Rinne
 
-- Dachrinne
+- Tropfkante
 
-- Tropfblech
+- Firstanschluss
 
-- Firstabdeckung
-
-- ... und mehr, abhängig von Ihrem Modell.
+- ... und weitere, je nach deinem Modell.
 
 
- 💡 Alle von Ihnen vorgenommenen Änderungen werden auf jedes Element innerhalb der ausgewählten Gruppe angewendet. So können Sie Ihr DachdDesign schnell und effizient konsistent halten.
+> 💡 Alle Änderungen, die du vornimmst, werden auf jedes Element innerhalb der ausgewählten Gruppe angewendet. So kannst du dein Dachdesign schnell und effizient einheitlich gestalten.
 
 ## 2️⃣ Einzelne Elemente direkt im Modell bearbeiten
 
- Für maximale Flexibilität können Sie Elemente einzeln bearbeiten, indem Sie sie direkt im 3D-Modell anklicken. Sobald ein Element ausgewählt ist, öffnet sich das *Flashing-Panel*, in dem Sie Folgendes können:
+> Für maximale Flexibilität kannst du einzelne Elemente bearbeiten, indem du sie direkt im 3D-Modell anklickst. Ist ein Element ausgewählt, öffnet sich das *Dachanschlüsse-Panel*, wo du Folgendes tun kannst:
 
-- **Das Element verlängern** um eine bestimmte Länge, entweder vom Anfang oder vom Ende aus.
+- **Das Element verlängern** um eine bestimmte Länge, entweder am Anfang oder am Ende.
 
-- **Material oder Farbe ändern** über die in der Galerie verfügbaren Optionen.
+- **Material oder Farbe ändern** mit den verfügbaren Optionen in der Galerie.
 
 
-- **Den Ortgang-Typ anpassen**, falls die automatische Erkennung fehlschlägt.
+- **Dachanschluss-Typ anpassen**, falls die automatische Erkennung fehlschlägt.
 
- Diese Methode ist perfekt, wenn Sie kleine Details feinjustieren oder unterschiedliche Einstellungen auf einzelne, besondere Bereiche des Dachs anwenden möchten.
+> Diese Methode eignet sich perfekt, wenn du kleine Details präzise anpassen oder einzelne Bereiche des Dachs unterschiedlich behandeln möchtest.
 
 ![Editing Flashing](img/9Flashing.png)
 
+## Geometrie der Rinne anpassen
 
-## Anpassen der Rinnengeometrie
+> Zusätzlich zum automatisch generierten Anschluss- und Rinnensystem bietet dir HiStruct erweiterte Bearbeitungsmöglichkeiten für Rinnen und Fallrohre. Du kannst diese wie jedes andere Anschluss-Element bearbeiten – klicke einfach auf eine Rinne im 3D-Modell und das **Dachanschlüsse-Panel** öffnet sich. Von dort aus kannst du das Rinnensystem einfach an die exakten Anforderungen deines Projekts anpassen.
 
- Zusätzlich zu den automatisch generierten Ortgängen und dem Rinnensystem bietet HiStruct erweiterte Bearbeitungsoptionen für Dachrinnen und Fallrohre. Sie können sie wie jedes andere Ortgang-Element bearbeiten – klicken Sie einfach im 3D-Modell auf eine Rinne, und das **Flashing-Panel** öffnet sich. Von dort aus können Sie das Rinnensystem leicht an die genauen Anforderungen Ihres Projekts anpassen.
+- **Abstand zur Wand ändern:** Du kannst den Abstand des Fallrohrs verändern, um z.B. Bögen hinzuzufügen und die Rinne näher an die Wand zu bringen.
 
-- **Abstand zur Wand ändern:** Sie können den Abstand des Fallrohrs ändern, sodass Sie Bögen hinzufügen und die Rinne näher an die Wand bringen können.
+- **Fallrohr verlängern:** Das Fallrohr kann entweder über das Dialogfeld oder durch Ziehen der grünen Punkte am Fallrohr verlängert werden.
 
-- **Fallrohr verlängern**: Das Fallrohr kann entweder über das Dialogfeld oder durch einfaches Ziehen der grünen Punkte am Fallrohr verlängert werden.
+- **Position der Rinne ändern** – Drag & Drop – Die Position der Rinne kann leicht verändert werden, indem du die Rinne auswählst und dann einfach mit der Maus verschiebst.
 
-- **Position der Rinne ändern** – Drag-and-drop – Sie können die Position der Rinne auch einfach ändern, indem Sie die Rinne auswählen und sie dann mit der Maus verschieben.
-
- Diese flexible Bearbeitung stellt sicher, dass das Rinnensystem exakt zu den Anforderungen Ihres Gebäudes passt.
+> Durch diese flexiblen Bearbeitungsmöglichkeiten passt das Rinnensystem genau zu den Anforderungen deines Gebäudes.
 
 ## Ein Fallrohr hinzufügen
 
- In HiStruct werden Fallrohre automatisch generiert, um einen ausreichenden Abfluss aus der Dachrinne sicherzustellen. Wenn Sie jedoch möchten, können Sie ein zusätzliches Fallrohr hinzufügen:
+> In HiStruct werden Fallrohre automatisch generiert, um einen ausreichenden Ablauf aus der Rinne zu gewährleisten. Falls du jedoch ein zusätzliches Fallrohr benötigst, kannst du es wie folgt hinzufügen:
 
-1.  Klicken Sie auf die **Plus-Schaltfläche**
+1.  Klicke auf die **Plus-Schaltfläche**
 
-2.  Ein neues Fallrohr wird zur ausgewählten Rinne hinzugefügt
+2.  Ein neues Fallrohr wird an der ausgewählten Rinne hinzugefügt
 
-3.  Sie können das neu erstellte Fallrohr anschließend weiter verschieben und es auch bearbeiten, indem Sie es wie jedes andere Ortgang-Element anklicken.
+3.  Du kannst das neu erstellte Fallrohr weiter verschieben und außerdem bearbeiten, indem du es wie jedes andere Anschlusselement anklickst.
 
 
 ![Dowspout editing](img/Gutter.png)
 
-
-
- **Und das war’s! Ihr Modell ist fast fertig! In den nächsten Schritten können Sie mit dem Hinzufügen von Fenstern und anderen Öffnungen fortfahren. 👉 Weiter zu [nächsten Schritten](10_openings.md)**.
+> **Und das war's! Dein Modell ist fast fertig! Im nächsten Schritt kannst du Fenster und andere Öffnungen hinzufügen. 👉 Weiter zu den [nächsten Schritten](10_openings.md)**.

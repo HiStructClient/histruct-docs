@@ -1,75 +1,75 @@
 ---
 sourceLang: en
-sourceHash: 9541f67b142f95c0abbeba45be7d5a45
+sourceHash: 1ca4f660b4fa493281cd7223ede2939a
 autoTranslated: true
 ---
 
-# 🛠️ Schnelle und einfache Anpassung der Verlegung
+# 🛠️ Schnelle und einfache Anpassung der Eindeckung
 
-HiStruct Roofs platziert das ausgewählte Dachdeckungsmaterial automatisch entlang der ebenen Fläche. **Nach der Generierung können die Streifen nach Bedarf geändert und angepasst werden.**
+HiStruct Roofs platziert das ausgewählte Dachmaterial automatisch entlang der ebenen Fläche. **Nach der Generierung können die Bahnen nach Bedarf angepasst und bearbeitet werden.**
 
-**💡 Um zu sehen, wie einzelne Streifen angeordnet sind**, gehe zum **Sheeting**-**Menü** ⇒ klicke auf die **Schaltfläche „Edit“** für die Dachdeckungsschicht, die direkt auf dem Dachmodell platziert wurde [siehe vorherige Anleitung](8_sheeting_menu.md) ⇒ und drücke die **Schaltfläche „Tiling“** im linken Seitenmenü.
+**💡 Um zu sehen, wie einzelne Bahnen angeordnet sind**, gehen Sie ins **Eindeckungs**-**Menü** ⇒ klicken Sie auf das **Bearbeiten**-Symbol für die direkt auf das Dachmodell platzierte Dachdeckungsschicht [siehe vorherige Anleitung](8_sheeting_menu.md) ⇒ und drücken Sie die **Eindeckung**-Schaltfläche im linken Menü.
 
 ![Tiling](img/Tilling.png)
 
-⚠️ ***Hinweis:** Bestimmte Funktionen wie **Control** und **Edit-Schaltflächen** sind nur im **Advanced mode** zugänglich. Siehe die [**Settings-Anleitung**](13_settings.md)* *für Anweisungen zum Freischalten aller Funktionen.*
+⚠️ ***Hinweis:** Bestimmte Funktionen wie **Kontrolle** und **Bearbeiten-Buttons** sind nur im **Erweiterten Modus** verfügbar. Siehe die [**Einstellungen-Anleitung**](13_settings.md)* *für Anweisungen zum Freischalten aller Funktionen.*
 
-📌 **Du befindest dich nun im Bearbeitungsmodus. Du kannst:**
+📌 **Jetzt befinden Sie sich im Bearbeitungsmodus. Sie können:**
 
-- Die gesamte Verlegung bearbeiten
+- Die gesamte Eindeckung bearbeiten
 
-- Einzelne Streifen bearbeiten
+- Einzelne Bahnen bearbeiten
 
- **Verlegerichtung**
-
- Sie ist konfigurierbar; es stehen folgende Typen zur Auswahl:
+> **Verlegerichtung**
+>
+> Sie ist konfigurierbar, zur Auswahl stehen folgende Typen:
 
 - **positiv**
 
- ![Tiling from left.png](img/TilingFromLeft.png)
+> ![Tiling from left.png](img/TilingFromLeft.png)
 
 - **negativ**
 
- ![Tilling from right](img/TilingFromRight.png)
-- **die Dachplatte zentrieren**
+> ![Tilling from right](img/TilingFromRight.png)
+- **Fläche mittig ausrichten**
 
- ![Tilling center axis](img/tillingCenterAxis.png)
+> ![Tilling center axis](img/tillingCenterAxis.png)
 
-- **die Fuge zentrieren**
+- **Fuge mittig ausrichten**
 
- ![Tilling center edge](img/tillingCenterEdge.png)
+> ![Tilling center edge](img/TilingCenterEdge.png)
 
-- **allgemeine Festlegung des Verlegebeginns (Verlegung positiv + Abstand)**
+- **allgemeine Festlegung des Verlegebeginns (positiv verlegen + Abstand)**
 
- ![General tilling head start](img/generalTillingHeadStart.png)
+> ![General tilling head start](img/generalTillingHeadstart.png)
+>
+> **Der Winkel der Bahnenverlegung**
+>
+> **Er ist als positiver oder negativer Versatz von der Basislinie einstellbar.**
+>
+> ![Tilling angle](img/tillingAngle.png)
+>
+> **Jede einzelne Bahn**
 
- **Der Winkel der Verlegung der Streifen**
+- **deaktivieren (dann wird sie weder in Zeichnungen, im Detailmodell noch in Materialauswertungen berücksichtigt.)**
 
- **Er ist als positiver oder negativer Versatz zur Basislinie einstellbar.**
+> ![Individual panel switched off](img/individualPanelSwitchedOff.png)
 
- ![Tilling angle](img/tillingAngle.png){width="6.3in" height="3.2083333333333335in"}
+- **Überlappung verlängern oder verkürzen**
 
- **Jeder einzelne Streifen**
+> ![Individual panel extension options](img/individualPanelExtensionOptions.png)
 
-- **deaktivieren (dann wird er in Zeichnungen, im Detailmodell oder in Materialberichten nicht berücksichtigt.)**
+- **an geeigneten Stellen überlappen (gemäß dem Raster der Latten). Durch Klicken auf die markierten Unterteilungen über den Latten kann die Bahn geteilt oder, wenn sie bereits geteilt ist, wieder zusammengeführt werden.**
 
- ![Individual panel switched off](img/individualPanelSwitchedOff.png)
+> ![Individual panel splitting](img/individualPanelSplitting.png)
 
-- **die Überdeckung verlängern oder verkürzen**
-
- ![Individual panel extension options](img/individualPanelExtensionOptions.png)
-
-- **an geeigneten Stellen überlagern (gemäß dem Raster der Latten). Durch Klicken auf die markierten Teilungen oberhalb der Latten kann der Streifen geteilt oder – falls er bereits geteilt wurde – wieder zusammengeführt werden.**
-
- ![Individual panel splitting](img/individualPanelSplitting.png)
-
- **Verlängern oder Verkürzen von Paneelen an den Seiten**
-
- Für jede Seite des Dachpolygons kannst du die Verlängerung oder Verkürzung der Paneele festlegen, indem du auf die Schaltfläche oberhalb der Kante klickst.
-
- ![Tilling edge offset](img/tillingEdgeOffset.png)
+> **Verlängern oder Verkürzen der Bahnen an den Rändern**
+>
+> Für jede Seite des Dachpolygons können Sie die Verlängerung oder Verkürzung der Bahn einstellen, indem Sie auf die Schaltfläche über dem Rand klicken.
+>
+> ![Tilling edge offset](img/tillingEdgeOffset.png)
 
 
-**👉 Zurück zum Artikel  [*Wie man mit dem Sheeting-Menü arbeitet*](8_sheeting_menu.md)**
+**👉 Zurück zum Artikel  [*Arbeiten mit dem Eindeckungsmenü*](8_sheeting_menu.md)**
 
-**👉 [*Zurück zum Hauptartikel*](index.md)**
+**👉 [*Zur Hauptseite zurückkehren*](index.md)**

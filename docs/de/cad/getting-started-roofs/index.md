@@ -1,80 +1,121 @@
 ---
-sourceLang: cs
-sourceHash: 416bbf07b5108c0b7ebd028174620591
+sourceLang: en
+sourceHash: af050fc01015b10b51a71506fe46235a
 autoTranslated: true
 ---
 
-# HiStruct Dächer für Dachdecker
+# HiStruct Roofs für Dachdecker
 
-HiStruct ist eine Webanwendung, die eine einfache Zusammenarbeit oder das Teilen eines Projekts oder seiner Teile ermöglicht. Auf diese Weise können Sie dem Endkunden einen 3D-Modellblick auf das Dach ermöglichen, mit einem Kollegen oder einer Montagefirma an einem Projekt zusammenarbeiten.
-Es dient dem schnellen Erstellen von Angeboten, Materiallisten und Verlegeplänen für Dachdeckungen, Bleche, Randprofile und Dachrinnen. Das System bietet mehrere Eingabemodi, die die Effizienz bei der Arbeit an einem Projekt erhöhen.
+**HiStruct Roofs** ist eine webbasierte Anwendung, die entwickelt wurde, um professionelle Dachdecker-Angebote schnell und einfach zu erstellen. Sie erzeugt automatisch detaillierte Materialauszüge (Stücklisten) und Montagepläne für Dacheindeckungssysteme inklusive Dachdeckung, Anschlussbleche, Kantteile und Rinnenelemente. Die Plattform bietet mehrere Eingabemodi, um Projektabläufe zu optimieren und die Effizienz zu steigern.
 
-## Wie man ein Dachprojekt in HiStruct bearbeitet?
+HiStruct unterstützt zudem nahtlose Zusammenarbeit und Projektfreigabe. Ob Sie einem Endkunden eine 3D-Dachmodell-Vorschau bereitstellen oder gemeinsam mit einem Kollegen oder einem Montagebetrieb an einem Entwurf arbeiten – das System erleichtert das Teilen kompletter Projekte oder ausgewählter Teile mit anderen ganz erheblich.
 
-1. Ich lege ein Projekt an, mit oder ohne Karte.
-1. Ich modelliere Dachflächen durch Nachzeichnen oder mit Hilfe des Generators.
-1. Ich bearbeite die generierte Verlegung.
-1. Ich wähle Randprofile und das Dachrinnensystem aus oder lasse es automatisch generieren.
-1. Ich erhalte Stücklisten, Dokumente, Zeichnungen.
+**❓Wie bearbeite ich eine Dachanfrage in HiStruct?**
 
-Fertig, ich mache eine Kaffeepause 😊
+1.  Projekt erstellen [mit oder ohne Karte](1_new_project.md)
 
-HiStruct ist umfassend anpassbar. Das Verlegungssystem für Dachformsteine, Randprofile, Bleche und das Dachrinnensystem ist für jeden spezifischen Hersteller in separaten Konfigurationsdateisätzen eingestellt. Es enthält Informationen dazu, wie die Dachfläche mit Formsteinen verlegt werden muss, mögliche Farbkombinationen, Materiallisteninformationen und mehr. Diese und weitere Anpassungen werden im Rahmen des [Anpassungsprojekts](customisationProject.md) durchgeführt.
+2.  Dach modellieren
 
-## Nun etwas detaillierter...
+3.  Eindeckung auswählen
 
-### 1. Ich lege ein Projekt an, mit oder ohne Karte
+4.  Automatisch generierte Anschlussbleche und das Rinnensystem anpassen
 
-Ich bearbeite eine neue Anfrage. Das Erste, was ich tun möchte, ist ein neues Projekt anzulegen. Ein Projekt ist ein Ort, der eine oder mehrere Komponenten enthalten kann - 3D-Modelle, also Konfigurationen, Varianten oder Teile. Die Projektseite hat zwei Ansichten. Der Standardansicht zeigt die angelegten Projekte mit den Komponenten. Wenn ich auch Standorte für das Projekt speichern möchte, kann ich die Kartenansicht für Projekte nutzen, um Standorte auf der Karte einzugeben.
+5.  Fenster und weitere Öffnungen hinzufügen
 
-### 2. Modellierung der Dachflächen
+6.  Mit nur wenigen Klicks erhalten Sie Stücklisten, Dokumente, Zeichnungen und Angebote
 
-In der Regel beginnen wir mit der **Auswahl des Dachdeckungstyps, der Randprofile und des Dachrinnensystems** (die später geändert werden können) aus den Bibliotheken. Es folgt die Modellierung des Dachmodells aus den einzelnen Dachflächen oder mithilfe fortschrittlicherer Modellierungsmethoden. Die geeignete Modellierungsmethode hängt von den verfügbaren Unterlagen für die spezifische Anfrage ab. Es gilt, je hochwertiger die Unterlagen sind, desto effizienter kann der eigentliche Modellierungsprozess durchgeführt werden.
+**Fertig, Zeit für einen Kaffee ☕**😊
 
-#### **😊 Ich habe nur ein paar Skizzen mit Maßen**
+HiStruct ist umfangreich anpassbar. Das System zur Verlegung von Dacheindeckungen, Anschlussblechen und Dachrinnen wird für jeden einzelnen Hersteller in einem separaten Satz von Konfigurationsdateien eingerichtet. Diese enthalten Informationen zur Verlegung der Dachfläche mit Dachdeckung, möglichen Farbkombinationen, Angaben zur Stückliste und mehr. Diese und weitere Anpassungen werden im [Customisation-Projekt](18_customisationProject.md) vorgenommen.
 
-Wenn die Form des Daches einfach ist, kann sie durch das [Modellieren](modellingRoofs.md) von Dachflächen mit vorgegebenen Formen eingefügt werden oder ein allgemeines Dachflächenmodell im Modellierungsraum erstellt werden. Im allgemeinen Eingabemodus werden Trassierungen und andere bekannte Eingabewerkzeuge verwendet, ähnlich wie in anderen CAD-Programmen. Wenn der Neigungswinkel bekannt ist, können die Dachflächen gedreht und im Raum verschoben werden, um der tatsächlichen Dachform zu entsprechen. Wenn es gelingt, das Dach im Raum mit ausreichender Genauigkeit zusammenzustellen, kann der [Generátor lemovky a okapového systému](roofFlashingGenerator.md) verwendet werden.
+**👉 Schauen wir uns den gesamten Ablauf genauer an:**
 
-#### **😊😊 Ich habe einen Vektorgrundriss des Daches**
+## Neues Projekt erstellen
 
-Wenn ich einen Vektorgrundriss zur Verfügung habe, ist die Modellierung einfacher. In HiStruct können Dateien im *.dxf-Format importiert werden, oder vektorielle *.pdf-Dateien können in *.dxf umgewandelt und in HiStruct importiert werden. Importierte *.dxf ermöglichen einfaches Anhängen und Eingeben einzelner Dachflächen durch Anklicken des Grundrisses mit der Möglichkeit, den Neigungswinkel für jede Dachfläche hinzuzufügen. Der Vorteil liegt in der Präzision und der einfachen Erstellung des 3D-Modells. Fast immer kann der [Generátor lemovky a okapového systému](roofFlashingGenerator.md) verwendet werden.
+Wenn Sie eine neue Anfrage bearbeiten, erstellen Sie zunächst ein neues Projekt. Ein **Projekt** ist ein Ort, an dem ein oder mehrere **Komponenten** – also 3D-Modelle, Konfigurationen, Varianten oder Teile – enthalten sein können. Die Projektseite bietet zwei Ansichten:
 
-#### **😊😊😊 Ich habe nur den Umriss und muss das Dach entwerfen**
+- Die **Tabellenansicht** (Standardansicht) ist eine einfache Liste aller angelegten Projekte mit den zugehörigen Komponenten. Sie gibt Ihnen einen klaren Überblick über alle Projekte. Perfekt, um Notizen hinzuzufügen, Projektstatus zu prüfen und Inhalte zu teilen.
 
-Wenn es sich beispielsweise um ein völlig neues Dach handelt, bei dem Sie nur den Umriss haben, können Sie in HiStruct ein innovatives Tool verwenden, das automatisch die endgültige Dachform, die Neigungen der einzelnen Flächen, die Randprofile und das Dachrinnensystem vorschlägt. Für diesen Vorgang können selbstverständlich Dateien im *.dxf-Format importiert werden, oder vektorielle *.pdf-Dateien können in *.dxf umgewandelt und [in HiStruct importiert werden](importDxf.md).
+- Die **Kartenansicht** ist ideal, wenn Sie Projekte nach ihrem Standort anzeigen möchten. Noch besser: Sie können ein 3D-Modell Ihres Gebäudes direkt auf der Karte platzieren und sehen, wie es sich in die Umgebung einfügt.
 
-#### **😊😊😊😊 Ich habe ein 3D-Modell aus einem digitalen Scan**
+**👉 Wir empfehlen, je nach Bedarf beide Ansichten zu kombinieren.**
 
-Ein 3D-Modell aus einem digitalen Scan ist ein Gewinn. Wenn Sie dieses Modell in einem geeigneten Format haben (3D *.pdf oder direkt *.obj), können Sie die Geometrie direkt importieren. In HiStruct können Sie [*.obj importieren](importObj.md) oder 3D *.pdf-Dateien in *.obj konvertieren und [in HiStruct importieren](importObj.md).
+**👉 Weitere Informationen finden Sie im Artikel [Wie man ein neues Projekt startet](1_new_project.md).**
 
-Nach dem Import bietet HiStruct erkannte Flächen, aus denen Sie auswählen können, wie sie in HiStruct-Geometrie umgewandelt werden sollen. Der [Flächengenerator](roofPolygonGenerator.md) wandelt sie dann in Dach- oder Wandflächen um, an denen Sie dann wie gewohnt weiterarbeiten können.
+## 🏠 Dachmodellierung 
 
-Nachdem die Dachflächen erzeugt wurden, kann ich noch den [roofFlashing Generator](roofFlashingGenerator.md) verwenden. Diese Art der Eingabe ist nahezu arbeitsfrei.
+In HiStruct können Sie ein Dach auf verschiedene Arten modellieren. Jede Methode hat ihre eigenen Vorteile und eignet sich für unterschiedliche Situationen. **Die am besten geeignete Modellierungsweise hängt von den vorhandenen Referenzunterlagen des jeweiligen Projekts ab.** Im Allgemeinen gilt: Je besser die Eingangsdaten, desto effizienter verläuft die Modellierungsphase. Die gute Nachricht? Sie benötigen keine perfekten Zeichnungen – selbst eine Handskizze reicht für den Anfang aus.
 
-### 3. Verlegung der Dacheindeckung
+**Wählen Sie den Weg, der am besten zu Ihrem Projekt passt:**
 
-Die Bibliotheken für Dacheindeckung und Eindeckung bedeuten für uns nicht nur Größe und Farbe, sondern die gesamte Vorgehensweise bei der Verlegung bestimmter Dachflächen. Dank des Variablengenerators sind wir in der Lage, das spezifische Verlegeverfahren für die Dacheindeckung eines bestimmten Herstellers in die Bibliothek einzugeben. Wir tun dies im Rahmen eines [Anpassungsprojekts] (customisationProject.md). Ein gut gestalteter Generator eliminiert dann die notwendigen Eingriffe in den automatischen Verlegeprozess.
+- **Ich möchte ein Modell eines einfachen Daches mit Standardform erstellen und habe die Maße vorliegen**
 
-Das [RoofPolygonTilling](roofPolygonTillingOptions.md) erfolgt automatisch nach den Konfigurationseinstellungen der Dacheindeckung. Es ist auch möglich, den Beginn des Verlegevorgangs anzupassen, um einen möglichst kleinen Schnitt zu erzielen. Die Information über das Verhältnis des Schnittes zur Dachfläche wird während der Verlegeänderung angezeigt.
+> 😊 Verwenden Sie eine unserer **Vorlagen** – HiStruct bietet eine breite Auswahl vorgefertigter Vorlagen mit den gängigsten Dachformen. Ideal zum Modellieren von Dächern mit Standardform.
+>
+> **👉 *Wie starte ich mit einer Vorlage? [Siehe diesen Artikel](2_start_with_template.md)***.
 
-### 4. wie verwendet man das Dachrinnen- und Eindecksystem?
+- **Ich habe eine Handskizze oder eine Vektorgrafik**
 
-Natürlich können [Eindeckrahmen, Eindeckrahmen](roofFlashingOptions.md) und [Dachrinnensystem](roofFlashingGutterOptions.md) an beliebiger Stelle im Raum angegeben werden, indem man auf bereits angegebene Dachflächen, importierte Geometrie oder andere Objekte zurückgreift. Darüber hinaus ist es möglich, das Hinzufügen von Kanten zu einzelnen Seiten von Dachebenen oder direkt zum [Generator über eine Gruppe von Dachebenen](roofFlashingGenerator.md) zu verwenden. Für die generierten Elemente wird die Neigung der zugehörigen Dachebenen automatisch angepasst, wodurch die Biegewinkel der Eindeckrahmen und Haken des Traufsystems korrekt eingestellt werden.
+> 😊😊 In diesem Fall können Sie **die Dachform aus einer Umrisslinie generieren oder per Flächen modellieren**. Haben Sie eine Vektorgrafik, sind Sie schon auf halbem Weg! HiStruct unterstützt den Import von Dateien im \*.dxf-Format, und Sie können ein vektorbasiertes PDF mühelos in \*.dxf umwandeln. Vorteil: höhere Präzision und ein reibungsloses 3D-Model-Erlebnis.
+>
+> **👉 *Wie generiere ich ein Dach aus einer Umrisslinie? [Siehe diesen Artikel](3_generate_from_DXF.md)***.
+>
+> **👉 *Wie konvertiere ich PDF zu DXF? [Siehe diesen Artikel](4_PDF_to_DXF.md)***.
 
-HiStruct enthält umfangreiche [Rinnensystemeinstellungen](roofFlashingGutterOptions.md) Optionen. Durch Angabe einer Polylinie, die die nachgelagerte Dachrinne definiert, kann die Dachrinnenneigung eingestellt werden. Für jeden Teil der Rinne wird auch die Neigung der nachgelagerten Dachebene festgelegt, um die korrekte Berechnung der Bogen- und Hakenlänge zu ermöglichen. Es ist möglich, jedem Rinnenabschnitt Klammern hinzuzufügen, die zusätzliche [Einstellungsoptionen] haben (roofFlashingGutterOptions.md).
+- **Ich habe ein Modell aus einer digitalen Vermessung**
 
-### 5. Teile, Dokumente, Zeichnungen... einfache Ausgaben
+> 😊😊😊 Das ist der Jackpot! Nutzen Sie **Satellitenvermessung (Remote-Import der Geometrie) oder jedes andere 3D-Modell**. Falls Ihr Dachmodell in einem kompatiblen Format (wie 3D-PDF oder direkt als \*.obj-Datei) vorliegt, können Sie die Geometrie direkt in HiStruct importieren.\
+> Unterstützte Formate: \*.obj-Dateien oder konvertierte 3D-PDFs.
+>
+> **👉 *Wie verwende ich ein OBJ-Modell, um das Dach automatisch zu erzeugen? [Siehe diesen Artikel](5_OBJ_model.md)***
+>
+> **👉 *Wie konvertiere ich PDF zu DXF? [Siehe diesen Artikel](5_OBJ_model.md)***.
 
-**Skizze**
-Die [Stückliste](roofBom.md) wird automatisch aus den in den Modellraum eingefügten Dachteilen erstellt. Die einzelnen Teile des Modells haben neben sich die Information, aus welchen Teilen sie entstanden sind, mit der Möglichkeit, die Nummer zu bearbeiten und eventuell weitere Teile hinzuzufügen.
+💡**So konvertieren Sie Ihre eigenen Modelle und Zeichnungen zur Verwendung in HiStruct**
 
-Die Art und Weise, wie die Stückliste erzeugt wird, kann dann innerhalb des [Anpassungsprojekts](customisationProject.md) geändert werden.
+Die meisten von uns haben Baupläne im PDF-Format und 3D-Modelle in verschiedensten Formaten – aus BIM-Software, Drohnenvermessungen oder Satellitendaten. **Die gute Nachricht:** Sie können diese ganz einfach in **DXF**- und **OBJ**-Dateien umwandeln – diese werden in HiStruct unterstützt. Nach der Umwandlung genügt ein Upload per Mausklick – und schon steht Ihnen Ihr präzises, vollautomatisch erzeugtes Dachmodell zur Verfügung. Kein Aufwand, keine Neuzeichnung, einfach schnelle Ergebnisse. Siehe Anleitung:
 
-**Angebot**
-Die generierte Stückliste kann zusammen mit einem Link zur Preisliste des Herstellers Teil des [Angebotes](roofQuote.md) sein. Das Angebot kann aber auch ohne die Stückliste erstellt werden. Die Methode zur Erstellung des Angebots kann dann innerhalb des [Anpassungsprojekts](customisationProject.md) geändert werden.
+- [So konvertieren Sie PDF in DXF zur Nutzung in HiStruct](4_PDF_to_DXF.md)
 
-**Pläne**
-Die [Layout-Zeichnungen](roofPolygonTillingDrawing.md) werden automatisch aus der angegebenen Geometrie und den vom Benutzer vorgenommenen Änderungen erstellt. Falls erforderlich, können der Zeichnung zusätzliche Notizen oder Anmerkungen hinzugefügt werden.
+- [Einfache Umwandlung von 3D-Modellen aus PDF in OBJ](6_PDF_to_OBJ.md)
 
-![Beispiel einer Dachfräszeichnung](img\roofTillingPlane1.png)
-![Beispiel einer Dachdeckerzeichnung](img\roofTillingPlane2.png)
+<span id="roofing"></span>
+## 🧱 Dachdeckung (Eindeckung)
+
+Nachdem Sie die Dachgeometrie festgelegt haben, geht es weiter in das **Eindeckungs-Menü**. Die Dachdeckung wird automatisch generiert, aber im **Eindeckungs-Menü** haben Sie die Kontrolle: **Sie können den Typ des Dachaufbaus festlegen**, **die Dacheindeckung aus der [Bibliothek](7_flashing_libraries.md) auswählen** und **auch die Sekundärdachkonstruktion bestimmen**.
+
+Für jede Dachfläche können Sie die **Verlegeparameter** (Richtung, Winkel und Versatz für die Platzierung der Dachelemente ab der Dachkante) individuell einstellen, **eine Stückliste aller Dachpositionen generieren** und sogar **eine editierbare Zeichnung der Dachkonstruktion erstellen**.
+
+**👉 Wie arbeitet man Schritt für Schritt mit dem Eindeckungs-Menü? [Siehe diesen Artikel](8_sheeting_menu.md).**
+
+## 🌧️ Anschlussblech- & Rinnensystem
+
+Sobald Ihre Dachgeometrie und Eindeckung abgeschlossen sind, geht es an die Details. Die Integration von Anschlussblechen und Dachrinnen ist ein wichtiger Schritt für eine hochwertige Dachkonstruktion. In HiStruct werden diese Elemente automatisch vom integrierten [Generator für Anschlussbleche und Dachrinnen](17_roofFlashingGenerator.md) erstellt. Sie haben also sofort ein komplettes System verfügbar. Doch jedes Projekt ist einzigartig – darum können Sie die automatisch generierten Elemente an Ihre Anforderungen anpassen. Ob Anpassung der Blechart, Materialwechsel oder Feinanpassung der Anordnung: In HiStruct steuern Sie jedes Detail präzise.
+
+**👉 Wie bearbeitet man Anschlussbleche und das Rinnensystem Schritt für Schritt? [Siehe diesen Artikel](9_flashing_and_gutter_system.md)**.
+
+## 🪟 Öffnungen – Fenster, Dachfenster & mehr hinzufügen
+
+Der letzte Schliff für Ihr Modell sind die Öffnungen. Diese können Sie schnell und intuitiv im **Öffnungen-Menü** hinzufügen. Hier können Sie unterschiedliche Öffnungen in einzelnen Dachflächen erzeugen und bearbeiten – zum Beispiel Fenster, Dachflächenfenster oder Lüftungsöffnungen. Mit dem **Steuerbutton** lassen sich neue Öffnungen einfügen, Maße anpassen, Positionen ändern und alles direkt im 3D-Modell feinjustieren. Voreingestellte Farboptionen sowie Messwerkzeuge helfen, Ihr Design präzise, übersichtlich und konsistent zu halten.
+
+👉 **So einfach geht’s! Wie Sie mit dem Öffnungen-Menü arbeiten, [siehe diesen Artikel](10_openings.md)**.
+
+## 📐 Zeichnungen, Dokumente, Stücklisten... kurz: Ausgaben
+
+Sobald Ihr 3D-Modell fertiggestellt ist, steht die Ausgabe an – alles, was Sie für ein professionelles Angebot benötigen, bekommen Sie mit nur wenigen Klicks!
+
+- **📐 Zeichnungen:** Die [Planzeichnungen](11_installation_drawings.md) werden automatisch aus der angegebenen Geometrie und Ihren Änderungen generiert. Sie können bei Bedarf Notizen und Annotationen hinzufügen.
+
+- **📦 Stückliste (BOM):** Die Stückliste wird aus allen Dachpositionen im Modell automatisch erzeugt. Für jedes Teil sehen Sie das verwendete Material und können Mengen ändern oder neue Positionen anlegen. Die Art, wie die Stückliste generiert wird, kann im [Customisation-Projekt](18_customisationProject.md) angepasst werden.
+
+- **🧾 Angebot:** Sie können die Stückliste inkl. Link zur Hersteller-Preisliste im Angebot aufnehmen – oder ein Angebot ohne Stückliste generieren. Auch die Angebotsausgabe lässt sich im [Customisation-Projekt](18_customisationProject.md) modifizieren.
+
+**📌 Alle Änderungen, die Sie an Ihrem 3D-Modell vornehmen, werden auch in Zeichnungen, Stücklisten und weiteren Ausgaben automatisch aktualisiert.** **Sie müssen sich also keine Gedanken machen, und falls noch kurzfristig Änderungen nötig sind, genügt ein Klick für die sofortige Aktualisierung – schnell, praktisch und stressfrei!**
+
+> **👉 Einen Schritt-für-Schritt-Leitfaden zu Zeichnungen, Stücklisten und Angeboten finden Sie in [diesem Kapitel](12_outputs.md)**.
+
+## ⚙️ Einstellungen – Passen Sie Ihre Modellierungsumgebung an
+
+HiStruct unterstützt flexible Arbeitsabläufe und ermöglicht es Ihnen, das Modelliererlebnis ganz auf Ihre Anforderungen zuzuschneiden. Mit dem **Einstellungen-Button** wechseln Sie zwischen **Basis**- und **Erweiterten** Modi und können Modellierungsparameter sowie die Darstellung und Performance der Szene anpassen.
+
+**👉 Ausführliche Hinweise zu allen verfügbaren Optionen finden Sie in unserem [Einstellungsleitfaden](13_settings.md)**.

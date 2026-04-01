@@ -1,17 +1,17 @@
 ---
 sourceLang: en
-sourceHash: 29c806166677115d214ff2f00ac97c48
+sourceHash: d2d648194432608fc297a9166744386c
 autoTranslated: true
 ---
 
-# 🚀 Wie der HiStruct-Säumungs- und Rinnengenerator funktioniert
+# 🚀 Wie der HiStruct-Abschluss- und Dachrinnengenerator funktioniert
 
-Er ist hauptsächlich dafür ausgelegt, **Zeit zu sparen** beim Erstellen von 3D-Modellen von Verblechungen und Traufen für importierte oder spezifizierte Dachflächengeometrien.
+Er ist hauptsächlich dazu entwickelt, **Zeit zu sparen** beim Erstellen von 3D-Modellen für Blechabdeckungen und Dachrinnen bei importierten oder angegebenen Dachflächengeometrien.
 
-Der Generator kann auch allgemein für Flächengeometrien verwendet werden, die aus einer Zeichnung übernommen oder vollständig von Hand eingegeben und dann so angepasst werden, dass sie bestmöglich an die Kanten der zu berührenden Dachflächen passen. Er muss nicht vollständig passen, nur innerhalb normaler Toleranzen.
+Der Generator kann auch allgemein für Flächengeometrien verwendet werden, die aus einer Zeichnung eingegeben oder komplett von Hand erstellt und dann angepasst wurden, um bestmöglich an die Kanten der betroffenen Dachflächen zu passen. Es ist nicht erforderlich, perfekt zu passen – es genügt, innerhalb normaler Toleranzen zu liegen.
 
-![Quellgeometrie für den Verblechungsgenerator](img/SourceGeometryFlashing.png)
+![Ausgangsgeometrie für den Blechabdeckungs-Generator](img/SourceGeometryFlashing.png)
 
-HiStruct identifiziert automatisch die erforderlichen Verblechungspositionen aus den Geometrien nahegelegener Dachflächen und erzeugt anschließend die entsprechenden Verblechungstypen. Diese erzeugten Verblechungen können dann bei Bedarf weiter angepasst werden.
+HiStruct erkennt automatisch die erforderlichen Positionen für Blechabdeckungen anhand der Geometrien der angrenzenden Dachflächen und erzeugt anschließend die entsprechenden Abdeckungstypen. Diese generierten Abdeckungen können bei Bedarf weiter angepasst werden.
 
-![Erzeugtes Verblechungsergebnis](img/generatedFlashingResult.png)
+![Erzeugtes Ergebnis der Blechabdeckung](img/generatedFlashingResult.png)

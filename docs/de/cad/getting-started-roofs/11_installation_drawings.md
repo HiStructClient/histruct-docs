@@ -1,57 +1,57 @@
 ---
 sourceLang: en
-sourceHash: 6f27661dfd88764d059df7c11c4b0ec0
+sourceHash: 0195ec07b156a1bbb392da1441b65e71
 autoTranslated: true
 ---
 
-# 📏 Erstellen einer Montagezeichnung für die Dachebene
+# 📏 Erstellen einer Ausführungszeichnung für die Dachfläche
 
-Die Layoutzeichnung der Dachebene ist ein zentraler Bestandteil des Gebäudeplanungsprozesses und ermöglicht es, die Entwurfspläne in eine praktische Planung auf dem Dach zu übertragen. Diese Zeichnung dient als detaillierte Anleitung für Monteure bei der Installation eines Dachsystems und enthält wichtige Informationen zur Materialplatzierung, zu Fugen sowie zu allen technischen Aspekten, die für eine qualitativ hochwertige und sichere Dachkonstruktion erforderlich sind.
+Die Zeichnung der Dachflächenaufteilung ist ein zentraler Bestandteil des Gebäudeentwurfsprozesses und ermöglicht es, die Konstruktionspläne in eine praktische Ausführung auf dem Dach zu übertragen. Diese Zeichnung dient als detaillierte Anleitung für die Ausführenden bei der Montage eines Dachsystems und enthält wichtige Informationen zur Materialplatzierung, zu Verbindungen und allen technischen Aspekten, die für eine hochwertige und sichere Dachaussführung unerlässlich sind.
 
-In HiStruct werden vollständige Zeichnungen für alle Dachebenen **automatisch auf Basis des 3D-Modells erzeugt. So bearbeiten Sie diese Zeichnungen:**
+In HiStruct werden vollständige Zeichnungen für alle Dachflächen **automatisch auf Basis des 3D-Modells generiert. Um diese Zeichnungen zu bearbeiten:**
 
-1.  Navigieren Sie im **Sheeting**-**Menü** einfach zu einer bestimmten Dachebene mit der **Schaltfläche „Edit“**, die Sie direkt auf der jeweiligen Dachebene sehen können
+1. Gehen Sie im **Sheeting**-**Menü** einfach mit dem **Bearbeiten-Button** auf die jeweilige Dachfläche, den Sie direkt auf der jeweiligen Dachfläche sehen können.
 
-![Edit button](img/controlbutton.png)
+![Bearbeiten-Button](img/controlbutton.png)
 
-2.  Klicken Sie auf die Schaltfläche **Drawings**.
+2. Klicken Sie auf den **Zeichnungen**-Button.
 
-![Drawing button](img/11Drawing.png)
+![Zeichnungen-Button](img/11Drawing.png)
 
-3.  Sie können die Zeichnung nun weiter bearbeiten: Bemaßungen hinzufügen, Beschriftungen hinzufügen, Name und Maßstab im Tab **Properties** ändern.
+3. Nun können Sie die Zeichnung weiter bearbeiten: Maße hinzufügen, Beschriftungen hinzufügen, Name und Maßstab im Eigenschaften-Tab ändern.
 
-![Drawing](img/drawingsRoofTilling.png)
-
-
-## Bemaßungen hinzufügen
-
- Sie können eine Bemaßung eingeben, indem Sie auf die **Schaltfläche „Dimension“** klicken, die zwei Punkte auswählen, für die Sie eine Bemaßung eintragen möchten, und anschließend den Abstand der Bemaßungslinie festlegen. Nach dem Klicken auf die Bemaßung ist Folgendes möglich:
-
-- **Farbe ändern**
-
-- Die Richtung **festlegen, in der die Bemaßung eingetragen wird**. Die Richtung kann auf ***X***, ***Y*** oder ***Default*** gesetzt werden, wobei ***Default*** die kürzeste Entfernung zwischen diesen Punkten misst. Alternativ kann die Richtung ***Angle*** gewählt werden, wodurch die Bemaßung im ausgewählten Winkel eingetragen wird.
-
-- Die letzte Option in der Bemaßungsbearbeitung ist die **Schaltfläche „Continue“**, die eine weitere Bemaßung in derselben Richtung erzeugt.
-
- **💡** Wenn Sie **einen beliebigen Punkt Ihrer hinzugefügten Bemaßung bearbeiten möchten,** klicken Sie einfach **auf die Bemaßung**, und durch Verschieben der gelben Punkte bearbeiten Sie die Bemaßung bereits**.**
-
-![Editing drawing](img/drawingsDimensionsProperties.png)
+![Zeichnung](img/drawingsRoofTilling.png)
 
 
+## Maße hinzufügen
 
-**❓Wo finde ich die erzeugten Zeichnungen und kann sie herunterladen?**\
-Sobald sie erzeugt und angepasst wurden, werden die Zeichnungen automatisch in die Ausgaben aufgenommen. Gehen Sie zurück in das Hauptmenü auf der linken Seite:
+> Sie können ein Maß eintragen, indem Sie auf die **Maße-Button** klicken, dann die zwei Punkte auswählen, zwischen denen Sie das Maß festlegen möchten, und anschließend den Abstand der Maßlinie angeben. Nach einem Klick auf das Maß ist es möglich:
 
-- Gehen Sie im Hauptmenü links zu **Drawings ⇒ Assemblies**. Hier können Sie die Zeichnungen weiter bearbeiten – zum Beispiel: Bemaßungen hinzufügen, Beschriftungen hinzufügen oder Name und Maßstab im Tab **Properties** ändern.
+- **Die Farbe zu ändern**
 
-- Sie können sie über die orange **Schaltfläche „Reports“ ⇒ Sheeting BOM** **herunterladen**, wo die Zeichnungen enthalten sind.
+- **Die Richtung anzugeben, in der das Maß dargestellt wird**. Die Richtung kann auf ***X*, *Y*,** oder ***Standard*** gesetzt werden, womit die kürzeste Strecke zwischen den Punkten gemessen wird. Alternativ kann die Richtung ***Winkel*** ausgewählt werden, wodurch das Maß in dem gewählten Winkel angezeigt wird.
 
-- Wenn Sie sich in der jeweiligen Zeichnung befinden, können Sie sie über eine Kameraschaltfläche als PDF herunterladen und anschließend als PDF drucken
+- Die letzte Option bei der Bearbeitung von Maßen ist der **Weiter**-**Button**, mit dem ein weiteres Maß in der gleichen Richtung erzeugt wird.
 
-⚠️ ***Hinweis:** Bestimmte Funktionen wie **Control** und **Edit-Schaltflächen** sind nur im **Advanced mode** verfügbar. Sehen Sie in der [**Settings guide**](13_settings.md)* *nach, um Anweisungen zum Freischalten aller Funktionen zu erhalten.*
+> **💡** Wenn Sie **einen Punkt des hinzugefügten Maßes bearbeiten möchten,** klicken Sie einfach **auf das Maß** und verschieben Sie die gelben Punkte – so bearbeiten Sie das Maß bereits.**
 
-![Editing drawing](img/buttonsdrawings2.png)
+![Zeichnung bearbeiten](img/drawingsDimensionsProperties.png)
+>
 
-**👉 Zurück zum Artikel [*Wie man mit dem Sheeting-Menü arbeitet*](8_sheeting_menu.md)**
+
+**❓Wo finde und lade ich die generierten Zeichnungen herunter?**\
+Sobald die Zeichnungen generiert und angepasst wurden, sind sie automatisch bei den Ausgaben enthalten. Gehen Sie dazu zurück in das Hauptmenü auf der linken Seite:
+
+- Öffnen Sie **Zeichnungen ⇒ Baugruppen** im Hauptmenü auf der linken Seite. Hier können Sie die Zeichnungen weiter bearbeiten – z.B. Maße hinzufügen, Beschriftungen ergänzen oder den Namen und Maßstab im **Eigenschaften**-Tab ändern.
+
+- Sie können sie **unter dem orangefarbenen **Berichte-Button ⇒ Sheeting BOM** herunterladen, in dem die Zeichnungen enthalten sind.
+
+- Wenn Sie sich in der jeweiligen Zeichnung befinden, können Sie diese als PDF herunterladen, indem Sie auf das Kamerasymbol klicken und anschließend als PDF ausdrucken.
+
+⚠️ ***Hinweis:** Bestimmte Funktionen wie **Kontrolle**- und **Bearbeiten-Buttons** sind nur im **Erweiterten Modus** verfügbar. Lesen Sie im [**Einstellungen-Leitfaden**](13_settings.md)* *nach, wie Sie alle Funktionen freischalten.*
+
+![Zeichnung bearbeiten](img/buttonsdrawings2.png)
+
+**👉 Zurück zum Artikel  [*Arbeiten mit dem Sheeting-Menü*](8_sheeting_menu.md)**
 
 **👉 [*Zurück zum Hauptartikel*](index.md)**
