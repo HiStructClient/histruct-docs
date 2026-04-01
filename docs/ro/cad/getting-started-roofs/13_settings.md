@@ -1,35 +1,35 @@
 ---
 sourceLang: en
-sourceHash: e44ff1fdcdfac57e3b696c37cff8f0f4
+sourceHash: ff38b70ad38bbd559711e1821f175cee
 autoTranslated: true
 ---
 
-# ⚙️Setări - Personalizează-ți spațiul de modelare
+# ![](./media/media/image3.png)⚙️Setări - Personalizați spațiul de modelare
 
-HiStruct este construit pentru flexibilitate, permițându-ți să adaptezi experiența de modelare nevoilor tale. Folosind **butonul** **Setări** din meniul din partea stângă, poți personaliza funcțiile de modelare și ajusta parametrii din spațiul de modelare.
+HiStruct este construit pentru flexibilitate, permițându-vă să adaptați experiența de modelare la nevoile dvs. Folosind **butonul Setări** din meniul din stânga, puteți personaliza funcțiile de modelare și ajusta parametrii în spațiul de modelare.
 
-**Setări pas cu pas**
+**Setări - pas cu pas**
 
-**Intrare: Poți alege între două moduri:**
+**Intrare: Puteți alege între două moduri:**
 
-- **De bază**: Un set simplificat de instrumente și funcții pentru o modelare mai rapidă - perfect pentru proiecte simple sau când vrei să lucrezi rapid.
+- **De bază**: Un set simplificat de unelte și funcții pentru modelare rapidă – perfect pentru proiecte simple sau când doriți să lucrați rapid.
 
-- **Avansat**: Deblochează toate funcțiile disponibile, oferind control complet asupra fiecărui aspect al spațiului de modelare. Ideal pentru proiecte complexe sau personalizări detaliate.
+- **Avansat**: Deblochează toate funcțiile disponibile, oferind control total asupra fiecărui aspect al spațiului de modelare. Ideal pentru proiecte complexe sau personalizări detaliate.
 
-**Setări scenă**
+**Setări Scenă**
 
-- **Suprafața terenului**: Selectează aspectul terenului înconjurător din spațiul de modelare.
+- **Suprafața terenului**: Selectați aspectul terenului înconjurător din spațiul de modelare.
 
-- **Cote automate**: Activează randarea automată a cotelor în plan ale obiectului. Ulterior, le poți controla afișarea manual folosind butoanele din partea dreaptă a ecranului.
+- **Dimensiuni automate**: Activați dimensionarea automată a planului obiectului. Ulterior, puteți controla manual afișarea acestora folosind butoanele din partea dreaptă a ecranului.
 
-- **Scara butoanelor de adăugare**: Ajustează dimensiunea butoanelor care sunt plasate pe model.
+- **Scara butoanelor de adăugare**: Ajustați dimensiunea butoanelor plasate pe model.
 
-- **Dimensiunea simbolului LCS inserat**: Ajustează dimensiunea marcajului sistemului de coordonate din model.
+- **Dimensiunea simbolului LCS de inserat**: Ajustați dimensiunea marcatorului sistemului de coordonate din model.
 
-**Date proiect**
+**Datele proiectului**
 
-Datele proiectului sunt încărcate din locația proiectului, dacă este specificată, asigurând că toate informațiile relevante sunt aplicate automat modelului tău.
+Datele proiectului sunt încărcate din locația proiectului, dacă aceasta este specificată, asigurându-se că toate informațiile relevante sunt aplicate automat modelului dvs.
 
-**💡 Comutarea între modul De bază și Avansat îți permite să echilibrezi viteza și funcționalitatea în funcție de complexitatea proiectului tău. Combină acest lucru cu actualizările automate pentru desene, liste BOM și rapoarte, și ai un flux de lucru rapid, precis și complet adaptabil.**
+**💡 Comutarea între modul De bază și Avansat vă permite să echilibrați viteza și funcționalitatea în funcție de complexitatea proiectului dvs. Combinați acest lucru cu actualizări automate pentru desene, liste de materiale și rapoarte și obțineți un flux de lucru rapid, precis și complet adaptabil.**
 
 **👉 [*Înapoi la articolul principal*](index.md)**

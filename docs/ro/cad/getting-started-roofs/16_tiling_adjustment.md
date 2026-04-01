@@ -1,75 +1,74 @@
 ---
 sourceLang: en
-sourceHash: 9541f67b142f95c0abbeba45be7d5a45
+sourceHash: 1ca4f660b4fa493281cd7223ede2939a
 autoTranslated: true
 ---
 
-# 🛠️ Ajustare rapidă și ușoară a așezării în rânduri
+# 🛠️ Ajustarea rapidă și ușoară a țiglelor
 
-HiStruct Roofs plasează automat materialul de învelitoare selectat de-a lungul suprafeței plane. **După generare, fâșiile pot fi modificate și ajustate după necesități.**
+HiStruct Acoperișuri plasează automat materialul de învelitoare selectat de-a lungul suprafeței plane. **Odată generate, benzile pot fi modificate și ajustate după necesități.**
 
-**💡 Pentru a vedea cum sunt așezate fâșiile individuale**, mergi la **meniul** **Sheeting** ⇒ apasă **butonul Edit** pentru stratul de acoperire al învelitorii plasat direct pe modelul acoperișului [vezi ghidul anterior](8_sheeting_menu.md) ⇒ și apasă butonul **Tiling** din meniul din partea stângă.
+**💡 Pentru a vedea modul în care sunt aranjate benzile individuale**, accesează **meniul Învelitoare** ⇒ apasă pe **butonul Editare** pentru stratul de învelitoare plasat direct pe modelul acoperișului [vezi ghidul anterior](8_sheeting_menu.md) ⇒ și apasă butonul **Tigle** din meniul din stânga.
 
 ![Tiling](img/Tilling.png)
 
-⚠️ ***Notă:** Anumite funcții precum **Control** și **butoanele Edit** sunt accesibile doar în **modul Advanced**. Consultă [**ghidul Settings**](13_settings.md)* *pentru instrucțiuni despre deblocarea tuturor funcțiilor.*
+⚠️ ***Notă:** Anumite funcții precum **Control** și **butoanele Editare** sunt disponibile doar în **Mod Avansat**. Verifică [**ghidul Setări**](13_settings.md)* *pentru instrucțiuni privind deblocarea tuturor funcțiilor.*
 
-📌 **Acum te afli în modul de editare. Poți:**
+📌 **Acum ești în modul de editare. Poți:**
 
-- Edita întreaga așezare în rânduri
+- Să editezi întreaga montare a țiglelor
 
-- Edita fâșiile individuale
+- Să editezi benzile individuale
 
- **Direcția de așezare**
-
- Este configurabilă, alegând dintre următoarele tipuri:
+> **Direcția de montare**
+>
+> Poate fi configurată, alegând dintre următoarele tipuri:
 
 - **pozitivă**
 
- ![Tiling from left.png](img/TilingFromLeft.png)
+> ![Tiling from left.png](img/TilingFromLeft.png)
 
 - **negativă**
 
- ![Tilling from right](img/TilingFromRight.png)
-- **centrează țigla**
+> ![Tilling from right](img/TilingFromRight.png)
+- **centrat pe țiglă**
 
- ![Tilling center axis](img/tillingCenterAxis.png)
+> ![Tilling center axis](img/tillingCenterAxis.png)
 
-- **centrează îmbinarea**
+- **centrat pe rost**
 
- ![Tilling center edge](img/tillingCenterEdge.png)
+> ![Tilling center edge](img/TilingCenterEdge.png)
 
-- **specificare generală a începutului așezării (așezare pozitivă + distanță)**
+- **specificație generală a începutului de montare (montare pozitivă + distanță)**
 
- ![General tilling head start](img/generalTillingHeadStart.png)
+> ![General tilling head start](img/generalTillingHeadstart.png)
+>
+> **Unghiul de montare al benzilor**
+>
+> **Este ajustabil ca abatere pozitivă sau negativă față de linia de bază.**
+>
+> ![Tilling angle](img/tillingAngle.png)
+>
+> **Fiecare bandă specifică**
 
- **Unghiul de așezare al fâșiilor**
+- **dezactivează (astfel nu va fi reflectată în desene, model detaliat sau rapoarte de materiale.)**
 
- **Este ajustabil ca abatere pozitivă sau negativă față de linia de bază.**
+> ![Individual panel switched off](img/individualPanelSwitchedOff.png)
 
- ![Tilling angle](img/tillingAngle.png){width="6.3in" height="3.2083333333333335in"}
+- **prelungește sau scurtează suprapunerea**
 
- **Fiecare fâșie specifică**
+> ![Individual panel extension options](img/individualPanelExtensionOptions.png)
 
-- **dezactivează (atunci nu este reflectată în desene, în modelul detaliat sau în rapoartele de materiale.)**
+- **suprapune în mod corespunzător (conform grilei șipcilor). Făcând clic pe diviziunile indicate deasupra șipcilor poți diviza banda, sau, dimpotrivă, o poți uni dacă a fost deja divizată.**
 
- ![Individual panel switched off](img/individualPanelSwitchedOff.png)
+> ![Individual panel splitting](img/individualPanelSplitting.png)
 
-- **mărește sau micșorează suprapunerea**
+> **Prelungirea sau scurtarea panourilor la margini**
+>
+> Pentru fiecare latură a poligonului acoperișului se poate seta prelungirea sau scurtarea panoului făcând clic pe butonul de deasupra muchiei.
+>
+> ![Tilling edge offset](img/tillingEdgeOffset.png)
 
- ![Individual panel extension options](img/individualPanelExtensionOptions.png)
-
-- **suprapune în locurile potrivite (conform grilei șipcilor) Făcând clic pe diviziunile indicate deasupra șipcilor poți diviza fâșia sau, dimpotrivă, o poți îmbina dacă a fost deja divizată.**
-
- ![Individual panel splitting](img/individualPanelSplitting.png)
-
- **Alungirea sau scurtarea panourilor pe laterale**
-
- Pentru fiecare latură a poligonului acoperișului, poți seta alungirea sau scurtarea panoului făcând clic pe butonul de deasupra muchiei.
-
- ![Tilling edge offset](img/tillingEdgeOffset.png)
-
-
-**👉 Înapoi la articolul  [*Cum să lucrezi cu meniul Sheeting*](8_sheeting_menu.md)**
+**👉 Înapoi la articolul [*Cum se lucrează cu meniul Învelitoare*](8_sheeting_menu.md)**
 
 **👉 [*Înapoi la articolul principal*](index.md)**

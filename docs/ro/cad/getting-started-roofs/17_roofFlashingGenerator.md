@@ -1,17 +1,17 @@
 ---
 sourceLang: en
-sourceHash: 29c806166677115d214ff2f00ac97c48
+sourceHash: d2d648194432608fc297a9166744386c
 autoTranslated: true
 ---
 
-# 🚀 Cum funcționează generatorul HiStruct pentru tinichigerie (trim) și jgheaburi
+# 🚀 Cum funcționează generatorul de borduri și jgheaburi HiStruct
 
-Este conceput în principal pentru a **economisi timp** la realizarea modelului 3D al elementelor de tinichigerie și al streșinilor pentru geometrii importate sau specificate ale planurilor de acoperiș.
+Este conceput în principal pentru a **economisi timp** în realizarea modelului 3D al bordurilor și streșinilor pentru geometria planurilor de acoperiș importate sau specificate.
 
-Generatorul poate fi folosit, de asemenea, în general pentru geometrii plane introduse dintr-un desen sau complet manual și apoi modificate pentru a se potrivi cât mai bine marginilor planurilor de acoperiș care trebuie atinse. Nu trebuie să se potrivească perfect, ci doar să se încadreze în toleranțe normale.
+Generatorul poate fi folosit de asemenea, în general, pentru geometrii de plane introduse dintr-un desen sau complet manual și doar modificate astfel încât să se potrivească cât mai bine cu marginile planurilor de acoperiș ce urmează a fi atinse. Nu este necesar să se potrivească perfect, ci doar să se încadreze în toleranțele normale.
 
-![Geometrie sursă pentru generatorul de tinichigerie](img/SourceGeometryFlashing.png)
+![Geometria sursă pentru generatorul de borduri](img/SourceGeometryFlashing.png)
 
-HiStruct identifică automat locațiile necesare pentru elementele de tinichigerie din geometriile planurilor de acoperiș din apropiere, apoi generează tipurile corespunzătoare. Aceste elemente generate pot fi apoi modificate suplimentar, după cum este necesar.
+HiStruct identifică automat locațiile necesare pentru borduri din geometria planurilor de acoperiș apropiate, apoi generează tipurile corespunzătoare de borduri. Aceste borduri generate pot fi apoi modificate în continuare după necesitate.
 
-![Rezultat tinichigerie generată](img/generatedFlashingResult.png)
+![Rezultatul bordurii generate](img/generatedFlashingResult.png)

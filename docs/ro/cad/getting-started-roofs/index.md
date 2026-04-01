@@ -1,82 +1,121 @@
 ---
-sourceLang: cs
-sourceHash: 416bbf07b5108c0b7ebd028174620591
+sourceLang: en
+sourceHash: af050fc01015b10b51a71506fe46235a
 autoTranslated: true
 ---
 
+# HiStruct Acoperișuri pentru montatori
 
-# Acoperișuri HiStruct pentru acoperitori
+**HiStruct Acoperișuri** este o aplicație web creată pentru a genera rapid și ușor oferte profesionale pentru acoperișuri. Produce automat liste detaliate de materiale și planuri de montaj pentru sisteme de acoperiș, inclusiv acoperișul, dolii, coame, accesorii și componente de jgheab. Platforma oferă mai multe moduri de introducere a datelor pentru a eficientiza fluxurile de lucru ale proiectelor și a crește eficiența.
 
-HiStruct este o aplicație web care permite colaborarea sau partajarea ușoară a unui proiect sau a unor părți ale unui proiect. În acest fel, puteți oferi o previzualizare a modelului 3D de acoperiș clientului final, puteți colabora la proiect cu un coleg sau cu o companie de instalare.
-Sistemul este utilizat pentru a crea rapid oferte, liste de materiale și planuri de montaj pentru acoperișuri, șarpante, burlane și sisteme de jgheaburi. Sistemul permite mai multe moduri de intrare pentru a crește eficiența în lucrul cu un proiect.
+HiStruct suportă, de asemenea, colaborarea și partajarea proiectelor fără efort. Indiferent dacă oferiți o previzualizare 3D a acoperișului unui client final sau colaborați la un proiect cu un coleg sau o firmă de montaj, sistemul face partajarea proiectelor complete sau a unor părți specifice extrem de ușoară.
 
-## Cum se procesează o cerere de informații privind acoperișurile în HiStruct?
+**❓Cum se procesează o solicitare de acoperiș în HiStruct?**
 
-1.
-1. Modelez zonele de acoperiș prin redesenare sau utilizând generatorul
-1. Editez modelul generat
-1. Selectez sistemul de șarpantă și de streașină sau îl generez automat
-1. Obțin liste de cantități, documente, desene
+1.  Creează un proiect [cu sau fără hartă](1_new_project.md)
 
+2.  Modelează acoperișul
 
-Gata, mă duc să beau o cafea 😊
+3.  Alege învelitoarea
 
-HiStruct poate fi personalizat extensiv. Sistemul de așezare a fitingurilor de acoperiș, șarpantelor, burlanelor și jgheaburilor este configurat separat pentru fiecare producător în parte, într-un set separat de fișiere de configurare. Acesta conține informații cu privire la modul în care zona acoperișului trebuie să fie așezată cu fitinguri, combinații de culori posibile, informații privind lista de materiale și multe altele. Acestea și alte personalizări se realizează în cadrul [proiectului de personalizare] (customisationProject.md).
+4.  Ajustează automat accesoriile și sistemul de jgheaburi generate
 
-## Acum, mai în detaliu...
+5.  Adaugă ferestre și alte deschideri
 
-### 1. Creez un proiect cu sau fără o hartă
+6.  Obține lista de materiale, documente, desene și ofertă în doar câteva clickuri
 
-Procesez o nouă cerere. Primul lucru pe care vreau să îl fac este să încep un proiect nou. Un proiect este un loc care poate conține una sau mai multe componente - modele 3D, adică configurații, variante sau piese. Pagina de proiect are două vizualizări. Vizualizarea implicită este o simplă listă a proiectelor stabilite cu componente. Dacă doresc să stochez și o locație pentru un proiect, pot utiliza vizualizarea pe hartă a proiectelor, unde pot specifica și o locație de pe hartă.
+**Gata, timp pentru o cafea ☕**😊
 
-### 2. Modelarea suprafețelor acoperișurilor
+HiStruct poate fi extins și personalizat. Sistemul de montat acoperișul, dolii și jgheaburile este configurat separat pentru fiecare producător individual într-un set separat de fișiere de configurație. Acesta conține informații despre modul de montare a învelitorii, combinațiile posibile de culori, informații despre lista de materiale și multe altele. Aceste și alte personalizări se realizează în cadrul [proiectului de personalizare](18_customisationProject.md).
 
-De obicei, începem prin **selectarea tipului de acoperiș, a șarpantei și a sistemului de jgheaburi** (acestea pot fi modificate ulterior) din biblioteci. Urmează apoi crearea unui model de acoperiș din planurile individuale ale acoperișului, eventual utilizând metode de modelare mai avansate. Metoda de modelare adecvată depinde de documentele disponibile pentru o anumită solicitare. Cu cât calitatea documentației este mai bună, cu atât procesul de modelare poate fi realizat mai eficient.
+**👉 Hai să vedem mai detaliat întregul parcurs:**
 
-#### **😊 Am doar câteva schițe cu dimensiuni**
+## Crearea unui proiect nou
 
-Dacă forma acoperișului este simplă, o pot [modela](modellingRoofs.md) prin inserarea suprafețelor acoperișului cu forme predefinite sau pot crea o formă generică a suprafeței acoperișului în spațiul de modelare. Modul general de introducere utilizează trasarea și alte instrumente de introducere familiare, similare altor programe CAD. Dacă panta este cunoscută, planurile acoperișului pot fi rotite și deplasate în spațiu pentru a se potrivi cu forma reală a acoperișului. Dacă acoperișul poate fi construit în spațiu cu suficientă precizie, se poate utiliza [generatorul de burlane și jgheaburi] (roofFlashingGenerator.md).
+Dacă procesezi o solicitare nouă, primul pas este să începi un proiect nou. Un **Proiect** este un spațiu care poate conține unul sau mai multe **componente** - modele 3D, adică configurații, variante sau părți. Pagina proiectului oferă două vizualizări:
 
-#### **😊😊 Am un desen vectorial al planului acoperișului**
+- **Tabelul** (vizualizare implicită) este o listă simplă cu proiectele create și componentele lor. Îți oferă o imagine de ansamblu asupra tuturor proiectelor tale. Este ideal pentru adăugarea de notițe detaliate, verificarea statusului și partajarea conținutului.
 
-Dacă am un desen vectorial, va fi mai ușor de modelat. Este posibil să importați [fișiere în format *.dxf](importDxf.md) în HiStruct sau să convertiți [*.pdf în *.dxf] (convertPdfToDxf.md) în [importDxf.md). *.dxf-ul importat permite o fixare ușoară, iar introducerea suprafețelor individuale ale acoperișului se face făcând clic pe planul etajului cu opțiunea de a adăuga o pantă pentru fiecare suprafață a acoperișului. Avantajul este precizia și ușurința realizării unui model 3D. Aproape întotdeauna poate fi utilizat [generatorul de solnițe și streșini] (roofFlashingGenerator.md).
+- **Harta** este ideală dacă vrei să vizualizezi proiectele în funcție de locația lor. Și mai bine – poți poziționa un model 3D al clădirii direct pe hartă și poți vedea cum se încadrează în împrejurimi.
 
-#### **😊😊😊 Am doar o schiță și trebuie să proiectez un acoperiș**
+**👉 Recomandăm combinarea celor două vizualizări în funcție de nevoile tale curente.**
 
-De exemplu, dacă aveți un acoperiș nou și aveți doar o schiță, HiStruct are un instrument inovator care proiectează automat forma finală a acoperișului, pantele, burlanele și sistemul de jgheaburi. Pentru a face acest lucru, este desigur posibil să importați [fișiere *.dxf](importDxf.md) sau să convertiți [*.pdf în *.dxf](convertPdfToDxf.md) și să le [importați în HiStruct](importDxf.md).
+**👉 Consultă articolul [Cum să începi un proiect nou](1_new_project.md) pentru mai multe informații.**
 
-#### **😊😊😊😊 Am un model 3D dintr-o orientare digitală**
+## 🏠 Modelarea acoperișului
 
-Un model dintr-o orientare digitală este un câștig. Dacă am acest model într-un format adecvat (3D *.pdf sau direct *.obj), pot importa geometria imediat. Pot [importa *.obj](importObj.md) în HiStruct, sau [converti 3D *.pdf în *.obj](convert3dPdfToObj.md) și [importa în HiStruct](importObj.md).
+În HiStruct, poți modela un acoperiș în mai multe moduri. Fiecare metodă are avantajele sale și este potrivită pentru diferite situații. **Cea mai potrivită abordare de modelare depinde de materialele de referință disponibile pentru proiectul specific.** Ca regulă generală, cu cât datele de intrare sunt mai bune, cu atât procesul de modelare se va finaliza mai eficient. Vestea bună? Nu ai nevoie de desene perfecte – chiar și o schiță de mână este suficientă pentru a începe.
 
-După import, HiStruct va oferi suprafețe recunoscute din care puteți alege cum să le convertiți în geometrie HiStruct. [Generatorul de suprafețe](roofPolygonGenerator.md) efectuează apoi conversia în suprafețe de placare a acoperișului sau a pereților, care pot fi apoi prelucrate în mod normal.
+**Alege metoda care se potrivește cel mai bine proiectului tău:**
 
-După generarea suprafețelor acoperișului, mai pot utiliza [roofFlashing Generator](roofFlashingGenerator.md). Această metodă de introducere este aproape fără muncă.
+- **Trebuie să creez un model de acoperiș simplu, cu formă standard, și am dimensiunile disponibile**
 
-### 3. Așezarea acoperișului
+> 😊 Folosește unul dintre **șabloanele** noastre – HiStruct oferă o gamă largă de șabloane predefinite, cu cele mai comune tipuri de acoperiș. Este opțiunea perfectă pentru modelarea acoperișurilor simple, cu formă standardizată.
+>
+> **👉 *Cum să începi cu un șablon? [Vezi acest articol](2_start_with_template.md)***.
 
-Pentru noi, bibliotecile de acoperișuri și burlane nu înseamnă doar dimensiune și culoare, ci întreaga abordare a învelitorii anumitor zone ale acoperișului. Datorită generatorului de variabile, suntem capabili să introducem în bibliotecă procedura specifică de instalare a acoperișurilor unui anumit producător. Facem acest lucru în cadrul [proiectului de personalizare](customisationProject.md). Un generator bine conceput elimină apoi intervențiile necesare în procesul automat de instalare.
+- **Am o schiță de mână sau un desen vectorial**
 
-[RoofPolygonTilling](roofPolygonTillingOptions.md) are loc automat în funcție de setările de configurare ale acoperișului. De asemenea, este posibilă ajustarea începerii procesului de pozare pentru a obține cea mai mică tăiere posibilă. Informațiile privind raportul dintre tăietură și suprafața planului acoperișului sunt afișate în timpul modificării așezării.
+> 😊😊 În acest caz, poți **genera forma acoperișului dintr-un contur sau o poți modela pe suprafețe**. Dacă ai un desen vectorial, deja ești la jumătate de drum! HiStruct suportă importul fișierelor în format \*.dxf, iar PDF-urile cu bază vectorială pot fi convertite la \*.dxf pentru utilizare ușoară. Avantajul? Mai multă precizie și un proces de modelare 3D mai lin.
+>
+> **👉 *Cum creezi un acoperiș dintr-un contur? [Vezi acest articol](3_generate_from_DXF.md)***.
+>
+> **👉 *Cum convertești un PDF la DXF? [Vezi acest articol](4_PDF_to_DXF.md)***.
 
-### 4. Cum se utilizează sistemul de burlane și jgheaburi?
+- **Am un model dintr-o sursă digitală**
 
-Bineînțeles, [flashings, flashings](roofFlashingOptions.md) și [sistemul de jgheaburi](roofFlashingGutterOptions.md) pot fi specificate oriunde în spațiu prin agățarea de suprafețele de acoperiș deja specificate, geometria importată sau alte obiecte. În plus, este posibil să se utilizeze adăugarea de muchii la laturile individuale ale planurilor de acoperiș sau direct la [generator peste un grup de planuri de acoperiș](roofFlashingGenerator.md). Pentru elementele generate, panta planurilor de acoperiș asociate este ajustată automat, stabilindu-se astfel corect unghiurile de încovoiere ale burlanelor și cârligelor sistemului de streașină.
+> 😊😊😊 Asta e cu adevărat un avantaj! Folosește **modelarea pe baza unor survey satelit** **(Import geometrie la distanță) sau orice alt model 3D**. Dacă modelul tău de acoperiș este într-un format compatibil (ca PDF 3D sau direct \*.obj), îl poți importa direct în HiStruct.\
+> Formate suportate: fișiere \*.obj sau PDF 3D convertite.
+>
+> **👉 *Cum folosești modelul OBJ pentru a genera automat acoperișul? [Vezi acest articol](5_OBJ_model.md)***
+>
+> **👉 *Cum convertești PDF la DXF? [Vezi acest articol](5_OBJ_model.md)***.
 
-HiStruct include opțiuni complete pentru [setările sistemului de jgheaburi] (roofFlashingGutterOptions.md). Specificând o polilinie care definește jgheabul din aval, se poate seta înclinarea jgheabului. Pentru fiecare parte a jgheabului, se stabilește, de asemenea, panta planului acoperișului din aval pentru calcularea corectă a lungimii cotului și a cârligului. Este posibil să se adauge cleme la fiecare secțiune a jgheabului, care au [opțiuni de setare] suplimentare (roofFlashingGutterOptions.md).
+💡**Cum să convertești propriile modele și desene pentru a le folosi în HiStruct**
 
-### 5. Piese, documente, desene... ieșiri simple
+Cei mai mulți dintre noi avem planuri de construcții în PDF și modele 3D în diverse formate – din software BIM, scanări cu drone sau date satelitare. **Vestea bună?** Le poți converti ușor în fișiere **DXF** și **OBJ** – formate suportate perfect de HiStruct. Odată convertite, încărcarea este floare la ureche – doar câteva clickuri și ai un model de acoperiș generat cu precizie. Fără bătăi de cap, fără redesenări, rezultate rapide. Consultă instrucțiunile:
 
-**Schiță**
-[Lista pieselor] (roofBom.md) este creată automat din piesele acoperișului introduse în spațiul modelului. Piesele individuale ale modelului au în dreptul lor informații despre piesele din care sunt create, cu posibilitatea de a edita numărul și, eventual, de a adăuga mai multe elemente.
+- [Cum convertești un PDF la DXF pentru a-l folosi în HiStruct](4_PDF_to_DXF.md)
 
-Modul în care este generată BOM poate fi apoi modificat în cadrul [proiectului de personalizare] (customisationProject.md).
+- [Conversie rapidă a modelelor 3D din PDF în OBJ](6_PDF_to_OBJ.md)
 
-**Ofertă**
-Nomenclatorul generat, însoțit de un link către lista de prețuri a producătorului, poate face parte din [oferta](roofQuote.md). Cu toate acestea, oferta poate fi pregătită fără BOM. Metoda de generare a ofertei poate fi apoi modificată în cadrul [proiectului de personalizare](customisationProject.md).
+<span id="roofing"></span>
+## 🧱 Montarea învelitorii
 
-**Planuri**
-[Layout Drawings](roofPolygonTillingDrawing.md) sunt generate automat pornind de la geometria specificată și de la orice modificări efectuate de utilizator. Dacă este necesar, la desen se pot adăuga note sau adnotări suplimentare.
+După ce ai stabilit geometria acoperișului, este timpul să treci la **meniul Învelitoare**. Învelitoarea este generată automat, dar în **meniul Învelitoare** ai control total: poți **stabili tipul compoziției acoperișului**, **alege învelitoarea din [bibliotecă](7_flashing_libraries.md)** și **selecta și structura secundară a acoperișului.**
 
-![exemplu de desen de tasare a acoperișului](img\roofTillingPlane1.png)
-![exemplu de desen de tasare a acoperișului](img\roofTillingPlane2.png)
+Pentru fiecare suprafață a acoperișului poți ajusta **parametrii tăierii** (direcție, unghi, offset de la marginea acoperișului pentru așezarea elementelor), **genera lista de materiale** pentru toate elementele și chiar **crea un desen editabil cu structura acoperișului**.
+
+**👉 Cum lucrezi pas cu pas cu meniul Învelitoare? [Vezi acest articol](8_sheeting_menu.md).**
+
+## 🌧️ Sisteme de dolii și jgheab
+
+După ce ai completat geometria și învelitoarea acoperișului, e timpul pentru detalii. Adăugarea elementelor de dolii și a jgheaburilor este un pas esențial pentru un proiect de acoperiș de calitate. În HiStruct, aceste elemente sunt generate automat de [generatorul integrat de jgheaburi și dolii](17_roofFlashingGenerator.md), astfel încât ai deja un sistem complet la dispoziție. Dar fiecare proiect e unic, așa că poți personaliza oricând elementele generate automat. Fie că schimbi tipul de dolii, materialul sau ajustezi poziționarea, HiStruct îți oferă control total asupra detaliilor.
+
+**👉 Cum editezi pas cu pas elementele de dolii și sistemul de jgheab? [Vezi acest articol](9_flashing_and_gutter_system.md).**
+
+## 🪟 Deschideri - Adăugare ferestre, lucarne și altele
+
+Ultimul detaliu pentru modelul tău este adăugarea deschiderilor. Acest lucru se face rapid și intuitiv din meniul **Deschideri**. Aici poți crea și edita diverse tipuri de deschideri în planele acoperișului – de la ferestre, lucarne, la aerisiri sau alte elemente. Cu **butonul de control**, poți introduce noi deschideri, ajusta dimensiunile și poziția lor, și le poți regla direct în modelul 3D. Setările implicite de culoare și instrumentele de măsură te ajută să păstrezi proiectarea clară, precisă și coerentă.
+
+👉 **Hai să vezi cât de simplu este! Pentru a învăța cum lucrezi cu meniul Deschideri [vezi acest articol](10_openings.md)**.
+
+## 📐 Desene, documente, liste de materiale... Pur și simplu rezultate
+
+Când modelul 3D este gata, este momentul să obții rezultatele – tot ce ai nevoie pentru a pregăti o ofertă pentru client în doar câteva clickuri!
+
+- **📐 Desene:**  [Desenele de montaj](11_installation_drawings.md) se generează automat din geometria specificată și orice modificări ai adus. Poți adăuga notițe sau adnotări suplimentare la nevoie.
+
+- **📦 Lista de materiale (BOM):** Lista este creată automat din piesele modelului tău. Fiecare piesă are specificațiile sale, iar tu poți modifica cantitățile sau adăuga articole suplimentare. Modul de generare a listei poate fi ajustat în cadrul [proiectului de personalizare](18_customisationProject.md).
+
+- **🧾 Ofertă:** Poți adăuga lista de materiale, inclusiv cu link către lista de prețuri a producătorului, în ofertă – sau poți crea o ofertă fără aceasta. Modul în care se generează oferta poate fi modificat tot din [proiectul de personalizare](18_customisationProject.md).
+
+**📌 Orice modificare la modelul 3D se actualizează automat în toate rezultatele – desene, liste de materiale și altele.** **Asta înseamnă că nu îți bați capul cu schimbări: dacă ai nevoie de ajustări de ultim moment, un singur click actualizează totul instantaneu. Rapid, practic și fără stres!**
+
+> **👉 Pentru ghidul complet, pas cu pas, despre cum lucrezi cu desene, BOM și oferte, vezi [acest capitol](12_outputs.md)**.
+
+## ⚙️ Setări – personalizează spațiul de modelare
+
+HiStruct suportă fluxuri de lucru flexibile, astfel încât să-ți poți personaliza experiența de modelare după cum dorești. Prin **butonul Setări**, poți comuta între **modul Simplu** și **modul Avansat** și poți ajusta parametri de modelare, aspectul scenei și setările de performanță.
+
+**👉 Pentru instrucțiuni detaliate privind toate opțiunile, consultă [Ghidul complet de setări](13_settings.md)**.

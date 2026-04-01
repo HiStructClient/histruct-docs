@@ -1,57 +1,55 @@
 ---
 sourceLang: en
-sourceHash: 6f27661dfd88764d059df7c11c4b0ec0
+sourceHash: 0195ec07b156a1bbb392da1441b65e71
 autoTranslated: true
 ---
 
-# 📏 Crearea unui desen de montaj pentru planul acoperișului
+# 📏 Crearea unui desen de instalare pentru planul acoperișului
 
-Desenul de dispunere al planului acoperișului este o parte esențială a procesului de proiectare a clădirii, permițându-vă să transpuneți planurile de proiectare într-un proiect practic pe acoperiș. Acest desen servește drept ghid detaliat pentru constructori la instalarea unui sistem de acoperiș și conține informații importante despre amplasarea materialelor, îmbinări și toate aspectele tehnice care sunt esențiale pentru o construcție a acoperișului de calitate și sigură.
+Desenul de dispunere a planului acoperișului este o parte cheie a procesului de proiectare a construcției, permițându-vă să transpuneți planurile de proiectare într-un design practic pe acoperiș. Acest desen servește ca un ghid detaliat pentru constructori atunci când instalează un sistem de acoperiș și conține informații importante despre plasarea materialelor, îmbinări și toate aspectele tehnice esențiale pentru o construcție de acoperiș calitativă și sigură.
 
-În HiStruct, desene complete pentru toate planurile acoperișului sunt **generate automat pe baza modelului 3D. Pentru a edita aceste desene:**
+În HiStruct, desenele complete pentru toate planurile de acoperiș sunt **generate automat pe baza modelului 3D. Pentru a edita aceste desene:**
 
-1.  În **meniul** **Sheeting**, navigați pur și simplu la un anumit plan de acoperiș cu **butonul Edit**, pe care îl puteți vedea direct pe planul de acoperiș respectiv
+1. În **meniul Învelitoare** navigați pur și simplu la un anumit plan de acoperiș cu **butonul Editare**, pe care îl puteți vedea direct pe planul de acoperiș respectiv
 
-![Butonul Edit](img/controlbutton.png)
+![Edit button](img/controlbutton.png)
 
-2.  Faceți clic pe butonul **Drawings**.
+2. Faceți click pe butonul **Desene**.
 
-![Butonul Drawing](img/11Drawing.png)
+![Drawing button](img/11Drawing.png)
 
-3.  Acum puteți edita în continuare desenul: adăugați cote, adăugați etichete, schimbați numele și scara în fila Properties.
+3. Acum puteți edita în continuare desenul: adăugați cote, adăugați etichete, schimbați numele și scala în fila Proprietăți.
 
-![Desen](img/drawingsRoofTilling.png)
-
+![Drawing](img/drawingsRoofTilling.png)
 
 ## Adăugarea cotelor
 
- Puteți introduce o cotă făcând clic pe **butonul Dimension**, selectând cele două puncte pentru care doriți să trasați o cotă, apoi specificând distanța liniei de cotare. După ce faceți clic pe cotă, este posibil să:
+> Puteți introduce o cotă făcând click pe **butonul Cote**, selectând cele două puncte pentru care doriți să trasați o cotă și apoi specificați distanța liniei de trasare. După ce faceți click pe cotă, este posibil să:
 
-- **Schimbați culoarea**
+- **Schimbați culoarea** acesteia
 
-- S**pecificați direcția în care va fi trasată cota**. Direcția poate fi setată la ***X*, *Y*,** sau ***Default***, care va măsura cea mai scurtă distanță dintre aceste puncte. Alternativ, poate fi selectată direcția ***Angle***, care va trasa cota la unghiul selectat.
+- **Specificați direcția în care va fi trasată cota**. Direcția poate fi setată pe ***X*, *Y*,** sau ***Implicit***, care va măsura distanța cea mai scurtă între aceste puncte. Alternativ, poate fi selectată direcția ***Unghi***, care va trasa cota la unghiul selectat.
 
-- Ultima opțiune în editarea cotei este **butonul Continue**, care va genera o altă cotă în aceeași direcție.
+- Ultima opțiune în editarea cotei este butonul **Continuă**, care va genera o altă cotă în aceeași direcție.
 
- **💡** Dacă doriți să **editați orice punct al cotei adăugate,** trebuie doar să **faceți clic pe cotă** și, mutând punctele galbene, editați deja cota**.**
+> **💡** Dacă doriți să **editați orice punct al cotei adăugate**, trebuie doar să **faceți click pe cotă** și, mutând punctele galbene, **deja editați cota.**
 
-![Editarea desenului](img/drawingsDimensionsProperties.png)
-
-
+![Editing drawing](img/drawingsDimensionsProperties.png)
+>
 
 **❓Unde pot găsi și descărca desenele generate?**\
-Odată generate și ajustate, desenele sunt incluse automat în rezultate. Reveniți în meniul principal din stânga:
+Odată generate și ajustate, desenele sunt incluse automat în rezultatele finale. Întoarceți-vă în meniul principal din stânga:
 
-- Accesați **Drawings ⇒ Assemblies** în meniul principal din stânga. Aici puteți edita în continuare desenele - de exemplu: adăugați cote, adăugați etichete sau schimbați numele și scara în fila **Properties**.
+- Mergeți la **Desene ⇒ Ansambluri** în meniul principal din stânga. Aici puteți edita în continuare desenele – de exemplu: să adăugați cote, să adăugați etichete sau să schimbați numele și scala în fila **Proprietăți**.
 
-- Le puteți **descărca** din butonul portocaliu **Reports ⇒ Sheeting BOM**, unde sunt incluse desenele.
+- Le puteți **descărca** sub butonul portocaliu **Rapoarte ⇒ Calcul necesar materiale Învelitoare**, unde sunt incluse și desenele.
 
-- Când sunteți în desenul specific, îl puteți descărca ca PDF folosind un buton cu cameră și apoi îl puteți imprima în PDF
+- Atunci când sunteți în desenul respectiv, îl puteți descărca ca PDF folosind un buton sub forma unei camere foto și apoi îl puteți tipări în PDF.
 
-⚠️ ***Notă:** Anumite funcții precum butoanele **Control** și **Edit** sunt accesibile doar în **modul Advanced**. Consultați [**ghidul Settings**](13_settings.md)* *pentru instrucțiuni despre deblocarea tuturor funcționalităților.*
+⚠️ ***Notă:** Anumite funcții precum **Control** și **Editare** sunt accesibile doar în **Modul Avansat**. Consultați [**Ghidul setărilor**](13_settings.md)* *pentru instrucțiuni privind deblocarea tuturor funcțiilor.*
 
-![Editarea desenului](img/buttonsdrawings2.png)
+![Editing drawing](img/buttonsdrawings2.png)
 
-**👉 Înapoi la articol  [*Cum să lucrați cu meniul Sheeting*](8_sheeting_menu.md)**
+**👉 Înapoi la articolul  [*Cum să folosești meniul Învelitoare*](8_sheeting_menu.md)**
 
-**👉 [*Reveniți la articolul principal*](index.md)**
+**👉 [*Întoarcere la articolul principal*](index.md)**
