@@ -40,6 +40,7 @@ nav:
   - "Úvod": index.md 
 
   - "Střechy":
+    - cad/getting-started-roofs/index.md
     - cad/getting-started-roofs/1_new_project.md
     - cad/getting-started-roofs/2_start_with_template.md
     - cad/getting-started-roofs/3_generate_from_DXF.md
@@ -56,6 +57,8 @@ nav:
     - cad/getting-started-roofs/14_generate_from_outline.md
     - cad/getting-started-roofs/15_insert_DXF.md
     - cad/getting-started-roofs/16_tiling_adjustment.md
+    - cad/getting-started-roofs/17_roofFlashingGenerator.md
+    - cad/getting-started-roofs/18_customisationProject.md
 
   - "Zpět na HiStruct": https://www.histruct.com
 
